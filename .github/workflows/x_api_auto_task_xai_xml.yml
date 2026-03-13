@@ -1,4 +1,4 @@
-name: Silicon Valley Daily Report (xAI v7.1)
+name: Silicon Valley Daily Report (xAI v7.7)
 
 on:
   # 每天定时执行 (UTC时间 00:00，对应北京时间早上 08:00)
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       test_mode:
-        description: '开启测试模式 (只扫前 10 人，省 API 额度)'
+        description: '开启测试模式 (只扫极少数人，用于快速验证)'
         required: false
         type: boolean
         default: false
@@ -28,31 +28,32 @@ jobs:
           python-version: '3.10'
           
       - name: Install Dependencies
-        # 🚨 必须安装官方的 xai-sdk 以及 requests
         run: |
           python -m pip install --upgrade pip
           pip install requests xai-sdk
           
       - name: Run Auto Task Script
         env:
-          # 🚨 核心映射：将你的 Secret 传给全大写的 XAI_API_KEY，SDK 会自动读取它
           XAI_API_KEY: ${{ secrets.xAI_API_KEY }}
-          TWTAPI_KEY: ${{ secrets.TWTAPI_KEY }}
           SF_API_KEY: ${{ secrets.SF_API_KEY }}
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
-          
-          # 推送 Webhooks
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           JIJYUN_WEBHOOK_URL: ${{ secrets.JIJYUN_WEBHOOK_URL }}
-          
-          # 手动触发时传入的测试参数
           TEST_MODE_ENV: ${{ github.event.inputs.test_mode }}
+          
+          # 🚨 智能密钥池：主号 + 新增的小号2
+          TWTAPI_KEY: ${{ secrets.TWTAPI_KEY }}
+          TWTAPI_KEY_2: ${{ secrets.TWTAPI_KEY_2 }}
+          
+          # 如果你以后加了第3个、第4个号，只需要在 GitHub Secrets 里建好，然后像下面这样加两行就行：
+          # TWTAPI_KEY_3: ${{ secrets.TWTAPI_KEY_3 }}
+          # TWTAPI_KEY_4: ${{ secrets.TWTAPI_KEY_4 }}
           
         run: |
           # 请确保这里的脚本名字和你仓库里的 Python 文件名完全一致！
           python x_api_auto_task_xai_xml.py
 
-      # 将每天抓取到的数据打包保存下来，方便日后查阅原始推文
+      # 将每天抓取到的数据打包保存下来，方便日后查阅和复盘
       - name: Upload Data Artifact
         if: always()
         uses: actions/upload-artifact@v4
