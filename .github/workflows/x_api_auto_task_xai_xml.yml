@@ -1,11 +1,11 @@
-name: Silicon Valley Daily Report (xAI v7)
+name: Silicon Valley Daily Report (xAI v7.1)
 
 on:
   # 每天定时执行 (UTC时间 00:00，对应北京时间早上 08:00)
   schedule:
     - cron: '0 0 * * *'
   
-  # 允许在 GitHub Actions 页面手动点击运行，支持传参
+  # 允许在 GitHub Actions 页面手动点击运行，并支持传入测试参数
   workflow_dispatch:
     inputs:
       test_mode:
@@ -28,15 +28,15 @@ jobs:
           python-version: '3.10'
           
       - name: Install Dependencies
-        # 🚀 史诗级减负：移除了 playwright，只需 requests
+        # 🚨 必须安装官方的 xai-sdk 以及 requests
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests xai-sdk
           
       - name: Run Auto Task Script
         env:
-          # 核心 API Keys
-          xAI_API_KEY: ${{ secrets.xAI_API_KEY }}
+          # 🚨 核心映射：将你的 Secret 传给全大写的 XAI_API_KEY，SDK 会自动读取它
+          XAI_API_KEY: ${{ secrets.xAI_API_KEY }}
           TWTAPI_KEY: ${{ secrets.TWTAPI_KEY }}
           SF_API_KEY: ${{ secrets.SF_API_KEY }}
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
@@ -45,14 +45,14 @@ jobs:
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           JIJYUN_WEBHOOK_URL: ${{ secrets.JIJYUN_WEBHOOK_URL }}
           
-          # 接收面板传来的测试开关
+          # 手动触发时传入的测试参数
           TEST_MODE_ENV: ${{ github.event.inputs.test_mode }}
           
         run: |
-          # 请确保此处文件名与你仓库中的 Python 文件名完全一致
+          # 请确保这里的脚本名字和你仓库里的 Python 文件名完全一致！
           python x_api_auto_task_xai_xml.py
 
-      # 将生成的 data/ 文件夹打包存档，方便复盘数据
+      # 将每天抓取到的数据打包保存下来，方便日后查阅原始推文
       - name: Upload Data Artifact
         if: always()
         uses: actions/upload-artifact@v4
