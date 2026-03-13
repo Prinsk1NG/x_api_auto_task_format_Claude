@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v7.3 (双模态主题结构 + 动态Emoji + 保留黑话梗)
+x_api_auto_task_xai_xml.py  v7.4 (终极防爆破：翻译铁律 + 中文标点容错)
 Architecture: Expert & Global Track -> RapidAPI -> xAI SDK Synthesis -> Clean UI Rendering
 """
 
@@ -244,33 +244,31 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str) -> str:
 【重要纪律】
 1. 禁止输出任何 Markdown 排版符号（如 #, *, >, -）。
 2. 只允许输出纯文本内容，并严格按照以下 XML 标签结构填入信息。不要缺漏闭合标签。
-3. 语气要直白、干脆。Title（头衔/身份）和名字绝对不要翻译为中文，保持纯英文。
-4. 推文翻译要求：请【务必保留】原汁原味的英文梗、黑话（如 "poached", "INCOMING", "R-rated" 等）和专有名词，其余部分翻译为流畅的中文。消除机翻感！
+3. Title（头衔/身份）绝对不要翻译，保持纯英文。
+4. 🚨【翻译铁律】所有的 <TWEET> 标签内容，【必须以中文为主体】！绝对禁止直接复制粘贴纯英文段落！为了保留内行风味，你可以不翻译特定的英文黑话、梗或专有名词（如 "poached", "R-rated" 等），但句子的骨架和整体含义必须翻译为流畅的中文！
 
 【输出结构规范】
 <REPORT>
   <COVER title="5-10字中文爆款标题" prompt="100字英文图生图提示词，赛博朋克风" insight="30字内核心洞察，中文"/>
-  
   <PULSE>用一句话总结今日最核心的 1-2 个行业动态信号。</PULSE>
   
   <THEMES>
     <THEME type="shift" emoji="⚔️" title="主题标题：副标题">
-      <NARRATIVE>一句话核心判断（直接输出观点文本，绝对不要带“叙事转向：”等前缀）</NARRATIVE>
-      <TWEET account="X账号名(不带@)" role="英文身份标签">具体行为与观点提炼（保留黑话）</TWEET>
+      <NARRATIVE>一句话核心判断（直接输出观点文本，不要带前缀）</NARRATIVE>
+      <TWEET account="X账号名" role="英文身份标签">【严禁纯英文】以中文为主翻译原文观点，可夹杂少量英文黑话</TWEET>
       <TWEET account="..." role="...">...</TWEET>
-      <CONSENSUS>核心共识的纯文本描述（直接输出观点，绝对不要带“核心共识：”前缀）</CONSENSUS>
-      <DIVERGENCE>最大分歧的纯文本描述（直接输出观点，绝对不要带“最大分歧：”前缀）</DIVERGENCE>
+      <CONSENSUS>核心共识的纯文本描述（直接输出观点，不要带前缀）</CONSENSUS>
+      <DIVERGENCE>最大分歧的纯文本描述（直接输出观点，不要带前缀）</DIVERGENCE>
     </THEME>
 
     <THEME type="new" emoji="🌱" title="主题标题：副标题">
-      <NARRATIVE>一句话新物种或新趋势定义（直接输出观点文本，绝对不要带任何前缀）</NARRATIVE>
-      <TWEET account="X账号名" role="英文身份标签">具体行为与观点提炼（保留黑话）</TWEET>
+      <NARRATIVE>一句话新趋势定义（直接输出观点文本，不要带前缀）</NARRATIVE>
+      <TWEET account="X账号名" role="英文身份标签">【严禁纯英文】以中文为主翻译原文观点，可夹杂少量英文黑话</TWEET>
       <TWEET account="..." role="...">...</TWEET>
       <OUTLOOK>对该新叙事的深度解读与未来展望</OUTLOOK>
-      <OPPORTUNITY>可能带来的商业变现或出海机会</OPPORTUNITY>
-      <RISK>参与该叙事需要警惕的陷阱或风险</RISK>
+      <OPPORTUNITY>可能带来的机会</OPPORTUNITY>
+      <RISK>警惕的陷阱或风险</RISK>
     </THEME>
-    
   </THEMES>
 
   <INVESTMENT_RADAR>
@@ -284,13 +282,12 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str) -> str:
   </RISK_CHINA_VIEW>
 
   <TOP_PICKS>
-    <TWEET account="..." role="...">保留英文黑话、极具表现力的翻译内容</TWEET>
+    <TWEET account="..." role="...">【严禁纯英文】流畅中文精译，保留关键英文梗增强表现力</TWEET>
   </TOP_PICKS>
 </REPORT>
 
 # 原始数据输入 (JSONL):
 {combined_jsonl}
-
 # 日期: {today_str}
 """
 
@@ -312,7 +309,7 @@ def llm_call_xai(combined_jsonl: str, today_str: str) -> str:
     for attempt in range(1, 4):
         try:
             chat = client.chat.create(model=model_name)
-            chat.append(system("You are a professional analytical bot. You strictly output in XML format as instructed, without any markdown backticks."))
+            chat.append(system("You are a professional analytical bot. You strictly output in XML format as instructed. Do not ignore the translation rules."))
             chat.append(user(prompt))
             
             result = chat.sample().content.strip()
@@ -328,39 +325,49 @@ def parse_llm_xml(xml_text: str) -> dict:
     data = {"cover": {"title": "", "prompt": "", "insight": ""}, "pulse": "", "themes": [], "investment_radar": [], "risk_china_view": [], "top_picks": []}
     if not xml_text: return data
 
-    cover_match = re.search(r'<COVER\s+title="(.*?)"\s+prompt="(.*?)"\s+insight="(.*?)"\s*/?>', xml_text, re.IGNORECASE | re.DOTALL)
-    if cover_match: data["cover"] = {"title": cover_match.group(1).strip(), "prompt": cover_match.group(2).strip(), "insight": cover_match.group(3).strip()}
+    cover_match = re.search(r'<COVER\s+title=[\'"“”](.*?)[\'"“”]\s+prompt=[\'"“”](.*?)[\'"“”]\s+insight=[\'"“”](.*?)[\'"“”]\s*/?>', xml_text, re.IGNORECASE | re.DOTALL)
+    if not cover_match:
+        cover_match = re.search(r'<COVER\s+title="(.*?)"\s+prompt="(.*?)"\s+insight="(.*?)"\s*/?>', xml_text, re.IGNORECASE | re.DOTALL)
+    if cover_match: 
+        data["cover"] = {"title": cover_match.group(1).strip(), "prompt": cover_match.group(2).strip(), "insight": cover_match.group(3).strip()}
         
     pulse_match = re.search(r'<PULSE>(.*?)</PULSE>', xml_text, re.IGNORECASE | re.DOTALL)
     if pulse_match: data["pulse"] = pulse_match.group(1).strip()
         
-    # 提取 THEME，包含 type 和 emoji 属性
+    # 🚨 终极防爆破：兼容中文全角引号和半角单引号的属性解析
     for theme_match in re.finditer(r'<THEME([^>]*)>(.*?)</THEME>', xml_text, re.IGNORECASE | re.DOTALL):
         attrs = theme_match.group(1)
         theme_body = theme_match.group(2)
         
-        type_m = re.search(r'type="(.*?)"', attrs, re.IGNORECASE)
-        title_m = re.search(r'title="(.*?)"', attrs, re.IGNORECASE)
-        emoji_m = re.search(r'emoji="(.*?)"', attrs, re.IGNORECASE)
+        type_m = re.search(r'type=[\'"“”](.*?)[\'"“”]', attrs, re.IGNORECASE)
+        title_m = re.search(r'title=[\'"“”](.*?)[\'"“”]', attrs, re.IGNORECASE)
+        emoji_m = re.search(r'emoji=[\'"“”](.*?)[\'"“”]', attrs, re.IGNORECASE)
         
         theme_type = type_m.group(1).strip().lower() if type_m else "shift"
-        theme_title = title_m.group(1).strip() if title_m else "未命名主题"
+        theme_title = title_m.group(1).strip() if title_m else ""
         emoji = emoji_m.group(1).strip() if emoji_m else "🔥"
         
+        # 兜底机制：如果大模型漏写了 title 属性，试图去标签内部找 <TITLE>
+        if not theme_title:
+            t_tag = re.search(r'<TITLE>(.*?)</TITLE>', theme_body, re.IGNORECASE | re.DOTALL)
+            theme_title = t_tag.group(1).strip() if t_tag else "未命名主题"
+            
         narrative_match = re.search(r'<NARRATIVE>(.*?)</NARRATIVE>', theme_body, re.IGNORECASE | re.DOTALL)
         narrative = narrative_match.group(1).strip() if narrative_match else ""
         
         tweets = []
-        for t_match in re.finditer(r'<TWEET\s+account="(.*?)"\s+role="(.*?)">(.*?)</TWEET>', theme_body, re.IGNORECASE | re.DOTALL):
+        for t_match in re.finditer(r'<TWEET\s+account=[\'"“”](.*?)[\'"“”]\s+role=[\'"“”](.*?)[\'"“”]>(.*?)</TWEET>', theme_body, re.IGNORECASE | re.DOTALL):
             tweets.append({"account": t_match.group(1).strip(), "role": t_match.group(2).strip(), "content": t_match.group(3).strip()})
+        # 兼容旧格式的TWEET匹配
+        if not tweets:
+            for t_match in re.finditer(r'<TWEET\s+account="(.*?)"\s+role="(.*?)">(.*?)</TWEET>', theme_body, re.IGNORECASE | re.DOTALL):
+                tweets.append({"account": t_match.group(1).strip(), "role": t_match.group(2).strip(), "content": t_match.group(3).strip()})
         
-        # 提取模式A独有字段
         con_match = re.search(r'<CONSENSUS>(.*?)</CONSENSUS>', theme_body, re.IGNORECASE | re.DOTALL)
         consensus = con_match.group(1).strip() if con_match else ""
         div_match = re.search(r'<DIVERGENCE>(.*?)</DIVERGENCE>', theme_body, re.IGNORECASE | re.DOTALL)
         divergence = div_match.group(1).strip() if div_match else ""
         
-        # 提取模式B独有字段
         out_match = re.search(r'<OUTLOOK>(.*?)</OUTLOOK>', theme_body, re.IGNORECASE | re.DOTALL)
         outlook = out_match.group(1).strip() if out_match else ""
         opp_match = re.search(r'<OPPORTUNITY>(.*?)</OPPORTUNITY>', theme_body, re.IGNORECASE | re.DOTALL)
@@ -377,7 +384,7 @@ def parse_llm_xml(xml_text: str) -> dict:
     def extract_items(tag_name, target_list):
         block_match = re.search(rf'<{tag_name}>(.*?)</{tag_name}>', xml_text, re.IGNORECASE | re.DOTALL)
         if block_match:
-            for item in re.finditer(r'<ITEM\s+category="(.*?)">(.*?)</ITEM>', block_match.group(1), re.IGNORECASE | re.DOTALL):
+            for item in re.finditer(r'<ITEM\s+category=[\'"“”](.*?)[\'"“”]>(.*?)</ITEM>', block_match.group(1), re.IGNORECASE | re.DOTALL):
                 target_list.append({"category": item.group(1).strip(), "content": item.group(2).strip()})
 
     extract_items("INVESTMENT_RADAR", data["investment_radar"])
@@ -385,7 +392,7 @@ def parse_llm_xml(xml_text: str) -> dict:
 
     picks_match = re.search(r'<TOP_PICKS>(.*?)</TOP_PICKS>', xml_text, re.IGNORECASE | re.DOTALL)
     if picks_match:
-        for t_match in re.finditer(r'<TWEET\s+account="(.*?)"\s+role="(.*?)">(.*?)</TWEET>', picks_match.group(1), re.IGNORECASE | re.DOTALL):
+        for t_match in re.finditer(r'<TWEET\s+account=[\'"“”](.*?)[\'"“”]\s+role=[\'"“”](.*?)[\'"“”]>(.*?)</TWEET>', picks_match.group(1), re.IGNORECASE | re.DOTALL):
             data["top_picks"].append({"account": t_match.group(1).strip(), "role": t_match.group(2).strip(), "content": t_match.group(3).strip()})
             
     return data
@@ -406,14 +413,12 @@ def render_feishu_card(parsed_data: dict, today_str: str):
         for idx, theme in enumerate(parsed_data["themes"]):
             theme_md = f"**{theme['emoji']} {theme['title']}**\n"
             
-            # 判断前缀
             prefix = "🔭 新叙事观察" if theme.get("type") == "new" else "💡 叙事转向"
             theme_md += f"<font color='grey'>{prefix}：{theme['narrative']}</font>\n"
             
             for t in theme["tweets"]:
                 theme_md += f"🗣️ **@{t['account']} | {t['role']}**\n<font color='grey'>“{t['content']}”</font>\n"
             
-            # 动态插入结尾总结块
             if theme.get("type") == "new":
                 if theme.get("outlook"): theme_md += f"<font color='blue'>**🔮 解读与展望：**</font> {theme['outlook']}\n"
                 if theme.get("opportunity"): theme_md += f"<font color='green'>**🎯 潜在机会：**</font> {theme['opportunity']}\n"
@@ -424,7 +429,6 @@ def render_feishu_card(parsed_data: dict, today_str: str):
             
             elements.append({"tag": "markdown", "content": theme_md.strip()})
             
-            # 插入主题区隔符
             if idx < len(parsed_data["themes"]) - 1:
                 elements.append({"tag": "hr"})
                 
@@ -480,7 +484,6 @@ def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
         for idx, theme in enumerate(parsed_data["themes"]):
             html_lines.append(f'<p style="font-weight:bold;font-size:16px;color:#1e293b;margin:16px 0 8px 0;">{theme["emoji"]} {theme["title"]}</p>')
             
-            # 双模态头部
             if theme.get("type") == "new":
                 html_lines.append(f'<div style="background:#f4f8fb; padding:10px 12px; border-radius:6px; margin:0 0 8px 0; font-size:14px; color:#2c3e50;"><strong>🔭 新叙事观察：</strong>{theme["narrative"]}</div>')
             else:
@@ -490,7 +493,6 @@ def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
                 html_lines.append(f'<p style="margin:8px 0 2px 0;font-size:14px;font-weight:bold;color:#2c3e50;">🗣️ @{t["account"]} <span style="color:#94a3b8;font-weight:normal;">| {t["role"]}</span></p>')
                 html_lines.append(make_quote(f'"{t["content"]}"'))
             
-            # 双模态尾部 (新叙事采用彩色强调框)
             if theme.get("type") == "new":
                 if theme.get("outlook"): html_lines.append(f'<p style="margin:6px 0; font-size:15px; line-height:1.6; background:#eef2ff; padding: 8px 12px; border-radius: 4px;"><strong style="color:#4f46e5;">🔮 解读与展望：</strong>{theme["outlook"]}</p>')
                 if theme.get("opportunity"): html_lines.append(f'<p style="margin:6px 0; font-size:15px; line-height:1.6; background:#f0fdf4; padding: 8px 12px; border-radius: 4px;"><strong style="color:#16a34a;">🎯 潜在机会：</strong>{theme["opportunity"]}</p>')
@@ -562,7 +564,7 @@ def save_daily_data(today_str: str, post_objects: list, report_text: str):
 def main():
     print("=" * 60, flush=True)
     mode_str = "测试模式(10人)" if TEST_MODE else "全量模式(100人)"
-    print(f"昨晚硅谷在聊啥 v7.3 (双模态主题+保留黑话 - {mode_str})", flush=True)
+    print(f"昨晚硅谷在聊啥 v7.4 (终极防爆破版 - {mode_str})", flush=True)
     print("=" * 60, flush=True)
 
     today_str, _ = get_dates()
@@ -627,7 +629,7 @@ def main():
                 push_to_jijyun(html_content, title=wechat_title, cover_url=cover_url)
                 
             save_daily_data(today_str, final_feed, xml_result)
-            print("\n🎉 V7.3 运行完毕！", flush=True)
+            print("\n🎉 V7.4 运行完毕！", flush=True)
         else:
             print("❌ LLM 处理失败，任务终止。")
 
