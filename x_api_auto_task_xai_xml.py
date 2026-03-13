@@ -253,7 +253,8 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str) -> str:
   <PULSE>用一句话总结今日最核心的 1-2 个行业动态信号。</PULSE>
   
   <THEMES>
-    <THEME type="shift" emoji="⚔️" title="主题标题：副标题">
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>主题标题：副标题</TITLE>
       <NARRATIVE>一句话核心判断（直接输出观点文本，不要带前缀）</NARRATIVE>
       <TWEET account="X账号名" role="英文身份标签">【严禁纯英文】以中文为主翻译原文观点，可夹杂少量英文黑话</TWEET>
       <TWEET account="..." role="...">...</TWEET>
@@ -261,7 +262,8 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str) -> str:
       <DIVERGENCE>最大分歧的纯文本描述（直接输出观点，不要带前缀）</DIVERGENCE>
     </THEME>
 
-    <THEME type="new" emoji="🌱" title="主题标题：副标题">
+    <THEME type="new" emoji="🌱">
+      <TITLE>主题标题：副标题</TITLE>
       <NARRATIVE>一句话新趋势定义（直接输出观点文本，不要带前缀）</NARRATIVE>
       <TWEET account="X账号名" role="英文身份标签">【严禁纯英文】以中文为主翻译原文观点，可夹杂少量英文黑话</TWEET>
       <TWEET account="..." role="...">...</TWEET>
@@ -334,23 +336,24 @@ def parse_llm_xml(xml_text: str) -> dict:
     pulse_match = re.search(r'<PULSE>(.*?)</PULSE>', xml_text, re.IGNORECASE | re.DOTALL)
     if pulse_match: data["pulse"] = pulse_match.group(1).strip()
         
-    # 🚨 终极防爆破：兼容中文全角引号和半角单引号的属性解析
     for theme_match in re.finditer(r'<THEME([^>]*)>(.*?)</THEME>', xml_text, re.IGNORECASE | re.DOTALL):
         attrs = theme_match.group(1)
         theme_body = theme_match.group(2)
         
-        type_m = re.search(r'type=[\'"“”](.*?)[\'"“”]', attrs, re.IGNORECASE)
-        title_m = re.search(r'title=[\'"“”](.*?)[\'"“”]', attrs, re.IGNORECASE)
-        emoji_m = re.search(r'emoji=[\'"“”](.*?)[\'"“”]', attrs, re.IGNORECASE)
+        type_m = re.search(r'type\s*=\s*[\'"“”](.*?)[\'"“”]', attrs, re.IGNORECASE)
+        emoji_m = re.search(r'emoji\s*=\s*[\'"“”](.*?)[\'"“”]', attrs, re.IGNORECASE)
         
         theme_type = type_m.group(1).strip().lower() if type_m else "shift"
-        theme_title = title_m.group(1).strip() if title_m else ""
         emoji = emoji_m.group(1).strip() if emoji_m else "🔥"
         
-        # 兜底机制：如果大模型漏写了 title 属性，试图去标签内部找 <TITLE>
+        # 🚨 核心修复：优先从 <TITLE> 标签中安全提取标题
+        t_tag = re.search(r'<TITLE>(.*?)</TITLE>', theme_body, re.IGNORECASE | re.DOTALL)
+        theme_title = t_tag.group(1).strip() if t_tag else ""
+        
+        # 兜底机制：如果大模型还是犯病把标题写在了属性里
         if not theme_title:
-            t_tag = re.search(r'<TITLE>(.*?)</TITLE>', theme_body, re.IGNORECASE | re.DOTALL)
-            theme_title = t_tag.group(1).strip() if t_tag else "未命名主题"
+            title_m = re.search(r'title\s*=\s*[\'"“”](.*?)[\'"“”]', attrs, re.IGNORECASE)
+            theme_title = title_m.group(1).strip() if title_m else "未命名主题"
             
         narrative_match = re.search(r'<NARRATIVE>(.*?)</NARRATIVE>', theme_body, re.IGNORECASE | re.DOTALL)
         narrative = narrative_match.group(1).strip() if narrative_match else ""
@@ -358,7 +361,6 @@ def parse_llm_xml(xml_text: str) -> dict:
         tweets = []
         for t_match in re.finditer(r'<TWEET\s+account=[\'"“”](.*?)[\'"“”]\s+role=[\'"“”](.*?)[\'"“”]>(.*?)</TWEET>', theme_body, re.IGNORECASE | re.DOTALL):
             tweets.append({"account": t_match.group(1).strip(), "role": t_match.group(2).strip(), "content": t_match.group(3).strip()})
-        # 兼容旧格式的TWEET匹配
         if not tweets:
             for t_match in re.finditer(r'<TWEET\s+account="(.*?)"\s+role="(.*?)">(.*?)</TWEET>', theme_body, re.IGNORECASE | re.DOTALL):
                 tweets.append({"account": t_match.group(1).strip(), "role": t_match.group(2).strip(), "content": t_match.group(3).strip()})
