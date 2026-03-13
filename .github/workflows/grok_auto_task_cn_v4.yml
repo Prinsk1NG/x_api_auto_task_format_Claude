@@ -1,20 +1,15 @@
-name: Grok Daily Report (xAI v4)
+name: Silicon Valley Daily Report (xAI v7)
 
 on:
   # 每天定时执行 (UTC时间 00:00，对应北京时间早上 08:00)
   schedule:
     - cron: '0 0 * * *'
   
-  # 允许在 GitHub Actions 页面手动点击运行，并支持传入测试参数
+  # 允许在 GitHub Actions 页面手动点击运行，支持传参
   workflow_dispatch:
     inputs:
       test_mode:
-        description: '开启测试模式 (只跑第一批次 14 个账号)'
-        required: false
-        type: boolean
-        default: false
-      test_mode_no_push:
-        description: '测试模式下：不推送到飞书和微信 (防止打扰)'
+        description: '开启测试模式 (只扫前 10 人，省 API 额度)'
         required: false
         type: boolean
         default: false
@@ -33,42 +28,35 @@ jobs:
           python-version: '3.10'
           
       - name: Install Dependencies
+        # 🚀 史诗级减负：移除了 playwright，只需 requests
         run: |
           python -m pip install --upgrade pip
-          pip install requests playwright pynacl
-          
-      - name: Install Playwright Chromium
-        run: |
-          playwright install chromium
+          pip install requests
           
       - name: Run Auto Task Script
         env:
           # 核心 API Keys
           xAI_API_KEY: ${{ secrets.xAI_API_KEY }}
+          TWTAPI_KEY: ${{ secrets.TWTAPI_KEY }}
           SF_API_KEY: ${{ secrets.SF_API_KEY }}
-          
-          # Grok Session 与自动更新所需的 Token
-          SUPER_GROK_COOKIES: ${{ secrets.SUPER_GROK_COOKIES }}
-          PAT_FOR_SECRETS: ${{ secrets.PAT_FOR_SECRETS }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
+          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           
           # 推送 Webhooks
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           JIJYUN_WEBHOOK_URL: ${{ secrets.JIJYUN_WEBHOOK_URL }}
           
-          # 手动触发时传入的测试参数 (定时任务时为空)
-          TEST_MODE: ${{ github.event.inputs.test_mode == 'true' && '1' || '' }}
-          TEST_MODE_NO_PUSH: ${{ github.event.inputs.test_mode_no_push == 'true' && '1' || '' }}
+          # 接收面板传来的测试开关
+          TEST_MODE_ENV: ${{ github.event.inputs.test_mode }}
           
         run: |
-          # 请确保这里的脚本名字和你仓库里的 Python 文件名一致
-          python grok_auto_task_cn_v4.py
+          # 请确保此处文件名与你仓库中的 Python 文件名完全一致
+          python x_api_auto_task_xai_xml.py
 
-      # (可选) 将每天抓取到的数据作为 Artifact 保存下来，方便你以后做数据分析或排错
+      # 将生成的 data/ 文件夹打包存档，方便复盘数据
       - name: Upload Data Artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: daily-data
-          path: data_cn/
+          path: data/
           retention-days: 7
