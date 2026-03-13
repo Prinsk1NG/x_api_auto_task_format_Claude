@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v7.7 (三池隔离 + 智能密钥轮换防封版)
+x_api_auto_task_xai_xml.py  v7.7 (三池隔离 + 智能密钥轮换防封版 + 终极防爆破XML解析)
 Architecture: Whales/Experts/Global Track -> Key Pool -> RapidAPI -> xAI SDK -> Clean UI
 """
 
@@ -200,7 +200,7 @@ def fetch_user_tweets(accounts: list, chunk_size: int, label: str) -> list:
         current_key = get_random_twt_key()
         headers = {"x-rapidapi-key": current_key, "x-rapidapi-host": RAPIDAPI_HOST}
         
-        print(f"\n⏳ [{label}扫盘] 第 {i}/{len(chunks)} 批账号 (密钥尾号: ...{current_key[-4:]})...", flush=True)
+        print(f"\n⏳ [{label}扫盘] 第 {i}/{len(chunks)} 批账号 (chunk={chunk_size}, 密钥尾号: ...{current_key[-4:]})...", flush=True)
         query = " OR ".join([f"from:{acc}" for acc in chunk])
         params = {"query": f"({query}) since:{yesterday} -is:retweet", "type": "Latest", "count": "40"}
         
@@ -388,6 +388,7 @@ def parse_llm_xml(xml_text: str) -> dict:
     pulse_match = re.search(r'<PULSE>(.*?)</PULSE>', xml_text, re.IGNORECASE | re.DOTALL)
     if pulse_match: data["pulse"] = pulse_match.group(1).strip()
         
+    # 🚨 终极防爆破：兼容中文全角引号和半角单引号的属性解析
     for theme_match in re.finditer(r'<THEME([^>]*)>(.*?)</THEME>', xml_text, re.IGNORECASE | re.DOTALL):
         attrs = theme_match.group(1)
         theme_body = theme_match.group(2)
@@ -398,9 +399,11 @@ def parse_llm_xml(xml_text: str) -> dict:
         theme_type = type_m.group(1).strip().lower() if type_m else "shift"
         emoji = emoji_m.group(1).strip() if emoji_m else "🔥"
         
+        # 🚨 核心修复：优先从 <TITLE> 标签中安全提取标题
         t_tag = re.search(r'<TITLE>(.*?)</TITLE>', theme_body, re.IGNORECASE | re.DOTALL)
         theme_title = t_tag.group(1).strip() if t_tag else ""
         
+        # 兜底机制：如果大模型还是犯病把标题写在了属性里
         if not theme_title:
             title_m = re.search(r'title\s*=\s*[\'"“”](.*?)[\'"“”]', attrs, re.IGNORECASE)
             theme_title = title_m.group(1).strip() if title_m else "未命名主题"
@@ -450,7 +453,7 @@ def parse_llm_xml(xml_text: str) -> dict:
     return data
 
 # ==============================================================================
-# 🚀 第三阶段：结构化渲染引擎
+# 🚀 第三阶段：结构化渲染引擎 (双模态自适应)
 # ==============================================================================
 def render_feishu_card(parsed_data: dict, today_str: str):
     webhooks = get_feishu_webhooks()
@@ -616,7 +619,7 @@ def save_daily_data(today_str: str, post_objects: list, report_text: str):
 def main():
     print("=" * 60, flush=True)
     mode_str = "测试模式" if TEST_MODE else "全量模式"
-    print(f"昨晚硅谷在聊啥 v7.7 (三池分流 + 智能密钥轮换版 - {mode_str})", flush=True)
+    print(f"昨晚硅谷在聊啥 v7.7 (三池分流隔离 + 智能轮换版 - {mode_str})", flush=True)
     print("=" * 60, flush=True)
     print(f"🔑 成功装载 {len(TWT_KEYS)} 把 RapidAPI 密钥，准备进入轮换并发", flush=True)
 
