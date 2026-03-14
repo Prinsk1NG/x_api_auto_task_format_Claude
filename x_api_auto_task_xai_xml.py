@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v7.9 (多源融合终极版: 微信极简排版 + API轮换池)
+x_api_auto_task_xai_xml.py  v8.0 (多源融合终极版: 增加全网热点扫描 + 微信极简排版 + API轮换池)
 Architecture: Multi-Source Tracking (TWT+PPLX+Tavily) -> xAI SDK (XML) -> Feishu/WeChat
 """
 
@@ -140,25 +140,23 @@ def safe_int(val):
         return 0
 
 # ==============================================================================
-# 🚀 外部情报检索：Perplexity & Tavily 融合引擎
+# 🚀 外部情报检索：Perplexity & Tavily 融合引擎 (增加全网热点扫描)
 # ==============================================================================
 def fetch_macro_with_perplexity() -> str:
-    """使用 Perplexity 获取宏观与新物种情报（纯 requests，无额外依赖）"""
+    """使用 Perplexity 获取宏观、新物种及全网突发热点情报"""
     if not PPLX_API_KEY:
         print("⚠️ 未配置 PPLX_API_KEY，跳过 Perplexity 宏观检索", flush=True)
         return ""
         
-    print("\n🕵️ [宏观新闻官] 正在呼叫 Perplexity 扫描全球 AI 头条与新物种...", flush=True)
+    print("\n🕵️ [宏观新闻官] 正在呼叫 Perplexity 扫描全球 AI 头条与全网热点...", flush=True)
     try:
         prompt = """
         你是顶级 AI 行业分析师。请检索过去 24 小时内全网最重要的 AI 动态。
         🚨 最高指令：所有信息必须 100% 强关联 AI（人工智能）领域。绝对禁止输出任何普通社会新闻、犯罪或无关的政治大选事件！
         重点关注：
         1. 💰 资本与宏观：AI领域的重磅投融资、并购。
-        2. 🎁 搞钱新物种：
-           - GitHub 上最新开源的 AI 项目。
-           - 最新发布的奇葩或前沿 AI 软硬件产品。
-           - 最新爆出的热门 AI 硬件众筹产品。
+        2. 🎁 搞钱新物种：最新开源的 AI 项目、前沿 AI 软硬件产品、热门 AI 众筹产品。
+        3. 🌐 全网突发热点：过去24小时内，除了已知大佬发言外，全网正在热烈讨论的 AI 突发事件、黑马产品、技术突破或重大争议。
         要求：必须带上具体的媒体来源，绝对禁止将 "Perplexity" 作为信息来源。
         """
         
@@ -186,7 +184,7 @@ def fetch_macro_with_perplexity() -> str:
 def fetch_leaders_with_tavily(accounts: list) -> str:
     """使用 Tavily 对领袖名单进行新闻聚合扫描 (支持轮换Key)"""
     if not TAVILY_KEYS:
-        print("⚠️ 未配置 TAVILY_API_KEY，跳过 Tavily 矩阵检索", flush=True)
+        print("⚠️ 未配置 TAVILY_API_KEY，跳过 Tavily 领袖动态检索", flush=True)
         return ""
         
     track_list = accounts[:45]
@@ -201,9 +199,8 @@ def fetch_leaders_with_tavily(accounts: list) -> str:
     aggregated_context = ""
 
     for i, chunk in enumerate(leader_chunks, 1):
-        # 🚨 动态抽取 Tavily Key
         current_tk = get_random_tavily_key()
-        print(f"  🔎 扫描第 {i}/{total_chunks} 组 (Tavily Key尾号: ...{current_tk[-4:]})...", flush=True)
+        print(f"  🔎 扫描领袖第 {i}/{total_chunks} 组 (Tavily Key尾号: ...{current_tk[-4:]})...", flush=True)
         try:
             payload = {
                 "api_key": current_tk,
@@ -216,7 +213,7 @@ def fetch_leaders_with_tavily(accounts: list) -> str:
             response = requests.post(url, json=payload, headers=headers, timeout=45)
             if response.status_code == 200:
                 data = response.json()
-                aggregated_context += f"\n\n### [第 {i} 组外部情报]\n" + data.get("answer", "")
+                aggregated_context += f"\n\n### [第 {i} 组大佬外部情报]\n" + data.get("answer", "")
                 for result in data.get("results", [])[:3]:
                     aggregated_context += f"\n- [{result['title']}]({result['url']}): {result['content']}"
             else:
@@ -226,7 +223,41 @@ def fetch_leaders_with_tavily(accounts: list) -> str:
         time.sleep(1.5) 
 
     if aggregated_context:
-        print(f"  ✅ Tavily 矩阵检索完毕，获取高密度情报 {len(aggregated_context)} 字符。", flush=True)
+        print(f"  ✅ Tavily 领袖矩阵检索完毕，获取情报 {len(aggregated_context)} 字符。", flush=True)
+    return aggregated_context
+
+def fetch_global_news_with_tavily() -> str:
+    """🚨 新增：使用 Tavily 检索全网 AI 突发热点（不局限于特定账号）"""
+    if not TAVILY_KEYS: return ""
+    
+    print(f"\n🌍 [全网雷达] 正在使用 Tavily 扫描全球 AI 突发热点...", flush=True)
+    current_tk = get_random_tavily_key()
+    url = "https://api.tavily.com/search"
+    headers = {"Content-Type": "application/json"}
+    
+    payload = {
+        "api_key": current_tk,
+        "query": "Most important AI technology news, LLM breakthroughs, AI startup announcements, and trending AI discussions globally in the last 24 hours",
+        "search_depth": "advanced",
+        "topic": "news",
+        "days": 1,
+        "include_answer": True
+    }
+    
+    aggregated_context = ""
+    try:
+        response = requests.post(url, json=payload, headers=headers, timeout=45)
+        if response.status_code == 200:
+            data = response.json()
+            aggregated_context += f"### [Tavily 全网突发热点]\n" + data.get("answer", "")
+            for result in data.get("results", [])[:5]:
+                aggregated_context += f"\n- [{result['title']}]({result['url']}): {result['content']}"
+            print("  ✅ Tavily 全网热点扫描完毕。", flush=True)
+        else:
+            print(f"  ⚠️ Tavily 全网热点检索失败: HTTP {response.status_code}", flush=True)
+    except Exception as e:
+        print(f"  ❌ Tavily 全网热点抛出异常: {e}", flush=True)
+        
     return aggregated_context
 
 
@@ -334,7 +365,7 @@ def fetch_global_hot_tweets() -> list:
     yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
     all_tweets = []
     
-    print(f"\n📡 [全网探测] 启动策略扫描全球突发热点...", flush=True)
+    print(f"\n📡 [X平台热点] 启动策略扫描 X 平台全球突发热点...", flush=True)
     grok_queries = [
         f'(AI OR "artificial intelligence" OR LLM OR OpenAI OR xAI OR Grok OR Anthropic OR DeepMind OR Claude) since:{yesterday} min_faves:50 -is:retweet',
         f'(AI OR LLM) (release OR launch OR breakthrough OR update) since:{yesterday} min_faves:30 (filter:links OR filter:media) -is:retweet'
@@ -381,7 +412,7 @@ def fetch_top_comments(tweet_id: str) -> list:
 def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavily_info: str) -> str:
     return f"""
 你是一位顶级的 AI 行业一级市场投资分析师。
-请结合提供的【多源情报】，提炼出有投资和实操价值的洞察，用犀利、专业的中文进行总结。
+请结合提供的【多源情报】（包含X平台一手动态、外媒报道、全网热点），提炼出有投资和实操价值的洞察，用犀利、专业的中文进行总结。
 
 【重要纪律】
 1. 禁止输出任何 Markdown 排版符号（如 #, *, >, -）。
@@ -433,7 +464,7 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 # 外部宏观情报与新物种 (Perplexity):
 {macro_info if macro_info else "未获取到宏观数据"}
 
-# 外部领袖动态补充 (Tavily):
+# 外部领袖动态补充与全网热点 (Tavily):
 {tavily_info if tavily_info else "未获取到补充数据"}
 
 # X平台一手原始数据输入 (RapidAPI JSONL):
@@ -724,7 +755,7 @@ def save_daily_data(today_str: str, post_objects: list, report_text: str):
 def main():
     print("=" * 60, flush=True)
     mode_str = "测试模式" if TEST_MODE else "全量模式"
-    print(f"昨晚硅谷在聊啥 v7.9 (多源融合终极版: 微信极简排版 + API轮换池 - {mode_str})", flush=True)
+    print(f"昨晚硅谷在聊啥 v8.0 (多源融合终极版: 增加全网热点扫描 + 微信极简排版 + API轮换池 - {mode_str})", flush=True)
     print("=" * 60, flush=True)
     print(f"🔑 成功装载 {len(TWT_KEYS)} 把 RapidAPI 密钥", flush=True)
     print(f"🔑 成功装载 {len(TAVILY_KEYS)} 把 Tavily 检索密钥", flush=True)
@@ -738,7 +769,7 @@ def main():
     # 🚨 第 2 步：定向抓取专家池
     all_raw_tweets.extend(fetch_user_tweets(EXPERT_ACCOUNTS, chunk_size=10, label="专家"))
     
-    # 🚨 第 3 步：全网热点扫描
+    # 🚨 第 3 步：全网热点扫描 (X平台原生API)
     all_raw_tweets.extend(fetch_global_hot_tweets())
     
     if not all_raw_tweets:
@@ -793,11 +824,16 @@ def main():
 
     combined_jsonl = "\n".join(json.dumps(obj, ensure_ascii=False) for obj in final_feed)
 
-    # 🚨 第 4 步：融合 Perplexity 宏观情报
+    # 🚨 第 4 步：融合 Perplexity 宏观情报与全网热点
     macro_info = fetch_macro_with_perplexity()
     
-    # 🚨 第 5 步：融合 Tavily 外部动态补充
-    tavily_info = fetch_leaders_with_tavily(WHALE_ACCOUNTS + EXPERT_ACCOUNTS)
+    # 🚨 第 5 步：融合 Tavily 外部动态补充 (领袖扫描 + 全网突发)
+    tavily_leaders_info = fetch_leaders_with_tavily(WHALE_ACCOUNTS + EXPERT_ACCOUNTS)
+    tavily_global_info = fetch_global_news_with_tavily()
+    
+    tavily_info = ""
+    if tavily_leaders_info: tavily_info += tavily_leaders_info + "\n\n"
+    if tavily_global_info: tavily_info += tavily_global_info
 
     print(f"\n[Data] 三路源汇聚完毕，准备移交 xAI 进行超级排版...")
 
@@ -820,7 +856,7 @@ def main():
                 push_to_jijyun(html_content, title=wechat_title, cover_url=cover_url)
                 
             save_daily_data(today_str, final_feed, xml_result)
-            print("\n🎉 V7.9 运行完毕！", flush=True)
+            print("\n🎉 V8.0 运行完毕！", flush=True)
         else:
             print("❌ LLM 处理失败，任务终止。")
 
