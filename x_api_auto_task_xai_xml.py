@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v9.0 (多源融合终极版: 纯净Timeline + 微信极简排版 + ID缓存)
+x_api_auto_task_xai_xml.py  v9.1 (多源融合终极版: 纯净Timeline + 微信极简排版 + ID缓存)
 Architecture: Timeline Fetch (TWT241) -> Local Cache -> PPLX/Tavily -> xAI SDK -> UI
 """
 
@@ -210,6 +210,23 @@ def fetch_global_news_with_tavily() -> str:
                 aggregated_context += f"\n- [{result['title']}]({result['url']}): {result['content']}"
             print("  ✅ Tavily 全网热点扫描完毕。", flush=True)
     except: pass
+    return aggregated_context
+
+# ==============================================================================
+# 🚀 第一阶段：RapidAPI 原生 Twitter 抓取 (数字ID缓存与Timeline接口)
+# ==============================================================================
+def load_id_cache():
+    cache_file = Path("data/twitter_ids_cache.json")
+    if cache_file.exists():
+        try: return json.loads(cache_file.read_text(encoding="utf-8"))
+        except: return {}
+    return {}
+
+def save_id_cache(cache_dict):
+    cache_file = Path("data/twitter_ids_cache.json")
+    cache_file.parent.mkdir(parents=True, exist_ok=True)
+    cache_file.write_text(json.dumps(cache_dict, ensure_ascii=False, indent=2), encoding="utf-8")
+
 def resolve_username_to_id(username: str, cache: dict) -> str:
     """自动将字母账号解析为数字 ID，并持久化缓存 (V9.1: 增加独立重试与防并发机制)"""
     uname_lower = username.lower()
@@ -617,7 +634,8 @@ def render_feishu_card(parsed_data: dict, today_str: str):
     def add_list_section(title, icon, items):
         if not items: return
         content = f"**▌ {icon} {title}**\n\n"
-        for item in items: content += f"👉 **{item['category']}**：<font color='grey'>{item['content']}</font>\n"
+        for item in items:
+            content += f"👉 **{item['category']}**：<font color='grey'>{item['content']}</font>\n"
         elements.append({"tag": "markdown", "content": content.strip()})
         elements.append({"tag": "hr"})
 
@@ -640,8 +658,11 @@ def render_feishu_card(parsed_data: dict, today_str: str):
     }
 
     for url in webhooks:
-        try: requests.post(url, json=card_payload, timeout=20)
-        except: pass
+        try:
+            requests.post(url, json=card_payload, timeout=20)
+            print(f"[Push/Feishu] OK Card sent to {url.split('/')[-1][:8]}...", flush=True)
+        except Exception as e:
+            print(f"[Push/Feishu] ERROR: {e}", flush=True)
 
 # 🚨 微信极致精简排版：去掉一切多余空行，融合标题 🚨
 def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
@@ -837,7 +858,7 @@ def main():
                 push_to_jijyun(html_content, title=wechat_title, cover_url=cover_url)
                 
             save_daily_data(today_str, final_feed, xml_result)
-            print("\n🎉 V9.0 运行完毕！", flush=True)
+            print("\n🎉 V9.1 运行完毕！", flush=True)
         else:
             print("❌ LLM 处理失败，任务终止。")
 
