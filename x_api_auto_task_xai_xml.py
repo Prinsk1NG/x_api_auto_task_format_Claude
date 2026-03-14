@@ -210,41 +210,41 @@ def fetch_global_news_with_tavily() -> str:
                 aggregated_context += f"\n- [{result['title']}]({result['url']}): {result['content']}"
             print("  ✅ Tavily 全网热点扫描完毕。", flush=True)
     except: pass
-    return aggregated_context
-
-# ==============================================================================
-# 🚀 第一阶段：RapidAPI 原生 Twitter 抓取 (数字ID缓存与Timeline接口)
-# ==============================================================================
-def load_id_cache():
-    cache_file = Path("data/twitter_ids_cache.json")
-    if cache_file.exists():
-        try: return json.loads(cache_file.read_text(encoding="utf-8"))
-        except: return {}
-    return {}
-
-def save_id_cache(cache_dict):
-    cache_file = Path("data/twitter_ids_cache.json")
-    cache_file.parent.mkdir(exist_ok=True)
-    cache_file.write_text(json.dumps(cache_dict, ensure_ascii=False, indent=2), encoding="utf-8")
-
-def resolve_username_to_id(username: str, headers: dict, cache: dict) -> str:
-    """自动将字母账号解析为数字 ID，并持久化缓存"""
+def resolve_username_to_id(username: str, cache: dict) -> str:
+    """自动将字母账号解析为数字 ID，并持久化缓存 (V9.1: 增加独立重试与防并发机制)"""
     uname_lower = username.lower()
     if uname_lower in cache:
         return cache[uname_lower]
         
     print(f"    🔄 首次解析 @{username} 的底层数字 ID...", flush=True)
-    try:
-        resp = requests.get(URL_USER_INFO, headers=headers, params={"username": username}, timeout=15)
-        if resp.status_code == 200:
-            match = re.search(r'"rest_id"\s*:\s*"(\d+)"', resp.text)
-            if match:
-                numeric_id = match.group(1)
-                cache[uname_lower] = numeric_id
-                save_id_cache(cache)
-                return numeric_id
-    except Exception as e:
-        pass
+    
+    for attempt in range(3):
+        # 🚨 每次重试随机抽一把新钥匙，分散压力
+        current_key = get_random_twt_key()
+        headers = {"x-rapidapi-key": current_key, "x-rapidapi-host": RAPIDAPI_HOST}
+        
+        try:
+            resp = requests.get(URL_USER_INFO, headers=headers, params={"username": username}, timeout=15)
+            if resp.status_code == 200:
+                match = re.search(r'"rest_id"\s*:\s*"(\d+)"', resp.text)
+                if match:
+                    numeric_id = match.group(1)
+                    cache[uname_lower] = numeric_id
+                    save_id_cache(cache)
+                    time.sleep(1)  # 成功建档后休息 1 秒，温和建库
+                    return numeric_id
+            elif resp.status_code in [429, 403]:
+                print(f"      ⚠️ 解析 ID 遇限流 ({resp.status_code})，切换 Key 重试...", flush=True)
+                time.sleep(2)
+            elif resp.status_code == 404:
+                print(f"      ⚠️ 账号 @{username} 可能已注销或改名 (404)。", flush=True)
+                return None  # 404 没必要重试，直接放弃
+            else:
+                time.sleep(1)
+        except Exception as e:
+            time.sleep(1)
+            
+    print(f"    ❌ 解析 @{username} 失败，跳过。", flush=True)
     return None
 
 def parse_rapidapi_tweets(data) -> list:
@@ -307,21 +307,22 @@ def fetch_user_timeline_tweets(accounts: list, label: str) -> list:
     id_cache = load_id_cache()
     valid_mmdd = get_valid_mmdd_list()
     all_tweets = []
-    consecutive_errors = 0  
+    consecutive_api_errors = 0  
     
     print(f"\n⏳ [{label}扫盘] 启动【主页 Timeline】逐个爆破模式，共 {len(accounts)} 人...", flush=True)
     
     for idx, username in enumerate(accounts, 1):
-        if consecutive_errors >= 3: 
-            print("  ⚠️ 连续报错3次，为保护账号暂停当前序列。", flush=True)
+        # 放宽容错度，避免被封号的人引发全局罢工
+        if consecutive_api_errors >= 5: 
+            print("  ⚠️ API 连续报错 5 次，额度可能耗尽，提前终止本组抓取。", flush=True)
             break
+            
+        # V9.1 移除了向内部传递 headers，让它内部自己管理轮换
+        numeric_id = resolve_username_to_id(username, id_cache)
+        if not numeric_id: continue
             
         current_key = get_random_twt_key()
         headers = {"x-rapidapi-key": current_key, "x-rapidapi-host": RAPIDAPI_HOST}
-        
-        numeric_id = resolve_username_to_id(username, headers, id_cache)
-        if not numeric_id: continue
-            
         print(f"  🔎 挖掘 @{username} (ID:{numeric_id}) 主页动态... (Key尾号: ...{current_key[-4:]})", flush=True)
         params = {"user": numeric_id, "count": "20"} 
         
@@ -342,14 +343,23 @@ def fetch_user_timeline_tweets(accounts: list, label: str) -> list:
                             
                     all_tweets.extend(recent_valid_tweets)
                     print(f"    ✅ 成功拔取 {len(recent_valid_tweets)} 条近期有效动态。")
-                    consecutive_errors = 0 
+                    consecutive_api_errors = 0  # 成功则清零错误计数
                     success = True
                     break
-                elif resp.status_code in [403, 404, 429]:
-                    consecutive_errors += 1
+                elif resp.status_code in [403, 429]:
+                    print(f"    ⚠️ HTTP {resp.status_code}，切换 Key 重试...", flush=True)
+                    current_key = get_random_twt_key() # 动态换钥匙
+                    headers["x-rapidapi-key"] = current_key
+                    consecutive_api_errors += 1
                     time.sleep(2)
-                else: time.sleep(2)
-            except: time.sleep(2)
+                elif resp.status_code == 404:
+                    print(f"    ⚠️ 找不到 @{username} 的推文，可能已被封禁。")
+                    break # 404直接跳出重试
+                else: 
+                    consecutive_api_errors += 1
+                    time.sleep(2)
+            except Exception as e: 
+                time.sleep(2)
                 
         if success: time.sleep(0.5)
         else: time.sleep(2)
@@ -655,6 +665,10 @@ def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
     if parsed_data["themes"]:
         html_lines.append(make_h3("🧠 深度叙事追踪"))
         for idx, theme in enumerate(parsed_data["themes"]):
+            # 🚨 增加视觉隔断：在非第一个小主题之前，加入一条优雅的浅色实线
+            if idx > 0:
+                html_lines.append('<hr style="border:none;border-top:1px solid #cbd5e1;margin:32px 0 24px 0;"/>')
+
             html_lines.append(f'<p style="font-weight:bold;font-size:16px;color:#1e293b;margin:16px 0 8px 0;">{theme["emoji"]} {theme["title"]}</p>')
             
             if theme.get("type") == "new":
@@ -728,7 +742,7 @@ def save_daily_data(today_str: str, post_objects: list, report_text: str):
 def main():
     print("=" * 60, flush=True)
     mode_str = "测试模式" if TEST_MODE else "全量模式"
-    print(f"昨晚硅谷在聊啥 v9.0 (纯净Timeline + 极简排版 + ID缓存 - {mode_str})", flush=True)
+    print(f"昨晚硅谷在聊啥 v9.1 (纯净Timeline + 冷启动护航版 - {mode_str})", flush=True)
     print("=" * 60, flush=True)
     print(f"🔑 成功装载 {len(TWT_KEYS)} 把 RapidAPI 密钥", flush=True)
     print(f"🔑 成功装载 {len(TAVILY_KEYS)} 把 Tavily 检索密钥", flush=True)
