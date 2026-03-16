@@ -1,6 +1,10 @@
-name: Silicon Valley Daily Report (Multi-Source v7.8)
+name: Silicon Valley Daily Report (v10.2)
 
-on: 
+on:
+  # 每天定时执行 (UTC时间 00:00，对应北京时间早上 08:00)
+  schedule:
+    - cron: '0 0 * * *'
+  
   # 允许在 GitHub Actions 页面手动点击运行，并支持传入测试参数
   workflow_dispatch:
     inputs:
@@ -27,47 +31,34 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           
-          # 安装所需依赖
+          # 安装所需依赖 (由于目前完全走API，playwright其实可以不装，但保留不影响运行)
           pip install requests xai-sdk playwright pynacl
-          
-          # 安装 Chromium 浏览器内核
           playwright install chromium
           
       - name: Run Auto Task Script
         env:
-          # API Keys
-          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-          SF_API_KEY: ${{ secrets.SF_API_KEY }}
-          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+          # 🚨 1. 核心推特抓取密钥 (TwitterAPI.io)
+          twitterapi_io_KEY: ${{ secrets.twitterapi_io_KEY }}
           
-          # 新增的外部情报源 API Keys 🚨
+          # 🚨 2. 外部情报源 API Keys (Perplexity & Tavily轮换池)
           PPLX_API_KEY: ${{ secrets.PPLX_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           TAVILY_API_KEY_2: ${{ secrets.TAVILY_API_KEY_2 }}
           TAVILY_API_KEY_3: ${{ secrets.TAVILY_API_KEY_3 }}
+          TAVILY_API_KEY_4: ${{ secrets.TAVILY_API_KEY_4 }}
+          TAVILY_API_KEY_5: ${{ secrets.TAVILY_API_KEY_5 }}
+
+          # 🚨 3. 大模型与图床 API Keys
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          SF_API_KEY: ${{ secrets.SF_API_KEY }}
+          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           
-          # Webhooks
+          # 🚨 4. 推送 Webhooks
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           JIJYUN_WEBHOOK_URL: ${{ secrets.JIJYUN_WEBHOOK_URL }}
           
           # 控制参数
           TEST_MODE_ENV: ${{ github.event.inputs.test_mode }}
-          
-          # 多号接力的 Cookie 配置矩阵 🚨
-          TWTAPI_KEY: ${{ secrets.TWTAPI_KEY }}
-          TWTAPI_KEY_1: ${{ secrets.TWTAPI_KEY_1 }}
-          TWTAPI_KEY_2: ${{ secrets.TWTAPI_KEY_2 }}
-          TWTAPI_KEY_3: ${{ secrets.TWTAPI_KEY_3 }}
-          TWTAPI_KEY_4: ${{ secrets.TWTAPI_KEY_4 }}
-          TWTAPI_KEY_5: ${{ secrets.TWTAPI_KEY_5 }}
-          TWTAPI_KEY_6: ${{ secrets.TWTAPI_KEY_6 }}
-          TWTAPI_KEY_7: ${{ secrets.TWTAPI_KEY_7 }}
-          TWTAPI_KEY_8: ${{ secrets.TWTAPI_KEY_8 }}
-          TWTAPI_KEY_9: ${{ secrets.TWTAPI_KEY_9 }}
-          
-          # 自动续期相关 (虽然在 RapidAPI 模式下用不到，但保留配置以免代码报错)
-          PAT_FOR_SECRETS: ${{ secrets.PAT_FOR_SECRETS }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
           
         run: |
           # 确保这里执行的文件名与你仓库里的 Python 主程序文件名完全一致！
@@ -79,4 +70,4 @@ jobs:
         with:
           name: daily-data
           path: data/
-          retention-days: 7
+          retention-days: 30
