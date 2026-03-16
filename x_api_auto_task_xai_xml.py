@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v9.1 (多源融合终极版: 纯净Timeline + 微信极简排版 + ID缓存)
-Architecture: Timeline Fetch (TWT241) -> Local Cache -> PPLX/Tavily -> xAI SDK -> UI
+x_api_auto_task_xai_xml.py  v10.2 (网感标题优化 + 微信极简标头版)
+Architecture: TwitterAPI.io -> PPLX/Tavily (Restricted) -> xAI SDK (Isolated Prompt)
 """
 
 import os
@@ -29,22 +29,8 @@ XAI_API_KEY         = os.getenv("XAI_API_KEY", "")
 IMGBB_API_KEY       = os.getenv("IMGBB_API_KEY", "") 
 
 PPLX_API_KEY        = os.getenv("PPLX_API_KEY", "")
+TWITTERAPI_IO_KEY   = os.getenv("twitterapi_io_KEY", "")
 
-# 🚨 动态密钥池 1：RapidAPI Twitter 密钥池
-TWT_KEYS = []
-for i in range(1, 10):
-    k = os.getenv(f"TWTAPI_KEY_{i}")
-    if k and k.strip(): TWT_KEYS.append(k.strip())
-
-legacy_key = os.getenv("TWTAPI_KEY", "")
-if legacy_key and legacy_key.strip() and legacy_key not in TWT_KEYS:
-    TWT_KEYS.append(legacy_key.strip())
-
-def get_random_twt_key():
-    if not TWT_KEYS: return ""
-    return random.choice(TWT_KEYS)
-
-# 🚨 动态密钥池 2：Tavily 检索密钥池
 TAVILY_KEYS = []
 for suffix in ["", "_2", "_3", "_4", "_5"]:
     tk = os.getenv(f"TAVILY_API_KEY{suffix}")
@@ -53,15 +39,6 @@ for suffix in ["", "_2", "_3", "_4", "_5"]:
 def get_random_tavily_key():
     if not TAVILY_KEYS: return ""
     return random.choice(TAVILY_KEYS)
-
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# 🚨 API 接口配置 (V9.0 升级为纯净 Timeline 架构)
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-RAPIDAPI_HOST   = "twitter241.p.rapidapi.com"
-URL_USER_INFO   = "https://" + RAPIDAPI_HOST + "/user"
-URL_USER_TWEETS = "https://" + RAPIDAPI_HOST + "/user-tweets"
-URL_SEARCH      = "https://" + RAPIDAPI_HOST + "/search-v2" 
-URL_COMMENTS    = "https://" + RAPIDAPI_HOST + "/comments-v2"
 
 def D(b64_str):
     return base64.b64decode(b64_str).decode("utf-8")
@@ -113,13 +90,6 @@ def get_dates() -> tuple:
     yesterday = today - timedelta(days=1)
     return today.strftime("%Y-%m-%d"), yesterday.strftime("%Y-%m-%d")
 
-def get_valid_mmdd_list() -> list:
-    """获取最近 3 天的合法 MMDD 列表，用于本地过滤 Timeline 数据"""
-    tz = timezone(timedelta(hours=8))
-    today = datetime.now(tz)
-    dates = [today - timedelta(days=i) for i in range(3)]
-    return [d.strftime("%m%d") for d in dates]
-
 def parse_twitter_date(date_str):
     try:
         if " " in date_str:
@@ -145,25 +115,24 @@ def safe_int(val):
         return 0
 
 # ==============================================================================
-# 🚀 外部情报检索：Perplexity & Tavily
+# 🚀 外部情报检索：思路3落实 (收缩搜索域，成为客观查数机器人)
 # ==============================================================================
 def fetch_macro_with_perplexity() -> str:
     if not PPLX_API_KEY: return ""
-    print("\n🕵️ [宏观新闻官] 正在呼叫 Perplexity 扫描全球 AI 头条与全网热点...", flush=True)
+    print("\n🕵️ [宏观新闻官] 呼叫 Perplexity 获取硬核数据...", flush=True)
     try:
-        prompt = """你是顶级 AI 行业分析师。请检索过去 24 小时内全网最重要的 AI 动态。
-        重点关注：
-        1. 💰 资本与宏观：AI领域的重磅投融资、并购。
-        2. 🎁 搞钱新物种：最新开源的 AI 项目、前沿 AI 软硬件产品、热门 AI 众筹产品。
-        3. 🌐 全网突发热点：过去24小时内全网热烈讨论的 AI 突发事件、黑马产品、重大争议。
-        要求：必须带上具体的媒体来源，绝对禁止将 "Perplexity" 作为信息来源。"""
+        prompt = """你是顶级 AI 行业分析师。请仅检索过去 24 小时内 AI 行业的【硬核客观数据】。
+        🚨 最高指令：不要宽泛的行业趋势与专家观点，只抓取以下两类具体事实，必须带具体媒体来源：
+        1. 💰 具体的融资金额、领投方、重大收购案（M&A）。
+        2. 🎁 GitHub 上刚刚发布或突然爆火的 AI 开源项目（带具体名字和功能），或新发布的 AI 硬件。
+        绝对禁止将 "Perplexity" 作为信息来源。"""
         
         headers = {"Authorization": f"Bearer {PPLX_API_KEY}", "Content-Type": "application/json"}
         payload = {"model": "sonar-pro", "messages": [{"role": "user", "content": prompt}], "temperature": 0.1}
         resp = requests.post("https://api.perplexity.ai/chat/completions", headers=headers, json=payload, timeout=60)
         if resp.status_code == 200:
             data = resp.json()["choices"][0]["message"]["content"]
-            print(f"  ✅ Perplexity 宏观情报收集完毕 ({len(data)} 字)", flush=True)
+            print(f"  ✅ Perplexity 宏观客观数据收集完毕 ({len(data)} 字)", flush=True)
             return data
     except Exception as e: print(f"  ❌ Perplexity 抛出异常: {e}", flush=True)
     return ""
@@ -171,7 +140,7 @@ def fetch_macro_with_perplexity() -> str:
 def fetch_leaders_with_tavily(accounts: list) -> str:
     if not TAVILY_KEYS: return ""
     track_list = accounts[:45]
-    print(f"\n🐦 [领袖盯盘员] 正在对 {len(track_list)} 位核心大佬进行 Tavily 无死角扫描...", flush=True)
+    print(f"\n🐦 [领袖盯盘员] 扫描 {len(track_list)} 位核心大佬的站外动态...", flush=True)
     chunk_size = 15
     leader_chunks = [",".join(track_list[i:i + chunk_size]) for i in range(0, len(track_list), chunk_size)]
     url = "https://api.tavily.com/search"
@@ -181,7 +150,7 @@ def fetch_leaders_with_tavily(accounts: list) -> str:
     for i, chunk in enumerate(leader_chunks, 1):
         current_tk = get_random_tavily_key()
         try:
-            payload = {"api_key": current_tk, "query": f"Today's AI tech tweets/news from: {chunk}", "search_depth": "advanced", "topic": "news", "days": 1, "include_answer": True}
+            payload = {"api_key": current_tk, "query": f"Today's AI tech news from: {chunk}", "search_depth": "advanced", "topic": "news", "days": 1, "include_answer": True}
             response = requests.post(url, json=payload, headers=headers, timeout=45)
             if response.status_code == 200:
                 data = response.json()
@@ -195,76 +164,27 @@ def fetch_leaders_with_tavily(accounts: list) -> str:
 
 def fetch_global_news_with_tavily() -> str:
     if not TAVILY_KEYS: return ""
-    print(f"\n🌍 [全网雷达] 正在使用 Tavily 扫描全球 AI 突发热点...", flush=True)
+    print(f"\n🌍 [全网雷达] 扫描全球 AI 硬核项目...", flush=True)
     current_tk = get_random_tavily_key()
     url = "https://api.tavily.com/search"
     headers = {"Content-Type": "application/json"}
-    payload = {"api_key": current_tk, "query": "Most important AI technology news, LLM breakthroughs, AI startup announcements, and trending AI discussions globally in the last 24 hours", "search_depth": "advanced", "topic": "news", "days": 1, "include_answer": True}
+    payload = {"api_key": current_tk, "query": "AI startup funding, mergers and acquisitions, new AI hardware releases, and trending open-source AI GitHub projects globally in the last 24 hours", "search_depth": "advanced", "topic": "news", "days": 1, "include_answer": True}
     aggregated_context = ""
     try:
         response = requests.post(url, json=payload, headers=headers, timeout=45)
         if response.status_code == 200:
             data = response.json()
-            aggregated_context += f"### [Tavily 全网突发热点]\n" + data.get("answer", "")
+            aggregated_context += f"### [Tavily 全网客观数据]\n" + data.get("answer", "")
             for result in data.get("results", [])[:5]:
                 aggregated_context += f"\n- [{result['title']}]({result['url']}): {result['content']}"
-            print("  ✅ Tavily 全网热点扫描完毕。", flush=True)
+            print("  ✅ Tavily 全网客观热点扫描完毕。", flush=True)
     except: pass
     return aggregated_context
 
 # ==============================================================================
-# 🚀 第一阶段：RapidAPI 原生 Twitter 抓取 (数字ID缓存与Timeline接口)
+# 🚀 第一阶段：TwitterAPI.io 强大且纯净的原生抓取
 # ==============================================================================
-def load_id_cache():
-    cache_file = Path("data/twitter_ids_cache.json")
-    if cache_file.exists():
-        try: return json.loads(cache_file.read_text(encoding="utf-8"))
-        except: return {}
-    return {}
-
-def save_id_cache(cache_dict):
-    cache_file = Path("data/twitter_ids_cache.json")
-    cache_file.parent.mkdir(parents=True, exist_ok=True)
-    cache_file.write_text(json.dumps(cache_dict, ensure_ascii=False, indent=2), encoding="utf-8")
-
-def resolve_username_to_id(username: str, cache: dict) -> str:
-    """自动将字母账号解析为数字 ID，并持久化缓存 (V9.1: 增加独立重试与防并发机制)"""
-    uname_lower = username.lower()
-    if uname_lower in cache:
-        return cache[uname_lower]
-        
-    print(f"    🔄 首次解析 @{username} 的底层数字 ID...", flush=True)
-    
-    for attempt in range(3):
-        # 🚨 每次重试随机抽一把新钥匙，分散压力
-        current_key = get_random_twt_key()
-        headers = {"x-rapidapi-key": current_key, "x-rapidapi-host": RAPIDAPI_HOST}
-        
-        try:
-            resp = requests.get(URL_USER_INFO, headers=headers, params={"username": username}, timeout=15)
-            if resp.status_code == 200:
-                match = re.search(r'"rest_id"\s*:\s*"(\d+)"', resp.text)
-                if match:
-                    numeric_id = match.group(1)
-                    cache[uname_lower] = numeric_id
-                    save_id_cache(cache)
-                    time.sleep(1)  # 成功建档后休息 1 秒，温和建库
-                    return numeric_id
-            elif resp.status_code in [429, 403]:
-                print(f"      ⚠️ 解析 ID 遇限流 ({resp.status_code})，切换 Key 重试...", flush=True)
-                time.sleep(2)
-            elif resp.status_code == 404:
-                print(f"      ⚠️ 账号 @{username} 可能已注销或改名 (404)。", flush=True)
-                return None  # 404 没必要重试，直接放弃
-            else:
-                time.sleep(1)
-        except Exception as e:
-            time.sleep(1)
-            
-    print(f"    ❌ 解析 @{username} 失败，跳过。", flush=True)
-    return None
-
-def parse_rapidapi_tweets(data) -> list:
+def parse_tweets_recursive(data) -> list:
     all_tweets = []
     def recurse(obj):
         if isinstance(obj, dict):
@@ -279,31 +199,28 @@ def parse_rapidapi_tweets(data) -> list:
                     u = obj.get("user") or obj.get("author") or obj.get("user_info") or {}
                     sn = u.get("screen_name") or u.get("userName") or u.get("username")
                 if not sn and obj.get("legacy"): sn = obj["legacy"].get("screen_name")
-                if not sn:
-                    raw_str = json.dumps(obj)
-                    sn_match = re.search(r'"screen_name"\s*:\s*"([^"]+)"', raw_str)
-                    if sn_match: sn = sn_match.group(1)
-                    else:
-                        usr_match = re.search(r'"userName"\s*:\s*"([^"]+)"', raw_str)
-                        if usr_match: sn = usr_match.group(1)
-                if sn:
-                    t_id = obj.get("rest_id") or obj.get("id_str") or obj.get("id") or obj.get("tweet_id")
-                    if not t_id and obj.get("legacy"): t_id = obj["legacy"].get("id_str")
-                    fav = obj.get("favorite_count") or obj.get("favorites") or obj.get("likes") or 0
-                    if not fav and obj.get("legacy"): fav = obj["legacy"].get("favorite_count", 0)
-                    rep = obj.get("reply_count") or obj.get("replies") or 0
-                    if not rep and obj.get("legacy"): rep = obj["legacy"].get("reply_count", 0)
-                    created_at = obj.get("created_at")
-                    if not created_at and obj.get("legacy"): created_at = obj["legacy"].get("created_at", "")
-                    reply_to = obj.get("in_reply_to_screen_name") or obj.get("reply_to") or obj.get("is_reply")
-                    if not reply_to and obj.get("legacy"): reply_to = obj["legacy"].get("in_reply_to_screen_name")
-                    if str(t_id):
-                        all_tweets.append({
-                            "tweet_id": str(t_id), "screen_name": sn, "text": text,
-                            "favorites": safe_int(fav), "replies": safe_int(rep), 
-                            "created_at": created_at, "reply_to": reply_to,
-                        })
-                        return 
+
+                t_id = obj.get("rest_id") or obj.get("id_str") or obj.get("id") or obj.get("tweet_id")
+                if not t_id and obj.get("legacy"): t_id = obj["legacy"].get("id_str")
+                
+                fav = obj.get("favorite_count") or obj.get("favorites") or obj.get("likes") or obj.get("like_count") or 0
+                if not fav and obj.get("legacy"): fav = obj["legacy"].get("favorite_count", 0)
+                
+                rep = obj.get("reply_count") or obj.get("replies") or 0
+                if not rep and obj.get("legacy"): rep = obj["legacy"].get("reply_count", 0)
+                
+                created_at = obj.get("created_at")
+                if not created_at and obj.get("legacy"): created_at = obj["legacy"].get("created_at", "")
+                
+                reply_to = obj.get("in_reply_to_screen_name") or obj.get("reply_to") or obj.get("is_reply")
+                if not reply_to and obj.get("legacy"): reply_to = obj["legacy"].get("in_reply_to_screen_name")
+                
+                if str(t_id) and sn:
+                    all_tweets.append({
+                        "tweet_id": str(t_id), "screen_name": sn, "text": text,
+                        "favorites": safe_int(fav), "replies": safe_int(rep), 
+                        "created_at": created_at, "reply_to": reply_to,
+                    })
             for v in obj.values(): recurse(v)
         elif isinstance(obj, list):
             for item in obj: recurse(item)
@@ -315,144 +232,109 @@ def parse_rapidapi_tweets(data) -> list:
             unique.append(t)
     return unique
 
-def fetch_user_timeline_tweets(accounts: list, label: str) -> list:
-    """🚨 核心：通过数字ID遍历抓取用户主页 Timeline，无视一切屏蔽"""
-    if not TWT_KEYS: 
-        print(f"⚠️ 未配置 TWTAPI_KEY，跳过{label}抓取", flush=True)
+def fetch_tweets_twitterapi_io(accounts: list, label: str) -> list:
+    if not TWITTERAPI_IO_KEY: 
+        print(f"⚠️ 未配置 twitterapi_io_KEY，跳过{label}抓取", flush=True)
         return []
     
-    id_cache = load_id_cache()
-    valid_mmdd = get_valid_mmdd_list()
-    all_tweets = []
-    consecutive_api_errors = 0  
-    
-    print(f"\n⏳ [{label}扫盘] 启动【主页 Timeline】逐个爆破模式，共 {len(accounts)} 人...", flush=True)
-    
-    for idx, username in enumerate(accounts, 1):
-        # 放宽容错度，避免被封号的人引发全局罢工
-        if consecutive_api_errors >= 5: 
-            print("  ⚠️ API 连续报错 5 次，额度可能耗尽，提前终止本组抓取。", flush=True)
-            break
-            
-        # V9.1 移除了向内部传递 headers，让它内部自己管理轮换
-        numeric_id = resolve_username_to_id(username, id_cache)
-        if not numeric_id: continue
-            
-        current_key = get_random_twt_key()
-        headers = {"x-rapidapi-key": current_key, "x-rapidapi-host": RAPIDAPI_HOST}
-        print(f"  🔎 挖掘 @{username} (ID:{numeric_id}) 主页动态... (Key尾号: ...{current_key[-4:]})", flush=True)
-        params = {"user": numeric_id, "count": "20"} 
-        
-        success = False
-        for attempt in range(3):
-            try:
-                resp = requests.get(URL_USER_TWEETS, headers=headers, params=params, timeout=25)
-                if resp.status_code == 200:
-                    tweets = parse_rapidapi_tweets(resp.json())
-                    recent_valid_tweets = []
-                    for t in tweets:
-                        # 确保是本人发的（排除偶尔乱入的）
-                        if t["screen_name"].lower() != username.lower(): continue
-                        t_mmdd = parse_twitter_date(t["created_at"])
-                        if t_mmdd in valid_mmdd:
-                            t["t"] = t_mmdd
-                            recent_valid_tweets.append(t)
-                            
-                    all_tweets.extend(recent_valid_tweets)
-                    print(f"    ✅ 成功拔取 {len(recent_valid_tweets)} 条近期有效动态。")
-                    consecutive_api_errors = 0  # 成功则清零错误计数
-                    success = True
-                    break
-                elif resp.status_code in [403, 429]:
-                    print(f"    ⚠️ HTTP {resp.status_code}，切换 Key 重试...", flush=True)
-                    current_key = get_random_twt_key() # 动态换钥匙
-                    headers["x-rapidapi-key"] = current_key
-                    consecutive_api_errors += 1
-                    time.sleep(2)
-                elif resp.status_code == 404:
-                    print(f"    ⚠️ 找不到 @{username} 的推文，可能已被封禁。")
-                    break # 404直接跳出重试
-                else: 
-                    consecutive_api_errors += 1
-                    time.sleep(2)
-            except Exception as e: 
-                time.sleep(2)
-                
-        if success: time.sleep(0.5)
-        else: time.sleep(2)
-        
-    return all_tweets
-
-def fetch_global_hot_tweets() -> list:
-    if not TWT_KEYS: return []
     yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
     all_tweets = []
     
-    print(f"\n📡 [X平台热点] 启动策略扫描 X 平台全球突发热点...", flush=True)
-    grok_queries = [
-        f'(AI OR "artificial intelligence" OR LLM OR OpenAI OR xAI OR Grok OR Anthropic OR DeepMind OR Claude) since:{yesterday} min_faves:50 -is:retweet',
-        f'(AI OR LLM) (release OR launch OR breakthrough OR update) since:{yesterday} min_faves:30 (filter:links OR filter:media) -is:retweet'
-    ]
+    print(f"\n⏳ [{label}扫盘] 启动 TwitterAPI.io 点对点扫描，共 {len(accounts)} 人...", flush=True)
     
-    for idx, q in enumerate(grok_queries, 1):
-        current_key = get_random_twt_key()
-        headers = {"x-rapidapi-key": current_key, "x-rapidapi-host": RAPIDAPI_HOST}
+    headers = {"X-API-Key": TWITTERAPI_IO_KEY}
+    url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
+    
+    for username in accounts:
+        query = f"from:{username} since:{yesterday} -filter:retweets"
+        params = {"query": query, "queryType": "Latest"}
         
-        print(f"  🔍 策略 {idx}/2 (密钥尾号: ...{current_key[-4:]})...", flush=True)
-        params_discovery = {"query": q, "type": "Top", "count": "20"}
-        
-        for attempt in range(3):
-            try:
-                resp = requests.get(URL_SEARCH, headers=headers, params=params_discovery, timeout=25)
-                if resp.status_code == 200:
-                    tweets = parse_rapidapi_tweets(resp.json())
-                    for t in tweets: t["t"] = parse_twitter_date(t["created_at"])
-                    all_tweets.extend(tweets)
-                    print(f"    ✅ 策略 {idx} 成功捕获 {len(tweets)} 条。")
-                    break
-                elif resp.status_code in [403, 404, 429]: break 
-                else: time.sleep(2)
-            except: time.sleep(2)
-        time.sleep(1.5)
+        try:
+            resp = requests.get(url, headers=headers, params=params, timeout=25)
+            if resp.status_code == 200:
+                tweets = parse_tweets_recursive(resp.json())
+                for t in tweets:
+                    t["t"] = parse_twitter_date(t.get("created_at", ""))
+                all_tweets.extend(tweets)
+            else: pass
+        except Exception: pass
+        time.sleep(1) 
         
     return all_tweets
 
-def fetch_top_comments(tweet_id: str) -> list:
-    if not tweet_id or not TWT_KEYS: return []
-    current_key = get_random_twt_key()
-    headers = {"x-rapidapi-key": current_key, "x-rapidapi-host": RAPIDAPI_HOST}
-    try:
-        resp = requests.get(URL_COMMENTS, headers=headers, params={"pid": tweet_id, "rankingMode": "Relevance", "count": "20"}, timeout=25)
-        if resp.status_code == 200:
-            raw_comments = parse_rapidapi_tweets(resp.json())
-            return [f"@{c['screen_name']}: {c['text'][:150]}" for c in raw_comments if len(c.get("text", "")) > 10][:5]
-    except: pass
-    return []
+def fetch_mentions_twitterapi(accounts: list) -> list:
+    if not TWITTERAPI_IO_KEY: return []
+    yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+    all_tweets = []
+    
+    print(f"\n🗣️ [外部互动] 抓取别人对核心大佬的高赞提及 (Mentions)...", flush=True)
+    headers = {"X-API-Key": TWITTERAPI_IO_KEY}
+    url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
+    
+    for username in accounts:
+        query = f"@{username} since:{yesterday} min_faves:50 -filter:retweets"
+        params = {"query": query, "queryType": "Top"}
+        try:
+            resp = requests.get(url, headers=headers, params=params, timeout=25)
+            if resp.status_code == 200:
+                tweets = parse_tweets_recursive(resp.json())
+                for t in tweets: t["t"] = parse_twitter_date(t.get("created_at", ""))
+                all_tweets.extend(tweets)
+        except: pass
+        time.sleep(1)
+    return all_tweets
+
+def fetch_global_hot_tweets_twitterapi() -> list:
+    if not TWITTERAPI_IO_KEY: return []
+    yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+    all_tweets = []
+    
+    print(f"\n📡 [X平台热点] 扫描全球 AI 突发热点...", flush=True)
+    queries = [
+        f'(AI OR "artificial intelligence" OR LLM OR OpenAI OR xAI OR Grok OR Anthropic) since:{yesterday} min_faves:300 -filter:retweets',
+        f'(AI OR LLM) (release OR launch OR breakthrough) since:{yesterday} min_faves:100 -filter:retweets'
+    ]
+    
+    headers = {"X-API-Key": TWITTERAPI_IO_KEY}
+    url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
+    
+    for idx, q in enumerate(queries, 1):
+        params = {"query": q, "queryType": "Top"}
+        try:
+            resp = requests.get(url, headers=headers, params=params, timeout=25)
+            if resp.status_code == 200:
+                tweets = parse_tweets_recursive(resp.json())
+                for t in tweets: t["t"] = parse_twitter_date(t.get("created_at", ""))
+                all_tweets.extend(tweets)
+                print(f"    ✅ 策略 {idx} 成功捕获 {len(tweets)} 条。")
+        except: pass
+        time.sleep(1)
+        
+    return all_tweets
+
 
 # ==============================================================================
-# 🚀 第二阶段：多源融合 xAI XML 提示词与大模型调用 
+# 🚀 第二阶段：多源融合 xAI XML 提示词与大模型调用 (物理职权隔离 + 爆款标题策略)
 # ==============================================================================
 def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavily_info: str) -> str:
     return f"""
-你是一位顶级的 AI 行业一级市场投资分析师。
-请结合提供的【多源情报】（包含X平台一手动态、外媒报道、全网热点），提炼出有投资和实操价值的洞察，用犀利、专业的中文进行总结。
+你是一位顶级的 AI 行业一级市场投资分析师及新媒体主编。
+请结合提供的【多源情报】，提炼出有投资和实操价值的洞察，用犀利、专业的中文进行总结。
 
-【重要纪律】
-1. 禁止输出任何 Markdown 排版符号（如 #, *, >, -）。
-2. 只允许输出纯文本内容，并严格按照以下 XML 标签结构填入信息。不要缺漏闭合标签。
-3. Title（头衔/身份）绝对不要翻译，保持纯英文。
-4. 🚨【翻译铁律】所有的 <TWEET> 标签内容，【必须以中文为主体】！绝对禁止直接复制粘贴纯英文段落！为了保留内行风味，你可以不翻译特定的英文黑话、梗或专有名词，但整体含义必须翻译为流畅的中文！
+【情报等级与职权隔离铁律】（🚨极其重要）：
+1. X平台一手推文（JSONL）是【绝对的主干】。你必须且只能使用推文数据来生成 <THEMES>（深度叙事追踪）和 <TOP_PICKS>（精选推文）。
+2. Perplexity 和 Tavily 提供的情报仅作为【客观背景补充】。你只能使用它们来填充 <INVESTMENT_RADAR>（资本雷达）、<RISK_CHINA_VIEW>和客观的新硬件发布。绝对不允许让外部媒体的二手观点冲淡 X 平台上一手大V的探讨！
 
 【输出结构规范】
 <REPORT>
-  <COVER title="5-10字中文爆款标题" prompt="100字英文图生图提示词，赛博朋克风" insight="30字内核心洞察，中文"/>
+  <COVER title="10-20字极具吸引力的中文单主题爆款标题" prompt="100字英文图生图提示词，赛博朋克风" insight="30字内核心洞察，中文"/>
   <PULSE>用一句话总结今日最核心的 1-2 个行业动态信号。</PULSE>
   
   <THEMES>
     <THEME type="shift" emoji="⚔️">
-      <TITLE>主题标题：副标题 (请挖掘 5-8 个独立话题，不要过度合并)</TITLE>
+      <TITLE>主题标题：副标题 (请挖掘 5-8 个独立话题)</TITLE>
       <NARRATIVE>一句话核心判断</NARRATIVE>
-      <TWEET account="信息源(人名或媒体)" role="身份标签">【严禁纯英文】以中文为主翻译原文或资讯的核心观点</TWEET>
+      <TWEET account="信息源(人名或媒体)" role="身份标签">以中文为主翻译原文的核心观点</TWEET>
       <TWEET account="..." role="...">...</TWEET>
       <CONSENSUS>核心共识的纯文本描述</CONSENSUS>
       <DIVERGENCE>最大分歧或未解之谜</DIVERGENCE>
@@ -461,8 +343,7 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
     <THEME type="new" emoji="🌱">
       <TITLE>主题标题：副标题</TITLE>
       <NARRATIVE>一句话新趋势定义</NARRATIVE>
-      <TWEET account="信息源" role="身份标签">【严禁纯英文】以中文为主翻译核心观点</TWEET>
-      <TWEET account="..." role="...">...</TWEET>
+      <TWEET account="信息源" role="身份标签">以中文为主翻译核心观点</TWEET>
       <OUTLOOK>对该新叙事的深度解读与未来展望</OUTLOOK>
       <OPPORTUNITY>可能带来的机会</OPPORTUNITY>
       <RISK>警惕的陷阱或风险</RISK>
@@ -481,16 +362,18 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 
   <TOP_PICKS>
     <TWEET account="..." role="...">【严禁纯英文】流畅中文精译，保留关键英文梗增强表现力</TWEET>
+    <TWEET account="..." role="...">...</TWEET>
+    <TWEET account="..." role="...">...</TWEET>
   </TOP_PICKS>
 </REPORT>
 
-# 外部宏观情报与新物种 (Perplexity):
+# 外部客观数据背景 (Perplexity):
 {macro_info if macro_info else "未获取到宏观数据"}
 
-# 外部领袖动态补充与全网热点 (Tavily):
+# 外部客观数据背景 (Tavily):
 {tavily_info if tavily_info else "未获取到补充数据"}
 
-# X平台一手原始数据输入 (RapidAPI JSONL):
+# X平台一手原始数据输入 (绝对主干 JSONL):
 {combined_jsonl}
 
 # 日期: {today_str}
@@ -592,13 +475,17 @@ def parse_llm_xml(xml_text: str) -> dict:
 
     picks_match = re.search(r'<TOP_PICKS>(.*?)</TOP_PICKS>', xml_text, re.IGNORECASE | re.DOTALL)
     if picks_match:
-        for t_match in re.finditer(r'<TWEET\s+account=[\'"“”](.*?)[\'"“”]\s+role=[\'"“”](.*?)[\'"“”]>(.*?)</TWEET>', picks_match.group(1), re.IGNORECASE | re.DOTALL):
+        picks_content = picks_match.group(1)
+        for t_match in re.finditer(r'<TWEET\s+account=[\'"“”](.*?)[\'"“”]\s+role=[\'"“”](.*?)[\'"“”]>(.*?)</TWEET>', picks_content, re.IGNORECASE | re.DOTALL):
             data["top_picks"].append({"account": t_match.group(1).strip(), "role": t_match.group(2).strip(), "content": t_match.group(3).strip()})
+        if not data["top_picks"]:
+            for t_match in re.finditer(r'<TWEET[^>]*account="(.*?)"[^>]*role="(.*?)"[^>]*>(.*?)</TWEET>', picks_content, re.IGNORECASE | re.DOTALL):
+                data["top_picks"].append({"account": t_match.group(1).strip(), "role": t_match.group(2).strip(), "content": t_match.group(3).strip()})
             
     return data
 
 # ==============================================================================
-# 🚀 第三阶段：结构化渲染引擎 (双模态自适应)
+# 🚀 第三阶段：结构化渲染引擎 & 账号复盘数据库
 # ==============================================================================
 def render_feishu_card(parsed_data: dict, today_str: str):
     webhooks = get_feishu_webhooks()
@@ -653,7 +540,7 @@ def render_feishu_card(parsed_data: dict, today_str: str):
         "card": {
             "config": {"wide_screen_mode": True, "enable_forward": True},
             "header": {"title": {"content": f"昨晚硅谷在聊啥 | {today_str}", "tag": "plain_text"}, "template": "blue"},
-            "elements": elements + [{"tag": "note", "elements": [{"tag": "plain_text", "content": "Powered by RapidAPI + Perplexity + Tavily + xAI"}]}]
+            "elements": elements + [{"tag": "note", "elements": [{"tag": "plain_text", "content": "Powered by TwitterAPI.io + Perplexity + xAI"}]}]
         }
     }
 
@@ -671,10 +558,9 @@ def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
     if cover_url: 
         html_lines.append(f'<p style="text-align:center;margin:0 0 16px 0;"><img src="{cover_url}" style="max-width:100%;border-radius:8px;" /></p>')
     
-    # 融合主标题与 Insight
+    # 🚨 V10.2: Insight 标头极简化，仅保留 "💡 Insight" 两个词
     if parsed_data["cover"].get("insight"):
-        main_title = parsed_data["cover"].get("title", "")
-        header_text = f"💡 Insight | {main_title} | 昨晚硅谷在聊啥？" if main_title else "💡 Insight | 昨晚硅谷在聊啥？"
+        header_text = "💡 Insight"
         html_lines.append(f'<div style="border-radius:8px;background:#FFF7E6;padding:12px 14px;margin:0 0 20px 0;color:#d97706;"><div style="font-weight:bold;margin-bottom:6px;">{header_text}</div><div>{parsed_data["cover"]["insight"]}</div></div>')
 
     def make_h3(title): return f'<h3 style="margin:24px 0 12px 0;font-size:18px;border-left:4px solid #4A90E2;padding-left:10px;color:#2c3e50;font-weight:bold;">{title}</h3>'
@@ -686,7 +572,6 @@ def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
     if parsed_data["themes"]:
         html_lines.append(make_h3("🧠 深度叙事追踪"))
         for idx, theme in enumerate(parsed_data["themes"]):
-            # 🚨 增加视觉隔断：在非第一个小主题之前，加入一条优雅的浅色实线
             if idx > 0:
                 html_lines.append('<hr style="border:none;border-top:1px solid #cbd5e1;margin:32px 0 24px 0;"/>')
 
@@ -754,29 +639,63 @@ def push_to_jijyun(html_content, title, cover_url=""):
         print(f"  ⚠️ 推送机语警告: {e}", flush=True)
 
 def save_daily_data(today_str: str, post_objects: list, report_text: str):
+    """保存每日的流水数据与完整报告，用于数据备份与回溯"""
     data_dir = Path(f"data/{today_str}")
     data_dir.mkdir(parents=True, exist_ok=True)
     combined_txt = "\n".join(json.dumps(obj, ensure_ascii=False) for obj in post_objects)
     (data_dir / "combined.txt").write_text(combined_txt, encoding="utf-8")
     if report_text: (data_dir / "daily_report.txt").write_text(report_text, encoding="utf-8")
 
+def update_account_stats(final_feed: list, parsed_data: dict):
+    stats_file = Path("data/account_stats.json")
+    stats = {}
+    if stats_file.exists():
+        try: stats = json.loads(stats_file.read_text(encoding="utf-8"))
+        except: pass
+    
+    today_str = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+    used_accounts = set()
+    for theme in parsed_data.get("themes", []):
+        for t in theme.get("tweets", []):
+            used_accounts.add(t.get("account", "").lower())
+    for t in parsed_data.get("top_picks", []):
+        used_accounts.add(t.get("account", "").lower())
+        
+    for t in final_feed:
+        acc = t.get("a", "unknown").lower()
+        if acc not in stats:
+            stats[acc] = {"fetched_days": 0, "total_tweets": 0, "used_in_reports": 0, "last_active": ""}
+        stats[acc]["total_tweets"] += 1
+        stats[acc]["last_active"] = today_str
+        
+    for acc in used_accounts:
+        acc_clean = acc.replace("@", "")
+        if acc_clean in stats:
+            stats[acc_clean]["used_in_reports"] += 1
+            
+    stats_file.parent.mkdir(parents=True, exist_ok=True)
+    stats_file.write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[Stats] 已更新账号质量数据库 (account_stats.json)，记录 {len(used_accounts)} 位今日之星。")
+
 def main():
     print("=" * 60, flush=True)
     mode_str = "测试模式" if TEST_MODE else "全量模式"
-    print(f"昨晚硅谷在聊啥 v9.1 (纯净Timeline + 冷启动护航版 - {mode_str})", flush=True)
+    print(f"昨晚硅谷在聊啥 v10.2 (网感标题优化 + 微信极简标头版 - {mode_str})", flush=True)
     print("=" * 60, flush=True)
-    print(f"🔑 成功装载 {len(TWT_KEYS)} 把 RapidAPI 密钥", flush=True)
-    print(f"🔑 成功装载 {len(TAVILY_KEYS)} 把 Tavily 检索密钥", flush=True)
+    
+    if not TWITTERAPI_IO_KEY:
+        print("❌ 致命错误: 未配置 twitterapi_io_KEY，程序无法继续！", flush=True)
+        return
 
     today_str, _ = get_dates()
     all_raw_tweets = []
     
-    # 🚨 1. 抓取巨鲸池与专家池 (原生 Timeline 接口，自动 ID 解析缓存)
-    all_raw_tweets.extend(fetch_user_timeline_tweets(WHALE_ACCOUNTS, label="巨鲸"))
-    all_raw_tweets.extend(fetch_user_timeline_tweets(EXPERT_ACCOUNTS, label="专家"))
+    # 🚨 1. 抓取巨鲸池与专家池 (使用 TwitterAPI.io Advanced Search)
+    all_raw_tweets.extend(fetch_tweets_twitterapi_io(WHALE_ACCOUNTS, label="巨鲸"))
+    all_raw_tweets.extend(fetch_tweets_twitterapi_io(EXPERT_ACCOUNTS, label="专家"))
     
-    # 🚨 2. 抓取全网突发热点
-    all_raw_tweets.extend(fetch_global_hot_tweets())
+    # 🚨 2. 抓取外部互动 (Mentions)
+    all_raw_tweets.extend(fetch_mentions_twitterapi(WHALE_ACCOUNTS))
     
     if not all_raw_tweets:
         print("⚠️ 未能抓取推文，使用测试数据跳过...", flush=True)
@@ -786,7 +705,6 @@ def main():
     for t in all_raw_tweets:
         likes = t.get("favorites", 0)
         is_reply = bool(t.get("reply_to"))
-        # 如果是回复别人的内容，必须达到一定赞数才保留（避免录入垃圾口水话）
         if not is_reply or likes >= 5:
             all_posts_flat.append({
                 "a": t.get("screen_name", "Unknown"), 
@@ -818,24 +736,13 @@ def main():
         else: global_feed.append(t)
 
     # 强制配额：限制输送给 LLM 的总数据量，防止超时
-    final_feed = whale_feed[:10] + expert_feed[:50] + global_feed[:15]
-
-    top_3_tweets = [t for t in final_feed if t.get("tweet_id")][:3]
-    print(f"\n[深挖] 锁定今日最具争议的 {len(top_3_tweets)} 大话题，开始抓取评论区...")
-    for t in top_3_tweets:
-        comments = fetch_top_comments(t["tweet_id"])
-        if comments: t["hot_comments"] = comments 
+    final_feed = whale_feed[:15] + expert_feed[:60] + global_feed[:20]
 
     combined_jsonl = "\n".join(json.dumps(obj, ensure_ascii=False) for obj in final_feed)
 
-    # 🚨 3. 融合 Perplexity 宏观情报与 Tavily 外部动态
+    # 🚨 3. 融合 Perplexity 宏观情报与 Tavily 外部动态 (已降权为纯数据补充)
     macro_info = fetch_macro_with_perplexity()
-    tavily_leaders_info = fetch_leaders_with_tavily(WHALE_ACCOUNTS + EXPERT_ACCOUNTS)
-    tavily_global_info = fetch_global_news_with_tavily()
-    
-    tavily_info = ""
-    if tavily_leaders_info: tavily_info += tavily_leaders_info + "\n\n"
-    if tavily_global_info: tavily_info += tavily_global_info
+    tavily_info = fetch_global_news_with_tavily()
 
     print(f"\n[Data] 三路源汇聚完毕，准备移交 xAI 进行超级排版...")
 
@@ -854,11 +761,16 @@ def main():
                 
             if JIJYUN_WEBHOOK_URL:
                 html_content = render_wechat_html(parsed_data, cover_url)
-                wechat_title = parsed_data["cover"]["title"] or f"昨晚硅谷在聊啥 | {today_str}"
+                # 🚨 V10.2: 构建推送的复合微信主标题
+                base_title = parsed_data["cover"]["title"] or "今日硅谷AI核心动态"
+                wechat_title = f"{base_title} | 昨晚硅谷在聊啥？"
                 push_to_jijyun(html_content, title=wechat_title, cover_url=cover_url)
                 
+            # 🚨 4. 每日存档与账号数据库更新
             save_daily_data(today_str, final_feed, xml_result)
-            print("\n🎉 V9.1 运行完毕！", flush=True)
+            update_account_stats(final_feed, parsed_data)
+            
+            print("\n🎉 V10.2 运行完毕！", flush=True)
         else:
             print("❌ LLM 处理失败，任务终止。")
 
