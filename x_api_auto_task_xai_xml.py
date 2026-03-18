@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v10.3 (硅谷日报立体抓取与高精打分版)
+x_api_auto_task_xai_xml.py  v10.4 (硅谷日报：高并发降本 + 点赞数据修复版)
 Architecture: TwitterAPI.io -> PPLX/Tavily -> xAI SDK -> Clean UI
 """
 
@@ -190,7 +190,7 @@ def fetch_global_news_with_tavily() -> str:
     return aggregated_context
 
 # ==============================================================================
-# 🚀 第一阶段：TwitterAPI.io 强大且纯净的原生抓取
+# 🚀 第一阶段：TwitterAPI.io 强大且纯净的原生抓取 (数据修复与并发优化版)
 # ==============================================================================
 def parse_tweets_recursive(data) -> list:
     all_tweets = []
@@ -198,6 +198,7 @@ def parse_tweets_recursive(data) -> list:
         if isinstance(obj, dict):
             text = obj.get("full_text") or obj.get("text")
             if not text and obj.get("legacy"): text = obj["legacy"].get("full_text") or obj["legacy"].get("text")
+            
             if text and isinstance(text, str):
                 sn = None
                 try: sn = obj.get("core", {}).get("user_results", {}).get("result", {}).get("legacy", {}).get("screen_name")
@@ -211,13 +212,14 @@ def parse_tweets_recursive(data) -> list:
                 t_id = obj.get("rest_id") or obj.get("id_str") or obj.get("id") or obj.get("tweet_id")
                 if not t_id and obj.get("legacy"): t_id = obj["legacy"].get("id_str")
                 
-                fav = obj.get("favorite_count") or obj.get("favorites") or obj.get("likes") or obj.get("like_count") or 0
+                # 🚨 核心修复：全面支持 TwitterAPI.io 的驼峰命名法（likeCount, replyCount）
+                fav = obj.get("favorite_count") or obj.get("favorites") or obj.get("likes") or obj.get("like_count") or obj.get("likeCount") or 0
                 if not fav and obj.get("legacy"): fav = obj["legacy"].get("favorite_count", 0)
                 
-                rep = obj.get("reply_count") or obj.get("replies") or 0
+                rep = obj.get("reply_count") or obj.get("replies") or obj.get("replyCount") or 0
                 if not rep and obj.get("legacy"): rep = obj["legacy"].get("reply_count", 0)
                 
-                created_at = obj.get("created_at")
+                created_at = obj.get("created_at") or obj.get("createdAt")
                 if not created_at and obj.get("legacy"): created_at = obj["legacy"].get("created_at", "")
                 
                 reply_to = obj.get("in_reply_to_screen_name") or obj.get("reply_to") or obj.get("is_reply")
@@ -232,6 +234,7 @@ def parse_tweets_recursive(data) -> list:
             for v in obj.values(): recurse(v)
         elif isinstance(obj, list):
             for item in obj: recurse(item)
+            
     recurse(data)
     seen, unique = set(), []
     for t in all_tweets:
@@ -247,14 +250,18 @@ def fetch_tweets_twitterapi_io(accounts: list, label: str) -> list:
     
     yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
     all_tweets = []
-    
-    print(f"\n⏳ [{label}扫盘] 启动 TwitterAPI.io 点对点扫描，共 {len(accounts)} 人...", flush=True)
-    
+    print(f"\n⏳ [{label}扫盘] 启动 TwitterAPI.io 并发扫描，共 {len(accounts)} 人...", flush=True)
     headers = {"X-API-Key": TWITTERAPI_IO_KEY}
     url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
     
-    for username in accounts:
-        query = f"from:{username} since:{yesterday} -filter:retweets"
+    # 🚨 核心修复：重新装载 Chunking 逻辑，防止查询次数超标
+    chunk_size = 5
+    chunks = [accounts[i:i + chunk_size] for i in range(0, len(accounts), chunk_size)]
+    
+    for i, chunk in enumerate(chunks, 1):
+        print(f"  🔎 挖掘第 {i}/{len(chunks)} 批动态...", flush=True)
+        query_str = " OR ".join([f"from:{acc}" for acc in chunk])
+        query = f"({query_str}) since:{yesterday} -filter:retweets"
         params = {"query": query, "queryType": "Latest"}
         
         try:
@@ -264,7 +271,6 @@ def fetch_tweets_twitterapi_io(accounts: list, label: str) -> list:
                 for t in tweets:
                     t["t"] = parse_twitter_date(t.get("created_at", ""))
                 all_tweets.extend(tweets)
-            else: pass
         except Exception: pass
         time.sleep(1) 
         
@@ -279,8 +285,12 @@ def fetch_mentions_twitterapi(accounts: list) -> list:
     headers = {"X-API-Key": TWITTERAPI_IO_KEY}
     url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
     
-    for username in accounts:
-        query = f"@{username} since:{yesterday} min_faves:50 -filter:retweets"
+    chunk_size = 3
+    chunks = [accounts[i:i + chunk_size] for i in range(0, len(accounts), chunk_size)]
+    
+    for chunk in chunks:
+        query_str = " OR ".join([f"@{acc}" for acc in chunk])
+        query = f"({query_str}) since:{yesterday} min_faves:50 -filter:retweets"
         params = {"query": query, "queryType": "Top"}
         try:
             resp = requests.get(url, headers=headers, params=params, timeout=25)
@@ -320,7 +330,6 @@ def fetch_global_hot_tweets_twitterapi() -> list:
         
     return all_tweets
 
-# 🚨 启发 1: 独立神回复挖掘器 (立体抓取)
 def fetch_tweet_replies(tweet_id, screen_name):
     """自动挖掘热帖下的神评论，还原真实共识与分歧"""
     if not TWITTERAPI_IO_KEY or not tweet_id: return []
@@ -339,7 +348,7 @@ def fetch_tweet_replies(tweet_id, screen_name):
     return []
 
 # ==============================================================================
-# 🚀 第二阶段：多源融合 xAI XML 提示词与大模型调用 (物理职权隔离 + 爆款标题策略)
+# 🚀 第二阶段：多源融合 xAI XML 提示词与大模型调用 
 # ==============================================================================
 def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavily_info: str) -> str:
     return f"""
@@ -350,7 +359,7 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 1. X平台一手推文（JSONL）是【绝对的主干】。你必须且只能使用推文数据来生成 <THEMES>（深度叙事追踪）和 <TOP_PICKS>（精选推文）。
 2. Perplexity 和 Tavily 提供的情报仅作为【客观背景补充】。你只能使用它们来填充 <INVESTMENT_RADAR>（资本雷达）、<RISK_CHINA_VIEW>和客观的新硬件发布。绝对不允许让外部媒体的二手观点冲淡 X 平台上一手大V的探讨！
 
-【输出结构规范】
+【输出结构规范】(必须严格输出纯净XML，不要包含 markdown 反引号)
 <REPORT>
   <COVER title="10-20字极具吸引力的中文单主题爆款标题" prompt="100字英文图生图提示词，赛博朋克风" insight="30字内核心洞察，中文"/>
   <PULSE>用一句话总结今日最核心的 1-2 个行业动态信号。</PULSE>
@@ -414,7 +423,8 @@ def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_in
     data = combined_jsonl[:max_data_chars] if len(combined_jsonl) > max_data_chars else combined_jsonl
     prompt = _build_xml_prompt(data, today_str, macro_info, tavily_info)
     
-    model_name = "grok-4.20-beta-latest-non-reasoning" 
+    # 🚨 升级为最新的多智能体聚类模型，确保逻辑深邃且不出错
+    model_name = "grok-4.20-multi-agent-beta-0309" 
 
     print(f"\n[LLM/xAI] Requesting {model_name} via Official xai-sdk...", flush=True)
     client = Client(api_key=api_key)
@@ -426,6 +436,11 @@ def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_in
             chat.append(user(prompt))
             
             result = chat.sample().content.strip()
+            
+            # 清洗可能存在的 Markdown 代码块包裹
+            result = re.sub(r'^`{3}(?:xml|jsonl|json)?\n', '', result, flags=re.MULTILINE)
+            result = re.sub(r'^`{3}\n?', '', result, flags=re.MULTILINE)
+            
             print(f"[LLM/xAI] OK Response received ({len(result)} chars)", flush=True)
             return result
         except Exception as e:
@@ -706,7 +721,7 @@ def update_account_stats(final_feed: list, parsed_data: dict):
 def main():
     print("=" * 60, flush=True)
     mode_str = "测试模式" if TEST_MODE else "全量模式"
-    print(f"昨晚硅谷在聊啥 v10.3 (立体抓取与高精打分版 - {mode_str})", flush=True)
+    print(f"昨晚硅谷在聊啥 v10.4 (硅谷日报立体抓取与高并发修复版 - {mode_str})", flush=True)
     print("=" * 60, flush=True)
 
     if not TWITTERAPI_IO_KEY:
@@ -831,7 +846,7 @@ def main():
             save_daily_data(today_str, final_feed, xml_result)
             update_account_stats(final_feed, parsed_data)
             
-            print("\n🎉 V10.3 运行完毕！", flush=True)
+            print("\n🎉 V10.4 运行完毕！", flush=True)
         else:
             print("❌ LLM 处理失败，任务终止。")
 
