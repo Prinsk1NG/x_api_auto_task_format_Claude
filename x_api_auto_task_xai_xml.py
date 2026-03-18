@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v10.2 (网感标题优化 + 微信极简标头版 + 多端推送支持)
-Architecture: TwitterAPI.io -> PPLX/Tavily (Restricted) -> xAI SDK (Isolated Prompt)
+x_api_auto_task_xai_xml.py  v10.3 (硅谷日报立体抓取与高精打分版)
+Architecture: TwitterAPI.io -> PPLX/Tavily -> xAI SDK -> Clean UI
 """
 
 import os
@@ -123,7 +123,7 @@ def safe_int(val):
         return 0
 
 # ==============================================================================
-# 🚀 外部情报检索：思路3落实 (收缩搜索域，成为客观查数机器人)
+# 🚀 外部情报检索：客观查数机器人
 # ==============================================================================
 def fetch_macro_with_perplexity() -> str:
     if not PPLX_API_KEY: return ""
@@ -320,9 +320,26 @@ def fetch_global_hot_tweets_twitterapi() -> list:
         
     return all_tweets
 
+# 🚨 启发 1: 独立神回复挖掘器 (立体抓取)
+def fetch_tweet_replies(tweet_id, screen_name):
+    """自动挖掘热帖下的神评论，还原真实共识与分歧"""
+    if not TWITTERAPI_IO_KEY or not tweet_id: return []
+    url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
+    headers = {"X-API-Key": TWITTERAPI_IO_KEY}
+    query = f"conversation_id:{tweet_id} -from:{screen_name}"
+    params = {"query": query, "queryType": "Top"}
+    try:
+        resp = requests.get(url, headers=headers, params=params, timeout=15)
+        if resp.status_code == 200:
+            tweets = parse_tweets_recursive(resp.json())
+            # 按点赞数从高到低排序，提取头两名
+            tweets = sorted(tweets, key=lambda x: x.get("favorites", 0), reverse=True)
+            return tweets[:2]
+    except Exception: pass
+    return []
 
 # ==============================================================================
-# 🚀 第二阶段：多源融合 xAI XML 提示词与大模型调用 
+# 🚀 第二阶段：多源融合 xAI XML 提示词与大模型调用 (物理职权隔离 + 爆款标题策略)
 # ==============================================================================
 def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavily_info: str) -> str:
     return f"""
@@ -342,16 +359,16 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
     <THEME type="shift" emoji="⚔️">
       <TITLE>主题标题：副标题 (请挖掘 5-8 个独立话题)</TITLE>
       <NARRATIVE>一句话核心判断</NARRATIVE>
-      <TWEET account="信息源(人名或媒体)" role="身份标签">以中文为主翻译原文的核心观点</TWEET>
+      <TWEET account="信息源(人名或媒体)" role="身份标签">【严禁纯英文】以中文为主精练原文。🚨必须在推文末尾附带我们传入的真实互动数据（如 ❤️ 39190 | 💬 1904）</TWEET>
       <TWEET account="..." role="...">...</TWEET>
-      <CONSENSUS>核心共识的纯文本描述</CONSENSUS>
-      <DIVERGENCE>最大分歧或未解之谜</DIVERGENCE>
+      <CONSENSUS>结合神回复中展现的态度，总结核心共识的纯文本描述</CONSENSUS>
+      <DIVERGENCE>结合神回复中展现的态度，总结最大分歧或未解之谜</DIVERGENCE>
     </THEME>
 
     <THEME type="new" emoji="🌱">
       <TITLE>主题标题：副标题</TITLE>
       <NARRATIVE>一句话新趋势定义</NARRATIVE>
-      <TWEET account="信息源" role="身份标签">以中文为主翻译核心观点</TWEET>
+      <TWEET account="信息源" role="身份标签">【严禁纯英文】以中文为主精练核心观点。🚨必须在推文末尾附带真实的互动数据（如 ❤️ 39190 | 💬 1904）</TWEET>
       <OUTLOOK>对该新叙事的深度解读与未来展望</OUTLOOK>
       <OPPORTUNITY>可能带来的机会</OPPORTUNITY>
       <RISK>警惕的陷阱或风险</RISK>
@@ -369,7 +386,7 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
   </RISK_CHINA_VIEW>
 
   <TOP_PICKS>
-    <TWEET account="..." role="...">【严禁纯英文】流畅中文精译，保留关键英文梗增强表现力</TWEET>
+    <TWEET account="..." role="...">【严禁纯英文】流畅中文精译，保留关键英文梗。🚨必须在推文末尾附带真实的互动数据（如 ❤️ 39190 | 💬 1904）</TWEET>
     <TWEET account="..." role="...">...</TWEET>
     <TWEET account="..." role="...">...</TWEET>
   </TOP_PICKS>
@@ -544,7 +561,7 @@ def render_feishu_card(parsed_data: dict, today_str: str):
         "card": {
             "config": {"wide_screen_mode": True, "enable_forward": True},
             "header": {"title": {"content": f"昨晚硅谷在聊啥 | {today_str}", "tag": "plain_text"}, "template": "blue"},
-            "elements": elements + [{"tag": "note", "elements": [{"tag": "plain_text", "content": "Powered by RapidAPI + Perplexity + Tavily + xAI"}]}]
+            "elements": elements + [{"tag": "note", "elements": [{"tag": "plain_text", "content": "Powered by TwitterAPI.io + Perplexity + xAI"}]}]
         }
     }
 
@@ -555,18 +572,13 @@ def render_feishu_card(parsed_data: dict, today_str: str):
         except Exception as e:
             print(f"[Push/Feishu] ERROR: {e}", flush=True)
 
+# 🚨 微信极简排版：彻底砍掉 Insight 框，直接进入正文 🚨
 def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
     html_lines = []
     
     if cover_url: 
         html_lines.append(f'<p style="text-align:center;margin:0 0 16px 0;"><img src="{cover_url}" style="max-width:100%;border-radius:8px;" /></p>')
     
-    # 融合主标题与 Insight
-    if parsed_data["cover"].get("insight"):
-        main_title = parsed_data["cover"].get("title", "")
-        header_text = f"💡 Insight | {main_title} | 昨晚硅谷在聊啥？" if main_title else "💡 Insight | 昨晚硅谷在聊啥？"
-        html_lines.append(f'<div style="border-radius:8px;background:#FFF7E6;padding:12px 14px;margin:0 0 20px 0;color:#d97706;"><div style="font-weight:bold;margin-bottom:6px;">{header_text}</div><div>{parsed_data["cover"]["insight"]}</div></div>')
-
     def make_h3(title): return f'<h3 style="margin:24px 0 12px 0;font-size:18px;border-left:4px solid #4A90E2;padding-left:10px;color:#2c3e50;font-weight:bold;">{title}</h3>'
     def make_quote(content): return f'<div style="background:#f8f9fa;border-left:4px solid #8c98a4;padding:10px 14px;color:#555;font-size:15px;border-radius:0 4px 4px 0;margin:6px 0 10px 0;line-height:1.6;">{content}</div>'
 
@@ -694,7 +706,7 @@ def update_account_stats(final_feed: list, parsed_data: dict):
 def main():
     print("=" * 60, flush=True)
     mode_str = "测试模式" if TEST_MODE else "全量模式"
-    print(f"昨晚硅谷在聊啥 v10.2 (网感标题优化 + 微信极简标头版 + 多端推送支持 - {mode_str})", flush=True)
+    print(f"昨晚硅谷在聊啥 v10.3 (立体抓取与高精打分版 - {mode_str})", flush=True)
     print("=" * 60, flush=True)
 
     if not TWITTERAPI_IO_KEY:
@@ -704,7 +716,7 @@ def main():
     today_str, _ = get_dates()
     all_raw_tweets = []
     
-    # 🚨 1. 抓取巨鲸池与专家池 (使用 TwitterAPI.io Advanced Search)
+    # 🚨 1. 抓取巨鲸池与专家池
     all_raw_tweets.extend(fetch_tweets_twitterapi_io(WHALE_ACCOUNTS, label="巨鲸"))
     all_raw_tweets.extend(fetch_tweets_twitterapi_io(EXPERT_ACCOUNTS, label="专家"))
     
@@ -716,45 +728,81 @@ def main():
         all_raw_tweets = [{"screen_name": "elonmusk", "text": "AI agents are replacing simple workflows everywhere.", "favorites": 10000, "created_at": "0101", "replies": 500, "t": "0101"}]
         
     all_posts_flat = []
+    lower_whales = set(a.lower() for a in WHALE_ACCOUNTS)
+    
     for t in all_raw_tweets:
         likes = t.get("favorites", 0)
+        replies = t.get("replies", 0)
         is_reply = bool(t.get("reply_to"))
-        if not is_reply or likes >= 5:
+        
+        author = t.get("screen_name", "Unknown")
+        is_whale = author.lower() in lower_whales
+        
+        raw_text = t.get("text", "")
+        clean_text = re.sub(r'https?://\S+', '', raw_text).strip()
+        
+        if not clean_text: continue
+        
+        # 🚨 启发 2: 本地多维打分矩阵 (彻底替代单一看点赞的逻辑)
+        score = likes * 1.0
+        if is_whale: score += 500
+        
+        keywords = ["ai", "llm", "agent", "gpt", "model", "release", "launch", "fund", "startup", "openai", "xai", "anthropic", "agi", "funding", "breakthrough"]
+        if any(k in clean_text.lower() for k in keywords):
+            score += 300
+            
+        if len(clean_text) < 30: score -= 1000
+        if is_reply: score -= 800
+        
+        if score > 0 or likes >= 20:
+            # 🚨 启发 3: 数据锚点 (强制附带真实互动数据)
+            anchored_text = f"{clean_text[:600]}\n❤️ {likes} | 💬 {replies}"
+            
             all_posts_flat.append({
-                "a": t.get("screen_name", "Unknown"), 
+                "a": author, 
                 "tweet_id": t.get("tweet_id", ""),
                 "l": likes, 
-                "r": t.get("replies", 0),
+                "r": replies,
+                "score": score,
                 "t": t.get("t", parse_twitter_date(t.get("created_at", ""))), 
-                "s": re.sub(r'https?://\S+', '', t.get("text", "")).strip()[:600], 
+                "s": anchored_text,
                 "qt": t.get("quote_text", "")[:200]
             })
 
-    all_posts_flat.sort(key=lambda x: x["l"], reverse=True)
+    # 按多维打分结果倒序排列
+    all_posts_flat.sort(key=lambda x: x["score"], reverse=True)
     
-    lower_whales = set(a.lower() for a in WHALE_ACCOUNTS)
     lower_experts = set(a.lower() for a in EXPERT_ACCOUNTS)
-    
     whale_feed, expert_feed, global_feed = [], [], []
     account_counts = {}
     
     for t in all_posts_flat:
-        if len(t.get("s", "")) <= 20: continue
         author = t.get("a", "Unknown").lower()
         if account_counts.get(author, 0) >= 3: continue
-            
         account_counts[author] = account_counts.get(author, 0) + 1
         
         if author in lower_whales: whale_feed.append(t)
         elif author in lower_experts: expert_feed.append(t)
         else: global_feed.append(t)
 
-    # 强制配额：限制输送给 LLM 的总数据量，防止超时
     final_feed = whale_feed[:15] + expert_feed[:60] + global_feed[:20]
+
+    # 🚨 启发 1: 立体抓取 (深挖高分神贴下面的神评论)
+    print(f"\n[深挖] 正在为 Top 10 高分话题抓取神回复...", flush=True)
+    top_items = sorted(final_feed, key=lambda x: x["score"], reverse=True)[:10]
+    for item in top_items:
+        replies_data = fetch_tweet_replies(item["tweet_id"], item["a"])
+        if replies_data:
+            reply_strs = []
+            for r in replies_data:
+                r_text = re.sub(r'https?://\S+', '', r.get("text", "")).strip()[:150]
+                r_likes = r.get("favorites", 0)
+                reply_strs.append(f"[神回复 @{r['screen_name']}]: {r_text} (❤️ {r_likes})")
+            item["s"] += "\n\n" + "\n".join(reply_strs)
+        time.sleep(1) # 控制 API 速率
 
     combined_jsonl = "\n".join(json.dumps(obj, ensure_ascii=False) for obj in final_feed)
 
-    # 🚨 3. 融合 Perplexity 宏观情报与 Tavily 外部动态 (已降权为纯数据补充)
     macro_info = fetch_macro_with_perplexity()
     tavily_info = fetch_global_news_with_tavily()
 
@@ -773,7 +821,6 @@ def main():
             
             render_feishu_card(parsed_data, today_str)
             
-            # 🚨 检查是否配置了微信 Webhooks，如果配置了则循环发送
             wechat_hooks = get_wechat_webhooks()
             if wechat_hooks:
                 html_content = render_wechat_html(parsed_data, cover_url)
@@ -781,11 +828,10 @@ def main():
                 wechat_title = f"{base_title} | 昨晚硅谷在聊啥？"
                 push_to_wechat(html_content, title=wechat_title, cover_url=cover_url)
                 
-            # 🚨 4. 每日存档与账号数据库更新
             save_daily_data(today_str, final_feed, xml_result)
             update_account_stats(final_feed, parsed_data)
             
-            print("\n🎉 V10.2 运行完毕！", flush=True)
+            print("\n🎉 V10.3 运行完毕！", flush=True)
         else:
             print("❌ LLM 处理失败，任务终止。")
 
