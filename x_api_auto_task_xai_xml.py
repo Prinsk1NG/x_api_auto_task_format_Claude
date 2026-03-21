@@ -424,7 +424,7 @@ def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_in
     prompt = _build_xml_prompt(data, today_str, macro_info, tavily_info)
     
     # 🚨 升级为最新的多智能体聚类模型，确保逻辑深邃且不出错
-    model_name = "grok-4-1-fast-reasoning" 
+    model_name = "grok-4.20-0309-reasoning" 
 
     print(f"\n[LLM/xAI] Requesting {model_name} via Official xai-sdk...", flush=True)
     client = Client(api_key=api_key)
