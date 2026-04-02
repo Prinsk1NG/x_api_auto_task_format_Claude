@@ -376,9 +376,9 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 
     <THEME type="new" emoji="🌱">
       <TITLE>主题标题：副标题</TITLE>
-      <NARRATIVE>一句话新趋势定义</NARRATIVE>
+      <NARRATIVE>一句话新趋势/新叙事（或已有叙事的重大转向）定义</NARRATIVE>
       <TWEET account="信息源" role="身份标签">【严禁纯英文】以中文为主精练核心观点。🚨必须在推文末尾附带真实的互动数据（如 ❤️ 39190 | 💬 1904）</TWEET>
-      <OUTLOOK>对该新叙事的深度解读与未来展望</OUTLOOK>
+      <OUTLOOK>对该新趋势/新叙事（已有叙事的重大转向）的深度解读与未来展望</OUTLOOK>
       <OPPORTUNITY>可能带来的机会</OPPORTUNITY>
       <RISK>警惕的陷阱或风险</RISK>
     </THEME>
