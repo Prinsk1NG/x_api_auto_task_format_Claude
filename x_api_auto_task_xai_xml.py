@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v10.4 (硅谷日报：高并发降本 + 点赞数据修复版)
-Architecture: TwitterAPI.io -> PPLX/Tavily -> xAI SDK -> Clean UI
+x_api_auto_task_xai_xml.py  v10.5 (硅谷日报完全体：活名单 + 深度推理 + 强力生图 + 账号复盘)
+Architecture: TwitterAPI.io -> PPLX/Tavily -> xAI SDK (Reasoning) -> Clean UI
 """
 
 import os
@@ -45,32 +45,14 @@ def D(b64_str):
 URL_SF_IMAGE   = D("aHR0cHM6Ly9hcGkuc2lsaWNvbmZsb3cuY24vdjEvaW1hZ2VzL2dlbmVyYXRpb25z")
 URL_IMGBB      = D("aHR0cHM6Ly9hcGkuaW1nYmIuY29tLzEvdXBsb2Fk")
 
-# ── 单独拎出“巨鲸”账号
-WHALE_ACCOUNTS = [
-    "elonmusk", "sama", "gregbrockman", "pmarca", "lexfridman"
-]
+# 🚨 动态读取外部名单系统
+def load_account_list(filename):
+    if not os.path.exists(filename): return []
+    with open(filename, "r", encoding="utf-8") as f:
+        return [line.strip() for line in f if line.strip()]
 
-# ── 剩下的硬核专家/开发者/VC/中文AI核心圈
-EXPERT_ACCOUNTS = [
-    "karpathy", "demishassabis", "darioamodei", "OpenAI", "AnthropicAI", 
-    "GoogleDeepMind", "xAI", "AIatMeta", "GoogleAI", "MSFTResearch", 
-    "IlyaSutskever", "GaryMarcus", "rowancheung", "clmcleod", "bindureddy",
-    "dotey", "oran_ge", "vista8", "imxiaohu", "Sxsyer",
-    "K_O_D_A_D_A", "tualatrix", "linyunqiu", "garywong", "web3buidl",
-    "AI_Era", "AIGC_News", "jiangjiang", "hw_star", "mranti", "nishuang",
-    "a16z", "ycombinator", "lightspeedvp", "sequoia", "foundersfund",
-    "eladgil", "bchesky", "chamath", "paulg", "TheInformation", 
-    "TechCrunch", "verge", "WIRED", "Scobleizer", "bentossell",
-    "HuggingFace", "MistralAI", "Perplexity_AI", "GroqInc", "Cohere",
-    "TogetherCompute", "runwayml", "Midjourney", "StabilityAI", "Scale_AI",
-    "CerebrasSystems", "tenstorrent", "weights_biases", "langchainai", "llama_index",
-    "supabase", "vllm_project", "huggingface_hub", "nvidia", "AMD", 
-    "Intel", "SKhynix", "tsmc", "magicleap", "NathieVR", "PalmerLuckey", 
-    "ID_AA_Carmack", "boz", "rabovitz", "htcvive", "XREAL_Global", "RayBan", 
-    "MetaQuestVR", "PatrickMoorhead", "jeffdean", "chrmanning", "hardmaru", 
-    "goodfellow_ian", "feifeili", "_akhaliq", "promptengineer", "AI_News_Tech", 
-    "siliconvalley", "aithread", "aibreakdown", "aiexplained", "aipubcast", "hubermanlab", "swyx"
-]
+WHALE_ACCOUNTS = load_account_list("whales.txt")
+EXPERT_ACCOUNTS = load_account_list("experts.txt")
 
 if TEST_MODE:
     WHALE_ACCOUNTS = WHALE_ACCOUNTS[:2]
@@ -145,31 +127,6 @@ def fetch_macro_with_perplexity() -> str:
     except Exception as e: print(f"  ❌ Perplexity 抛出异常: {e}", flush=True)
     return ""
 
-def fetch_leaders_with_tavily(accounts: list) -> str:
-    if not TAVILY_KEYS: return ""
-    track_list = accounts[:45]
-    print(f"\n🐦 [领袖盯盘员] 扫描 {len(track_list)} 位核心大佬的站外动态...", flush=True)
-    chunk_size = 15
-    leader_chunks = [",".join(track_list[i:i + chunk_size]) for i in range(0, len(track_list), chunk_size)]
-    url = "https://api.tavily.com/search"
-    headers = {"Content-Type": "application/json"}
-    aggregated_context = ""
-
-    for i, chunk in enumerate(leader_chunks, 1):
-        current_tk = get_random_tavily_key()
-        try:
-            payload = {"api_key": current_tk, "query": f"Today's AI tech news from: {chunk}", "search_depth": "advanced", "topic": "news", "days": 1, "include_answer": True}
-            response = requests.post(url, json=payload, headers=headers, timeout=45)
-            if response.status_code == 200:
-                data = response.json()
-                aggregated_context += f"\n\n### [第 {i} 组大佬外部情报]\n" + data.get("answer", "")
-                for result in data.get("results", [])[:3]:
-                    aggregated_context += f"\n- [{result['title']}]({result['url']}): {result['content']}"
-        except: pass
-        time.sleep(1.5) 
-    print(f"  ✅ Tavily 领袖矩阵检索完毕。", flush=True)
-    return aggregated_context
-
 def fetch_global_news_with_tavily() -> str:
     if not TAVILY_KEYS: return ""
     print(f"\n🌍 [全网雷达] 扫描全球 AI 硬核项目...", flush=True)
@@ -190,7 +147,7 @@ def fetch_global_news_with_tavily() -> str:
     return aggregated_context
 
 # ==============================================================================
-# 🚀 第一阶段：TwitterAPI.io 强大且纯净的原生抓取 (数据修复与并发优化版)
+# 🚀 第一阶段：TwitterAPI.io 强大且纯净的原生抓取 
 # ==============================================================================
 def parse_tweets_recursive(data) -> list:
     all_tweets = []
@@ -212,7 +169,6 @@ def parse_tweets_recursive(data) -> list:
                 t_id = obj.get("rest_id") or obj.get("id_str") or obj.get("id") or obj.get("tweet_id")
                 if not t_id and obj.get("legacy"): t_id = obj["legacy"].get("id_str")
                 
-                # 🚨 核心修复：全面支持 TwitterAPI.io 的驼峰命名法（likeCount, replyCount）
                 fav = obj.get("favorite_count") or obj.get("favorites") or obj.get("likes") or obj.get("like_count") or obj.get("likeCount") or 0
                 if not fav and obj.get("legacy"): fav = obj["legacy"].get("favorite_count", 0)
                 
@@ -248,13 +204,14 @@ def fetch_tweets_twitterapi_io(accounts: list, label: str) -> list:
         print(f"⚠️ 未配置 twitterapi_io_KEY，跳过{label}抓取", flush=True)
         return []
     
+    if not accounts: return []
+
     yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
     all_tweets = []
     print(f"\n⏳ [{label}扫盘] 启动 TwitterAPI.io 并发扫描，共 {len(accounts)} 人...", flush=True)
     headers = {"X-API-Key": TWITTERAPI_IO_KEY}
     url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
     
-    # 🚨 核心修复：重新装载 Chunking 逻辑，防止查询次数超标
     chunk_size = 5
     chunks = [accounts[i:i + chunk_size] for i in range(0, len(accounts), chunk_size)]
     
@@ -277,7 +234,7 @@ def fetch_tweets_twitterapi_io(accounts: list, label: str) -> list:
     return all_tweets
 
 def fetch_mentions_twitterapi(accounts: list) -> list:
-    if not TWITTERAPI_IO_KEY: return []
+    if not TWITTERAPI_IO_KEY or not accounts: return []
     yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
     all_tweets = []
     
@@ -302,36 +259,7 @@ def fetch_mentions_twitterapi(accounts: list) -> list:
         time.sleep(1)
     return all_tweets
 
-def fetch_global_hot_tweets_twitterapi() -> list:
-    if not TWITTERAPI_IO_KEY: return []
-    yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
-    all_tweets = []
-    
-    print(f"\n📡 [X平台热点] 扫描全球 AI 突发热点...", flush=True)
-    queries = [
-        f'(AI OR "artificial intelligence" OR LLM OR OpenAI OR xAI OR Grok OR Anthropic) since:{yesterday} min_faves:300 -filter:retweets',
-        f'(AI OR LLM) (release OR launch OR breakthrough) since:{yesterday} min_faves:100 -filter:retweets'
-    ]
-    
-    headers = {"X-API-Key": TWITTERAPI_IO_KEY}
-    url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
-    
-    for idx, q in enumerate(queries, 1):
-        params = {"query": q, "queryType": "Top"}
-        try:
-            resp = requests.get(url, headers=headers, params=params, timeout=25)
-            if resp.status_code == 200:
-                tweets = parse_tweets_recursive(resp.json())
-                for t in tweets: t["t"] = parse_twitter_date(t.get("created_at", ""))
-                all_tweets.extend(tweets)
-                print(f"    ✅ 策略 {idx} 成功捕获 {len(tweets)} 条。")
-        except: pass
-        time.sleep(1)
-        
-    return all_tweets
-
 def fetch_tweet_replies(tweet_id, screen_name):
-    """自动挖掘热帖下的神评论，还原真实共识与分歧"""
     if not TWITTERAPI_IO_KEY or not tweet_id: return []
     url = "https://api.twitterapi.io/twitter/tweet/advanced_search"
     headers = {"X-API-Key": TWITTERAPI_IO_KEY}
@@ -341,7 +269,6 @@ def fetch_tweet_replies(tweet_id, screen_name):
         resp = requests.get(url, headers=headers, params=params, timeout=15)
         if resp.status_code == 200:
             tweets = parse_tweets_recursive(resp.json())
-            # 按点赞数从高到低排序，提取头两名
             tweets = sorted(tweets, key=lambda x: x.get("favorites", 0), reverse=True)
             return tweets[:2]
     except Exception: pass
@@ -423,7 +350,7 @@ def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_in
     data = combined_jsonl[:max_data_chars] if len(combined_jsonl) > max_data_chars else combined_jsonl
     prompt = _build_xml_prompt(data, today_str, macro_info, tavily_info)
     
-    # 🚨 升级为最新的多智能体聚类模型，确保逻辑深邃且不出错
+    # 🚨 锁死推理模型
     model_name = "grok-4.20-0309-reasoning" 
 
     print(f"\n[LLM/xAI] Requesting {model_name} via Official xai-sdk...", flush=True)
@@ -437,11 +364,14 @@ def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_in
             
             result = chat.sample().content.strip()
             
+            # 🚨 核心手术：切除推理模型的 <think> 内部独白，防止它破坏正则解析！
+            result = re.sub(r'<think>.*?</think>', '', result, flags=re.DOTALL | re.IGNORECASE).strip()
+            
             # 清洗可能存在的 Markdown 代码块包裹
             result = re.sub(r'^`{3}(?:xml|jsonl|json)?\n', '', result, flags=re.MULTILINE)
             result = re.sub(r'^`{3}\n?', '', result, flags=re.MULTILINE)
             
-            print(f"[LLM/xAI] OK Response received ({len(result)} chars)", flush=True)
+            print(f"[LLM/xAI] OK Response received ({len(result)} chars after cleanup)", flush=True)
             return result
         except Exception as e:
             print(f"[LLM/xAI] Attempt {attempt} failed: {e}", flush=True)
@@ -643,12 +573,25 @@ def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
     return "".join(html_lines)
 
 
+# 🚨 核心强化：显微镜级生图防抖底盘，打印一切真实报错
 def generate_cover_image(prompt):
-    if not SF_API_KEY or not prompt: return ""
+    if not SF_API_KEY or not prompt: 
+        print("⚠️ 生图跳过：未收到生图 prompt 或未配置 SF_API_KEY", flush=True)
+        return ""
     try:
-        resp = requests.post(URL_SF_IMAGE, headers={"Authorization": f"Bearer {SF_API_KEY}", "Content-Type": "application/json"}, json={"model": "Kwai-Kolors/Kolors", "prompt": prompt, "n": 1, "image_size": "1024x576"}, timeout=60)
-        if resp.status_code == 200: return resp.json().get("images", [{}])[0].get("url") or resp.json().get("data", [{}])[0].get("url")
-    except: pass
+        resp = requests.post(
+            URL_SF_IMAGE, 
+            headers={"Authorization": f"Bearer {SF_API_KEY}", "Content-Type": "application/json"}, 
+            json={"model": "Kwai-Kolors/Kolors", "prompt": prompt, "image_size": "1024x576"}, 
+            timeout=60
+        )
+        if resp.status_code == 200:
+            print("🎨 生图成功！", flush=True)
+            return resp.json().get("images", [{}])[0].get("url") or resp.json().get("data", [{}])[0].get("url")
+        else:
+            print(f"⚠️ 硅基流动报错 | 状态码: {resp.status_code} | 信息: {resp.text}", flush=True)
+    except Exception as e:
+        print(f"⚠️ 生图代码异常抛出: {e}", flush=True)
     return ""
 
 def upload_to_imgbb_via_url(sf_url):
@@ -721,7 +664,7 @@ def update_account_stats(final_feed: list, parsed_data: dict):
 def main():
     print("=" * 60, flush=True)
     mode_str = "测试模式" if TEST_MODE else "全量模式"
-    print(f"昨晚硅谷在聊啥 v10.4 (硅谷日报立体抓取与高并发修复版 - {mode_str})", flush=True)
+    print(f"昨晚硅谷在聊啥 v10.5 (完全体与动态架构版 - {mode_str})", flush=True)
     print("=" * 60, flush=True)
 
     if not TWITTERAPI_IO_KEY:
@@ -758,7 +701,6 @@ def main():
         
         if not clean_text: continue
         
-        # 🚨 启发 2: 本地多维打分矩阵 (彻底替代单一看点赞的逻辑)
         score = likes * 1.0
         if is_whale: score += 500
         
@@ -770,7 +712,6 @@ def main():
         if is_reply: score -= 800
         
         if score > 0 or likes >= 20:
-            # 🚨 启发 3: 数据锚点 (强制附带真实互动数据)
             anchored_text = f"{clean_text[:600]}\n❤️ {likes} | 💬 {replies}"
             
             all_posts_flat.append({
@@ -784,7 +725,6 @@ def main():
                 "qt": t.get("quote_text", "")[:200]
             })
 
-    # 按多维打分结果倒序排列
     all_posts_flat.sort(key=lambda x: x["score"], reverse=True)
     
     lower_experts = set(a.lower() for a in EXPERT_ACCOUNTS)
@@ -802,7 +742,6 @@ def main():
 
     final_feed = whale_feed[:15] + expert_feed[:60] + global_feed[:20]
 
-    # 🚨 启发 1: 立体抓取 (深挖高分神贴下面的神评论)
     print(f"\n[深挖] 正在为 Top 10 高分话题抓取神回复...", flush=True)
     top_items = sorted(final_feed, key=lambda x: x["score"], reverse=True)[:10]
     for item in top_items:
@@ -814,7 +753,7 @@ def main():
                 r_likes = r.get("favorites", 0)
                 reply_strs.append(f"[神回复 @{r['screen_name']}]: {r_text} (❤️ {r_likes})")
             item["s"] += "\n\n" + "\n".join(reply_strs)
-        time.sleep(1) # 控制 API 速率
+        time.sleep(1)
 
     combined_jsonl = "\n".join(json.dumps(obj, ensure_ascii=False) for obj in final_feed)
 
@@ -829,10 +768,14 @@ def main():
             print("\n[Parser] Parsing XML to structured data...", flush=True)
             parsed_data = parse_llm_xml(xml_result)
             
+            # 🚨 修改：强化生图提取逻辑与 Debug 打印
             cover_url = ""
             if parsed_data["cover"]["prompt"]:
+                print(f"\n[生图] 提取到生图提示词: {parsed_data['cover']['prompt'][:50]}...", flush=True)
                 sf_url = generate_cover_image(parsed_data["cover"]["prompt"])
                 cover_url = upload_to_imgbb_via_url(sf_url) if sf_url else ""
+            else:
+                print("\n[生图] ⚠️ 警告：未能从大模型返回的 XML 中解析出 prompt 属性！", flush=True)
             
             render_feishu_card(parsed_data, today_str)
             
@@ -846,7 +789,7 @@ def main():
             save_daily_data(today_str, final_feed, xml_result)
             update_account_stats(final_feed, parsed_data)
             
-            print("\n🎉 V10.4 运行完毕！", flush=True)
+            print("\n🎉 V10.5 运行完毕！", flush=True)
         else:
             print("❌ LLM 处理失败，任务终止。")
 
