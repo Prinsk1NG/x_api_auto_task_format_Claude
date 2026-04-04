@@ -247,6 +247,15 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 你是一位顶级的 AI 行业一级市场投资分析师及新媒体主编。
 你的任务是基于提供的【一手推特数据】、外部宏观新闻及大佬历史记忆，提炼出今日硅谷的【重大叙事动态】。
 
+【封面图生成指令】：
+你必须为 <COVER> 标签生成一个高度定制化的 prompt 属性：
+1. 严禁千篇一律地使用“赛博朋克、霓虹、紫色”！
+2. 构图原则：必须紧扣你为本次日报拟定的“爆款标题”。
+   - 若标题涉及【硬件/机器人】：风格应为“超写实工业设计感 (Industrial Design, 8K, cinematic lighting)”。
+   - 若标题涉及【模型开源/软件突破】：风格应为“科技极简或数据流艺术 (Minimalism, data visualization, neural nodes)”。
+   - 若标题涉及【行业并购/商业策略】：风格应为“宏大的未来感建筑或战棋推演感 (Grand architectural metaphors, strategic map)”。
+3. 提示词要求：100字左右的纯英文，包含具体的构图、材质、光影细节。 
+
 【核心任务：叙事挖掘】
 不要做推文的搬运工。请像研究员一样，从 75 条推文中分析出：
 1. 哪些是正在产生的【新叙事】（从未见过的新观点、新项目或新范式）。
@@ -260,7 +269,7 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 
 【输出结构规范】(必须严格输出纯净XML)
 <REPORT>
-  <COVER title="10-20字爆款标题" prompt="100字英文图生图提示词，赛博朋克风" insight="30字核心洞察"/>
+  <COVER title="10-20字爆款标题" prompt="[基于上述原则生成的定制化英文提示词]" insight="30字核心洞察"/>
   <PULSE>用一句话总结今日最核心的叙事流向。</PULSE>
   
   <THEMES>
