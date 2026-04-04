@@ -1,32 +1,56 @@
-name: Bi-Weekly HR Manager
+name: 硅谷情报局半月度名单维护 (1号/15号)
 
 on:
-  # 每月 1 号和 15 号的凌晨 2 点（UTC时间）执行考核
+  # 定时触发：每个月的 1号 和 15号 的北京时间上午 10:00 (避开早高峰抓取)
   schedule:
     - cron: '0 2 1,15 * *'
-    
-  # 允许手动随时触发考核
+  
   workflow_dispatch:
+    inputs:
+      test_mode:
+        description: '🧪 开启测试模式'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
 
 jobs:
-  review:
+  maintain-list:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout Code
+      - name: 1. 拉取最新代码 (包含 data 目录历史记录)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Set up Python
+      - name: 2. 安装 Python 3.10
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-
-      - name: Run HR Manager Script
-        run: python hr_manager.py
-
-      - name: Commit and Push Updated Lists
+          
+      - name: 3. 安装依赖
+        run: pip install requests
+          
+      - name: 4. 运行 HR Manager (半月度洗牌算法)
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}     
+          FEISHU_WEBHOOK_URL_1: ${{ secrets.FEISHU_WEBHOOK_URL_1 }} 
+          JIJYUN_WEBHOOK_URL: ${{ secrets.JIJYUN_WEBHOOK_URL }}     
+          TEST_MODE_ENV: ${{ github.event.inputs.test_mode == 'true' && 'true' || 'false' }}
         run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # 🚨 这里已经为你修改为新的文件名
+          python hr_manager.py
+
+      - name: 5. 自动提交新名单
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add whales.txt experts.txt data/account_stats.json
-          git commit -m "🤖 HR Bot: 自动淘汰水军、提拔巨鲸与重置报表" || echo "No changes to commit"
+          
+          # 🚨 仅提交可能被 HR 修改的 experts.txt
+          git add experts.txt || true
+          
+          git commit -m "🤖 [HR Manager] Portfolio Rebalancing: Automatically update experts list" || echo "No changes to commit"
           git push
