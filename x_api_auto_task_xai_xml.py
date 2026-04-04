@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v13.1 (终极缝合版：V13精准抓取 + V10.6原版Grok推理与排版)
+x_api_auto_task_xai_xml.py  v13.2 (终极强力探针版：V13精准抓取 + V10.6原版推理与渲染)
 Architecture: TwitterAPI.io -> PPLX/Tavily -> xAI SDK (Reasoning) + Memory Bank
 """
 
@@ -45,7 +45,7 @@ def D(b64_str):
 URL_SF_IMAGE   = D("aHR0cHM6Ly9hcGkuc2lsaWNvbmZsb3cuY24vdjEvaW1hZ2VzL2dlbmVyYXRpb25z")
 URL_IMGBB      = D("aHR0cHM6Ly9hcGkuaW1nYmIuY29tLzEvdXBsb2Fk")
 
-# ── 🚨 修复点：V13 抓取引擎需要的全局时间窗与 API 基础配置 ──
+# ── V13 抓取引擎需要的全局时间窗与 API 基础配置 ──
 BASE_URL = "https://api.twitterapi.io"
 NOW_UTC = datetime.now(timezone.utc)
 SINCE_24H = NOW_UTC - timedelta(days=1)
@@ -73,11 +73,9 @@ TARGET_SET = set(WHALE_ACCOUNTS + EXPERT_ACCOUNTS)
 def get_feishu_webhooks() -> list:
     urls = []
     if TEST_MODE:
-        # 测试模式只发调试群
         url = os.getenv("FEISHU_WEBHOOK_URL", "")
         if url: urls.append(url)
     else:
-        # 正式模式发往所有主群配置
         for suffix in ["", "_1", "_2", "_3"]:
             url = os.getenv(f"FEISHU_WEBHOOK_URL{suffix}", "")
             if url: urls.append(url)
@@ -290,7 +288,6 @@ def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_in
     data = combined_jsonl[:100000] if len(combined_jsonl) > 100000 else combined_jsonl
     prompt = _build_xml_prompt(data, today_str, macro_info, tavily_info, memory_context)
     
-    # 严格使用你指定的推理模型
     model_name = "grok-4.20-0309-reasoning" 
     print(f"\n[LLM/xAI] Requesting {model_name} via Official xai-sdk...", flush=True)
     client = Client(api_key=api_key)
@@ -554,11 +551,11 @@ def update_account_stats(final_feed: list, parsed_data: dict):
     stats_file.write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
 
 # ==============================================================================
-# 🚀 MAIN 入口
+# 🚀 MAIN 入口 (带 API 强力报错探针版)
 # ==============================================================================
 def main():
     print("=" * 60, flush=True)
-    print(f"昨晚硅谷在聊啥 v13.1 (完美缝合: V13抓取 + V10.6推理与渲染)", flush=True)
+    print(f"昨晚硅谷在聊啥 v13.2 (强力纠错探针版)", flush=True)
     print("=" * 60, flush=True)
 
     if not TWITTERAPI_IO_KEY or not TARGET_SET:
@@ -573,46 +570,62 @@ def main():
     print(f"🚀 开始抓取 {len(TARGET_SET)} 位核心节点的最新动态...", flush=True)
     all_raw = []
     acc_list = list(TARGET_SET)
-    for i in range(0, len(acc_list), 15):
-        chunk = acc_list[i:i+15]
-        # 原创抓取
+    
+    # 🚨 将分块大小从 15 降到 10，防止 Query 字符串超长被服务端拒绝
+    for i in range(0, len(acc_list), 10):
+        chunk = acc_list[i:i+10]
         q1 = "(" + " OR ".join([f"from:{a}" for a in chunk]) + f") since:{SINCE_DATE_STR} -filter:retweets"
+        
         try:
-            d1 = requests.get(f"{BASE_URL}/twitter/tweet/advanced_search", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"query": q1, "queryType": "Latest"}, timeout=25).json()
-            if d1 and d1.get("tweets"):
-                for t in d1["tweets"]:
-                    ct = unify_schema(t)
-                    if ct["created_ts"] >= SINCE_TS: all_raw.append(ct)
-        except: pass
+            resp1 = requests.get(f"{BASE_URL}/twitter/tweet/advanced_search", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"query": q1, "queryType": "Latest"}, timeout=25)
+            if resp1.status_code == 200:
+                d1 = resp1.json()
+                if d1 and d1.get("tweets"):
+                    for t in d1["tweets"]:
+                        ct = unify_schema(t)
+                        if ct["created_ts"] >= SINCE_TS: all_raw.append(ct)
+            else:
+                print(f"⚠️ [API 报错] 原创抓取失败 (状态码: {resp1.status_code}): {resp1.text}", flush=True)
+        except Exception as e:
+            print(f"⚠️ [网络异常] 原创抓取请求超时或断开: {e}", flush=True)
                 
-        # 外部高赞回响抓取
         q2 = "(" + " OR ".join([f"@{a}" for a in chunk]) + f") since:{SINCE_DATE_STR} min_faves:15 -filter:replies"
         try:
-            d2 = requests.get(f"{BASE_URL}/twitter/tweet/advanced_search", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"query": q2, "queryType": "Top"}, timeout=25).json()
-            if d2 and d2.get("tweets"):
-                for t in d2["tweets"]:
-                    ct = unify_schema(t)
-                    if ct["created_ts"] >= SINCE_TS: all_raw.append(ct)
-        except: pass
-        time.sleep(1)
+            resp2 = requests.get(f"{BASE_URL}/twitter/tweet/advanced_search", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"query": q2, "queryType": "Top"}, timeout=25)
+            if resp2.status_code == 200:
+                d2 = resp2.json()
+                if d2 and d2.get("tweets"):
+                    for t in d2["tweets"]:
+                        ct = unify_schema(t)
+                        if ct["created_ts"] >= SINCE_TS: all_raw.append(ct)
+            else:
+                print(f"⚠️ [API 报错] 回响抓取失败 (状态码: {resp2.status_code}): {resp2.text}", flush=True)
+        except Exception as e:
+            print(f"⚠️ [网络异常] 回响抓取请求超时或断开: {e}", flush=True)
+            
+        time.sleep(1.5) # 稍微延长休眠，防止触发限流
+
+    if not all_raw:
+        print("❌ 严重警告：本次运行未能从推特抓取到任何有效数据。请检查上述 API 报错日志！", flush=True)
+        # 如果一条推文都没有，直接终止，防止 Grok 凭空制造幻觉
+        return
 
     top_feed = score_and_filter(all_raw)
-    
-    # 🎯 步骤 2: 分层架构 - Top 15 钻取神回复，后 60 条只给文本
     tier_1 = top_feed[:15]
     tier_2 = top_feed[15:75]
     
-    print(f"\n[深挖] 正在为 Tier 1 (Top 15) 高分话题抓取神回复...", flush=True)
+    print(f"\n[深挖] 正在为 Tier 1 (Top {len(tier_1)}) 高分话题抓取神回复...", flush=True)
     for t in tier_1:
         try:
-            d3 = requests.get(f"{BASE_URL}/twitter/tweet/replies", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"tweetId": t["id"]}, timeout=15).json()
-            if d3 and d3.get("tweets"):
-                replies = sorted([unify_schema(r) for r in d3["tweets"]], key=lambda x: x["likes"], reverse=True)
-                t["deep_replies"] = replies[:3]
+            resp3 = requests.get(f"{BASE_URL}/twitter/tweet/replies", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"tweetId": t["id"]}, timeout=15)
+            if resp3.status_code == 200:
+                d3 = resp3.json()
+                if d3 and d3.get("tweets"):
+                    replies = sorted([unify_schema(r) for r in d3["tweets"]], key=lambda x: x["likes"], reverse=True)
+                    t["deep_replies"] = replies[:3]
         except: pass
         time.sleep(1)
 
-    # 转化为 V10.6 LLM 期望的 JSONL 格式
     formatted_feed = []
     for t in tier_1:
         reply_strs = [f"[神回复 @{r['author']}]: {r['text'][:150]} (❤️ {r['likes']})" for r in t["deep_replies"]]
@@ -643,7 +656,6 @@ def main():
         if xml_result:
             parsed_data = parse_llm_xml(xml_result)
             
-            # 🧠 把大模型提炼的今日观点，更新写回记忆库
             update_character_memory(parsed_data, today_str)
             
             cover_url = ""
@@ -654,14 +666,12 @@ def main():
             else:
                 print("\n[生图] ⚠️ 警告：未解析出 prompt 属性！", flush=True)
             
-            # 推送飞书与微信
             render_feishu_card(parsed_data, today_str)
             wechat_hooks = get_wechat_webhooks()
             if wechat_hooks:
                 html_content = render_wechat_html(parsed_data, cover_url)
                 push_to_wechat(html_content, title=f"{parsed_data['cover']['title'] or '今日核心动态'} | 昨晚硅谷在聊啥", cover_url=cover_url)
                 
-            # 保存归档与数据统计
             save_daily_data(today_str, formatted_feed, xml_result)
             update_account_stats(formatted_feed, parsed_data)
             
