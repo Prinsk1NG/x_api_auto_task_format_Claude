@@ -138,46 +138,30 @@ def unify_schema(t):
 
 
 
-def score_and_filter(tweets):
-    unique_tweets = {}
-    for t in tweets:
-        t_id = t.get("id")
-        if not t_id or t_id == "None":
+def score_and_filter(posts: list) -> list:
+    seen = set()
+    cleaned = []
+    for t in posts or []:
+        tid = str(t.get("id", "")).strip()
+        text_value = norm_text(t.get("text", ""))
+        if not tid or not text_value or tid in seen:
             continue
-        if t_id in unique_tweets:
+        seen.add(tid)
+        if is_low_information_main_tweet(text_value):
             continue
-
-        score = t["likes"] * 1.0 + t["replies"] * 2.0 + t["quotes"] * 3.0
-        text_lower = t["text"].lower()
-
-        if t["author"] in WHALE_ACCOUNTS:
-            score += 500
-        elif t["author"] in EXPERT_ACCOUNTS:
-            score += 50
-
-        if any(kw in text_lower for kw in AI_KEYWORDS):
-            score += 300
-
-        clean_text = re.sub(r'https?://\S+|@\w+', '', text_lower).strip()
-        if len(clean_text) < 15:
-            score -= 500
-        if t["text"].count('@') > 5:
-            score -= 1000
-
-        t["score"] = max(0, score)
-        if t["score"] > 0 or t["likes"] > 15:
-            unique_tweets[t_id] = t
-
-    scored_list = sorted(unique_tweets.values(), key=lambda x: x["score"], reverse=True)
-    author_counts = {}
-    final_capped = []
-    for t in scored_list:
-        if author_counts.get(t["author"], 0) < 3:
-            final_capped.append(t)
-            author_counts[t["author"]] = author_counts.get(t["author"], 0) + 1
-    return final_capped
-
-
+        likes = int(t.get("likes", 0) or 0)
+        replies = int(t.get("replies", 0) or 0)
+        quotes = int(t.get("quotes", 0) or 0)
+        base_score = likes + replies * 2 + quotes * 3
+        total_score = base_score + apply_ai_relevance(t) - low_information_penalty(text_value)
+        if total_score < 300:
+            continue
+        t["score"] = round(total_score, 2)
+        t["source_type"] = "target" if is_target_account(t.get("author", "")) else "echo"
+        cleaned.append(t)
+    cleaned.sort(key=lambda x: x.get("score", 0), reverse=True)
+    cleaned = enforce_author_diversity_cap(cleaned, REPORT_POOL_LIMIT)
+    return cleaned
 
 def fetch_advanced_search_pages(query: str, query_type: str = "Latest", max_pages: int = 2) -> list:
     results = []
@@ -421,6 +405,8 @@ def parse_llm_xml(xml_text: str) -> dict:
         print("⚠️ [解析] xml_text 为空。", flush=True)
         return data
 
+    xml_text = normalize_xml_aliases(xml_text)
+
     def extract_tweets(block: str):
         tweets = []
         if not block:
@@ -438,78 +424,81 @@ def parse_llm_xml(xml_text: str) -> dict:
         return tweets
 
     cover_match = re.search(r'<COVER\s+title=[\'\"“”](.*?)[\'\"“”]\s+prompt=[\'\"“”](.*?)[\'\"“”]\s+insight=[\'\"“”](.*?)[\'\"“”]\s*/?>', xml_text, re.IGNORECASE | re.DOTALL)
-    if not cover_match:
-        cover_match = re.search(r'<COVER\s+title="(.*?)"\s+prompt="(.*?)"\s+insight="(.*?)"\s*/?>', xml_text, re.IGNORECASE | re.DOTALL)
     if cover_match:
-        data["cover"] = {"title": cover_match.group(1).strip(), "prompt": cover_match.group(2).strip(), "insight": cover_match.group(3).strip()}
+        data["cover"] = {
+            "title": cover_match.group(1).strip(),
+            "prompt": cover_match.group(2).strip(),
+            "insight": cover_match.group(3).strip(),
+        }
+    else:
+        nested_cover = re.search(r'<COVER>(.*?)</COVER>', xml_text, re.IGNORECASE | re.DOTALL)
+        if nested_cover:
+            block = nested_cover.group(1)
+            title_m = re.search(r'<title>(.*?)</title>', block, re.IGNORECASE | re.DOTALL)
+            prompt_m = re.search(r'<prompt>(.*?)</prompt>', block, re.IGNORECASE | re.DOTALL)
+            insight_m = re.search(r'<insight>(.*?)</insight>', block, re.IGNORECASE | re.DOTALL)
+            data["cover"] = {
+                "title": title_m.group(1).strip() if title_m else "",
+                "prompt": prompt_m.group(1).strip() if prompt_m else "",
+                "insight": insight_m.group(1).strip() if insight_m else "",
+            }
 
     pulse_match = re.search(r'<PULSE>(.*?)</PULSE>', xml_text, re.IGNORECASE | re.DOTALL)
     if pulse_match:
-        data["pulse"] = pulse_match.group(1).strip()
+        data["pulse"] = re.sub(r'\s+', ' ', pulse_match.group(1)).strip()
 
-    for theme_match in re.finditer(r'<THEME([^>]*)>(.*?)</THEME>', xml_text, re.IGNORECASE | re.DOTALL):
-        attrs = theme_match.group(1)
-        theme_body = theme_match.group(2)
-
+    for theme_match in re.finditer(r'<THEME\b([^>]*)>(.*?)</THEME>', xml_text, re.IGNORECASE | re.DOTALL):
+        attrs = theme_match.group(1) or ""
+        theme_body = theme_match.group(2) or ""
         type_m = re.search(r'type\s*=\s*[\'\"“”](.*?)[\'\"“”]', attrs, re.IGNORECASE)
         emoji_m = re.search(r'emoji\s*=\s*[\'\"“”](.*?)[\'\"“”]', attrs, re.IGNORECASE)
-        theme_type = type_m.group(1).strip().lower() if type_m else "shift"
-        emoji = emoji_m.group(1).strip() if emoji_m else "🔥"
-
-        t_tag = re.search(r'<TITLE>(.*?)</TITLE>', theme_body, re.IGNORECASE | re.DOTALL)
-        theme_title = t_tag.group(1).strip() if t_tag else ""
-
-        narrative_match = re.search(r'<NARRATIVE>(.*?)</NARRATIVE>', theme_body, re.IGNORECASE | re.DOTALL)
-        narrative = narrative_match.group(1).strip() if narrative_match else ""
-
+        title_m = re.search(r'<TITLE>(.*?)</TITLE>', theme_body, re.IGNORECASE | re.DOTALL)
+        narrative_m = re.search(r'<NARRATIVE>(.*?)</NARRATIVE>', theme_body, re.IGNORECASE | re.DOTALL)
+        consensus_m = re.search(r'<CONSENSUS>(.*?)</CONSENSUS>', theme_body, re.IGNORECASE | re.DOTALL)
+        divergence_m = re.search(r'<DIVERGENCE>(.*?)</DIVERGENCE>', theme_body, re.IGNORECASE | re.DOTALL)
+        outlook_m = re.search(r'<OUTLOOK>(.*?)</OUTLOOK>', theme_body, re.IGNORECASE | re.DOTALL)
+        opportunity_m = re.search(r'<OPPORTUNITY>(.*?)</OPPORTUNITY>', theme_body, re.IGNORECASE | re.DOTALL)
+        risk_m = re.search(r'<RISK>(.*?)</RISK>', theme_body, re.IGNORECASE | re.DOTALL)
         tweets = extract_tweets(theme_body)
-
-        con_match = re.search(r'<CONSENSUS>(.*?)</CONSENSUS>', theme_body, re.IGNORECASE | re.DOTALL)
-        consensus = con_match.group(1).strip() if con_match else ""
-        div_match = re.search(r'<DIVERGENCE>(.*?)</DIVERGENCE>', theme_body, re.IGNORECASE | re.DOTALL)
-        divergence = div_match.group(1).strip() if div_match else ""
-
-        out_match = re.search(r'<OUTLOOK>(.*?)</OUTLOOK>', theme_body, re.IGNORECASE | re.DOTALL)
-        outlook = out_match.group(1).strip() if out_match else ""
-        opp_match = re.search(r'<OPPORTUNITY>(.*?)</OPPORTUNITY>', theme_body, re.IGNORECASE | re.DOTALL)
-        opportunity = opp_match.group(1).strip() if opp_match else ""
-        risk_match = re.search(r'<RISK>(.*?)</RISK>', theme_body, re.IGNORECASE | re.DOTALL)
-        risk = risk_match.group(1).strip() if risk_match else ""
-
+        if not title_m and not narrative_m and not tweets:
+            continue
         data["themes"].append({
-            "type": theme_type,
-            "emoji": emoji,
-            "title": theme_title,
-            "narrative": narrative,
+            "type": type_m.group(1).strip().lower() if type_m else "shift",
+            "emoji": emoji_m.group(1).strip() if emoji_m else "🔥",
+            "title": title_m.group(1).strip() if title_m else "",
+            "narrative": narrative_m.group(1).strip() if narrative_m else "",
             "tweets": tweets,
-            "consensus": consensus,
-            "divergence": divergence,
-            "outlook": outlook,
-            "opportunity": opportunity,
-            "risk": risk
+            "consensus": consensus_m.group(1).strip() if consensus_m else "",
+            "divergence": divergence_m.group(1).strip() if divergence_m else "",
+            "outlook": outlook_m.group(1).strip() if outlook_m else "",
+            "opportunity": opportunity_m.group(1).strip() if opportunity_m else "",
+            "risk": risk_m.group(1).strip() if risk_m else "",
         })
 
-    def extract_items(tag_name, target_list):
-        block_match = re.search(rf'<{tag_name}>(.*?)</{tag_name}>', xml_text, re.IGNORECASE | re.DOTALL)
-        if block_match:
-            for item in re.finditer(r'<ITEM\s+category=[\'\"“”](.*?)[\'\"“”]>(.*?)</ITEM>', block_match.group(1), re.IGNORECASE | re.DOTALL):
-                target_list.append({"category": item.group(1).strip(), "content": item.group(2).strip()})
+    def extract_items(tag_names, target_list):
+        block = None
+        for tag_name in tag_names:
+            m = re.search(rf'<{tag_name}>(.*?)</{tag_name}>', xml_text, re.IGNORECASE | re.DOTALL)
+            if m:
+                block = m.group(1)
+                break
+        if not block:
+            return
+        for item in re.finditer(r'<ITEM\s+category=[\'\"“”](.*?)[\'\"“”]>(.*?)</ITEM>', block, re.IGNORECASE | re.DOTALL):
+            target_list.append({"category": item.group(1).strip(), "content": item.group(2).strip()})
 
-    extract_items("INVESTMENT_RADAR", data["investment_radar"])
-    extract_items("RISK_CHINA_VIEW", data["risk_china_view"])
+    extract_items(['INVESTMENT_RADAR', 'INVESTMENTRADAR'], data['investment_radar'])
+    extract_items(['RISK_CHINA_VIEW', 'RISKCHINAVIEW'], data['risk_china_view'])
 
-    picks_match = re.search(r'<TOP_PICKS>(.*?)</TOP_PICKS>', xml_text, re.IGNORECASE | re.DOTALL)
-    if picks_match:
-        data["top_picks"] = extract_tweets(picks_match.group(1))
+    picks_block = None
+    for tag_name in ['TOP_PICKS', 'TOPPICKS']:
+        m = re.search(rf'<{tag_name}>(.*?)</{tag_name}>', xml_text, re.IGNORECASE | re.DOTALL)
+        if m:
+            picks_block = m.group(1)
+            break
+    if picks_block:
+        data['top_picks'] = extract_tweets(picks_block)
 
-    total_theme_tweets = sum(len(theme.get("tweets", [])) for theme in data["themes"])
-    print(f"[解析] themes={len(data['themes'])} | theme_tweets={total_theme_tweets} | top_picks={len(data['top_picks'])}", flush=True)
-    for idx, theme in enumerate(data["themes"], start=1):
-        print(f"[解析] Theme {idx}: {theme.get('title', '')} | tweets={len(theme.get('tweets', []))} | type={theme.get('type', '')}", flush=True)
-    if total_theme_tweets == 0:
-        print("⚠️ [解析警报] 主题存在，但所有 <THEME> 下的推文都没解析出来。请重点检查原始 XML 的 <TWEET> 属性格式。", flush=True)
-    if not data["top_picks"]:
-        print("⚠️ [解析警报] <TOP_PICKS> 为空或其中的 <TWEET> 未匹配成功。", flush=True)
     return data
 
 def fetch_special_sections_with_perplexity(today_str: str):
@@ -572,7 +561,44 @@ def fetch_special_sections_with_perplexity(today_str: str):
 # 🚀 渲染与生图模块（保持原格式）
 # ==============================================================================
 
+def repair_llm_xml_with_xai(raw_xml: str, today_str: str) -> str:
+    api_key = (XAI_API_KEY or "").strip()
+    if not api_key or not raw_xml:
+        return ""
+    try:
+        client = Client(api_key=api_key)
+        chat = client.chat.create(model="grok-4.20-0309-reasoning")
+        chat.append(system("You are an XML repair engine. Output only valid XML. Never output markdown fences."))
+        prompt = f"""
+你是日报 XML 修复器。请把下方文本重组为严格 XML，且不要编造新事实。
+硬性要求：
+1. 根标签必须是 <REPORT>。
+2. <PULSE> 只能是一句话中文，总纲即可，尽量控制在90字内，不能吞掉 THEME 信息。
+3. 必须输出 4-6 个 <THEME>；每个 THEME 至少 1 条 <TWEET>。
+4. 丢弃纯链接、纯 emoji、纯表态、极短反应句，不要把它们放进 THEME 或 TOP_PICKS。
+5. 标签名必须严格使用：COVER, PULSE, THEMES, THEME, TITLE, NARRATIVE, TWEET, CONSENSUS, DIVERGENCE, OUTLOOK, OPPORTUNITY, RISK, INVESTMENT_RADAR, RISK_CHINA_VIEW, TOP_PICKS。
+6. COVER 请统一为属性写法：<COVER title="..." prompt="..." insight="..."/>。
+7. 只输出 XML，不要解释。
+日期：{today_str}
+原始文本如下：
+{raw_xml[:90000]}
+""".strip()
+        chat.append(user(prompt))
+        result = (chat.sample().content or "").strip()
+        result = re.sub(r'<think>.*?</think>', '', result, flags=re.I | re.S).strip()
+        result = re.sub(r'^```(?:xml)?\s*', '', result)
+        result = re.sub(r'```$', '', result).strip()
+        return result
+    except Exception as e:
+        print(f"⚠️ [xAI 修复异常] {e}", flush=True)
+        return ""
+
 def render_feishu_card(parsed_data: dict, today_str: str):
+    ok, issues = validate_report_structure(parsed_data)
+    if not ok:
+        print(f"⚠️ [飞书] 结构失败，阻断发送：{', '.join(issues)}", flush=True)
+        return
+
     webhooks = get_feishu_webhooks()
     if not webhooks:
         print("⚠️ [飞书] 未配置 webhook，跳过推送。", flush=True)
@@ -583,79 +609,73 @@ def render_feishu_card(parsed_data: dict, today_str: str):
 
     theme_tweet_count = sum(len(theme.get("tweets", [])) for theme in parsed_data.get("themes", []))
     print(f"[飞书] 准备推送 | themes={len(parsed_data.get('themes', []))} | theme_tweets={theme_tweet_count} | top_picks={len(parsed_data.get('top_picks', []))}", flush=True)
-    if theme_tweet_count == 0 and not parsed_data.get("top_picks"):
-        print("⚠️ [飞书] 本次卡片没有任何推文内容，会只显示摘要栏目。", flush=True)
 
     elements = []
-    elements.append({"tag": "markdown", "content": f"**▌ ⚡️ 今日看板 (The Pulse)**\n<font color='grey'>{parsed_data['pulse']}</font>"})
+    pulse_md = "**▌ ⚡️ 今日看板 (The Pulse)**\n<font color='grey'>{}</font>".format(parsed_data['pulse'])
+    elements.append({"tag": "markdown", "content": pulse_md})
     elements.append({"tag": "hr"})
+    elements.append({"tag": "markdown", "content": "**▌ 🧠 深度叙事追踪**"})
 
-    if parsed_data["themes"]:
-        elements.append({"tag": "markdown", "content": "**▌ 🧠 深度叙事追踪**"})
-        for idx, theme in enumerate(parsed_data["themes"]):
-            theme_md = f"**{theme['emoji']} {theme['title']}**\n"
-            prefix = "🔭 新叙事观察" if theme.get("type") == "new" else "💡 叙事转向"
-            theme_md += f"<font color='grey'>{prefix}：{theme['narrative']}</font>\n"
-            for t in theme.get("tweets", []):
-                account = t.get('account') or 'unknown'
-                role = t.get('role') or 'unknown'
-                content = t.get('content') or ''
-                theme_md += f"🗣️ **@{account} | {role}**\n<font color='grey'>“{content}”</font>\n"
-            if theme.get("type") == "new":
-                if theme.get("outlook"):
-                    theme_md += f"<font color='blue'>**🔮 解读与展望：**</font> {theme['outlook']}\n"
-                if theme.get("opportunity"):
-                    theme_md += f"<font color='green'>**🎯 潜在机会：**</font> {theme['opportunity']}\n"
-                if theme.get("risk"):
-                    theme_md += f"<font color='red'>**⚠️ 潜在风险：**</font> {theme['risk']}\n"
-            else:
-                if theme.get("consensus"):
-                    theme_md += f"<font color='red'>**🔥 核心共识：**</font> {theme['consensus']}\n"
-                if theme.get("divergence"):
-                    theme_md += f"<font color='red'>**⚔️ 最大分歧：**</font> {theme['divergence']}\n"
-            elements.append({"tag": "markdown", "content": theme_md.strip()})
-            if idx < len(parsed_data["themes"]) - 1:
-                elements.append({"tag": "hr"})
-        elements.append({"tag": "hr"})
-
-    def add_list_section(title, icon, items):
-        if not items:
-            return
-        content = f"**▌ {icon} {title}**\n\n"
-        for item in items:
-            content += f"👉 **{item['category']}**：<font color='grey'>{item['content']}</font>\n"
-        elements.append({"tag": "markdown", "content": content.strip()})
-        elements.append({"tag": "hr"})
-
-    add_list_section("资本与估值雷达", "💰", parsed_data["investment_radar"])
-    add_list_section("风险与中国视角", "📊", parsed_data["risk_china_view"])
-
-    if parsed_data["top_picks"]:
-        picks_md = "**▌ 📣 今日精选推文 (Top 5 Picks)**\n"
-        for t in parsed_data["top_picks"]:
+    for idx, theme in enumerate(parsed_data["themes"]):
+        theme_md = "**{} {}**\n".format(theme.get('emoji', '📌'), theme.get('title', ''))
+        prefix = "🔭 新叙事观察" if theme.get("type") == "new" else "💡 叙事转向"
+        theme_md += "<font color='grey'>{}：{}</font>\n".format(prefix, theme.get('narrative', ''))
+        for t in theme.get("tweets", []):
             account = t.get('account') or 'unknown'
             role = t.get('role') or 'unknown'
             content = t.get('content') or ''
-            picks_md += f"\n🗣️ **@{account} | {role}**\n<font color='grey'>\"{content}\"</font>\n"
-        elements.append({"tag": "markdown", "content": picks_md.strip()})
+            theme_md += "🗣️ **@{} | {}**\n<font color='grey'>“{}”</font>\n".format(account, role, content)
+        if theme.get("type") == "new":
+            if theme.get("outlook"):
+                theme_md += "<font color='blue'>**🔮 解读与展望：**</font> {}\n".format(theme['outlook'])
+            if theme.get("opportunity"):
+                theme_md += "<font color='green'>**🎯 潜在机会：**</font> {}\n".format(theme['opportunity'])
+            if theme.get("risk"):
+                theme_md += "<font color='red'>**⚠️ 潜在风险：**</font> {}\n".format(theme['risk'])
+        else:
+            if theme.get("consensus"):
+                theme_md += "<font color='red'>**🔥 核心共识：**</font> {}\n".format(theme['consensus'])
+            if theme.get("divergence"):
+                theme_md += "<font color='red'>**⚔️ 最大分歧：**</font> {}\n".format(theme['divergence'])
+        elements.append({"tag": "markdown", "content": theme_md.strip()})
+        if idx < len(parsed_data["themes"]) - 1:
+            elements.append({"tag": "hr"})
 
-    card_payload = {
+    def add_item_section(title, items):
+        if not items:
+            return
+        elements.append({"tag": "hr"})
+        elements.append({"tag": "markdown", "content": title})
+        for item in items:
+            elements.append({"tag": "markdown", "content": "- **{}**：{}".format(item.get('category', ''), item.get('content', ''))})
+
+    add_item_section("**▌ 💼 投资雷达**", parsed_data.get("investment_radar", []))
+    add_item_section("**▌ 🌏 风险与中国视角**", parsed_data.get("risk_china_view", []))
+
+    if parsed_data.get("top_picks"):
+        elements.append({"tag": "hr"})
+        elements.append({"tag": "markdown", "content": "**▌ 🔝 Top Picks**"})
+        for t in parsed_data.get("top_picks", []):
+            pick_md = "🗣️ **@{} | {}**\n<font color='grey'>“{}”</font>".format(t.get('account', 'unknown'), t.get('role', 'unknown'), t.get('content', ''))
+            elements.append({"tag": "markdown", "content": pick_md})
+
+    card = {
         "msg_type": "interactive",
         "card": {
-            "config": {"wide_screen_mode": True, "enable_forward": True},
-            "header": {"title": {"content": f"昨晚硅谷在聊啥 | {today_str}", "tag": "plain_text"}, "template": "blue"},
-            "elements": elements + [{"tag": "note", "elements": [{"tag": "plain_text", "content": "Powered by TwitterAPI.io + xAI + Memory"}]}]
-        }
+            "config": {"wide_screen_mode": True},
+            "header": {"title": {"tag": "plain_text", "content": f"昨晚硅谷在聊啥 · {today_str}"}},
+            "elements": elements,
+        },
     }
     for url in webhooks:
         try:
-            resp = requests.post(url, json=card_payload, timeout=20)
+            resp = requests.post(url, json=card, timeout=30)
             if resp.status_code == 200:
-                print(f"✅ [飞书] 推送成功: {url.split('//')[-1][:18]}...", flush=True)
+                print(f"✅ [飞书推送成功] {url[:40]}...", flush=True)
             else:
-                print(f"⚠️ [飞书 Webhook 报错] 状态码: {resp.status_code}, 返回: {resp.text}", flush=True)
+                print(f"⚠️ [飞书 Webhook 报错] 状态码 {resp.status_code}, 详情: {resp.text[:300]}", flush=True)
         except Exception as e:
-            print(f"⚠️ [飞书网络异常] 推送断开: {e}", flush=True)
+            print(f"⚠️ [飞书推送异常] {e}", flush=True)
 
 def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
     html_lines = []
@@ -945,7 +965,6 @@ MIN_MAIN_TWEET_LEN = 20
 HARD_MIN_MAIN_TWEET_LEN = 8
 MAX_AUTHOR_REPORT_ITEMS = 4
 MAX_AUTHOR_REPORT_ITEMS_TOP20 = 2
-MAX_AUTHOR_MEMORY_ITEMS = 3
 MIN_THEME_COUNT = 3
 MIN_THEME_TWEET_COUNT = 4
 MIN_TOP_PICKS_COUNT = 5
@@ -1004,8 +1023,6 @@ def looks_toxic_or_empty(text: str) -> bool:
     return any(re.search(p, low) for p in TOXIC_PATTERNS)
 
 
-
-
 def extract_urls(text: str) -> list:
     return re.findall(r"https?://\S+|t\.co/\S+", text or "", flags=re.I)
 
@@ -1039,8 +1056,7 @@ def is_emoji_or_reaction_text(text: str) -> bool:
     if low in reaction_phrases:
         return True
     if len(low.split()) <= 5 and re.fullmatch(r"[@\w\s\.\!\?\,\-:;']+", low):
-        short_reactions = {"as it should", "wow", "hmm", "troubling", "tesla", "try grok"}
-        if any(p == low for p in short_reactions):
+        if low in {"as it should", "wow", "hmm", "troubling", "tesla", "try grok"}:
             return True
     return False
 
@@ -1094,14 +1110,26 @@ def enforce_author_diversity_cap(items: list, pool_limit: int) -> list:
         if not author:
             continue
         cap = MAX_AUTHOR_REPORT_ITEMS_TOP20 if len(result) < 20 else MAX_AUTHOR_REPORT_ITEMS
-        used = author_counts.get(author, 0)
-        if used >= cap:
+        if author_counts.get(author, 0) >= cap:
             continue
         result.append(item)
-        author_counts[author] = used + 1
+        author_counts[author] = author_counts.get(author, 0) + 1
         if len(result) >= pool_limit:
             break
     return result
+
+
+def normalize_xml_aliases(xml_text: str) -> str:
+    xml_text = xml_text or ""
+    alias_pairs = {
+        'INVESTMENTRADAR': 'INVESTMENT_RADAR',
+        'RISKCHINAVIEW': 'RISK_CHINA_VIEW',
+        'TOPPICKS': 'TOP_PICKS',
+    }
+    for old, new in alias_pairs.items():
+        xml_text = re.sub(rf'<\s*{old}\b', f'<{new}', xml_text, flags=re.I)
+        xml_text = re.sub(rf'<\s*/\s*{old}\s*>', f'</{new}>', xml_text, flags=re.I)
+    return xml_text
 
 
 def validate_report_structure(parsed_data: dict) -> tuple:
@@ -1160,30 +1188,26 @@ def apply_ai_relevance(post: dict) -> float:
     return bonus - penalty
 
 
-
 def score_and_filter(posts: list) -> list:
     seen = set()
     cleaned = []
     for t in posts or []:
         tid = str(t.get("id", "")).strip()
-        text_value = norm_text(t.get("text", ""))
-        if not tid or not text_value or tid in seen:
+        text = norm_text(t.get("text", ""))
+        if not tid or not text or tid in seen:
             continue
         seen.add(tid)
-        if is_low_information_main_tweet(text_value):
-            continue
         likes = int(t.get("likes", 0) or 0)
         replies = int(t.get("replies", 0) or 0)
         quotes = int(t.get("quotes", 0) or 0)
         base_score = likes + replies * 2 + quotes * 3
-        total_score = base_score + apply_ai_relevance(t) - low_information_penalty(text_value)
+        total_score = base_score + apply_ai_relevance(t)
         if total_score < 300:
             continue
         t["score"] = round(total_score, 2)
         t["source_type"] = "target" if is_target_account(t.get("author", "")) else "echo"
         cleaned.append(t)
     cleaned.sort(key=lambda x: x.get("score", 0), reverse=True)
-    cleaned = enforce_author_diversity_cap(cleaned, REPORT_POOL_LIMIT)
     return cleaned
 
 
@@ -1645,6 +1669,8 @@ def main():
 
     print(f"[完成] 输出目录: {output_dir}", flush=True)
     print("\n🎉 V16.0 全链路执行完毕！", flush=True)
+
+
 
 if __name__ == "__main__":
     main()
