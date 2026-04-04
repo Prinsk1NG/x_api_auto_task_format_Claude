@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v13.0 (硅谷日报：V13精准抓取引擎 + V10.6原版Grok推理与排版)
+x_api_auto_task_xai_xml.py  v13.1 (终极缝合版：V13精准抓取 + V10.6原版Grok推理与排版)
+Architecture: TwitterAPI.io -> PPLX/Tavily -> xAI SDK (Reasoning) + Memory Bank
 """
 
 import os
@@ -15,13 +16,13 @@ from pathlib import Path
 import requests
 from requests.exceptions import ConnectionError, Timeout
 
-# 🚨 引入官方 xAI SDK (严格沿用原版)
+# 🚨 引入官方 xAI SDK
 from xai_sdk import Client
 from xai_sdk.chat import user, system
 
 TEST_MODE = os.getenv("TEST_MODE_ENV", "false").lower() == "true"
 
-# ── 环境变量 ──────────────────────────────
+# ── 环境变量配置 ──────────────────────────────
 SF_API_KEY          = os.getenv("SF_API_KEY", "")
 XAI_API_KEY         = os.getenv("XAI_API_KEY", "")    
 IMGBB_API_KEY       = os.getenv("IMGBB_API_KEY", "") 
@@ -44,10 +45,19 @@ def D(b64_str):
 URL_SF_IMAGE   = D("aHR0cHM6Ly9hcGkuc2lsaWNvbmZsb3cuY24vdjEvaW1hZ2VzL2dlbmVyYXRpb25z")
 URL_IMGBB      = D("aHR0cHM6Ly9hcGkuaW1nYmIuY29tLzEvdXBsb2Fk")
 
+# ── 🚨 修复点：V13 抓取引擎需要的全局时间窗与 API 基础配置 ──
+BASE_URL = "https://api.twitterapi.io"
+NOW_UTC = datetime.now(timezone.utc)
+SINCE_24H = NOW_UTC - timedelta(days=1)
+SINCE_TS = int(SINCE_24H.timestamp())
+SINCE_DATE_STR = SINCE_24H.strftime("%Y-%m-%d")
+# ───────────────────────────────────────────────────
+
 # 🚨 动态读取外部名单系统
 def load_account_list(filename):
     if not os.path.exists(filename): return []
     with open(filename, "r", encoding="utf-8") as f:
+        # 去除 @ 符号、转小写、跳过注释行
         return [line.strip().replace("@", "").lower() for line in f if line.strip() and not line.strip().startswith("#")]
 
 WHALE_ACCOUNTS = load_account_list("whales.txt")
@@ -59,14 +69,15 @@ if TEST_MODE:
 
 TARGET_SET = set(WHALE_ACCOUNTS + EXPERT_ACCOUNTS)
 
-# ── 渠道钩子 ──────────────────────────────
+# ── 渠道分发逻辑 ──────────────────────────────
 def get_feishu_webhooks() -> list:
     urls = []
-    # 如果是测试模式，强制只发给测试群 FEISHU_WEBHOOK_URL
     if TEST_MODE:
+        # 测试模式只发调试群
         url = os.getenv("FEISHU_WEBHOOK_URL", "")
         if url: urls.append(url)
     else:
+        # 正式模式发往所有主群配置
         for suffix in ["", "_1", "_2", "_3"]:
             url = os.getenv(f"FEISHU_WEBHOOK_URL{suffix}", "")
             if url: urls.append(url)
@@ -85,8 +96,9 @@ def get_dates() -> tuple:
     yesterday = today - timedelta(days=1)
     return today.strftime("%Y-%m-%d"), yesterday.strftime("%Y-%m-%d")
 
+
 # ==============================================================================
-# 🎯 V13 最新精准清洗与打分引擎 (完美解决None和群聊垃圾)
+# 🎯 V13 数据清洗与打分引擎 (抗 None, 抗群聊垃圾)
 # ==============================================================================
 AI_KEYWORDS = ["ai", "llm", "agent", "model", "gpt", "release", "inference", "open-source", "agi", "claude", "openai"]
 
@@ -124,6 +136,7 @@ def score_and_filter(tweets):
         
         if any(kw in text_lower for kw in AI_KEYWORDS): score += 300
         
+        # 降噪与防伪
         clean_text = re.sub(r'https?://\S+|@\w+', '', text_lower).strip()
         if len(clean_text) < 15: score -= 500
         if t["text"].count('@') > 5: score -= 1000
@@ -135,7 +148,7 @@ def score_and_filter(tweets):
     author_counts = {}
     final_capped = []
     for t in scored_list:
-        if author_counts.get(t["author"], 0) < 3:
+        if author_counts.get(t["author"], 0) < 3: # 防单人刷屏
             final_capped.append(t)
             author_counts[t["author"]] = author_counts.get(t["author"], 0) + 1
             
@@ -177,7 +190,7 @@ def fetch_global_news_with_tavily() -> str:
     return aggregated_context
 
 # ==============================================================================
-# 🧠 动态记忆库模块 (Memory Bank V10.6原版)
+# 🧠 V10.6 动态记忆库模块 (Memory Bank)
 # ==============================================================================
 MEMORY_FILE = Path("data/character_memory.json")
 
@@ -213,7 +226,7 @@ def update_character_memory(parsed_data, today_str):
         print(f"\n[Memory] 🧠 已更新 {count} 条历史记忆存入账本。")
 
 # ==============================================================================
-# 🚀 xAI 大模型调用 (V10.6 原版严格 XML 提示词 + xai_sdk)
+# 🚀 V10.6 xAI 大模型调用与 XML 提示词
 # ==============================================================================
 def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavily_info: str, memory_context: str) -> str:
     return f"""
@@ -264,7 +277,7 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 {macro_info}
 {tavily_info}
 
-# X平台一手原始数据输入 (绝对主干 JSONL，包含Tier 1的深度评论与Tier 2的广度背景):
+# X平台一手原始数据输入 (绝对主干 JSONL):
 {combined_jsonl}
 
 # 日期: {today_str}
@@ -277,7 +290,7 @@ def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_in
     data = combined_jsonl[:100000] if len(combined_jsonl) > 100000 else combined_jsonl
     prompt = _build_xml_prompt(data, today_str, macro_info, tavily_info, memory_context)
     
-    # 🚨 严格复用你 V10.6 里的模型名
+    # 严格使用你指定的推理模型
     model_name = "grok-4.20-0309-reasoning" 
     print(f"\n[LLM/xAI] Requesting {model_name} via Official xai-sdk...", flush=True)
     client = Client(api_key=api_key)
@@ -290,7 +303,7 @@ def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_in
             
             result = chat.sample().content.strip()
             
-            # 清理可能的推理想法标签
+            # 清理推理模型的内部思考标签
             result = re.sub(r'<think>.*?</think>', '', result, flags=re.DOTALL | re.IGNORECASE).strip()
             result = re.sub(r'^`{3}(?:xml|jsonl|json)?\n', '', result, flags=re.MULTILINE)
             result = re.sub(r'^`{3}\n?', '', result, flags=re.MULTILINE)
@@ -302,10 +315,6 @@ def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_in
             time.sleep(2 ** attempt)
     return ""
 
-# ==============================================================================
-# 🛠️ V10.6 原版 XML 解析、生图与多渠道排版渲染
-# ==============================================================================
-# （严格保留原逻辑，不增减任何标签）
 def parse_llm_xml(xml_text: str) -> dict:
     data = {"cover": {"title": "", "prompt": "", "insight": ""}, "pulse": "", "themes": [], "investment_radar": [], "risk_china_view": [], "top_picks": []}
     if not xml_text: return data
@@ -377,6 +386,9 @@ def parse_llm_xml(xml_text: str) -> dict:
             
     return data
 
+# ==============================================================================
+# 🚀 V10.6 排版、渲染与生图模块 (完全保留)
+# ==============================================================================
 def render_feishu_card(parsed_data: dict, today_str: str):
     webhooks = get_feishu_webhooks()
     if not webhooks or not parsed_data.get("pulse"): return
@@ -546,7 +558,7 @@ def update_account_stats(final_feed: list, parsed_data: dict):
 # ==============================================================================
 def main():
     print("=" * 60, flush=True)
-    print(f"昨晚硅谷在聊啥 v13.0 (完美缝合: V13抓取 + V10.6推理与渲染)", flush=True)
+    print(f"昨晚硅谷在聊啥 v13.1 (完美缝合: V13抓取 + V10.6推理与渲染)", flush=True)
     print("=" * 60, flush=True)
 
     if not TWITTERAPI_IO_KEY or not TARGET_SET:
@@ -566,7 +578,7 @@ def main():
         # 原创抓取
         q1 = "(" + " OR ".join([f"from:{a}" for a in chunk]) + f") since:{SINCE_DATE_STR} -filter:retweets"
         try:
-            d1 = requests.get(f"{BASE_URL}/twitter/tweet/advanced_search", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"query": q1, "queryType": "Latest"}).json()
+            d1 = requests.get(f"{BASE_URL}/twitter/tweet/advanced_search", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"query": q1, "queryType": "Latest"}, timeout=25).json()
             if d1 and d1.get("tweets"):
                 for t in d1["tweets"]:
                     ct = unify_schema(t)
@@ -576,7 +588,7 @@ def main():
         # 外部高赞回响抓取
         q2 = "(" + " OR ".join([f"@{a}" for a in chunk]) + f") since:{SINCE_DATE_STR} min_faves:15 -filter:replies"
         try:
-            d2 = requests.get(f"{BASE_URL}/twitter/tweet/advanced_search", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"query": q2, "queryType": "Top"}).json()
+            d2 = requests.get(f"{BASE_URL}/twitter/tweet/advanced_search", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"query": q2, "queryType": "Top"}, timeout=25).json()
             if d2 and d2.get("tweets"):
                 for t in d2["tweets"]:
                     ct = unify_schema(t)
@@ -593,14 +605,14 @@ def main():
     print(f"\n[深挖] 正在为 Tier 1 (Top 15) 高分话题抓取神回复...", flush=True)
     for t in tier_1:
         try:
-            d3 = requests.get(f"{BASE_URL}/twitter/tweet/replies", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"tweetId": t["id"]}).json()
+            d3 = requests.get(f"{BASE_URL}/twitter/tweet/replies", headers={"X-API-Key": TWITTERAPI_IO_KEY}, params={"tweetId": t["id"]}, timeout=15).json()
             if d3 and d3.get("tweets"):
                 replies = sorted([unify_schema(r) for r in d3["tweets"]], key=lambda x: x["likes"], reverse=True)
                 t["deep_replies"] = replies[:3]
         except: pass
         time.sleep(1)
 
-    # 将 V13 数据格式转换为 V10.6 Grok 所需的 JSONL 格式
+    # 转化为 V10.6 LLM 期望的 JSONL 格式
     formatted_feed = []
     for t in tier_1:
         reply_strs = [f"[神回复 @{r['author']}]: {r['text'][:150]} (❤️ {r['likes']})" for r in t["deep_replies"]]
@@ -613,7 +625,7 @@ def main():
     combined_jsonl = "\n".join(json.dumps(obj, ensure_ascii=False) for obj in formatted_feed)
 
     # ---------------------------------------------------------
-    # 🧠 步骤 3: 提取历史记忆并呼叫 Grok (完全沿用 V10.6)
+    # 🧠 步骤 3: 提取历史记忆并呼叫 Grok (完全沿用 V10.6 逻辑)
     # ---------------------------------------------------------
     today_accounts = set(t.get("author", "").lower() for t in top_feed)
     memory = load_memory()
@@ -649,7 +661,7 @@ def main():
                 html_content = render_wechat_html(parsed_data, cover_url)
                 push_to_wechat(html_content, title=f"{parsed_data['cover']['title'] or '今日核心动态'} | 昨晚硅谷在聊啥", cover_url=cover_url)
                 
-            # 保存归档
+            # 保存归档与数据统计
             save_daily_data(today_str, formatted_feed, xml_result)
             update_account_stats(formatted_feed, parsed_data)
             
