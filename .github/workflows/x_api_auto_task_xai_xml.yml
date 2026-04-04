@@ -1,8 +1,8 @@
 name: 硅谷情报局自动任务 (V13 终极完全体)
 
 on:
-  schedule:
-    - cron: '0 1 * * *' # 每天北京时间早上 9 点运行
+  # schedule:
+  #   - cron: '0 1 * * *' # 每天北京时间早上 9 点运行
   workflow_dispatch:
     inputs:
       test_mode:
@@ -38,7 +38,7 @@ jobs:
           twitterapi_io_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}                   # 🚨 确保这里配置了 Grok 的 API Key
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}     # 飞书测试群
-          FEISHU_WEBHOOK_URL_1: ${{ secrets.FEISHU_WEBHOOK_URL_1 }} # 飞书主群
+       #   FEISHU_WEBHOOK_URL_1: ${{ secrets.FEISHU_WEBHOOK_URL_1 }} # 飞书主群
           JIJYUN_WEBHOOK_URL: ${{ secrets.JIJYUN_WEBHOOK_URL }}     # 微信群
           TEST_MODE_ENV: ${{ github.event.inputs.test_mode == 'true' && 'true' || 'false' }}
         run: python x_api_auto_task_xai_xml.py
