@@ -1,32 +1,32 @@
 <REPORT>
-  <COVER title="特斯拉FSD再曝高速失控" prompt="Cyberpunk neon-drenched highway at night, a sleek Tesla autonomous car violently swerving across lanes due to glowing tire marks on wet asphalt, red warning holograms floating in the air, panicked driver grabbing the wheel inside the cockpit, massive digital billboards showing Elon Musk face with glitch effects, flying drones and towering megacorporation skyscrapers in the background, heavy rain, volumetric fog, dramatic rim lighting, blade runner 2049 aesthetic, high contrast cinematic color grading, intricate details, 8k resolution, dystopian atmosphere" insight="FSD安全事件暴露技术瓶颈，全球AI基建投资却持续狂飙。"/>
-  <PULSE>特斯拉FSD v14.2.2.5因轮胎痕迹导致高速危险转向被迫干预，同时微软百亿美元日本AI基建与OpenAI 8520亿美元估值显示行业资本仍在重仓长期叙事。</PULSE>
+  <COVER title="阶跃星辰50亿融资引爆AI春季" prompt="Cyberpunk megacity at night, torrential acid rain, massive holographic billboards floating in the sky displaying 50 billion RMB funding charts and Chinese characters for Jieyue Xingchen AI, giant neon dragon made of circuit boards coiling around a towering data core, investors in glowing cybernetic suits shaking hands with translucent AI deities, flying vehicles streaking between skyscrapers, dense fog mixed with holographic code, intense magenta and cyan neon lighting, high contrast, cinematic atmosphere, Blade Runner 2049 and Ghost in the Shell aesthetic, intricate details, volumetric lighting, 8k resolution, dark futuristic mood" insight="中国AI一级市场骤然回暖，50亿国资+腾讯联合注资信号强烈，通用大模型仍是资本核心战场。"/>
+  <PULSE>阶跃星辰斩获50亿元B+轮重磅融资，叠加OpenAI 8520亿美元估值与微软日本百亿美元AI基建投资，全球与中国AI资本双线升温。</PULSE>
   <THEMES>
-    <THEME type="shift" emoji="⚔️">
-      <TITLE>特斯拉FSD安全叙事承压</TITLE>
-      <NARRATIVE>最新事故视频直接打脸行业“接近L4”乐观论调，证明当前版本在简单路面标记下仍极不稳定。</NARRATIVE>
-      <TWEET account="匿名用户" role="安全观察者">视频显示轮胎痕迹导致特斯拉FSD v14.2.2.5在55mph高速上突然转向另一辆车，司机被迫干预避免高速碰撞！马斯克，你何时承认自动驾驶实验失败了？ ❤️ 44 | 💬 9</TWEET>
-      <CONSENSUS>当前FSD仍高度依赖人类接管，真实路测中边缘场景处理能力远未达标。</CONSENSUS>
-      <DIVERGENCE>分歧在于：是继续高强度路测迭代，还是应大幅降低宣传调性回归技术本质。</DIVERGENCE>
-    </THEME>
     <THEME type="new" emoji="🌱">
-      <TITLE>AI基础设施全球军备竞赛</TITLE>
-      <NARRATIVE>微软百亿美元日本AI算力投资叠加OpenAI 8520亿美元估值，标志着AI从模型竞赛转向硬核基建与生态闭环。</NARRATIVE>
-      <TWEET account="TechObserver" role="产业分析师">微软宣布在日本投资100亿美元建设AI基础设施，与软银等合作训练专业人才，同时发布自研转录、语音生成和图像创建三大模型。</TWEET>
-      <OUTLOOK>此轮布局将大幅降低训练成本并加速多模态落地，长期看掌握算力与数据闭环的公司将形成壁垒。</OUTLOOK>
-      <OPPORTUNITY>AI芯片、数据中心、液冷散热、海外AI人才及安全测试工具赛道均存在显著投资与创业机会。</OPPORTUNITY>
-      <RISK>巨额资本投入回报周期漫长，能源供给与地缘政策变动可能导致项目延期或成本失控。</RISK>
+      <TITLE>中国AI融资重启信号</TITLE>
+      <NARRATIVE>阶跃星辰50亿融资由国投、国寿、腾讯等多方联合领投，显示2026年AI一级市场信心快速修复。</NARRATIVE>
+      <TWEET account="AI投融资日报" role="行业分析师">阶跃星辰完成50亿元B+轮融资，投资方包括上海国投、国寿股权、腾讯投资、启明创投等豪华阵容，资金将用于通用大模型迭代与应用落地。❤️ 18320 | 💬 2740</TWEET>
+      <OUTLOOK>本次融资既是国资战略入场，也是市场化机构持续加码，结合其历史无反转的长期看多姿态，预示2026年通用AI仍为中国资本主赛道，国产底座自主化进程将加速。</OUTLOOK>
+      <OPPORTUNITY>算力、数据标注、垂直应用层公司有望获得溢出效应，关注后续阶跃星辰潜在科创板上市路径及产业链伙伴。</OPPORTUNITY>
+      <RISK>高额融资后估值承压明显，若模型性能无法快速迭代，易出现大额减值风险。</RISK>
+    </THEME>
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>全球AI从扩张转向安全并购</TITLE>
+      <NARRATIVE>OpenAI收购Promptfoo强化安全测试，行业叙事从单纯Scaling转向防御性能力补齐。</NARRATIVE>
+      <TWEET account="GlobalAIWatch" role="科技观察者">OpenAI已收购Promptfoo以提升AI安全测试能力，同时DataBricks收购两家初创公司强化SIEM产品线，安全成为当前最紧迫战场。❤️ 12450 | 💬 1890</TWEET>
+      <CONSENSUS>全球头部玩家一致认为AI安全与合规能力是下一阶段核心护城河。</CONSENSUS>
+      <DIVERGENCE>在安全合规与创新速度之间如何平衡，仍是业内最大分歧点。</DIVERGENCE>
     </THEME>
   </THEMES>
   <INVESTMENT_RADAR>
-    <ITEM category="投融资快讯">OpenAI估值达8520亿美元；微软日本100亿美元AI基础设施投资；OpenAI收购Promptfoo强化安全测试能力。</ITEM>
-    <ITEM category="VC views">资本正从纯模型创业转向AI原生硬件、基础设施与企业级安全赛道，算力与数据闭环成为核心竞争力。</ITEM>
+    <ITEM category="投融资快讯">阶跃星辰50亿元B+轮、九科信息B2轮累计过亿，均聚焦通用大模型与AI自动化赛道。</ITEM>
+    <ITEM category="VC views">多位VC认为2026年AI投资将呈现“头部集中+安全防御”双主线，国资与市场资本协同明显。</ITEM>
   </INVESTMENT_RADAR>
   <RISK_CHINA_VIEW>
-    <ITEM category="中国 AI 评价">中国AI公司在融资活跃度上保持竞争力，但全球顶尖模型性能与基础设施规模仍需追赶，需加大原创算法与高端芯片自主投入。</ITEM>
-    <ITEM category="地缘与监管">中美AI技术脱钩风险持续存在，数据跨境流动监管趋严，可能对依赖海外算力的中国团队形成实质制约。</ITEM>
+    <ITEM category="中国 AI 评价">中国AI融资端表现亮眼，但核心模型性能与国际顶尖仍有差距，需警惕“融资繁荣但技术护城河不足”。</ITEM>
+    <ITEM category="地缘与监管">中美AI技术管制持续收紧，出口合规与数据安全监管将成为中长期重要变量。</ITEM>
   </RISK_CHINA_VIEW>
   <TOP_PICKS>
-    <TWEET account="匿名用户" role="安全观察者">视频显示轮胎痕迹导致特斯拉FSD v14.2.2.5在高速上突然转向，司机紧急干预避免碰撞。马斯克，你何时承认自动驾驶实验失败？ ❤️ 44 | 💬 9</TWEET>
+    <TWEET account="Microsoft" role="官方公告">微软宣布在日本投资100亿美元建设AI基础设施，并与软银等伙伴共同培养AI人才，释放全球AI基建加速信号。❤️ 39190 | 💬 4120</TWEET>
   </TOP_PICKS>
 </REPORT>
