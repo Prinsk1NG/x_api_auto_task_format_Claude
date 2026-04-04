@@ -2,8 +2,8 @@ name: 硅谷情报局自动任务 (V11.0)
 
 on:
   # 定时触发：每天北京时间早上 8:00 (对应 UTC 00:00)
-  schedule:
-    - cron: '0 0 * * *'
+  # schedule:
+  #  - cron: '0 0 * * *'
   
   # 手动触发：允许在 GitHub Actions 页面随时手动运行
   workflow_dispatch:
