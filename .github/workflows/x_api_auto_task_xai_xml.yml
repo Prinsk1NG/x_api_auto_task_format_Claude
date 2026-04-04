@@ -71,7 +71,7 @@ jobs:
           SF_API_KEY: ${{ secrets.SF_API_KEY }}
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
         run: |
-          python x_api_auto_task_xai_xml_fixed_v2.py
+          python x_api_auto_task_xai_xml.py
 
       - name: 6. 上传测试产物
         if: ${{ github.event.inputs.test_mode == 'true' }}
