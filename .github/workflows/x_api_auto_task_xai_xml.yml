@@ -1,16 +1,13 @@
-name: 硅谷情报局自动任务 (V10.11)
+name: 硅谷情报局 (V10.14)
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  
+    - cron: '0 0 * * *' # 北京时间早上 8:00
   workflow_dispatch:
     inputs:
       test_mode:
-        # 🚨 这里改成了 boolean 类型，UI 会显示为勾选框
         type: boolean
         description: '开启测试模式 (勾选后拦截主群推送)'
-        required: true
         default: false
 
 permissions:
@@ -19,42 +16,46 @@ permissions:
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: 1. 拉取最新代码
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 2. 安装 Python 3.10
+      - name: 1. 安装环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           
-      - name: 3. 安装核心依赖
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests xai-sdk
+      - name: 2. 安装依赖
+        run: pip install requests xai-sdk
           
-      - name: 4. 执行情报搜集与分析脚本
+      - name: 3. 执行三阶段抓取与分析
         env:
+          # 🚨 新增：推特列表 ID
+          TWITTER_LIST_ID: ${{ secrets.TWITTER_LIST_ID }}
+          
+          # 基础 API Keys
           twitterapi_io_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           PPLX_API_KEY: ${{ secrets.PPLX_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          SF_API_KEY: ${{ secrets.SF_API_KEY }}
-          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+          
+          # 推送地址
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           FEISHU_WEBHOOK_URL_1: ${{ secrets.FEISHU_WEBHOOK_URL_1 }}
-          # GitHub 会自动将勾选框转为 "true" 或 "false" 字符串传递给脚本
+          
+          # 模式控制
           TEST_MODE_ENV: ${{ github.event.inputs.test_mode }}
-        run: |
-          python x_api_auto_task_xai_xml.py
+          
+        run: python x_api_auto_task_xai_xml.py
 
-      - name: 5. 自动保存每日快照与记忆账本
+      - name: 4. 持久化存档
         run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/ character_memory.json account_stats.json whales.txt experts.txt || true
-          git commit -m "🤖 [Daily Intelligence] Archive reports and raw tweets" || echo "No changes"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github-Bot"
+          # 保存所有抓取数据和更新后的记忆账本
+          git add data/
+          [ -f character_memory.json ] && git add character_memory.json
+          [ -f account_stats.json ] && git add account_stats.json
+          git commit -m "🤖 V10.14: 三阶段情报收割存档" || echo "No changes"
           git push
