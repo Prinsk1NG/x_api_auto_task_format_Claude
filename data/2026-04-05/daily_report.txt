@@ -1,71 +1,69 @@
 <REPORT>
-  <COVER title="开源代理叛逃：闭源围墙崩塌" prompt="Minimalist data visualization art showing glowing neural nodes and translucent data streams in electric cyan and deep navy, where multiple open-source agent icons are physically breaking through a cracking crystalline subscription wall. The wall is formed by stacked Anthropic and closed-model blocks. In the foreground, explicit markdown wiki files and idea documents float as durable artifacts, being compiled by invisible LLM hands into persistent knowledge graphs. Clean geometric composition, sharp vector lines, subtle particle effects, cinematic rim lighting, ultra detailed, 8K resolution, technology minimalism style with high information density." insight="开源代理与个人Wiki正重塑AI用户主权"/>
-  
-  <PULSE>开源AI代理与显式知识Wiki的崛起，正在快速瓦解闭源订阅壁垒，同时Gemma 4将多模态效率推向新高度。</PULSE>
+  <COVER title="Gemma4开源效率革命" prompt="Minimalist data visualization of AI breakthrough featuring a central compact neural architecture with elegant glowing nodes in teal and cool silver, representing Gemma 4 multimodal model. Clean data streams in precise geometric flows carry image video and audio icons converging into an ultra-efficient small model orb designed for on-device deployment. Subtle holographic memory files and knowledge graphs orbit the core structure. Dark matte background with soft volumetric lighting, sharp edge highlights, technical precision, cinematic depth of field, 8K ultra detailed, industrial minimalism with neural node emphasis." insight="开源小模型多模态与个人知识库成新焦点"/>
+  <PULSE>今日硅谷核心叙事从闭源基础设施瓶颈转向开源高效多模态模型、个性化显式记忆系统，以及AI驱动的政府透明度革命。</PULSE>
   
   <THEMES>
-    <THEME type="shift" emoji="⚔️">
-      <TITLE>从闭源订阅到开源代理叛逃</TITLE>
-      <NARRATIVE>过去一周Anthropic因限制OpenClaw使用而被大量用户取消订阅，OpenAI紧急收购OpenClaw并试图挽留用户，这一事件标志着“工具主权”超越“模型参数”成为新战场，用户不再接受被单一厂商锁定的商业模式。</NARRATIVE>
-      <TWEET account="thespearing" role="AI开发者">Anthropic直接告诉我们：我们知道你过去4个月用OpenClaw做出了最惊人的东西，但我们基础设施跟不上开源代理，所以把你限制在只能发挥25%能力的官方App里。没门，订阅已取消，转用OpenClaw+新模型。❤️ 591 | 💬 75</TWEET>
-      <CONSENSUS>开源代理在灵活性和实际生产力上已大幅领先闭源消费级产品，用户愿意为自由支付更多实验成本</CONSENSUS>
-      <DIVERGENCE>闭源厂商是否会通过更激进的API限制或法律手段反击，以及开源生态能否稳定提供企业级可靠性</DIVERGENCE>
-    </THEME>
-
     <THEME type="new" emoji="🌱">
-      <TITLE>LLM驱动的显式个人知识Wiki</TITLE>
-      <NARRATIVE>Karpathy提出在Agent时代应分享“Idea File”而非具体代码，让用户Agent根据自身上下文定制实现；进一步发展为Farzapedia式的个人Wiki，将知识显式化、可视化、文件化，彻底摆脱隐式RAG黑箱。</NARRATIVE>
-      <TWEET account="karpathy" role="前OpenAI科学家">我越来越看好AI让政府更透明可问责。历史上是政府让社会变得“可读”，现在AI让社会能反向让政府可读。4000页综合法案在法律上透明，但实际对大多数人并不透明。AI能解决这个智能瓶颈。❤️ 893 | 💬 67</TWEET>
-      <OUTLOOK>未来6-12个月，个人知识库将从“聊天记录”进化成可版本控制、可Unix工具链处理的持久知识资产，成为Agent的核心长期记忆系统</OUTLOOK>
-      <OPPORTUNITY>本地知识编译器、markdown-based记忆层工具、专为个人Wiki设计的微调模型，一级市场早期机会明显</OPPORTUNITY>
-      <RISK>需要用户具备一定Agent管理能力，短期内可能仍是极客玩具而非大众产品</RISK>
+      <TITLE>Gemma 4开源多模态效率跃进</TITLE>
+      <NARRATIVE>Google推出Gemma 4系列四个开源权重模型，全系支持多模态，31B旗舰在Intelligence Index达39，但输出token仅为Qwen3.5的2.5倍，E2B小模型4bit量化后仅需3GB内存适合设备端部署，标志着开源社区在效率和边缘计算上的重要突破。</NARRATIVE>
+      <TWEET account="@artificialanlys" role="AI分析师">Google发布Gemma 4四个开源多模态模型，31B旗舰智能指数39但token效率极高，小模型E2B仅需3GB内存适合设备端。上下文窗口翻倍，Apache 2.0许可。❤️ 605 | 💬 17</TWEET>
+      <OUTLOOK>未来6-12个月将加速边缘AI设备普及，推动手机、机器人和IoT设备的原生智能能力，降低对云端算力依赖。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注设备端AI芯片、量化工具和开源模型应用落地项目，尤其与华为、Intel边缘硬件结合的机会。</OPPORTUNITY>
+      <RISK>智能指数仍落后Qwen等竞品3-6分，agentic能力较弱，可能仍是短期技术展示而非全面替代。</RISK>
     </THEME>
 
-    <THEME type="new" emoji="📊">
-      <TITLE>Gemma 4：开源多模态效率新标杆</TITLE>
-      <NARRATIVE>Google一次性开源四个尺寸的Gemma 4，全系支持多模态与推理模式，31B旗舰在Intelligence Index达39，且输出token仅为Qwen3.5的2.5倍，展现了显著的效率优势，标志着开源模型在实用性上快速逼近闭源。</NARRATIVE>
-      <TWEET account="artificialanlys" role="AI分析师">Google发布Gemma 4四个开源权重模型，全系多模态。31B旗舰Intelligence Index 39，使用输出token仅为Qwen3.5的2.5倍。小模型E2B适合设备端部署，4bit量化后仅需3GB内存。❤️ 601 | 💬 17</TWEET>
-      <OUTLOOK>将极大加速本地/边缘AI部署，vLLM等推理框架已快速跟进支持，2026年底前有望出现大量基于Gemma 4的消费级AI硬件产品</OUTLOOK>
-      <OPPORTUNITY>针对Gemma 4优化的推理优化、量化工具、垂直领域微调服务，以及边缘设备AI创业公司</OPPORTUNITY>
-      <RISK>在复杂Agentic任务上仍落后Qwen等竞品3-6分，长期竞争力取决于Google后续是否持续开源更新</RISK>
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从Anthropic转向开源代理</TITLE>
+      <NARRATIVE>多名用户公开表示Anthropic基础设施无法跟上开源代理能力，官方App仅能发挥25%潜力，导致订阅取消转向OpenClaw等开源方案，反映闭源大厂在代理时代面临严重基础设施和定价冲突。</NARRATIVE>
+      <TWEET account="@thespearing" role="开发者">Anthropic承认跟不上开源代理，把用户限制在只能发挥25%能力的官方App。我取消订阅，转用OpenClaw和新模型。❤️ 596 | 💬 75</TWEET>
+      <CONSENSUS>行业共识转向混合使用开源代理工具+多模型切换，开发者不再绑定单一闭源提供商。</CONSENSUS>
+      <DIVERGENCE>大佬们争论焦点在于闭源厂商是否还能通过基础设施优势留住高端用户，还是将被开源生态全面蚕食。</DIVERGENCE>
     </THEME>
 
-    <THEME type="depth" emoji="🏭">
-      <TITLE>特斯拉芯片自研Fab垂直整合</TITLE>
-      <NARRATIVE>Elon Musk透露Tesla芯片研发工厂将把逻辑、内存、封装、掩膜所有设备集中在一栋楼，实现闪电般开发迭代，这是硬件领域对标软件快速迭代的重大尝试。</NARRATIVE>
-      <TWEET account="elonmusk" role="Tesla &amp; xAI创始人">和顶尖工程师一起创造不可思议的技术是我最享受的事。Tesla芯片研发工厂将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。天堂。❤️ 108374 | 💬 6835</TWEET>
-      <CONSENSUS>AI硬件必须走向垂直整合，自有Fab将成为下一代AI公司核心竞争力</CONSENSUS>
-      <DIVERGENCE>这种极端整合模式是否会带来管理复杂度爆炸，以及能否真正超越台积电等专业代工厂的工艺水平</DIVERGENCE>
+    <THEME type="new" emoji="📖">
+      <TITLE>LLM显式个人知识库崛起</TITLE>
+      <NARRATIVE>Karpathy提出用LLM增量构建个人Wiki而非传统RAG，强调“File over App”、本地控制、显式可检视记忆，配合任意AI模型，形成真正属于用户的个性化记忆系统，解决当前AI“隐式记忆”不可控问题。</NARRATIVE>
+      <TWEET account="@karpathy" role="AI科学家">我越来越喜欢Farzapedia这类个人Wiki方式：显式、可导航、文件格式、本地所有、BYOAI。你拥有数据，用任何模型都行，甚至可微调。代理能力是21世纪核心技能。❤️ 1854 | 💬 189</TWEET>
+      <OUTLOOK>6-12个月内将出现大量个人知识库工具和开源实现，成为AI Agent长期记忆的标准解决方案。</OUTLOOK>
+      <OPPORTUNITY>投资本地知识管理平台、Markdown-based记忆引擎、以及为企业构建可审计知识库的初创公司。</OPPORTUNITY>
+      <RISK>用户需要一定代理技能门槛，可能短期内难以大规模消费级普及。</RISK>
     </THEME>
 
-    <THEME type="new" emoji="🔍">
-      <TITLE>AI驱动的政府逆向可读性</TITLE>
-      <NARRATIVE>Karpathy指出，AI将让公民而非仅政府拥有“让事物可读”的能力，通过处理海量公开数据（预算、游说、投票记录），大幅提升政府透明度和问责制，这是对《Seeing Like a State》的当代反转。</NARRATIVE>
-      <TWEET account="karpathy" role="前OpenAI科学家">历史上是政府让社会可读，现在AI让社会能反向让政府可读。AI能处理4000页法案、游说图谱、采购合同等，只有极少数专业记者以前能做的事，现在更多人可以参与。❤️ 13278 | 💬 534</TWEET>
-      <OUTLOOK>未来一年内将出现大量AI政务分析工具，可能率先在地方治理层面落地，改变公众监督效率</OUTLOOK>
-      <OPPORTUNITY>政务数据分析SaaS、AI调查记者工具、地方治理智能仪表盘</OPPORTUNITY>
-      <RISK>数据质量和政治阻力可能远大于技术难度，存在被用于反向宣传的风险</RISK>
+    <THEME type="shift" emoji="🕵️">
+      <TITLE>AI让政府反向可读</TITLE>
+      <NARRATIVE>Karpathy转变论述重点，从技术工具转向社会治理：历史上政府使社会“可读”，现在AI让公民能处理4000页法案、游说图谱、预算等，使政府变得透明可问责，极大降低专业门槛。</NARRATIVE>
+      <TWEET account="@karpathy" role="AI科学家">历史上是政府让社会可读，现在AI让社会反向让政府可读。AI能处理4000页法案、游说和合同，让普通人也能参与监督，这是民主的巨大进步。❤️ 13278 | 💬 534</TWEET>
+      <CONSENSUS>行业大佬普遍乐观认为AI将显著提升政府透明度和公众参与度。</CONSENSUS>
+      <DIVERGENCE>主要争议在于AI工具是否会被反向用于更精密的监控和操纵，乐观派与谨慎派分歧明显。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🔌">
+      <TITLE>DeepSeek华为芯片本土优化</TITLE>
+      <NARRATIVE>DeepSeek下一代V4将在华为芯片上运行，已花费数月重写底层代码，与华为、寒武纪深度合作，显示中国AI公司在算力自主化路径上取得关键进展。</NARRATIVE>
+      <TWEET account="@dotey" role="AI观察者">DeepSeek下一代V4将运行在华为芯片上。他们花几个月与华为、寒武纪合作重写底层代码，预计未来几周发布。❤️ 216 | 💬 48</TWEET>
+      <OUTLOOK>将加速中国AI供应链独立，刺激阿里、腾讯、字节等巨头加大自研硬件投入。</OUTLOOK>
+      <OPPORTUNITY>关注中美科技脱钩背景下，中国AI芯片、基础模型优化和垂直领域大模型的投资机会。</OPPORTUNITY>
+      <RISK>性能是否能完全匹配NVIDIA生态仍待验证，重写代码可能带来短期兼容性问题。</RISK>
     </THEME>
   </THEMES>
 
   <INVESTMENT_RADAR>
-    <ITEM category="投融资快讯">OpenAI收购OpenClaw，强化代理生态布局；Wix以8000万美元收购Base44，AI商业化并购持续升温</ITEM>
-    <ITEM category="VC views">Chamath重提“Capital as a Service”，认为法律实体问题解决后，AI驱动的自动化投资决策将重塑早期融资；多家VC关注能提供显式记忆层的Agent基础设施</ITEM>
+    <ITEM category="投融资快讯">过去一周AI赛道完成4笔融资超7亿元，Salesforce推出Slack AI升级， hyperscalers积极通过债务市场为AI扩张融资。</ITEM>
+    <ITEM category="VC views">Chamath重提“Capital as a Service”，认为AI可自动化投资决策，一旦法律实体问题解决将成为主流。</ITEM>
   </INVESTMENT_RADAR>
 
   <RISK_CHINA_VIEW>
-    <ITEM category="中国 AI 评价">Qwen3.5在Intelligence Index领先Gemma 4约3分，且在Agentic能力上优势明显，中国开源模型继续保持高性价比与效率优势</ITEM>
-    <ITEM category="全球映射">中国在具身智能与开源大模型赛道已形成独特竞争力，Gemma 4的发布进一步验证全球开源军备竞赛已进入“效率+多模态”新阶段</ITEM>
+    <ITEM category="中国 AI 评价">DeepSeek与华为芯片紧密合作展现中国在AI底层自主化上的显著进步，小模型效率路线与开源策略值得关注。</ITEM>
+    <ITEM category="全球映射">中美AI竞争焦点正从纯模型参数转向硬件优化和生态自主，中国供应链韧性为全球AI提供第二条发展路径。</ITEM>
   </RISK_CHINA_VIEW>
 
   <TOP_PICKS>
-    <TWEET account="karpathy" role="前OpenAI科学家">我分享了一个改进版的“Idea File”概念。在LLM Agent时代，分享具体代码的意义变小了，你只需分享想法，然后让对方的Agent根据自身需求定制实现。这里是一个Gist格式的想法文件。❤️ 13278 | 💬 534</TWEET>
-    <TWEET account="artificialanlys" role="AI分析师">Google发布Gemma 4四个开源多模态模型，31B旗舰Intelligence Index 39，但token使用量仅为Qwen3.5的40%。小模型E2B适合设备端，4bit量化后不到3GB内存。❤️ 601 | 💬 17</TWEET>
-    <TWEET account="thespearing" role="AI开发者">Anthropic说“我们知道你用OpenClaw做出了惊人东西，但我们跟不上开源代理，所以把你锁在只能发挥25%能力的App里”。谢谢，再见，订阅取消。❤️ 591 | 💬 75</TWEET>
-    <TWEET account="petergyang" role="AI产品人">OpenAI Codex团队现在有巨大机会：1. 告诉OpenClaw用户如何切换到GPT订阅；2. 修复GPT的性格问题。这是大家更喜欢用OpenClaw+Opus的主要原因。❤️ 603 | 💬 104</TWEET>
-    <TWEET account="elonmusk" role="Tesla &amp; xAI创始人">Tesla芯片研发工厂将把所有必要设备集中在一栋楼，实现闪电开发周期。这就是天堂。❤️ 108374 | 💬 6835</TWEET>
-    <TWEET account="karpathy" role="前OpenAI科学家">Farzapedia是一个很好的个人Wiki示例。它把记忆做成显式、可导航的文件集合，而不是藏在某个AI公司的隐式参数里。你拥有数据，使用任何AI都可以。❤️ 1538 | 💬 160</TWEET>
-    <TWEET account="bindureddy" role="AI开发者">Codex在解决某些Opus解决不了的问题上表现惊人。我经常并行使用两者并选择最佳答案。❤️ 198 | 💬 36</TWEET>
-    <TWEET account="vllm_project" role="推理框架团队">vLLM v0.19.0发布！新增Gemma 4支持、零气泡异步调度、ViT完整CUDA Graph等重大更新。❤️ 255 | 💬 14</TWEET>
+    <TWEET account="@karpathy" role="AI科学家">我越来越看好AI让政府更透明可问责。历史上政府让社会可读，现在AI让公民能反向监督政府，处理4000页法案和游说信息不再是少数专业人士的专利。❤️ 13278 | 💬 534</TWEET>
+    <TWEET account="@artificialanlys" role="AI分析师">Google发布Gemma 4四个开源多模态模型，31B旗舰智能指数39，使用输出token仅为Qwen3.5的2.5倍。E2B小模型适合设备端，4bit量化仅需3GB内存。❤️ 605 | 💬 17</TWEET>
+    <TWEET account="@karpathy" role="AI科学家">LLM知识库应是显式的、可导航的文件集合，本地所有，支持任意AI模型。File over App理念让用户真正掌控自己的记忆数据。❤️ 1830 | 💬 118</TWEET>
+    <TWEET account="@thespearing" role="开发者">Anthropic直接承认基础设施跟不上开源代理，把用户限制在只能发挥25%能力的App里。我取消订阅，转用OpenClaw和新模型。❤️ 596 | 💬 75</TWEET>
+    <TWEET account="@mark_k" role="科技记者">X最近实施区域孤岛算法，不再向国际用户推送内容，主要展示给同区域人群。这对数字游民和用英语发帖的欧洲人非常不利。❤️ 388 | 💬 38</TWEET>
+    <TWEET account="@petergyang" role="AI产品人">OpenAI Codex团队应尽快指导OpenClaw用户切换GPT订阅，并修复GPT性格问题，这是大家转向Anthropic Opus的主要原因。❤️ 611 | 💬 108</TWEET>
+    <TWEET account="@theinformation" role="媒体">Anthropic下一代模型计算量极大，若无重大效率提升可能难以落地。同时他们已收购Coefficient Bio加速AI药物研发。❤️ 279 | 💬 30</TWEET>
   </TOP_PICKS>
 </REPORT>
