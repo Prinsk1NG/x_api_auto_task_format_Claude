@@ -1,0 +1,72 @@
+<REPORT>
+  <COVER title="Agent成本危机下 个人知识库爆发" prompt="Minimalist futuristic data visualization art showing a glowing human brain made of clean neural nodes and interconnected floating wiki pages, turning into structured knowledge islands. Clean white and deep cyan color palette, precise geometric lines, subtle data streams flowing between document nodes, soft cinematic rim lighting with gentle volumetric glows. Professional tech aesthetic, ultra sharp 8K resolution, representing the rise of personal second brains powered by AI." insight="知识管理范式被AI彻底重塑"/>
+  <PULSE>硅谷今日核心叙事从Anthropic引发的Agent成本危机，转向Karpathy式个人知识库构建与高效小模型、本地化浪潮。</PULSE>
+  
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>Karpathy点燃个人知识库革命</TITLE>
+      <NARRATIVE>Karpathy提出的LLM Wiki和Farzapedia理念突然引爆社区，众多开发者将其转化为Claudeopedia、Obsidian第二大脑等实战项目，标志着从一次性对话转向持久化、可查询、个人拥有的知识基建，这是AI原生生产力工具的重大范式创新。</NARRATIVE>
+      <TWEET account="@karpathy" role="AI教父">我越来越喜欢Farzapedia这类个人Wiki方式：显式、可导航、文件格式、本地所有、BYOAI。你拥有数据，用任何模型都行，甚至可微调。代理能力是21世纪核心技能。❤️ 1854 | 💬 189</TWEET>
+      <TWEET account="@alliekmiller" role="AI开发者">我在Claude Code里打造知识库怪兽：基于Karpathy的llm-wiki想法，结合/last30days和/wiki技能，做出可搜索、可对比时间线的交互可视化，还设置了“质疑假设”定时任务，目前专注企业AI领域。❤️ 510 | 💬 34</TWEET>
+      <OUTLOOK>未来6-12个月，个人知识基建将成为AI Agent的标配基础设施，大幅降低上下文腐烂问题，推动知识工作效率跃升。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注个人知识OS、Obsidian插件生态、AI-native笔记与企业知识管理SaaS。</OPPORTUNITY>
+      <RISK>当前多为个人实验项目，标准化和企业级协作能力仍待验证，可能面临数据隐私与模型切换兼容性挑战。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Agent成本危机与本地化转向</TITLE>
+      <NARRATIVE>过去半年Agent因Anthropic低价Token而狂飙，但TOS调整与上下文管理低效导致真实成本暴增，社区从“尽情使用”转向“必须本地/开源”，Karpathy等大佬也开始关注Read API定价过高问题，共识发生剧烈转向。</NARRATIVE>
+      <TWEET account="@jessegenet" role="开发者">Anthropic调整TOS是警钟，Agent时代廉价超级智能的好日子结束了。过去6个月太爽了，但这不是必然。❤️ 233 | 💬 21</TWEET>
+      <TWEET account="@dotey" role="AI观察者">小米MiMo负责人称全球算力跟不上Agent时代的Token消耗，出路是更省Token的框架和高效模型共同进化。OpenClaw上下文管理极差，真实成本可能是订阅价的几十倍。❤️ 195 | 💬 19</TWEET>
+      <CONSENSUS>廉价Agent时代结束，高效上下文管理、小模型+本地部署成为行业新共识。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论是继续依赖云API（接受高价）还是全力投入本地模型优化，成本压力能否真正倒逼框架进步仍存疑问。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="📦">
+      <TITLE>Gemma 4成小模型性能王者</TITLE>
+      <NARRATIVE>31B的Gemma 4在HuggingFace登顶趋势榜，性能接近更大MoE模型，jailbreak版本在HarmBench上达93.7%且几乎不牺牲MMLU，标志着“够用且可本地运行”的高效模型成为现实，解决Agent时代Token消耗痛点。</NARRATIVE>
+      <TWEET account="@bindureddy" role="AI研究员">Gemma 4是非常好的小模型，31B性能媲美大型MoE，是同尺寸世界最佳。❤️ 349 | 💬 33</TWEET>
+      <TWEET account="@leftcurvedev_" role="开源贡献者">Gemma-4-31B-JANG_4M-CRACK已发布：完全abliteration，HarmBench 93.7%，MMLU仅下降2%，非常干净。❤️ 715 | 💬 24</TWEET>
+      <OUTLOOK>未来半年内，高效31B级模型将大规模进入本地Agent和边缘部署，降低对巨型云模型的依赖。</OUTLOOK>
+      <OPPORTUNITY>围绕Gemma 4的量化、KV压缩、行业垂直微调工具存在明显投资和商业化机会。</OPPORTUNITY>
+      <RISK>模型虽强但仍需大量工程优化才能在消费级硬件上流畅运行，短期可能仍是开发者玩具。</RISK>
+    </THEME>
+
+    <THEME type="depth" emoji="🔧">
+      <TITLE>AI自动优化GPU内核浪潮</TITLE>
+      <NARRATIVE>受Karpathy autoresearch启发，autokernel等项目用Agent循环自动发现瓶颈、生成Triton/CUDA代码并验证，已在RMSNorm上实现5.29x加速，softmax击败torch.compile，展现AI已能自主优化底层计算内核，进入“AI优化AI”的深度推进阶段。</NARRATIVE>
+      <TWEET account="@akashi203" role="开发者">我们发布了autokernel，受Karpathy autoresearch启发，用keep/revert循环自动优化GPU kernel，给任意PyTorch模型即可跑通，RMSNorm加速5.29x，softmax击败torch.compile 3.44x。❤️ 351 | 💬 10</TWEET>
+      <CONSENSUS>AI已超越人工，能系统性发现并优化计算瓶颈，自动内核优化将成为标配工具。</CONSENSUS>
+      <DIVERGENCE>当前工具仍需严格正确性验证，是否能在复杂生产模型上稳定超越人类专家仍有争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="🏛️">
+      <TITLE>AI让政府“可读”成新政治叙事</TITLE>
+      <NARRATIVE>Karpathy连续发帖强调AI能反向让政府透明，处理4000页法案、游说合同，让普通人也能监督，这是从“政府让社会可读”到“AI让政府可读”的历史性转向，具有强烈民主叙事色彩。</NARRATIVE>
+      <TWEET account="@karpathy" role="AI教父">历史上是政府让社会变得可读，现在AI让社会能反向让政府可读。AI能处理4000页法案、游说图谱、采购合同，让更多人参与监督，这是民主的巨大进步。❤️ 13278 | 💬 534</TWEET>
+      <CONSENSUS>AI将成为公民监督政府的强大工具，这一观点在硅谷知识精英中快速获得共识。</CONSENSUS>
+      <DIVERGENCE>如何防止AI被政治势力操控解读，以及AI解读的“客观性”边界，成为当前最大争议点。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">星海图完成A2/A3轮超3亿元融资，凯辉领投，联想创投、海尔资本、IDG、高瓴、百度风投追投；Generalist获投开发机器人训练手套，实体AI训练数据赛道持续升温。</ITEM>
+    <ITEM category="VC views">pmarca称AGI已存在只是分布不均，整体对美国未来极度看多；Chamath在寻找AI聊天记录自动结构化进知识库的方案，反映VC对个人/企业知识基建工具的强烈需求。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek V4将运行在华为芯片上，已花费数月与华为、寒武纪合作重写底层代码，显示中国在AI训练芯片自主化上取得重要进展，绕过海外限制的能力显著提升。</ITEM>
+    <ITEM category="全球映射">中美AI算力脱钩趋势加速，中国团队通过底层重写实现国产芯片适配的路径，对全球供应链和开源模型部署策略构成长期影响，值得一级市场重点跟踪。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="@karpathy" role="AI教父">历史上是政府让社会可读，现在AI让社会能反向让政府可读。AI能处理4000页法案、游说和合同，让普通人也能参与监督，这是民主的巨大进步。❤️ 13278 | 💬 534</TWEET>
+    <TWEET account="@alliekmiller" role="AI开发者">我在Claude Code里成为知识库怪兽，基于Karpathy的llm-wiki想法打造Claudeopedia，支持时间线对比、可视化搜索和“质疑假设”定时任务，目前专注企业AI。❤️ 510 | 💬 34</TWEET>
+    <TWEET account="@anissagardizy8" role="媒体人">OpenAI内部Sam Altman与CFO Sarah Friar关系紧张，CFO担忧巨额算力支出和IPO计划，Altman已将其排除在算力财务规划之外。❤️ 648 | 💬 38</TWEET>
+    <TWEET account="@leftcurvedev_" role="开源贡献者">Gemma-4-31B-JANG_4M-CRACK已在HuggingFace发布，完全abliteration，HarmBench达93.7%，MMLU仅下降2%，非常干净的无害化版本。❤️ 715 | 💬 24</TWEET>
+    <TWEET account="@akashi203" role="开发者">我们发布autokernel，受Karpathy autoresearch启发，用AI自动优化GPU kernel，RMSNorm加速5.29倍，softmax击败torch.compile 3.44倍，已登上B200排行榜第一。❤️ 351 | 💬 10</TWEET>
+    <TWEET account="@anirudhbv_ce" role="开发者">pip install turboquant-gpu，实现任意GPU上5.02倍KV cache压缩，仅3行代码，支持Mistral-7B从1408KB压到275KB。❤️ 877 | 💬 47</TWEET>
+    <TWEET account="@dotey" role="AI观察者">DeepSeek下一代V4将运行在华为芯片上，他们花几个月与华为、寒武纪合作重写底层代码，预计未来几周发布。❤️ 216 | 💬 48</TWEET>
+    <TWEET account="@pmarca" role="VC大佬">我宣布AGI已经到来，只是分布不均罢了。❤️ 3424 | 💬 537</TWEET>
+  </TOP_PICKS>
+</REPORT>
