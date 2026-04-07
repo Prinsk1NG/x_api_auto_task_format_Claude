@@ -41,8 +41,8 @@ jobs:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}                   
           SF_API_KEY: ${{ secrets.SF_API_KEY }}
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
-          FEISHU_WEBHOOK_URL_1: ${{ secrets.FEISHU_WEBHOOK_URL }}     
-          #FEISHU_WEBHOOK_URL_1: ${{ secrets.FEISHU_WEBHOOK_URL_1 }} 
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}     
+          FEISHU_WEBHOOK_URL_1: ${{ secrets.FEISHU_WEBHOOK_URL_1 }} 
           JIJYUN_WEBHOOK_URL: ${{ secrets.JIJYUN_WEBHOOK_URL }}
           OriSG_WEBHOOK_URL: ${{ secrets.OriSG_WEBHOOK_URL }}
           OriCN_WEBHOOK_URL: ${{ secrets.OriCN_WEBHOOK_URL }}
