@@ -7,9 +7,9 @@
   },
   "elonmusk": {
     "fetched_days": 0,
-    "total_tweets": 18,
+    "total_tweets": 21,
     "used_in_reports": 3,
-    "last_active": "2026-04-06"
+    "last_active": "2026-04-07"
   },
   "xai": {
     "fetched_days": 0,
@@ -19,9 +19,9 @@
   },
   "pmarca": {
     "fetched_days": 0,
-    "total_tweets": 7,
-    "used_in_reports": 1,
-    "last_active": "2026-04-06"
+    "total_tweets": 10,
+    "used_in_reports": 2,
+    "last_active": "2026-04-07"
   },
   "palmerluckey": {
     "fetched_days": 0,
@@ -37,15 +37,15 @@
   },
   "anthropicai": {
     "fetched_days": 0,
-    "total_tweets": 6,
-    "used_in_reports": 1,
-    "last_active": "2026-04-04"
+    "total_tweets": 8,
+    "used_in_reports": 2,
+    "last_active": "2026-04-07"
   },
   "paulg": {
     "fetched_days": 0,
-    "total_tweets": 7,
+    "total_tweets": 9,
     "used_in_reports": 0,
-    "last_active": "2026-04-06"
+    "last_active": "2026-04-07"
   },
   "starks_arq": {
     "fetched_days": 0,
@@ -61,9 +61,9 @@
   },
   "lennysan": {
     "fetched_days": 0,
-    "total_tweets": 4,
-    "used_in_reports": 1,
-    "last_active": "2026-04-04"
+    "total_tweets": 5,
+    "used_in_reports": 2,
+    "last_active": "2026-04-07"
   },
   "jawwwn_": {
     "fetched_days": 0,
@@ -73,9 +73,9 @@
   },
   "a16z": {
     "fetched_days": 0,
-    "total_tweets": 8,
+    "total_tweets": 10,
     "used_in_reports": 3,
-    "last_active": "2026-04-05"
+    "last_active": "2026-04-07"
   },
   "bchesky": {
     "fetched_days": 0,
@@ -103,9 +103,9 @@
   },
   "chamath": {
     "fetched_days": 0,
-    "total_tweets": 7,
+    "total_tweets": 10,
     "used_in_reports": 0,
-    "last_active": "2026-04-06"
+    "last_active": "2026-04-07"
   },
   "nvidia": {
     "fetched_days": 0,
@@ -127,9 +127,9 @@
   },
   "eladgil": {
     "fetched_days": 0,
-    "total_tweets": 4,
+    "total_tweets": 5,
     "used_in_reports": 0,
-    "last_active": "2026-04-04"
+    "last_active": "2026-04-07"
   },
   "huggingface": {
     "fetched_days": 0,
@@ -151,9 +151,9 @@
   },
   "bindureddy": {
     "fetched_days": 0,
-    "total_tweets": 10,
-    "used_in_reports": 2,
-    "last_active": "2026-04-06"
+    "total_tweets": 13,
+    "used_in_reports": 3,
+    "last_active": "2026-04-07"
   },
   "sunnykgupta": {
     "fetched_days": 0,
@@ -235,21 +235,21 @@
   },
   "runwayml": {
     "fetched_days": 0,
-    "total_tweets": 1,
+    "total_tweets": 3,
     "used_in_reports": 0,
-    "last_active": "2026-04-04"
+    "last_active": "2026-04-07"
   },
   "ycombinator": {
     "fetched_days": 0,
-    "total_tweets": 1,
+    "total_tweets": 3,
     "used_in_reports": 0,
-    "last_active": "2026-04-04"
+    "last_active": "2026-04-07"
   },
   "clairevo": {
     "fetched_days": 0,
-    "total_tweets": 4,
+    "total_tweets": 5,
     "used_in_reports": 0,
-    "last_active": "2026-04-05"
+    "last_active": "2026-04-07"
   },
   "hardmaru": {
     "fetched_days": 0,
@@ -331,9 +331,9 @@
   },
   "_akhaliq": {
     "fetched_days": 0,
-    "total_tweets": 4,
+    "total_tweets": 5,
     "used_in_reports": 0,
-    "last_active": "2026-04-04"
+    "last_active": "2026-04-07"
   },
   "simpsoka": {
     "fetched_days": 0,
@@ -367,15 +367,15 @@
   },
   "garymarcus": {
     "fetched_days": 0,
-    "total_tweets": 8,
-    "used_in_reports": 0,
-    "last_active": "2026-04-05"
+    "total_tweets": 11,
+    "used_in_reports": 1,
+    "last_active": "2026-04-07"
   },
   "verge": {
     "fetched_days": 0,
-    "total_tweets": 8,
+    "total_tweets": 9,
     "used_in_reports": 0,
-    "last_active": "2026-04-05"
+    "last_active": "2026-04-07"
   },
   "projectgokuu": {
     "fetched_days": 0,
@@ -469,9 +469,9 @@
   },
   "karpathy": {
     "fetched_days": 0,
-    "total_tweets": 8,
-    "used_in_reports": 3,
-    "last_active": "2026-04-06"
+    "total_tweets": 9,
+    "used_in_reports": 4,
+    "last_active": "2026-04-07"
   },
   "jeffdean": {
     "fetched_days": 0,
@@ -481,9 +481,9 @@
   },
   "petergyang": {
     "fetched_days": 0,
-    "total_tweets": 2,
+    "total_tweets": 3,
     "used_in_reports": 2,
-    "last_active": "2026-04-05"
+    "last_active": "2026-04-07"
   },
   "thespearing": {
     "fetched_days": 0,
@@ -505,9 +505,9 @@
   },
   "techcrunch": {
     "fetched_days": 0,
-    "total_tweets": 4,
+    "total_tweets": 7,
     "used_in_reports": 0,
-    "last_active": "2026-04-06"
+    "last_active": "2026-04-07"
   },
   "thegenioo": {
     "fetched_days": 0,
@@ -535,9 +535,9 @@
   },
   "lucrezia0128": {
     "fetched_days": 0,
-    "total_tweets": 2,
+    "total_tweets": 3,
     "used_in_reports": 0,
-    "last_active": "2026-04-06"
+    "last_active": "2026-04-07"
   },
   "rudrank": {
     "fetched_days": 0,
@@ -547,9 +547,9 @@
   },
   "coindesk": {
     "fetched_days": 0,
-    "total_tweets": 2,
+    "total_tweets": 3,
     "used_in_reports": 0,
-    "last_active": "2026-04-05"
+    "last_active": "2026-04-07"
   },
   "heydin_ai": {
     "fetched_days": 0,
@@ -559,9 +559,9 @@
   },
   "hubermanlab": {
     "fetched_days": 0,
-    "total_tweets": 5,
+    "total_tweets": 8,
     "used_in_reports": 0,
-    "last_active": "2026-04-05"
+    "last_active": "2026-04-07"
   },
   "rob_svrn": {
     "fetched_days": 0,
@@ -643,9 +643,9 @@
   },
   "patrickmoorhead": {
     "fetched_days": 0,
-    "total_tweets": 3,
+    "total_tweets": 4,
     "used_in_reports": 0,
-    "last_active": "2026-04-05"
+    "last_active": "2026-04-07"
   },
   "fatima_rp120": {
     "fetched_days": 0,
@@ -946,5 +946,191 @@
     "total_tweets": 1,
     "used_in_reports": 0,
     "last_active": "2026-04-06"
+  },
+  "openai": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 1,
+    "last_active": "2026-04-07"
+  },
+  "samsheffer": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "collision": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "aliabdaal": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 1,
+    "last_active": "2026-04-07"
+  },
+  "mikeallen": {
+    "fetched_days": 0,
+    "total_tweets": 2,
+    "used_in_reports": 1,
+    "last_active": "2026-04-07"
+  },
+  "kieranklaassen": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "nutlope": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "jenzhuscott": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "clementdelangue": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "helloitsaustin": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "davidasinclair": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "openainewsroom": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "openclaw": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "tualatrix": {
+    "fetched_days": 0,
+    "total_tweets": 2,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "badlogicgames": {
+    "fetched_days": 0,
+    "total_tweets": 2,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "theallinpod": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "arcprize": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "erictopol": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "vdp_94": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "degeneratenews": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "jachiam0": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "peterschiff": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "danveloper": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "alexolegimas": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "wisemenmentors": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "thetornadonate": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "aastha_mhaske": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "skhynix": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "sandeepnailwal": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "om": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
+  },
+  "jessicalessin": {
+    "fetched_days": 0,
+    "total_tweets": 1,
+    "used_in_reports": 0,
+    "last_active": "2026-04-07"
   }
 }
