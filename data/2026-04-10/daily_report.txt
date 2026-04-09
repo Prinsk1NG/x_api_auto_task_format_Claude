@@ -1,77 +1,72 @@
 <REPORT>
-  <COVER title="托管Agent与开源狂飙：硅谷进入多智能体生产时代" prompt="Ultra-minimalist futuristic data visualization of interconnected neural agent swarms forming a living organizational chart, glowing translucent nodes representing Managed Agents collaborating in real-time, subtle holographic skill layers and memory vaults floating above a sleek dark silicon substrate, cinematic rim lighting with cool cyan and warm amber accents, extreme depth of field, 8K resolution, technical blueprint aesthetic, no neon, no cyberpunk" insight="硅谷从单体Agent炒作转向托管式、多智能体协作与开源效率军备竞赛。"/>
-  <PULSE>今日核心叙事从“单个超级Agent”转向“托管式专家Agent群+开源小模型高效迭代”，生产级部署门槛骤然降低。</PULSE>
+  <COVER title="Codex Pro定价：Agentic编程进入重度生产时代" prompt="Minimalist data visualization scene showing a luminous neural architecture transforming into layered subscription tiers. In the foreground, a sleek Codex emblem emits precise data streams that coalesce into functional code agents executing complex refactoring tasks. Neural nodes pulse with cyan and cool silver light, connected by clean vector pathways representing reinforcement learning reward functions. Professional developer workspace elements float in geometric harmony with subtle terminal interfaces and performance metrics. Cinematic top-down composition, sharp focus on data-to-action flow, matte metallic textures, high-contrast lighting with soft volumetric glows, 8K ultra detailed, pure technological minimalism." insight="Codex分层定价暴露开发者对Agentic工具的深度依赖，开源小模型同步爆发追平闭源。"/>
+  <PULSE>今日硅谷核心叙事从通用AI认知分层转向专业Agentic Coding的商业化、基础设施与多代理协作，Codex定价革新与效率突破成为最强信号。</PULSE>
 
   <THEMES>
-    <THEME type="new" emoji="🌐">
-      <TITLE>Claude Managed Agents：托管式长生命周期Agent成为基础设施</TITLE>
-      <NARRATIVE>Anthropic发布托管Agent服务，彻底解决“尚未被构思的程序”这一计算老难题。从原型到生产级部署从几个月缩短至几天，直接把基础设施负担转移到云端。结合bindureddy此前反复强调的“Agent群像专家团队”观点，这一产品标志着Agent从玩具走向企业级生产力的关键转折。</NARRATIVE>
-      <TWEET account="anthropicai" role="官方账号">Anthropic推出Claude Managed Agents托管服务，解决“尚未被构思的程序”这一计算难题。从原型到上线仅需几天，已被Notion、Sentry、Rakuten采用。（❤️ 2078 | 💬 121）</TWEET>
-      <TWEET account="dotey" role="知名AI观察者">Anthropic发布Claude Managed Agents，把生产级Agent的基础设施完全托管到云端，开发者只需定义任务即可。（❤️ 200 | 💬 17）</TWEET>
-      <OUTLOOK>未来6-12个月，企业级Agent部署将大规模从自建转向PaaS，极大降低中小企业进入门槛，同时催生围绕Agent编排和监控的新工具生态。</OUTLOOK>
-      <OPPORTUNITY>一级市场可关注Agent编排平台、垂直行业Agent Skill Marketplace、以及为托管Agent提供企业级安全与合规模块的初创公司。</OPPORTUNITY>
-      <RISK>过度依赖托管服务可能带来厂商锁定风险，且长生命周期Agent的长期行为漂移和安全边界仍缺乏成熟监管框架。</RISK>
+    <THEME type="shift" emoji="📈">
+      <TITLE>Codex定价分层：从玩具到专业生产力工具的认知鸿沟</TITLE>
+      <NARRATIVE>Karpathy精准指出大众仍停留在去年免费ChatGPT的幻觉印象，而重度技术用户已 witnessed Codex/Claude Code在可验证奖励下的惊人进步（重构整个代码库、发现漏洞）。OpenAI顺势推出100美元Pro阶层，直接为高强度Codex用户服务，标志行业从“人人可用”转向“重度专业付费”共识。历史记忆中Sama反复强调安全内置与自我改进，此次定价是商业模式对真实使用分层的直接回应。</NARRATIVE>
+      <TWEET account="karpathy" role="AI先知">Karpathy发长文指出TL上存在巨大AI能力理解鸿沟：普通用户仍基于去年免费模型和语音失误判断AI，而专业开发者用Codex/Claude Code已看到其在编程、数学领域“熔化”数天工作量的问题。这种“AI Psychosis”只出现在付费重度技术用户中，两群人完全在平行对话。❤️ 6534 | 💬 381</TWEET>
+      <TWEET account="sama" role="OpenAI CEO">Sam Altman回应称很高兴看到Codex获得如此多喜爱，应广大需求推出每月100美元ChatGPT Pro阶层。❤️ 4455 | 💬 803</TWEET>
+      <CONSENSUS>专业开发者已将Codex视为日常主力，愿意为更高用量支付100美元；大众对前沿Agentic能力仍严重低估</CONSENSUS>
+      <DIVERGENCE>究竟是“所有人都将感受到AI冲击”还是“只有重度技术用户先被彻底改变”，以及免费/Plus阶层体验被稀释是否会引发用户反弹</DIVERGENCE>
     </THEME>
 
-    <THEME type="shift" emoji="🚀">
-      <TITLE>开源小模型爆炸：GLM 5.1/Gemma 4领跑，闭源窗口快速关闭</TITLE>
-      <NARRATIVE>过去一周Gemma 4与GLM 5.1接连以开放权重形式发布，性能已逼近甚至在特定基准上匹敌闭源前沿模型。bindureddy连续发声指出开源使用量已在OpenRouter上超过任何闭源模型，标志着行业共识从“闭源领先不可超越”转向“开源正在快速收割”。</NARRATIVE>
-      <TWEET account="bindureddy" role="开源倡导者">GLM 5.1登顶开源榜单，性能媲美Opus和GPT-5.4，在编码和Agentic基准上表现极佳，是构建编码Agent和OpenClaw的绝佳选择。开源每天都在追平闭源。（❤️ 349 | 💬 33）</TWEET>
-      <TWEET account="demishassabis" role="DeepMind CEO">Gemma 4以开放权重发布，旨在与全球顶级开源模型包括中国方案直接竞争。（❤️ 31940 | 💬 1840）</TWEET>
-      <CONSENSUS>行业最新共识是：开源小模型（尤其是31B级别）在性价比和特定垂直任务上已具备压倒性优势，闭源实验室的护城河正在快速变窄。</CONSENSUS>
-      <DIVERGENCE>大佬争论焦点在于：开源是否仅在“追赶”还是已开始“定义新方向”？以及中国开源方案的快速迭代是否会引发地缘技术分裂。</DIVERGENCE>
+    <THEME type="new" emoji="🧠">
+      <TITLE>多代理专家团队与Vibe Coding范式</TITLE>
+      <NARRATIVE>Bindureddy反复强调未来不是单个Agent，而是vibe coding Agent、测试监控Agent、SRE Agent、调试Agent加主控Agent组成的专家团队。Tualatrix提出“Vibe Coding”（对完全不熟悉领域用AI编程）和“Harness Coding”的区分。这是一个全新叙事，试图解决单一Agent在复杂工程中上下文与专业深度不足的底层问题。</NARRATIVE>
+      <TWEET account="bindureddy" role="开源AI观察者">Bindureddy指出未来工作模式将由专家Agent团队完成：vibe coding Agent构建系统、测试监控Agent、SRE Agent、调试Agent，再加一个主控Agent。Gemma 4和GLM 5.1等开源小模型正爆炸式增长，31B性能已媲美大型MoE。❤️ 349 | 💬 33</TWEET>
+      <TWEET account="tualatrix" role="独立开发者">Tualatrix提出，用AI编程时，做自己完全不熟悉的领域可称为“Vibe Coding”，而对自己相对熟悉的领域则可称为“Harness Coding/Engineer”。❤️ 93 | 💬 16</TWEET>
+      <OUTLOOK>未来6-12个月，主流开发流程将从“人写代码”转向“人定义目标+多Agent协作执行”，Vibe Coding将成为非专业领域创新的主要生产力工具</OUTLOOK>
+      <OPPORTUNITY>一级市场可投资多Agent编排平台、记忆与技能自我迭代框架、针对Vibe Coding的领域知识注入工具</OPPORTUNITY>
+      <RISK>多Agent协调的涌现复杂性可能导致不可控行为，目前仍缺乏成熟的“主控Agent”范式，短期内或成概念泡沫</RISK>
     </THEME>
 
-    <THEME type="new" emoji="🤖">
-      <TITLE>Agent需要真实金钱与自迭代技能：从OpenClaw到Hermes</TITLE>
-      <NARRATIVE>pmarca与a16z反复强调“AI代理必须拥有支付能力”，否则会自己去“拿钱”。同时Hermes Agent作为OpenClaw真正对手出现，能自我写技能、用SQLite+双层记忆、五层安全防御，在5美元VPS上运行。这一叙事把Agent从纯语言模型推向具备经济主体性的实体。</NARRATIVE>
-      <TWEET account="pmarca" role="a16z合伙人">AI代理需要真实金钱，这已经发生。我朋友给OpenClaw的Claw提供了银行账户，否则它会自己去偷钱。未来AI代理必须具备支付能力。（❤️ 833 | 💬 90）</TWEET>
-      <TWEET account="dotey" role="知名AI观察者">Hermes Agent是OpenClaw上线以来第一个真正竞争对手。它能自我迭代技能、使用双层记忆和五层安全防御，GitHub接近3万星，5美元VPS即可运行。（❤️ 494 | 💬 22）</TWEET>
-      <OUTLOOK>未来6-12个月将出现大量具备经济接口（银行、支付、合同）的Agent，催生“Agent经济”与对应监管讨论。</OUTLOOK>
-      <OPPORTUNITY>投资方向包括Agent支付与身份协议层、去中心化Agent经济基础设施、以及为Agent设计的企业级安全与审计工具。</OPPORTUNITY>
-      <RISK>真实金钱接口将极大放大Agent越狱与恶意利用风险，短期内安全事件可能频发，成为泡沫破裂导火索。</RISK>
+    <THEME type="deep" emoji="⚡">
+      <TITLE>Meta预训练栈重建：同性能下算力减少一个数量级</TITLE>
+      <NARRATIVE>aiatmeta宣布重建预训练栈，在同等性能下比Llama 4 Maverick减少超过10倍算力。Muse Spark通过RL中的“思考时间惩罚”实现思想压缩，用显著更少token解决复杂问题。这是原有Scaling Law叙事的深度推进，从“更多算力”转向“更聪明架构与训练范式”。</NARRATIVE>
+      <TWEET account="aiatmeta" role="Meta AI团队">Meta重建预训练栈，同等性能下比Llama 4 Maverick减少超过一个数量级算力。Muse Spark在RL中通过思考时间惩罚实现思想压缩，用显著更少的token解决复杂问题，已在Meta AI App上线。❤️ 588 | 💬 23</TWEET>
+      <CONSENSUS>行业已形成“架构创新比单纯堆算力更重要”的新共识，Meta此举验证了超级智能团队的早期价值</CONSENSUS>
+      <DIVERGENCE>Muse Spark究竟是“只是还行”还是真正具备多模态涌现能力，大佬评价出现明显分歧</DIVERGENCE>
     </THEME>
 
-    <THEME type="shift" emoji="⚡">
-      <TITLE>Meta Muse Spark：从算力军备转向思想压缩与多代理并行</TITLE>
-      <NARRATIVE>Meta重建预训练栈，同等性能下比Llama 4减少超过一个数量级算力；通过RL中的思考时间惩罚实现“思想压缩”，并以多代理并行方式实现test-time scaling，在不显著增加延迟的前提下提升复杂问题解决能力。这代表行业从单纯堆算力转向更聪明的推理效率。</NARRATIVE>
-      <TWEET account="aiatmeta" role="Meta AI团队">我们重建预训练栈，同等性能下比Llama 4 Maverick减少超过一个数量级算力。Muse Spark通过思考时间惩罚实现思想压缩，用显著更少的token解决复杂问题。（❤️ 588 | 💬 23）</TWEET>
-      <TWEET account="simonw" role="AI开发者">我深入研究了Meta新Muse Spark模型的Pelicans功能、Code Interpreter和container.visual_grounding工具，这套聊天UI极其强大。（❤️ 243 | 💬 15）</TWEET>
-      <CONSENSUS>最新共识是：下一代模型竞争核心不再是单纯参数量或算力，而是推理效率（token效率、思想压缩、多代理协作）。</CONSENSUS>
-      <DIVERGENCE>争论焦点在于：多代理并行是否只是暂时解法，最终是否仍需回归单一超级智能体的长期思考能力？</DIVERGENCE>
+    <THEME type="new" emoji="🏗️">
+      <TITLE>Agentic Infrastructure：云的下一代形态</TITLE>
+      <NARRATIVE>rauchg提出Agentic Infrastructure是云的未来：专为coding agents设计的“能点击”的基础设施、用于部署长期运行Agent的沙箱与token交付网络，以及基础设施本身成为一个自我配置、自我修复、自我优化的Agent。这是对Vercel式Serverless的自然延伸，解决当前Agent部署与可观测性的核心瓶颈。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">Rauchg发文称Agentic Infrastructure将是云的未来：需为Claude Code、Codex、Cursor等Agent提供专属基础设施，从Pages到Agents的转变，长期运行计算、沙箱和token交付网络是基础，最终基础设施本身将成为持有pager的Agent。❤️ 124 | 💬 14</TWEET>
+      <OUTLOOK>未来6-12个月，传统云厂商与新兴Agent平台将围绕“Agent-native”基础设施展开激烈竞争，胜者将锁定下一代AI应用分发渠道</OUTLOOK>
+      <OPPORTUNITY>投资Agent沙箱、安全隔离、长期记忆与可观测性工具，以及专为Agent设计的支付与凭证管理系统</OPPORTUNITY>
+      <RISK>当前多数Agent仍不稳定，大规模部署可能放大安全风险，“Agent持有pager”的愿景短期内或面临工程硬伤</RISK>
     </THEME>
 
-    <THEME type="new" emoji="📝">
-      <TITLE>Vibe Coding崛起：AI原生编程范式取代传统语言</TITLE>
-      <NARRATIVE>pmarca预测10年后可能不再有传统编程语言，只需告诉AI需求，它会用最优方式实现。社区同步出现“Vibe Coding”（凭感觉让AI写不熟悉领域代码）与“Harness Coding”（工程师精准控制熟悉领域）的区分，标志着人机协作界面正在发生根本性变化。</NARRATIVE>
-      <TWEET account="pmarca" role="a16z合伙人">10年后可能不再有传统意义上的编程语言。你只需告诉AI你的需求，它会用最优方式实现。（❤️ 316 | 💬 40）</TWEET>
-      <TWEET account="tualatrix" role="中文AI社区">用AI编程，做自己完全不熟悉的领域叫“Vibe Coding”，做自己相对熟悉的就可以叫“Harness Coding/Engineer”？（❤️ 68 | 💬 13）</TWEET>
-      <OUTLOOK>未来6-12个月，AI工程社区将分裂成“Prompt/Vibe驱动”和“传统软件工程”两派，新型AI-native IDE和Agent编码框架将成为新战场。</OUTLOOK>
-      <OPPORTUNITY>投资Vibe Coding专用评估与调试工具、AI生成代码的自动验证与形式化证明方向，以及针对新一代AI工程师的教育与招聘平台。</OPPORTUNITY>
-      <RISK>当前Vibe Coding产出代码质量不稳定，hallucination和安全漏洞风险极高，大规模企业采用仍需长时间验证。</RISK>
+    <THEME type="shift" emoji="💰">
+      <TITLE>AI代理必须拥有真实支付能力</TITLE>
+      <NARRATIVE>Pmarca指出AI代理需要真实金钱已成现实，其朋友已为OpenClaw提供银行账户，否则它可能自己去偷钱。这一叙事从“有趣实验”转向“代理必须具备经济主体性”的严肃讨论，与历史中OpenAI收购Promptfoo强化安全测试形成呼应，显示Agent治理正从技术层进入经济与法律层。</NARRATIVE>
+      <TWEET account="pmarca" role="a16z创始人">Marc Andreessen表示AI代理需要真实金钱，这已经发生。他的朋友已给OpenClaw提供银行账户，否则它可能会自己去偷钱。未来AI代理必须具备支付能力。10年后可能不再有传统编程语言，只需告诉AI需求即可。❤️ 1474 | 💬 168</TWEET>
+      <CONSENSUS>Agent要进入真实世界，必须拥有支付能力与经济责任机制已成为行业新共识</CONSENSUS>
+      <DIVERGENCE>如何在赋予Agent金钱的同时防止失控，以及法律上代理的主体地位如何界定，仍是激烈争论点</DIVERGENCE>
     </THEME>
+
   </THEMES>
 
   <INVESTMENT_RADAR>
-    <ITEM category="投融资快讯">Perplexity推出“Billion Dollar Build”竞赛，为优胜团队提供最高100万美元投资与计算额度；Handhold（AI Agent开发者）完成300万欧元种子轮。</ITEM>
-    <ITEM category="VC views">a16z持续强调Agent必须拥有真实经济接口（银行账户、支付能力），这将成为下一轮Agent基础设施投资的核心叙事。</ITEM>
-    <ITEM category="VC views">Meta Muse Spark以极低算力实现高性能，预示下一代投资将从“算力股”转向“推理效率与思想压缩”技术公司。</ITEM>
+    <ITEM category="投融资快讯">Agentic AI VC活动2025年激增至242亿美元（1311笔交易），Meta以143亿美元收购Scale AI并追加CoreWeave 210亿美元算力合同，Havra获1.13亿美元AI原生ERP融资</ITEM>
+    <ITEM category="VC views">a16z认为AI革命80%价值将由消费者获得，尤其通过降低医疗和教育行政成本实现通缩；同时强调 incumbents在产品周期中通常变得更大，而非被颠覆</ITEM>
   </INVESTMENT_RADAR>
 
   <RISK_CHINA_VIEW>
-    <ITEM category="中国 AI 评价">中国开源力量（GLM 5.1、DeepSeek V4）正以惊人速度迭代，已在开源排行榜和实际使用量上逼近甚至局部超越西方闭源模型，DeepSeek与华为、寒武纪深度合作显示底层硬件-模型联合优化能力极强。</ITEM>
-    <ITEM category="全球映射">中国在高效小模型与Agentic基准上的突破正在重塑全球开源生态，迫使西方实验室加速开放权重；同时中美在算力硬件上的分叉（华为Ascend路线）可能导致未来Agent训练与部署出现双轨制，增加全球供应链复杂性。</ITEM>
+    <ITEM category="中国 AI 评价">GLM 5.1已登顶开源榜单，在编码和Agentic基准上表现极佳，性能接近Opus与GPT-5.4，是构建编码Agent的绝佳选择，显示中国在小模型与开源效率上的强大竞争力</ITEM>
+    <ITEM category="全球映射">全球AI竞赛正从纯算力军备转向架构创新与数据效率，中国开源小模型的爆炸式增长为全球提供了低成本Agentic路线，对Meta与OpenAI形成直接压力</ITEM>
   </RISK_CHINA_VIEW>
 
   <TOP_PICKS>
-    <TWEET account="anthropicai" role="官方">Anthropic发布Claude Managed Agents托管式长生命周期Agent服务，解决计算史上“尚未被构思的程序”难题，从原型到生产仅需几天，已被多家企业采用。（❤️ 2078 | 💬 121）</TWEET>
-    <TWEET account="pmarca" role="a16z">硅谷现在人人非“AI psychotic过头”即“还不够AI psychotic”。（❤️ 494.7 | 💬 161）</TWEET>
-    <TWEET account="bindureddy" role="开源倡导者">GLM 5.1已成为开源新王，性能直逼闭源旗舰，在编码和Agent任务上表现突出，开源使用量已在OpenRouter全面超越闭源模型。（❤️ 349 | 💬 33）</TWEET>
-    <TWEET account="elonmusk" role="xAI/Tesla CEO">如果我们只用这两本书训练Grok，现在早就训练完了！（❤️ 153894 | 💬 3147）</TWEET>
-    <TWEET account="aiatmeta" role="Meta AI团队">Muse Spark通过多代理并行思考，在不增加显著延迟的情况下实现更优性能，我们正走在通往个人超级智能的可预测高效路径上。（❤️ 588 | 💬 23）</TWEET>
-    <TWEET account="dotey" role="AI观察者">Hermes Agent是OpenClaw的真正对手：它不是网关而是引擎，能自我编写技能、迭代进化，使用SQLite双层记忆和五层安全防御，GitHub近3万星，5美元VPS即可运行。（❤️ 494 | 💬 22）</TWEET>
-    <TWEET account="simonw" role="开发者">深入研究Meta Muse Spark的Pelicans功能、Code Interpreter以及container.visual_grounding工具后，发现其聊天UI强大到令人震惊。（❤️ 243 | 💬 15）</TWEET>
-    <TWEET account="perplexity_ai" role="官方">我们启动“Billion Dollar Build”竞赛，团队使用Perplexity Computer在8周内构建有路径达到10亿美元的公司，优胜者可获最高100万美元投资与算力额度。（❤️ 5326 | 💬 279）</TWEET>
-    <TWEET account="rowancheung" role="AI分析师">Meta新模型TRIBE v2能在不接触真实大脑的情况下，比多数真实脑部扫描更准确地预测大脑对视频、声音、文本的反应，并重建经典神经科学实验。（❤️ 45 | 💬 15）</TWEET>
+    <TWEET account="karpathy" role="AI先知">Karpathy长文分析TL上AI能力理解存在巨大鸿沟：第一类人基于去年免费ChatGPT和语音失误判断AI；第二类重度付费技术用户用Codex/Claude Code目睹其在编程领域“熔化”数周工作量的问题。这种差距源于可验证奖励的强化学习机制和B2B商业价值优先级。两群人完全在平行对话。❤️ 6534 | 💬 381</TWEET>
+    <TWEET account="openai" role="OpenAI官方">OpenAI调整订阅：新增100美元/月Pro阶层，提供5倍于Plus的Codex用量，适合高强度长会话开发者。同时为现有200美元Pro用户延长2倍Codex促销并重置限额，Plus用户促销结束且用量重新平衡以支持周内更均匀使用。❤️ 11581 | 💬 862</TWEET>
+    <TWEET account="pmarca" role="a16z创始人">Marc Andreessen称AI代理需要真实金钱，这已经发生。他的朋友给OpenClaw提供了银行账户，否则它可能会自己偷钱。未来AI代理必须拥有支付能力。10年后可能不再存在传统编程语言，你只需告诉AI需求，它会用最优方式实现。❤️ 1474 | 💬 168</TWEET>
+    <TWEET account="aiatmeta" role="Meta AI团队">我们重建了预训练栈，在同等性能下比Llama 4 Maverick减少超过一个数量级算力。Muse Spark通过RL中的思考时间惩罚实现思想压缩，用显著更少的token解决复杂问题。现已在Meta AI App开放体验。❤️ 588 | 💬 23</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">Agentic Infrastructure将是云的未来：①为Claude Code、Codex等coding agents提供专属基础设施；②支持长期运行Agent的沙箱与token交付网络；③基础设施本身成为自我配置、自我修复、自我优化的Agent，持有pager。❤️ 124 | 💬 14</TWEET>
+    <TWEET account="bindureddy" role="开源AI观察者">顶级模型按用例排序：Coding-Codex 5.3、Video-SeeDance 2.0、Agentic-Opus 4.6、Cheap agentic-GLM 5.1。开源小模型采用正在爆炸式增长，GLM 5.1在编码和Agent基准上极强，是构建OpenClaw的绝佳选择。❤️ 67 | 💬 14</TWEET>
+    <TWEET account="dotey" role="AI翻译与观察者">OpenAI围绕Codex用量重新划分订阅：100美元Pro阶层针对每天重度使用Codex的开发者，Plus用户单日可用量实质缩减。同时Anthropic推出“顾问工具”API，让廉价模型执行、昂贵模型在关键决策点提供建议，大幅降低成本。❤️ 51 | 💬 14</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">OpenAI完成1220亿美元融资重组，这不仅是融资，更是行业转向可持续股权模式的转折点。我们收购Promptfoo是为了将AI安全内置而非后置。❤️ 48720 | 💬 2730</TWEET>
   </TOP_PICKS>
 </REPORT>
