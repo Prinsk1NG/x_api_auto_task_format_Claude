@@ -464,7 +464,7 @@ def render_feishu_card(parsed_data: dict, today_str: str):
             prefix = "🔭 新叙事观察" if theme.get("type") == "new" else "💡 叙事转向"
             theme_md += f"<font color='grey'>{prefix}：{theme['narrative']}</font>\n"
             for t in theme["tweets"]:
-                theme_md += f"🗣️ **@{t['account']} | {t['role']}**\n<font color='grey'>"{t['content']}"</font>\n"
+                theme_md += f"🗣️ **@{t['account']} | {t['role']}**\n<font color='grey'>\u201c{t['content']}\u201d</font>\n"
             if theme.get("type") == "new":
                 if theme.get("outlook"): theme_md += f"<font color='blue'>**🔮 解读与展望：**</font> {theme['outlook']}\n"
                 if theme.get("opportunity"): theme_md += f"<font color='green'>**🎯 潜在机会：**</font> {theme['opportunity']}\n"
@@ -490,7 +490,7 @@ def render_feishu_card(parsed_data: dict, today_str: str):
     if parsed_data["top_picks"]:
         picks_md = "**▌ 📣 今日精选推文 (Top 5 Picks)**\n"
         for t in parsed_data["top_picks"]:
-            picks_md += f"\n🗣️ **@{t['account']} | {t['role']}**\n<font color='grey'>\"{t['content']}\"</font>\n"
+            picks_md += f"\n🗣️ **@{t['account']} | {t['role']}**\n<font color='grey'>\u201c{t['content']}\u201d</font>\n"
         elements.append({"tag": "markdown", "content": picks_md.strip()})
 
     card_payload = {
@@ -529,7 +529,7 @@ def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
 
             for t in theme["tweets"]:
                 html_lines.append(f'<p style="margin:8px 0 2px 0;font-size:14px;font-weight:bold;color:#2c3e50;">🗣️ @{t["account"]} <span style="color:#94a3b8;font-weight:normal;">| {t["role"]}</span></p>')
-                html_lines.append(make_quote(f'"{t["content"]}"'))
+                html_lines.append(make_quote(f'\u201c{t["content"]}\u201d'))
 
             if theme.get("type") == "new":
                 if theme.get("outlook"): html_lines.append(f'<p style="margin:6px 0; font-size:15px; line-height:1.6; background:#eef2ff; padding: 8px 12px; border-radius: 4px;"><strong style="color:#4f46e5;">🔮 解读与展望：</strong>{theme["outlook"]}</p>')
@@ -551,7 +551,7 @@ def render_wechat_html(parsed_data: dict, cover_url: str = "") -> str:
         html_lines.append(make_h3("📣 今日精选推文 (Top 5 Picks)"))
         for t in parsed_data["top_picks"]:
              html_lines.append(f'<p style="margin:12px 0 4px 0;font-size:14px;font-weight:bold;color:#2c3e50;">🗣️ @{t["account"]} <span style="color:#94a3b8;font-weight:normal;">| {t["role"]}</span></p>')
-             html_lines.append(make_quote(f'"{t["content"]}"'))
+             html_lines.append(make_quote(f'\u201c{t["content"]}\u201d'))
     return "".join(html_lines)
 
 def generate_cover_image(prompt):
