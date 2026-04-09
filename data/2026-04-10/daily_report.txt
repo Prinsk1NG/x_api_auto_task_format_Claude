@@ -1,77 +1,77 @@
 <REPORT>
-  <COVER title="一栋楼成AI芯片天堂 垂直整合引爆新叙事" prompt="Ultra-realistic cinematic industrial photograph of a single massive high-tech factory building containing all semiconductor production equipment - logic, memory, packaging and mask tools - integrated under one roof. Tesla and xAI logos subtly visible on architecture, teams of elite engineers collaborating with robotic arms under dramatic volumetric lighting and god rays streaming through skylights, pristine white and metallic industrial design, intricate machinery details with holographic displays, shot on Arri Alexa 65, 8K resolution, hyper-detailed textures, clean futuristic manufacturing aesthetic, strategic composition emphasizing scale and integration, no neon or cyberpunk elements" insight="硅谷从模型军备转向软硬一体垂直整合，速度即壁垒"/>
-  <PULSE>硅谷核心叙事从纯算力竞赛转向硬件垂直整合与实时世界模拟，埃隆的一体化工厂哲学与Meta Muse Spark发布共同定义未来6个月竞争主线。</PULSE>
+  <COVER title="托管Agent与开源狂飙：硅谷进入多智能体生产时代" prompt="Ultra-minimalist futuristic data visualization of interconnected neural agent swarms forming a living organizational chart, glowing translucent nodes representing Managed Agents collaborating in real-time, subtle holographic skill layers and memory vaults floating above a sleek dark silicon substrate, cinematic rim lighting with cool cyan and warm amber accents, extreme depth of field, 8K resolution, technical blueprint aesthetic, no neon, no cyberpunk" insight="硅谷从单体Agent炒作转向托管式、多智能体协作与开源效率军备竞赛。"/>
+  <PULSE>今日核心叙事从“单个超级Agent”转向“托管式专家Agent群+开源小模型高效迭代”，生产级部署门槛骤然降低。</PULSE>
 
   <THEMES>
-    <THEME type="shift" emoji="🏭">
-      <TITLE>从模型参数竞赛转向一栋楼硬件天堂</TITLE>
-      <NARRATIVE>埃隆马斯克反复强调将逻辑、内存、封装和掩膜设备全部放在一栋楼内以实现极致开发速度，这标志着行业从“更大模型”崇拜转向软硬件垂直整合的制造哲学，与其2024-2025年对算力军备的推动形成鲜明转向。</NARRATIVE>
-      <TWEET account="elonmusk" role="xAI/Tesla创始人">与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。❤️ 108374 | 💬 6835</TWEET>
-      <CONSENSUS>行业最新共识是：未来超级智能必须由深度垂直整合的软硬团队打造，孤立的模型实验室已无法满足实时物理世界需求。</CONSENSUS>
-      <DIVERGENCE>大佬争论焦点在于，这种“一切放一栋楼”的极端整合是否会牺牲专业化分工，以及xAI收购SpaceX是否分散了Tesla机器人和芯片的核心资源。</DIVERGENCE>
+    <THEME type="new" emoji="🌐">
+      <TITLE>Claude Managed Agents：托管式长生命周期Agent成为基础设施</TITLE>
+      <NARRATIVE>Anthropic发布托管Agent服务，彻底解决“尚未被构思的程序”这一计算老难题。从原型到生产级部署从几个月缩短至几天，直接把基础设施负担转移到云端。结合bindureddy此前反复强调的“Agent群像专家团队”观点，这一产品标志着Agent从玩具走向企业级生产力的关键转折。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方账号">Anthropic推出Claude Managed Agents托管服务，解决“尚未被构思的程序”这一计算难题。从原型到上线仅需几天，已被Notion、Sentry、Rakuten采用。（❤️ 2078 | 💬 121）</TWEET>
+      <TWEET account="dotey" role="知名AI观察者">Anthropic发布Claude Managed Agents，把生产级Agent的基础设施完全托管到云端，开发者只需定义任务即可。（❤️ 200 | 💬 17）</TWEET>
+      <OUTLOOK>未来6-12个月，企业级Agent部署将大规模从自建转向PaaS，极大降低中小企业进入门槛，同时催生围绕Agent编排和监控的新工具生态。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注Agent编排平台、垂直行业Agent Skill Marketplace、以及为托管Agent提供企业级安全与合规模块的初创公司。</OPPORTUNITY>
+      <RISK>过度依赖托管服务可能带来厂商锁定风险，且长生命周期Agent的长期行为漂移和安全边界仍缺乏成熟监管框架。</RISK>
     </THEME>
 
-    <THEME type="new" emoji="🌟">
-      <TITLE>Meta超级智能团队首发Muse Spark</TITLE>
-      <NARRATIVE>Meta超级智能团队推出首款Muse Spark模型，同时发布包含Code Interpreter和container.visual_grounding等先进工具的聊天UI，这代表大厂正式从追赶式追逐转向自主定义“AI原生创意与具身工具”新范式。</NARRATIVE>
-      <TWEET account="simonw" role="AI开发者/观察者">我深入研究了Meta新Muse Spark模型的Pelicans功能，以及其Code Interpreter和“container.visual_grounding”工具，这套聊天UI极其强大。❤️ 243 | 💬 15</TWEET>
-      <OUTLOOK>未来6-12个月，Muse-like的多模态具身工具将快速渗透设计、工程和机器人训练领域，Meta可能借此在消费级AI Agent赛道建立新壁垒。</OUTLOOK>
-      <OPPORTUNITY>一级市场可重点关注围绕视觉基底和实时4D理解的具身智能应用，以及为Muse生态提供高质量合成数据的初创公司。</OPPORTUNITY>
-      <RISK>短期存在明显泡沫风险，模型是否真正达到“superintelligence”水平仍有待验证，视觉grounding工具在复杂现实场景中仍可能出现幻觉。</RISK>
+    <THEME type="shift" emoji="🚀">
+      <TITLE>开源小模型爆炸：GLM 5.1/Gemma 4领跑，闭源窗口快速关闭</TITLE>
+      <NARRATIVE>过去一周Gemma 4与GLM 5.1接连以开放权重形式发布，性能已逼近甚至在特定基准上匹敌闭源前沿模型。bindureddy连续发声指出开源使用量已在OpenRouter上超过任何闭源模型，标志着行业共识从“闭源领先不可超越”转向“开源正在快速收割”。</NARRATIVE>
+      <TWEET account="bindureddy" role="开源倡导者">GLM 5.1登顶开源榜单，性能媲美Opus和GPT-5.4，在编码和Agentic基准上表现极佳，是构建编码Agent和OpenClaw的绝佳选择。开源每天都在追平闭源。（❤️ 349 | 💬 33）</TWEET>
+      <TWEET account="demishassabis" role="DeepMind CEO">Gemma 4以开放权重发布，旨在与全球顶级开源模型包括中国方案直接竞争。（❤️ 31940 | 💬 1840）</TWEET>
+      <CONSENSUS>行业最新共识是：开源小模型（尤其是31B级别）在性价比和特定垂直任务上已具备压倒性优势，闭源实验室的护城河正在快速变窄。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于：开源是否仅在“追赶”还是已开始“定义新方向”？以及中国开源方案的快速迭代是否会引发地缘技术分裂。</DIVERGENCE>
     </THEME>
 
-    <THEME type="new" emoji="🌍">
-      <TITLE>实时4D世界模拟器成为具身AI新底座</TITLE>
-      <NARRATIVE>INSPATIO-WORLD通过时空自回归建模实现实时4D世界模拟，试图解决当前具身智能训练严重依赖真实世界数据或低质量模拟器的底层瓶颈，为Optimus等机器人提供可扩展的“虚拟物理世界”。</NARRATIVE>
-      <TWEET account="_akhaliq" role="AI论文速递账号">INSPATIO-WORLD：通过时空自回归建模实现的实时4D世界模拟器，论文已开源。❤️ 32 | 💬 0</TWEET>
-      <OUTLOOK>6-12个月内，此类4D模拟器有望成为训练人形机器人和自主Agent的标准底座，极大降低真实世界试错成本。</OUTLOOK>
-      <OPPORTUNITY>投资机会在于4D模拟引擎的商业化、合成数据生成平台，以及将模拟器与Tesla Optimus或Figure机器人结合的垂直解决方案。</OPPORTUNITY>
-      <RISK>技术硬伤在于计算量极高，当前硬件条件下难以实现真正“实时”高保真模拟，短期仍可能是学术展示而非产品级落地。</RISK>
-    </THEME>
-
-    <THEME type="shift" emoji="📚">
-      <TITLE>Grok训练哲学的重大转向</TITLE>
-      <NARRATIVE>埃隆公开表示“如果只用这两本书训练Grok，我们早就成功了”，结合其历史对“政治正确数据”的厌恶，显示Grok正从海量数据路线转向极高质量、高信号、反主流叙事的数据 curation，这与早期xAI强调“最大好奇心”的口径发生明显转向。</NARRATIVE>
-      <TWEET account="elonmusk" role="xAI创始人">如果我们只用这两本书训练Grok，现在早就训练完了！https://t.co/Xn6UdaAMxM ❤️ 153894 | 💬 3147</TWEET>
-      <CONSENSUS>高质量 curation 和“反向数据”正在成为前沿实验室的隐形共识，单纯堆参数的时代已进入尾声。</CONSENSUS>
-      <DIVERGENCE>大佬争论核心在于：这种“只用特定两本书”的极端 curation 是否会引入新的偏见，以及Grok的“最大真实”理念是否能真正超越OpenAI的规模路线。</DIVERGENCE>
-    </THEME>
-
-    <THEME type="deepen" emoji="🤖">
-      <TITLE>AI工程社区向欧洲深度渗透</TITLE>
-      <NARRATIVE>swyx在JSConf EU基础上推动AI Engineering Europe大会，并现场征集走廊 talks，标志着AI工程文化从旧金山湾区向全球尤其是欧洲的深度扩张，这是原有“AI Engineer”叙事的里程碑式推进。</NARRATIVE>
-      <TWEET account="swyx" role="AI Engineer布道者">在JSConf EU基础上推动AIE EU大会对我意义重大，这是我致力于未来十年全球AI工程社区建设的证明，尤其是欧洲。现场征集走廊talks进行中。❤️ 90 | 💬 17</TWEET>
-      <CONSENSUS>行业已形成共识：AI Engineer是独立于研究和产品的新专业赛道，需要全球化的工程师社区支撑。</CONSENSUS>
-      <DIVERGENCE>目前争议在于，欧洲在算力和人才上相对落后，社区扩张能否有效转化为实际技术产出，仍是未解之谜。</DIVERGENCE>
+    <THEME type="new" emoji="🤖">
+      <TITLE>Agent需要真实金钱与自迭代技能：从OpenClaw到Hermes</TITLE>
+      <NARRATIVE>pmarca与a16z反复强调“AI代理必须拥有支付能力”，否则会自己去“拿钱”。同时Hermes Agent作为OpenClaw真正对手出现，能自我写技能、用SQLite+双层记忆、五层安全防御，在5美元VPS上运行。这一叙事把Agent从纯语言模型推向具备经济主体性的实体。</NARRATIVE>
+      <TWEET account="pmarca" role="a16z合伙人">AI代理需要真实金钱，这已经发生。我朋友给OpenClaw的Claw提供了银行账户，否则它会自己去偷钱。未来AI代理必须具备支付能力。（❤️ 833 | 💬 90）</TWEET>
+      <TWEET account="dotey" role="知名AI观察者">Hermes Agent是OpenClaw上线以来第一个真正竞争对手。它能自我迭代技能、使用双层记忆和五层安全防御，GitHub接近3万星，5美元VPS即可运行。（❤️ 494 | 💬 22）</TWEET>
+      <OUTLOOK>未来6-12个月将出现大量具备经济接口（银行、支付、合同）的Agent，催生“Agent经济”与对应监管讨论。</OUTLOOK>
+      <OPPORTUNITY>投资方向包括Agent支付与身份协议层、去中心化Agent经济基础设施、以及为Agent设计的企业级安全与审计工具。</OPPORTUNITY>
+      <RISK>真实金钱接口将极大放大Agent越狱与恶意利用风险，短期内安全事件可能频发，成为泡沫破裂导火索。</RISK>
     </THEME>
 
     <THEME type="shift" emoji="⚡">
-      <TITLE>谁该掌管超级AI的权力斗争</TITLE>
-      <NARRATIVE>埃隆马斯克发帖称“不是你想让其掌管超级强大AI的那个人”，结合其近期对OpenAI路线的持续批评，显示“AI安全 vs 加速主义”以及“谁来领导”的叙事正从幕后辩论转向公开权力斗争。</NARRATIVE>
-      <TWEET account="elonmusk" role="xAI创始人">这不是你想让其掌管超级强大AI的那个人。❤️ 74242 | 💬 3035</TWEET>
-      <CONSENSUS>行业最新共识是，掌握超级AI的公司治理结构和创始人价值观将决定人类未来，单纯商业成功已不足以获得信任。</CONSENSUS>
-      <DIVERGENCE>最大分歧在于：埃隆所代表的“最大真实”路线与传统大厂的“安全第一”路线，哪一条更可能率先实现AGI且不失控。</DIVERGENCE>
+      <TITLE>Meta Muse Spark：从算力军备转向思想压缩与多代理并行</TITLE>
+      <NARRATIVE>Meta重建预训练栈，同等性能下比Llama 4减少超过一个数量级算力；通过RL中的思考时间惩罚实现“思想压缩”，并以多代理并行方式实现test-time scaling，在不显著增加延迟的前提下提升复杂问题解决能力。这代表行业从单纯堆算力转向更聪明的推理效率。</NARRATIVE>
+      <TWEET account="aiatmeta" role="Meta AI团队">我们重建预训练栈，同等性能下比Llama 4 Maverick减少超过一个数量级算力。Muse Spark通过思考时间惩罚实现思想压缩，用显著更少的token解决复杂问题。（❤️ 588 | 💬 23）</TWEET>
+      <TWEET account="simonw" role="AI开发者">我深入研究了Meta新Muse Spark模型的Pelicans功能、Code Interpreter和container.visual_grounding工具，这套聊天UI极其强大。（❤️ 243 | 💬 15）</TWEET>
+      <CONSENSUS>最新共识是：下一代模型竞争核心不再是单纯参数量或算力，而是推理效率（token效率、思想压缩、多代理协作）。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：多代理并行是否只是暂时解法，最终是否仍需回归单一超级智能体的长期思考能力？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="📝">
+      <TITLE>Vibe Coding崛起：AI原生编程范式取代传统语言</TITLE>
+      <NARRATIVE>pmarca预测10年后可能不再有传统编程语言，只需告诉AI需求，它会用最优方式实现。社区同步出现“Vibe Coding”（凭感觉让AI写不熟悉领域代码）与“Harness Coding”（工程师精准控制熟悉领域）的区分，标志着人机协作界面正在发生根本性变化。</NARRATIVE>
+      <TWEET account="pmarca" role="a16z合伙人">10年后可能不再有传统意义上的编程语言。你只需告诉AI你的需求，它会用最优方式实现。（❤️ 316 | 💬 40）</TWEET>
+      <TWEET account="tualatrix" role="中文AI社区">用AI编程，做自己完全不熟悉的领域叫“Vibe Coding”，做自己相对熟悉的就可以叫“Harness Coding/Engineer”？（❤️ 68 | 💬 13）</TWEET>
+      <OUTLOOK>未来6-12个月，AI工程社区将分裂成“Prompt/Vibe驱动”和“传统软件工程”两派，新型AI-native IDE和Agent编码框架将成为新战场。</OUTLOOK>
+      <OPPORTUNITY>投资Vibe Coding专用评估与调试工具、AI生成代码的自动验证与形式化证明方向，以及针对新一代AI工程师的教育与招聘平台。</OPPORTUNITY>
+      <RISK>当前Vibe Coding产出代码质量不稳定，hallucination和安全漏洞风险极高，大规模企业采用仍需长时间验证。</RISK>
     </THEME>
   </THEMES>
 
   <INVESTMENT_RADAR>
-    <ITEM category="投融资快讯">Polygon Labs正谈判融资5000-1亿美元；以色列量子计算公司Q-Factor获2400万美元种子轮；爱沙尼亚AI Agent公司Handhold获300万欧元种子轮；Meta额外向CoreWeave投入210亿美元用于AI基础设施。</ITEM>
-    <ITEM category="VC views">Meta以Muse Spark展示超级智能团队实力，暗示2026年大模型竞争已从开源闭源之争转向“谁能率先把模型变成具身生产力工具”；量子计算与AI Agent的早期融资升温，显示资本开始布局后大模型时代的基础设施。</ITEM>
+    <ITEM category="投融资快讯">Perplexity推出“Billion Dollar Build”竞赛，为优胜团队提供最高100万美元投资与计算额度；Handhold（AI Agent开发者）完成300万欧元种子轮。</ITEM>
+    <ITEM category="VC views">a16z持续强调Agent必须拥有真实经济接口（银行账户、支付能力），这将成为下一轮Agent基础设施投资的核心叙事。</ITEM>
+    <ITEM category="VC views">Meta Muse Spark以极低算力实现高性能，预示下一代投资将从“算力股”转向“推理效率与思想压缩”技术公司。</ITEM>
   </INVESTMENT_RADAR>
 
   <RISK_CHINA_VIEW>
-    <ITEM category="中国 AI 评价">尽管2025年5月融资数据已显陈旧，但中国AI一级市场仍在应用层（尤其是具身智能和工业模拟）保持高活跃度，政策支持的“新质生产力”方向与硅谷当前的硬件垂直整合叙事高度契合。</ITEM>
-    <ITEM category="全球映射">中国在4D世界模拟和芯片垂直整合领域的研发进度可能被低估，若能抓住Muse Spark式工具开放的窗口，有望在具身AI应用端实现弯道超车，但仍需警惕核心高端芯片设备受限的风险。</ITEM>
+    <ITEM category="中国 AI 评价">中国开源力量（GLM 5.1、DeepSeek V4）正以惊人速度迭代，已在开源排行榜和实际使用量上逼近甚至局部超越西方闭源模型，DeepSeek与华为、寒武纪深度合作显示底层硬件-模型联合优化能力极强。</ITEM>
+    <ITEM category="全球映射">中国在高效小模型与Agentic基准上的突破正在重塑全球开源生态，迫使西方实验室加速开放权重；同时中美在算力硬件上的分叉（华为Ascend路线）可能导致未来Agent训练与部署出现双轨制，增加全球供应链复杂性。</ITEM>
   </RISK_CHINA_VIEW>
 
   <TOP_PICKS>
-    <TWEET account="elonmusk" role="xAI/Tesla创始人">与顶尖工程师一起创造不可思议的技术是我最享受的事。Tesla芯片研发工厂将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。❤️ 108374 | 💬 6835</TWEET>
-    <TWEET account="elonmusk" role="xAI/Tesla创始人">如果我们只用这两本书训练Grok，现在早就训练完了！（附争议书籍图片）❤️ 153894 | 💬 3147</TWEET>
-    <TWEET account="elonmusk" role="xAI/Tesla创始人">这不是你想让其掌管超级强大AI的那个人。❤️ 74242 | 💬 3035</TWEET>
-    <TWEET account="simonw" role="AI开发者">深入研究Meta新Muse Spark模型及其Code Interpreter、visual_grounding工具，这套UI非常有潜力。❤️ 243 | 💬 15</TWEET>
-    <TWEET account="jeffdean" role="Google首席科学家">很高兴看到Gemma 4模型获得热烈反响！❤️ 406 | 💬 17</TWEET>
-    <TWEET account="_akhaliq" role="AI论文速递">INSPATIO-WORLD：基于时空自回归建模的实时4D世界模拟器，论文已发布。❤️ 32 | 💬 0</TWEET>
-    <TWEET account="swyx" role="AI Engineer布道者">在JSConf EU基础上推动AIE EU大会，这是我致力于未来十年全球AI工程社区建设的重要一步。❤️ 90 | 💬 17</TWEET>
-    <TWEET account="jeffdean" role="Google首席科学家">恭喜matei_zaharia获得本年度ACM计算奖，这实至名归！❤️ 354 | 💬 10</TWEET>
+    <TWEET account="anthropicai" role="官方">Anthropic发布Claude Managed Agents托管式长生命周期Agent服务，解决计算史上“尚未被构思的程序”难题，从原型到生产仅需几天，已被多家企业采用。（❤️ 2078 | 💬 121）</TWEET>
+    <TWEET account="pmarca" role="a16z">硅谷现在人人非“AI psychotic过头”即“还不够AI psychotic”。（❤️ 494.7 | 💬 161）</TWEET>
+    <TWEET account="bindureddy" role="开源倡导者">GLM 5.1已成为开源新王，性能直逼闭源旗舰，在编码和Agent任务上表现突出，开源使用量已在OpenRouter全面超越闭源模型。（❤️ 349 | 💬 33）</TWEET>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">如果我们只用这两本书训练Grok，现在早就训练完了！（❤️ 153894 | 💬 3147）</TWEET>
+    <TWEET account="aiatmeta" role="Meta AI团队">Muse Spark通过多代理并行思考，在不增加显著延迟的情况下实现更优性能，我们正走在通往个人超级智能的可预测高效路径上。（❤️ 588 | 💬 23）</TWEET>
+    <TWEET account="dotey" role="AI观察者">Hermes Agent是OpenClaw的真正对手：它不是网关而是引擎，能自我编写技能、迭代进化，使用SQLite双层记忆和五层安全防御，GitHub近3万星，5美元VPS即可运行。（❤️ 494 | 💬 22）</TWEET>
+    <TWEET account="simonw" role="开发者">深入研究Meta Muse Spark的Pelicans功能、Code Interpreter以及container.visual_grounding工具后，发现其聊天UI强大到令人震惊。（❤️ 243 | 💬 15）</TWEET>
+    <TWEET account="perplexity_ai" role="官方">我们启动“Billion Dollar Build”竞赛，团队使用Perplexity Computer在8周内构建有路径达到10亿美元的公司，优胜者可获最高100万美元投资与算力额度。（❤️ 5326 | 💬 279）</TWEET>
+    <TWEET account="rowancheung" role="AI分析师">Meta新模型TRIBE v2能在不接触真实大脑的情况下，比多数真实脑部扫描更准确地预测大脑对视频、声音、文本的反应，并重建经典神经科学实验。（❤️ 45 | 💬 15）</TWEET>
   </TOP_PICKS>
 </REPORT>
