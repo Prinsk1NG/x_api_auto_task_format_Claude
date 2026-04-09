@@ -1,5 +1,16 @@
-elonmusk
-gregbrockman
-lexfridman
-pmarca
+# T1 核心信号源 — 每条推文都重点关注，翻页取全
+# 高管/创始人级：他们的发言直接影响行业叙事走向
 sama
+elonmusk
+darioamodei
+demishassabis
+gdb
+ilyasut
+drfeifei
+karpathy
+pmarca
+# 机构号：产品发布 & 融资节奏的一手来源
+openai
+anthropicai
+xai
+googleai
