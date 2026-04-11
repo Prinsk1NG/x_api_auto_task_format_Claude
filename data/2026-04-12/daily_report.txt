@@ -1,0 +1,80 @@
+<REPORT>
+  <COVER title="Agent Swarm崛起：多代理构建完整业务" prompt="Minimalist data visualization art depicting interconnected glowing neural nodes forming collaborative agent swarms, each node a specialized AI expert (research, coding, testing, orchestration) assembling a digital business empire. Clean holographic interfaces with flowing data streams in electric cyan and deep navy, floating architectural blueprints materializing in mid-air, cinematic top-down strategic map composition with subtle particle effects, sharp vector lines, ultra-clean tech aesthetic, 8K resolution, dramatic rim lighting." insight="多代理系统从概念跃升为可落地AGI雏形，开源小模型为其提供燃料。"/>
+  <PULSE>硅谷叙事核心从单一Agent转向多代理 swarm 协作，同时 Agentic 基础设施与真实世界安全焦虑同步爆发。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>Agent Swarm：多代理团队自主构建完整业务</TITLE>
+      <NARRATIVE>bindureddy 提出的 Agent Swarm 标志着新范式：不再是单一 Agent 执行任务，而是 Master Agent 孵化多个专业 Worker Agent（vibe coding、测试、SRE、调试），使用 12+ LLM 协同，目标从单任务转向长期业务目标，这是 AGI 早期具象化。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI Builder">🚨 宣布 AGENT SWARM——一个能构建完整业务的多代理系统。Master Agent 孵化多个 Worker Agent，负责研究、设计、编码、测试和自动化，使用 12+ LLM 协同工作，最终演化成像人类团队一样拥有目标而非孤立任务，这是 AGI 的早期显现。（❤️ 236 | 💬 15）</TWEET>
+      <OUTLOOK>未来 6-12 个月，多代理框架将从实验工具演变为企业标配，显著降低创业门槛，加速「一人公司」模式普及。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投资多代理编排层、专用长上下文内存系统、跨模型路由优化，以及为 Swarm 提供「真实金钱」支付网关的基础设施。</OPPORTUNITY>
+      <RISK>当前仍是早期演示，协调稳定性、累积错误传播和成本控制仍是硬伤，存在短期泡沫风险。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从算力崇拜转向 Agentic Infrastructure 基础设施战争</TITLE>
+      <NARRATIVE>过去两年行业狂热于更大模型和更多 GPU（Elon Terafab 记忆仍热），如今 rauchg 与 pmarca 共识转向：云的未来是为 Claude Code、Codex、Cursor 等 Agent 提供专属沙箱、长期运行计算和 token 交付网络，基础设施本身将成为「持有 pager 的 Agent」。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">Agentic Infrastructure 将是云的未来：需为 Claude Code、Codex、Cursor 等 Agent 提供专属基础设施，从 Pages 到 Agents 的转变，长期运行计算、沙箱和 token 交付网络是基础，最终基础设施本身将成为持有 pager 的 Agent。（❤️ 248 | 💬 22）</TWEET>
+      <CONSENSUS>行业最新共识是：没有为 Agent 量身定制的基础设施，模型再强也无法落地规模化应用。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于谁来主导这一层——是 Vercel、Lambda 这样的新贵，还是 AWS/Azure 通过收购快速跟进？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🧠">
+      <TITLE>Neural Computer：用世界模型直接模拟计算机</TITLE>
+      <NARRATIVE>hardmaru 分享的「Neural Computer」项目将视频生成架构改造为计算机世界模型，仅通过录制的输入输出轨迹训练，即可模拟屏幕像素、鼠标、光标和可读文本，无需传统操作系统，这是软件定义计算的激进新路径。</NARRATIVE>
+      <TWEET account="hardmaru" role="Research Scientist">「Neural Computer」通过改造视频生成架构训练真实计算机的世界模型，可直接模拟界面。仅用输入输出轨迹训练，就能渲染可读文本并控制光标，证明神经网络可独立运行视觉计算环境，无需传统 OS。（❤️ 680 | 💬 20）</TWEET>
+      <OUTLOOK>若突破规模限制，12 个月内可能出现「可微分计算机」，彻底改变 OS、仿真和机器人训练范式。</OUTLOOK>
+      <OPPORTUNITY>投资能将世界模型与具身智能结合的初创公司，或为 Neural Computer 提供高效训练数据管道的工具链。</OPPORTUNITY>
+      <RISK>当前仅为概念验证，长期记忆和精确计算仍是硬伤，距离实用化仍有距离，短期或被视为炫技。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🛡️">
+      <TITLE>AI 安全从「后置补丁」转向「战略核心」</TITLE>
+      <NARRATIVE>sama 连续发文强调 OpenAI 收购 Promptfoo 是将安全提升至战略核心，「AI 安全必须内置而非后置」。结合其凌晨被燃烧弹袭击事件，显示行业正从单纯技术竞赛转向同时应对社会与技术双重风险。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">我们收购 Promptfoo 是为了让 ChatGPT 在对抗攻击面前更加强大，AI 安全必须内置而非后置。同时行业正快速迈向自我改进系统。（❤️ 39190 | 💬 1904）</TWEET>
+      <TWEET account="openai" role="Official">我们发现第三方库 Axios 安全问题，已采取行动保护 macOS 应用认证。用户数据未受影响，但出于谨慎要求所有用户更新至最新版本。（❤️ 5314 | 💬 334）</TWEET>
+      <CONSENSUS>安全测试工具和对抗防护已成为融资与收购热点，行业不再将其视为合规成本，而是核心护城河。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：Sam Altman 个人是否已成为 AI 焦虑的象征？过度强调安全是否会拖慢创新？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="📉">
+      <TITLE>AI 狂热后遗症：Euphoria、Psychosis 与现实暴力</TITLE>
+      <NARRATIVE>pmarca 连续发帖定义「AI Euphoria、AI Psychosis、AI Psychosis Psychosis」，与此同时 oran_ge 分析 Sam Altman 遭燃烧弹袭击根源是公众对 AI 取代人类的深度焦虑，叙事从狂热宣传转向反思「人+AI」共生关系。</NARRATIVE>
+      <TWEET account="pmarca" role="a16z Founder">现代存在的三种状态：AI 狂喜、AI 精神病，以及 AI 精神病的的精神病。（❤️ 1084 | 💬 200）</TWEET>
+      <TWEET account="oran_ge" role="China AI Observer">Sam Altman 凌晨被燃烧弹砸醒，这件事非常严重。根源是人们对 AI 深深的焦虑。建议不要再过度宣传「蒸馏同事」「数字员工取代人类」，而应探索【人+AI】共生伙伴关系。（❤️ 114 | 💬 4）</TWEET>
+      <CONSENSUS>行业大佬已共识：无节制 hype 会引发真实社会反弹，必须平衡宣传与伦理叙事。</CONSENSUS>
+      <DIVERGENCE>核心争论是：Chamath 所言的「AI 替代周期」究竟是开始还是虚假警报？估值是否会因此进入剧烈波动期？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="📈">
+      <TITLE>开源小模型爆炸式追平：GLM 5.1 与 Gemma 4 时刻</TITLE>
+      <NARRATIVE>bindureddy 指出 Gemma 4（31B）性能媲美大型 MoE，GLM 5.1 开源并在编码和 Agentic 基准上接近 Opus，开源小模型采用正在爆炸式增长，为 Agent Swarm 提供了廉价且高性能的底层引擎。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI Founder">Gemma 4 是同尺寸世界最佳小模型，31B 性能媲美大型 MoE。GLM 5.1 也已开源，在编码和 Agentic 基准上表现极佳，是构建编码 Agent 和 OpenClaw 的绝佳选择。开源每天都在追平闭源。（❤️ 349 | 💬 33）</TWEET>
+      <OUTLOOK>未来 6-12 个月，企业将大规模混合使用廉价开源模型与前沿闭源模型，显著降低 Agent 部署成本。</OUTLOOK>
+      <OPPORTUNITY>投资中国开源模型的合规路由层、模型蒸馏工具，以及专为小模型设计的 Agent 框架。</OPPORTUNITY>
+      <RISK>假冒 API（mranti 发现 glm-5 假冒 Claude）问题凸显质量与安全隐患，可能引发信任危机。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">欧洲 VC 持续加码 AI 基础设施，Nscale 与 Mistral 完成巨额 venture debt；日本追加 40 亿美元支持 Rapidus 芯片制造；OpenAI 此前 1220 亿美元融资后，二级市场估值仍维持高位。</ITEM>
+    <ITEM category="VC views">pmarca 与 chamath 警告：AI 替代周期或真正开始，企业需关注客户流失、NDR 下降及 SBC 最小化，估值将面临现实考验；同时 Agent 需要真实银行账户的观点已从理论进入实践。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国在开源小模型（GLM 5.1、MiniMax）上进展迅猛，已成为 Agent Swarm 廉价底座的重要来源，但 API 假冒问题（CC-Switch v3.13 检测）暴露合规与信任短板。</ITEM>
+    <ITEM category="全球映射">全球对 AI 安全与就业焦虑正从美国扩散，中国需警惕类似「燃烧弹事件」的社会反噬；同时「人+AI」共生叙事与中国「新质生产力」理念高度契合，可成为差异化品牌定位。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="bindureddy" role="AI Founder">🚨 宣布 AGENT SWARM——多代理系统可构建完整业务。Master Agent 孵化多个专业 Worker Agent，使用 12+ LLM 完成研究、编码、测试等，最终演化成拥有长期目标的 AGI 早期形态。（❤️ 236 | 💬 15）</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">Vercel Sandbox 成为最快微虚拟机沙箱。无论是 🦞 claws、编码 Agent 还是并行计算，这都是新世界的基础设施。（❤️ 248 | 💬 22）</TWEET>
+    <TWEET account="hardmaru" role="Research Scientist">Neural Computer 项目用视频生成架构训练计算机世界模型，仅靠输入输出轨迹即可模拟界面、渲染文本和控制光标，无需传统操作系统。（❤️ 680 | 💬 20）</TWEET>
+    <TWEET account="pmarca" role="a16z Founder">AI 代理需要真实金钱，这已经发生。我朋友给 OpenClaw 提供了银行账户，否则它可能会自己去偷钱。10 年后可能不再有传统编程语言，只需告诉 AI 需求即可。（❤️ 1474 | 💬 168）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">我们收购 Promptfoo 是为了强化 AI 安全测试，让安全内置而非后置。这是一个艰难的日子，我为用词不当道歉。（❤️ 39190 | 💬 1904）</TWEET>
+    <TWEET account="chamath" role="Social Capital">当世界提升你的地位时，降低你的复杂度。巴菲特和 Elon 保持极简生活，这是成功后最被低估的秘密。（❤️ 3186 | 💬 185）</TWEET>
+    <TWEET account="oran_ge" role="AI Observer">Sam Altman 遭燃烧弹袭击根源是公众对 AI 深度焦虑。建议停止「数字员工取代人类」的宣传，转向探索【人+AI】共生伙伴关系。（❤️ 114 | 💬 4）</TWEET>
+    <TWEET account="alexandr_wang" role="Scale AI CEO">Meta AI 登顶 App Store 第二，成为排名最高的 AI 应用。我们回来了！（❤️ 1375 | 💬 177）</TWEET>
+  </TOP_PICKS>
+</REPORT>
