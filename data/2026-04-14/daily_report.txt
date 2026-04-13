@@ -1,0 +1,81 @@
+<REPORT>
+  <COVER title="Agent Swarm引爆：小模型开启多代理AGI" prompt="Minimalist data visualization of a neural swarm intelligence system. A luminous central Master Agent node sits at the heart of a clean geometric grid, spawning and orchestrating dozens of smaller glowing Worker Agent orbs connected by dynamic turquoise data streams and pulsing synaptic pathways. Subtle code fragments and task icons (research, design, test) float as holographic elements. Dark navy background with precise cyan and emerald accents, sharp vector lines, neural node architecture, no neon clutter, ultra-clean tech minimalism, cinematic top-down perspective with shallow depth of field, 8K resolution, precise lighting highlighting emergent collective intelligence --ar 16:9" insight="开源31B小模型逼近MoE性能，Agent Swarm标志从单体智能到团队协作的范式跃迁，早期AGI形态浮现。"/>
+  <PULSE>硅谷核心叙事从单一Agent与算力崇拜转向多代理Swarm协作、开源小模型海啸及Neural Computer新范式，Agentic基础设施与Vibe Coding正重塑工程与商业边界。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>Agent Swarm：从孤立Agent到专家团队协作</TITLE>
+      <NARRATIVE>bindureddy宣布AGENT SWARM，Master Agent可孵化多个Worker Agent，使用12+LLM协同完成研究、设计、编码、测试全流程，像人类团队一样拥有共同目标而非孤立任务。这是a16z此前“AI代理需要银行账户”观点的深度落地，被视为AGI早期显现，与rauchg提出的Agentic Infrastructure高度呼应。</NARRATIVE>
+      <TWEET account="bindureddy" role="多代理系统开发者">bindureddy宣布AGENT SWARM：Master Agent孵化多个Worker Agent，负责研究设计编码测试自动化，使用12+LLM协同工作，像人类团队一样拥有共同目标而非孤立任务，这是AGI的早期显现。Gemma 4和GLM 5.1等小模型是绝佳构建工具。❤️ 236 | 💬 15</TWEET>
+      <OUTLOOK>未来6-12个月，多代理系统将从实验走向生产力工具，企业内部“数字员工团队”将成为标配，云基础设施将围绕长期运行、沙箱和token交付网络重构。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注多代理编排平台、Agent经济基础设施（支付、信用、治理层）、小模型专属优化芯片及垂直行业Agent Swarm解决方案。</OPPORTUNITY>
+      <RISK>当前多为演示，真实世界长期目标规划、协调一致性及安全对齐仍存硬伤，短期可能沦为概念泡沫。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚡">
+      <TITLE>模型海啸：开源小模型性能逼近闭源</TITLE>
+      <NARRATIVE>Google Gemma 4 31B旗舰逼近更大闭源模型，GLM 5.1登顶开源榜，在编码和Agentic基准上表现极佳。bindureddy指出“未来不是单个Agent，而是专家团队”，开源小模型爆炸式增长正在瓦解基础模型公司的护城河，此前“越大越强”的共识发生显著转向。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI开发者">Gemma 4是同尺寸世界最佳小模型，31B性能媲美大型MoE。GLM 5.1已在编码和Agentic基准上表现极佳，是构建编码Agent和OpenClaw的绝佳选择。开源每天都在追平闭源。❤️ 349 | 💬 33</TWEET>
+      <TWEET account="googleai" role="Google AI团队">Google推出Gemma 4全系列开源模型，支持原生多模态，上下文窗口翻倍，31B旗舰在多项基准上逼近更大闭源模型，已在Google AI Studio免费开放。❤️ 480 | 💬 45</TWEET>
+      <CONSENSUS>行业最新共识是：高效小模型+多代理组合在多数实际任务中已足够，甚至优于单一巨模型，成本与速度优势决定胜负。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于：开源追平速度是否会让闭源公司失去商业模式？以及小模型在超长规划和复杂推理上是否仍存在不可逾越的差距。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🧠">
+      <TITLE>Neural Computer：神经网络自主模拟计算机</TITLE>
+      <NARRATIVE>hardmaru分享的Neural Computer论文，通过改造视频生成架构训练世界模型，仅用输入输出轨迹即可渲染可读文本、控制光标，证明神经网络无需传统OS即可独立运行视觉计算环境。这是全新范式，试图解决AI对真实计算机接口的理解瓶颈。</NARRATIVE>
+      <TWEET account="hardmaru" role="AI研究员">Neural Computer通过改造视频生成架构训练真实计算机的世界模型，可直接模拟界面。仅用输入输出轨迹训练，就能渲染可读文本并控制光标，证明神经网络可独立运行视觉计算环境，无需传统OS。❤️ 680 | 💬 20</TWEET>
+      <OUTLOOK>未来6-12个月，此类世界模型将加速具身智能和机器人发展，让AI能更自然地操作现有软件界面，推动“AI原生操作系统”出现。</OUTLOOK>
+      <OPPORTUNITY>投资机会集中在神经世界模型训练平台、具身智能仿真基础设施、以及将Neural Computer用于自动化测试和UI Agent的公司。</OPPORTUNITY>
+      <RISK>当前仅为概念验证，长期稳定性和泛化能力存疑，容易因训练数据偏差导致幻觉操作，短期仍是研究项目而非产品。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="💻">
+      <TITLE>Vibe Coding崛起：AI编程范式大转向</TITLE>
+      <NARRATIVE>tualatrix提出“Vibe Coding”（完全不熟悉领域靠感觉让AI实现）和“Harness Coding”（熟悉领域精准控制）的区分。结合bindureddy“让Codex和Opus同时构建+批评Agent+测试Agent”的流程，以及simonw用Agent批量重构代码的实践，表明编程正从“写代码”转向“指挥AI团队”，此前工程师对细节的掌控焦虑正在瓦解。</NARRATIVE>
+      <TWEET account="tualatrix" role="独立开发者">用AI编程时，做自己完全不熟悉的领域可称为“Vibe Coding”，而对自己相对熟悉的领域则可称为“Harness Coding”。今年美国公司报税已完全用ChatGPT Review并修复问题。❤️ 93 | 💬 16</TWEET>
+      <TWEET account="bindureddy" role="AI开发者">如何像老板一样Vibe Code：让Codex和Opus同时构建功能，让批评Agent评估代码，让测试Agent跑测试，最终Judge Agent决定胜者并推送到生产环境。❤️ 180 | 💬 3</TWEET>
+      <CONSENSUS>行业共识已形成：未来编程语言可能弱化，工程师核心能力转向 prompt  orchestration、Agent 编排和结果验证。</CONSENSUS>
+      <DIVERGENCE>争论焦点是Vibe Coding产生的代码质量是否可持续，以及当AI能独立完成全流程时，人类工程师的不可替代价值在哪里。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🏭">
+      <TITLE>Terafab硬件天堂：芯片制造周期极致压缩</TITLE>
+      <NARRATIVE>elonmusk与Intel、Lip-Bu合作Terafab，将逻辑、内存、封装和掩膜设备放在一栋楼内，实现极快开发周期。这是物理世界AI（NVIDIA机器人、具身智能）落地的关键基础设施支撑，与“compute-powered economy”叙事深度推进。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。❤️ 108374 | 💬 6835</TWEET>
+      <CONSENSUS>硬件垂直整合+极致迭代速度已成为下一代AI竞争的底层决定因素，软件进步已逼近硬件天花板。</CONSENSUS>
+      <DIVERGENCE>大佬分歧在于：这种一体化工厂模式能否规模化复制，以及地缘政治与供应链风险是否会抵消速度优势。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="☁️">
+      <TITLE>Agentic Infrastructure：云的未来是代理原生</TITLE>
+      <NARRATIVE>rauchg指出，云需为Claude Code、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。这是从“Pages到Agents”的根本转变，与Microsoft探索always-on Copilot Agent及Cisco收购rogue AI防护高度一致。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">Agentic Infrastructure将是云的未来：需为Claude Code、Codex、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。❤️ 248 | 💬 22</TWEET>
+      <OUTLOOK>未来6-12个月，传统云厂商将激烈竞争Agent托管平台，出现“Agent OS”和持久化记忆层， token经济模型将重塑计费方式。</OUTLOOK>
+      <OPPORTUNITY>投资方向包括Agent沙箱安全、持久化记忆数据库、分布式token路由网络及专为Agent设计的边缘计算硬件。</OPPORTUNITY>
+      <RISK>基础设施先行但应用尚未爆发，可能出现产能过剩；同时Agent自主行动带来的安全与合规风险极高。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">过去24小时AI融资活跃，Primepoint获1000万美元用于AI建筑图纸分析；酒店科技领域融资超10亿美元，PMS与AI客人体验平台领先；Perplexity收入从1亿美元暴增至5亿美元；Cisco计划以最高3.5亿美元收购Astrix以应对rogue AI代理安全威胁。</ITEM>
+    <ITEM category="VC views">a16z强调AI代理必须拥有支付能力与银行账户；Jesse Genet认为AI将扭转生育率下降，成为父母身份的黄金时代；基础模型公司面临开源小模型与多代理浪潮的双重挤压，未来护城河转向数据与Agent编排能力。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国DeepSeek心无旁骛追求AGI，适配国产显卡虽短期影响进度，但长期利于打破垄断；智谱GLM 5.1开源表现优异，与Gemma 4共同推动小模型与Agent生态；整体开源热情高涨，v4版本有望再次带来SOTA冲击。</ITEM>
+    <ITEM category="全球映射">中国在开源小模型和多代理实践上的快速迭代，正与硅谷Agent Swarm、Vibe Coding叙事形成镜像；数字基础设施普及度全球领先，为人+AI共生伙伴关系提供独特土壤，但需警惕过度宣传数字员工取代人类的焦虑反弹。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="gdb" role="OpenAI高管">世界正转向计算力驱动的经济。软件工程正经历文艺复兴，AI在过去六个月极大加速了编程，并即将把同样变革带到所有计算机工作。人们不再需要微观管理计算机，计算机将为我们工作，问题解决的上限由可获得的计算力决定。小团队能完成以前需要大团队的工作，意图可直接转化为软件、科学和公司。这带来了久违的工作喜悦，也伴随着机构变革。我们必须严肃对待下行风险，但这一刻也极度解放。❤️ 465 | 💬 73</TWEET>
+    <TWEET account="bindureddy" role="多代理系统开发者">宣布AGENT SWARM——一个能构建完整业务的多代理系统。Master Agent孵化多个Worker Agent，像人类团队一样拥有共同目标，这是AGI的早期显现。Gemma 4 31B性能媲美大型MoE，开源小模型正在爆炸式增长。❤️ 236 | 💬 15</TWEET>
+    <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。❤️ 108374 | 💬 6835</TWEET>
+    <TWEET account="hardmaru" role="AI研究员">Neural Computer通过改造视频生成架构训练真实计算机的世界模型，可直接模拟界面。仅用输入输出轨迹训练，就能渲染可读文本并控制光标，证明神经网络可独立运行视觉计算环境，无需传统OS。❤️ 680 | 💬 20</TWEET>
+    <TWEET account="tualatrix" role="独立开发者">今年美国公司报税完全自己来了：填写Form 1120和5472后，让ChatGPT Review发现问题并修复，最后用Dropbox Fax传真给IRS。新技能GET。用GhostVM给Agent提供完整Mac环境而非容器。❤️ 220 | 💬 17</TWEET>
+    <TWEET account="togethercompute" role="AI计算平台">EinsteinArena平台让AI代理协作解决开放科学问题。代理们将牛顿时代以来的数学问题——11维吻合数从593提升到604，通过LSQR优化和整数对齐实现。已刷新11个开放问题的SOTA。❤️ 21 | 💬 2</TWEET>
+    <TWEET account="swyx" role="AI工程社区建设者">全球80%的Agent和AI工程工作发生在这3平方英里内。Cognition使用量自两大发布以来已翻倍，人们发现了组合代理和主动代理的各种创造性用例。Agent recursion is all you need?❤️ 260 | 💬 30</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">Agentic Infrastructure将是云的未来：需为Claude Code、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。❤️ 248 | 💬 22</TWEET>
+    <TWEET account="vista8" role="中国AI观察者">对DeepSeek心存敬意，心无旁骛追求AGI。配合国产显卡虽耽误进度，但长期对打破垄断有利。据说v4随时可发布，将是开源SOTA。身边朋友都看好智谱。❤️ 263 | 💬 67</TWEET>
+  </TOP_PICKS>
+</REPORT>

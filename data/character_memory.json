@@ -12,11 +12,11 @@
     "[2026-04-10]: Gemma 4以开放权重发布，旨在与全球顶级开源模型包括中国方案直接竞争。（❤️ 31940 | 💬 1840）"
   ],
   "elonmusk": [
-    "[2026-04-10]: 与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。❤️ 108374 | 💬 6835",
     "[2026-04-10]: 如果我们只用这两本书训练Grok，现在早就训练完了！https://t.co/Xn6UdaAMxM ❤️ 153894 | 💬 3147",
     "[2026-04-10]: 这不是你想让其掌管超级强大AI的那个人。❤️ 74242 | 💬 3035",
     "[2026-04-11]: 与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。❤️ 108374 | 💬 6835",
-    "[2026-04-13]: 与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。（❤️ 108374 | 💬 6835）"
+    "[2026-04-13]: 与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。（❤️ 108374 | 💬 6835）",
+    "[2026-04-14]: 与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。❤️ 108374 | 💬 6835"
   ],
   "microsoft": [
     "[2026-04-04]: 微软将投资100亿美元在日本建设AI基础设施，与SoftBank等伙伴合作培养专业人才，同时发布转录、语音生成和图像创建三款内部AI模型。❤️ 1840 | 💬 392"
@@ -49,7 +49,8 @@
   ],
   "googleai": [
     "[2026-04-04]: Google推出Gemma 4全系列开源模型，支持原生多模态（图像、视频、部分音频），上下文窗口翻倍，31B旗舰模型在多项基准上逼近远大于其体量的闭源模型，已在Google AI Studio免费开放。❤️ 480 | 💬 45",
-    "[2026-04-08]: Gemma 4全系列开源模型发布，支持原生多模态，上下文窗口翻倍，31B旗舰在多项基准上逼近更大闭源模型，已在Google AI Studio免费开放。❤️ 480 | 💬 45"
+    "[2026-04-08]: Gemma 4全系列开源模型发布，支持原生多模态，上下文窗口翻倍，31B旗舰在多项基准上逼近更大闭源模型，已在Google AI Studio免费开放。❤️ 480 | 💬 45",
+    "[2026-04-14]: Google推出Gemma 4全系列开源模型，支持原生多模态，上下文窗口翻倍，31B旗舰在多项基准上逼近更大闭源模型，已在Google AI Studio免费开放。❤️ 480 | 💬 45"
   ],
   "anthropicai": [
     "[2026-04-04]: 我们对Claude订阅在第三方工具的使用政策进行了调整，现有用户将获得一次性额度补偿。（❤️ 197 | 💬 3）",
@@ -110,11 +111,11 @@
     "[2026-04-06]: 我在Claude Code里打造知识库怪兽：基于Karpathy的llm-wiki想法，结合/last30days和/wiki技能，做出可搜索、可对比时间线的交互可视化，还设置了“质疑假设”定时任务，目前专注企业AI领域。❤️ 510 | 💬 34"
   ],
   "bindureddy": [
-    "[2026-04-11]: Gemma 4是非常好的小模型，31B性能媲美大型MoE，是同尺寸世界最佳。GLM 5.1也已开源，开源小模型采用正在爆炸式增长。未来不是单个 Agent 完成任务，而是像专家团队一样工作的 Agent 群。❤️ 349 | 💬 33",
-    "[2026-04-12]: 🚨 宣布 AGENT SWARM——一个能构建完整业务的多代理系统。Master Agent 孵化多个 Worker Agent，负责研究、设计、编码、测试和自动化，使用 12+ LLM 协同工作，最终演化成像人类团队一样拥有目标而非孤立任务，这是 AGI 的早期显现。（❤️ 236 | 💬 15）",
-    "[2026-04-12]: Gemma 4 是同尺寸世界最佳小模型，31B 性能媲美大型 MoE。GLM 5.1 也已开源，在编码和 Agentic 基准上表现极佳，是构建编码 Agent 和 OpenClaw 的绝佳选择。开源每天都在追平闭源。（❤️ 349 | 💬 33）",
     "[2026-04-13]: 宣布AGENT SWARM——Master Agent孵化多个Worker Agent，负责研究设计编码测试自动化，使用12+LLM协同，像人类团队一样拥有共同目标而非孤立任务，这是AGI的早期显现。Gemma 4和GLM 5.1等31B小模型性能已媲美大型MoE，是构建此类系统的绝佳选择。（❤️ 236 | 💬 15）",
-    "[2026-04-13]: GLM 5.1登顶开源榜，在编码和Agentic基准上表现极佳，是构建编码Agent的绝佳选择。Gemma 4 31B性能媲美大型MoE，开源小模型正在爆炸式增长。未来工作模式将由专家Agent团队完成，而非单一Agent。（❤️ 349 | 💬 33）"
+    "[2026-04-13]: GLM 5.1登顶开源榜，在编码和Agentic基准上表现极佳，是构建编码Agent的绝佳选择。Gemma 4 31B性能媲美大型MoE，开源小模型正在爆炸式增长。未来工作模式将由专家Agent团队完成，而非单一Agent。（❤️ 349 | 💬 33）",
+    "[2026-04-14]: bindureddy宣布AGENT SWARM：Master Agent孵化多个Worker Agent，负责研究设计编码测试自动化，使用12+LLM协同工作，像人类团队一样拥有共同目标而非孤立任务，这是AGI的早期显现。Gemma 4和GLM 5.1等小模型是绝佳构建工具。❤️ 236 | 💬 15",
+    "[2026-04-14]: Gemma 4是同尺寸世界最佳小模型，31B性能媲美大型MoE。GLM 5.1已在编码和Agentic基准上表现极佳，是构建编码Agent和OpenClaw的绝佳选择。开源每天都在追平闭源。❤️ 349 | 💬 33",
+    "[2026-04-14]: 如何像老板一样Vibe Code：让Codex和Opus同时构建功能，让批评Agent评估代码，让测试Agent跑测试，最终Judge Agent决定胜者并推送到生产环境。❤️ 180 | 💬 3"
   ],
   "leftcurvedev_": [
     "[2026-04-06]: Gemma-4-31B-JANG_4M-CRACK已发布：完全abliteration，HarmBench 93.7%，MMLU仅下降2%，非常干净。❤️ 715 | 💬 24"
@@ -167,18 +168,21 @@
   ],
   "tualatrix": [
     "[2026-04-10]: 用AI编程，做自己完全不熟悉的领域叫“Vibe Coding”，做自己相对熟悉的就可以叫“Harness Coding/Engineer”？（❤️ 68 | 💬 13）",
-    "[2026-04-10]: Tualatrix提出，用AI编程时，做自己完全不熟悉的领域可称为“Vibe Coding”，而对自己相对熟悉的领域则可称为“Harness Coding/Engineer”。❤️ 93 | 💬 16"
+    "[2026-04-10]: Tualatrix提出，用AI编程时，做自己完全不熟悉的领域可称为“Vibe Coding”，而对自己相对熟悉的领域则可称为“Harness Coding/Engineer”。❤️ 93 | 💬 16",
+    "[2026-04-14]: 用AI编程时，做自己完全不熟悉的领域可称为“Vibe Coding”，而对自己相对熟悉的领域则可称为“Harness Coding”。今年美国公司报税已完全用ChatGPT Review并修复问题。❤️ 93 | 💬 16"
   ],
   "rauchg": [
     "[2026-04-10]: Rauchg发文称Agentic Infrastructure将是云的未来：需为Claude Code、Codex、Cursor等Agent提供专属基础设施，从Pages到Agents的转变，长期运行计算、沙箱和token交付网络是基础，最终基础设施本身将成为持有pager的Agent。❤️ 124 | 💬 14",
     "[2026-04-12]: Agentic Infrastructure 将是云的未来：需为 Claude Code、Codex、Cursor 等 Agent 提供专属基础设施，从 Pages 到 Agents 的转变，长期运行计算、沙箱和 token 交付网络是基础，最终基础设施本身将成为持有 pager 的 Agent。（❤️ 248 | 💬 22）",
-    "[2026-04-13]: Agentic Infrastructure将是云的未来：需为Claude Code、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。（❤️ 248 | 💬 22）"
+    "[2026-04-13]: Agentic Infrastructure将是云的未来：需为Claude Code、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。（❤️ 248 | 💬 22）",
+    "[2026-04-14]: Agentic Infrastructure将是云的未来：需为Claude Code、Codex、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。❤️ 248 | 💬 22"
   ],
   "nvidia": [
     "[2026-04-11]: Celebrate #NationalRoboticsWeek with a look back at NVIDIA GTC. From autonomous humanoids mastering complex 3D navigation to highly precise surgical arms and real-time conversational delivery bots, the next era of physical AI has arrived.❤️ 131 | 💬 20"
   ],
   "hardmaru": [
-    "[2026-04-12]: 「Neural Computer」通过改造视频生成架构训练真实计算机的世界模型，可直接模拟界面。仅用输入输出轨迹训练，就能渲染可读文本并控制光标，证明神经网络可独立运行视觉计算环境，无需传统 OS。（❤️ 680 | 💬 20）"
+    "[2026-04-12]: 「Neural Computer」通过改造视频生成架构训练真实计算机的世界模型，可直接模拟界面。仅用输入输出轨迹训练，就能渲染可读文本并控制光标，证明神经网络可独立运行视觉计算环境，无需传统 OS。（❤️ 680 | 💬 20）",
+    "[2026-04-14]: Neural Computer通过改造视频生成架构训练真实计算机的世界模型，可直接模拟界面。仅用输入输出轨迹训练，就能渲染可读文本并控制光标，证明神经网络可独立运行视觉计算环境，无需传统OS。❤️ 680 | 💬 20"
   ],
   "oran_ge": [
     "[2026-04-12]: Sam Altman 凌晨被燃烧弹砸醒，这件事非常严重。根源是人们对 AI 深深的焦虑。建议不要再过度宣传「蒸馏同事」「数字员工取代人类」，而应探索【人+AI】共生伙伴关系。（❤️ 114 | 💬 4）"
