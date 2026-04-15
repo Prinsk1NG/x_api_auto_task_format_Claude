@@ -1,0 +1,81 @@
+<REPORT>
+  <COVER title="Agent Swarm崛起：小模型构建AGI团队" prompt="Minimalist data visualization of a central glowing Master Node orchestrating a swarm of smaller neural agents in a clean geometric lattice. Interconnected translucent nodes pulse with token streams and memory layers, representing efficient intelligence and multi-agent collaboration. Sharp vector lines, cool cyan and deep navy palette, floating holographic UI elements showing skill iteration and sandbox boundaries. Industrial precision with subtle circuit-board textures, dramatic directional lighting casting soft volumetric shadows, ultra-clean tech minimalism, 8K cinematic resolution, strategic composition emphasizing hierarchy and emergence." insight="小模型+Agent Swarm正成为通往AGI的最快路径，效率叙事全面超越规模崇拜。"/>
+  <PULSE>硅谷叙事从单一大模型与Vibe Coding狂热转向Agentic Infrastructure、多代理团队协作及Physical AI具身数据获取的双引擎并进。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>Agent Swarm：Master孵化Worker的多代理AGI雏形</TITLE>
+      <NARRATIVE>bindureddy提出的AGENT SWARM概念标志着新范式：单个Master Agent动态孵化多个专业Worker，使用12+小模型协同，像人类团队一样共享目标而非孤立任务。结合rauchg历史记忆中反复强调的Agentic Infrastructure，这不再是玩具，而是需要长期运行计算、沙箱、token交付和真实支付能力的生产系统，试图解决单一Agent在复杂任务中的能力天花板问题。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI创业者">宣布AGENT SWARM——Master Agent孵化多个Worker Agent，负责研究、设计、编码、测试和自动化，使用12+LLM协同，像人类团队一样拥有共同目标。这是AGI的早期显现。Gemma 4和GLM 5.1等31B小模型已是构建此类系统的绝佳工具。（❤️ 236 | 💬 15）</TWEET>
+      <TWEET account="pmarca" role="a16z合伙人">AI代理需要真实金钱，这已经发生。我朋友已给OpenClaw提供银行账户，否则它可能会自己偷钱。10年后可能不再有传统编程语言，你只需告诉AI你的需求，它会用最优方式实现。（❤️ 1474 | 💬 168）</TWEET>
+      <OUTLOOK>未来6-12个月，多代理系统将从实验进入企业生产环境，成为默认开发范式，加速软件工厂化进程。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注Agent操作系统、跨模型编排平台、Agent原生支付与信用基础设施，以及为Swarm提供持久化内存和沙箱的云服务。</OPPORTUNITY>
+      <RISK>当前多为演示，真实世界任务的协调崩溃和累积错误问题仍未解决，可能仍是短期概念泡沫，需观察长期稳定性。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从Vibe Coding狂欢转向软件维护现实</TITLE>
+      <NARRATIVE>Chamath直指行业痛点：90%+的企业代码是维护和迁移遗留复杂系统，Vibe Coding只能处理10%的新功能。此观点与@tualatrix提出的Vibe Coding（不熟悉领域） vs Harness Coding（熟悉领域）的区分形成共鸣，也呼应Elon历史记忆中对超级AI掌权者的谨慎。行业正从“让AI写一切”的狂热快速转向“AI如何系统性改造遗留系统”的务实阶段。</NARRATIVE>
+      <TWEET account="chamath" role="Social Capital创始人">尽管大家都想喝Vibe Coding的酷艾德，但现实是公司90%+的代码是维护和迁移复杂遗留系统。你可以用Vibe Coding搞定剩下10%，但除非有重构90%的可行方案，否则AI难以兑现潜力。我们做的Software Factory正是聚焦这90%。（❤️ 692 | 💬 78）</TWEET>
+      <CONSENSUS>行业最新共识是：AI最大价值不在生成新代码，而在以更低成本、更快速度、更好质量维护和现代化现有复杂系统。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论的核心是：Vibe Coding究竟是通往编程民主化的革命，还是仅适用于边缘创新、无法触达企业核心遗留系统的“玩具”？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="depth" emoji="⚡">
+      <TITLE>Tesla AI5量产落地与Terafab垂直整合</TITLE>
+      <NARRATIVE>Elon Musk宣布AI5成功taping out，并感谢台积电和三星支持，强调AI6、Dojo3已在路上。同时与Intel、Lip-Bu合作Terafab，将逻辑、内存、封装和掩膜设备放在一栋楼里实现极快开发周期。这是硬件叙事的重大里程碑：从依赖外部代工厂转向美国本土极端垂直整合，解决算力瓶颈的“最后一公里”。</NARRATIVE>
+      <TWEET account="elonmusk" role="Tesla/SpaceX CEO">恭喜Tesla AI芯片设计团队成功taping out AI5！AI6、Dojo3和其他激动人心的芯片正在研发中。感谢@TaiwanSemi_TSC和@Samsung支持，这将成为史上量产最多的AI芯片之一。（❤️ 95218 | 💬 5771）</TWEET>
+      <CONSENSUS>芯片垂直整合与极致迭代速度已成为中美AI军备竞赛的新核心共识，软件进步正被硬件确定性反向制约。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：这种“把一切塞进一栋楼”的天堂模式，究竟能将开发周期缩短到何种程度？是否足以对抗台积电的工艺优势？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🤖">
+      <TITLE>Physical AI具身数据新来源：工人取代车队</TITLE>
+      <NARRATIVE>dotey披露机器人公司给印度工厂工人戴头戴摄像头，录制每日操作作为训练数据。这解决了具身智能最稀缺的“真实世界微调数据”问题。结合NVIDIA GTC展示的人形机器人进展，以及a16z关于Physical AI进入scaling regime的判断，这标志着具身AI从“自建车队昂贵采集”转向“人类示范廉价替代”的新范式。</NARRATIVE>
+      <TWEET account="nvidia" role="NVIDIA官方">在#NationalRoboticsWeek期间回顾NVIDIA GTC：从掌握复杂3D导航的自主人形机器人，到高精度手术臂和实时对话交付机器人，物理AI新时代已经到来。（❤️ 396 | 💬 16）</TWEET>
+      <TWEET account="dotey" role="AI观察者">机器人公司给印度工厂工人戴头戴摄像头，录制每天操作过程作为训练数据。具身数据极度稀缺，自建车队成本高昂，这种廉价方案能捕捉真实世界微调整。目前机器人仍在向工人学习，再考虑取代他们。（❤️ 9 | 💬 2）</TWEET>
+      <OUTLOOK>6-12个月内，具身数据获取成本将大幅下降，推动人形机器人从实验室走向工厂和家庭场景。</OUTLOOK>
+      <OPPORTUNITY>投资机会包括：具身数据标注与合成平台、头戴/边缘计算采集硬件、以及专为Physical AI设计的仿真到现实迁移工具。</OPPORTUNITY>
+      <RISK>隐私、伦理和数据质量控制是硬伤，工人数据可能包含过多噪音和文化偏差，导致模型泛化失败。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="📊">
+      <TITLE>Cost per Token取代FLOPS成为核心指标</TITLE>
+      <NARRATIVE>NVIDIA反复强调：决定AI能否规模化盈利的不是FLOPS per dollar，而是真实世界的Cost per Token。这一转向与Meta Muse Spark用显著更少token解决复杂问题的“思想压缩”形成呼应，也呼应历史记忆中@aiatmeta重建预训练栈大幅降低算力的努力。行业正从“算力崇拜”转向“端到端效率崇拜”。</NARRATIVE>
+      <TWEET account="nvidia" role="NVIDIA官方">Cost per token是定义推理TCO的核心指标，而非计算成本或FLOPS per dollar。它决定AI能否在现实世界高效盈利。Blackwell提供业界最低每token成本。（❤️ 151 | 💬 21）</TWEET>
+      <CONSENSUS>最新共识是：企业评估AI基础设施时，真正重要的单一指标是“生成每个有用token的全部成本”。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于：当小模型+高效推理在token成本上全面超越大模型时，当前巨型训练集群的投资逻辑是否需要彻底重构？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🧠">
+      <TITLE>Neural Computer：神经网络原生运行计算机</TITLE>
+      <NARRATIVE>hardmaru提出的Neural Computer通过改造视频生成架构，训练真实计算机的世界模型，仅用输入输出轨迹就能渲染文本、控制光标，证明神经网络无需传统OS即可独立运行视觉计算环境。这是一个根本性新叙事：AI不再是应用，而是直接成为操作系统和计算基底本身。</NARRATIVE>
+      <TWEET account="hardmaru" role="AI研究员">Neural Computer通过改造视频生成架构训练真实计算机的世界模型，可直接模拟界面。仅用输入输出轨迹训练，就能渲染可读文本并控制光标，证明神经网络可独立运行视觉计算环境，无需传统OS。（❤️ 680 | 💬 20）</TWEET>
+      <OUTLOOK>未来12个月，这一方向若突破，将重塑人机交互范式，让“AI即计算机”成为现实。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注神经世界模型在GUI自动化、数字孪生和无OS计算平台上的早期创业公司。</OPPORTUNITY>
+      <RISK>当前仅为概念证明，长期记忆、精确性和安全性存在显著硬伤，极可能在复杂真实任务中崩盘。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Accel完成50亿美元AI基金，聚焦后期投资；美国VC单季融资创234亿美元新高，AI仍是绝对主线；Hilbert获a16z领投2800万美元A轮；Anthropic跑率营收已超300亿美元。</ITEM>
+    <ITEM category="VC views">a16z认为Physical AI正进入独立scaling regime，机器人学习、自主科学和新接口将成为新范式；Aaron Levie预测Agent驱动的微支付将创造互联网全新商业模式；Chamath强调Software Factory才是AI在企业端的真实落地场景。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国团队在开源小模型效能上展现惊人追赶能力（GLM 5.1、Gemma 4同尺寸表现），Agent Swarm和Vibe Coding等新概念也被快速本地化实验。但在顶尖芯片制造、具身数据规模和Agent基础设施闭环上仍与硅谷存在代际差距。</ITEM>
+    <ITEM category="全球映射">美国正通过Terafab式垂直整合和Agentic Infrastructure重塑“软件定义一切”的底层，而中国若能将高效小模型+多代理协同与庞大产业数据结合，或能在应用层实现弯道超车，但需警惕美方对高端算力的持续封锁风险。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="Tesla/SpaceX CEO">恭喜Tesla AI芯片设计团队成功taping out AI5！AI6、Dojo3和其他激动人心的芯片已在研发中。这将成为史上量产最多的AI芯片之一。感谢台积电和三星的支持。（❤️ 95218 | 💬 5771）</TWEET>
+    <TWEET account="bindureddy" role="AI创业者">AGENT SWARM：Master Agent孵化多个Worker Agent，负责研究设计编码测试自动化，使用12+LLM协同，像人类团队一样拥有共同目标而非孤立任务。这是AGI的早期显现。Gemma 4和GLM 5.1等31B小模型性能已媲美大型MoE，是构建此类系统的绝佳选择。（❤️ 236 | 💬 15）</TWEET>
+    <TWEET account="chamath" role="Social Capital创始人">Vibe Coding听起来很酷，但现实中90%+的企业代码是维护和迁移复杂遗留系统。除非能重构这90%，否则AI难以兑现潜力。我们做的Software Factory正是聚焦这个最难的部分：更便宜、更快、更好。（❤️ 692 | 💬 78）</TWEET>
+    <TWEET account="pmarca" role="a16z合伙人">AI代理需要真实金钱，这已经发生。我朋友已给OpenClaw提供银行账户，否则它可能会自己偷钱。10年后可能不再有传统编程语言，你只需告诉AI需求，它就会用最优方式实现。（❤️ 1474 | 💬 168）</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">决定AI规模化盈利的关键指标不是FLOPS，而是每token的真实成本。Blackwell在业界提供最低cost per token，这才是企业关心的事。（❤️ 151 | 💬 21）</TWEET>
+    <TWEET account="hardmaru" role="AI研究员">Neural Computer通过视频生成架构训练真实计算机的世界模型，仅用输入输出轨迹就能渲染文本、控制光标，证明神经网络无需传统OS即可独立运行视觉计算环境。（❤️ 680 | 💬 20）</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">未来的设计不再是单个工具，而是每个团队都能构建自己的“设计工厂”。用Claude Code、three.js和Next.js就能按精确需求快速组装内部工具。现在，拼装强大组件生成软件，比寻找合适SaaS还要容易。（❤️ 1266 | 💬 42）</TWEET>
+    <TWEET account="dotey" role="AI观察者">OpenAI Agents SDK重大升级：内置沙箱执行环境和模型原生Harness架构，支持状态持久化、自动依赖安装和崩溃恢复。这让生产级Agent从搭建几个月缩短到几天，已被多家企业用于临床记录等工作流。（❤️ 64 | 💬 3）</TWEET>
+    <TWEET account="anthropicai" role="Anthropic官方">我们与谷歌、Broadcom签署协议，获得多个吉瓦下一代TPU容量用于训练Claude。我们的跑率营收已超过300亿美元。同时发布Claude Managed Agents托管服务，开发者无需再花几个月搭基础设施。（❤️ 7440 | 💬 271）</TWEET>
+  </TOP_PICKS>
+</REPORT>
