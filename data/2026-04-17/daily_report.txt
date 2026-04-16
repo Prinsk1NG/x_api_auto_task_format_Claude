@@ -1,0 +1,84 @@
+<REPORT>
+  <COVER title="Codex觉醒：AI代理全面接管电脑" prompt="Minimalist futuristic digital interface showing a glowing neural Codex orb at the center of a pristine Mac desktop. Clean data visualization streams in electric cyan and deep navy flow from the orb into parallel application windows including code editor, in-app browser with DOM highlights, image generation canvas, and native tools. Holographic agent icons autonomously executing tasks with memory nodes pulsing softly. Ultra clean lines, high precision vector art style, cinematic rim lighting, floating neural connection points, 8K resolution, subtle grid substrate, professional Silicon Valley tech aesthetic with zero clutter." insight="Codex计算机使用突破标志AI从工具向自主数字员工的范式跃迁"/>
+  <PULSE>硅谷核心叙事从单一模型崇拜转向Codex驱动的真实计算机代理与多代理协作，硬件制造整合与开源小模型爆发同步加速，AI安全焦虑与人机共生呼声并存。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="💻">
+      <TITLE>Codex Computer Use：AI原生个人操作系统到来</TITLE>
+      <NARRATIVE>OpenAI重磅升级Codex，使其能并行操作Mac全套原生应用、内置浏览器自动抓取DOM、记忆用户习惯并主动建议重复任务。这不再是简单工具，而是真正接管工作流的自主伙伴，呼应pmarca此前“10年后无传统编程语言”的预言，解决Agent长期面临的落地瓶颈。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">Codex迎来大量重大改进，Computer Use功能远超我的预期。它能同时使用Mac上所有应用，且完全不干扰我自己的工作。（❤️ 5836 | 💬 711）</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">让Codex去完成需要跨越Slack、Google Docs、Notion和各种内部工具的任务时，它总能神奇地自己搞定，这种魔力感太真实了。（❤️ 1466 | 💬 180）</TWEET>
+      <OUTLOOK>未来6-12个月，个人生产力工具将全面Agent化，开发者与知识工作者日常工作流80%可被自主代理接管，Perplexity Personal Computer等竞品将加速跟进。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注能为Agent提供长期记忆、个人数据安全沙箱、跨应用编排协议的早期创业公司，以及垂直行业Agent交付平台。</OPPORTUNITY>
+      <RISK>当前仍依赖云端大模型，隐私与 token 成本是硬伤；若本地小模型无法快速跟进，此趋势可能在企业级落地受阻。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🧬">
+      <TITLE>GPT-Rosalind：生命科学专用前沿模型落地</TITLE>
+      <NARRATIVE>OpenAI推出专为生物、药物发现和转化医学优化的GPT-Rosalind系列，在蛋白质推理、化学推理、基因组分析和科学工具使用上大幅领先。这是行业从通用大模型向垂直科学智能的深度突破，直接服务Amgen、Moderna等顶尖机构。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">我们推出GPT-Rosalind，这一系列生命科学模型针对科学工作流优化，在蛋白质与化学推理、基因组分析、生物化学知识及科学工具使用上表现更强。（❤️ 660 | 💬 7）</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">GPT-Rosalind是我们加速科学、改善人类健康的重要一步。我们非常兴奋能与Amgen、Moderna、Allen Institute等伙伴共同部署和迭代这个模型。（❤️ 596 | 💬 44）</TWEET>
+      <OUTLOOK>6-12个月内，AI驱动的药物发现周期有望从数年缩短至数月，生物科技与AI的深度融合将催生大量新公司，传统药企研发范式将被重塑。</OUTLOOK>
+      <OPPORTUNITY>投资AI+合成生物学、AI驱动分子设计平台、实验室自动化机器人以及科学Agent基础设施公司，将是下一波一级市场热点。</OPPORTUNITY>
+      <RISK>生物实验验证仍是瓶颈，模型幻觉在高风险医疗决策中可能造成严重后果，监管审批周期或远长于技术迭代速度。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🌐">
+      <TITLE>从单一Agent到AGENT SWARM多代理团队</TITLE>
+      <NARRATIVE>bindureddy提出的AGENT SWARM概念标志着重大转向：不再依赖单一超级Agent，而是由Master Agent孵化多个Worker Agent，使用12+不同LLM协同完成研究、设计、编码、测试，像人类团队一样拥有共同目标。这呼应历史记忆中Hermes Agent与Claude Managed Agents的迭代，解决单一Agent易失控和能力天花板问题。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI开发者">AGENT SWARM——Master Agent孵化多个Worker Agent，负责研究、设计、编码、测试和自动化，使用12+LLM协同，像人类团队一样拥有共同目标。这是AGI的早期显现。Gemma 4和GLM 5.1等31B小模型已是构建此类系统的绝佳工具。（❤️ 236 | 💬 15）</TWEET>
+      <CONSENSUS>行业已形成共识：未来工作将由专家Agent团队完成，而非单一Agent；开源小模型性能已足以支撑多代理系统，开源正在快速追平闭源。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论的是：多代理系统的协调与对齐成本是否会超过收益？以及当Agent拥有真实银行账户后，如何防止其“自己去偷钱”的失控风险。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="depth" emoji="🏭">
+      <TITLE>Terafab与Tesla AI5：硬件垂直整合进入新阶段</TITLE>
+      <NARRATIVE>Elon Musk宣布与Intel、Lip-Bu合作Terafab，将逻辑、内存、封装和掩膜设备放在一栋楼里实现极快开发周期；同时Tesla AI5成功taping out，AI6和Dojo3在路上。这是对过去“纯软件加速”叙事的深度推进，解决算力供应链碎片化瓶颈，印证NVIDIA强调的“每token成本才是核心指标”。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI/Tesla CEO">与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。（❤️ 108374 | 💬 6835）</TWEET>
+      <TWEET account="elonmusk" role="xAI/Tesla CEO">恭喜Tesla AI芯片设计团队成功taping out AI5！AI6、Dojo3和其他激动人心的芯片正在研发中。这将成为史上量产最多的AI芯片之一。（❤️ 95218 | 💬 5771）</TWEET>
+      <CONSENSUS>行业共识转向“软硬垂直整合才是下一代竞争壁垒”，TSMC创纪录利润与CoreWeave与Meta/Anthropic的大单进一步印证了这一点。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：这种高度垂直整合是否会让中小玩家彻底出局？以及地缘政治风险下，美国能否真正实现芯片制造的“天堂”回归。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚠️">
+      <TITLE>AI安全焦虑升级：从燃烧弹到人机共生呼吁</TITLE>
+      <NARRATIVE>Sam Altman凌晨被燃烧弹袭击后，oran_ge等声音指出根源是公众对“数字员工取代人类”的深度焦虑。OpenAI收购Promptfoo强化内置安全，行业正快速迈向自我改进系统。同时dotey提到机器人公司通过给印度工人戴摄像头采集具身数据，显示“机器人仍在向工人学习”。这构成从狂热宣传到谨慎共生叙事的明显转向。</NARRATIVE>
+      <TWEET account="oran_ge" role="观察者">Sam Altman凌晨被燃烧弹砸醒非常严重。根源是人们对AI深深的焦虑。建议不要再过度宣传「蒸馏同事」「数字员工取代人类」，而应探索【人+AI】共生伙伴关系。（❤️ 114 | 💬 4）</TWEET>
+      <TWEET account="dotey" role="AI分析师">机器人公司给印度工厂工人戴头戴摄像头，录制每天操作过程作为训练数据。具身数据极度稀缺，这种廉价方案能捕捉真实世界微调整。目前机器人仍在向工人学习，再考虑取代他们。（❤️ 9 | 💬 2）</TWEET>
+      <CONSENSUS>安全必须内置而非后置；过度 hype 正在引发真实社会反弹，人机共生而非取代将成为主流叙事。</CONSENSUS>
+      <DIVERGENCE>核心争论是：自我改进系统是否会失控？以及当Agent拥有真实金钱和执行权后，法律与伦理框架是否已完全过时。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Vibe Coding与开源小模型爆发</TITLE>
+      <NARRATIVE>tualatrix提出的“Vibe Coding”（对不熟悉领域用AI随性编码）与bindureddy观察到的Gemma 4 31B媲美大型MoE、GLM 5.1登顶开源榜，共同构成新叙事：小模型+多代理+自然语言编程正在让编码民主化，本地35B模型已能在pelican基准上击败Opus 4.7。</NARRATIVE>
+      <TWEET account="tualatrix" role="独立开发者">用AI编程时，做自己完全不熟悉的领域可称为“Vibe Coding”，而对自己相对熟悉的领域则可称为“Harness Coding”。今年美国公司报税已完全用ChatGPT Review并修复问题。（❤️ 93 | 💬 16）</TWEET>
+      <TWEET account="simonw" role="AI开发者">今天早上pelican基准的惊人结果：我用本地21GB的Qwen3.6-35B-A3B在笔记本上生成的pelican，比新Opus 4.7还好。（❤️ 1444 | 💬 106）</TWEET>
+      <OUTLOOK>未来一年，开发者生产力将因本地强模型+Agent Swarm进一步跃升，企业内部将出现大量“一人+多Agent”团队，传统软件工程招聘结构面临颠覆。</OUTLOOK>
+      <OPPORTUNITY>投资专注于本地推理优化、Agent协调框架、开源模型微调工具以及“Vibe Coding”工作流产品的早期团队，具有高回报潜力。</OPPORTUNITY>
+      <RISK>小模型在复杂长程任务中的稳定性仍存硬伤，“Vibe Coding”可能导致大量低质代码进入生产环境，需配套强力评测与沙箱机制。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">中国具身智能企业智平方完成超1.4亿美元B轮，估值超14亿美元，一年内12轮融资；月之暗面Kimi投前估值180亿美元再融资10亿美元。美股Factory AI coding公司洽谈1.5亿美元融资估值15亿美元。</ITEM>
+    <ITEM category="VC views">a16z与Lightspeed观点一致：代码本身价值下降，构建代码的“引擎”（Agent系统、协调框架、硬件整合）成为新护城河；Bay Area已成为GenAI超级集群，集中全球91% AI独角兽市值。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国在具身智能数据采集（工人摄像头方案）、开源小模型（GLM 5.1、Gemma竞争）和融资速度上展现惊人执行力，Kimi三个月三轮融资创纪录，具身智能企业融资节奏全球最快。</ITEM>
+    <ITEM category="全球映射">中国路径对全球的映射是：当数据和资本双重充裕时，具身+多代理结合可能后来居上。但需警惕基准污染（伯克利BenchJack揭示的评测漏洞）和安全对齐滞后可能带来的系统性风险。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="sama" role="OpenAI CEO">Codex迎来大量重大改进，Computer Use功能远超预期。它能同时使用Mac上所有应用，且完全不干扰我自己的工作。它还能从经验中学习并主动建议可做的事，现在还有应用内浏览器和大量新插件。（❤️ 5836 | 💬 711）</TWEET>
+    <TWEET account="openai" role="官方账号">Codex for almost everything。现在它能使用你Mac上的应用、连接更多工具、生成图像、从之前动作学习、记住你的工作习惯，并承担持续可重复的任务。（❤️ 9371 | 💬 571）</TWEET>
+    <TWEET account="gdb" role="OpenAI CTO">Codex正在成为你想让电脑为你做任何事的超级加速伙伴。（❤️ 493 | 💬 60）</TWEET>
+    <TWEET account="bindureddy" role="AI开发者">AGENT SWARM——Master Agent孵化多个Worker，使用12+LLM协同完成研究设计编码测试，像人类团队一样拥有共同目标。这是AGI的早期显现。小模型已是构建此类系统的绝佳工具。（❤️ 236 | 💬 15）</TWEET>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">与Intel和Lip-Bu合作Terafab，我们将所有关键设备放在一栋楼里实现极快开发周期。这就是天堂。（❤️ 108374 | 💬 6835）</TWEET>
+    <TWEET account="openai" role="官方账号">我们推出GPT-Rosalind，前沿生命科学推理模型，用于支持生物、药物发现和转化医学研究，已向Amgen、Moderna等机构开放预览。（❤️ 7603 | 💬 300）</TWEET>
+    <TWEET account="simonw" role="AI开发者">惊人结果：我笔记本上跑的本地21GB Qwen3.6-35B-A3B生成的pelican，比新Claude Opus 4.7还好。（❤️ 1444 | 💬 106）</TWEET>
+    <TWEET account="dotey" role="AI分析师">Codex刚刚上线重磅功能——带“评论模式”的应用内浏览器。现在你可以在代码编辑器里直接浏览网页，Codex会自动截屏、抓取DOM并作为精准上下文喂给对话。（❤️ 28 | 💬 3）</TWEET>
+    <TWEET account="perplexity_ai" role="官方账号">今天发布Personal Computer，与Perplexity Mac App深度集成，可安全编排本地文件、原生应用和浏览器。（❤️ 10189 | 💬 495）</TWEET>
+  </TOP_PICKS>
+</REPORT>
