@@ -13,11 +13,11 @@
     "[2026-04-15]: 很高兴看到我们与Boston Dynamics的合作解锁新能力！Gemini Robotics-ER 1.6让Spot等机器人能够自主读取复杂工业仪表。这是向物理世界中有用机器人迈出的激动人心一步。（❤️ 490 | 💬 31）"
   ],
   "elonmusk": [
-    "[2026-04-16]: 恭喜Tesla AI芯片设计团队成功taping out AI5！AI6、Dojo3和其他激动人心的芯片正在研发中。感谢@TaiwanSemi_TSC和@Samsung支持，这将成为史上量产最多的AI芯片之一。（❤️ 95218 | 💬 5771）",
-    "[2026-04-17]: 与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。（❤️ 108374 | 💬 6835）",
     "[2026-04-17]: 恭喜Tesla AI芯片设计团队成功taping out AI5！AI6、Dojo3和其他激动人心的芯片正在研发中。这将成为史上量产最多的AI芯片之一。（❤️ 95218 | 💬 5771）",
     "[2026-04-18]: 与Intel和Lip-Bu合作Terafab深感荣幸。我们将把所有逻辑、内存、封装和掩膜设备放在一栋楼里，实现极快的开发周期。这就是天堂。（❤️ 108374 | 💬 6835）",
-    "[2026-04-18]: 通过联邦政府发放支票实现Universal HIGH INCOME，是应对AI导致失业的最佳方式。AI/机器人将生产远超货币供应增长的商品和服务，因此不会引发通胀。（❤️ 160824 | 💬 38496）"
+    "[2026-04-18]: 通过联邦政府发放支票实现Universal HIGH INCOME，是应对AI导致失业的最佳方式。AI/机器人将生产远超货币供应增长的商品和服务，因此不会引发通胀。（❤️ 160824 | 💬 38496）",
+    "[2026-04-19]: 恭喜Tesla AI芯片设计团队成功taping out AI5！AI6、Dojo3和其他激动人心的芯片正在研发中。这将成为史上量产最多的AI芯片之一。与Intel和Lip-Bu合作Terafab深感荣幸，我们将把所有设备放在一栋楼里，实现极快的开发周期。这就是天堂。（❤️ 108374 | 💬 6835）",
+    "[2026-04-19]: AI/机器人将生产远超今天经济规模的商品和服务，每个人都可以拥有顶层公寓。建议通过Universal HIGH INCOME应对AI导致的失业，因为商品和服务增长远超货币供应，不会引发通胀。（❤️ 160824 | 💬 38496）"
   ],
   "microsoft": [
     "[2026-04-04]: 微软将投资100亿美元在日本建设AI基础设施，与SoftBank等伙伴合作培养专业人才，同时发布转录、语音生成和图像创建三款内部AI模型。❤️ 1840 | 💬 392"
@@ -116,11 +116,11 @@
     "[2026-04-06]: 我在Claude Code里打造知识库怪兽：基于Karpathy的llm-wiki想法，结合/last30days和/wiki技能，做出可搜索、可对比时间线的交互可视化，还设置了“质疑假设”定时任务，目前专注企业AI领域。❤️ 510 | 💬 34"
   ],
   "bindureddy": [
-    "[2026-04-14]: bindureddy宣布AGENT SWARM：Master Agent孵化多个Worker Agent，负责研究设计编码测试自动化，使用12+LLM协同工作，像人类团队一样拥有共同目标而非孤立任务，这是AGI的早期显现。Gemma 4和GLM 5.1等小模型是绝佳构建工具。❤️ 236 | 💬 15",
     "[2026-04-14]: Gemma 4是同尺寸世界最佳小模型，31B性能媲美大型MoE。GLM 5.1已在编码和Agentic基准上表现极佳，是构建编码Agent和OpenClaw的绝佳选择。开源每天都在追平闭源。❤️ 349 | 💬 33",
     "[2026-04-14]: 如何像老板一样Vibe Code：让Codex和Opus同时构建功能，让批评Agent评估代码，让测试Agent跑测试，最终Judge Agent决定胜者并推送到生产环境。❤️ 180 | 💬 3",
     "[2026-04-16]: 宣布AGENT SWARM——Master Agent孵化多个Worker Agent，负责研究、设计、编码、测试和自动化，使用12+LLM协同，像人类团队一样拥有共同目标。这是AGI的早期显现。Gemma 4和GLM 5.1等31B小模型已是构建此类系统的绝佳工具。（❤️ 236 | 💬 15）",
-    "[2026-04-17]: AGENT SWARM——Master Agent孵化多个Worker Agent，负责研究、设计、编码、测试和自动化，使用12+LLM协同，像人类团队一样拥有共同目标。这是AGI的早期显现。Gemma 4和GLM 5.1等31B小模型已是构建此类系统的绝佳工具。（❤️ 236 | 💬 15）"
+    "[2026-04-17]: AGENT SWARM——Master Agent孵化多个Worker Agent，负责研究、设计、编码、测试和自动化，使用12+LLM协同，像人类团队一样拥有共同目标。这是AGI的早期显现。Gemma 4和GLM 5.1等31B小模型已是构建此类系统的绝佳工具。（❤️ 236 | 💬 15）",
+    "[2026-04-19]: AGENT SWARM——Master Agent孵化多个Worker Agent，负责研究、设计、编码、测试和自动化，使用12+LLM协同，像人类团队一样拥有共同目标。这是AGI的早期显现。Gemma 4和GLM 5.1等31B小模型已是构建此类系统的绝佳工具。（❤️ 236 | 💬 15）"
   ],
   "leftcurvedev_": [
     "[2026-04-06]: Gemma-4-31B-JANG_4M-CRACK已发布：完全abliteration，HarmBench 93.7%，MMLU仅下降2%，非常干净。❤️ 715 | 💬 24"
@@ -129,11 +129,11 @@
     "[2026-04-06]: 我们发布了autokernel，受Karpathy autoresearch启发，用keep/revert循环自动优化GPU kernel，给任意PyTorch模型即可跑通，RMSNorm加速5.29x，softmax击败torch.compile 3.44x。❤️ 351 | 💬 10"
   ],
   "pmarca": [
-    "[2026-04-12]: 现代存在的三种状态：AI 狂喜、AI 精神病，以及 AI 精神病的的精神病。（❤️ 1084 | 💬 200）",
     "[2026-04-13]: AI代理需要真实金钱，这已经发生。我朋友已给OpenClaw提供银行账户，否则它可能会自己去偷钱。10年后可能不再有传统意义上的编程语言，你只需告诉AI你的需求，它会用最优方式实现。（❤️ 1474 | 💬 168）",
     "[2026-04-15]: AI代理需要真实金钱，这已经发生。我朋友已给OpenClaw提供银行账户，否则它可能会自己去偷钱。10年后可能不再有传统意义上的编程语言，你只需告诉AI需求即可。（❤️ 1474 | 💬 168）",
     "[2026-04-16]: AI代理需要真实金钱，这已经发生。我朋友已给OpenClaw提供银行账户，否则它可能会自己偷钱。10年后可能不再有传统编程语言，你只需告诉AI你的需求，它会用最优方式实现。（❤️ 1474 | 💬 168）",
-    "[2026-04-18]: Marc Andreessen表示AI代理需要真实金钱，这已经发生。他的朋友已给OpenClaw提供银行账户，否则它可能会自己偷钱。这预示着未来AI代理必须拥有支付能力。（❤️ 1474 | 💬 168）"
+    "[2026-04-18]: Marc Andreessen表示AI代理需要真实金钱，这已经发生。他的朋友已给OpenClaw提供银行账户，否则它可能会自己偷钱。这预示着未来AI代理必须拥有支付能力。（❤️ 1474 | 💬 168）",
+    "[2026-04-19]: 硅谷流传：“UBI是给农场动物的。”现有的广泛UBI并未让人去打猎、钓鱼或放牧，反而产生了大量批评。（❤️ 1121 | 💬 141）"
   ],
   "aliabdaal": [
     "[2026-04-07]: 受Karpathy最近一系列操作启发，我正在构建基于LLM的第二大脑。（❤️ 1030 | 💬 65）",
@@ -164,7 +164,8 @@
     "[2026-04-10]: 我深入研究了Meta新Muse Spark模型的Pelicans功能，以及其Code Interpreter和“container.visual_grounding”工具，这套聊天UI极其强大。❤️ 243 | 💬 15",
     "[2026-04-10]: 我深入研究了Meta新Muse Spark模型的Pelicans功能、Code Interpreter和container.visual_grounding工具，这套聊天UI极其强大。（❤️ 243 | 💬 15）",
     "[2026-04-17]: 今天早上pelican基准的惊人结果：我用本地21GB的Qwen3.6-35B-A3B在笔记本上生成的pelican，比新Opus 4.7还好。（❤️ 1444 | 💬 106）",
-    "[2026-04-18]: 人们还普遍认为LLM和编码Agent只适合绿地开发，对维护大型现有代码库没帮助吗？我认为这个观点已经站不住脚了。（❤️ 508 | 💬 150）"
+    "[2026-04-18]: 人们还普遍认为LLM和编码Agent只适合绿地开发，对维护大型现有代码库没帮助吗？我认为这个观点已经站不住脚了。（❤️ 508 | 💬 150）",
+    "[2026-04-19]: 人们还普遍认为LLM和编码Agent只适合绿地开发，对维护大型现有代码库没帮助吗？我认为这个观点已经站不住脚了。（❤️ 508 | 💬 150）"
   ],
   "_akhaliq": [
     "[2026-04-10]: INSPATIO-WORLD：通过时空自回归建模实现的实时4D世界模拟器，论文已开源。❤️ 32 | 💬 0",
@@ -181,11 +182,11 @@
     "[2026-04-17]: 用AI编程时，做自己完全不熟悉的领域可称为“Vibe Coding”，而对自己相对熟悉的领域则可称为“Harness Coding”。今年美国公司报税已完全用ChatGPT Review并修复问题。（❤️ 93 | 💬 16）"
   ],
   "rauchg": [
-    "[2026-04-10]: Rauchg发文称Agentic Infrastructure将是云的未来：需为Claude Code、Codex、Cursor等Agent提供专属基础设施，从Pages到Agents的转变，长期运行计算、沙箱和token交付网络是基础，最终基础设施本身将成为持有pager的Agent。❤️ 124 | 💬 14",
     "[2026-04-12]: Agentic Infrastructure 将是云的未来：需为 Claude Code、Codex、Cursor 等 Agent 提供专属基础设施，从 Pages 到 Agents 的转变，长期运行计算、沙箱和 token 交付网络是基础，最终基础设施本身将成为持有 pager 的 Agent。（❤️ 248 | 💬 22）",
     "[2026-04-13]: Agentic Infrastructure将是云的未来：需为Claude Code、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。（❤️ 248 | 💬 22）",
     "[2026-04-14]: Agentic Infrastructure将是云的未来：需为Claude Code、Codex、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。❤️ 248 | 💬 22",
-    "[2026-04-15]: Agentic Infrastructure将是云的未来：需为Claude Code、Codex、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。（❤️ 248 | 💬 22）"
+    "[2026-04-15]: Agentic Infrastructure将是云的未来：需为Claude Code、Codex、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。（❤️ 248 | 💬 22）",
+    "[2026-04-19]: 设计属于Figma还是Claude Design是次要问题。更重要的是：设计将变得自主，成为DESIGN.md供你的coding agents运行软件工厂使用。Agentic Infrastructure将是云的未来，最终基础设施本身将成为持有pager的Agent。未来与现在将完全不同，AI是真正的断层。（❤️ 785 | 💬 52）"
   ],
   "nvidia": [
     "[2026-04-11]: Celebrate #NationalRoboticsWeek with a look back at NVIDIA GTC. From autonomous humanoids mastering complex 3D navigation to highly precise surgical arms and real-time conversational delivery bots, the next era of physical AI has arrived.❤️ 131 | 💬 20",
@@ -205,10 +206,12 @@
   ],
   "chamath": [
     "[2026-04-16]: 尽管大家都想喝Vibe Coding的酷艾德，但现实是公司90%+的代码是维护和迁移复杂遗留系统。你可以用Vibe Coding搞定剩下10%，但除非有重构90%的可行方案，否则AI难以兑现潜力。我们做的Software Factory正是聚焦这90%。（❤️ 692 | 💬 78）",
-    "[2026-04-18]: 尽管大家都想喝Vibe Coding的酷艾德，但现实是公司90%+的代码是维护和迁移复杂遗留系统。你可以用Vibe Coding搞定剩下10%，但除非有重构90%的可行方案，否则AI难以兑现潜力。我们做的Software Factory正是聚焦这90%。（❤️ 692 | 💬 78）"
+    "[2026-04-18]: 尽管大家都想喝Vibe Coding的酷艾德，但现实是公司90%+的代码是维护和迁移复杂遗留系统。你可以用Vibe Coding搞定剩下10%，但除非有重构90%的可行方案，否则AI难以兑现潜力。我们做的Software Factory正是聚焦这90%。（❤️ 692 | 💬 78）",
+    "[2026-04-19]: 尽管大家沉迷Vibe Coding的酷炫，但现实是公司90%+代码是维护和迁移复杂遗留系统。除非找到重构这90%的可行方案，否则AI潜力难以兑现。我们正在打造的Software Factory正是聚焦这一核心痛点。（❤️ 2305 | 💬 158）"
   ],
   "gdb": [
     "[2026-04-17]: 让Codex去完成需要跨越Slack、Google Docs、Notion和各种内部工具的任务时，它总能神奇地自己搞定，这种魔力感太真实了。（❤️ 1466 | 💬 180）",
-    "[2026-04-17]: GPT-Rosalind是我们加速科学、改善人类健康的重要一步。我们非常兴奋能与Amgen、Moderna、Allen Institute等伙伴共同部署和迭代这个模型。（❤️ 596 | 💬 44）"
+    "[2026-04-17]: GPT-Rosalind是我们加速科学、改善人类健康的重要一步。我们非常兴奋能与Amgen、Moderna、Allen Institute等伙伴共同部署和迭代这个模型。（❤️ 596 | 💬 44）",
+    "[2026-04-19]: Codex正在成为一个完整的全Agentic IDE，用自然语言构建webapp和游戏极其有趣，它特别擅长长期运行任务。（❤️ 2990 | 💬 122）"
   ]
 }
