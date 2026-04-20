@@ -1,80 +1,72 @@
 <REPORT>
-  <COVER title="Agent Swarm崛起：真实金钱与自治基础设施" prompt="Cinematic grand architectural metaphor of a towering futuristic command citadel where multiple glowing AI agent entities form a dynamic strategic swarm above a massive strategic map of cloud infrastructure. The central structure evolves from traditional server towers into living, autonomous neural architectures with long-running computation veins and sandbox vaults. Strategic lighting with volumetric god rays piercing through data fog, agents exchanging tokenized currency orbs in a coordinated dance. Hyper-detailed industrial-metallic surfaces mixed with translucent neural glass, 8K resolution, dramatic color grading in deep blues and electric cyan, strategic overlay lines showing multi-agent collaboration flows." insight="Agentic系统超越工具属性，硅谷正迈向真实世界自治与多代理团队协作时代。"/>
-  <PULSE>硅谷叙事核心从单模型编码工具转向多代理蜂群自治系统、具身数据采集与Agentic云基础设施重构。</PULSE>
+  <COVER title="Scaling冲刺ASI之际 Claude 4.7隐形涨价" prompt="Minimalist data visualization art showing massive ascending neural scaling columns labeled 3T, 6T, 10T parameters reaching toward glowing ASI horizon. In foreground, a transparent pricing meter with token counters spiking 1.46x for text and 3x for high-res images, rendered as elegant floating holographic nodes and clean vector flow lines. Cool cyan and electric blue color palette, subtle glassmorphic material textures, cinematic volumetric lighting with soft god rays, ultra sharp 8K resolution, precise technical aesthetic emphasizing tension between exponential scale and real cost friction." insight="Scaling叙事持续高烧，但真实token经济与定价透明度成为新战场。"/>
+  <PULSE>今日叙事核心从纯参数Scaling狂奔ASI转向对实际部署成本、token效率与生产力工具落地的冷静审视。</PULSE>
 
   <THEMES>
-    <THEME type="new" emoji="🌱">
-      <TITLE>Agent Swarm：多代理团队化早期AGI显现</TITLE>
-      <NARRATIVE>bindureddy提出的Master Agent孵化多个Worker Agent（研究、设计、编码、测试、自动化），使用12+LLM协同完成共同目标，这是对传统单Agent范式的根本突破，试图解决复杂任务中单一模型上下文与能力瓶颈问题。</NARRATIVE>
-      <TWEET account="@bindureddy" role="AI系统构建者">宣布AGENT SWARM——Master Agent孵化多个Worker Agent，负责研究、设计、编码、测试和自动化，使用12+LLM协同，像人类团队一样拥有共同目标。这是AGI的早期显现。Gemma 4和GLM 5.1等31B小模型已是构建此类系统的绝佳工具。❤️ 236 | 💬 15</TWEET>
-      <OUTLOOK>未来6-12个月，多代理系统将从实验进入生产部署，成为复杂软件工程与企业自动化主流范式，加速拉开与单模型玩家的差距。</OUTLOOK>
-      <OPPORTUNITY>一级市场可投资多代理编排平台、专用评判Agent框架及小模型优化基础设施，应用切入点为企业内部“数字员工团队”。</OPPORTUNITY>
-      <RISK>当前多代理协调仍依赖人工最终Judge，存在涌现不可控风险与高token成本，短期可能仍是概念泡沫。</RISK>
+    <THEME type="depth" emoji="📈">
+      <TITLE>Elon Musk更新Scaling曲线直指ASI时间表</TITLE>
+      <NARRATIVE>Elon以4.6→3T、4.7→6T、4.8→10T的清晰路径，强化了“规模即一切”的原有叙事，今日直接把5.0定义为AGI、6.0定义为ASI，显示其对指数级scaling的信心未曾动摇。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">4.6版本对应3T参数，4.7到6T，4.8到10T，4.9未知，5.0就是AGI，6.0就是ASI……🤷‍♂️ 😂</TWEET>
+      <CONSENSUS>行业主流仍相信继续堆参数是通往AGI的最短路径，大模型规模天花板仍未看到。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：纯规模是否会遇到数据墙或架构瓶颈？何时真正出现“涌现”而非渐进改进？</DIVERGENCE>
     </THEME>
 
-    <THEME type="shift" emoji="⚔️">
-      <TITLE>编码Agent从绿地转向遗留代码库维护</TITLE>
-      <NARRATIVE>simonw等开发者观察到，行业长期共识认为LLM仅适合全新项目，对维护大型遗留代码库无效；如今这一观点已瓦解，Cursor、Codex等工具在真实生产维护场景展现强大能力，标志着Agent实用边界重大扩张。</NARRATIVE>
-      <TWEET account="@simonw" role="知名开发者">人们还普遍认为LLM和编码Agent只适合绿地开发，对维护大型现有代码库没帮助吗？我认为这个观点已经站不住脚了。❤️ 508 | 💬 150</TWEET>
-      <TWEET account="@gdb" role="OpenAI核心成员">Codex正在成为一个完整的全Agentic IDE，用自然语言构建webapp和游戏极其有趣，它特别擅长长期运行任务。❤️ 2990 | 💬 122</TWEET>
-      <CONSENSUS>编码Agent已成为开发者生产力核心工具，无论新老项目均可高效介入，Codex用量已接近Claude Code。</CONSENSUS>
-      <DIVERGENCE>大佬们争论焦点在于：模型“说人话”能力是否会因过度优化编码而永久下降，以及Agent对大型代码库的理解深度是否真正可靠。</DIVERGENCE>
+    <THEME type="shift" emoji="💰">
+      <TITLE>Claude 4.7 token用量激增构成实质涨价</TITLE>
+      <NARRATIVE>SimonW通过精确测试发现Opus 4.7文本token消耗增加1.46倍、高分辨率图像最高3倍，虽然名义单token价格不变，但实际成本显著上升，此前“更强但不更贵”的预期被打破。</NARRATIVE>
+      <TWEET account="simonw" role="AI开发者工具专家">我升级了Claude token计数工具后发现，Opus 4.7文本token用量是4.6的1.46倍，图像最高3倍。虽然标价相同，但实际相当于大幅涨价。</TWEET>
+      <TWEET account="simonw" role="AI开发者工具专家">需要说明的是，图像3倍主要是因为支持更高分辨率。如果用相同682x318像素图片，两者token数几乎一样（314 vs 310）。</TWEET>
+      <CONSENSUS>前沿模型能力提升越来越依赖更大上下文与更高分辨率输入，成本压力正从实验室转向终端用户。</CONSENSUS>
+      <DIVERGENCE>大佬们争论这是“合理的能力溢价”还是“把研发成本转嫁给开发者”？</DIVERGENCE>
     </THEME>
 
-    <THEME type="new" emoji="🌱">
-      <TITLE>具身数据新范式：印度工人头戴摄像头采集</TITLE>
-      <NARRATIVE>机器人公司让印度工厂工人佩戴头戴摄像头记录日常操作，作为训练数据解决具身智能极度稀缺的问题。这种“人类先教、机器人后替”的廉价替代方案，捕捉真实世界微调动作，构成物理AI数据飞轮新路径。</NARRATIVE>
-      <TWEET account="@dotey" role="AI观察者">机器人公司给印度工厂工人戴头戴摄像头，录制每天操作过程作为训练数据。具身数据极度稀缺，自建车队成本高昂，这种廉价替代方案能捕捉真实世界微调整。目前机器人仍在先向工人学习，再考虑取代他们。❤️ 9 | 💬 2</TWEET>
-      <OUTLOOK>6-12个月内，此类人类示范数据将大幅降低具身智能训练门槛，推动NVIDIA物理AI与Tesla Optimus进入实用阶段。</OUTLOOK>
-      <OPPORTUNITY>投资“人类示范数据平台”、隐私合规的工厂数据采集SaaS，以及专为具身智能设计的微调基础设施。</OPPORTUNITY>
-      <RISK>数据质量依赖工人操作规范性，存在规模化隐私与伦理硬伤，可能引发监管反弹。</RISK>
+    <THEME type="new" emoji="🔌">
+      <TITLE>Grok即将深度嵌入Office全家桶</TITLE>
+      <NARRATIVE>Elon宣布Grok即将推出Excel、PowerPoint、Word插件，这标志着xAI从聊天机器人向企业生产力基础设施的战略转向，试图在微软Copilot主导的战场撕开新口子。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">Grok即将推出Excel、PowerPoint、Word插件……</TWEET>
+      <OUTLOOK>未来6-12个月，AI将从“对话工具”彻底进化成“文档原生智能”，企业端付费意愿有望显著提升。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注垂直领域生产力插件、文档智能体、以及企业级RAG基础设施。</OPPORTUNITY>
+      <RISK>微软已在Office深度布局，Grok插件能否实现差异化体验仍是未知数。</RISK>
     </THEME>
 
-    <THEME type="shift" emoji="⚔️">
-      <TITLE>Agentic Infrastructure成为云未来</TITLE>
-      <NARRATIVE>rauchg指出，云计算正从Pages时代转向Agents时代，需要为Claude Code、Codex、Cursor提供长期运行计算、沙箱、token交付网络，最终基础设施本身将成为持有pager的Agent。此前基础设施仅被视为被动算力平台的共识正在瓦解。</NARRATIVE>
-      <TWEET account="@rauchg" role="Vercel CEO">Agentic Infrastructure将是云的未来：需为Claude Code、Codex、Cursor等Agent提供专属长期运行计算、沙箱和token交付网络，最终基础设施本身将成为持有pager的Agent。❤️ 248 | 💬 22</TWEET>
-      <CONSENSUS>行业已形成共识：下一代云必须原生支持Agent长期自治运行，而非简单提供GPU。</CONSENSUS>
-      <DIVERGENCE>争论焦点在于基础设施是否应完全自治（持有pager的Agent），以及安全边界在高度自治环境下的重构难度。</DIVERGENCE>
-    </THEME>
-
-    <THEME type="shift" emoji="⚔️">
-      <TITLE>AI代理需真实金钱：从概念到银行账户</TITLE>
-      <NARRATIVE>pmarca指出AI代理已开始被赋予真实银行账户以执行交易，否则“它可能会自己去偷钱”。这标志着从“有趣玩具”到“经济实体”的重大转向，与Elon Universal High Income叙事共同构成对AI导致失业与丰裕的回应。</NARRATIVE>
-      <TWEET account="@pmarca" role="a16z创始人">AI代理需要真实金钱，这已经发生。我朋友已给OpenClaw提供银行账户，否则它可能会自己去偷钱。10年后可能不再有传统意义上的编程语言，你只需告诉AI你的需求，它会用最优方式实现。❤️ 1474 | 💬 168</TWEET>
-      <TWEET account="@elonmusk" role="Tesla &amp; xAI CEO">AI/机器人将生产远超今天经济规模的商品和服务，每个人都可以拥有顶层公寓。建议通过Universal HIGH INCOME应对AI导致的失业，因为商品和服务增长远超货币供应，不会引发通胀。❤️ 160824 | 💬 38496</TWEET>
-      <CONSENSUS>代理必须拥有经济自主权才能真正落地，这是硅谷当前形成的最新共识。</CONSENSUS>
-      <DIVERGENCE>核心争论是Universal High Income是否足够，以及AI丰裕是否会如预期般不引发通胀。</DIVERGENCE>
+    <THEME type="shift" emoji="🚗">
+      <TITLE>Tesla FSD中国落地瓶颈从监管转向产能</TITLE>
+      <NARRATIVE>Elon今日明确表示，在中国获得supervised FSD批准前，上海工厂的产量才是真正限制因素，叙事从“监管不确定性”转向“硬件产能瓶颈”。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">这是在中国批准supervised FSD之前的情况。目前的限制因素是上海工厂的产量。</TWEET>
+      <CONSENSUS>Robotaxi和中国市场仍是Tesla增长故事的核心，但短期内产能而非牌照成为新约束。</CONSENSUS>
+      <DIVERGENCE>乐观派认为产能很快能解决，谨慎派担心中美供应链政治风险可能长期限制扩张。</DIVERGENCE>
     </THEME>
 
     <THEME type="new" emoji="🌱">
-      <TITLE>Neural Computer：神经网络直接模拟计算机界面</TITLE>
-      <NARRATIVE>hardmaru提出的Neural Computer通过改造视频生成架构，仅用输入输出轨迹训练，即可渲染可读文本并控制光标，证明神经网络无需传统OS即可独立运行视觉计算环境，这是对“世界模型”叙事的深度创新。</NARRATIVE>
-      <TWEET account="@hardmaru" role="AI研究员">Neural Computer通过改造视频生成架构训练真实计算机的世界模型，可直接模拟界面。仅用输入输出轨迹训练，就能渲染可读文本并控制光标，证明神经网络可独立运行视觉计算环境，无需传统OS。❤️ 680 | 💬 20</TWEET>
-      <OUTLOOK>未来一年可能催生全新人机交互范式，让Agent直接操作“神经桌面”，绕过API限制。</OUTLOOK>
-      <OPPORTUNITY>投资神经世界模型初创公司及面向模拟界面的具身训练数据集。</OPPORTUNITY>
-      <RISK>当前仅为概念证明，真实世界复杂界面泛化能力存疑，易成短期炫技泡沫。</RISK>
+      <TITLE>AI Engineer线下峰会成为新思想传播枢纽</TITLE>
+      <NARRATIVE>swyx记录的AIE Miami活动吸引75%东海岸AI工程师，Z/L continuum等概念在现场快速传播，显示AI工程社区正从Twitter讨论转向高密度线下协同，形成新叙事孵化器。</NARRATIVE>
+      <TWEET account="swyx" role="AI开发者 &amp; 布道者">AIE Miami现场爆满（约75%东海岸AI工程师），所有演讲已免费YouTube直播。</TWEET>
+      <TWEET account="swyx" role="AI开发者 &amp; 布道者">dexhorthy在AIE Miami引用Z/L continuum概念，这个idea正在被altryne等人快速接纳。</TWEET>
+      <OUTLOOK>未来6-12个月，线下AI Engineer峰会将加速从实验室到工业界的知识转移，成为独立于大厂的新思想源头。</OUTLOOK>
+      <OPPORTUNITY>投资早期AI开发者工具、开源协同平台、以及服务于AI工程师的垂直媒体和活动公司。</OPPORTUNITY>
+      <RISK>活动形式易被复制，需持续提供高密度原创洞见才能维持影响力。</RISK>
     </THEME>
+
   </THEMES>
 
   <INVESTMENT_RADAR>
-    <ITEM category="投融资快讯">AI芯片领域持续火热，Cerebras、MatX、Ayar Labs等初创公司2026年已获数亿美元融资；Google正与Marvell洽谈开发新一代AI推理芯片，硬件自主成为新战场。</ITEM>
-    <ITEM category="VC views">pmarca与Elon观点高度一致：Agent必须拥有真实支付能力，一级市场应重点布局Agent经济基础设施、具身数据平台及多代理协调框架；Vercel安全事件凸显Agentic Infrastructure安全层投资机会。</ITEM>
+    <ITEM category="投融资快讯">Jump获得8000万美元B轮，业务从AI会议工具扩展至更广泛企业应用；AI芯片初创公司持续获得巨额融资，挑战Nvidia主导地位。</ITEM>
+    <ITEM category="VC views">法律事务所开始通过私募股权融资采用AI工具，显示企业端AI资本需求正从科技公司扩散至传统行业；中国实验室在Hugging Face下载量已超越美国。</ITEM>
   </INVESTMENT_RADAR>
 
   <RISK_CHINA_VIEW>
-    <ITEM category="中国 AI 评价">中国开源小模型（Deepseek v4、GLM 5.1、Gemma 4中文优化版）在编码与Agentic基准上快速追平甚至局部超越闭源，31B模型已成为构建Swarm的性价比之选；但在Agent长期自治与真实世界具身数据上仍落后。</ITEM>
-    <ITEM category="全球映射">中国工程师已大规模采用Codex与Claude Code，企业报销token成本远高于个人，显示真实需求强劲；全球应关注中国在多代理低成本部署上的创新，但需警惕Vercel式AI加速攻击向供应链扩散的风险。</ITEM>
+    <ITEM category="中国 AI 评价">中国开源实验室在过去24小时趋势模型贡献度和Hugging Face下载量上全面领先，展现出极强的工程执行力和社区动员能力。</ITEM>
+    <ITEM category="全球映射">美国需警惕中国在开源AI赛道形成“数据-模型-人才”正循环，未来全球开发者默认选择中国基础模型的风险正在上升。</ITEM>
   </RISK_CHINA_VIEW>
 
   <TOP_PICKS>
-    <TWEET account="@rauchg" role="Vercel CEO">我向社区更新Vercel正在调查的安全事件。一名员工因使用某AI平台客户账号被攻破，导致Vercel Google Workspace被入侵。攻击者高度专业，我强烈怀疑其被AI显著加速。他们对Vercel内部极其熟悉。目前受影响客户数量有限，我们已紧急联系并加强所有安全措施。建议所有客户立即轮换密钥并正确标记敏感环境变量。❤️ 1681 | 💬 121</TWEET>
-    <TWEET account="@bindureddy" role="AI系统构建者">AGENT SWARM——Master Agent孵化多个Worker Agent，负责研究、设计、编码、测试和自动化，使用12+LLM协同，像人类团队一样拥有共同目标。这是AGI的早期显现。Gemma 4和GLM 5.1等31B小模型已是构建此类系统的绝佳工具。❤️ 236 | 💬 15</TWEET>
-    <TWEET account="@simonw" role="知名开发者">人们还普遍认为LLM和编码Agent只适合绿地开发，对维护大型现有代码库没帮助吗？我认为这个观点已经站不住脚了。❤️ 508 | 💬 150</TWEET>
-    <TWEET account="@gdb" role="OpenAI核心成员">Codex正在成为开发者通用应用：它能跨越Slack、Google Docs、Notion和各种内部工具神奇地完成任务，这种魔力感太真实了。它已成为完整的Agentic IDE，特别擅长长期运行任务。❤️ 2990 | 💬 122</TWEET>
-    <TWEET account="@pmarca" role="a16z创始人">AI代理需要真实金钱，这已经发生。我朋友已给OpenClaw提供银行账户，否则它可能会自己去偷钱。10年后可能不再有传统编程语言，你只需告诉AI你的需求，它会用最优方式实现。❤️ 1474 | 💬 168</TWEET>
-    <TWEET account="@elonmusk" role="Tesla &amp; xAI CEO">恭喜Tesla AI芯片团队成功taping out AI5！AI6、Dojo3等芯片正在研发中，这将成为史上量产最多的AI芯片之一。我们与Intel和Lip-Bu合作Terafab，把所有设备放在一栋楼里实现极快开发周期，这就是天堂。❤️ 108374 | 💬 6835</TWEET>
-    <TWEET account="@dotey" role="AI观察者">机器人公司给印度工厂工人戴头戴摄像头，录制每天操作过程作为训练数据。具身数据极度稀缺，这种廉价方案能捕捉真实世界微调整。目前机器人仍在向工人学习，再考虑取代他们。❤️ 9 | 💬 2</TWEET>
-    <TWEET account="@hardmaru" role="AI研究员">Neural Computer通过改造视频生成架构训练真实计算机的世界模型，可直接模拟界面。仅用输入输出轨迹训练，就能渲染可读文本并控制光标，证明神经网络可独立运行视觉计算环境，无需传统OS。❤️ 680 | 💬 20</TWEET>
+    <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">4.6版本对应3T参数，4.7到6T，4.8到10T，4.9未知，5.0就是AGI，6.0就是ASI……🤷‍♂️ 😂 ❤️ 8298 | 💬 948</TWEET>
+    <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">Grok即将推出Excel、PowerPoint、Word插件…… ❤️ 44445 | 💬 2597</TWEET>
+    <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">这是在中国批准supervised FSD之前的情况。目前的限制因素是上海工厂的产量。 ❤️ 4976 | 💬 333</TWEET>
+    <TWEET account="simonw" role="AI开发者工具专家">我升级了Claude token计数工具后发现，Opus 4.7文本token用量是4.6的1.46倍，图像最高3倍。虽然标价相同，但实际相当于大幅涨价。 ❤️ 1393 | 💬 95</TWEET>
+    <TWEET account="simonw" role="AI开发者工具专家">需要说明的是，图像3倍主要是因为支持更高分辨率。如果用相同682x318像素图片，两者token数几乎一样。 ❤️ 88 | 💬 8</TWEET>
+    <TWEET account="swyx" role="AI开发者 &amp; 布道者">AIE Miami现场爆满（约75%东海岸AI工程师），所有演讲已免费YouTube直播。 ❤️ 22 | 💬 2</TWEET>
+    <TWEET account="swyx" role="AI开发者 &amp; 布道者">dexhorthy在AIE Miami引用Z/L continuum概念，这个idea正在被altryne等人快速接纳。 ❤️ 10 | 💬 1</TWEET>
+    <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">想象一下升级之后的样子…… ❤️ 2131 | 💬 770</TWEET>
   </TOP_PICKS>
 </REPORT>
