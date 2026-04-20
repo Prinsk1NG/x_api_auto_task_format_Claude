@@ -24,6 +24,76 @@
       "content": "AIE Miami现场爆满（约75%东海岸AI工程师），所有演讲已免费YouTube直播。",
       "likes": 22,
       "replies": 2
+    },
+    {
+      "tweet_id": "2046362691606855700",
+      "date": "2026-04-21",
+      "content": "OpenAI收购Codex x @skybysoftware可能是过去一年最好的交易之一。我从2024年就等待真正的computer use，今天终于以可用形式落地。(❤️ 37 | 💬 7)",
+      "likes": 37,
+      "replies": 7
+    }
+  ],
+  "dotey": [
+    {
+      "tweet_id": "2046346065184453027",
+      "date": "2026-04-21",
+      "content": "苹果官宣CEO交接：Tim Cook将于2026年9月1日卸任CEO，转任执行董事长，硬件工程高级副总裁John Ternus接任。Ternus主导了近年几乎所有核心硬件项目，Cook任内将苹果做到4万亿市值并开辟多条新产品线。(❤️ 65 | 💬 8)",
+      "likes": 65,
+      "replies": 8
+    }
+  ],
+  "sama": [
+    {
+      "tweet_id": "2046330825265086712",
+      "date": "2026-04-21",
+      "content": "Tim Cook is a legend. I am very thankful for everything he has done and I am very thankful for Apple.(❤️ 16007 | 💬 980)",
+      "likes": 16007,
+      "replies": 980
+    }
+  ],
+  "anthropicai": [
+    {
+      "tweet_id": "2046327624092487688",
+      "date": "2026-04-21",
+      "content": "We're expanding our collaboration with Amazon to secure up to 5 gigawatts of compute... Amazon is also investing an additional $5 billion in Anthropic today, with up to $20 billion more in the future.",
+      "likes": 6362,
+      "replies": 257
+    }
+  ],
+  "soumithchintala": [
+    {
+      "tweet_id": "2046265830908870983",
+      "date": "2026-04-21",
+      "content": "The Jensen + Dwarkesh podcast was fantastic... The entire premise that a particular model will have a critical phase change is neither correct nor does evidence point to it... America needs many lever",
+      "likes": 740,
+      "replies": 32
+    }
+  ],
+  "vista8": [
+    {
+      "tweet_id": "2046254553151262822",
+      "date": "2026-04-21",
+      "content": "上周Huggingface最热论文竟然是讲Prompt的。实验证明：用常见高频词写的prompt，效果远好于生僻词写的版本...相关系数竟然是1，且不止翻译，连推理都变好了。(❤️ 41 | 💬 8)",
+      "likes": 41,
+      "replies": 8
+    }
+  ],
+  "nvidia": [
+    {
+      "tweet_id": "2046281553441857791",
+      "date": "2026-04-21",
+      "content": "The era of the \"AI Factory\" is transforming manufacturing from a series of isolated pilots into a scalable, autonomous engine of production. Explore how NVIDIA and our global partners are using digita",
+      "likes": 169,
+      "replies": 21
+    }
+  ],
+  "pmarca": [
+    {
+      "tweet_id": "2046312535776018509",
+      "date": "2026-04-21",
+      "content": "AI doomerism的内圈是伯克利生活方式骗局，由不负责任的黑暗资金驱动；外圈则是相信宣传并毁掉自己生活的年轻人。(❤️ 974 | 💬 99)",
+      "likes": 2183,
+      "replies": 101
     }
   ]
 }
