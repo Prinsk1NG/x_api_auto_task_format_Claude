@@ -15,6 +15,13 @@
       "content": "我升级了Claude token计数工具后发现，Opus 4.7文本token用量是4.6的1.46倍，图像最高3倍。虽然标价相同，但实际相当于大幅涨价。",
       "likes": 1393,
       "replies": 95
+    },
+    {
+      "tweet_id": "2046659404217659467",
+      "date": "2026-04-22",
+      "content": "这太令人困惑了。Anthropic真的把Claude Code从20美元/月计划里删掉了？为什么只通过定价页面更新而不正式宣布？（❤️ 90 | 💬 16）",
+      "likes": 122,
+      "replies": 43
     }
   ],
   "swyx": [
@@ -40,6 +47,13 @@
       "content": "苹果官宣CEO交接：Tim Cook将于2026年9月1日卸任CEO，转任执行董事长，硬件工程高级副总裁John Ternus接任。Ternus主导了近年几乎所有核心硬件项目，Cook任内将苹果做到4万亿市值并开辟多条新产品线。(❤️ 65 | 💬 8)",
       "likes": 65,
       "replies": 8
+    },
+    {
+      "tweet_id": "2046709347682537845",
+      "date": "2026-04-22",
+      "content": "Anthropic悄悄把Claude Code从20美元Pro套餐移除，未发任何公告。Pro用户最低门槛直接跳到100美元。这反映出其推理算力严重短缺，正在向高付费用户集中。（❤️ 112 | 💬 9）",
+      "likes": 112,
+      "replies": 9
     }
   ],
   "sama": [
@@ -49,6 +63,13 @@
       "content": "Tim Cook is a legend. I am very thankful for everything he has done and I am very thankful for Apple.(❤️ 16007 | 💬 980)",
       "likes": 16007,
       "replies": 980
+    },
+    {
+      "tweet_id": "2046604989527912590",
+      "date": "2026-04-22",
+      "content": "这是用ChatGPT Images 2.0生成的我和@gabeeegoooh一起找GPU的漫画。（❤️ 2923 | 💬 484）",
+      "likes": 18514,
+      "replies": 1324
     }
   ],
   "anthropicai": [
@@ -76,6 +97,13 @@
       "content": "上周Huggingface最热论文竟然是讲Prompt的。实验证明：用常见高频词写的prompt，效果远好于生僻词写的版本...相关系数竟然是1，且不止翻译，连推理都变好了。(❤️ 41 | 💬 8)",
       "likes": 41,
       "replies": 8
+    },
+    {
+      "tweet_id": "2046590875481100415",
+      "date": "2026-04-22",
+      "content": "GPT-image-2让所有人进入全民疑神疑鬼时代。发任何图片都可能被怀疑是AI生成的。（❤️ 51 | 💬 25）",
+      "likes": 59,
+      "replies": 4
     }
   ],
   "nvidia": [
@@ -85,6 +113,13 @@
       "content": "The era of the \"AI Factory\" is transforming manufacturing from a series of isolated pilots into a scalable, autonomous engine of production. Explore how NVIDIA and our global partners are using digita",
       "likes": 169,
       "replies": 21
+    },
+    {
+      "tweet_id": "2046396659261743183",
+      "date": "2026-04-22",
+      "content": "在Adobe Summit上，Shantanu Narayen与Jensen Huang讨论下一代合作。我们正超越简单工具，迈向企业创意全栈加速，包括NVIDIA OpenShell、Nemotron品牌模型及云原生3D数字孪生。（❤️ 196 | 💬 34）",
+      "likes": 196,
+      "replies": 34
     }
   ],
   "pmarca": [
@@ -94,6 +129,42 @@
       "content": "AI doomerism的内圈是伯克利生活方式骗局，由不负责任的黑暗资金驱动；外圈则是相信宣传并毁掉自己生活的年轻人。(❤️ 974 | 💬 99)",
       "likes": 2183,
       "replies": 101
+    }
+  ],
+  "openai": [
+    {
+      "tweet_id": "2046589828918317155",
+      "date": "2026-04-22",
+      "content": "OpenAI推出ChatGPT Images 2.0，这是一个最先进的图像模型，能够承担复杂视觉任务，生成精确且立即可用的视觉效果，编辑更锐利、布局更丰富，并拥有思考级智能。（❤️ 10710 | 💬 496）",
+      "likes": 12663,
+      "replies": 1108
+    }
+  ],
+  "gdb": [
+    {
+      "tweet_id": "2046632580527554572",
+      "date": "2026-04-22",
+      "content": "用一点点算力就能创造出如此不可思议的内容。我们对教育、专业场景（幻灯片、营销材料）和生产力应用（如代码文档图表）的新可能性非常兴奋。（❤️ 898 | 💬 73）",
+      "likes": 2981,
+      "replies": 171
+    }
+  ],
+  "techcrunch": [
+    {
+      "tweet_id": "2046669138693865666",
+      "date": "2026-04-22",
+      "content": "AI研究实验室NeoCognition获得4000万美元种子轮融资，开发能像人类一样学习的Agent。（❤️ 31 | 💬 5）",
+      "likes": 31,
+      "replies": 5
+    }
+  ],
+  "oran_ge": [
+    {
+      "tweet_id": "2046706449620079049",
+      "date": "2026-04-22",
+      "content": "亲自用过GPT Image 2之后才能感受到震撼。提示词也变得前所未有地简单，几轮迭代就能出电影级风格海报。（❤️ 23 | 💬 5）",
+      "likes": 23,
+      "replies": 5
     }
   ]
 }

@@ -1,0 +1,85 @@
+<REPORT>
+  <COVER title="OpenAI Images 2.0：视觉AI进入思考时代" prompt="Minimalist technology cover art for a Silicon Valley AI daily report. Center composition features a pristine glowing neural orb made of translucent crystal nodes and delicate data filaments in cool cyan and silver tones, floating in a vast white void. From the orb emerge hyper-precise images: a detailed manga panel, clean UI icons, isometric diagrams and subtle text elements materializing in real-time. Neural pathways visibly pulse with reasoning patterns before transforming into final visuals. Clean data visualization aesthetic with floating vector arrows and minimal mathematical glyphs. Cinematic soft key lighting with gentle rim light on crystal surfaces, sharp 8K resolution, Apple-level product photography precision mixed with neural node art, high contrast, extreme clarity, no neon or cyberpunk elements." insight="图像生成获得思考级智能，创意边界彻底重构"/>
+  <PULSE>今日硅谷核心叙事完全被OpenAI ChatGPT Images 2.0主导，该模型将“思考级智能”注入图像生成，精度、布局与可控性大幅跃升，同时Codex用户数两天破百万，显示代理工具真实落地引爆需求。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌟">
+      <TITLE>OpenAI Images 2.0：图像生成进入思考级智能</TITLE>
+      <NARRATIVE>OpenAI今日重磅发布ChatGPT Images 2.0，强调其具备思考与推理能力，能处理复杂视觉任务、遵循精细指令并生成2K高精度图像。此前行业将图像模型视为扩散工具，今天则直接赋予其“thinking-level intelligence”，构成视觉AI的范式级突破，解决此前小文本、密集构图、UI元素易崩坏的核心瓶颈。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">OpenAI推出ChatGPT Images 2.0，这是一个最先进的图像模型，能够承担复杂视觉任务，生成精确且立即可用的视觉效果，编辑更锐利、布局更丰富，并拥有思考级智能。（❤️ 10710 | 💬 496）</TWEET>
+      <TWEET account="sama" role="OpenAI CEO">这是用ChatGPT Images 2.0生成的我和@gabeeegoooh一起找GPU的漫画。（❤️ 2923 | 💬 484）</TWEET>
+      <OUTLOOK>未来6-12个月，图像生成将从辅助工具升级为生产力核心基础设施，大量教育、营销、设计、代码文档场景将被重塑，视觉内容生产成本趋近于零。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注图像原生垂直Agent、品牌安全图像生成平台、以及将Images 2.0能力封装为行业SaaS的早期团队。</OPPORTUNITY>
+      <RISK>当前仍处于早期阶段，是否能持续保持对Midjourney、Flux等竞品的代际优势，以及企业级合规与品牌一致性控制，仍需观察。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚡">
+      <TITLE>Anthropic悄然收紧Pro套餐，算力短缺信号明确</TITLE>
+      <NARRATIVE>多位开发者发现Anthropic在未发公告的情况下，将Claude Code从20美元Pro计划中移除，同时Opus 4.7 token消耗显著增加。此前历史记忆中Anthropic被视为相对慷慨，今天的转向显示其算力供给已无法支撑零售用户激增，正在将资源向高付费企业和企业客户集中，印证了@soumithchintala此前在Jensen播客中暗示的“算力仍是核心约束”。</NARRATIVE>
+      <TWEET account="dotey" role="科技观察者">Anthropic悄悄把Claude Code从20美元Pro套餐移除，未发任何公告。Pro用户最低门槛直接跳到100美元。这反映出其推理算力严重短缺，正在向高付费用户集中。（❤️ 112 | 💬 9）</TWEET>
+      <TWEET account="simonw" role="独立开发者">这太令人困惑了。Anthropic真的把Claude Code从20美元/月计划里删掉了？为什么只通过定价页面更新而不正式宣布？（❤️ 90 | 💬 16）</TWEET>
+      <CONSENSUS>大模型公司普遍面临真实算力天花板，零售用户补贴不可持续，未来定价将更明显向结果导向和企业合同倾斜。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：这种悄悄改动是否会永久损害个人开发者对Anthropic的信任，并把他们推向OpenAI Codex或中国模型。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="📈">
+      <TITLE>Codex用户两周破400万，计算机使用工具真正起飞</TITLE>
+      <NARRATIVE>Sam Altman宣布Codex在不到两周内从300万活跃用户增长至400万，并紧急重置速率限制。这与@swyx历史记忆中“等待真正computer use落地”形成呼应，表明以图像+代码+代理结合的真实世界交互工具，已跨越早期实验阶段，进入大众采用曲线陡峭上升期。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">Codex达到400万活跃用户，距达到300万不到两周。我们今天将重置速率限制！（❤️ 18514 | 💬 1324）</TWEET>
+      <TWEET account="dotey" role="科技观察者">Codex内已可直接调用GPT-Image 2画图，无需API Key，效果超越nano banana pro。可搭配信息图、漫画、文章插图等多种技能使用。（❤️ 112 | 💬 9）</TWEET>
+      <OUTLOOK>6-12个月内，计算机使用Agent将从程序员工具扩散至知识工作者全场景，成为下一代操作系统级入口。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注能将Codex/Images能力与垂直行业工作流深度绑定的Agent创业公司，以及提供企业级安全sand-boxing的底层基础设施。</OPPORTUNITY>
+      <RISK>高增长伴随高成本，OpenAI当前慷慨补贴不可持续，一旦速率与定价调整，可能引发用户反弹。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🤝">
+      <TITLE>NVIDIA与Adobe深化全栈合作，Agentic创意工作流登场</TITLE>
+      <NARRATIVE>NVIDIA与Adobe宣布从简单工具升级为全栈加速，企业级生成AI、工业数字孪生、品牌一致性Agentic系统同时落地。这代表创意产业从“生成图片”转向“自主完成多步业务任务”，与OpenAI图像突破形成互补，共同推动企业端落地。</NARRATIVE>
+      <TWEET account="nvidia" role="官方账号">在Adobe Summit上，Shantanu Narayen与Jensen Huang讨论下一代合作。我们正超越简单工具，迈向企业创意全栈加速，包括NVIDIA OpenShell、Nemotron品牌模型及云原生3D数字孪生。（❤️ 196 | 💬 34）</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">用一点点算力就能创造出如此不可思议的内容。我们对教育、专业场景（幻灯片、营销材料）和生产力应用（如代码文档图表）的新可能性非常兴奋。（❤️ 898 | 💬 73）</TWEET>
+      <OUTLOOK>未来一年，品牌内容生产将实现“思考-生成-迭代-发布”全闭环自主化，极大压缩营销与设计周期。</OUTLOOK>
+      <OPPORTUNITY>投资标的包括为企业提供Agentic工作流 orchestration 层、品牌安全合规层以及连接物理世界数字孪生的早期公司。</OPPORTUNITY>
+      <RISK>企业采用仍需克服数据隐私、品牌控制和集成复杂性，短期内可能仍是大型品牌先行，中尾部企业跟进缓慢。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🧬">
+      <TITLE>人形学习Agent获新融资，AI从模仿走向真正理解</TITLE>
+      <NARRATIVE>NeoCognition获得4000万美元种子轮，目标是构建能像人类一样在任何领域成为专家的AI Agent。这与过去“ scaling will solve everything”的叙事形成转向，更强调学习机制本身的创新，而非单纯参数或算力堆叠。</NARRATIVE>
+      <TWEET account="techcrunch" role="媒体">AI研究实验室NeoCognition获得4000万美元种子轮融资，开发能像人类一样学习的Agent。（❤️ 31 | 💬 5）</TWEET>
+      <CONSENSUS>行业逐渐认识到，单纯的规模扩张无法完全替代高质量学习机制，具身理解与持续学习能力成为下一竞争焦点。</CONSENSUS>
+      <DIVERGENCE>核心争论仍是：这种“像人类一样学习”的路径，到底是需要全新架构，还是在现有Transformer基础上通过更好数据和推理循环即可实现。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🔍">
+      <TITLE>全民疑神疑鬼时代：所有图片都可能是AI生成</TITLE>
+      <NARRATIVE>随着Images 2.0画质与真实度大幅提升，中国开发者直呼“进入全民疑神疑鬼时代”。这是一种新社会叙事：视觉真实性信任崩塌，未来内容需附带“生成证明”或水印，催生新的验证与归属技术需求。</NARRATIVE>
+      <TWEET account="vista8" role="中国观察者">GPT-image-2让所有人进入全民疑神疑鬼时代。发任何图片都可能被怀疑是AI生成的。（❤️ 51 | 💬 25）</TWEET>
+      <TWEET account="oran_ge" role="中国开发者">亲自用过GPT Image 2之后才能感受到震撼。提示词也变得前所未有地简单，几轮迭代就能出电影级风格海报。（❤️ 23 | 💬 5）</TWEET>
+      <OUTLOOK>未来6-12个月，内容真实性验证、AI生成水印与可信媒体协议将成为新基础设施赛道。</OUTLOOK>
+      <OPPORTUNITY>可关注内容 provenance、数字水印及区块链式创意归属的早期创业公司。</OPPORTUNITY>
+      <RISK>短期内更多是社交现象，技术硬伤在于当前水印仍可被移除，长期信任机制建立仍需行业协同。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">NeoCognition获4000万美元种子轮，用于开发类人学习AI Agent；Jeff Bezos Project Prometheus AI实验室据报融资100亿美元，估值380亿美元。</ITEM>
+    <ITEM category="VC views">pmarca在硅谷听到：“我看好AI能力，消费者剩余将极其疯狂。神的力量以低于成本的价格提供，长多市场！”</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国开发者快速上手GPT Image 2.0，用于贺卡、漫画、股票等高信息密度可视化场景，提示工程与Agent.md迭代能力突出，展现极强应用落地敏捷性。</ITEM>
+    <ITEM category="全球映射">当Anthropic等美系模型因算力收紧提高门槛时，中国模型（Kimi、GLM、MiniMax）因性价比优势成为开发者备选，反映全球AI算力与定价格局的深层分化。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="openai" role="官方账号">OpenAI推出ChatGPT Images 2.0，这是一个最先进的图像模型，能够承担复杂视觉任务，生成精确且立即可用的视觉效果，编辑更锐利、布局更丰富，并拥有思考级智能。视频由ChatGPT Images生成。（❤️ 10710 | 💬 496）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">Codex达到400万活跃用户，距达到300万不到两周。我们今天将重置速率限制！（❤️ 18514 | 💬 1324）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">这是用ChatGPT Images 2.0生成的我和@gabeeegoooh一起找GPU的漫画。（❤️ 2923 | 💬 484）</TWEET>
+    <TWEET account="gdb" role="OpenAI CTO">用一点点算力就能创造出如此不可思议的内容。我们对教育、专业场景（幻灯片、营销材料）和生产力应用（如代码文档图表）的新可能性非常兴奋。（❤️ 898 | 💬 73）</TWEET>
+    <TWEET account="dotey" role="科技观察者">Anthropic悄悄把Claude Code从20美元Pro套餐移除，未发任何公告。这反映出其推理算力严重短缺，正在向高付费用户集中。（❤️ 112 | 💬 9）</TWEET>
+    <TWEET account="techcrunch" role="媒体">AI研究实验室NeoCognition获得4000万美元种子轮融资，开发能像人类一样学习的Agent。（❤️ 31 | 💬 5）</TWEET>
+    <TWEET account="vista8" role="中国观察者">GPT-image-2让所有人进入全民疑神疑鬼时代。发任何图片都可能被怀疑是AI生成的。（❤️ 51 | 💬 25）</TWEET>
+    <TWEET account="oran_ge" role="中国开发者">亲自用过GPT Image 2之后才能感受到震撼。提示词也变得前所未有地简单，几轮迭代就能出电影级风格海报，它杀死了比赛。（❤️ 23 | 💬 5）</TWEET>
+    <TWEET account="nvidia" role="官方账号">NVIDIA与Adobe正从简单工具升级为全栈加速，包括生成AI、工业数字孪生和Agentic工作流。（❤️ 196 | 💬 34）</TWEET>
+  </TOP_PICKS>
+</REPORT>
