@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="OpenAI Workspace Agents落地：企业级持久Agent时代开启" prompt="Minimalist futuristic corporate interface showing interconnected translucent AI agents as glowing neural nodes flowing between Slack, Linear, Google Docs and email icons. Shared workspace environment with clean data streams, soft cyan and warm white lighting, precise geometric architecture, cinematic depth of field, ultra-detailed 8K product visualization, Apple-level industrial design sensibility, strategic composition with agents collaborating on digital canvas." insight="企业Agent从概念走向可共享、可调度的工作流，生产力叙事压倒纯技术崇拜。"/>
+  <PULSE>今日核心叙事从单一模型能力转向企业级持久Agent的实际部署与可观测经济影响，同时pmarca猛烈质疑AI doomerism的“人工草根”本质。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🏢">
+      <TITLE>Workspace Agents：企业共享持久Agent正式落地</TITLE>
+      <NARRATIVE>OpenAI推出可在ChatGPT内构建、分享、跨工具运行的Workspace Agents，支持后台调度、Slack交互、Linear更新等真实企业工作流。这是Agent叙事从个人玩具到企业生产力基础设施的实质跨越，解决长期上下文、团队一致性和监督成本的核心痛点。</NARRATIVE>
+      <TWEET account="openai" role="官方">OpenAI发布Workspace Agents，企业用户可构建共享智能体，处理跨工具、跨团队的复杂长期工作流，支持Slack、Linear、文档等集成，一次构建全团队可用。目前为Business、Enterprise等付费计划的研究预览。（❤️ 11705 | 💬 509）</TWEET>
+      <TWEET account="gdb" role="OpenAI高管">在云托管Codex基础上为团队构建Workspace Agents，可挂接工具、设定循环任务，通过Slack等界面交互，极大降低把Agent带入日常工作的门槛。（❤️ 870 | 💬 71）</TWEET>
+      <OUTLOOK>未来6-12个月，主流企业SaaS将普遍集成可共享Agent能力，RPA与LLM的融合产品线将爆发，OpenAI在企业端的粘性与收入有望显著提升。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注Agent Orchestration平台、企业级记忆与权限治理工具、以及针对特定垂直（如销售、HR、合规）的Agent模板市场。</OPPORTUNITY>
+      <RISK>企业对数据泄露和Agent失控的担忧仍存，当前“研究预览”阶段的稳定性与审计能力尚未充分验证，可能面临落地延迟。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🔎">
+      <TITLE>AI Doomerism被指“人工草根”运作</TITLE>
+      <NARRATIVE>pmarca结合SPLC资助仇恨团体的事件，明确指出AI doomerism与白人民族主义一样是被外部势力“astroturfed”（人工制造草根运动）。这与他在历史记忆中将doomerism称为“伯克利生活方式骗局”的观点一脉相承，但今日火力更猛，直指整个审查-去银行化复合体存在系统性欺骗。</NARRATIVE>
+      <TWEET account="pmarca" role="知名投资人">如果SPLC都在资助它声称要打击的仇恨团体，那么过去十年审查与去银行化复合体还有什么可信度？我们现在知道白人民族主义是人工制造的，也知道AI doomerism是人工制造的，还有什么不是？（❤️ 11493 | 💬 397）</TWEET>
+      <CONSENSUS>越来越多主流声音认为，极端AI风险叙事被部分利益集团放大，用于筹款和政治动员，而非基于严谨技术评估。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：哪些具体资金和组织在系统性推动doomerism？这一揭露是否会实质削弱监管游说力量，还是仅停留在推特舆论战？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🧩">
+      <TITLE>Agent Harness工程：给LLM“造一副好身体”</TITLE>
+      <NARRATIVE>dotey通过“玉室里的先生”寓言，系统化提出Harness概念：LLM是聪明但封闭的“大脑”，真正决定效能的是外部的感知、行动、校验、记忆体系。这是一个从未如此清晰阐述的新范式，指出模型能力是地板，工程体系才是天花板。</NARRATIVE>
+      <TWEET account="dotey" role="科技观察者">陈天桥借Manus事件谈全球AI公司治理；另分享寓言《玉室里的先生》，深刻阐释Agent Harness工程：LLM如被困玉室的智者，其效能完全取决于外部为其构建的感知-行动-校验-记忆体系。模型是脑子，Harness是身体。（❤️ 70 | 💬 12）</TWEET>
+      <OUTLOOK>未来6-12个月，顶级Agent产品竞争将从“谁的模型强”转向“谁的Harness更完整”，催生一批专注Agent基础设施的初创公司。</OUTLOOK>
+      <OPPORTUNITY>投资围绕长期记忆、工具执行沙箱、自动校验与反馈循环的早期团队，尤其那些把Harness做成标准化平台的玩家。</OPPORTUNITY>
+      <RISK>概念虽深刻但仍偏理论，落地需大量工程投入，短期内可能被大厂快速吸收，独立创业公司生存空间待验证。</RISK>
+    </THEME>
+
+    <THEME type="depth" emoji="📈">
+      <TITLE>Anthropic发布AI经济影响用户调研</TITLE>
+      <NARRATIVE>基于8.1万用户反馈，Anthropic发现AI暴露度高的职业反而增长更快，生产力提升最显著的群体同时最担心被取代。这一实证研究深化了“AI是净创造就业还是替代”的讨论，从用户主观感受层面提供了新证据。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方">我们调研了8.1万人对AI的期待，新研究聚焦其经济影响：高AI暴露职业增长更快；软件工程师等高使用群体最担心岗位被取代；最高和最低收入群体均报告显著生产力提升。我们即将推出每月经济指数调查。（❤️ 1406 | 💬 128）</TWEET>
+      <CONSENSUS>行业正从抽象辩论转向收集大规模定性+定量数据来理解AI对劳动力市场的真实影响。</CONSENSUS>
+      <DIVERGENCE>生产力提升与 displacement担忧并存的现象如何演化？政策层面是应鼓励加速采用还是设置缓冲？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚡">
+      <TITLE>量化推理优化成为Agent时代新战场</TITLE>
+      <NARRATIVE>Cohere发布W4A8生产级量化方案，在vLLM中实现比W4A16更快的TTFT和TPOT，同时几乎不损失精度。这标志着行业从“堆算力”转向“极致推理效率”，尤其对长上下文、真实Agent工作负载意义重大。</NARRATIVE>
+      <TWEET account="cohere" role="官方">我们将W4A8生产级推理集成到vLLM，在Hopper上比W4A16实现最高58%更快的TTFT和45%更快的TPOT。通过长上下文校准、per-channel scale量化与QAD，在保持Command A和MoE模型质量的前提下实现高效部署。（❤️ 107 | 💬 3）</TWEET>
+      <OUTLOOK>未来一年，推理成本与延迟将成为Agent能否规模化落地的决定性因素，量化与蒸馏技术将获得更多关注和投资。</OUTLOOK>
+      <OPPORTUNITY>专注于高效推理引擎、长上下文量化、以及Agent专用模型压缩的早期技术公司。</OPPORTUNITY>
+      <RISK>极端量化在超大规模MoE模型上的泛化性仍需持续验证，部分技巧可能对不同架构效果不一。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🌐">
+      <TITLE>中美AI公司全球合规设计新路径</TITLE>
+      <NARRATIVE>dotey转述陈天桥观点：在监管、地缘政治快速变化的时代，AI公司必须把合规与全球责任“内置于设计”，而非依赖一次性架构腾挪（如从北京搬新加坡）。这为华人背景的全球化AI公司提供了新的组织哲学。</NARRATIVE>
+      <TWEET account="dotey" role="科技观察者">陈天桥认为AI最高目标是扩展人类认知边界，而非模仿人类；AI公司应服务全人类而非某一国家，必须在多司法管辖区内构建有韧性的合规组织。任何一次性“洗白”都不是真正解决方案，应把合规内置于组织设计。（❤️ 70 | 💬 12）</TWEET>
+      <OUTLOOK>未来12个月，更多跨境AI团队将把治理架构视为核心竞争力，而非事后补丁。</OUTLOOK>
+      <OPPORTUNITY>为全球化AI实验室提供合规科技、跨境数据治理和多辖区责任框架的工具与咨询服务。</OPPORTUNITY>
+      <RISK>理想化治理理念在极端地缘冲突下能否落地，仍是重大未知数。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">AcuityMD完成8000万美元融资，用于深化医疗科技领域的AI应用；Google Cloud推出两款新AI芯片直接竞争NVIDIA。</ITEM>
+    <ITEM category="VC views">Chamath年度信强调物理基础设施是AI最确定瓶颈，质疑反垄断与赢得AI竞赛是否兼容；pmarca认为doomerism是资金驱动的叙事工具。</ITEM>
+    <ITEM category="投融资快讯">NeoCognition此前获得4000万美元种子轮，专注类人学习Agent；Kimi K2.6多模态Agent Swarm模型已在Together AI上线。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">北京加强管控国内AI初创企业，防止其寻求西方资本；同时中国团队在量化推理（Cohere合作参考）、Agent Harness理论和多模态Agent（Kimi）上仍保持高活跃度。</ITEM>
+    <ITEM category="全球映射">中国在“造身体”（Harness）与高效推理方向的思考深度值得硅谷关注，但地缘政治与监管环境正迫使跨境AI公司必须重新设计治理架构，否则难以获得全球信任。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="openai" role="官方">OpenAI正式推出Workspace Agents——可在ChatGPT中构建、分享的持久智能体，能跨Slack、邮件、文档、Linear等工具自主工作，适合销售线索筛选、报告生成、工单处理等长期任务。目前限企业付费用户研究预览。（❤️ 11705 | 💬 509）</TWEET>
+    <TWEET account="pmarca" role="知名投资人">如果SPLC都在资助它声称要打击的仇恨团体，那么过去十年的审查-去银行化复合体还有什么可信度？我们现在知道白人民族主义和AI doomerism都是被人工制造的草根运动，还有什么不是？（❤️ 11493 | 💬 397）</TWEET>
+    <TWEET account="anthropicai" role="官方">基于8.1万用户调研，我们发现AI暴露度高的职业增长反而更快；生产力提升最明显的群体也最担心被取代。我们将推出每月Anthropic经济指数调查，持续追踪真实影响。（❤️ 1406 | 💬 128）</TWEET>
+    <TWEET account="dotey" role="科技观察者">用寓言《玉室里的先生》阐述Agent Harness：LLM是聪明但封闭的智者，其真实能力取决于外部为其构建的感知、行动、校验与记忆体系。模型是脑子，Harness才是决定天花板的“身体”。（❤️ 70 | 💬 12）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">我们希望你拥有大量AI！（❤️ 5147 | 💬 568）</TWEET>
+    <TWEET account="cohere" role="官方">发布生产级W4A8量化推理，已集成vLLM，在真实Agent负载上实现显著速度提升，同时精度接近BF16，为长上下文工作负载提供了高效路径。（❤️ 107 | 💬 3）</TWEET>
+    <TWEET account="gdb" role="OpenAI高管">Workspace Agents可帮助团队轻松把Agent能力引入日常工作，通过云托管Codex和Slack等界面，实现自动化循环任务。（❤️ 870 | 💬 71）</TWEET>
+    <TWEET account="nvidia" role="官方">与Google Cloud深化agentic和物理AI合作，包括Vera Rubin大规模实例、Blackwell机密计算以及基于Gemini的企业Agent平台。（❤️ 615 | 💬 21）</TWEET>
+    <TWEET account="chamath" role="知名投资人">2025年度信发布：AI若杀死终值则未来无意义；物理基础设施是确定瓶颈；doomerism是筹款话术；市场正从P/E转向自由现金流定价。（❤️ 355 | 💬 46）</TWEET>
+  </TOP_PICKS>
+</REPORT>

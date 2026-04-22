@@ -54,6 +54,13 @@
       "content": "Anthropic悄悄把Claude Code从20美元Pro套餐移除，未发任何公告。Pro用户最低门槛直接跳到100美元。这反映出其推理算力严重短缺，正在向高付费用户集中。（❤️ 112 | 💬 9）",
       "likes": 112,
       "replies": 9
+    },
+    {
+      "tweet_id": "2047074439922057578",
+      "date": "2026-04-23",
+      "content": "陈天桥借Manus事件谈全球AI公司治理；另分享寓言《玉室里的先生》，深刻阐释Agent Harness工程：LLM如被困玉室的智者，其效能完全取决于外部为其构建的感知-行动-校验-记忆体系。模型是脑子，Harness是身体。（❤️ 70 | 💬 12）",
+      "likes": 70,
+      "replies": 12
     }
   ],
   "sama": [
@@ -70,6 +77,13 @@
       "content": "这是用ChatGPT Images 2.0生成的我和@gabeeegoooh一起找GPU的漫画。（❤️ 2923 | 💬 484）",
       "likes": 18514,
       "replies": 1324
+    },
+    {
+      "tweet_id": "2046752492093165708",
+      "date": "2026-04-23",
+      "content": "我们希望你拥有大量AI！（❤️ 5147 | 💬 568）",
+      "likes": 5147,
+      "replies": 568
     }
   ],
   "anthropicai": [
@@ -79,6 +93,13 @@
       "content": "We're expanding our collaboration with Amazon to secure up to 5 gigawatts of compute... Amazon is also investing an additional $5 billion in Anthropic today, with up to $20 billion more in the future.",
       "likes": 6362,
       "replies": 257
+    },
+    {
+      "tweet_id": "2047006548149289017",
+      "date": "2026-04-23",
+      "content": "我们调研了8.1万人对AI的期待，新研究聚焦其经济影响：高AI暴露职业增长更快；软件工程师等高使用群体最担心岗位被取代；最高和最低收入群体均报告显著生产力提升。我们即将推出每月经济指数调查。（❤️ 1406 | 💬 128）",
+      "likes": 1406,
+      "replies": 128
     }
   ],
   "soumithchintala": [
@@ -120,6 +141,13 @@
       "content": "在Adobe Summit上，Shantanu Narayen与Jensen Huang讨论下一代合作。我们正超越简单工具，迈向企业创意全栈加速，包括NVIDIA OpenShell、Nemotron品牌模型及云原生3D数字孪生。（❤️ 196 | 💬 34）",
       "likes": 196,
       "replies": 34
+    },
+    {
+      "tweet_id": "2046980152370909302",
+      "date": "2026-04-23",
+      "content": "与Google Cloud深化agentic和物理AI合作，包括Vera Rubin大规模实例、Blackwell机密计算以及基于Gemini的企业Agent平台。（❤️ 615 | 💬 21）",
+      "likes": 615,
+      "replies": 21
     }
   ],
   "pmarca": [
@@ -129,6 +157,13 @@
       "content": "AI doomerism的内圈是伯克利生活方式骗局，由不负责任的黑暗资金驱动；外圈则是相信宣传并毁掉自己生活的年轻人。(❤️ 974 | 💬 99)",
       "likes": 2183,
       "replies": 101
+    },
+    {
+      "tweet_id": "2046844402560364860",
+      "date": "2026-04-23",
+      "content": "如果SPLC都在资助它声称要打击的仇恨团体，那么过去十年审查与去银行化复合体还有什么可信度？我们现在知道白人民族主义是人工制造的，也知道AI doomerism是人工制造的，还有什么不是？（❤️ 11493 | 💬 397）",
+      "likes": 11493,
+      "replies": 397
     }
   ],
   "openai": [
@@ -138,6 +173,13 @@
       "content": "OpenAI推出ChatGPT Images 2.0，这是一个最先进的图像模型，能够承担复杂视觉任务，生成精确且立即可用的视觉效果，编辑更锐利、布局更丰富，并拥有思考级智能。（❤️ 10710 | 💬 496）",
       "likes": 12663,
       "replies": 1108
+    },
+    {
+      "tweet_id": "2047008987665809771",
+      "date": "2026-04-23",
+      "content": "OpenAI发布Workspace Agents，企业用户可构建共享智能体，处理跨工具、跨团队的复杂长期工作流，支持Slack、Linear、文档等集成，一次构建全团队可用。目前为Business、Enterprise等付费计划的研究预览。（❤️ 11705 | 💬 509）",
+      "likes": 11705,
+      "replies": 509
     }
   ],
   "gdb": [
@@ -147,6 +189,13 @@
       "content": "用一点点算力就能创造出如此不可思议的内容。我们对教育、专业场景（幻灯片、营销材料）和生产力应用（如代码文档图表）的新可能性非常兴奋。（❤️ 898 | 💬 73）",
       "likes": 2981,
       "replies": 171
+    },
+    {
+      "tweet_id": "2047023089087606814",
+      "date": "2026-04-23",
+      "content": "在云托管Codex基础上为团队构建Workspace Agents，可挂接工具、设定循环任务，通过Slack等界面交互，极大降低把Agent带入日常工作的门槛。（❤️ 870 | 💬 71）",
+      "likes": 870,
+      "replies": 71
     }
   ],
   "techcrunch": [
@@ -165,6 +214,24 @@
       "content": "亲自用过GPT Image 2之后才能感受到震撼。提示词也变得前所未有地简单，几轮迭代就能出电影级风格海报。（❤️ 23 | 💬 5）",
       "likes": 23,
       "replies": 5
+    }
+  ],
+  "cohere": [
+    {
+      "tweet_id": "2047052557915476304",
+      "date": "2026-04-23",
+      "content": "我们将W4A8生产级推理集成到vLLM，在Hopper上比W4A16实现最高58%更快的TTFT和45%更快的TPOT。通过长上下文校准、per-channel scale量化与QAD，在保持Command A和MoE模型质量的前提下实现高效部署。（❤️ 107 | 💬 3）",
+      "likes": 107,
+      "replies": 3
+    }
+  ],
+  "chamath": [
+    {
+      "tweet_id": "2047026960845701545",
+      "date": "2026-04-23",
+      "content": "2025年度信发布：AI若杀死终值则未来无意义；物理基础设施是确定瓶颈；doomerism是筹款话术；市场正从P/E转向自由现金流定价。（❤️ 355 | 💬 46）",
+      "likes": 355,
+      "replies": 46
     }
   ]
 }
