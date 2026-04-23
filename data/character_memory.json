@@ -1,21 +1,5 @@
 {
-  "elonmusk": [
-    {
-      "tweet_id": "2046095231591104698",
-      "date": "2026-04-20",
-      "content": "4.6版本对应3T参数，4.7到6T，4.8到10T，4.9未知，5.0就是AGI，6.0就是ASI……🤷‍♂️ 😂",
-      "likes": 76933,
-      "replies": 2551
-    }
-  ],
   "simonw": [
-    {
-      "tweet_id": "2046029612820594962",
-      "date": "2026-04-20",
-      "content": "我升级了Claude token计数工具后发现，Opus 4.7文本token用量是4.6的1.46倍，图像最高3倍。虽然标价相同，但实际相当于大幅涨价。",
-      "likes": 1393,
-      "replies": 95
-    },
     {
       "tweet_id": "2046659404217659467",
       "date": "2026-04-22",
@@ -26,28 +10,21 @@
   ],
   "swyx": [
     {
-      "tweet_id": "2046216133796143117",
-      "date": "2026-04-20",
-      "content": "AIE Miami现场爆满（约75%东海岸AI工程师），所有演讲已免费YouTube直播。",
-      "likes": 22,
-      "replies": 2
-    },
-    {
       "tweet_id": "2046362691606855700",
       "date": "2026-04-21",
       "content": "OpenAI收购Codex x @skybysoftware可能是过去一年最好的交易之一。我从2024年就等待真正的computer use，今天终于以可用形式落地。(❤️ 37 | 💬 7)",
       "likes": 37,
       "replies": 7
+    },
+    {
+      "tweet_id": "2047378670986342685",
+      "date": "2026-04-24",
+      "content": "新 Pareto 前沿：400K Codex 上下文、1M API 上下文；API 定价 $5/$30；Codex 推理速度提升 20%；GB200 co-design；多项 benchmark 领先包括 Terminal-Bench 82.7%、GDPval 84.9%。（❤️ 109 | 💬 8）",
+      "likes": 109,
+      "replies": 8
     }
   ],
   "dotey": [
-    {
-      "tweet_id": "2046346065184453027",
-      "date": "2026-04-21",
-      "content": "苹果官宣CEO交接：Tim Cook将于2026年9月1日卸任CEO，转任执行董事长，硬件工程高级副总裁John Ternus接任。Ternus主导了近年几乎所有核心硬件项目，Cook任内将苹果做到4万亿市值并开辟多条新产品线。(❤️ 65 | 💬 8)",
-      "likes": 65,
-      "replies": 8
-    },
     {
       "tweet_id": "2046709347682537845",
       "date": "2026-04-22",
@@ -61,16 +38,16 @@
       "content": "陈天桥借Manus事件谈全球AI公司治理；另分享寓言《玉室里的先生》，深刻阐释Agent Harness工程：LLM如被困玉室的智者，其效能完全取决于外部为其构建的感知-行动-校验-记忆体系。模型是脑子，Harness是身体。（❤️ 70 | 💬 12）",
       "likes": 70,
       "replies": 12
+    },
+    {
+      "tweet_id": "2047403459717320819",
+      "date": "2026-04-24",
+      "content": "Codex 最大变化是支持浏览器操控，能点击、填表、截图迭代直到任务完成；同时深度集成 Office 和 Google Drive 文档生成，并新增自动审查模式减少人工干预。（❤️ 108 | 💬 10）",
+      "likes": 108,
+      "replies": 10
     }
   ],
   "sama": [
-    {
-      "tweet_id": "2046330825265086712",
-      "date": "2026-04-21",
-      "content": "Tim Cook is a legend. I am very thankful for everything he has done and I am very thankful for Apple.(❤️ 16007 | 💬 980)",
-      "likes": 16007,
-      "replies": 980
-    },
     {
       "tweet_id": "2046604989527912590",
       "date": "2026-04-22",
@@ -84,6 +61,13 @@
       "content": "我们希望你拥有大量AI！（❤️ 5147 | 💬 568）",
       "likes": 5147,
       "replies": 568
+    },
+    {
+      "tweet_id": "2047378253313106112",
+      "date": "2026-04-24",
+      "content": "GPT-5.5 来了！我们希望它对你有用。我个人很喜欢。它代表我们对迭代部署、民主化以及让用户获胜的承诺。我们正在成为一家 AI 推理公司。（❤️ 13650 | 💬 1267）",
+      "likes": 13650,
+      "replies": 1267
     }
   ],
   "anthropicai": [
@@ -129,13 +113,6 @@
   ],
   "nvidia": [
     {
-      "tweet_id": "2046281553441857791",
-      "date": "2026-04-21",
-      "content": "The era of the \"AI Factory\" is transforming manufacturing from a series of isolated pilots into a scalable, autonomous engine of production. Explore how NVIDIA and our global partners are using digita",
-      "likes": 169,
-      "replies": 21
-    },
-    {
       "tweet_id": "2046396659261743183",
       "date": "2026-04-22",
       "content": "在Adobe Summit上，Shantanu Narayen与Jensen Huang讨论下一代合作。我们正超越简单工具，迈向企业创意全栈加速，包括NVIDIA OpenShell、Nemotron品牌模型及云原生3D数字孪生。（❤️ 196 | 💬 34）",
@@ -148,6 +125,13 @@
       "content": "与Google Cloud深化agentic和物理AI合作，包括Vera Rubin大规模实例、Blackwell机密计算以及基于Gemini的企业Agent平台。（❤️ 615 | 💬 21）",
       "likes": 615,
       "replies": 21
+    },
+    {
+      "tweet_id": "2047378773457461376",
+      "date": "2026-04-24",
+      "content": "GPT-5.5 证明了智能成本的大幅下降。NVIDIA 与 OpenAI 合作通过 GB200 NVL72 实现 35 倍 token 成本降低。（❤️ 1208 | 💬 49）",
+      "likes": 1208,
+      "replies": 49
     }
   ],
   "pmarca": [
@@ -164,6 +148,13 @@
       "content": "如果SPLC都在资助它声称要打击的仇恨团体，那么过去十年审查与去银行化复合体还有什么可信度？我们现在知道白人民族主义是人工制造的，也知道AI doomerism是人工制造的，还有什么不是？（❤️ 11493 | 💬 397）",
       "likes": 11493,
       "replies": 397
+    },
+    {
+      "tweet_id": "2047386671482892508",
+      "date": "2026-04-24",
+      "content": "AI 模型现在非常擅长教你如何构建 AI 模型。（❤️ 936 | 💬 143）",
+      "likes": 7123,
+      "replies": 367
     }
   ],
   "openai": [
@@ -180,6 +171,13 @@
       "content": "OpenAI发布Workspace Agents，企业用户可构建共享智能体，处理跨工具、跨团队的复杂长期工作流，支持Slack、Linear、文档等集成，一次构建全团队可用。目前为Business、Enterprise等付费计划的研究预览。（❤️ 11705 | 💬 509）",
       "likes": 11705,
       "replies": 509
+    },
+    {
+      "tweet_id": "2047376561205325845",
+      "date": "2026-04-24",
+      "content": "GPT-5.5 是一种新型智能，专为真实工作和驱动 Agent 设计，能理解复杂目标、使用工具、检查工作并完成更多任务。这是完成计算机工作的新方式。目前已在 ChatGPT 和 Codex 上线。（❤️ 35350 | 💬 1685）",
+      "likes": 35350,
+      "replies": 1685
     }
   ],
   "gdb": [
@@ -196,6 +194,13 @@
       "content": "在云托管Codex基础上为团队构建Workspace Agents，可挂接工具、设定循环任务，通过Slack等界面交互，极大降低把Agent带入日常工作的门槛。（❤️ 870 | 💬 71）",
       "likes": 870,
       "replies": 71
+    },
+    {
+      "tweet_id": "2047145125604995280",
+      "date": "2026-04-24",
+      "content": "GPT-5.5 + Codex 对全谱计算机使用效果惊人。不再只服务程序员，而是服务所有做计算机工作的人，包括创建表格和幻灯片。（❤️ 1644 | 💬 114）",
+      "likes": 3063,
+      "replies": 123
     }
   ],
   "techcrunch": [
@@ -232,6 +237,24 @@
       "content": "2025年度信发布：AI若杀死终值则未来无意义；物理基础设施是确定瓶颈；doomerism是筹款话术；市场正从P/E转向自由现金流定价。（❤️ 355 | 💬 46）",
       "likes": 355,
       "replies": 46
+    }
+  ],
+  "xai": [
+    {
+      "tweet_id": "2047441173569216721",
+      "date": "2026-04-24",
+      "content": "Grok Voice Think Fast 1.0 发布：专为复杂多步工作流设计的语音模型，在 Tau Voice Bench 夺冠，对真实世界噪音、口音、中断的处理全球领先。（❤️ 1394 | 💬 114）",
+      "likes": 1394,
+      "replies": 114
+    }
+  ],
+  "bindureddy": [
+    {
+      "tweet_id": "2047384528420061316",
+      "date": "2026-04-24",
+      "content": "GPT-5.5 在 LiveBench 登顶，实际使用中指令遵循能力极强，综合表现已超越 Opus 4.7，带回 OpenAI 领先优势。（❤️ 259 | 💬 25）",
+      "likes": 259,
+      "replies": 25
     }
   ]
 }
