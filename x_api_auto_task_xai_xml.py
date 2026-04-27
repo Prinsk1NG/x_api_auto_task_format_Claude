@@ -233,32 +233,12 @@ def fetch_global_news_with_tavily() -> str:
 # 🧠 动态记忆库模块 (Memory Bank)
 # ==============================================================================
 MEMORY_FILE = Path("data/character_memory.json")
-MEMORY_MAX_DAYS = 3           # 记忆只保留最近 N 天，过期自动淘汰
-MEMORY_MAX_PER_ACC = 3        # 每个账号最多保留 N 条
 
 def load_memory():
-    """
-    新 schema:
-    {
-      "pmarca": [
-        {"tweet_id": "2045...", "date": "2026-04-15", "content": "...", "likes": 1474, "replies": 168},
-        ...
-      ]
-    }
-    同时兼容旧 schema（list[str]），读到旧格式会直接丢弃，从零重建。
-    """
     if MEMORY_FILE.exists():
         try:
-            with open(MEMORY_FILE, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            # 兼容性检查：旧格式每条是字符串，新格式是 dict
-            for acc, entries in data.items():
-                if entries and isinstance(entries[0], str):
-                    print("[Memory] ⚠️ 检测到旧格式 memory，自动清空重建以避免回音室污染。", flush=True)
-                    return {}
-            return data
-        except Exception as e:
-            print(f"[Memory] ⚠️ 加载失败 ({e})，重置为空。", flush=True)
+            with open(MEMORY_FILE, 'r', encoding='utf-8') as f: return json.load(f)
+        except: pass
     return {}
 
 def save_memory(memory_data):
@@ -266,86 +246,24 @@ def save_memory(memory_data):
     with open(MEMORY_FILE, 'w', encoding='utf-8') as f:
         json.dump(memory_data, f, ensure_ascii=False, indent=2)
 
-def _prune_memory(memory, today_str):
-    """淘汰超过 MEMORY_MAX_DAYS 天的条目。"""
-    try:
-        today_dt = datetime.strptime(today_str, "%Y-%m-%d")
-    except Exception:
-        return memory
-    cutoff = today_dt - timedelta(days=MEMORY_MAX_DAYS)
-    pruned = {}
-    for acc, entries in memory.items():
-        kept = []
-        for e in entries:
-            try:
-                d = datetime.strptime(e.get("date", ""), "%Y-%m-%d")
-                if d >= cutoff:
-                    kept.append(e)
-            except Exception:
-                continue
-        if kept:
-            pruned[acc] = kept[-MEMORY_MAX_PER_ACC:]
-    return pruned
-
-def update_character_memory(parsed_data, today_str, today_tweet_whitelist: dict):
-    """
-    today_tweet_whitelist: {tweet_id: {author, text, likes, replies}}
-      —— 来自当日 combined_jsonl 的真实推文索引，用于防幻觉。
-    只接受 (a) 在白名单内 (b) tweet_id 未被记过 的推文。
-    """
+def update_character_memory(parsed_data, today_str):
     memory = load_memory()
-    memory = _prune_memory(memory, today_str)
-
-    # 收集所有 themes+top_picks 里 LLM 选出来的推文
-    llm_picked = []
+    count = 0
     for theme in parsed_data.get('themes', []):
-        llm_picked.extend(theme.get('tweets', []))
-    llm_picked.extend(parsed_data.get('top_picks', []))
+        for tweet in theme.get('tweets', []):
+            acc = tweet.get('account', '').lower().replace('@', '')
+            content = tweet.get('content', '')
+            if not acc or not content: continue
 
-    added = 0
-    skipped_hallucination = 0
-    skipped_dup = 0
-
-    for tweet in llm_picked:
-        acc = tweet.get('account', '').lower().replace('@', '').strip()
-        content = tweet.get('content', '').strip()
-        if not acc or not content:
-            continue
-
-        # 在白名单中用 author 查匹配的 tweet（LLM 不会在 <TWEET> 里回写 tweet_id，
-        # 只能靠 author 在今日白名单里定位；如果该作者今日没有任何推文，就是幻觉）
-        author_tweets = [tid for tid, meta in today_tweet_whitelist.items()
-                         if meta["author"] == acc]
-        if not author_tweets:
-            # 该账号今天根本没抓到推文 → LLM 复述的是记忆里的老推文 → 丢弃
-            skipped_hallucination += 1
-            continue
-
-        # 选该作者当天最高分/最高 likes 的一条作为锚点 tweet_id
-        author_tweets.sort(key=lambda tid: today_tweet_whitelist[tid].get("likes", 0),
-                           reverse=True)
-        anchor_tid = author_tweets[0]
-        anchor_meta = today_tweet_whitelist[anchor_tid]
-
-        # tweet_id 去重：只要 memory 里已经记过这条 tweet_id，无论 date 是多少，都跳过
-        existing_ids = {e.get("tweet_id") for e in memory.get(acc, [])}
-        if anchor_tid in existing_ids:
-            skipped_dup += 1
-            continue
-
-        entry = {
-            "tweet_id": anchor_tid,
-            "date": today_str,
-            "content": content[:200],
-            "likes": anchor_meta.get("likes", 0),
-            "replies": anchor_meta.get("replies", 0),
-        }
-        memory.setdefault(acc, []).append(entry)
-        memory[acc] = memory[acc][-MEMORY_MAX_PER_ACC:]
-        added += 1
-
-    save_memory(memory)
-    print(f"\n[Memory] 🧠 新增 {added} 条 | 跳过幻觉 {skipped_hallucination} 条 | 跳过重复 {skipped_dup} 条。", flush=True)
+            if acc not in memory: memory[acc] = []
+            new_entry = f"[{today_str}]: {content}"
+            if new_entry not in memory[acc]:
+                memory[acc].append(new_entry)
+                memory[acc] = memory[acc][-5:]
+                count += 1
+    if count > 0:
+        save_memory(memory)
+        print(f"\n[Memory] 🧠 已更新 {count} 条历史记忆存入账本。", flush=True)
 
 # ==============================================================================
 # 🚀 xAI 大模型调用与 XML 提示词
@@ -369,16 +287,6 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 1. 哪些是正在产生的【新叙事】（从未见过的新观点、新项目或新范式）。
 2. 哪些叙事发生了【重大转向】（大佬打脸、共识瓦解或风向掉头）。
 3. 哪些是原有叙事的【深度推进】（核心瓶颈突破、关键里程碑）。
-
-🚨【防回音室硬约束 — 必须严格遵守】🚨
-1. 所有 <TWEET> 标签引用的内容，必须来自下方【X平台一手原始推文】区块里【今日】出现的推文。
-   严禁把"历史记忆"区块里的老推文当作今日新观点写进 <TWEET>。
-2. 历史记忆区块只用于两种场景：(a) 判断某位大佬今日观点是否【转向/打脸】；
-   (b) 在 NARRATIVE 中作为"此前曾说过……今日则……"的对比性背景。
-3. 若今日原始推文的整体内容与昨日高度重合、无真正新料，<PULSE> 必须明说"今日信噪比偏低"，
-   并优先挖掘【冷门账号】或【中长尾推文】的增量信号，而不是重复昨天的主题。
-4. 封面标题必须反映【今日】最新的事件/观点，严禁连续多天使用相同关键词（如 Agent Swarm、银行账户等）
-   除非今日确有该主题的【实质性新进展】（新数据、新产品、新冲突）。
 
 【输出规模要求】(必须严格遵守)
 - 必须生成 4 到 6 个 <THEME> 模块。
@@ -427,7 +335,7 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
   </TOP_PICKS>
 </REPORT>
 
-# 🧠 本期上榜大佬的近期历史记忆（仅用于对比今日观点是否发生转向，严禁直接复述为今日动态）:
+# 🧠 本期上榜大佬的近期历史记忆:
 {memory_context if memory_context else "无历史记录"}
 
 # 外部宏观背景:
@@ -538,32 +446,6 @@ def parse_llm_xml(xml_text: str) -> dict:
             data["top_picks"].append({"account": t_match.group(1).strip(), "role": t_match.group(2).strip(), "content": t_match.group(3).strip()})
 
     return data
-
-
-def _filter_hallucinated_tweets(parsed_data: dict, today_tweet_whitelist: dict) -> dict:
-    """
-    移除 LLM 引用的、但对应作者在今日白名单里完全没有推文的 <TWEET>。
-    这是 memory 污染的最后一道兜底：即使 prompt 硬约束失效，也不会把幻觉写入报告渲染和 memory。
-    """
-    authors_today = {meta["author"] for meta in today_tweet_whitelist.values()}
-
-    def _is_real(tweet_obj):
-        acc = tweet_obj.get("account", "").lower().replace("@", "").strip()
-        return acc in authors_today
-
-    dropped = 0
-    for theme in parsed_data.get("themes", []):
-        before = len(theme.get("tweets", []))
-        theme["tweets"] = [t for t in theme.get("tweets", []) if _is_real(t)]
-        dropped += before - len(theme["tweets"])
-
-    before = len(parsed_data.get("top_picks", []))
-    parsed_data["top_picks"] = [t for t in parsed_data.get("top_picks", []) if _is_real(t)]
-    dropped += before - len(parsed_data["top_picks"])
-
-    if dropped > 0:
-        print(f"[防幻觉] 🛡️ 从 LLM 输出中过滤掉 {dropped} 条幻觉 <TWEET>（作者今日无真实推文）。", flush=True)
-    return parsed_data
 
 # ==============================================================================
 # 🚀 渲染与生图模块
@@ -770,6 +652,9 @@ def search_with_pagination(query: str, query_type: str = "Latest", max_pages: in
             )
             if resp.status_code == 200:
                 data = resp.json()
+                # 🔍 诊断：打印 API 返回的顶层 key 和前 200 字符（仅首页首批）
+                if page == 0 and not all_tweets:
+                    print(f"  🔍 [API诊断] keys={list(data.keys())}, raw={str(data)[:300]}", flush=True)
                 tweets = data.get("tweets", [])
                 if not tweets:
                     break
@@ -827,18 +712,22 @@ def main():
     acc_list = list(TARGET_SET)
 
     # Whale 单独抓（翻2页，确保不漏）
+    print(f"  🔍 [诊断] SINCE_DATE_STR={SINCE_DATE_STR}, SINCE_TS={SINCE_TS}", flush=True)
     for whale in WHALE_ACCOUNTS:
-        q = f"from:{whale} since:{SINCE_DATE_STR} -filter:retweets"
+        q = f"from:{whale} since_time:{SINCE_TS} -filter:retweets"
+        print(f"  🔍 [Query] {q}", flush=True)
         tweets = search_with_pagination(q, "Latest", max_pages=2)
         all_raw.extend(tweets)
         if tweets:
             print(f"  🐳 @{whale}: {len(tweets)} 条", flush=True)
+        else:
+            print(f"  🐳 @{whale}: 0 条", flush=True)
         time.sleep(0.5)
 
     # Expert 按批次抓（每批10人，翻1页）
     for i in range(0, len(EXPERT_ACCOUNTS), 10):
         chunk = EXPERT_ACCOUNTS[i:i+10]
-        q = "(" + " OR ".join([f"from:{a}" for a in chunk]) + f") since:{SINCE_DATE_STR} -filter:retweets"
+        q = "(" + " OR ".join([f"from:{a}" for a in chunk]) + f") since_time:{SINCE_TS} -filter:retweets"
         tweets = search_with_pagination(q, "Latest", max_pages=1)
         all_raw.extend(tweets)
         print(f"  📡 批次 {i//10+1}: {len(tweets)} 条 ({', '.join(chunk[:3])}...)", flush=True)
@@ -885,31 +774,12 @@ def main():
     # ---------------------------------------------------------
     # 🧠 步骤 3: 提取历史记忆并呼叫 Grok
     # ---------------------------------------------------------
-    # 构造今日白名单：{tweet_id: {author, text, likes, replies}}
-    # 后续 update_character_memory 用它过滤 LLM 的幻觉引用。
-    today_tweet_whitelist = {
-        str(t.get("tweet_id", "")): {
-            "author": t.get("a", "").lower(),
-            "text": t.get("s", ""),
-            "likes": t.get("l", 0),
-            "replies": t.get("r", 0),
-        }
-        for t in formatted_feed if t.get("tweet_id")
-    }
-
     today_accounts = set(t.get("a", "").lower() for t in formatted_feed)
     memory = load_memory()
-    # 渲染成 prompt 可读格式（新 schema 是 list[dict]）
     memory_context_lines = []
     for acc in today_accounts:
-        entries = memory.get(acc, [])
-        if not entries:
-            continue
-        formatted = []
-        for e in entries:
-            formatted.append(f"[{e.get('date','')}] {e.get('content','')} "
-                             f"(❤️ {e.get('likes',0)} | 💬 {e.get('replies',0)})")
-        memory_context_lines.append(f"@{acc} 近期观点:\n- " + "\n- ".join(formatted))
+        if acc in memory and memory[acc]:
+            memory_context_lines.append(f"@{acc} 近期观点:\n- " + "\n- ".join(memory[acc]))
     memory_context = "\n\n".join(memory_context_lines)
 
     macro_info = fetch_macro_with_perplexity()
@@ -920,10 +790,7 @@ def main():
         if xml_result:
             parsed_data = parse_llm_xml(xml_result)
 
-            # 事后兜底：把 LLM 引用的、但作者今天根本没推文的 <TWEET> 从 themes 里过滤掉
-            parsed_data = _filter_hallucinated_tweets(parsed_data, today_tweet_whitelist)
-
-            update_character_memory(parsed_data, today_str, today_tweet_whitelist)
+            update_character_memory(parsed_data, today_str)
 
             cover_url = ""
             if parsed_data["cover"]["prompt"]:
