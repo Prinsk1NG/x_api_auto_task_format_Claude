@@ -779,7 +779,8 @@ def main():
     memory_context_lines = []
     for acc in today_accounts:
         if acc in memory and memory[acc]:
-            memory_context_lines.append(f"@{acc} 近期观点:\n- " + "\n- ".join(memory[acc]))
+            entries = [e if isinstance(e, str) else e.get("summary", str(e)) for e in memory[acc]]
+            memory_context_lines.append(f"@{acc} 近期观点:\n- " + "\n- ".join(entries))
     memory_context = "\n\n".join(memory_context_lines)
 
     macro_info = fetch_macro_with_perplexity()
