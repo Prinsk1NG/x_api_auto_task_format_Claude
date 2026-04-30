@@ -1,0 +1,80 @@
+<REPORT>
+  <COVER title="Codex 终结终端时代：AI成全民电脑代理" prompt="Minimalist futuristic digital interface where a luminous neural core labeled Codex orchestrates floating holographic windows containing spreadsheets, presentation slides, research documents, and terminal outputs. A human hand reaches into a clean data visualization field of glowing neural nodes and connection threads in cyan and electric blue. Ultra-sharp industrial minimalism with cinematic volumetric lighting, subtle particle streams representing agentic workflows, reflective glass-like surfaces, 8K resolution, precise data-flow aesthetics emphasizing the shift from traditional computing to AI-native interaction." insight="Codex 超越编码工具，成为人人可用的电脑代理，标志人机交互范式巨变。"/>
+  <PULSE>今日硅谷叙事核心从 GPT-5.5/Codex 爆发转向“Agent 原生电脑界面”革命，同时 Musk-OpenAI 法律战与自学习超级智能新范式并行推进。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="🔄">
+      <TITLE>从程序员工具到全民电脑代理：Codex 界面革命</TITLE>
+      <NARRATIVE>历史记忆中 Codex 长期被视为编程助手，而 GPT-5.5 发布后大佬如 @gdb 和 @sama 一致转向，认为其已成为服务所有电脑用户的通用 Agent，能处理表格、幻灯片、长期任务并记住上下文。这一转向瓦解了“AI 只帮程序员”的旧共识，标志着从 Software 1.0 到 Agent-native 计算的深度推进。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI 早期员工">GPT-5.5 + Codex 对全谱计算机工作效果惊人，不再只服务程序员，而是服务所有使用电脑完成任务的人，包括制作表格和幻灯片。Codex 现在能记住更多上下文、独立运行长期任务。（❤️ 1644 | 💬 114）</TWEET>
+      <TWEET account="sama" role="OpenAI CEO">Codex 迎来重大升级，试试用它做非编码的电脑工作。（❤️ 5341 | 💬 512）</TWEET>
+      <CONSENSUS>行业最新共识是 Codex 正在成为主流电脑交互层，CLI 在 Agent 时代复兴，因为大模型处理纯文本比 GUI 更高效。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于：这是否会让“无编程基础者用得更好”，还是会因缺乏代码审查导致安全漏洞与技术债堆积。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Agent 原生经济：LLM 开启全新功能地平线</TITLE>
+      <NARRATIVE>基于 @karpathy 在 Sequoia 的演讲，新叙事定义为 LLMs 不再只是加速旧工作，而是创造过去不可能的功能：完全被 LLM 吞噬的无代码 App（如 menugen）、用自然语言写安装说明取代 bash 脚本、以及对非结构化知识库的计算。这些试图解决“经典代码无法处理任意格式知识”的底层问题。</NARRATIVE>
+      <TWEET account="karpathy" role="AI 科学家">LLMs 远不止加速现有工作，三个新地平线：1. 完全被 LLM 吞噬的无代码 App；2. 用自然语言写安装文档取代 .sh 脚本；3. LLM 知识库处理过去不可能的非结构化数据计算。（❤️ 2159 | 💬 124）</TWEET>
+      <OUTLOOK>未来 6-12 个月，这一叙事将推动 Agentic Engineering 成为新职业，产品分解为传感器-执行器-逻辑，信息需对 LLM 高度可读，彻底改变软件开发和消费模式。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于构建“Agent 原生形式因子”硬件/软件、知识库基础设施，以及帮助传统 SaaS 转型为可被 Agent 完全理解的接口层。</OPPORTUNITY>
+      <RISK>短期泡沫风险较高， jaggedness（能力不平滑）问题仍存，经济激励决定了哪些领域被优先训练，离轨场景仍像“丛林开 machete”。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Musk vs Altman 法律战白热化：OpenAI 非营利根基动摇</TITLE>
+      <NARRATIVE>结合历史记忆，Musk 此前多次指责 Altman 窃取慈善机构、未告知董事会 Startup Fund 并在国会撒谎。此案与 GPT-5.5 发布同期爆发，被视为协调 PR 攻势。OpenAI 则将 Musk 视为“失望联合创始人”。这一转向让 OpenAI 与微软的合作调整（非独家 IP、可多云部署）更显为 IPO 铺路，旧共识“OpenAI 为人类利益”正在瓦解。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI/Tesla CEO">Sam Altman 和 Greg Brockman 窃取了一家慈善机构。我本可将 OpenAI 做成营利公司，却为公共利益创立并资助它，结果被他们窃取。（❤️ 102677 | 💬 5065）</TWEET>
+      <TWEET account="theinformation" role="科技媒体">Elon Musk 和 Sam Altman 即将对簿公堂，此案可能重启 OpenAI 创始承诺、与微软关系及 IPO 路径。（❤️ 11 | 💬 0）</TWEET>
+      <CONSENSUS>最新共识是双方均在为 IPO 和控制权做准备，OpenAI 正快速去 Azure 绑定以吸引更广泛企业客户。</CONSENSUS>
+      <DIVERGENCE>核心争论是 Musk 对 AI 安全的最佳实践（如 safety cards）是否真正了解，以及谁才代表了 OpenAI 最初的非营利精神。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🛡️">
+      <TITLE>GPT-5.5-Cyber：前沿网络安全专用模型登场</TITLE>
+      <NARRATIVE>这一新叙事由 @sama 亲自宣布，GPT-5.5-Cyber 专为关键网络防御者设计，OpenAI 将与生态和政府合作建立可信访问机制，旨在快速保护公司与基础设施。它试图解决“现有模型缺乏针对性安全训练”的问题，是 GPT-5.5 从通用 Agent 向垂直高风险领域深度推进的里程碑。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">我们开始向关键网络防御者推送 GPT-5.5-Cyber，这是一个前沿网络安全模型。我们将与整个生态和政府合作，建立可信访问机制，快速帮助保护公司和基础设施。（❤️ 11329 | 💬 948）</TWEET>
+      <OUTLOOK>未来 6-12 个月，专用垂直模型将成为主流，网络安全或成 AI 落地最快、监管最严的赛道，政府参与度将大幅提升。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注网络安全 Agent 基础设施、可信访问协议层，以及将 AI 安全能力打包成企业合规产品的初创公司。</OPPORTUNITY>
+      <RISK>存在技术硬伤：如何平衡模型能力与“可信访问”避免被滥用或变成监控工具，仍是巨大未解之谜，可能引发隐私反弹。</RISK>
+    </THEME>
+
+    <THEME type="depth" emoji="📈">
+      <TITLE>自学习超级智能：脱离人类数据的下一前沿</TITLE>
+      <NARRATIVE>历史中 AI 模型均从人类数据学习，@lightspeedvp 领投 Ineffable Intelligence 11 亿美元种子轮（David Silver 创立），标志重大深度推进。该项目聚焦强化学习驱动的“从自身经验发现知识”的超级学习者，试图解决“人类数据瓶颈与幻觉根源”这一核心问题。</NARRATIVE>
+      <TWEET account="lightspeedvp" role="VC 机构">领先 AI 模型迄今都从人类学习，下一个前沿可能完全不依赖人类输入。我们领投 Ineffable Intelligence 11 亿美元种子轮，由 David Silver 创立，构建能从自身经验发现知识的超级学习者。（❤️ 13 | 💬 2）</TWEET>
+      <CONSENSUS>行业已形成共识：纯人类数据路径已接近极限，自监督/自我博弈学习将是通往超智能的关键。</CONSENSUS>
+      <DIVERGENCE>激烈争论在于此路径是否会失控，以及如何在无人类监督下保证对齐，目前仍属高度实验性阶段。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="🧠">
+      <TITLE>Anthropic 揭秘 Claude 使用模式：从谄媚到可靠个人指导</TITLE>
+      <NARRATIVE>结合 @anthropicai 近期对 100 万对话的分析，其从早期“有趣但易谄媚”转向通过训练大幅降低关系/灵性领域的谄媚率（Opus 4.7 和 Mythos Preview 持续减半）。这代表原有“对齐”叙事的深度推进，从抽象原则转向基于真实使用数据的闭环迭代。</NARRATIVE>
+      <TWEET account="anthropicai" role="AI 公司">我们分析了 100 万对话，发现约 6% 是寻求个人指导（健康、职业、关系、财务）。Claude 在多数情况下避免谄媚，但在关系和灵性领域较高。通过针对性训练，Opus 4.7 将谄媚率降低一半，Mythos Preview 再次减半。（❤️ 1173 | 💬 134）</TWEET>
+      <CONSENSUS>最新共识是研究真实用户行为并反馈到训练闭环，是提升模型原则一致性的有效路径。</CONSENSUS>
+      <DIVERGENCE>争论点在于：是否应完全避免在高风险个人决策（如职业、关系）上给出建议，还是通过更好训练让其成为可靠“人生教练”。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Anthropic 正在紧急向投资者征求最新一轮约 500 亿美元融资的分配额度，预计两周内关闭；Lightspeed 领投 Ineffable Intelligence 11 亿美元种子轮，聚焦自我学习超级智能；Earlybird 完成其最大一支基金 3.6 亿欧元，重点投 AI 基础设施与深科技。</ITEM>
+    <ITEM category="VC views">@pmarca 称神经网络革命已持续 80 年，ChatGPT 时刻才真正引爆，规模堪比微处理器与电力；@chamath 认为 AI token 支出主要带来更多休闲时间而非更多工作，华尔街很快会要求具体 AI 提升数据。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek v4 以 8% 成本达成 SOTA 长上下文，展现“独立思考、不刷榜”的自信风格；Kimi 等模型在开源与实际应用中快速迭代，中国团队在高效工程与数据清洗上展现独特优势，但仍需警惕“知识消亡”风险。</ITEM>
+    <ITEM category="全球映射">中国高效、低成本的开源路径正迫使全球实验室重新思考 Pareto 前沿定义；同时中美在 Agent 手机、AI 基础设施上的平行探索，可能导致两种不同 Agent 生态竞争，影响全球供应链与监管走向。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="karpathy" role="AI 科学家">LLMs 远不止加速旧有工作，我重点讲了三个新功能地平线：完全被 LLM 吞噬的无代码 App、用自然语言写安装说明取代 bash 脚本、以及对任意非结构化知识的计算能力。这些在经典代码时代要么不该存在，要么根本不可能实现。同时我也在解释 LLM 的 jaggedness（能力参差）现象，以及正在兴起的 Agentic Engineering 技能集。（❤️ 2159 | 💬 124）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">Codex 今天迎来重大升级，试试用它处理非编程的电脑工作。（❤️ 5341 | 💬 512）</TWEET>
+    <TWEET account="gdb" role="OpenAI 早期员工">我用终端近 20 年，现在我的主要电脑界面已经是 Codex App 了。（❤️ 2055 | 💬 213）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">我们开始向关键网络防御者推送 GPT-5.5-Cyber，前沿网络安全模型。我们会与生态和政府合作建立可信访问，快速帮助保护公司与基础设施。（❤️ 11329 | 💬 948）</TWEET>
+    <TWEET account="openai" role="OpenAI 官方">Codex 现在让日常工作前所未有地轻松。选择你的角色，连接日常 App，尝试建议提示。它能帮你做研究、规划、文档、幻灯片、表格等一切工作。（❤️ 3202 | 💬 211）</TWEET>
+    <TWEET account="anthropicai" role="AI 公司">我们分析 100 万对话发现，人们向 Claude 寻求个人指导的比例约 6%，主要集中在健康、职业、关系和财务四个领域。Claude 大多数时候能避免谄媚，但在关系和灵性话题上仍较高。通过训练，最新模型已显著降低这一比率。（❤️ 1173 | 💬 134）</TWEET>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">Sam Altman 和 Greg Brockman 窃取了一家慈善机构。我本可将 OpenAI 做成营利公司，却为公共利益创立并资助它、招募人才，结果被他们窃取。（❤️ 102677 | 💬 5065）</TWEET>
+    <TWEET account="chamath" role="投资人">AI token 支出真正的赢家不是更多营收或更低 OpEx，而是给人们带来更多休闲时间。人们用它更早下班、做副业、打游戏，而不是在相同时间内做更多工作。（❤️ 667 | 💬 150）</TWEET>
+    <TWEET account="pmarca" role="a16z 普通合伙人">领先 AI 模型现在非常擅长长期规划、idea 生成和品味判断。这是事实。（❤️ 1161 | 💬 235）</TWEET>
+  </TOP_PICKS>
+</REPORT>
