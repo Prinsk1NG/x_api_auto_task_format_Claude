@@ -1,0 +1,81 @@
+<REPORT>
+  <COVER title="Codex引爆ChatGPT时刻 AI重塑全谱电脑工作" prompt="Minimalist futuristic data visualization scene showing a sleek terminal window transforming into an interconnected neural node network. Clean glass-like interfaces float in a dark void, with Codex agents autonomously manipulating spreadsheets, slide decks, code editors and research documents through glowing data streams. Neural pathways pulse with soft cyan and white light, cinematic rim lighting, extreme attention to industrial UI precision and material transparency, 8K resolution, photorealistic yet abstract tech minimalism, no neon or cyberpunk elements." insight="GPT-5.5与Codex的突破标志AI从辅助工具跃升为自主完成复杂电脑工作的通用Agent，提示词简化与终端复兴成为新范式。"/>
+  <PULSE>今日硅谷核心叙事流向是GPT-5.5+Codex引爆“全民电脑Agent”时刻，AI使用范式从“教模型怎么做”转向“告诉它要什么”，同时Musk-Altman法律冲突升级与科学突破并行。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🚀">
+      <TITLE>Codex的ChatGPT时刻：AI成为全谱电脑工作者</TITLE>
+      <NARRATIVE>从历史记忆看，OpenAI此前聚焦程序员工具，而GPT-5.5+Codex突然将能力扩展到所有电脑工作（表格、幻灯片、长期任务、自动审查），gdb和sama均称这是“ChatGPT级”突破，标志AI从辅助编程转向取代传统电脑使用范式，解决的是“人人都是电脑工作者但效率低下”的底层痛点。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">感觉Codex正在迎来它的ChatGPT时刻。🚨❤️ 8450 | 💬 960</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">我用终端界面近20年，现在我的主要电脑界面已经是Codex App了。🚨❤️ 2055 | 💬 213</TWEET>
+      <OUTLOOK>未来6-12个月，Agent将成为主流生产力工具，传统桌面软件使用率将显著下降，云端与端侧深度融合的AI硬件形态有望加速落地。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注AI原生生产力应用、垂直行业Agent平台，以及支持长期记忆与多工具编排的底层基础设施。</OPPORTUNITY>
+      <RISK>短期泡沫风险较高，模型幻觉在复杂长期任务中仍可能导致企业级部署信任问题，需auto-review等机制进一步验证。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="📝">
+      <TITLE>提示词工程范式剧变：从“手把手教学”到“目标定义”</TITLE>
+      <NARRATIVE>dotey详细解读了OpenAI官方提示词指南，GPT-5.5推理能力跃升后，长提示词反而成为干扰，核心转向简短描述目标、成功标准与停止规则。这与@dotey历史记忆中“Codex支持浏览器操控并自动审查”的演进一致，标志行业从适应模型弱点转向让模型适应人类模糊表达的重大转向。</NARRATIVE>
+      <TWEET account="dotey" role="AI观察者">OpenAI GPT-5.5提示词指南核心是“别再写长提示词”，只需告诉它要什么、成功标准和限制条件，模型自己规划路径。性格设定和停止规则成为新重点。🚨❤️ 105 | 💬 1</TWEET>
+      <CONSENSUS>行业最新共识是：GPT-5.5时代提示词越短越好，模型已能自主规划，过度指令反而限制其能力。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于：这种简化是否会让提示词工程这个职业消失？以及在高风险企业场景下，“少即是多”是否会牺牲可控性？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Musk vs Altman冲突升级：法律战或重塑OpenAI命运</TITLE>
+      <NARRATIVE>Elon历史记忆持续指控Sam Altman和Greg Brockman“窃取慈善机构”，本期推文中双方阵营推文密集出现，@theinformation称诉讼可能重启OpenAI创始承诺、微软关系及IPO路径。这与Chamath此前“AI若杀死终值则未来无意义”的观点形成呼应，反映出从早期合作到如今公开撕扯的剧烈转向。</NARRATIVE>
+      <TWEET account="paulg" role="Y Combinator创始人">我已经解释过那条所谓“我的引用”是胡说。此事与Musk v. Altman诉讼同时出现，明显是协调PR攻势，我不会被利用。🚨❤️ 1073 | 💬 41</TWEET>
+      <CONSENSUS>硅谷共识是这场诉讼结果将直接影响OpenAI IPO路径、与微软的非独家合作以及整个行业的“慈善 vs 商业”叙事。</CONSENSUS>
+      <DIVERGENCE>核心未解之谜在于：OpenAI Startup Fund的财务利益披露是否构成欺诈？以及这是否会引发更多前员工或早期投资者跟进诉讼？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🧬">
+      <TITLE>AI科研范式突进：攻克60年数学难题与生物数据谜题</TITLE>
+      <NARRATIVE>结合@openai历史记忆中Erdős难题被GPT-5.4 Pro解决，以及Anthropic本期发布的BioMysteryBench（Claude解决专家困惑的30%难题），新叙事是AI不再是“辅助工具”，而是能提出创造性解决方案的科研伙伴。@demishassabis与韩国政府的合作进一步强化AI加速科学发现的叙事。</NARRATIVE>
+      <TWEET account="anthropicai" role="Anthropic官方">我们用Claude分析真实生物数据，在专家卡住的23个问题中，新模型解决了约30%并攻克大部分剩余问题。BioMysteryBench显示AI在开放式生物研究中展现创造力。🚨❤️ 597 | 💬 62</TWEET>
+      <OUTLOOK>未来6-12个月，AI将深度嵌入科研工作流，生物、物理、数学领域或出现“人机共著”论文爆发期，加速新药与材料发现。</OUTLOOK>
+      <OPPORTUNITY>一级市场关注AI+科研平台、生物信息学垂直模型，以及为实验室构建共享Workspace Agent的企业服务。</OPPORTUNITY>
+      <RISK>存在“黑箱决策”硬伤，科学家仍需验证AI提出的假设，短期内难以完全替代人类直觉判断。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⌨️">
+      <TITLE>CLI在Agent时代复兴：文本接口优于GUI</TITLE>
+      <NARRATIVE>vista8和gdb的推文形成呼应：大模型处理GUI效率低，而纯文本CLI最适合Agent。这与@dotey历史记忆中“OpenAI或开发AI智能体手机”以及chamath“需要全新执行层而非把AI塞进旧手机”的观点一致，标志行业从“图形界面至上”转向“Agent原生接口”的大转向。</NARRATIVE>
+      <TWEET account="vista8" role="AI独立观察者">CLI在Agent时代复兴不是复古而是必然。大模型读GUI效率低，命令行纯文本最适合它。没有编程基础的人反而把Agent用得更好。🚨❤️ 18 | 💬 4</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">我用终端近20年，现在它是Codex App。🚨❤️ 2055 | 💬 213</TWEET>
+      <CONSENSUS>最新共识是Coding和Building已成为正交能力，CLI+Agent组合将成为未来主流开发与运维界面。</CONSENSUS>
+      <DIVERGENCE>争论焦点是：这种复兴是否会加剧“懂终端的老一代”与“只用App的新一代”之间的数字代沟？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌐">
+      <TITLE>开源效率奇迹与闭源领先的动态拉锯</TITLE>
+      <NARRATIVE>swyx高度肯定DeepSeek v4在不追求benchmark极致、不依赖推理最优算力的情况下，通过创新长上下文技术（CSA、HCA等）实现SOTA，展现“自信与能力”。这与bindureddy“只有开源去中心化才能对抗超级智能被少数人掌控”的观点共同构成新叙事：开源不再是跟随，而是通过极致工程效率实现弯道超车。</NARRATIVE>
+      <TWEET account="swyx" role="AI开发者社区领袖">DeepSeek v4展示了绝对自信：不刷榜、不追求最终跑分成本，用8%成本实现SOTA长上下文技术，推出全球最佳开源基础模型，然后优雅离开。🚨❤️ 526 | 💬 25</TWEET>
+      <OUTLOOK>未来6-12个月，开源模型将快速商品化基础能力，迫使闭源厂商转向更高阶Agent与行业垂直解决方案。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投“开源模型后训练”工具、Agent Lab，以及中国高效工程团队主导的开源商业化路径。</OPPORTUNITY>
+      <RISK>开源优势可能仍是“基础模型”层面，在企业级安全、长期规划与品味判断上仍落后闭源前沿，存在泡沫化风险。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Lightspeed领投Ineffable Intelligence（David Silver创立）11亿美元种子轮，聚焦完全不依赖人类数据的自我强化学习系统；NVIDIA通过GB200与OpenAI深度协同设计，继续巩固物理AI与Agent基础设施主导权。</ITEM>
+    <ITEM category="VC views">Chamath强调物理基础设施仍是确定性瓶颈，市场从P/E转向自由现金流定价；pmarca指出领先模型已在长期规划、idea生成和品味判断上大幅进步，实际使用量远超调查显示的反AI情绪。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek v4以极低成本实现SOTA长上下文技术（仅Pro的8%），展现中国团队在工程效率与务实创新上的显著优势，Kimi等开源模型也在特定场景领跑，证明“由中国实验室定义下一代开源前沿”已成为现实。</ITEM>
+    <ITEM category="全球映射">中国高效开源路径正在加速全球基础模型商品化，倒逼OpenAI、Anthropic等转向高阶Agent与企业级闭源服务；若中美持续脱钩，中国自研链条的效率优势可能在成本敏感的Agent部署市场形成全球竞争力。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="sama" role="OpenAI CEO">感觉Codex正在迎来它的ChatGPT时刻。🚨❤️ 8450 | 💬 960</TWEET>
+    <TWEET account="gdb" role="OpenAI CTO">我用终端界面近20年，现在我的主要电脑界面已经是Codex App了。🚨❤️ 2055 | 💬 213</TWEET>
+    <TWEET account="dotey" role="AI观察者">OpenAI GPT-5.5提示词指南核心只有一句话：别再写长提示词了。告诉它要什么、成功标准和限制条件就够，模型自己规划。性格设定和搜索预算成为关键。🚨❤️ 105 | 💬 1</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">亚马逊、谷歌、微软、Meta每月在AI上的烧钱超过曼哈顿计划总和的12倍以上，却没有一家实现主要利润，没有技术护城河，价格战不可避免，客户也看不到重大ROI。这可能是史上最大资本错配。🚨❤️ 886 | 💬 109</TWEET>
+    <TWEET account="openai" role="OpenAI官方">还在好奇Codex能用来做什么？它能帮你完成支持工作的支持工作：整理研究、制作电子表格、幻灯片和总结。🚨❤️ 1921 | 💬 132</TWEET>
+    <TWEET account="swyx" role="AI开发者社区领袖">DeepSeek v4用CSA、HCA等创新技术，以极低成本实现SOTA长上下文，推出全球最佳开源基础模型，然后优雅离开，把后训练留给Agent实验室。Bravo。🚨❤️ 526 | 💬 25</TWEET>
+    <TWEET account="anthropicai" role="Anthropic官方">在新BioMysteryBench中，Claude面对专家都困惑的生物数据问题，解决了约30%，并攻克了大部分剩余难题，展现出真正的科研创造力。🚨❤️ 597 | 💬 62</TWEET>
+    <TWEET account="vista8" role="AI独立观察者">CLI在Agent时代复兴不是复古而是必然。大模型读GUI效率低，纯文本命令行最适合它们。没有编程基础的人反而把Agent用得更好。🚨❤️ 87 | 💬 15</TWEET>
+    <TWEET account="pmarca" role="a16z合伙人">领先AI模型现在非常擅长长期规划、idea生成和品味判断。抱歉，但这是事实。🚨❤️ 1161 | 💬 235</TWEET>
+  </TOP_PICKS>
+</REPORT>
