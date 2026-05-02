@@ -1,0 +1,81 @@
+<REPORT>
+  <COVER title="Codex 引爆界面革命：全民电脑代理时代来临" prompt="Minimalist futuristic data visualization showing a seamless transition from legacy terminal windows and desktop icons into an intelligent AI neural interface. Codex visualized as glowing interconnected nodes and adaptive data streams flowing into everyday productivity tasks like spreadsheets, slide decks and terminal commands. Ultra-clean lines, holographic cyan and deep navy palette, floating ergonomic hand gestures commanding the system, cinematic rim lighting with subtle particle effects, sharp 8K resolution, emphasizing the paradigm shift to AI-native computing form factors." insight="Codex 超越编程工具，成为大众电脑新界面，标志AI从辅助走向核心执行层的范式跃迁。"/>
+  <PULSE>硅谷今日叙事主线从“追求更聪明模型”转向“Codex 成为全民电脑代理”与“高效开源模型快速迭代”，实用主义全面压倒纯规模崇拜。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🔄">
+      <TITLE>Codex 迎来 ChatGPT 时刻：AI 代理接管全谱电脑工作</TITLE>
+      <NARRATIVE>结合 gdb 和 sama 历史记忆，此前 Codex 主要服务程序员，而过去48小时内多位大佬宣布其已成为主要电脑界面，能独立完成表格、幻灯片、长期任务与自我审查。这不是 incremental 升级，而是界面范式从 GUI/终端到 AI 原生代理的根本转向，呼应 chamath“需要全新执行层而非把AI塞进旧手机”的长期判断。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">Codex 正在迎来它的 ChatGPT 时刻。你可以用它完成非编码的电脑工作，包括制作表格和幻灯片。我们构建的是增强人类的工具，而非取代实体。（❤️ 8450 | 💬 960）</TWEET>
+      <TWEET account="gdb" role="OpenAI 前 CTO">我用终端近20年，现在我的主要电脑界面已经是 Codex App。它不再只服务程序员，而是服务所有用电脑完成任务的人，包括做表格和幻灯片。（❤️ 2055 | 💬 213）</TWEET>
+      <OUTLOOK>未来6-12个月，Codex 类产品将快速侵蚀传统生产力软件市场，主流用户界面将从“点击”转向“自然语言+自主代理”。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注垂直领域 Agent 应用（如医疗记录、财务建模）、新型 AI-first 生产力操作系统及能提供长期记忆与自我审查的 Agent 基础设施。</OPPORTUNITY>
+      <RISK>当前仍依赖云端推理，隐私与延迟问题突出；若模型出现幻觉或长期规划失误，可能引发企业级信任危机，短期内存在泡沫风险。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Musk-Altman 慈善窃取诉讼升级，或重塑 OpenAI 控制权</TITLE>
+      <NARRATIVE>Elon 过去一周持续高强度输出“Sam Altman 和 Greg Brockman 窃取慈善机构”叙事，与其历史记忆中“本可将 OpenAI 做成营利公司却为公共利益创立”的叙事完全一致。此案若推进，可能重新定义 OpenAI 与微软的股权关系、IPO路径及创始承诺，标志着硅谷顶级创始人之间从合作到公开撕破脸的重大转向。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI、Tesla CEO">Sam Altman 和 Greg Brockman 窃取了一家慈善机构。我本可将 OpenAI 做成营利公司，却为公共利益创立并资助它、招募人才并传授经验，结果被他们窃取。如果法律允许窃取慈善，将摧毁所有捐赠。（❤️ 102677 | 💬 5065）</TWEET>
+      <CONSENSUS>行业内普遍认为这场诉讼将产生重大外部性，可能迫使 OpenAI 重新审视其混合结构并影响与微软至2032年的合作协议。</CONSENSUS>
+      <DIVERGENCE>核心争论在于：Sam 是否在董事会及国会作证时隐瞒了 OpenAI Startup Fund 的财务利益？以及此案是否会真正动摇 OpenAI 当前估值与控制权。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>DeepSeek V4 闪耀：中国开源模型以低成本实现 SOTA</TITLE>
+      <NARRATIVE>bindureddy 和 swyx 均指出 DeepSeek V4 以仅8%成本达成长上下文 SOTA，不刷榜、不追求最终跑分，却推出全球最佳开源基础模型后优雅离开。这代表一种全新叙事——“自信的工程哲学”而非军备竞赛，解决的是“持续高成本迭代不可持续”的底层问题。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI 研究员">DeepSeek V4 flash 值得更多关注。它是非常优秀的高速开源模型，适合大规模简单用例，远快于 GPT-5.5 thinking 或 Opus 4.7。（❤️ 521 | 💬 39）</TWEET>
+      <TWEET account="swyx" role="AI 开发者、研究员">Codex 已成为 ChatGPT 的严格超集。我卸载了 ChatGPT App。Grok 4.30 在智能性价比上领先，甚至超过 MiMo、Kimi 和 DeepSeek。（❤️ 115 | 💬 37）</TWEET>
+      <OUTLOOK>未来6-12个月，中国开源模型将在性价比战场主导中低端推理市场，迫使闭源巨头加速降价或提升效率，全球开发者将更多转向混合开源+闭源工作流。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于：为 DeepSeek 类模型提供高效推理硬件、针对中文/亚洲场景的垂直 Agent、以及“模型蒸馏即服务”的商业化工具。</OPPORTUNITY>
+      <RISK>开源模型在最前沿能力上仍落后闭源旗舰；若中美技术脱钩加剧，供应链与算力获取将成为硬伤，存在“短期现象级但长期难以追赶前沿”的风险。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⌨️">
+      <TITLE>Agent 时代 CLI 复兴：纯文本接口优于 GUI</TITLE>
+      <NARRATIVE>vista8 与 dotey 指出，大模型读取 GUI 效率低下，而命令行纯文本形态最适合 AI。过去编程基础反而成为劣势，没有编程背景的人把 Agent 用得更好。这是对“GUI 是未来”长达40年共识的彻底颠覆，呼应 gdb“终端已死，Codex App 万岁”的个人转变。</NARRATIVE>
+      <TWEET account="vista8" role="AI 观察者">CLI在Agent时代复兴不是复古而是必然。大模型读GUI效率低，命令行纯文本最适合它。没有编程基础的人反而把Agent用得更好。（❤️ 86 | 💬 16）</TWEET>
+      <CONSENSUS>行业已形成共识：未来 Agent 主要交互界面将是文本/CLI 而非视觉 GUI，Warp 等终端工具的 AI 优先开源正是这一趋势的体现。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：CLI 复兴是永久性范式转移，还是仅为过渡阶段？以及“零代码”用户是否会真正超越传统开发者。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="📊">
+      <TITLE>模型优先级之辩：更聪明仍胜过更便宜更快</TITLE>
+      <NARRATIVE>sama 公开承认自己原本以为“更便宜更快”比“更聪明”更重要，但现实仍是智能最关键。这代表从过去一年“scaling is all you need”到当前“智能仍是稀缺资源”的微妙转向，与 bindureddy“每月稳定迭代更好模型的实验室将赢得 AGI 竞赛”形成呼应。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">我一直以为我更想要模型更便宜更快，而不是更聪明。但似乎更聪明仍然是最重要的。（❤️ 5309 | 💬 1302）</TWEET>
+      <OUTLOOK>未来6-12个月，顶级实验室仍将把主要资源投入智能提升，同时通过蒸馏与硬件协同大幅降低推理成本，形成“智能为王、效率为矛”的双轮驱动格局。</OUTLOOK>
+      <OPPORTUNITY>投资机会集中在能显著提升推理效率的硬件协同设计（如 GB200）、模型蒸馏工具以及针对特定垂直领域的“小型超级智能”模型。</OPPORTUNITY>
+      <RISK>若智能提升曲线放缓，而成本始终居高不下，可能引发资本寒冬；同时“智能溢价”是否可持续仍是未解之谜。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🏗️">
+      <TITLE>AI 基础设施瓶颈转向：物理世界与新形式因子</TITLE>
+      <NARRATIVE>chamath 近期反复强调物理基础设施是确定性瓶颈，并呼吁从第一性原理发明全新 AI 形式因子，而非把 AI 塞进旧手机。这与 Elon 推动 Grok Voice 进入 Starlink、OpenAI 可能开发 AI 智能体手机的动作形成共振，标志行业叙事从纯算力军备竞赛转向“软硬一体新物种”。</NARRATIVE>
+      <TWEET account="chamath" role="Social Capital 创始人">我们需要全新执行层。不是把AI塞进旧手机，而是从第一性原理发明新形式因子。（❤️ 391 | 💬 91）</TWEET>
+      <CONSENSUS>物理世界基础设施（能源、芯片、机器人载体）正成为下一阶段主要瓶颈，纯软件迭代红利正在边际递减。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论：究竟是先解决“新硬件形式因子”，还是继续靠软件+现有设备（如 Codex App）实现突破？</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Founders Fund 追加6.24亿美元投资 Anduril，估值达600亿美元，尽管该公司预计未来数年仍将每年亏损超10亿美元；Gradium 获7000万美元用于AI语音模型，Multiverse Computing 获2.5亿美元用于压缩AI模型。</ITEM>
+    <ITEM category="VC views">Chamath 指出市场正从P/E转向自由现金流定价，AI若杀死终值则未来无意义，呼吁发明能与知识而非信息交互的全新执行层形式因子。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国实验室在开源领域展现极高工程自信与迭代速度，DeepSeek V4 以极低成本达成SOTA长上下文能力，证明“每月稳定放出更好模型”策略可行，已成为全球开发者高性价比首选。</ITEM>
+    <ITEM category="全球映射">中国开源突破正在全球映射出“效率即竞争力”的新范式，迫使OpenAI、Google等闭源巨头重新思考定价与发布节奏，中美AI竞赛已从纯参数规模转向工程效率与落地速度。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="sama" role="OpenAI CEO">我一直以为我更想要模型更便宜更快，而不是更聪明。但似乎更聪明仍然是最重要的。（❤️ 5309 | 💬 1302）</TWEET>
+    <TWEET account="gdb" role="OpenAI 前 CTO">我用终端近20年，现在我的主要电脑界面已经是 Codex App。它不再只服务程序员，而是服务所有用电脑完成任务的人。（❤️ 2055 | 💬 213）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">Codex 正在迎来它的 ChatGPT 时刻。你可以用它完成非编码的电脑工作，包括制作表格和幻灯片。（❤️ 8450 | 💬 960）</TWEET>
+    <TWEET account="bindureddy" role="AI 研究员">DeepSeek V4 flash 值得更多关注。它是非常优秀的高速开源模型，适合大规模简单用例，远快于 GPT-5.5 thinking 或 Opus 4.7。（❤️ 521 | 💬 39）</TWEET>
+    <TWEET account="swyx" role="AI 开发者、研究员">小里程碑：我卸载了 ChatGPT App。Codex 已是严格超集。Grok 4.30 在智能性价比上领先。（❤️ 115 | 💬 37）</TWEET>
+    <TWEET account="vista8" role="AI 观察者">CLI在Agent时代复兴不是复古而是必然。大模型读GUI效率低，命令行纯文本最适合它。没有编程基础的人反而把Agent用得更好。（❤️ 86 | 💬 16）</TWEET>
+    <TWEET account="chamath" role="Social Capital 创始人">我们需要全新执行层。不是把AI塞进旧手机，而是从第一性原理发明新形式因子。（❤️ 391 | 💬 91）</TWEET>
+    <TWEET account="dotey" role="AI 翻译、观察者">判断谁写的代码更快更好，关键是1. 擅长定义清楚问题并拆解给AI；2. 能判断AI生成结果质量并指导其完善。（❤️ 112 | 💬 12）</TWEET>
+    <TWEET account="theinformation" role="科技媒体">Founders Fund 追加投资 Anduril 6.24亿美元，总投注至少26亿美元，估值600亿，尽管预计每年亏损超10亿。（❤️ 14 | 💬 3）</TWEET>
+  </TOP_PICKS>
+</REPORT>
