@@ -1,81 +1,81 @@
 <REPORT>
-  <COVER title="Codex 引爆界面革命：全民电脑代理时代来临" prompt="Minimalist futuristic data visualization showing a seamless transition from legacy terminal windows and desktop icons into an intelligent AI neural interface. Codex visualized as glowing interconnected nodes and adaptive data streams flowing into everyday productivity tasks like spreadsheets, slide decks and terminal commands. Ultra-clean lines, holographic cyan and deep navy palette, floating ergonomic hand gestures commanding the system, cinematic rim lighting with subtle particle effects, sharp 8K resolution, emphasizing the paradigm shift to AI-native computing form factors." insight="Codex 超越编程工具，成为大众电脑新界面，标志AI从辅助走向核心执行层的范式跃迁。"/>
-  <PULSE>硅谷今日叙事主线从“追求更聪明模型”转向“Codex 成为全民电脑代理”与“高效开源模型快速迭代”，实用主义全面压倒纯规模崇拜。</PULSE>
+  <COVER title="Codex自主21小时：AI代理的ChatGPT时刻" prompt="Minimalist data visualization art showing a serene, glowing neural orb labeled Codex at the center of a pristine digital workspace. Clean neural nodes and translucent data streams in electric cyan and cool white extend outward, autonomously reorganizing scattered application windows including spreadsheets, code architectures, image galleries, and terminal logs into perfect order. Subtle particle connections represent 21-hour long-running goal loops. Ultra-clean black void background, precise geometric lines, soft cinematic rim lighting with gentle volumetric glows, 8K resolution, sophisticated tech minimalism with neural node aesthetics, evoking autonomous intelligence replacing human drudgery." insight="智能超越成本成新共识，Codex长任务落地重塑生产力"/>
+  <PULSE>硅谷核心叙事转向Codex的“ChatGPT时刻”：从编码工具进化为自主长周期电脑代理，更聪明的模型仍是 ultimate priority，开源快模型与社会反噬声音同步浮现。</PULSE>
 
   <THEMES>
-    <THEME type="new" emoji="🔄">
-      <TITLE>Codex 迎来 ChatGPT 时刻：AI 代理接管全谱电脑工作</TITLE>
-      <NARRATIVE>结合 gdb 和 sama 历史记忆，此前 Codex 主要服务程序员，而过去48小时内多位大佬宣布其已成为主要电脑界面，能独立完成表格、幻灯片、长期任务与自我审查。这不是 incremental 升级，而是界面范式从 GUI/终端到 AI 原生代理的根本转向，呼应 chamath“需要全新执行层而非把AI塞进旧手机”的长期判断。</NARRATIVE>
-      <TWEET account="sama" role="OpenAI CEO">Codex 正在迎来它的 ChatGPT 时刻。你可以用它完成非编码的电脑工作，包括制作表格和幻灯片。我们构建的是增强人类的工具，而非取代实体。（❤️ 8450 | 💬 960）</TWEET>
-      <TWEET account="gdb" role="OpenAI 前 CTO">我用终端近20年，现在我的主要电脑界面已经是 Codex App。它不再只服务程序员，而是服务所有用电脑完成任务的人，包括做表格和幻灯片。（❤️ 2055 | 💬 213）</TWEET>
-      <OUTLOOK>未来6-12个月，Codex 类产品将快速侵蚀传统生产力软件市场，主流用户界面将从“点击”转向“自然语言+自主代理”。</OUTLOOK>
-      <OPPORTUNITY>一级市场可重点关注垂直领域 Agent 应用（如医疗记录、财务建模）、新型 AI-first 生产力操作系统及能提供长期记忆与自我审查的 Agent 基础设施。</OPPORTUNITY>
-      <RISK>当前仍依赖云端推理，隐私与延迟问题突出；若模型出现幻觉或长期规划失误，可能引发企业级信任危机，短期内存在泡沫风险。</RISK>
-    </THEME>
-
-    <THEME type="shift" emoji="⚔️">
-      <TITLE>Musk-Altman 慈善窃取诉讼升级，或重塑 OpenAI 控制权</TITLE>
-      <NARRATIVE>Elon 过去一周持续高强度输出“Sam Altman 和 Greg Brockman 窃取慈善机构”叙事，与其历史记忆中“本可将 OpenAI 做成营利公司却为公共利益创立”的叙事完全一致。此案若推进，可能重新定义 OpenAI 与微软的股权关系、IPO路径及创始承诺，标志着硅谷顶级创始人之间从合作到公开撕破脸的重大转向。</NARRATIVE>
-      <TWEET account="elonmusk" role="xAI、Tesla CEO">Sam Altman 和 Greg Brockman 窃取了一家慈善机构。我本可将 OpenAI 做成营利公司，却为公共利益创立并资助它、招募人才并传授经验，结果被他们窃取。如果法律允许窃取慈善，将摧毁所有捐赠。（❤️ 102677 | 💬 5065）</TWEET>
-      <CONSENSUS>行业内普遍认为这场诉讼将产生重大外部性，可能迫使 OpenAI 重新审视其混合结构并影响与微软至2032年的合作协议。</CONSENSUS>
-      <DIVERGENCE>核心争论在于：Sam 是否在董事会及国会作证时隐瞒了 OpenAI Startup Fund 的财务利益？以及此案是否会真正动摇 OpenAI 当前估值与控制权。</DIVERGENCE>
+    <THEME type="shift" emoji="🔄">
+      <TITLE>从“更快更便宜”到“更聪明最重要”的优先级回归</TITLE>
+      <NARRATIVE>Sam Altman历史观点长期强调模型成本与速度优化，而今日推文明确承认“更聪明仍然是最重要的”，标志着行业从效率工程转向纯智能scaling的重大转向。这一转变与历史记忆中他对GPT-5.5和Codex的乐观形成呼应，但也反映了对过去“psyop”的自我修正。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">我一直以为我更想要模型更便宜更快，而不是更聪明。但似乎更聪明仍然是最重要的。❤️ 7051 | 💬 1556</TWEET>
+      <TWEET account="sama" role="OpenAI CEO">5.5 xhigh在fast模式下真的很强，我之前可能被Twitter上的medium模式误导了。❤️ 3852 | 💬 628</TWEET>
+      <CONSENSUS>行业最新共识是：智能仍是稀缺资源，速度和成本的边际收益已低于智能提升带来的突破。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论：在追求极致智能的同时，如何避免训练和推理成本失控，以及这是否会进一步拉大闭源与开源的差距。</DIVERGENCE>
     </THEME>
 
     <THEME type="new" emoji="🌱">
-      <TITLE>DeepSeek V4 闪耀：中国开源模型以低成本实现 SOTA</TITLE>
-      <NARRATIVE>bindureddy 和 swyx 均指出 DeepSeek V4 以仅8%成本达成长上下文 SOTA，不刷榜、不追求最终跑分，却推出全球最佳开源基础模型后优雅离开。这代表一种全新叙事——“自信的工程哲学”而非军备竞赛，解决的是“持续高成本迭代不可持续”的底层问题。</NARRATIVE>
-      <TWEET account="bindureddy" role="AI 研究员">DeepSeek V4 flash 值得更多关注。它是非常优秀的高速开源模型，适合大规模简单用例，远快于 GPT-5.5 thinking 或 Opus 4.7。（❤️ 521 | 💬 39）</TWEET>
-      <TWEET account="swyx" role="AI 开发者、研究员">Codex 已成为 ChatGPT 的严格超集。我卸载了 ChatGPT App。Grok 4.30 在智能性价比上领先，甚至超过 MiMo、Kimi 和 DeepSeek。（❤️ 115 | 💬 37）</TWEET>
-      <OUTLOOK>未来6-12个月，中国开源模型将在性价比战场主导中低端推理市场，迫使闭源巨头加速降价或提升效率，全球开发者将更多转向混合开源+闭源工作流。</OUTLOOK>
-      <OPPORTUNITY>一级市场机会在于：为 DeepSeek 类模型提供高效推理硬件、针对中文/亚洲场景的垂直 Agent、以及“模型蒸馏即服务”的商业化工具。</OPPORTUNITY>
-      <RISK>开源模型在最前沿能力上仍落后闭源旗舰；若中美技术脱钩加剧，供应链与算力获取将成为硬伤，存在“短期现象级但长期难以追赶前沿”的风险。</RISK>
+      <TITLE>Codex Goal模式：21小时零干预自主重构落地</TITLE>
+      <NARRATIVE>这一新叙事定义了AI Agent从短期工具向长期自主执行体的进化。用户让Codex以“/goal”模式持续运行21小时14分钟、消耗9亿Token，独立完成前后端数据模型大重构，解决了人类难以坚持的长周期复杂工程问题。这是历史记忆中@gdb和@chamath呼吁的“全新执行层”首次看到实战里程碑。</NARRATIVE>
+      <TWEET account="tualatrix" role="独立开发者">早上我让Codex从昨天开始执行的「goal」整整跑了21小时14分钟，消耗9亿Token，终于进入「Goal archived」状态。它独立完成了前后端数据字段的大重构，没有任何人工干预。❤️ 100 | 💬 22</TWEET>
+      <OUTLOOK>未来6-12个月，自主长运行Agent将从实验进入软件维护、架构重构和企业流程优化的主流应用，显著降低人力长期投入。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注长上下文状态机编排、分布式Agent容错计算、以及“AI-first”企业重构SaaS工具。</OPPORTUNITY>
+      <RISK>错误在长周期内雪球式累积的风险依然存在，验收机制和“人类最终把关”仍是硬性要求，短期内可能仍是高净值开发者玩具。</RISK>
     </THEME>
 
-    <THEME type="shift" emoji="⌨️">
-      <TITLE>Agent 时代 CLI 复兴：纯文本接口优于 GUI</TITLE>
-      <NARRATIVE>vista8 与 dotey 指出，大模型读取 GUI 效率低下，而命令行纯文本形态最适合 AI。过去编程基础反而成为劣势，没有编程背景的人把 Agent 用得更好。这是对“GUI 是未来”长达40年共识的彻底颠覆，呼应 gdb“终端已死，Codex App 万岁”的个人转变。</NARRATIVE>
-      <TWEET account="vista8" role="AI 观察者">CLI在Agent时代复兴不是复古而是必然。大模型读GUI效率低，命令行纯文本最适合它。没有编程基础的人反而把Agent用得更好。（❤️ 86 | 💬 16）</TWEET>
-      <CONSENSUS>行业已形成共识：未来 Agent 主要交互界面将是文本/CLI 而非视觉 GUI，Warp 等终端工具的 AI 优先开源正是这一趋势的体现。</CONSENSUS>
-      <DIVERGENCE>争论焦点在于：CLI 复兴是永久性范式转移，还是仅为过渡阶段？以及“零代码”用户是否会真正超越传统开发者。</DIVERGENCE>
+    <THEME type="new" emoji="⚡">
+      <TITLE>DeepSeek V4 Flash：被低估的高速开源王牌</TITLE>
+      <NARRATIVE>Bindureddy连续发文强调DeepSeek V4 Flash在简单大规模用例中的极致速度和性价比，远超GPT-5.5 thinking和Opus 4.7。这一新叙事凸显中国开源实验室以“绝对自信”姿态，用极低成本交付SOTA长上下文技术，区别于刷榜路线，指向“每月稳定迭代更好模型者胜”的新范式。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI开发者">DeepSeek V4 flash值得更多关注。它是非常优秀的高速开源模型，适合大规模简单用例，远快于GPT-5.5 thinking或Opus 4.7。❤️ 541 | 💬 39</TWEET>
+      <TWEET account="bindureddy" role="AI开发者">终于搞清楚如何正确跑DeepSeek V4 Pro了，它的evals表现惊人，甚至超过Opus 4.7 Medium。❤️ 447 | 💬 41</TWEET>
+      <OUTLOOK>未来6-12个月，开源高速模型将主导企业内部简单高频场景，中国实验室可能在开放权重赛道建立持久领先。</OUTLOOK>
+      <OPPORTUNITY>投资围绕DeepSeek类模型的推理优化、垂直领域微调平台，以及“开源模型+企业私有数据”混合部署方案。</OPPORTUNITY>
+      <RISK>高速模型在复杂推理上的短板仍存，若仅用于简单用例，可能面临“ commoditization”导致利润摊薄的风险。</RISK>
     </THEME>
 
-    <THEME type="new" emoji="📊">
-      <TITLE>模型优先级之辩：更聪明仍胜过更便宜更快</TITLE>
-      <NARRATIVE>sama 公开承认自己原本以为“更便宜更快”比“更聪明”更重要，但现实仍是智能最关键。这代表从过去一年“scaling is all you need”到当前“智能仍是稀缺资源”的微妙转向，与 bindureddy“每月稳定迭代更好模型的实验室将赢得 AGI 竞赛”形成呼应。</NARRATIVE>
-      <TWEET account="sama" role="OpenAI CEO">我一直以为我更想要模型更便宜更快，而不是更聪明。但似乎更聪明仍然是最重要的。（❤️ 5309 | 💬 1302）</TWEET>
-      <OUTLOOK>未来6-12个月，顶级实验室仍将把主要资源投入智能提升，同时通过蒸馏与硬件协同大幅降低推理成本，形成“智能为王、效率为矛”的双轮驱动格局。</OUTLOOK>
-      <OPPORTUNITY>投资机会集中在能显著提升推理效率的硬件协同设计（如 GB200）、模型蒸馏工具以及针对特定垂直领域的“小型超级智能”模型。</OPPORTUNITY>
-      <RISK>若智能提升曲线放缓，而成本始终居高不下，可能引发资本寒冬；同时“智能溢价”是否可持续仍是未解之谜。</RISK>
+    <THEME type="advance" emoji="🛠️">
+      <TITLE>Codex生产力爆炸：从人体工程学到图像生成全覆盖</TITLE>
+      <NARRATIVE>历史记忆中@gdb预测Codex将服务所有电脑用户而非仅程序员，今日推文显示这一预言正在快速实现：Codex被用于优化人体工程学、生成图像画廊、宠物分享以及日常电脑任务，标志着其从编码助手向通用生产力层的深度推进。</NARRATIVE>
+      <TWEET account="gdb" role="前GitHub CEO">Codex用于改善你的人体工程学。❤️ 349 | 💬 37</TWEET>
+      <TWEET account="gdb" role="前GitHub CEO">ChatGPT Images真的起飞了。❤️ 338 | 💬 50</TWEET>
+      <CONSENSUS>最新共识是Codex已成为ChatGPT的严格超集，CLI和Agent复兴已成必然，非程序员反而能更好利用Agent。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：这种“vibe coding”是否会像@dotey警告的那样，导致隐性知识消亡和工程师代际断层。</DIVERGENCE>
     </THEME>
 
-    <THEME type="shift" emoji="🏗️">
-      <TITLE>AI 基础设施瓶颈转向：物理世界与新形式因子</TITLE>
-      <NARRATIVE>chamath 近期反复强调物理基础设施是确定性瓶颈，并呼吁从第一性原理发明全新 AI 形式因子，而非把 AI 塞进旧手机。这与 Elon 推动 Grok Voice 进入 Starlink、OpenAI 可能开发 AI 智能体手机的动作形成共振，标志行业叙事从纯算力军备竞赛转向“软硬一体新物种”。</NARRATIVE>
-      <TWEET account="chamath" role="Social Capital 创始人">我们需要全新执行层。不是把AI塞进旧手机，而是从第一性原理发明新形式因子。（❤️ 391 | 💬 91）</TWEET>
-      <CONSENSUS>物理世界基础设施（能源、芯片、机器人载体）正成为下一阶段主要瓶颈，纯软件迭代红利正在边际递减。</CONSENSUS>
-      <DIVERGENCE>大佬们激烈争论：究竟是先解决“新硬件形式因子”，还是继续靠软件+现有设备（如 Codex App）实现突破？</DIVERGENCE>
+    <THEME type="shift" emoji="⚠️">
+      <TITLE>生成式AI反噬加剧：从工具到社会净负面的叙事转向</TITLE>
+      <NARRATIVE>Gary Marcus的长文代表了显著的叙事转向：承认AI在编码和头脑风暴外的多数领域带来净负面影响，包括教育破坏、监控、虚假信息、深度伪造、经济分化及环境成本。这一观点与@pmarca历史记忆中“普通人只在乎实用”的乐观形成鲜明冲突，标志着精英圈反AI情绪从边缘走向主流。</NARRATIVE>
+      <TWEET account="garymarcus" role="AI批评者">为什么AI反噬在增长？除了编码和头脑风暴，生成式AI在其他领域对社会是净负面的。它破坏教育、助长监控、虚假信息、深度伪造、网络犯罪、经济分化，并淹没世界于数据中心的环境成本。几乎没有好处。❤️ 71 | 💬 12</TWEET>
+      <CONSENSUS>行业内已形成“技术本身中性，但当前管理方式不负责任”的共识，监管缺失被视为核心问题。</CONSENSUS>
+      <DIVERGENCE>最大争议是：生成式AI的伤害是否可被下一代真正可靠AI抵消，以及谁该为当前“slop泛滥”和基础设施过剩买单。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🏗️">
+      <TITLE>AI压缩与效率创业浪潮：Multiverse获2.5亿美金</TITLE>
+      <NARRATIVE>欧洲初创Multiverse Computing获得2.5亿美元巨额融资，专注将开源权重模型压缩得更小、更便宜运行。这代表了“后scaling时代”新叙事：不再只追求更大模型，而是通过创新压缩技术降低全行业能耗与成本，与OpenAI等闭源巨头的智能优先路线形成互补。</NARRATIVE>
+      <TWEET account="theinformation" role="科技媒体">微软Q1财报显示AI使用正在拖累云业务利润率，公司因此实质上提高了价格。❤️ 4 | 💬 1</TWEET>
+      <OUTLOOK>未来6-12个月，模型压缩和效率优化将成为一级市场最热门赛道之一，可能催生新一代“AI基础设施轻量化”独角兽。</OUTLOOK>
+      <OPPORTUNITY>投资模型蒸馏、量化、边缘部署，以及为中小企业提供低成本AI落地的SaaS平台。</OPPORTUNITY>
+      <RISK>压缩技术若牺牲过多智能，可能成为短期泡沫；同时面临与英伟达等硬件巨头深度绑定的监管俘获风险。</RISK>
     </THEME>
   </THEMES>
 
   <INVESTMENT_RADAR>
-    <ITEM category="投融资快讯">Founders Fund 追加6.24亿美元投资 Anduril，估值达600亿美元，尽管该公司预计未来数年仍将每年亏损超10亿美元；Gradium 获7000万美元用于AI语音模型，Multiverse Computing 获2.5亿美元用于压缩AI模型。</ITEM>
-    <ITEM category="VC views">Chamath 指出市场正从P/E转向自由现金流定价，AI若杀死终值则未来无意义，呼吁发明能与知识而非信息交互的全新执行层形式因子。</ITEM>
+    <ITEM category="投融资快讯">欧洲AI压缩模型公司Multiverse Computing完成2.5亿美元融资，专注让开源权重模型更小更便宜运行；BottleCap AI专注效率型基础模型，推出AI新闻应用Pulse。</ITEM>
+    <ITEM category="VC views">Chamath提问：未来18个月内AI物理模型发现超越硅的新材料的概率有多大？反映市场正从纯智能竞赛转向物理世界瓶颈突破。</ITEM>
   </INVESTMENT_RADAR>
 
   <RISK_CHINA_VIEW>
-    <ITEM category="中国 AI 评价">中国实验室在开源领域展现极高工程自信与迭代速度，DeepSeek V4 以极低成本达成SOTA长上下文能力，证明“每月稳定放出更好模型”策略可行，已成为全球开发者高性价比首选。</ITEM>
-    <ITEM category="全球映射">中国开源突破正在全球映射出“效率即竞争力”的新范式，迫使OpenAI、Google等闭源巨头重新思考定价与发布节奏，中美AI竞赛已从纯参数规模转向工程效率与落地速度。</ITEM>
+    <ITEM category="中国 AI 评价">DeepSeek V4系列以极低成本交付全球最佳开源长上下文模型，迭代速度和务实路线令人印象深刻，中国实验室已在开源高速赛道占据明显优势。</ITEM>
+    <ITEM category="全球映射">中国开源模型正成为全球开发者性价比最高的选择，可能加速AI技术民主化，但也加剧西方对“知识消亡”和地缘技术竞争的焦虑，OpenAI等需通过更快闭源迭代应对。</ITEM>
   </RISK_CHINA_VIEW>
 
   <TOP_PICKS>
-    <TWEET account="sama" role="OpenAI CEO">我一直以为我更想要模型更便宜更快，而不是更聪明。但似乎更聪明仍然是最重要的。（❤️ 5309 | 💬 1302）</TWEET>
-    <TWEET account="gdb" role="OpenAI 前 CTO">我用终端近20年，现在我的主要电脑界面已经是 Codex App。它不再只服务程序员，而是服务所有用电脑完成任务的人。（❤️ 2055 | 💬 213）</TWEET>
-    <TWEET account="sama" role="OpenAI CEO">Codex 正在迎来它的 ChatGPT 时刻。你可以用它完成非编码的电脑工作，包括制作表格和幻灯片。（❤️ 8450 | 💬 960）</TWEET>
-    <TWEET account="bindureddy" role="AI 研究员">DeepSeek V4 flash 值得更多关注。它是非常优秀的高速开源模型，适合大规模简单用例，远快于 GPT-5.5 thinking 或 Opus 4.7。（❤️ 521 | 💬 39）</TWEET>
-    <TWEET account="swyx" role="AI 开发者、研究员">小里程碑：我卸载了 ChatGPT App。Codex 已是严格超集。Grok 4.30 在智能性价比上领先。（❤️ 115 | 💬 37）</TWEET>
-    <TWEET account="vista8" role="AI 观察者">CLI在Agent时代复兴不是复古而是必然。大模型读GUI效率低，命令行纯文本最适合它。没有编程基础的人反而把Agent用得更好。（❤️ 86 | 💬 16）</TWEET>
-    <TWEET account="chamath" role="Social Capital 创始人">我们需要全新执行层。不是把AI塞进旧手机，而是从第一性原理发明新形式因子。（❤️ 391 | 💬 91）</TWEET>
-    <TWEET account="dotey" role="AI 翻译、观察者">判断谁写的代码更快更好，关键是1. 擅长定义清楚问题并拆解给AI；2. 能判断AI生成结果质量并指导其完善。（❤️ 112 | 💬 12）</TWEET>
-    <TWEET account="theinformation" role="科技媒体">Founders Fund 追加投资 Anduril 6.24亿美元，总投注至少26亿美元，估值600亿，尽管预计每年亏损超10亿。（❤️ 14 | 💬 3）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">我一直以为我更想要模型更便宜更快，而不是更聪明。但似乎更聪明仍然是最重要的。❤️ 7051 | 💬 1556</TWEET>
+    <TWEET account="tualatrix" role="独立开发者">我让Codex以goal模式连续自主运行21小时14分钟、消耗9亿Token，完成了前后端数据模型的大重构，没有任何人工干预，最终效果基本满意。这让我对AI解决长周期复杂任务更有信心。❤️ 100 | 💬 22</TWEET>
+    <TWEET account="bindureddy" role="AI开发者">DeepSeek V4 flash值得更多关注。它是非常优秀的高速开源模型，适合大规模简单用例，远快于GPT-5.5 thinking或Opus 4.7。❤️ 541 | 💬 39</TWEET>
+    <TWEET account="gdb" role="前GitHub CEO">Codex用于改善你的人体工程学。❤️ 349 | 💬 37</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">为什么AI反噬在增长？除了编码，生成式AI在多数领域是净负面的：破坏教育、助长监控与虚假信息、加剧网络犯罪和经济分化，还带来环境灾难。管理极其不负责任。❤️ 71 | 💬 12</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">5.5 xhigh在fast模式下真的很强，我之前可能被Twitter上的medium模式误导了。❤️ 3852 | 💬 628</TWEET>
+    <TWEET account="bindureddy" role="AI开发者">每月稳定发布更好模型的实验室将赢得AGI竞赛。中国在开源领域、OpenAI在闭源领域目前是领跑者。❤️ 100 | 💬 22</TWEET>
+    <TWEET account="dotey" role="AI观察者">值得试试：让Codex分析你的Chronicle电脑使用记录，给你直白到逆耳的工作习惯改进建议。❤️ 250 | 💬 9</TWEET>
   </TOP_PICKS>
 </REPORT>
