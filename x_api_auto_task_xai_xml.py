@@ -79,8 +79,12 @@ TARGET_SET = set(WHALE_ACCOUNTS + EXPERT_ACCOUNTS)
 def get_feishu_webhooks() -> list:
     urls = []
     if TEST_MODE:
-        url = os.getenv("FEISHU_WEBHOOK_URL", "")
-        if url: urls.append(url)
+        # 测试模式：优先读无后缀，fallback 到 _1
+        for key in ["FEISHU_WEBHOOK_URL", "FEISHU_WEBHOOK_URL_1"]:
+            url = os.getenv(key, "")
+            if url:
+                urls.append(url)
+                break
     else:
         for suffix in ["", "_1", "_2", "_3"]:
             url = os.getenv(f"FEISHU_WEBHOOK_URL{suffix}", "")
@@ -256,8 +260,15 @@ def update_character_memory(parsed_data, today_str):
             if not acc or not content: continue
 
             if acc not in memory: memory[acc] = []
-            new_entry = f"[{today_str}]: {content}"
-            if new_entry not in memory[acc]:
+            # 去重：只比较内容部分（去掉日期前缀），防止同一条推文因日期不同被反复存入
+            existing_contents = set()
+            for e in memory[acc]:
+                if isinstance(e, str) and "]: " in e:
+                    existing_contents.add(e.split("]: ", 1)[1].strip()[:80])
+                elif isinstance(e, dict):
+                    existing_contents.add(e.get("content", "")[:80])
+            if content.strip()[:80] not in existing_contents:
+                new_entry = f"[{today_str}]: {content}"
                 memory[acc].append(new_entry)
                 memory[acc] = memory[acc][-5:]
                 count += 1
@@ -287,6 +298,11 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 1. 哪些是正在产生的【新叙事】（从未见过的新观点、新项目或新范式）。
 2. 哪些叙事发生了【重大转向】（大佬打脸、共识瓦解或风向掉头）。
 3. 哪些是原有叙事的【深度推进】（核心瓶颈突破、关键里程碑）。
+
+🚨【防重复铁律】(违反此规则等于任务失败)
+- <TWEET> 标签里引用的推文必须且只能来自下方"X平台一手原始推文"数据，严禁引用历史记忆中的旧推文。
+- 历史记忆的唯一用途是帮你判断叙事是"新的"还是"转向"或"推进"，以及提供态度对比的背景，绝不能作为引用素材。
+- 如果今天的推文数据中没有某个话题的新内容，就不要写这个话题。宁可少写一个THEME，也不要用旧推文充数。
 
 【输出规模要求】(必须严格遵守)
 - 必须生成 4 到 6 个 <THEME> 模块。
