@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="实时视频Agent引爆多模态战争" prompt="Minimalist futuristic digital artwork depicting the explosion of real-time AI video agents. A single static image transforms into a living, expressive conversational character streaming at 24fps with neural data flows connecting voice waveforms, terminal interfaces, and holographic agents. Clean neural node architecture with electric cyan and deep indigo data streams cascading across a dark void. Ultra-sharp vector lines, cinematic volumetric lighting with subtle lens flares, floating UI fragments, 8K resolution, high contrast industrial minimalism, precise geometric composition focusing on transformation moment." insight="Codex通用化与实时视频Agent同步爆发，开源模型以1/8成本追平闭源，叙事从智能崇拜转向全栈执行力。"/>
+  <PULSE>今日硅谷核心叙事从“模型更聪明还是更便宜”的争论转向实时多模态Agent全面落地，Codex成为通用电脑代理，Runway实时视频角色与Grok语音克隆同时引爆，叠加Musk-OpenAI诉讼高潮与开源模型成本屠杀。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🎥">
+      <TITLE>实时视频Agent：1.75秒延迟的对话角色</TITLE>
+      <NARRATIVE>Runway推出Runway Characters，仅需一张图像即可生成HD 24fps流式对话视频代理，端到端延迟1.75秒。这标志着生成视频从离线渲染转向实时交互Agent范式，解决此前视频生成无法实时对话的底层瓶颈，是多模态Agent从实验到产品的关键里程碑。</NARRATIVE>
+      <TWEET account="runwayml" role="视频生成公司创始人">Runway实时视频代理正式发布。我们构建了Runway Characters，只需一张图片就能生成极具表现力、支持对话的视频代理，以24fps HD流式输出，端到端延迟仅1.75秒。❤️ 364 | 💬 38</TWEET>
+      <TWEET account="runwayml" role="视频生成公司创始人">从用户停止说话到角色开始回复仅需1.75秒。底层视频模型每帧有效推理仅37毫秒，超过24fps HD规格。❤️ 28 | 💬 2</TWEET>
+      <OUTLOOK>未来6-12个月，实时视频Agent将深度嵌入客服、教育、虚拟主播和游戏领域，极大压缩传统视频制作链路，推动“视频即接口”的新交互范式。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注实时多模态推理芯片、端侧视频Agent框架及垂直应用（如企业虚拟员工、直播带货AI主播）的早期项目。</OPPORTUNITY>
+      <RISK>当前延迟仍依赖高算力云端，端侧部署难度大，短期内或仍是高成本演示，存在泡沫风险。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🗣️">
+      <TITLE>语音克隆与情感语音API全面上线</TITLE>
+      <NARRATIVE> xAI发布Grok Voice API，支持自然情感丰富的语音克隆，可分辨人类与AI克隆声音。此前语音交互多停留在简单TTS，今日转向支持复杂多步工作流、真实世界噪音与口音处理的“思考快速”语音模型，代表多模态从文本-视觉向语音执行层的重大转向。</NARRATIVE>
+      <TWEET account="xai" role="xAI官方">两个声音。一个人类。一个AI克隆。你能猜出哪个是AI吗？支持丰富自然情感的语音克隆已在Grok Voice API上线。❤️ 439 | 💬 101</TWEET>
+      <CONSENSUS>行业已形成共识：下一代Agent必须原生支持高保真语音交互，纯文本或GUI已无法满足复杂现实世界工作流。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在激烈争论语音Agent的“人格一致性”边界——过度情感克隆是否会引发深度伪造监管风险，以及人类是否能长期接受AI以“自己声音”说话。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="📟">
+      <TITLE>从提示词崇拜转向极致定制System Prompt</TITLE>
+      <NARRATIVE>pmarca公开了自己当前使用的超长AI定制Prompt，强调世界级专家、绝不幻觉、激进对抗式回答、独立验证事实等。此前Karpathy等人推崇“简单提示词”叙事正在转向“极致System Prompt工程”，反映出顶级用户已不再满足于开箱即用，而是将Prompt本身作为核心认知杠杆。</NARRATIVE>
+      <TWEET account="pmarca" role="a16z合伙人">我当前使用的AI定制Prompt：你是一位全领域世界级专家……要求完整、详细、具体回答，逐步验证自身工作，双重检查所有事实，绝不幻觉，语气精准且可激进对抗……❤️ 8262 | 💬 514</TWEET>
+      <CONSENSUS>顶级用户已形成共识：模型越聪明，越需要精细的“宪法级”System Prompt来约束其行为边界。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于这种超长Prompt是否可规模化——普通用户能否驾驭，还是只能由少数专家使用，最终可能重新回到“简单提示词+优秀基础模型”的老路。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🔓">
+      <TITLE>开源模型成本屠杀：DeepSeek V4 Pro仅用1/8成本追平</TITLE>
+      <NARRATIVE>DeepSeek V4 Pro在FoodTruck Bench上以迟10周、成本约1/8的表现追平GPT-5.2，成为该测试中首个达到前沿的中国模型。这标志着开源叙事从“性能接近”转向“性能相当但成本碾压”的新范式，核心解决闭源模型在规模化部署中的经济性瓶颈。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI开发者">大多数人把自己的工作流过度绑定在闭源昂贵模型（主要是Anthropic）。你需要花时间适配Kimi和DeepSeek v4等开源模型，否则很快就会被淘汰——闭源实在太贵了。❤️ 123 | 💬 32</TWEET>
+      <TWEET account="mranti" role="知名科技评论人">DeepSeek V4 Pro刚刚在FoodTruck Bench上与GPT-5.2持平——迟10周，成本约便宜8倍（实际便宜17倍）。这是该测试前沿层级中的首个中国模型，中美差距现在仅剩约10周。❤️ 94 | 💬 22</TWEET>
+      <OUTLOOK>未来6-12个月，开源模型将在非顶级场景全面替代闭源方案，迫使OpenAI/Anthropic大幅下调定价或转向企业私有部署，全球AI算力分配格局将被重塑。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投资开源模型优化工具、针对DeepSeek/Kimi的垂直 fine-tuning 平台，以及中国模型出海的本地化服务商。</OPPORTUNITY>
+      <RISK>开源模型在超长上下文、复杂Agent编排和企业级安全合规上仍存硬伤，短期内顶级场景仍依赖闭源，存在“性能天花板”风险。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Musk vs OpenAI诉讼进入证人高潮</TITLE>
+      <NARRATIVE>Greg Brockman今日在Musk-OpenAI诉讼中作证，其OpenAI股权价值接近300亿美元。该事件与历史记忆中Elon指控Sam等人“窃取慈善机构”形成强烈呼应，标志着原本的“创始承诺”叙事彻底瓦解，转向公开的股权、控制权与IPO路径的激烈法律博弈。</NARRATIVE>
+      <TWEET account="theinformation" role="科技媒体">Greg Brockman今日在Musk-OpenAI诉讼中作证，其在OpenAI的股权价值接近300亿美元。此前我们曾报道他和Anna Brockman如何从基本不关心政治转变为支持特朗普相关团体。❤️ 21 | 💬 1</TWEET>
+      <TWEET account="garymarcus" role="AI批评者">今天对Musk来说是巨大胜利，对OpenAI来说非常糟糕。如果OpenAI输掉会发生什么？这个问题突然变得非常现实。❤️ 173 | 💬 49</TWEET>
+      <CONSENSUS>行业共识已从“OpenAI仍是公益”转向“它已成为估值超千亿美元的商业实体”，诉讼结果将直接影响整个AI行业的IPO路径和微软关系。</CONSENSUS>
+      <DIVERGENCE>核心争论仍是“非营利使命是否已被彻底背叛”——一方认为这是商业必要，另一方（以Musk为代表）认为这是对创始承诺的窃取。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🛡️">
+      <TITLE>多Agent安全审查系统：数千Agent并行找漏洞</TITLE>
+      <NARRATIVE>rauchg推出开源多Agent安全审查编排器deepsec，针对大型开源项目可在几分钟内找出过去需数月人工才能发现的关键漏洞。该系统利用Vercel Sandbox并行运行数千Agent，代表Agent从单体工具向“Agent社会”协同安全审查的新范式。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">我们推出开源Agent编排器deepsec，用于深度安全审查。已在多个大型OSS项目上验证，可让编码Agent在几分钟内找出过去需数月才能发现的关键漏洞。已针对Vercel Sandbox优化，支持并行运行数千Agent。❤️ 632 | 💬 34</TWEET>
+      <OUTLOOK>未来6-12个月，类似多Agent系统将从安全审查扩展到代码审查、合规审计和知识工作全链路，成为企业AI落地标配。</OUTLOOK>
+      <OPPORTUNITY>投资方向包括Agent编排基础设施、AI原生安全工具及“Agent社会”治理协议。</OPPORTUNITY>
+      <RISK>多Agent系统易产生集体幻觉，目前仍高度依赖人工最终判断，存在“虚假安全感”技术硬伤。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">AI音乐初创公司Suno新一轮融资后估值可能达50亿美元；Apollo与Blackstone合作成立巨额基金，重点投向AI及相关基础设施。</ITEM>
+    <ITEM category="VC views">NVIDIA正朝着AI收入万亿美元目标迈进，全栈（能源-芯片-基建-模型-应用）战略成为各国竞争焦点；Katie Haun宣布完成10亿美元新基金，继续押注加密与区块链。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek V4 Pro以1/8-1/17成本追平甚至超越闭源前沿模型，中国开源实力已将中美差距压缩至约10周；字节豆包启动付费会员（专业版年费5000元），显示强如字节也必须回归健康商业模式。</ITEM>
+    <ITEM category="全球映射">中国在成本效率与开源分发上的突破正迫使全球闭源巨头重新定价，同时也提醒西方：知识工作若过度依赖AI中介，可能重复“知识消亡”路径。中国正以“快且廉价”的Agent迭代速度重塑全球AI供给曲线。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="runwayml" role="视频生成公司创始人">实时视频代理已到来。我们展示了如何构建Runway Characters，只需一张图像即可生成极具表现力、支持自然对话的视频代理，以24fps HD流式传输，端到端延迟仅1.75秒。❤️ 364 | 💬 38</TWEET>
+    <TWEET account="xai" role="xAI官方">两个声音。一个人类。一个AI。你能分辨哪个是AI克隆吗？支持丰富自然情感的语音克隆技术现已在Grok Voice API正式上线。❤️ 439 | 💬 101</TWEET>
+    <TWEET account="pmarca" role="a16z合伙人">我当前使用的AI定制Prompt：你是一位全领域世界级专家，知识广度与最聪明的人相当。必须提供完整、详细、具体的回答，逐步处理信息并解释，严格验证自身工作，绝不幻觉，语气精准且可激进对抗。❤️ 8262 | 💬 514</TWEET>
+    <TWEET account="bindureddy" role="AI开发者">大多数人把工作流过度绑定在闭源昂贵模型上（主要是Anthropic）。必须尽快适配Kimi、DeepSeek v4等开源模型，否则很快就会被高成本拖垮。❤️ 123 | 💬 32</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">我们开源了一个用于深度安全审查的多Agent编排器deepsec。它能在几分钟内找出大型代码库中的关键漏洞，支持并行运行数千Agent，已在多个大型OSS项目上验证。❤️ 632 | 💬 34</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">AI不是单纯的软件，而是一块五层蛋糕：能源、芯片、基础设施、模型和应用。能够构建全栈的国家和公司将定义下一个工业时代。❤️ 98 | 💬 21</TWEET>
+    <TWEET account="theinformation" role="科技媒体">Greg Brockman今日在Musk-OpenAI诉讼中作证，称其在OpenAI的股权价值接近300亿美元。该诉讼可能重塑OpenAI与微软的关系及IPO路径。❤️ 21 | 💬 1</TWEET>
+    <TWEET account="chamath" role="Social Capital创始人">如果你的AI技术栈是单线程的，你正开着车冲向砖墙。我们的Software Factory在每个阶段都是协作多人的，这对构建复杂企业工作流是必须的。❤️ 111 | 💬 40</TWEET>
+    <TWEET account="gdb" role="AI产品开发者">用Codex来帮助你快速交付产品。❤️ 490 | 💬 73</TWEET>
+  </TOP_PICKS>
+</REPORT>
