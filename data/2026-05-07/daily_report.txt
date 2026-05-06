@@ -1,0 +1,77 @@
+<REPORT>
+  <COVER title="马斯克算力大和解：SpaceXAI租借Colossus给Anthropic" prompt="Grand strategic architectural metaphor of two rival AI fortresses merging under a glowing orbital Colossus supercomputer, massive data beams flowing between SpaceX rockets and Anthropic neural symbols, NVIDIA GPU clusters forming a collaborative bridge in deep space, cinematic volumetric lighting with golden hour rays piercing through intricate circuit-like strategic maps, ultra-detailed industrial infrastructure with holographic alliance contracts floating above, epic scale, 8K resolution, dramatic volumetric god rays and reflective metallic surfaces" insight="从零和竞争转向有条件算力共享，基础设施开源与Agent全民化同步爆发"/>
+  <PULSE>硅谷今日核心流向是从算力军备竞赛转向战略协作、基础设施开源与AI工具全民化，Musk亲自为Anthropic“背书”成为最大意外。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="🤝">
+      <TITLE>从宿敌到算力盟友：Musk亲自背书Anthropic并开放Colossus</TITLE>
+      <NARRATIVE>历史记忆中Musk曾称Anthropic为“Misanthropic”并激烈批评其安全路线，此次在与团队深度会面后公开认可其“高度胜任且致力于正确之事”，并以SpaceXAI名义提供Colossus 1算力（训练已迁至Colossus 2），附加“若危害人类可收回”条款，标志AI大厂从零和博弈转向有条件协同，核心冲突点在于“good for humanity”的定义权。</NARRATIVE>
+      <TWEET account="elonmusk" role="SpaceXAI创始人">我上周花大量时间与Anthropic高管会面，他们高度胜任且真心想做正确的事，没有触发我的“邪恶探测器”。只要他们持续自我审视，Claude大概率会是好的。于是我同意将Colossus 1租借给他们。（❤️ 20036 | 💬 1065）</TWEET>
+      <TWEET account="xai" role="xAI官方">SpaceXAI将向Anthropic提供Colossus 1访问权限，这是全球最大、最快部署的AI超算之一。同时双方表达了共同开发数吉瓦轨道AI算力能力的兴趣。（❤️ 17908 | 💬 825）</TWEET>
+      <CONSENSUS>领先实验室在算力极度短缺下，任何可靠的算力供给都会被快速采纳，合作优于独占已成为现实选择。</CONSENSUS>
+      <DIVERGENCE>若Anthropic未来决策偏离Musk的“有益人类”红线，算力是否会被立即收回？这一保留条款的实际执行边界仍存巨大争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🔗">
+      <TITLE>AI超算新网络协议MRC开源：大规模训练不再卡在同步</TITLE>
+      <NARRATIVE>OpenAI联合AMD、Broadcom、Intel、Microsoft、NVIDIA发布Multipath Reliable Connection（MRC）协议，已在其最大训练集群（包括Oracle Abilene和Microsoft Fairwater）生产部署。该协议针对AI超算在海量芯片间保持同步的难题，能显著降低GPU空闲时间。这是行业首次将关键网络协议完全开源，试图解决物理基础设施瓶颈。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI官方">我们与AMD、Broadcom、Intel、Microsoft、NVIDIA合作发布MRC新开源网络协议，帮助大型AI训练集群更快、更可靠地运行，减少GPU浪费。该协议已在我们的所有最大超算上部署，并通过Open Compute Project向全行业开放。（❤️ 4766 | 💬 176）</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">MRC：针对大型AI训练集群的新开源网络协议，已在我们的最大训练集群生产部署。（❤️ 568 | 💬 49）</TWEET>
+      <OUTLOOK>未来6-12个月，MRC有望成为AI训练集群的事实标准，大幅降低训练成本并加速新模型迭代，基础设施竞争从硬件转向网络协议层。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注AI网络硬件、RDMA优化、集群管理工具，以及为传统数据中心提供MRC迁移服务的集成商。</OPPORTUNITY>
+      <RISK>协议虽开源但实现复杂度高，中小实验室短期难以落地，可能进一步拉大与顶级玩家的基础设施差距，形成新准入门槛。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="📊">
+      <TITLE>Codex走向全民化：ChatGPT深度嵌入Excel与日常办公</TITLE>
+      <NARRATIVE>gdb直接宣布“ChatGPT for Excel and Google Sheets”和“codex is for everyone”，呼应其历史记忆中“Codex不再只服务程序员，而是服务所有用电脑完成任务的人”的判断。结合sama称ChatGPT“feels very switched on now”，显示OpenAI正将AI从编码工具快速扩展至通用生产力平台，解决非程序员与AI交互的最后一公里。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI CTO">ChatGPT for Excel and Google Sheets。（❤️ 1444 | 💬 102）</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">codex is for everyone。（❤️ 223 | 💬 33）</TWEET>
+      <OUTLOOK>未来6-12个月，AI将深度嵌入所有主流生产力软件，普通白领生产力有望提升3-5倍，软件形态从“工具”转向“共生执行层”。</OUTLOOK>
+      <OPPORTUNITY>垂直领域Agent（如财务、HR、法务）与Office套件深度绑定的创业机会，以及帮助传统企业将遗留系统接入Codex的工作流迁移服务。</OPPORTUNITY>
+      <RISK>过度依赖云端上下文记忆可能带来数据隐私风险，同时“vibe coding”在严监管行业的可靠性仍待验证。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="📈">
+      <TITLE>AI就业末日论被数据打脸：新岗位持续涌现</TITLE>
+      <NARRATIVE>历史记忆中doomerism曾是主流叙事（Chamath也称其为筹款话术），今日a16z与pmarca连续发文用1940年以来就业数据反击：AI暴露行业工资增长更快，软件工程师需求不降反升，新工作绝大多数在1940年不存在，“lump of labor” fallacy再次被证伪，叙事从“取代人类”转向“创造新劳动形态”。</NARRATIVE>
+      <TWEET account="a16z" role="a16z官方">AI就业末日叙事被打破：软件工程师需求上升、AI暴露行业工资超趋势增长、开放PM职位达2022年以来最高。更多数据见David George报告。（❤️ 582 | 💬 43）</TWEET>
+      <TWEET account="a16z" role="a16z官方">自1940年以来多数新工作当时并不存在。不存在固定“劳动总量”。新技术反复创造新就业。a16z David George拆解AI就业末日神话。（❤️ 239 | 💬 13）</TWEET>
+      <CONSENSUS>当前数据未显示AI与失业率或就业增长有统计学显著负相关，普通人实际使用AI的频率远超其公开表述。</CONSENSUS>
+      <DIVERGENCE>长期来看（3-5年后），Agent大规模替代中低技能重复劳动后，社会如何重新定义“工作”与“价值分配”仍是大佬激烈争论点。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="📱">
+      <TITLE>手机成为Agent意图路由器：Boris式Loop走向大众</TITLE>
+      <NARRATIVE>dotey详细分享Anthropic工程负责人Boris Cherny用手机管理5-10个常驻session、数百个Agent、夜间数千任务的“Loop”实践（用cron定时执行PR修复、CI维护、反馈聚类等）。TRAE SOLO Mobile实现三端同步，手机从“操作设备”变为“下发意图”，让非程序员也能随时指挥Agent完成办公、写作、数据任务，开启Agent原生移动时代。</NARRATIVE>
+      <TWEET account="dotey" role="知名AI观察者">Boris Cherny（Anthropic工程负责人）现在大部分工作在手机上完成。他在Claude App里有5-10个常驻session、几百个Agent，夜间几千个深度任务在跑。他称之为Loop，用cron定时任务。这几天测试TRAE SOLO Mobile后，我越来越理解这种变化：手机正成为意图路由器，三端打通让Agent随时随地接力执行。（❤️ 10 | 💬 4）</TWEET>
+      <OUTLOOK>未来6-12个月，持久化Agent Loop将从大厂工程师特权变为普通人标配，办公软件将全面Agent-native，重塑企业协同与个人生产力边界。</OUTLOOK>
+      <OPPORTUNITY>专注移动端Agent编排、跨设备状态同步、定时Loop市场的初创公司，以及为飞书、企业微信等提供Agent原生插件的工具链机会。</OPPORTUNITY>
+      <RISK>Agent长时间自主运行带来的不可控风险（如失控执行、累积错误）以及企业数据安全合规问题仍是硬伤，短期泡沫风险较高。</RISK>
+    </THEME>
+
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Scale AI与美国国防部企业协议从1亿美元上限扩展至5亿美元，加速五角大楼AI能力部署。</ITEM>
+    <ITEM category="VC views">a16z持续发布数据报告拆解“AI就业末日”神话，强调新技术反复创造新岗位而非固定劳动总量。</ITEM>
+    <ITEM category="VC views">Perplexity推出自研ROSE推理引擎与Finance Search API，针对万亿参数模型与授权金融数据流优化，显示垂直搜索+Agent方向获资本持续关注。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek V4虽在长上下文与成本上展现极致自信，但部分中文用户反馈其交互“笨拙”、EQ不足，说明开源模型在产品化与人性化体验上仍需追赶GPT-5.5 Instant。</ITEM>
+    <ITEM category="全球映射">中国在开源高效模型与数据效率上的快速迭代（8%成本达成SOTA），正迫使全球将注意力从纯算力军备转向“数据墙”与极致性价比路径，对冲了部分美国算力垄断优势。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="SpaceXAI创始人">我上周与Anthropic团队深度会面后印象深刻，他们高度胜任且真心想做对的事。因此我同意将Colossus 1租借给他们，只要AI继续有益人类。我们保留在必要时收回算力的权利。（❤️ 20036 | 💬 1065）</TWEET>
+    <TWEET account="xai" role="xAI官方">SpaceXAI将为Anthropic提供Colossus 1访问权限，这是全球最大最快部署的AI超算之一。双方还表达了共同开发数吉瓦轨道AI算力的兴趣。（❤️ 17908 | 💬 825）</TWEET>
+    <TWEET account="openai" role="OpenAI官方">我们与AMD、Broadcom、Intel、Microsoft、NVIDIA共同发布MRC开源网络协议，帮助大型AI训练集群更高效可靠运行，已在自家所有最大超算部署并向全行业开放。（❤️ 4766 | 💬 176）</TWEET>
+    <TWEET account="gdb" role="OpenAI CTO">codex is for everyone。（❤️ 223 | 💬 33）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">ChatGPT现在感觉非常“接通”了。（❤️ 5236 | 💬 1116）</TWEET>
+    <TWEET account="a16z" role="a16z官方">AI就业末日叙事不成立：软件工程师需求上升、AI相关行业工资超趋势增长、开放PM职位达2022年最高。新技术反复创造新工作，而非固定劳动总量。（❤️ 582 | 💬 43）</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">祝贺SpaceX与Anthropic达成算力合作，Colossus 1由22万多块NVIDIA GPU驱动。AI的未来运行在NVIDIA平台上。（❤️ 5071 | 💬 190）</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity官方">我们开发了自研推理引擎ROSE，用于从嵌入模型到万亿参数LLM的高效服务。通过CuTeDSL可更快为NVIDIA Hopper和Blackwell构建特化GPU kernel。（❤️ 693 | 💬 48）</TWEET>
+    <TWEET account="dotey" role="知名AI观察者">Anthropic工程负责人Boris现在主要在手机上工作，管理数百Agent与定时Loop任务。TRAE SOLO Mobile让普通人也能随时用手机指挥Agent完成办公、写作与数据任务，三端同步正在改变工作范式。（❤️ 10 | 💬 4）</TWEET>
+  </TOP_PICKS>
+</REPORT>
