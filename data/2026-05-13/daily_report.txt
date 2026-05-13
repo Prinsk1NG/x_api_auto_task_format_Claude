@@ -1,0 +1,83 @@
+<REPORT>
+  <COVER title="AI技能觉醒：健康法律双突破" prompt="Minimalist futuristic data visualization art depicting the awakening of AI skills as luminous neural nodes and interconnected skill trees expanding across a clean digital canvas. Intelligent agent flows morph into molecular structures for drug discovery on one side and balanced legal scales with smart document connectors on the other. Use precise geometric lines, glowing cyan and deep indigo data streams, floating holographic skill folders instead of files, soft cinematic rim lighting with subtle volumetric glows, ultra-clean industrial minimalism, no neon clutter, 8K resolution, shot on Arri Alexa with impeccable sharpness and depth of field." insight="AI从模型转向技能与垂直落地，健康法律成新前沿"/>
+  <PULSE>今日硅谷核心叙事从单纯模型 scaling 转向「技能」与多代理协同的实用化，同时开源数据破百万、GB200推理优化与成果导向企业定价成为新共识。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>AI原生药物发现获21亿美金背书</TITLE>
+      <NARRATIVE>Demis Hassabis强调AI首要应用应是改善人类健康，从AlphaFold延续到Isomorphic Labs彻底重塑药物发现流程，此轮21亿融资标志着AI已从实验室工具走向解决“所有疾病”的使命级平台，这是历史记忆中未曾出现的大规模商业化落地新叙事。</NARRATIVE>
+      <TWEET account="demishassabis" role="DeepMind CEO">我始终相信AI的头号应用应该是改善人类健康。这项工作从AlphaFold开始，现在在Isomorphic Labs以重塑药物发现、最终解决所有疾病为使命。我们刚刚获得21亿美元新融资来加速这一目标。❤️ 10861 | 💬 397</TWEET>
+      <OUTLOOK>未来6-12个月，AI驱动的药物研发周期有望从数年缩短至数月，大药厂与AI原生实验室的合作将爆发式增长，生物技术投资估值体系将被重写。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注AI+化学生物信息学交叉的早期团队、自动化实验室机器人基础设施，以及针对特定疾病领域的专有数据集公司。</OPPORTUNITY>
+      <RISK>21亿融资虽壮观，但真正临床成功仍需多年验证，技术硬伤在于当前AI对复杂生物系统的因果理解仍不完备，存在“漂亮但无效”分子风险。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🧠">
+      <TITLE>多代理协同扩展测试时计算</TITLE>
+      <NARRATIVE>多篇论文聚焦通过Multi-Agent Synergy在测试时显著提升推理质量，_akhaliq分享的TMAS和Soohak基准显示，让多个AI并行独立思考再由主持Agent综合，能大幅超越单模型推理，这是历史记忆中Recursive Multi-Agent Systems的直接深度推进与新范式落地。</NARRATIVE>
+      <TWEET account="_akhaliq" role="AI论文雷达">TMAS：通过多代理协同扩展测试时计算的新论文。https://t.co/HwX9PDuXXQ ❤️ 19 | 💬 6</TWEET>
+      <TWEET account="vista8" role="独立AI开发者">读了HeavySkill论文很有意思：让多个AI先并行独立思考生成多条推理，再用另一轮推理综合，最终答案质量大幅提升。我正在用Claude Code+Codex实现类似Skill。❤️ 83 | 💬 18</TWEET>
+      <OUTLOOK>6-12个月内，多代理框架将成为Agent产品的标配，推理成本与质量的Pareto前沿将被重新定义，终端用户可获得更可靠的复杂任务解决能力。</OUTLOOK>
+      <OPPORTUNITY>投资专注于“主持Agent”与“质量层”基础设施的早期团队（如Judgment Labs），或开发多代理编排协议的开源商业化公司。</OPPORTUNITY>
+      <RISK>协调多个Agent的系统开销可能抵消质量提升，短期内仍可能是研究玩具而非生产力工具，存在明显工程硬伤。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>程序员用AI后更卷却更兴奋</TITLE>
+      <NARRATIVE>pmarca和a16z观察到，AI显著提升程序员边际生产力后，他们工作时间更长、睡眠更少却处于欣快状态，这与历史记忆中“AI就业末日叙事”形成鲜明反差，标志着Luddite零和观点正在被现实数据瓦解。</NARRATIVE>
+      <TWEET account="pmarca" role="a16z合伙人">我们距离AI末日论者担心的生产力爆炸还差得很远。❤️ 696 | 💬 82</TWEET>
+      <TWEET account="a16z" role="a16z官方">pmarca解读AI给程序员带来的真实经济实验：如果你相信卢德派零和论，会预期他们工作越来越少、收入越来越低、迅速失业。但现实完全相反——他们比以往任何时候都更努力工作，眼睛下有巨大的黑眼圈，却无比兴奋。增加工人边际生产力不会减少人类工作，而是扩张它。❤️ 113 | 💬 15</TWEET>
+      <CONSENSUS>行业最新共识是AI暂时不会导致程序员失业，反而创造更多工作并显著提高工作强度与主观幸福感。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在激烈争论这种“欣快卷”状态是可持续的还是会引发 burnout，以及是否仅限于顶级人才。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="depth" emoji="📊">
+      <TITLE>开源数据破百万+GB200推理跃迁</TITLE>
+      <NARRATIVE>Hugging Face达到100万开放数据集里程碑，perplexity_ai同步发布在NVIDIA GB200 NVL72上服务Qwen3 235B MoE模型的研究，证明Blackwell不仅是训练平台，更是高吞吐推理的重大升级，这是对历史记忆中DeepSeek V4开源自信的直接延续与基础设施层面的深度推进。</NARRATIVE>
+      <TWEET account="huggingface" role="Hugging Face官方">我们刚刚在Hugging Face Hub上达到100万开放数据集里程碑🎉。开放模型需要开放数据，我们与最不可思议的AI社区一起实现了这一目标！继续向下一个百万前进🚀 ❤️ 293 | 💬 19</TWEET>
+      <TWEET account="perplexity_ai" role="Perplexity官方">我们发表了关于如何在NVIDIA GB200 NVL72 Blackwell机架上服务后训练Qwen3 235B模型的新研究。GB200对于大型MoE模型的高吞吐推理是一个重大进步，而不仅仅是训练平台。❤️ 806 | 💬 45</TWEET>
+      <CONSENSUS>开源数据与高效推理硬件的结合正在让顶级模型本地化与低成本部署成为现实，开源阵营获得显著势头。</CONSENSUS>
+      <DIVERGENCE>闭源实验室仍在烧巨资追求绝对SOTA，而开源社区已能用笔记本跑准前沿Agent循环，成本曲线何时交叉仍是未解之谜。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="⚖️">
+      <TITLE>法律AI插件化与系统深度集成</TITLE>
+      <NARRATIVE>Anthropic推出Claude for Legal，一次性开源12个法律岗位插件和20+行业软件MCP连接器，要求用户通过“冷启动访谈”注入自家playbook，这代表AI从通用工具转向高度定制化垂直执行层，是此前未见的新范式。</NARRATIVE>
+      <TWEET account="dotey" role="AI观察者">Anthropic今天正式上线「Claude for Legal」仓库，一口气放出12个针对具体法律岗位的插件和超过20个行业软件MCP连接器。无论公司法务、律所还是法学生，都能找到对应工具。核心是解决输出太通用的问题，通过CLAUDE.md注入团队风格。已覆盖Thomson Reuters、Harvey、DocuSign等几乎所有主流平台。❤️ 78 | 💬 25</TWEET>
+      <OUTLOOK>未来6-12个月，垂直领域Agent Store将真正商业化，法律将成为首个被AI彻底重构的专业服务行业，类似模板将在医疗、金融快速复制。</OUTLOOK>
+      <OPPORTUNITY>投资“行业playbook注入”与“MCP连接器”标准化协议的公司，或为非AI原生垂直软件提供AI适配层的集成商。</OPPORTUNITY>
+      <RISK>法律判断的核心主观性与责任问题无法完全外包给AI，所有输出仍需律师最终把关，短期内更可能是效率工具而非替代方案。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="💰">
+      <TITLE>企业AI从Token转向成果付费</TITLE>
+      <NARRATIVE>The Information报道FedEx要求AI供应商按业务成果而非Token或订阅收费，ServiceNow也观察到相同趋势，这标志着企业不再为“幻觉消耗”买单，而是要求可量化的ROI，是对过去两年Token经济模式的重大转向。</NARRATIVE>
+      <TWEET account="theinformation" role="The Information">FedEx希望AI供应商按业务成果而非Token或订阅收费。ServiceNow也看到这一趋势，但警告定义和衡量企业软件中的“成果”很容易变成合同灾难。❤️ 10 | 💬 2</TWEET>
+      <TWEET account="eladgil" role="知名天使投资人">Long Lake完成了全球首个（据我所知）AI驱动的上市公司私有化交易——63亿美元收购百年老店Amex Global Business Travel，并计划用AI彻底改造它。❤️ 240 | 💬 16</TWEET>
+      <CONSENSUS>企业客户越来越不愿意为不确定性买单，成果导向合同将成为下一代AI采购主流。</CONSENSUS>
+      <DIVERGENCE>如何精确定义和合约化“成果”仍是激烈争论焦点，容易演变为法律纠纷。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Isomorphic Labs获21亿美元融资，用于AI重塑药物发现；Judgment Labs完成3200万美元种子+ A轮，用于AI Agent质量层；Long Lake完成全球首个AI驱动63亿美元上市公司私有化。</ITEM>
+    <ITEM category="VC views">a16z与pmarca强调AI提升程序员生产力后工作时长与热情同步增加，传统“就业末日”叙事被现实证伪；Lightspeed认为Agent质量基础设施是当前最被低估的投资方向。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">吴恩达通过dotey传播的观点认为“AI引发大规模失业”是危险恐慌叙事，中国开源模型（DeepSeek系列）正以极低成本提供接近SOTA能力，显示中国在性价比路线上的显著优势。</ITEM>
+    <ITEM category="全球映射">全球投资者应警惕将中国AI进展简单归为“跟随”，其在长上下文、开源分发效率和垂直落地速度上已形成独特打法，可能在Agent时代对硅谷构成意外竞争压力。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="demishassabis" role="DeepMind CEO">我始终相信AI的头号应用应该是改善人类健康。这项工作从AlphaFold开始，现在在Isomorphic Labs以重塑药物发现、最终解决所有疾病为使命。我们刚刚获得21亿美元新融资来加速这一目标。❤️ 10861 | 💬 397</TWEET>
+    <TWEET account="huggingface" role="Hugging Face官方">我们刚刚在Hugging Face Hub上达到100万开放数据集里程碑🎉。开放模型需要开放数据，我们与最不可思议的AI社区一起实现了这一目标！继续向下一个百万前进🚀 ❤️ 293 | 💬 19</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity官方">我们发表了关于如何在NVIDIA GB200 NVL72 Blackwell机架上服务后训练Qwen3 235B模型的新研究。GB200对于大型MoE模型的高吞吐推理是一个重大进步，而不仅仅是训练平台。❤️ 806 | 💬 45</TWEET>
+    <TWEET account="dotey" role="AI观察者">Anthropic今天正式上线「Claude for Legal」仓库，一口气放出12个针对具体法律岗位的插件和超过20个行业软件MCP连接器。无论公司法务、律所还是法学生，都能找到对应工具。核心是解决输出太通用的问题，通过CLAUDE.md注入团队风格。❤️ 78 | 💬 25</TWEET>
+    <TWEET account="a16z" role="a16z官方">pmarca解读AI给程序员带来的真实经济实验：如果你相信卢德派零和论，会预期他们工作越来越少、收入越来越低、迅速失业。但现实完全相反——他们比以往任何时候都更努力工作，眼睛下有巨大的黑眼圈，却无比兴奋。增加工人边际生产力不会减少人类工作，而是扩张它。❤️ 113 | 💬 15</TWEET>
+    <TWEET account="_akhaliq" role="AI论文雷达">TMAS：通过多代理协同扩展测试时计算的新论文。❤️ 19 | 💬 6</TWEET>
+    <TWEET account="elonmusk" role="xAI & Tesla CEO">Grok now has skills ❤️ 17879 | 💬 2604</TWEET>
+    <TWEET account="pmarca" role="a16z合伙人">我们距离AI末日论者担心的生产力爆炸还差得很远。❤️ 696 | 💬 82</TWEET>
+    <TWEET account="theinformation" role="The Information">FedEx希望AI供应商按业务成果而非Token或订阅收费。ServiceNow也看到这一趋势，但警告定义和衡量企业软件中的“成果”很容易变成合同灾难。❤️ 10 | 💬 2</TWEET>
+  </TOP_PICKS>
+</REPORT>
