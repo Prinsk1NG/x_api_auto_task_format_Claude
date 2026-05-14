@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="马斯克黄仁勋同机赴京 Codex企业免费大战" prompt="Ultra-realistic cinematic scene of two iconic tech silhouettes aboard Air Force One, flying over a glowing transpacific strategic map that bridges Silicon Valley skyscrapers to Beijing's futuristic skyline. Holographic Codex code streams and neural agent nodes flow downward into enterprise SAP and creative production pipelines like digital supply chains. Metallic industrial textures on the aircraft exterior, dramatic volumetric god rays piercing through clouds at dawn, strategic chessboard grid overlay showing AI company positions and investment vectors. Shot on 8K large format film, anamorphic lens flares, precise technical blueprint details, grand architectural metaphor of geopolitical tech realignment, cinematic color grading with deep navy, gunmetal silver and amber highlights." insight="中美AI领袖外交与Codex免费迁移潮，标志企业Agent全面落地与全球供应链重构。"/>
+  <PULSE>今日叙事主线是OpenAI以Codex免费30天强攻企业迁移，同时马斯克携黄仁勋乘坐空军一号访华，Agentic工具在创意、企业、安全多线并进，中国AI融资与基础设施热度同步飙升。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🔥">
+      <TITLE>Codex企业免费30天：编码工具进入全面迁移战</TITLE>
+      <NARRATIVE>Sam Altman亲自下场推广Codex为“最佳AI编码产品”，提供两个月免费使用以推动企业切换；OpenAI与gdb均强调企业采用热情高涨，这与历史记忆中Chamath“需要全新执行层而非把AI塞进旧手机”的观点形成呼应，标志从实验性工具转向生产级企业标配的重大推进。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">Codex是最好的AI编码产品，我们希望让大家容易上手尝试。接下来30天，我们为想切换的公司提供两个月免费Codex使用权。（❤️ 13033 | 💬 1334）</TWEET>
+      <TWEET account="openai" role="OpenAI">这是切换到Codex的另一个理由。（❤️ 1683 | 💬 174）</TWEET>
+      <CONSENSUS>企业已形成Codex在编码与浏览器后台任务上显著领先的共识，免费政策将加速替换Claude等竞品。</CONSENSUS>
+      <DIVERGENCE>大佬们争论焦点在于：是继续追求“最聪明模型”还是转向“价格/速度权衡”，Sam本人也承认存在“模型焦虑”。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="🌏">
+      <TITLE>马斯克黄仁勋同乘空军一号访华</TITLE>
+      <NARRATIVE>Elon Musk公开表示正与Jensen Huang一同乘坐空军一号前往北京，此前历史记忆中Elon刚将Colossus租借给Anthropic并称其高管“高度胜任”，本次访华释放出中美AI算力与基础设施合作信号，与过去“脱钩”叙事形成鲜明转向。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI/Tesla CEO">我正乘坐空军一号前往北京。（❤️ 584488 | 💬 35979）</TWEET>
+      <TWEET account="elonmusk" role="xAI/Tesla CEO">只有Jensen和我两个人乘坐空军一号。（❤️ 52110 | 💬 2074）</TWEET>
+      <CONSENSUS>行业共识转向“极端算力短缺迫使竞争对手形成 uneasy partnership”，The Information指出这正是中美AI供应链重构的缩影。</CONSENSUS>
+      <DIVERGENCE>争论点在于此行是否会带来Starlink入华或更多算力合作，抑或仅是礼节性访问，市场仍在等待落地成果。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🎥">
+      <TITLE>Runway Agent与企业Agent全面爆发</TITLE>
+      <NARRATIVE>Runway推出仅需对话即可生成完整配音剪辑视频的AI创意伙伴，NVIDIA与SAP合作打造企业级专业AI Agent，Perplexity强调Agent默认安全沙箱与并行扫描，这共同定义了“Agent原生创意与企业工作流”新范式，解决此前GUI不适合大模型、创意生产效率低的核心痛点。</NARRATIVE>
+      <TWEET account="runwayml" role="RunwayML">遇见Runway Agent。你新的AI创意伙伴，通过简单对话即可帮助你构思并执行完整配音、剪辑的视频。从广告到短视频到社交内容，Runway Agent让生产变得简单。（❤️ 257 | 💬 32）</TWEET>
+      <TWEET account="nvidia" role="NVIDIA">我们与SAP合作打造企业级专业AI Agent，内置安全、治理和执行控制。（❤️ 427 | 💬 31）</TWEET>
+      <OUTLOOK>未来6-12个月，Agent将从实验工具变成创意与企业SaaS的核心执行层，视频与ERP工作流全面Agent化。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注Agent编排、安全沙箱、行业垂直MCP连接器，以及将游戏引擎世界模型转化为训练数据的公司（如Origin Lab）。</OPPORTUNITY>
+      <RISK>短期内“成果衡量”仍难标准化，可能出现合同纠纷；视频Agent在长时一致性上仍有硬伤。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🏢">
+      <TITLE>系统记录向Agentic架构演进</TITLE>
+      <NARRATIVE>a16z指出传统系统记录厂商转向headless agents，隐含赌注是数据层仍是价值核心，但创业公司将在专有数据、行动层、真实世界执行上竞争，这与Chamath历史观点“AI让每家公司都能构建定制软件以放大优势”高度一致，标志从“把AI塞进旧系统”到“重写企业软件”的范式转向。</NARRATIVE>
+      <TWEET account="a16z" role="a16z">当系统记录 incumbents 转向 headless agents，他们隐含押注数据层仍是价值来源。创业公司将在专有数据、行动层、真实世界执行等新维度竞争。（❤️ 114 | 💬 12）</TWEET>
+      <CONSENSUS>最新共识是下一代记录系统必须是Agentic的：主动捕获上下文、发起工作、记录数据尾迹。</CONSENSUS>
+      <DIVERGENCE>激烈争论在于：技术买家是否会接受新Agent系统，以及 incumbents 是否能快速完成转型。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🧠">
+      <TITLE>自改进超级智能公司Recursive SI浮出水面</TITLE>
+      <NARRATIVE>Richard Socher、Jeff Clune、Tim Shi等大牛联合创立Recursive_SI，从隐形模式转向公开，目标是构建能在开放式自动化科学发现中安全自我改进的超级智能，直接呼应历史记忆中lightspeedvp投资Ineffable Intelligence“从自身经验发现知识”的方向，这是真正“AI自己做科研”的新叙事起点。</NARRATIVE>
+      <TWEET account="chrmanning" role="Stanford/Recursive SI">今天Recursive_SI从隐形模式现身，致力于构建自我改进的超级智能。由Richard Socher、Jeff Clune等创立，@aixventureshq从第一天就支持。（❤️ 258 | 💬 9）</TWEET>
+      <OUTLOOK>6-12个月内将看到首批自我迭代的科研Agent原型，可能率先在药物发现和材料科学取得突破。</OUTLOOK>
+      <OPPORTUNITY>投资聚焦“自我改进循环”的基础设施、验证框架，以及为这类系统提供高质量合成训练数据的公司。</OPPORTUNITY>
+      <RISK>安全对齐仍是最大硬伤，“开放式自我改进”极易失控，目前仍处于早期概念验证阶段，存在明显泡沫风险。</RISK>
+    </THEME>
+
+    <THEME type="depth" emoji="🔒">
+      <TITLE>Perplexity企业Agent安全架构落地</TITLE>
+      <NARRATIVE>Perplexity推出企业级Computer，强调硬件隔离沙箱、短生命周期代理令牌、并行ML分类器扫描外部内容、文件7天自动删除等，这是Agent从玩具走向生产环境的关键基础设施突破，与OpenAI Deployment Company和a16z观点共同推进“可信Agent”叙事。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="Perplexity AI">Computer默认安全。每个任务都在独立的硬件隔离沙箱中运行，具备VPC级存储和计算分离。Agent使用短生命周期代理令牌而非原始API密钥。（❤️ 384 | 💬 32）</TWEET>
+      <CONSENSUS>行业已就“生产级Agent必须默认安全、沙箱化、可审计”形成最新共识。</CONSENSUS>
+      <DIVERGENCE>当前最大争议是“成果衡量”到底应按Token、订阅还是真实业务成果付费，FedEx和ServiceNow均警告这容易变成合同灾难。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">无问芯穹再获超7亿元融资，日均Token调用量较2025年底增长20倍；DeepSeek正筹划最高500亿元首轮融资，目标估值超3500亿元；月之暗面最新估值超200亿美元，累计融资超376亿元人民币。</ITEM>
+    <ITEM category="VC views">SoftBank从OpenAI持股获利120亿美元；Khosla Ventures等领投TrueShort 1200万美元种子轮；Lightspeed领投Origin Lab 800万美元种子轮，专注从游戏引擎提取世界模型训练数据；a16z持续看好Agentic系统与自改进AI。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">2025年中国AI融资1579起、总规模1504亿元，具身智能领域2026年初至今已88起超200亿元；无问芯穹、DeepSeek、月之暗面等本土大模型基础设施公司融资节奏极快，算力+AgenticMaaS平台日调用量暴增，显示中国在应用落地与工程效率上已形成独特优势。</ITEM>
+    <ITEM category="全球映射">马斯克黄仁勋访华与SoftBank巨额浮盈形成对照，全球AI算力短缺正迫使中美在基础设施层形成务实合作；中国融资热度已接近美国，但大额轮次仍由OpenAI、Anthropic等美企主导，未来6个月中美在具身智能与Agent部署领域的竞争与合作将同步加剧。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">我正乘坐空军一号前往北京。（❤️ 584488 | 💬 35979）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">Codex是最好的AI编码产品，我们希望让大家容易上手尝试。接下来30天，我们为想切换的公司提供两个月免费Codex使用权。（❤️ 13033 | 💬 1334）</TWEET>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">只有Jensen和我两个人乘坐空军一号。（❤️ 52110 | 💬 2074）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">我有时会因为没用最聪明的模型而感到焦虑。但有时我不在乎它真的很慢。我在想我们是否应该更关注价格/速度的权衡，而不是价格/智能的权衡。（❤️ 3925 | 💬 1528）</TWEET>
+    <TWEET account="pmarca" role="a16z">那里每个人都在使用AI，却不敢承认。（❤️ 1060 | 💬 75）</TWEET>
+    <TWEET account="runwayml" role="RunwayML">遇见Runway Agent。你新的AI创意伙伴，通过简单对话即可帮助你构思并执行完整配音、剪辑的视频。从广告到短视频到社交内容，Runway Agent让生产变得简单。（❤️ 257 | 💬 32）</TWEET>
+    <TWEET account="nvidia" role="NVIDIA">我们与SAP合作打造企业级专业AI Agent，内置安全、治理和执行控制。（❤️ 427 | 💬 31）</TWEET>
+    <TWEET account="a16z" role="a16z">当系统记录 incumbents 转向 headless agents，他们隐含押注数据层仍是价值来源。创业公司将在专有数据、行动层、真实世界执行等新维度竞争。（❤️ 114 | 💬 12）</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity AI">Computer默认安全。每个任务都在独立的硬件隔离沙箱中运行，具备VPC级存储和计算分离。Agent使用短生命周期代理令牌而非原始API密钥。（❤️ 384 | 💬 32）</TWEET>
+    <TWEET account="chrmanning" role="Stanford/Recursive SI">今天Recursive_SI从隐形模式现身，致力于构建自我改进的超级智能。由Richard Socher、Jeff Clune等创立，@aixventureshq从第一天就支持。（❤️ 258 | 💬 9）</TWEET>
+  </TOP_PICKS>
+</REPORT>
