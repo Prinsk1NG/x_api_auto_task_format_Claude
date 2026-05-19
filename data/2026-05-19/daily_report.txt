@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="Agentic AI手机落地：Codex持久目标与Vera CPU" prompt="Photorealistic industrial design scene showing a sleek matte-black smartphone in the foreground displaying a persistent Codex goal interface with clean data streams flowing outward. The phone connects via translucent neural conduits to a massive custom CPU chip labeled Vera suspended in a high-tech server rack. Dramatic cinematic lighting with cool blue volumetric beams cutting through mist, emphasizing precision engineering, metallic textures, and microscopic circuit details. Minimal data visualization nodes pulsing at connection points. Shot on Arri Alexa, 8K resolution, ultra-sharp focus on hardware interfaces, no neon or cyberpunk elements." insight="Agent从聊天工具转向手机端持久行动，硬件同步适配"/>
+  <PULSE>硅谷今日叙事主线从马斯克OpenAI诉讼技术性败诉转向Agentic AI在手机、视频、硬件全场景的快速落地与生态并购。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="⚖️">
+      <TITLE>马斯克OpenAI诉讼技术性败诉，上诉箭在弦上</TITLE>
+      <NARRATIVE>历史记忆中Chamath与pmarca曾多次警告OpenAI从非营利转向营利存在道德风险，今日法庭以时效为由未触及实体争议，构成重大转向：OpenAI IPO最大法律障碍解除，但Musk明确表示将上诉至第九巡回法院，慈善掠夺先例的争议远未结束。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI创始人">关于OpenAI案，法官和陪审团并未就案情实质作出裁决，仅以日程技术性问题驳回。任何仔细跟踪此案的人都清楚，Altman和Brockman确实通过窃取慈善机构自肥。唯一问题是他们何时这么做的！我将向第九巡回法院提起上诉，因为创造掠夺慈善机构的先例对美国慈善事业极具破坏性。OpenAI创立的初衷是造福全人类。❤️ 70930 | 💬 5582</TWEET>
+      <TWEET account="dotey" role="知名观察者">马斯克起诉OpenAI案败诉，输在“告晚了”。加州联邦法院陪审团一致裁定超过法定时效，法官当庭表态采纳。马斯克律师称将上诉。此案起于2024年，曾被视为OpenAI IPO最大障碍，判决后其估值8520亿美元的上市之路扫清最大障碍。庭审细节远比判决精彩。❤️ 231 | 💬 7</TWEET>
+      <CONSENSUS>OpenAI上市路径已无重大法律障碍，市场普遍认为IPO估值有望冲击万亿美元</CONSENSUS>
+      <DIVERGENCE>核心争论仍在于早期非营利承诺是否被系统性违背，以及此案是否会成为美国慈善治理的危险判例</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="📱">
+      <TITLE>手机端Codex Agent实现持久目标与远程构建</TITLE>
+      <NARRATIVE>本叙事完全源于今日多条一手推文，定义了“Agent不再被电脑束缚”的新范式：用户可在iOS/Android上设置持久/goal，Codex在云端持续工作，用户通过手机远程监控diff、批准步骤、甚至让Mac保持唤醒。解决的是长任务监控与跨设备行动的底层痛点。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI高管">用ChatGPT App里的Codex直接在手机上构建东西。❤️ 1812 | 💬 289</TWEET>
+      <TWEET account="gdb" role="OpenAI高管">how to use /goal in codex — keep Codex working on a persistent objective until it&apos;s solved。❤️ 835 | 💬 65</TWEET>
+      <OUTLOOK>未来6-12个月，Agent将从桌面工具彻底转向“24/7个人执行层”，企业与个人生产力边界被重塑</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注移动端Agent编排协议、跨设备安全relay以及“Goal持久化”基础设施创业公司</OPPORTUNITY>
+      <RISK>长任务中模型遗忘与累计token成本仍为硬伤，若无可靠信用分配机制易出现漂移</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🎥">
+      <TITLE>实时视频Agent进化：Runway Characters支持工具调用</TITLE>
+      <NARRATIVE>Runway今日宣布Characters不仅能对话，还能接收指令后调用工具执行真实动作，端到端延迟1.75秒，标志视频生成从“内容生产”转向“具身交互代理”。这是全新范式，解决创意到执行的最后一公里。</NARRATIVE>
+      <TWEET account="runwayml" role="Runway官方">Runway Characters can now take actions, not just speak. Tell the real-time video agent what you want, and they can call tools for you。❤️ 109 | 💬 13</TWEET>
+      <OUTLOOK>6-12个月内，营销、短视频、社交内容生产将大规模被单对话式视频Agent取代，创意工具链被彻底压缩</OUTLOOK>
+      <OPPORTUNITY>投资工具调用协议层、视频Agent与企业SaaS的MCP连接器，以及垂直行业视频工作流自动化</OPPORTUNITY>
+      <RISK>生成一致性与长时序动作连贯性仍存技术硬伤，短期内难完全替代专业后期团队</RISK>
+    </THEME>
+
+    <THEME type="deep" emoji="🔧">
+      <TITLE>NVIDIA首发Vera CPU，专为Agentic AI打造</TITLE>
+      <NARRATIVE>今日NVIDIA宣布已向Anthropic、OpenAI、SpaceX、Oracle交付首批Vera CPU，这是其首款为Agentic AI时代定制的CPU，从“记录系统”转向“智能执行系统”的硬件层深度推进，与历史中Chamath提出的“全新执行层”形成共振。</NARRATIVE>
+      <TWEET account="nvidia" role="NVIDIA官方">NVIDIA’s Ian Buck hand-delivered the first-ever NVIDIA Vera CPUs to our partners @AnthropicAI, @OpenAI, @SpaceX, and @OracleCloud. Vera is NVIDIA&apos;s first custom CPU, purpose-built for the age of agentic AI。❤️ 372 | 💬 26</TWEET>
+      <CONSENSUS>行业已形成共识：未来AI栈核心不再是单纯H100，而是包含执行层的完整闭环，CPU将重新成为关键协处理器</CONSENSUS>
+      <DIVERGENCE>争论焦点在于Vera能否在能耗与成本上真正击败传统x86服务器，以及内存墙问题是否会被彻底解决</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="🔀">
+      <TITLE>Anthropic战略收购StainlessAPI强化MCP生态</TITLE>
+      <NARRATIVE>Anthropic宣布收购其API早期就深度依赖的Stainless SDK与MCP服务器平台，此举从“模型对齐”转向“工具链与执行层控制”，构成明显转向。与历史中其发布Claude for Legal仓库、强调宪法对齐形成连贯但更务实的生态闭环。</NARRATIVE>
+      <TWEET account="anthropicai" role="Anthropic官方">Anthropic is acquiring @stainlessapi, an SDK and MCP server platform that has powered every Anthropic SDK since the earliest days of our API。❤️ 2085 | 💬 191</TWEET>
+      <TWEET account="techcrunch" role="TechCrunch">Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare。❤️ 102 | 💬 13</TWEET>
+      <OUTLOOK>未来半年MCP（Model Control Plane）将成为Agent商业化的关键基础设施，领先者将掌握工具调用标准</OUTLOOK>
+      <OPPORTUNITY>投资专注垂直行业MCP连接器与企业级Agent安全审查的早期团队</OPPORTUNITY>
+      <RISK>收购后整合效率与开源社区接受度存在不确定性，可能引发更多反垄断关注</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🐝">
+      <TITLE>Agent Swarms用顶级模型构建全栈业务</TITLE>
+      <NARRATIVE>今日推文首次清晰定义Agent Swarms新范式：用Opus 4.7做前端、GPT 5.5做后端、Gemini视觉、Kimi/DeepSeek提效，快速从0到10亿构建业务，解决的是“单个模型能力天花板”问题，转向多模型分工协作。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI观察者">Agent Swarms是多代理系统，能用顶级LLM构建复杂软件、运营营销团队并从0到10亿打造整个业务，包括Opus 4.7做前端、GPT 5.5做后端、Gemini视觉理解、Kimi和DeepSeek提效。❤️ 245 | 💬 12</TWEET>
+      <OUTLOOK>12个月内，企业将大规模用Swarms替代传统CRM与SaaS，自定义内部软件将成为标配</OUTLOOK>
+      <OPPORTUNITY>一级市场最佳切入点为Swarms编排框架、安全审查层及行业特定Skill商店</OPPORTUNITY>
+      <RISK>多模型协调的累积错误率与调试复杂度可能成为短期泡沫，真实商业闭环仍需验证</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">2026年1月中国AI融资240起，总额187.68亿元人民币，阶跃星辰B+轮独获50亿元，具身智能与基础技术赛道最热。</ITEM>
+    <ITEM category="VC views">Chamath用AI蒙特卡洛分析发现“中产挤压”指标与生育率10年滞后相关系数-0.853；a16z指出AI正以惊人速度走向移动端，内存需求已疯狂增长。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国开源与高效模型正务实推进日常任务覆盖，成本优势显著，已在FoodTruck Bench等测试中逼近前沿，展现强大工程执行力。</ITEM>
+    <ITEM category="全球映射">美国需停止抱怨并加速自身高效Flash与开源路线，否则将在日常任务自动化领域被中国低成本方案快速蚕食。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI创始人">Grok agent mode是重大能力解锁。❤️ 10911 | 💬 1614</TWEET>
+    <TWEET account="gdb" role="OpenAI高管">Codex for unsubscribing from unwanted marketing emails。❤️ 881 | 💬 88</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">Our CEO Jensen Huang explains why AI can take on routine tasks, boost productivity, and help people focus on more meaningful work。❤️ 1113 | 💬 176</TWEET>
+    <TWEET account="chamath" role="Social Capital创始人">我用AI对生育率图表叠加经济指标做蒙特卡洛模拟，发现“中产挤压”（实际人均GDP÷中位数家庭收入）与10年后生育率相关系数高达-0.853。❤️ 761 | 💬 134</TWEET>
+    <TWEET account="dotey" role="知名观察者">我最近Vibe Coding的一些感受：以前能接受几个月做一个产品，现在完全无法忍受这种速度，高度依赖Agent，但对快速生成的质量又很难满意，打磨又慢，很拧巴。❤️ 103 | 💬 32</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">美国人现在更愿意住在核电站附近而不是AI数据中心附近。AI寡头们用香烟行业级别的贪婪把一手好牌打烂了。❤️ 64 | 💬 16</TWEET>
+    <TWEET account="vista8" role="独立观察者">小火箭Shadowrocket规则复杂，装Tailscale后更乱。最终Codex自己做网络测试、修改本地规则数据库，成功修复。以后电脑网络问题都可以交给AI了。❤️ 12 | 💬 9</TWEET>
+    <TWEET account="vllm_project" role="vLLM项目">pip install vllm在GH200/GB200/GB300上现在直接就能用，无需额外index-url，感谢PyTorch和NVIDIA的跨项目合作。❤️ 23 | 💬 3</TWEET>
+  </TOP_PICKS>
+</REPORT>
