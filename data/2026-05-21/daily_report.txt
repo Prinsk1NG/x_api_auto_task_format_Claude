@@ -1,0 +1,84 @@
+<REPORT>
+  <COVER title="AI破解80年数学难题 科研范式巨变" prompt="Minimalist data visualization scene showing an ancient square grid of unit distance points dramatically fracturing and reforming into an innovative new geometric family of curved, non-grid constructions. A luminous neural network of glowing nodes and translucent mathematical vectors emerges from the fracture point, symbolizing autonomous AI discovery. Clean white marble-like surface with subtle engraved equations, soft cinematic key lighting from above casting precise geometric shadows, metallic silver and deep indigo color palette, ultra-detailed 8K resolution, scientific laboratory atmosphere with floating holographic proofs, sense of paradigm-shifting breakthrough without any neon or cyberpunk elements." insight="AI首度自主解决核心数学开放问题，科研从人力主导转向人机共创。"/>
+  <PULSE>今日硅谷核心叙事转向“AI成为独立科学发现者”：OpenAI用通用模型破解80年数学难题，Google同步推出Gemini for Science工具集，标志AI从生产力工具升级为知识边界开拓者。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🔬">
+      <TITLE>AI自主破解80年数学开放问题</TITLE>
+      <NARRATIVE>OpenAI通用推理模型首次自主解决Paul Erdős 1946年提出的平面单位距离问题，推翻了近80年来“方格网格为最优”的数学共识，发现全新高性能构造家族。这不是专用数学系统，而是通用模型通过长链条推理、跨领域关联实现的里程碑，预示AI将加速生物、物理、医学等领域的发现。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI官方">今天，我们在平面单位距离问题上取得突破，这是一个由Paul Erdős在1946年提出的著名开放问题。近80年来，数学家认为最佳解决方案看起来像方格网格。一个OpenAI模型现在推翻了这一信念，发现了一个全新的构造家族，性能更优。这是AI首次自主解决一个领域核心的著名开放问题。❤️ 11808 | 💬 448</TWEET>
+      <TWEET account="sama" role="OpenAI CEO">一个通用模型解决了一个数学领域的重大开放问题。我们未来几年会反复这么说，但这是一个相当重要的里程碑。我对AI极大扩展我们对世界的理解感到兴奋，但今天心情依然复杂。❤️ 3211 | 💬 392</TWEET>
+      <OUTLOOK>未来6-12个月，AI将从“辅助搜索文献”升级为“自主提出并验证假设”，数学、物理和生物学领域将出现大量AI co-authored或AI-led突破，加速整体科研周期。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注“AI原生科学平台”“自动化假设生成与验证工具”“专有科学数据集交易”赛道，以及将此类能力封装为垂直Agent的早期创业公司。</OPPORTUNITY>
+      <RISK>当前突破仍依赖大量隐式人类知识蒸馏，真正零人类先验的发现能力尚未验证；若后续模型无法稳定复现类似质量突破，可能被视为孤立事件而非范式转移。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🧪">
+      <TITLE>Google推出Gemini for Science工具集</TITLE>
+      <NARRATIVE>Google在I/O发布Gemini for Science系列，包含假设生成（Co-Scientist）、计算发现（AlphaEvolve）、文献洞察（NotebookLM）以及整合30+生命科学模型的Science Skills。目标是让研究者跳过繁琐工作，用Agentic工作流在几分钟内完成过去需数月的复杂流程，强调与100+机构及诺奖得主共同构建负责任工具。</NARRATIVE>
+      <TWEET account="googleai" role="Google AI官方">几个世纪以来，科学方法是我们最好的进步工具。但今天数据太多，任何单一研究者都无法连接所有点。我们想解决这个问题：推出Gemini for Science，一套加速科学探索速度和规模的工具与实验。❤️ 204 | 💬 19</TWEET>
+      <TWEET account="demishassabis" role="DeepMind CEO">Gemini 3.5 Flash太惊人了！在编码和Agentic任务上超越3.1 Pro，速度是前沿模型的4倍，在antigravity中达800 tokens/sec，通常成本不到一半。Pro版即将推出。❤️ 2678 | 💬 241</TWEET>
+      <OUTLOOK>6-12个月内，主流科研机构将常规化使用此类AI科学Agent，文献综述和假设迭代时间将缩短90%，生物医药发现周期有望从数年压缩至数月。</OUTLOOK>
+      <OPPORTUNITY>投资“AI驱动的科研操作系统”“专有科学知识图谱”“实验室自动化硬件+AI闭环”方向；早期切入点包括为特定学科定制的Science Skills插件市场。</OPPORTUNITY>
+      <RISK>工具仍处于实验阶段，需人类专家严格验证输出；若“幻觉”导致错误假设被大规模采用，可能引发科研诚信危机，短期内仍是辅助而非替代。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="☁️">
+      <TITLE>SpaceX将AI算力作为服务大规模输出</TITLE>
+      <NARRATIVE>Elon Musk宣布SpaceX正与Anthropic深化合作，提供大规模AI算力服务，并与其他公司谈判，未来结合轨道数据中心将实现极高规模输出。这标志着算力供给从传统云巨头向航天+能源垂直整合者转移，轨道数据中心成为新范式，反映出对地面能源和基础设施瓶颈的回应。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI &amp; SpaceX CEO">正如最近与@AnthropicAI扩大的合作所展示的，@SpaceX正在大规模提供AI算力即服务。我们正在与其他公司讨论同样的事。长期来看，特别是有了轨道数据中心，我们预计将以极高规模服务AI。❤️ 21378 | 💬 2396</TWEET>
+      <CONSENSUS>行业已形成共识：算力仍是AI发展的核心约束，但供给端正在多元化，航天公司凭借垂直整合能源与基础设施将成为重要新玩家。</CONSENSUS>
+      <DIVERGENCE>大佬们争论焦点在于轨道数据中心的可行性与监管风险：能源效率和散热能否真正超越地面超级集群？地缘政治因素是否会限制全球访问？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="💰">
+      <TITLE>OpenAI以2M Token信用投资YC初创公司</TITLE>
+      <NARRATIVE>Sam Altman宣布OpenAI将向当前YC批次每家初创公司投资200万美元的API信用，并对“tokenmaxxing”创业模式表示兴奋。这是一种新型“算力即股权”投资策略，旨在让早期创业公司无资金压力地规模化使用前沿模型，构建“模型越强、业务越好”的正反馈业务。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">我很兴奋看到tokenmaxxing初创公司会发生什么，无论内部运作还是能构建的产品。OpenAI提出向当前YC批次每家初创公司投资200万美元的Token。快乐建造！❤️ 3945 | 💬 690</TWEET>
+      <TWEET account="gdb" role="OpenAI研究员">OpenAI向当前@ycombinator批次的每一家初创公司提供200万美元API信用，用于驱动下一代创业公司。❤️ 795 | 💬 90</TWEET>
+      <OUTLOOK>未来6-12个月，大量YC公司将深度嵌入OpenAI生态，出现一批“模型性能提升即收入提升”的Agent Labs类企业，加速AI原生商业模式验证。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点布局“Agent Lab”型公司、垂直领域Agent编排平台，以及为token信用设计的新型金融工具和 cap table 创新。</OPPORTUNITY>
+      <RISK>过度依赖单一供应商信用可能导致锁定风险；若模型定价或容量政策突然变化，初创公司现金流将面临剧烈波动，存在明显泡沫成分。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="📉">
+      <TITLE>美国毕业生毕业典礼掀起反AI嘘声</TITLE>
+      <NARRATIVE>多场美国大学毕业典礼上，当演讲者赞扬AI是“火箭船票”“下一次工业革命”时，台下学生发出明显嘘声。前Google CEO Eric Schmidt等发言人均被迫回应学生对就业和未来的焦虑。这标志着公众尤其是年轻一代对AI的情绪从早期兴奋快速转向担忧和抵触，与Gallup调查显示的愤怒上升趋势一致。</NARRATIVE>
+      <TWEET account="dotey" role="科技观察者">上周末好几场美国大学毕业典礼上，只要演讲嘉宾一夸AI，台下就开始嘘。被嘘得最惨的是前Google CEO Eric Schmidt……学生的反感完全能理解，就业形势不好，而台上劝他们拥抱AI、说机会无限的，恰恰是推动变革、用AI砍岗位的那批人。❤️ 166 | 💬 36</TWEET>
+      <CONSENSUS>行业内部仍高度乐观，但社会层面的共识正在分裂：年轻劳动力视AI为就业威胁而非机遇，情绪反弹已从在线讨论走向线下公开场合。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论“生产力提升是否必然扩张就业”：pmarca等认为边际生产力提高会创造更多工作，而garymarcus等警告生成式AI在多数非编码领域已是净负面，社会成本正累积。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🔎">
+      <TITLE>AI搜索基础设施融资与效率突破</TITLE>
+      <NARRATIVE>Exa Labs完成2.5亿美元融资，估值22-25亿美元，Lightspeed等持续加注；Perplexity同步发布查询感知压缩技术，可将上下文Token压缩70%并提升答案质量。这两条线共同指向“更好上下文而非更多上下文”的新范式，AI搜索正从简单检索转向高质量知识编排基础设施。</NARRATIVE>
+      <TWEET account="lightspeedvp" role="Lightspeed Venture Partners">我们自早期就支持@exaailabs，今天很高兴参与他们的2.5亿美元C轮融资，估值22亿美元。他们正在构建API优先的搜索引擎，帮助AI系统实时获取高质量知识和上下文。❤️ 25 | 💬 1</TWEET>
+      <TWEET account="perplexity_ai" role="Perplexity官方">我们已将查询感知压缩投入生产，实现更快、更干净、更准确的搜索。更好的上下文胜过更多上下文。我们的系统可将上下文Token减少高达70%，同时提升答案质量。❤️ 244 | 💬 30</TWEET>
+      <OUTLOOK>未来6-12个月，高质量实时知识检索将成为所有Agent的必备底座，搜索基础设施公司估值将继续水涨船高，并催生“知识即服务”的新商业模式。</OUTLOOK>
+      <OPPORTUNITY>一级市场关注“企业级RAG知识编排”“查询感知压缩引擎”“专有领域知识图谱”方向，尤其是有强IP或数据壁垒的垂直搜索创业公司。</OPPORTUNITY>
+      <RISK>压缩技术虽提升效率，但若牺牲边缘知识完整性，可能在高风险决策场景（如法律、医疗）引入新错误；融资热也可能催生估值泡沫。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Exa Labs完成2.5亿美元C轮融资，估值22-25亿美元，Lightspeed等持续支持，专注API优先AI搜索基础设施；Stability AI发布新音频模型，可生成6分钟歌曲。</ITEM>
+    <ITEM category="VC views">Lightspeed强调AI搜索核心是“高质量知识实时获取”；a16z指出AI让软件工程“可以用钱买更多产出”，推翻了《人月神话》，小团队+更多算力即可实现规模化突破。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国开源模型已在日常任务中实现高效低成本突破（成本低30倍），DeepSeek等在特定基准上快速追赶，中美技术差距已缩小至约10周；运营商直接将Token打包成话费套餐，显示商业化路径远比美国手机厂商激进。</ITEM>
+    <ITEM category="全球映射">若美国对前沿模型实施90天政府审查，可能意外加速中国开源生态；中国需警惕毕业生反AI情绪向国内高校蔓延，同时抓住“AI即水电煤”的生产力红利，重点布局科学发现与Agent Lab应用。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="openai" role="OpenAI官方">今天，我们分享平面单位距离问题的突破性进展，这是一个Paul Erdős于1946年提出的著名开放问题。近80年来数学家认为最佳方案类似方格。一个OpenAI模型推翻了这一观点，发现了全新的更优构造家族。这是AI首次自主解决数学领域核心开放问题。❤️ 11808 | 💬 448</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">一个通用模型解决了一个重大数学开放问题。我们未来会反复这么说，但这是一个相当重要的里程碑。我对AI扩展世界理解感到兴奋，但今天仍有复杂心情。❤️ 3211 | 💬 392</TWEET>
+    <TWEET account="demishassabis" role="DeepMind CEO">Gemini 3.5 Flash太惊人了！在编码和Agentic任务上优于3.1 Pro，速度是前沿模型4倍，在antigravity中达800 tokens/sec，通常成本不到一半。Pro版即将到来。❤️ 2678 | 💬 241</TWEET>
+    <TWEET account="elonmusk" role="xAI &amp; SpaceX CEO">正如与Anthropic扩大的合作所示，SpaceX正大规模提供AI算力服务。我们正与其他公司谈判。未来结合轨道数据中心，我们将以极高规模服务AI。❤️ 21378 | 💬 2396</TWEET>
+    <TWEET account="googleai" role="Google AI官方">几个世纪以来科学方法是最佳工具，但今天数据过多，单一研究者无法连接所有点。我们推出Gemini for Science，一套加速科学探索的工具与实验。❤️ 204 | 💬 19</TWEET>
+    <TWEET account="dotey" role="科技观察者">多场美国大学毕业典礼上，演讲者一夸AI就被学生嘘声打断。前Google CEO Schmidt被嘘得最惨。学生担心就业，而台上正是推动AI砍岗位的人。Gallup调查显示对AI的愤怒正在上升。❤️ 166 | 💬 36</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">我很兴奋看到tokenmaxxing初创公司的发展。OpenAI将向当前YC批次每家公司投资200万美元的Token信用。快乐建造！❤️ 3945 | 💬 690</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity官方">我们已生产化查询感知压缩，实现更快、更干净、更准确搜索。更好的上下文胜过更多上下文，可减少70% Token并提升答案质量。❤️ 244 | 💬 30</TWEET>
+    <TWEET account="lightspeedvp" role="Lightspeed Venture Partners">我们参与了Exa Labs 2.5亿美元C轮融资（估值22亿美元）。他们构建的API优先搜索引擎帮助AI实时获取高质量知识与上下文。❤️ 25 | 💬 1</TWEET>
+  </TOP_PICKS>
+</REPORT>
