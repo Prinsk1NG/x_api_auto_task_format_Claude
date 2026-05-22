@@ -1,0 +1,75 @@
+<REPORT>
+  <COVER title="通用AI攻克80年数学难题" prompt="Minimalist data visualization art depicting a neural network of luminous azure nodes forming an intricate geometric graph that solves the Erdős unit distance problem. A central translucent AI entity composed of flowing mathematical symbols and glowing pathways bridges number theory to discrete geometry, with 125-page chain-of-thought streams visualized as elegant data rivers. Clean vector lines, floating equations dissolving into neural connections, deep teal and electric cyan palette, cinematic depth of field, sharp focus on breakthrough moment, 8K resolution, neural nodes pulsing with discovery energy, high-tech laboratory atmosphere with subtle grid substrate." insight="通用推理模型自主解决重大数学开放问题，标志AI从工具跃升为科学发现者。"/>
+  <PULSE>今日硅谷核心叙事转向“通用推理模型自主产出新科学知识”，Codex持久化Agent与视频精准编辑同步落地，Agentic执行层成为基础设施之后的新价值焦点。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🧠">
+      <TITLE>通用AI自主解决80年数学开放问题</TITLE>
+      <NARRATIVE>这是前所未有的新叙事：以往AI在数学领域多停留在验证或竞赛刷分，今天OpenAI未公开的通用推理模型（非专用数学系统）自主完成125页CoT，连接代数数论与离散几何，解决了Erdős 1946年单位距离猜想。历史记忆中garymarcus曾持续质疑泛化能力，而本次突破由Noga Alon、Melanie Wood、Tim Gowers验证，被视为AI生成新知识的里程碑，创造性在足够强推理阈值后自然涌现。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI创业者">OpenAI通用推理模型自主解决了80年Erdős单位距离猜想，通过代数数论工具跨领域连接几何与数论，这是人类80年未想到的路径。通用模型而非专用求解器，证明足够强的推理能力会自然涌现创造性。被多位顶尖数学家称为AI数学里程碑。❤️ 105 | 💬 16</TWEET>
+      <TWEET account="gdb" role="OpenAI首席科学家">我们的数学成果是AI生成新知识的重要里程碑。很难想象类似成果在其他科学领域出现，“这让人很难入睡”是个不错的反应。❤️ 440 | 💬 40</TWEET>
+      <CONSENSUS>行业已形成共识：足够强大的通用推理模型可在纯数学领域独立发现新知识，而非仅刷基准。</CONSENSUS>
+      <DIVERGENCE>garymarcus等仍质疑样本偏差（不知尝试过多少失败证明）和跨领域泛化能力，担心这不代表AGI路径。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="deepen" emoji="🔧">
+      <TITLE>Codex升级为持久化团队Agent平台</TITLE>
+      <NARRATIVE>原有“AI写代码”叙事深度推进：Codex从个人助手进化成支持/goal持久任务、Appshots屏幕直传、设计师标注拖拽修改、插件团队共享、Analytics企业仪表盘的完整开发平台。历史记忆中swyx和dotey曾称Codex已成增长最快产品并整合进核心团队，此次更新直接解决长任务监控、非工程师协作、跨设备开发痛点，真正走向“让模型自主观察-推理-行动”执行层。</NARRATIVE>
+      <TWEET account="dotey" role="科技观察者">OpenAI Codex重大更新：Mac双Command键可截屏并读取隐藏文字直接发给Codex；正式支持/goal持久目标模式，可跑数小时到数天并随时side chat查进度；内置浏览器支持拖拽标注修改页面元素；插件支持团队共享，企业Analytics看Token/代码行/插件数据。正在从个人助手转向团队协作平台。❤️ 87 | 💬 8</TWEET>
+      <TWEET account="sama" role="OpenAI CEO">新Codex今天发布！❤️ 1811 | 💬 293</TWEET>
+      <OUTLOOK>未来6-12个月，Codex将成为企业标配开发环境，大幅降低非工程师参与门槛，YC公司获200万API信用将加速这一趋势。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注“Agent持久化编排”“企业插件市场”“AI原生IDE协作工具”方向，专注长任务状态同步与人类-AI交接界面。</OPPORTUNITY>
+      <RISK>持久运行可能带来Token成本爆炸与幻觉累积风险，企业需建立强控制平面。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🎥">
+      <TITLE>视频Agent从生成到精准跨帧编辑</TITLE>
+      <NARRATIVE>Runway推出Aleph 2.0，定义了视频生成新范式：不再是“一键生成后人工修”，而是单帧编辑后AI自动传播到全视频。这一突破解决视频Agent长期痛点——一致性与可控性。结合历史记忆中runwayml此前发布的实时视频代理（1.75秒延迟）和可行动Character，此次Edit Studio进一步把视频Agent推向实用内容生产工具。</NARRATIVE>
+      <TWEET account="runwayml" role="视频生成公司">Aleph 2.0发布。现在你可以编辑视频中单帧，预览修改后，Aleph 2.0会将这一编辑传播到整个视频。已在网页新Edit Studio上线。❤️ 694 | 💬 44</TWEET>
+      <OUTLOOK>6-12个月内，视频内容生产将从“生成后剪辑”转向“对话式精准迭代”，广告、短视频、社交内容生产效率提升10倍以上。</OUTLOOK>
+      <OPPORTUNITY>投资“AI视频控制平面”“多模态Agent记忆”“品牌级视频工厂”赛道，切入企业营销内容自动化。</OPPORTUNITY>
+      <RISK>当前编辑仍可能在长视频中出现漂移，高质量训练数据获取成本高，短期或面临“惊艳demo vs 生产一致性”泡沫。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="📊">
+      <TITLE>从纯算力崇拜转向Token Economics与执行层</TITLE>
+      <NARRATIVE>历史记忆中chamath曾提出AI栈价值框架（基础设施-芯片-数据-模型-执行层-应用层），强调没人想要H100而是想要完成的任务。今天叙事发生明显转向：NVIDIA开始大谈Token economics需从客户用例反推，记忆需求爆炸，CapEx不再被NVIDIA独占，内存厂商也分食。执行层（Goal模式、自主Agent）成为新共识焦点。</NARRATIVE>
+      <TWEET account="nvidia" role="NVIDIA官方">Token economics决定AI能否规模化。优化关键是从客户用例出发反推。NVIDIA AI播客详解每一根支柱。❤️ 91 | 💬 20</TWEET>
+      <TWEET account="pmarca" role="a16z合伙人">如果这是真的，其对文明的回报将是平流层的。科学、生物、化学、医学、材料、能源等领域将迎来巨大进步。❤️ 1170 | 💬 96</TWEET>
+      <CONSENSUS>行业最新共识是：下一波价值不在更大模型，而在执行层、专有数据和真实世界行动能力。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在激烈争论：到底是“记忆/上下文”还是“行动/工具调用”将成为最终护城河？Tokenmaxxing公司能活多久也成疑问。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="🌐">
+      <TITLE>中美开源与务实AI路径分化加速</TITLE>
+      <NARRATIVE>历史记忆中bindureddy和mranti曾多次强调中国务实开源路线（DeepSeek V4低成本SOTA），今天推文中oran_ge进一步指出上海电信已将Token做成话费套餐，运营商直接下场。这与美国实验室“追求前沿通用模型”形成鲜明转向：中国聚焦“能用、便宜、覆盖日常任务”，中美差距被认为已缩小至约10周。</NARRATIVE>
+      <TWEET account="oran_ge" role="科技评论者">AI是未来的水电煤，你用电时会先算这次能不能赚钱吗？❤️ 71 | 💬 74</TWEET>
+      <TWEET account="bindureddy" role="AI创业者">中国正在构建务实开源AI模型，没人能真正阻止。他们已能有效处理50%日常任务且运行成本低30倍。几个月内将覆盖大部分专业任务，美国应停止抱怨并迎头赶上。❤️ 105 | 💬 16</TWEET>
+      <CONSENSUS>中美均认可高效开源/Flash模型是赢得日常任务战争的关键，而非单纯追求10T参数。</CONSENSUS>
+      <DIVERGENCE>美国大佬仍担心中国开源会加速知识扩散与安全风险，中国侧则认为美国应专注自身效率而非抱怨。</DIVERGENCE>
+    </THEME>
+
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Anthropic与SpaceX达成重磅算力协议，2029年前每月投入12.5亿美元使用Colossus超算；NVIDIA数据中心业务季度收入752亿美元，持续主导AI硬件；SpaceX提交IPO计划，目标融资约750亿美元。</ITEM>
+    <ITEM category="VC views">EQT合伙人强调需立即将AI落地至所有portfolio公司，重写遗留代码；Chamath框架显示执行层（自主观察-推理-行动）将成为下一价值核心，而非单纯芯片或模型。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国路径高度务实：上海电信已把Token打包成话费主营业务，运营商直接参与AI分发；DeepSeek等开源模型以极低成本覆盖50%日常任务，展现“能用比前沿更重要”的执行力。</ITEM>
+    <ITEM category="全球映射">中国加速将AI变成基础设施（水电煤），对美国实验室形成“成本-速度”双重挤压；美国需警惕若持续聚焦炫技而非落地，执行层优势可能被中国高效Agent Swarms反超。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="gdb" role="OpenAI首席科学家">我们的数学成果是AI生成新知识的重要里程碑。很难想象类似成果在其他科学领域出现，“这让人很难入睡”是个不错的反应。❤️ 440 | 💬 40</TWEET>
+    <TWEET account="bindureddy" role="AI创业者">OpenAI通用推理模型自主解决了80年Erdős单位距离猜想，通过代数数论工具跨领域连接几何与数论，这是人类80年未想到的路径。通用模型而非专用求解器，证明足够强的推理能力会自然涌现创造性。❤️ 105 | 💬 16</TWEET>
+    <TWEET account="dotey" role="科技观察者">OpenAI Codex重大更新：Mac双Command键可截屏并读取隐藏文字直接发给Codex；正式支持/goal持久目标模式，可跑数小时到数天；内置浏览器支持拖拽标注修改；插件团队共享与企业Analytics上线。正在从个人助手转向团队协作平台。❤️ 87 | 💬 8</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">新Codex今天发布！❤️ 1811 | 💬 293</TWEET>
+    <TWEET account="runwayml" role="视频生成公司">Aleph 2.0发布。现在你可以编辑视频中单帧，预览修改后，Aleph 2.0会将这一编辑传播到整个视频。已在网页新Edit Studio上线。❤️ 694 | 💬 44</TWEET>
+    <TWEET account="pmarca" role="a16z合伙人">如果这是真的，其对文明的回报将是平流层的。科学、生物、化学、医学、材料、能源等领域将迎来巨大进步。❤️ 1170 | 💬 96</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">Token economics决定AI能否规模化。优化关键是从客户用例出发反推。NVIDIA AI播客详解每一根支柱。❤️ 91 | 💬 20</TWEET>
+    <TWEET account="swyx" role="AI开发者">我正在开发一个技能：把vibecoded的烂应用变成生产就绪、端到端测试、可维护、可并行的Agent仓库。它昨天跑了16小时，提交103次，最终得到一个我真正能长期开发的代码库。❤️ 136 | 💬 40</TWEET>
+    <TWEET account="oran_ge" role="科技评论者">AI是未来的水电煤，你用电时会先算这次能不能赚钱吗？❤️ 71 | 💬 74</TWEET>
+  </TOP_PICKS>
+</REPORT>
