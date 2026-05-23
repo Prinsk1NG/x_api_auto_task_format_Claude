@@ -1,0 +1,80 @@
+<REPORT>
+  <COVER title="Codex Goal模式：AI从聊天到持久自主执行" prompt="Minimalist futuristic data visualization scene showing a glowing smartphone as command center remotely directing a high-end desktop workstation. Persistent goal nodes float as luminous neural orbs connected by clean data streams and checklist pathways representing skills and MCP definitions. An autonomous agent icon methodically works through evolving task holograms while the screen remains locked yet fully controlled. Sleek industrial materials with brushed titanium surfaces, soft cyan and cool white volumetric lighting, sharp focus on the transformation from model icon to complete loadout architecture, cinematic depth of field, 8K resolution, precise technical aesthetic with no clutter." insight="模型不再是产品，持久Goal+Loadout成为Agentic AI新战场。"/>
+  <PULSE>今日硅谷叙事从单一模型竞赛 decisively 转向持久化、可控、负载完整的Agent执行层构建，Codex Goal模式与企业控制平面成为核心焦点。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🚀">
+      <TITLE>Codex Goal模式开启AI持久自主执行时代</TITLE>
+      <NARRATIVE>基于历史记忆中Chamath和Vista8对“执行层”与“持久目标”的早期呼吁，今天OpenAI将Codex从聊天工具升级为可设定数小时至数天目标、手机远程控制Mac（即使锁屏）、支持Appshots屏幕上下文和高级标注的统一平台，这标志着从提示驱动到真正自主工作循环的范式诞生，解决的是长期以来Agent“半途而废”的核心瓶颈。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI官方">Codex周四重大更新：1. 手机可安全调用锁屏Mac上的应用；2. Appshots直接把屏幕内容注入上下文；3. Goal模式现已全面上线，支持设定数小时甚至数天的自主目标；4. 高级标注模式可直接修改网页外观并反馈。欢迎建议下周方向。（❤️ 3263 | 💬 195）</TWEET>
+      <TWEET account="gdb" role="OpenAI联合创始人">我正在努力回忆在Codex出现之前写代码是什么感觉。（❤️ 2183 | 💬 360）</TWEET>
+      <OUTLOOK>未来6-12个月，Codex类产品将快速成为开发者与企业的一站式“远程大脑”，推动Agent从实验阶段进入生产级部署，OpenAI通过移动端入口大幅降低使用门槛。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注Agent编排、持久记忆层、跨设备控制平面及企业级Goal模板市场，早期切入“Loadout即服务”方向。</OPPORTUNITY>
+      <RISK>长期运行Goal可能导致不可控的 token 消耗和偏离目标，若缺乏强力监督机制易产生“无限循环”成本黑洞，目前仍属早期技术。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从“模型即产品”转向“Loadout即产品”</TITLE>
+      <NARRATIVE>对比历史记忆中Chamath提出的AI栈六层框架（特别强调执行层）和pmarca对智能系统取代记录系统的判断，今天gdb明确指出“模型本身不再是产品”，负载（Skills、MCP定义、Agent框架、规范文档）才是核心。这代表行业共识从单纯追求更大参数转向构建可互换模型之上的稳定、可审计、可企业级部署的完整执行系统。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI联合创始人">模型本身不再是产品。技能、MCP定义、Agent框架、驱动它的规范文档才是。现在模型每六个月就换一次，而Loadout才是真正持久的价值。（❤️ 6248 | 💬 613）</TWEET>
+      <CONSENSUS>行业最新共识是：未来竞争将在专有数据、行动记忆、真实世界执行能力和控制平面展开，纯基础模型提供商将面临商品化压力。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于：企业是否愿意接受“黑箱Loadout”还是必须完全自建控制平面？成本失控与安全风险是否会让保守派暂停部署？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🛡️">
+      <TITLE>Anthropic Project Glasswing：AI规模化漏洞狩猎</TITLE>
+      <NARRATIVE>这是一个全新叙事：AI不再只是被对齐避免“勒索用户”，而是主动作为攻防利器大规模发现高危漏洞。Anthropic上月启动的Glasswing项目已发现上万高危或关键漏洞，并公开讨论软件行业必须适应AI发现漏洞速度的现实，开启了“AI找bug比人类快几个数量级”的新范式。</NARRATIVE>
+      <TWEET account="anthropicai" role="Anthropic官方">上个月我们启动了Project Glasswing网络安全协作计划。此后我们与合作伙伴已在关键软件中发现超过一万处高危或关键漏洞。修补这些漏洞将让世界更安全，但软件行业必须适应Claude Mythos Preview这类模型发现漏洞的规模。（❤️ 3909 | 💬 235）</TWEET>
+      <OUTLOOK>未来6-12个月，AI驱动的自动化渗透测试将成为标配，安全工具公司将围绕“AI红队即服务”重构商业模式，大幅压缩传统安全审计周期。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投AI原生安全扫描平台、自动修复Agent、供应链风险实时监控工具，尤其与现有DevSecOps结合的初创公司。</OPPORTUNITY>
+      <RISK>过度依赖AI发现的漏洞可能产生虚假阳性或新攻击向量，若模型本身存在越狱风险，反而会成为更大安全隐患。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="📉">
+      <TITLE>企业AI部署遭遇成本危机，控制平面成刚需</TITLE>
+      <NARRATIVE>历史记忆中Chamath反复警告把Anthropic/OpenAI直接塞进企业等于“把狐狸放进鸡舍”，今天他直接指出Microsoft已开始撤回Claude，核心原因是缺乏上下文与 oversight 导致无限spin、成本爆炸。这标志着行业从“快速采用AI”转向“可控、可规模化部署AI”的重大共识转向。</NARRATIVE>
+      <TWEET account="chamath" role="Social Capital创始人">Microsoft撤回Claude只是开始。问题不是工具没用，而是没有上下文和监督时它会无限循环，产生巨大成本负担。8090的Software Factory正成为企业采用的控制平面，既能完成工作又可智能扩展。（❤️ 1681 | 💬 193）</TWEET>
+      <CONSENSUS>最新共识是：企业不会为token买单，而是为“可控成果”买单。控制平面、仲裁层和成本治理将成为下一代企业AI基础设施标配。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：是继续依赖OpenAI/Anthropic构建控制平面，还是企业必须自建“Software Factory”类系统？定义“成果”是否会变成合同灾难？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>硬件复兴需要可信验证层，Nominal获Sequoia关注</TITLE>
+      <NARRATIVE>全新叙事浮现：AI+机器人/硬件浪潮下，传统SQL/MATLAB验证方式已彻底落后。Sequoia重点介绍前核潜艇军官Cameron创立的Nominal，解决“如何真正知道硬件是否工作”这一被忽视的底层问题，为火箭、 hypersonic飞机、医疗设备提供AI驱动的硬件测试平台。</NARRATIVE>
+      <TWEET account="sequoia" role="红杉资本">认识Cameron McCord：核潜艇军官、MIT核工程与物理双学位、Anduril老兵。他发现硬件公司仍在用SQL和MATLAB测试无人机。今天他的Nominal正在为火箭、 hypersonic飞机到医疗设备提供硬件验证能力，推动硬件复兴。（❤️ 118 | 💬 12）</TWEET>
+      <OUTLOOK>未来6-12个月，随着机器人和具身智能公司激增，可信硬件验证与数字孪生平台将成为基础设施级需求，Nominal类公司估值将快速抬升。</OUTLOOK>
+      <OPPORTUNITY>一级市场关注具身智能测试、物理世界Agent验证、硬件数字孪生、AI驱动可靠性工程等领域，早起切入国防与航空供应链的公司潜力巨大。</OPPORTUNITY>
+      <RISK>硬件验证市场高度垂直，销售周期极长，若无法快速获取国防/航空大单，现金流压力会非常显著。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="📊">
+      <TITLE>智能成本暴跌与人才结构重塑</TITLE>
+      <NARRATIVE>结合a16z历史记忆中对内存需求爆炸和AI走向移动的判断，今天他们连续发布Charts：智能正变得极度廉价、Google每月处理3.2 quadrillion tokens（同比7倍）、CS专业入学人数却在下降。这反映行业从“抢算力”转向“如何在廉价智能时代重新定义人类工作与教育”的深层转向。</NARRATIVE>
+      <TWEET account="a16z" role="a16z官方">智能正在变得越来越便宜。Charts of the Week。（❤️ 643 | 💬 45）</TWEET>
+      <TWEET account="a16z" role="a16z官方">美国大学计算机科学入学人数正在下降。Charts of the Week。（❤️ 266 | 💬 28）</TWEET>
+      <CONSENSUS>行业共识已形成：token成本持续下降将扩大AI应用边界，但也导致程序员生产力爆炸式增长，同时传统CS教育供给与产业需求错配加剧。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点是：CS入学下降是暂时现象还是AI将彻底取代传统编程教育？生产力提升究竟会扩张还是收缩人类工作？</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Synthetic完成1000万美元种子轮，打造AI驱动的簿记平台；CATL计划领投DeepSeek首轮，AI+能源基础设施跨界融合加速；Anthropic Q2预计收入109亿美元，超越去年全年总和。</ITEM>
+    <ITEM category="VC views">a16z指出AI实验室内部模型已领先硅谷创业者3-4个月，知识差距以前所未有速度扩大；Sequoia强调硬件验证层是当前被严重低估的黄金赛道。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国运营商已将Token直接做成话费套餐（1元25万token），显示基础设施下沉速度远超预期；DeepSeek与CATL的结合预示中国在“算力-能源-AI”垂直整合上形成独特打法。</ITEM>
+    <ITEM category="全球映射">全球AI竞赛已从模型参数战进入“执行层+控制平面+物理验证”战，中国在应用落地与成本敏感型部署上具备显著优势，但高端Agent框架和安全对齐仍需追赶。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="gdb" role="OpenAI联合创始人">模型本身不再是产品。技能、MCP定义、Agent框架、驱动它的规范文档才是。现在模型每六个月就换一次，而Loadout才是真正持久的价值。（❤️ 6248 | 💬 613）</TWEET>
+    <TWEET account="openai" role="OpenAI官方">Codex周四重大更新：1. 手机可安全调用锁屏Mac上的应用；2. Appshots直接把屏幕内容注入上下文；3. Goal模式现已全面上线，支持设定数小时甚至数天的自主目标。（❤️ 3263 | 💬 195）</TWEET>
+    <TWEET account="anthropicai" role="Anthropic官方">上个月我们启动了Project Glasswing网络安全协作计划。此后我们与合作伙伴已在关键软件中发现超过一万处高危或关键漏洞。（❤️ 3909 | 💬 235）</TWEET>
+    <TWEET account="chamath" role="Social Capital创始人">Microsoft撤回Claude只是开始。问题不是工具没用，而是没有上下文和监督时它会无限循环，产生巨大成本负担。8090的Software Factory正成为企业采用的控制平面。（❤️ 1681 | 💬 193）</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity官方">今天我们开源Bumblebee，一个用于macOS和Linux的只读扫描器。它会检查开发者机器上的风险包、扩展和AI工具配置，并可与Computer联动，在供应链风险出现时触发深度扫描。（❤️ 1391 | 💬 81）</TWEET>
+    <TWEET account="a16z" role="a16z官方">智能正在变得越来越便宜。同时Google现在每月处理超过3.2 quadrillion tokens，同比增加7倍。（❤️ 643 | 💬 45）</TWEET>
+    <TWEET account="runwayml" role="Runway官方">昨天我们发布了Aleph 2.0升级版视频编辑模型。你可以精确修改想要的部分，同时保持其他内容完全不变。新Edit Studio已支持最长30秒1080p多镜头序列。（❤️ 181 | 💬 22）</TWEET>
+    <TWEET account="sequoia" role="红杉资本">前核潜艇军官Cameron创立的Nominal，正在解决硬件公司用SQL和MATLAB测试无人机这类落后问题，为火箭、 hypersonic飞机和医疗设备提供可信验证能力。（❤️ 118 | 💬 12）</TWEET>
+  </TOP_PICKS>
+</REPORT>
