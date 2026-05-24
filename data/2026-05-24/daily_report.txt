@@ -1,0 +1,74 @@
+<REPORT>
+  <COVER title="Codex持久Agent引爆工程执行革命" prompt="Minimalist futuristic data visualization art depicting a sleek Mac interface at the center with Codex /goal mode actively running multiple sub-agents for over 20 hours, neural nodes pulsing with cyan data streams showing network diagnostics, before-and-after metrics, DNS cache refreshes and autonomous code refactoring. Persistent goal arch made of glowing interconnected nodes floats above, cinematic volumetric lighting with soft electric blue god rays, clean industrial typography, high contrast dark mode aesthetic, ultra-detailed neural flow lines, 8K resolution, precise technical UI elements, no neon overload, focus on clarity and execution momentum." insight="开发者用Codex跑20小时+自主工程任务，AI从建议工具跃迁为持久执行平台。"/>
+  <PULSE>硅谷叙事从模型参数与即时聊天转向Codex驱动的持久化自主Agent执行，以及NVIDIA Claw向物理世界的实体行动扩展。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>Codex /goal持久目标模式成为新开发范式</TITLE>
+      <NARRATIVE>这一新叙事定义了AI不再仅是即时对话工具，而是可设定多小时至数天持久目标、自主诊断并执行复杂工程任务（如网络优化、代码重构、模拟器构建），底层解决人类持续监督成本高昂与上下文丢失的核心痛点。</NARRATIVE>
+      <TWEET account="tualatrix" role="独立开发者">这周工作不饱和，Token用不完了，于是在睡前安排了一个/goal丢到Mac mini去跑，明天醒来看结果。它已独立跑了21小时14分钟完成前后端重构。（❤️ 5 | 💬 2）</TWEET>
+      <TWEET account="vista8" role="AI观察者">最近最火的Codex优化网络速度Use Case，亲测提示词有效：输入/goal后按“先诊断、再最小可逆修改、最后复测”执行，详细检查WiFi、DNS、后台进程并优化。（❤️ 367 | 💬 10）</TWEET>
+      <OUTLOOK>未来6-12个月，持久化Agent将成为标准开发环境，个人与团队生产力或提升5-10倍，Codex类产品将从辅助工具成长为主要生产力平台。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投资Agent编排框架、持久状态管理中间件、专为长时序任务设计的监控与断点续跑工具，以及垂直行业（如网络安全、DevOps）的Agent解决方案。</OPPORTUNITY>
+      <RISK>长期运行易导致Token成本失控与Session不稳定（如频繁Reconnecting），当前仍是实验性，硬伤在于缺乏成熟的企业级治理与可解释性。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从AI建议转向AI自主行动（Claw与Codex共振）</TITLE>
+      <NARRATIVE>历史记忆中NVIDIA在5月15日提出“从AI建议转向AI行动”，Chamath强调全新执行层。今天新鲜推文显示这一转向已落地：NVIDIA在台北举办实体Claw开发者活动，Codex同步演示端到端iPhone模拟器构建与调试，共识从“模型好不好”转向“能否自主完成目标”。</NARRATIVE>
+      <TWEET account="nvidia" role="官方">不得不在台北对Meet-a-Claw🦞进行惊喜访问，开发者正亲手体验自主Agent。NVIDIA GTC周正式开启。（❤️ 721 | 💬 48）</TWEET>
+      <TWEET account="gdb" role="OpenAI核心">Codex用于从头构建和调试iPhone模拟器：（❤️ 644 | 💬 63）</TWEET>
+      <CONSENSUS>行业最新共识是执行层（自主观察-推理-行动循环）才是AI栈中被严重低估却最具商业价值的部分，模型本身正快速商品化。</CONSENSUS>
+      <DIVERGENCE>大佬激烈争论在于如何按“业务成果”而非Token计费，以及如何防止Agent无限循环导致巨额成本，目前仍无成熟控制平面方案。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="milestone" emoji="🛠️">
+      <TITLE>Starship V3热盾成功与Boring Company城市愿景</TITLE>
+      <NARRATIVE>Elon连续发帖展示Starship V3热盾表现良好，并重申Boring Company目标是解决城市交通并最终实现城市中心间Hyperloop。这是对原有太空+地面基础设施叙事的深度推进，与历史记忆中SpaceX为AI提供轨道数据中心算力的方向高度一致。</NARRATIVE>
+      <TWEET account="elonmusk" role="SpaceX CEO">Starship V3热盾表现良好。（❤️ 96662 | 💬 4223）</TWEET>
+      <TWEET account="elonmusk" role="SpaceX CEO">Boring Company的目标是解决城市交通问题，并有一天在城市中心之间建造Hyperloop高速交通系统。（❤️ 53860 | 💬 4292）</TWEET>
+      <CONSENSUS>硅谷普遍认为可靠的可重复使用太空运输与地下高速网络将是未来AI算力与物流基础设施的关键支撑。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于优先级：是先全力冲刺Mars还是先解决地球城市交通与住房危机，目前Elon同时推进两条线引发资源分配质疑。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="📣">
+      <TITLE>AI构建作品展示成为新社区文化</TITLE>
+      <NARRATIVE>rauchg发起公开征集“用AI构建的最自豪作品”，要求提供可工作产品URL及主要使用的模型/Agent。这标志着新叙事：AI社区从讨论抽象能力转向展示可立即使用的实际产物，验证Agent真实落地能力。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">展示你用AI构建的最自豪的作品。请回复可工作产品URL以及你主要使用的模型/Agent。（❤️ 1583 | 💬 1269）</TWEET>
+      <OUTLOOK>未来6-12个月，此类“Show Your Work”将演变为行业标准验证机制，推动Agent框架与技能库的快速迭代与开源传播。</OUTLOOK>
+      <OPPORTUNITY>投资机会包括构建AI作品展示与发现平台、Agent作品市场、以及为独立开发者提供低成本持久计算资源的工具。</OPPORTUNITY>
+      <RISK>短期内可能沦为营销表演，存在大量低质Demo泡沫，且知识产权与提示注入安全问题尚未解决。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚡">
+      <TITLE>算力资源争夺战升级：微软加码Anthropic</TITLE>
+      <NARRATIVE>历史记忆显示NVIDIA与OpenAI合作大幅降低token成本，今天新鲜数据表明微软正向Anthropic分配更多NVIDIA服务器与新Azure集群，反映大厂算力分配从内部转向战略盟友，印证Chamath提出的“基础设施-芯片-数据-模型-执行层-应用层”价值框架中算力仍是核心瓶颈。</NARRATIVE>
+      <TWEET account="theinformation" role="媒体">微软已向Anthropic分配更多NVIDIA服务器和新Azure集群，以满足这家AI初创公司不断增长的算力需求。（❤️ 13 | 💬 2）</TWEET>
+      <CONSENSUS>最新共识是算力仍是稀缺资源，大厂通过战略分配服务器来绑定顶级实验室，形成事实上的联盟壁垒。</CONSENSUS>
+      <DIVERGENCE>核心争论是这种资源倾斜是否会抑制其他创新者，以及企业是否应该按“实际业务成果”而非算力使用量付费，目前FedEx与ServiceNow的趋势尚未形成统一标准。</DIVERGENCE>
+    </THEME>
+
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Ozak AI完成超720万美元融资；SolarSquare正洽谈最高6000万美元融资，印度屋顶太阳能市场吸引大量VC；SpaceX IPO申请显示将部分资金用于扩大AI算力容量。</ITEM>
+    <ITEM category="VC views">John Doerr称AI是迄今为止最大的科技“海啸”；微软通过增加NVIDIA服务器支持Anthropic，显示大厂正通过算力绑定巩固AI生态位；OpenAI发布自训练AI相关职位，预示下一代模型训练范式转变。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">中国团队在低成本长上下文与开源模型上仍保持独特竞争力（如历史DeepSeek案例），但全球焦点已转向持久Agent执行与实体行动，中国开发者正快速跟进Codex类工具，展现强大工程化能力。</ITEM>
+    <ITEM category="全球映射">美国算力资源向Anthropic等实验室集中，可能加速中国自主芯片与分布式算力网络的长期投入；但需警惕顶级人才持续流失至硅谷，同时国内政策环境对AI实际落地的监管节奏将决定商业化速度。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="SpaceX CEO">Starship V3热盾表现良好。（❤️ 96662 | 💬 4223）</TWEET>
+    <TWEET account="elonmusk" role="SpaceX CEO">Boring Company的目标是解决城市交通问题，并有一天在城市中心之间建造Hyperloop高速交通系统。（❤️ 53860 | 💬 4292）</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">展示你用AI构建的最自豪的作品。请回复可工作产品URL以及你主要使用的模型/Agent。（❤️ 1583 | 💬 1269）</TWEET>
+    <TWEET account="gdb" role="OpenAI核心">Codex用于从头构建和调试iPhone模拟器。（❤️ 644 | 💬 63）</TWEET>
+    <TWEET account="nvidia" role="官方">不得不在台北对Meet-a-Claw🦞进行惊喜访问，开发者正亲手体验自主Agent。NVIDIA GTC周正式开启。（❤️ 721 | 💬 48）</TWEET>
+    <TWEET account="chamath" role="投资人">在2026年，每个主要城市的居民都应该明白这个简单道理：犯罪和脏乱是选择的结果。存在既 compassionate 又把纳税守法公民权益放在首位的政策。（❤️ 3111 | 💬 140）</TWEET>
+    <TWEET account="vista8" role="AI观察者">最近最火的Codex优化网络速度Use Case，亲测提示词有效：输入/goal后按“先诊断、再最小可逆修改、最后复测”执行，详细检查WiFi、DNS、后台进程并优化。（❤️ 367 | 💬 10）</TWEET>
+    <TWEET account="dotey" role="AI观察者">Codex交互做得真的很好，你可以方便地查看当前运行的SubAgents，以及每个SubAgent在做什么、用的提示词。（❤️ 7 | 💬 3）</TWEET>
+    <TWEET account="tualatrix" role="独立开发者">诡异的是，同一局域网的Mac mini操作Codex是正常的，但特定Session总是Reconnecting。今天Codex速度非常慢，大家也这样吗？（❤️ 49 | 💬 29）</TWEET>
+  </TOP_PICKS>
+</REPORT>
