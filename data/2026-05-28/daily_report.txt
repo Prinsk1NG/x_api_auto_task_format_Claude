@@ -1,0 +1,74 @@
+<REPORT>
+  <COVER title="训练内存墙崩塌：分块范式与多文明对冲" prompt="Minimalist data visualization of AI neural architecture breaking apart into independent glowing blocks that train in isolation, each block rendered as a crystalline cube with internal diffusion-like denoising flows and particle streams. Memory walls shatter like glass under cinematic volumetric lighting, releasing torrents of tokenized data. In the background, a strategic triptych of Earth, lunar base, and Martian colony connected by faint orbital risk-hedging vectors. Ultra-clean sci-fi aesthetic, neural node connections in electric cyan and deep indigo, precise geometric composition, 8K resolution, dramatic rim lighting on fractured surfaces, no neon cyberpunk elements." insight="硅谷今日核心转向训练效率革命、文件系统Agent与多文明风险对冲，规模竞赛让位于系统智慧。"/>
+  <PULSE>硅谷叙事从端到端训练的内存瓶颈与单一地球风险转向独立分块训练、文件系统Agent架构及多文明对冲新范式。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🔬">
+      <TITLE>独立分块训练：打破AI内存墙的新范式</TITLE>
+      <NARRATIVE>hardmaru提出将深度网络分解为独立块、以前向传递模拟扩散去噪的训练方法，彻底摆脱一次性加载整个网络的内存限制。这一新叙事首次在ViT、DiT和LLM上实现与端到端训练相当性能，却只需逐块训练，标志着训练范式从“全图反向传播”转向“模块化自监督”，直接解决当前资源墙问题。</NARRATIVE>
+      <TWEET account="hardmaru" role="Sakana AI研究员">十多年来我们接受端到端反向传播是唯一训练方式，但把整个网络一次性放入内存正是撞上资源墙的原因。我们找到新方法：把网络拆成块独立训练，将前向传递视为扩散模型去噪。这一重新诠释大幅降低深度模型训练内存，在ICLR2026论文中我们在ViTs、DiTs和LLMs上匹配端到端性能，却一次只训一个孤立块。❤️ 2395 | 💬 54</TWEET>
+      <OUTLOOK>未来6-12个月，这一范式有望让训练更大模型的内存需求下降一个数量级，加速学术界与初创公司在消费级硬件上开展前沿研究，削弱对超大规模集群的绝对依赖。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注“模块化训练框架”与“稀疏激活训练硬件”初创公司，以及为该范式提供自动分块与验证工具的开源商业化机会。</OPPORTUNITY>
+      <RISK>当前仅在学术论文验证，扩展到万亿参数前沿模型的收敛性与训练稳定性仍待大规模验证，可能存在隐藏的梯度不匹配硬伤，短期或被视为实验室玩具。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="📁">
+      <TITLE>从MCP工具碎片转向文件系统Agent新基座</TITLE>
+      <NARRATIVE>过去依赖MCP工具集成的Agent正转向以文件系统作为外部记忆、配置与协调层。Lightspeed研究指出LLM已深度理解文件系统语义，可实现自审计、渐进检索与Unix式组合性，解决MCP碎片化导致的性能衰减。这是从“工具调用”到“操作系统原生”范式的重大转向，与历史记忆中单纯强调持久Goal执行形成鲜明对比。</NARRATIVE>
+      <TWEET account="lightspeedvp" role="Lightspeed合伙人">文件系统可能是配置AI Agent的答案。LLM已受过文件系统训练，因此操作起来得心应手，相比碎片化MCP工具性能衰减更小。文件系统Agent获得上下文窗口外外部记忆、token高效渐进检索、Unix约定组合性，并能自我审计，解锁自我改进Agent、技能分发与多Agent协同。但仍存二进制文件、大规模搜索、安全边界等问题。❤️ 12 | 💬 2</TWEET>
+      <CONSENSUS>行业已形成共识：纯工具调用已到瓶颈，文件系统提供更统一、可组合且可审计的外部状态层，是下一代自改进Agent的基础设施。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于grep式Agent与数据库驱动Agent的长期行为差异，以及文件系统在二进制与安全边界上的根本缺陷是否可被彻底解决。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="📈">
+      <TITLE>Anthropic收入反超OpenAI 35%：企业编码工具成新王者</TITLE>
+      <NARRATIVE>theinformation独家披露Anthropic当前收入已比OpenAI高35%，彻底扭转去年局面。这一转向源于企业对编码与Agent工具的爆炸性需求，而非单纯模型调用。结合历史中OpenAI主导的“模型即产品”叙事，此刻共识已转向“高质企业工具+确定性容量合约”才是真金白银，OpenAI IPO前景因此蒙上阴影。</NARRATIVE>
+      <TWEET account="theinformation" role="The Information记者">Anthropic目前收入预计比OpenAI高至少35%，彻底逆转去年双方位置。这一变化可能使OpenAI IPO复杂化，如果Anthropic先接触公众投资者的话。驱动因素是AI编码和企业工具需求的爆炸性增长。❤️ 64 | 💬 5</TWEET>
+      <CONSENSUS>企业已用真金白银投票：确定性容量、编码Agent与安全工具的组合产品才是当前PMF，而非裸模型API。</CONSENSUS>
+      <DIVERGENCE>核心争论是这一收入反超能否持久——OpenAI是否能凭借Codex持久Goal与Tokenmaxxing初创公司投资快速追回，以及Anthropic是否会先完成IPO。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🛡️">
+      <TITLE>多文明对冲：月球火星+中世纪欧洲作为风险三重保险</TITLE>
+      <NARRATIVE>pmarca以“ overheard in Silicon Valley”形式提出，若Elon认为单一行星文明风险过高，则需构建三重对冲：反Borg单一文明、反回归原始文明，以及“太在线 vs 太离线”的两极世界，甚至鼓励欧洲重返中世纪文化根源。这一叙事将Musk月球火星自生长文明主张扩展为更宏大的文明多样性对冲，是从未出现过的哲学-战略融合新观点。</NARRATIVE>
+      <TWEET account="pmarca" role="a16z合伙人">硅谷 overheard：“如果Elon是对的，单一行星文明会极大增加人类文明整体崩溃风险，那显然应该对‘一个Borg立方体文明’、‘一个回归原始文明’以及‘太在线与太离线两极世界’进行三重对冲。欧洲其实应该被鼓励重长出它的中世纪根与花。”❤️ 738 | 💬 86</TWEET>
+      <OUTLOOK>未来6-12个月，这一叙事将从推特讨论扩散至政策与长期主义基金配置，推动更多资本流向太空、生存技术与文化多样性备份项目。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注“多行星自生长基础设施”“轨道计算”以及“文明备份技术”（从种质库到文化AI编码）的早期项目。</OPPORTUNITY>
+      <RISK>这一概念高度哲学化，短期内难以形成可衡量的商业模式，容易沦为富豪的末日幻想泡沫，技术与执行落地距离现实仍极遥远。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🔌">
+      <TITLE>MCP成为Agent通用集成层：Runway与自带服务器时代</TITLE>
+      <NARRATIVE>Runway推出MCP可直接接入Claude、ChatGPT、Cursor等，gdb也提及“bring-your-own MCP servers”，标志着MCP正从实验协议快速成为Agent与创意工具间的标准连接层。这是从碎片化插件到统一协议的重大转向，与过去单纯强调Codex持久Goal形成递进，重点转向“可组合工具生态”。</NARRATIVE>
+      <TWEET account="runwayml" role="Runway官方">推出Runway MCP。现在你可以把Runway直接接入Claude、ChatGPT、Cursor、Replit等。从你已经在用的环境里，用Gen-4.5、Seedance 2.0、GPT Images 2.0、Kling等SOTA模型生成精美图像和视频。几秒钟内即可把MCP连到你的Agent。❤️ 821 | 💬 56</TWEET>
+      <CONSENSUS>开发者与企业已达成共识：MCP正成为连接生成模型与Agent工作流的实际标准，类似当年REST API之于Web。</CONSENSUS>
+      <DIVERGENCE>激烈争论在于MCP是否会成为新的中心化瓶颈，以及“自带MCP服务器”模式下安全与隔离的最佳实践仍未确立。</DIVERGENCE>
+    </THEME>
+
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Triomics获2200万美元融资，专注肿瘤中心专用AI</ITEM>
+    <ITEM category="投融资快讯">Snowflake与AWS签署60亿美元AI CPU芯片协议</ITEM>
+    <ITEM category="投融资快讯">Anthropic当前收入较OpenAI高约35%，企业工具驱动</ITEM>
+    <ITEM category="VC views">Lightspeed发布文件系统Agent研究笔记，强调其作为自改进Agent基座的潜力</ITEM>
+    <ITEM category="VC views">Cognition已成为全球最大独立Agent实验室，200%利用率与企业客户深度绑定，Peter Thiel最大AI押注</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek Flash极度廉价且擅长mini agentic loops，适合大规模批量任务，“智能便宜到无需计量”，Bindureddy称其在成本上具备压倒性优势。</ITEM>
+    <ITEM category="全球映射">中国务实开源路径正以远低于美国的成本快速覆盖日常与专业任务，中美前沿差距已缩小至约10周，迫使美国必须停止抱怨并加速追赶。</ITEM>
+    <ITEM category="全球映射">当海外反思AI slop与ROI时，中国运营商已将Token直接做成话费套餐（1元25万token），显示出更快的商业化落地速度与基础设施思维。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="sama" role="OpenAI CEO">AI应大幅提升全球人民生活质量与个人自由。OpenAI基金会首批投入2.5亿美元用于衡量、转型支持与广泛共享繁荣的新方法。❤️ 3089 | 💬 863</TWEET>
+    <TWEET account="elonmusk" role="xAI/SpaceX CEO">我凌晨2:45刚离开SpaceXAI办公室，人们还在继续工作。我觉得我们可能接近训练上的重大突破。❤️ 21648 | 💬 1152</TWEET>
+    <TWEET account="swyx" role="AI Engineer浪潮作者">Cognition已是全球最大独立Agent实验室。从这张图200%利用率推演销售增长，你们应该自己算算。这集齐了所有完美风暴：最早的编码Agent、云开发基础设施、最强代码审查安全、最早LLM知识库、S-tier GTM…这是Peter Thiel最大的AI押注。❤️ 148 | 💬 27</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity官方">我们开源了重构的Unigram tokenizer，将CPU占用降低5-6倍。在生产输入长度下，编码器比HuggingFace tokenizer快约5倍，比SentencePiece C++快2倍，在514 token时仅需63微秒且零堆分配。❤️ 610 | 💬 45</TWEET>
+    <TWEET account="dotey" role="知名科技观察者">用好Coding Agent关键在两头，尤其是开头。不要直接让Agent写代码，先把需求整理后发给Codex、Claude Code、Cursor三个不同Agent用Plan模式出方案，选最好的，再让它借鉴其他方案形成最终设计。复杂任务拆成Phases用/goal执行，最后用GPT-5.5 Review。❤️ 112 | 💬 22</TWEET>
+    <TWEET account="gdb" role="前OpenAI/Cursor核心成员">Codex用于并行浏览器子Agent的演示。GPT-5.5在网络安全任务上能力被严重低估。❤️ 245 | 💬 40</TWEET>
+    <TWEET account="oran_ge" role="独立观察者">AI行业到新阶段，海内外出现反思：1. model+harness才是产品；2. 完全自动化是骗局，珍贵的事离不开人；3. 慢工出细活的耐心成为AI时代新奢侈品；4. AI成本高，算ROI有时不如用人。❤️ 22 | 💬 4</TWEET>
+    <TWEET account="bindureddy" role="AI评论人">DeepSeek flash便宜到尘土，擅长mini agentic loops，极适合大规模批量任务。智能便宜到无需计量。❤️ 40 | 💬 7</TWEET>
+  </TOP_PICKS>
+</REPORT>
