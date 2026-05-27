@@ -1,8 +1,8 @@
 name: 硅谷情报局自动任务 (V13.0)
 
 on:
-  schedule:
-    - cron: '0 23 * * *' # 每天北京时间早上 7 点运行
+ # schedule:
+  #  - cron: '0 23 * * *' # 每天北京时间早上 7 点运行
   workflow_dispatch:
     inputs:
       test_mode:
