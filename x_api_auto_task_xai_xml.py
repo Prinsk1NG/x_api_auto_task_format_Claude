@@ -1,14 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v15.0 (精简名单 + 对数打分 + 翻页版)
+x_api_auto_task_xai_xml.py  v16.0 (反重复护栏 + 新鲜度衰减 + 硬数据兜底)
 Architecture: TwitterAPI.io -> PPLX/Tavily -> xAI SDK (Reasoning) + Memory Bank
 
-v15.0 变更:
-- 砍掉回响查询 (echo query)，只保留 from: 原创搜索
-- 打分改为对数公式，解决 Elon 互动量碾压技术账号的问题
-- 加翻页逻辑 (最多2页)，防止高产账号丢推文
-- 回复抓取从 Top15 缩减到 Top5
-- 名单从 106 人精简到 ~55 人
+v16.0 变更（基于 v15.0 两周回测的 7 项改进）:
+1. ✨ Prompt 注入"近 7 日已用主题"，禁止叙事路径依赖（Codex 主题霸榜问题）
+2. ✨ 打分公式增加新鲜度衰减：近 2 日已被引用的 WHALE 加权减半
+3. ✨ 冷门高产账号兜底：长期 0 引用 + 当日有推文 → 额外加分
+4. ✨ Perplexity 命中空时降级到 72 小时硬数据兜底
+5. ✨ 新增中国 AI 专项查询（DeepSeek/Kimi/Qwen/智谱…）
+6. ✨ TOP_PICKS 去重铁律：至少 50% 与 THEME 不重叠
+7. ✨ 记忆库 5 条 → 12 条扩容 + 显式使用规则
+8. ✨ main 末尾输出今日 vs 昨日报告 diff（新增 / 消失 / 延续）
 """
 
 import os
@@ -74,6 +77,51 @@ if TEST_MODE:
     EXPERT_ACCOUNTS = EXPERT_ACCOUNTS[:4]
 
 TARGET_SET = set(WHALE_ACCOUNTS + EXPERT_ACCOUNTS)
+
+# ── v16 新增：近期上下文加载（供反重复护栏 + 新鲜度衰减使用）───────────
+def load_recent_themes(days: int = 7) -> list:
+    """读过去 N 天 daily_report.txt 的 <TITLE>，用于 Prompt 反重复护栏"""
+    out = []
+    tz = timezone(timedelta(hours=8))
+    base = datetime.now(tz).date()
+    for i in range(1, days + 1):
+        d = (base - timedelta(days=i)).strftime("%Y-%m-%d")
+        fp = Path(f"data/{d}/daily_report.txt")
+        if not fp.exists(): continue
+        try:
+            txt = fp.read_text(encoding="utf-8")
+            for m in re.finditer(r'<TITLE>(.*?)</TITLE>', txt):
+                out.append(f"[{d}] {m.group(1).strip()}")
+        except Exception as e:
+            print(f"⚠️ [load_recent_themes] {d} 读取失败: {e}", flush=True)
+    return out
+
+def load_recent_used_authors(days: int = 7) -> dict:
+    """读过去 N 天 daily_report.txt 中 account= 引用，统计每位作者被引用次数"""
+    from collections import Counter
+    counter = Counter()
+    tz = timezone(timedelta(hours=8))
+    base = datetime.now(tz).date()
+    for i in range(1, days + 1):
+        d = (base - timedelta(days=i)).strftime("%Y-%m-%d")
+        fp = Path(f"data/{d}/daily_report.txt")
+        if not fp.exists(): continue
+        try:
+            txt = fp.read_text(encoding="utf-8")
+            for m in re.finditer(r'account=[\'"]([^\'"]+)[\'"]', txt, re.IGNORECASE):
+                counter[m.group(1).replace("@", "").strip().lower()] += 1
+        except Exception:
+            pass
+    return dict(counter)
+
+def load_account_stats_safe() -> dict:
+    """安全读取 account_stats.json（不存在或损坏时返回空字典）"""
+    fp = Path("data/account_stats.json")
+    if not fp.exists(): return {}
+    try:
+        return json.loads(fp.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
 
 # ── 渠道分发逻辑 ──────────────────────────────
 def get_feishu_webhooks() -> list:
@@ -146,7 +194,18 @@ def unify_schema(t):
     }
 
 def score_and_filter(tweets):
-    """对数打分：拉平 Elon 级互动量与技术账号的差距"""
+    """对数打分 + v16 新鲜度衰减 + 冷门高产账号兜底
+    打分公式：
+    - 基础：log1p(likes)*10 + log1p(replies)*15 + log1p(quotes)*20
+    - 身份：WHALE +200 / EXPERT +50（若近 2 日已被引用 ≥2 次 → 减半）
+    - 主题：AI 关键词 +80
+    - 兜底：累计 used_in_reports=0 且 total_tweets ≥ 5 的"沉默账号"+60
+    - 惩罚：长度<15 字符 -200；@ 超过 5 次 -500
+    """
+    # v16 新增：加载近期上下文，用于动态调权
+    recent_used = load_recent_used_authors(days=7)   # {author: 被引用次数}
+    stats_all = load_account_stats_safe()
+
     unique_tweets = {}
     for t in tweets:
         t_id = t["id"]
@@ -159,16 +218,31 @@ def score_and_filter(tweets):
                + math.log1p(t["quotes"]) * 20)
 
         text_lower = t["text"].lower()
+        author = t["author"]
 
-        # 身份加权
-        if t["author"] in WHALE_ACCOUNTS:
-            score += 200
-        elif t["author"] in EXPERT_ACCOUNTS:
-            score += 50
+        # v16 ① 身份加权 + 新鲜度衰减
+        if author in WHALE_ACCOUNTS:
+            base_w = 200
+            if recent_used.get(author, 0) >= 2:
+                base_w = 100   # 近 7 日已被引用 ≥2 次 → 减半，强制轮换
+                print(f"  ⚖️ [新鲜度衰减] @{author} 近 7 日已被引用 {recent_used[author]} 次，WHALE 权重 200→100", flush=True)
+            score += base_w
+        elif author in EXPERT_ACCOUNTS:
+            base_w = 50
+            if recent_used.get(author, 0) >= 2:
+                base_w = 25
+            score += base_w
 
-        # AI 关键词加权（降到 +80，避免水推与核心观点平权）
+        # AI 关键词加权
         if any(kw in text_lower for kw in AI_KEYWORDS):
             score += 80
+
+        # v16 ② 冷门高产账号兜底加分
+        acc_stats = stats_all.get(author, {})
+        if (acc_stats.get("used_in_reports", 0) == 0
+            and acc_stats.get("total_tweets", 0) >= 5):
+            score += 60
+            print(f"  🔦 [沉默账号兜底] @{author} 累计 {acc_stats.get('total_tweets')} 条 / 0 引用，+60 强制曝光", flush=True)
 
         # 质量惩罚
         clean_text = re.sub(r'https?://\S+|@\w+', '', text_lower).strip()
@@ -195,24 +269,54 @@ def score_and_filter(tweets):
 # ==============================================================================
 # 🧩 宏观数据辅助
 # ==============================================================================
-def fetch_macro_with_perplexity() -> str:
+def _pplx_query(prompt_text: str) -> str:
+    """单次 Perplexity 调用，返回内容字符串（失败返回空串）"""
     if not PPLX_API_KEY: return ""
-    print("\n🕵️ [Perplexity] 呼叫 PPLX 获取宏观数据...", flush=True)
     try:
-        prompt = """你是顶级 AI 行业分析师。请仅检索过去 24 小时内 AI 行业的【硬核客观数据】。只抓取：1. 具体的融资金额与并购案。2. GitHub上刚发布的AI开源项目或硬件。绝对禁止将Perplexity作为来源。"""
         headers = {"Authorization": f"Bearer {PPLX_API_KEY}", "Content-Type": "application/json"}
-        payload = {"model": "sonar-pro", "messages": [{"role": "user", "content": prompt}], "temperature": 0.1}
+        payload = {"model": "sonar-pro", "messages": [{"role": "user", "content": prompt_text}], "temperature": 0.1}
         resp = requests.post("https://api.perplexity.ai/chat/completions", headers=headers, json=payload, timeout=60)
-
         if resp.status_code == 200:
-            data = resp.json()["choices"][0]["message"]["content"]
-            print(f"  ✅ Perplexity 收集完毕 ({len(data)} 字)", flush=True)
-            return data
-        else:
-            print(f"  ⚠️ [Perplexity 报错] 状态码: {resp.status_code}, 详情: {resp.text}", flush=True)
+            return resp.json()["choices"][0]["message"]["content"]
+        print(f"  ⚠️ [Perplexity 报错] 状态码: {resp.status_code}, 详情: {resp.text}", flush=True)
     except Exception as e:
-        print(f"  ⚠️ [Perplexity 异常] 网络断开或超时: {e}", flush=True)
+        print(f"  ⚠️ [Perplexity 异常]: {e}", flush=True)
     return ""
+
+def _is_data_thin(text: str) -> bool:
+    """判断 PPLX 返回是否"硬数据空窗"：长度太短、或显式包含"无具体"/"未披露"等措辞"""
+    if not text or len(text) < 200: return True
+    fingerprints = ["无具体", "无具体披露", "未披露", "无权威", "暂无", "no specific", "no major", "not disclosed"]
+    return any(fp in text.lower() if fp.startswith("no") else fp in text for fp in fingerprints)
+
+def fetch_macro_with_perplexity() -> str:
+    """v16: 24h 命中空 → 自动降级到 72h 硬数据兜底"""
+    if not PPLX_API_KEY: return ""
+    print("\n🕵️ [Perplexity] 24h 硬数据查询...", flush=True)
+    primary_prompt = """你是顶级 AI 行业分析师。请仅检索过去 24 小时内 AI 行业的【硬核客观数据】。只抓取：1. 具体的融资金额与并购案（必须带美元金额）。2. GitHub上刚发布的AI开源项目或硬件（带 stars / 模型尺寸）。绝对禁止将Perplexity作为来源。如确实无数据请明确回答"24 小时内无具体融资披露"。"""
+    primary = _pplx_query(primary_prompt)
+    print(f"  ✅ Perplexity 24h 收集完毕 ({len(primary)} 字)", flush=True)
+
+    if _is_data_thin(primary):
+        print("  ⚠️ [硬数据空窗] 24h 数据不足，降级到 72h 兜底查询...", flush=True)
+        fallback_prompt = """你是顶级 AI 行业分析师。过去 24 小时没有重大事件。请改为列出【过去 72 小时】影响最大的 3-5 起 AI 融资/并购，必须每条都给出具体美元金额、投资方、估值。如仍无，则列举过去一周 GitHub 趋势 AI 项目（含 stars 数）。绝对禁止把 Perplexity 作为来源。"""
+        fb = _pplx_query(fallback_prompt)
+        if fb:
+            primary = (primary + "\n\n### [72h 兜底]\n" + fb) if primary else fb
+            print(f"  ✅ 72h 兜底收集完毕 ({len(fb)} 字)", flush=True)
+    return primary
+
+def fetch_china_ai_with_perplexity() -> str:
+    """v16 新增：中国 AI 公司专项查询，解决"中国视角"空话问题"""
+    if not PPLX_API_KEY: return ""
+    print("\n🐉 [Perplexity] 中国 AI 专项查询...", flush=True)
+    prompt = """你是顶级 AI 行业分析师。请仅检索过去 48 小时内【中国 AI 公司】的【具体硬数据】，必须覆盖以下任意公司：DeepSeek、Kimi (月之暗面)、智谱 GLM、Qwen (通义)、字节豆包、腾讯混元、百度文心、商汤、Minimax、阶跃星辰、无问芯穹、面壁智能。
+对每条数据，给出：1) 公司名 2) 事件类型（融资 / 开源发布 / 产品更新 / 监管 / Benchmark） 3) 具体数字（金额 / 参数 / 速度 / 价格）。如有海外大佬对中国 AI 的具体评价，也列出。
+严禁泛泛而谈，无具体数据宁可不写。绝对禁止把 Perplexity 作为来源。"""
+    text = _pplx_query(prompt)
+    if text:
+        print(f"  ✅ 中国 AI 专项收集完毕 ({len(text)} 字)", flush=True)
+    return f"\n### [Perplexity 中国 AI 专项]\n{text}" if text else ""
 
 def fetch_global_news_with_tavily() -> str:
     if not TAVILY_KEYS: return ""
@@ -270,7 +374,8 @@ def update_character_memory(parsed_data, today_str):
             if content.strip()[:80] not in existing_contents:
                 new_entry = f"[{today_str}]: {content}"
                 memory[acc].append(new_entry)
-                memory[acc] = memory[acc][-5:]
+                # v16: 5 → 12 条，覆盖约 1 个月窗口，支持更深度的"叙事演变"判断
+                memory[acc] = memory[acc][-12:]
                 count += 1
     if count > 0:
         save_memory(memory)
@@ -279,7 +384,9 @@ def update_character_memory(parsed_data, today_str):
 # ==============================================================================
 # 🚀 xAI 大模型调用与 XML 提示词
 # ==============================================================================
-def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavily_info: str, memory_context: str) -> str:
+def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str,
+                     tavily_info: str, memory_context: str,
+                     recent_themes_str: str = "") -> str:
     return f"""
 你是一位顶级的 AI 行业一级市场投资分析师及新媒体主编。
 你的任务是基于提供的【一手推特数据】、外部宏观新闻及大佬历史记忆，提炼出今日硅谷的【重大叙事动态】。
@@ -299,15 +406,36 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 2. 哪些叙事发生了【重大转向】（大佬打脸、共识瓦解或风向掉头）。
 3. 哪些是原有叙事的【深度推进】（核心瓶颈突破、关键里程碑）。
 
-🚨【防重复铁律】(违反此规则等于任务失败)
+🚨【防重复铁律 A：素材来源】(违反此规则等于任务失败)
 - <TWEET> 标签里引用的推文必须且只能来自下方"X平台一手原始推文"数据，严禁引用历史记忆中的旧推文。
 - 历史记忆的唯一用途是帮你判断叙事是"新的"还是"转向"或"推进"，以及提供态度对比的背景，绝不能作为引用素材。
 - 如果今天的推文数据中没有某个话题的新内容，就不要写这个话题。宁可少写一个THEME，也不要用旧推文充数。
 
+🚨【防重复铁律 B：7 日叙事去重】(v16 新增，违反等于任务失败)
+下面是过去 7 天已经做过的主题（TITLE）。今天的 6 个 THEME 中：
+- 与下表语义重叠的主题最多允许 2 个，且必须找到全新角度（如：从"Codex 持久 Agent"→ 转向"持久 Agent 的成本治理 / 失败模式 / 跨模型协同"）；
+- 第 1 主题（最先出现的 THEME）严禁与过去 3 天的第 1 主题语义重复；
+- 如果今天信号确实不足以产生 4 个新颖主题，宁可只写 3 个 THEME，也不要为了凑数而重复昨天讲过的角度。
+# 近 7 日已用主题（按日期倒序）:
+{recent_themes_str if recent_themes_str else "（无历史数据，首次运行）"}
+
+🚨【历史记忆使用规则】(v16 新增)
+- 仅当今天推文与历史记忆形成清晰的【延续 / 转向 / 反差】关系时引用；
+- 单期 6 段 NARRATIVE 中，显式提及"历史记忆"的不得超过 3 段（即 ≤50%）；
+- 严禁为了凑论证而强行拉历史。如不确定关系，不引用即可，留给推文本身说话。
+
 【输出规模要求】(必须严格遵守)
-- 必须生成 4 到 6 个 <THEME> 模块。
+- 必须生成 4 到 6 个 <THEME> 模块（信号充分时 6 个；不充分时宁可 3-4 个高质量）。
 - 必须挑选 6 到 10 条最具代表性的原始推文放入 <TOP_PICKS>。
 - 每个 THEME 必须引用至少 1-2 条相关推文。
+- <INVESTMENT_RADAR> 必须包含 3-5 个 <ITEM>（不再是 2 个），尽可能带具体金额 / 数字。
+- <RISK_CHINA_VIEW> 必须包含 2-3 个 <ITEM>，且 "中国 AI 评价" 类目下必须出现具体中国公司名（DeepSeek/Kimi/Qwen/智谱/字节/腾讯/百度…任意）。
+
+🚨【TOP_PICKS 去重铁律】(v16 新增)
+本节 6-10 条精选推文必须满足：
+- 至少 50% 的推文是 THEME 中"未被引用"但同样有信息密度的补充信号（如：冷门技术细节、行业八卦、监管动态、个人哲思、产品发布的边角料）；
+- 严禁与某个 THEME 的 <TWEET> 完全重复；引用同一作者时换不同语录；
+- 优先挑选那些"虽然不构成完整 THEME，但单条价值很高"的推文。
 
 【输出结构规范】(必须严格输出纯净XML)
 <REPORT>
@@ -364,14 +492,15 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str, tavi
 # 日期: {today_str}
 """
 
-def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_info: str, memory_context: str) -> str:
+def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_info: str,
+                memory_context: str, recent_themes_str: str = "") -> str:
     api_key = XAI_API_KEY.strip()
     if not api_key:
         print("❌ [xAI 报错] XAI_API_KEY 为空！", flush=True)
         return ""
 
     data = combined_jsonl[:100000] if len(combined_jsonl) > 100000 else combined_jsonl
-    prompt = _build_xml_prompt(data, today_str, macro_info, tavily_info, memory_context)
+    prompt = _build_xml_prompt(data, today_str, macro_info, tavily_info, memory_context, recent_themes_str)
 
     model_name = "grok-4.20-0309-reasoning"
     print(f"\n[xAI] Requesting {model_name} via Official SDK...", flush=True)
@@ -617,6 +746,50 @@ def save_daily_data(today_str: str, post_objects: list, report_text: str):
     (data_dir / "combined.txt").write_text("\n".join(json.dumps(obj, ensure_ascii=False) for obj in post_objects), encoding="utf-8")
     if report_text: (data_dir / "daily_report.txt").write_text(report_text, encoding="utf-8")
 
+def generate_daily_diff(today_str: str, parsed_data: dict) -> str:
+    """v16 新增：今日 vs 昨日 TITLE diff，方便运营快速判断叙事是否真在演化"""
+    today_titles = [t.get("title", "").strip() for t in parsed_data.get("themes", []) if t.get("title")]
+    if not today_titles: return ""
+
+    tz = timezone(timedelta(hours=8))
+    yesterday = (datetime.strptime(today_str, "%Y-%m-%d").replace(tzinfo=tz) - timedelta(days=1)).strftime("%Y-%m-%d")
+    yfp = Path(f"data/{yesterday}/daily_report.txt")
+    if not yfp.exists():
+        return f"\n📊 [Daily Diff] 昨日({yesterday})无报告，跳过 diff。\n"
+
+    y_titles = [m.group(1).strip() for m in re.finditer(r'<TITLE>(.*?)</TITLE>', yfp.read_text(encoding="utf-8"))]
+
+    # 简单关键词重叠判定：共享 ≥2 个 2+字中文 token 视为"延续"
+    def tokens(s):
+        s = re.sub(r'[、，。：；！？\s\-:,；]+', ' ', s)
+        return set(re.findall(r'[A-Za-z]{2,}|[一-鿿]{2,4}', s))
+
+    new_t, continued_t = [], []
+    for tt in today_titles:
+        is_continued = False
+        for yt in y_titles:
+            shared = tokens(tt) & tokens(yt)
+            if len(shared) >= 2:
+                continued_t.append((tt, yt, shared))
+                is_continued = True
+                break
+        if not is_continued:
+            new_t.append(tt)
+
+    dropped_t = []
+    today_tokens_union = set().union(*[tokens(t) for t in today_titles]) if today_titles else set()
+    for yt in y_titles:
+        if len(tokens(yt) & today_tokens_union) < 2:
+            dropped_t.append(yt)
+
+    lines = ["\n📊 [Daily Diff] 今日 vs 昨日叙事演化"]
+    lines.append(f"  ✨ 新出现({len(new_t)}): " + " | ".join(new_t) if new_t else "  ✨ 新出现: 无")
+    lines.append(f"  🔁 延续({len(continued_t)}): " + " | ".join(f"{ct[0]} ← {ct[1]}" for ct in continued_t) if continued_t else "  🔁 延续: 无")
+    lines.append(f"  💨 消失({len(dropped_t)}): " + " | ".join(dropped_t) if dropped_t else "  💨 消失: 无")
+    msg = "\n".join(lines)
+    print(msg, flush=True)
+    return msg
+
 def update_account_stats(final_feed: list, parsed_data: dict):
     """只统计名单内的账号，杜绝噪音污染"""
     stats_file = Path("data/account_stats.json")
@@ -800,12 +973,25 @@ def main():
     memory_context = "\n\n".join(memory_context_lines)
 
     macro_info = fetch_macro_with_perplexity()
+    china_info = fetch_china_ai_with_perplexity()         # v16 新增
+    if china_info:
+        macro_info = (macro_info + "\n\n" + china_info) if macro_info else china_info
     tavily_info = fetch_global_news_with_tavily()
 
+    # v16 新增：读取近 7 日已用主题，注入 prompt 反重复护栏
+    recent_themes_list = load_recent_themes(days=7)
+    recent_themes_str = "\n".join(recent_themes_list) if recent_themes_list else ""
+    if recent_themes_list:
+        print(f"\n🛡️ [反重复护栏] 加载近 7 日 {len(recent_themes_list)} 个历史主题注入 prompt", flush=True)
+
     if combined_jsonl.strip() or macro_info or tavily_info:
-        xml_result = llm_call_xai(combined_jsonl, today_str, macro_info, tavily_info, memory_context)
+        xml_result = llm_call_xai(combined_jsonl, today_str, macro_info, tavily_info,
+                                  memory_context, recent_themes_str)
         if xml_result:
             parsed_data = parse_llm_xml(xml_result)
+
+            # v16 新增：今日 vs 昨日 diff
+            generate_daily_diff(today_str, parsed_data)
 
             update_character_memory(parsed_data, today_str)
 
