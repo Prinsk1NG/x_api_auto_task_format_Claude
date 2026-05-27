@@ -1,0 +1,42 @@
+name: 硅谷情报局周质量自检 (每周一)
+
+on:
+  # 每周一北京时间 09:00 跑（daily 07:00 跑完后 2 小时，确保已有当周完整 data/）
+  schedule:
+    - cron: '0 1 * * 1'
+
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: '🧪 开启测试模式 (仅发测试群)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read   # 只读，不用 push
+
+jobs:
+  quality-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. 拉取最新代码 (含 data 目录历史报告)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 必须，weekly_quality.py 要读过去 7 天 daily_report.txt
+
+      - name: 2. 配置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 3. 安装依赖包
+        run: pip install requests
+
+      - name: 4. 执行周质量自检 (重复率 / 集中度 / 用率)
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_URL_1: ${{ secrets.FEISHU_WEBHOOK_URL_1 }}
+          TEST_MODE_ENV: ${{ github.event.inputs.test_mode == 'true' && 'true' || 'false' }}
+        run: python weekly_quality.py
