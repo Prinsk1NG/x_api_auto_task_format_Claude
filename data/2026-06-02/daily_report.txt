@@ -1,0 +1,81 @@
+<REPORT>
+  <COVER title="Anthropic S-1炸场：Agentic基建IPO双螺旋" prompt="A grand strategic war table viewed from a dramatic low angle, featuring a colossal futuristic architectural model of Silicon Valley as an interlocking lattice of glowing glass-and-steel corporate citadels. At center, an Anthropic tower is dramatically splitting open to reveal an IPO gateway of golden data arches, while surrounding agentic robot figures and neural-node rivers flow toward it. NVIDIA Vera Rubin racks form massive foundation blocks beneath, Perplexity code streams weave as luminous circuit engravings across the map surface. Cinematic volumetric lighting with sharp god rays cutting through digital fog, brushed titanium and frosted glass material textures, extreme depth of field, 8K industrial realism, strategic foresight aesthetic." insight="Anthropic IPO信号叠加Agentic架构突破，AI进入资本市场与生产力双重验证期。"/>
+  <PULSE>AI行业同时迈向公开市场成熟与Agentic长时复杂任务基础设施决战，商品化风险与垂直整合并存。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="📈">
+      <TITLE>Anthropic秘密提交S-1：从9650亿估值到IPO检验</TITLE>
+      <NARRATIVE>历史记忆显示Anthropic刚完成650亿融资并以企业Claude为收入引擎，本次保密提交S-1标志从依赖巨额私募转向公开市场承压。核心冲突在于上市后安全优先战略是否会被增长压力稀释，社区已直接质疑“Will going public slow down their safety focus？”这是AI独角兽从烧钱竞赛到接受资本市场纪律的重大转向。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方">Anthropic已秘密向SEC提交S-1注册声明草案。SEC审查完成后，我们将获得启动IPO的选择。（❤️ 20755 | 💬 894）</TWEET>
+      <CONSENSUS>行业普遍认为顶级AI实验室进入IPO窗口期，Anthropic此举将加速整个赛道公开化进程。</CONSENSUS>
+      <DIVERGENCE>上市后安全研究投入是否会被季度业绩压力牺牲，以及公开后技术透明度提升对中美竞争格局的影响，仍是激烈争论点。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🔧">
+      <TITLE>Perplexity Search as Code：Agent搜索架构革命</TITLE>
+      <NARRATIVE>传统工具调用存在高延迟、上下文污染和顺序执行弊病，Perplexity新架构让模型直接生成Python代码调用搜索原语，可异步扇出查询、去重、过滤、连接和排序后再返回上下文。这是为AI Agent量身定制的全新搜索范式，解决真实专业研究工作负载痛点。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="官方">我们推出Search as Code，这是为AI Agent设计的新搜索架构。它直接编写Python调用搜索栈，而非逐个循环函数调用。现已在Perplexity Agent API和Computer中成为默认。（❤️ 1550 | 💬 128）</TWEET>
+      <OUTLOOK>未来6-12个月，这一范式有望成为Agent搜索事实标准，推动从简单问答向复杂多-hop研究工作流迁移，WANDR基准已显示0.386 vs 0.152的显著领先。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注Agent编排层、搜索原语基础设施及“代码即搜索”开发工具赛道，尤其能与现有MCP生态结合的初创公司。</OPPORTUNITY>
+      <RISK>模型生成搜索代码的可靠性仍待验证，复杂查询下可能引入新的执行错误，短期或仍需人类监督。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🌍">
+      <TITLE>Runway伦敦研发中心：100M美元押注世界模型</TITLE>
+      <NARRATIVE>Runway宣布伦敦为欧洲总部及世界模型研究枢纽，未来18个月投资1亿美元（至2028年将翻倍），聚焦通用世界模型研究。这是视频生成公司从内容工具向“世界模拟”基础设施转型的明确信号，试图解决物理世界建模与视频Agent协同的核心瓶颈。</NARRATIVE>
+      <TWEET account="runwayml" role="官方">我们宣布伦敦成为Runway欧洲总部及新一代世界模型研究枢纽。未来18个月将投资1亿美元于英国AI生态，至2028年投入规模将翻倍。（❤️ 188 | 💬 19）</TWEET>
+      <OUTLOOK>此举将加速欧洲AI人才回流并形成与美中三足鼎立的研究网络，世界模型突破或在12个月内显著提升视频Agent的物理一致性。</OUTLOOK>
+      <OPPORTUNITY>投资欧洲世界模型基础设施、视频Agent工具链及跨模态模拟初创公司，尤其与Runway MCP生态兼容的项目。</OPPORTUNITY>
+      <RISK>世界模型训练的算力与数据门槛极高，100M美元在当前集群成本下可能仅够早期探索，存在进度不及预期的技术硬伤风险。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="⚙️">
+      <TITLE>NVIDIA Vera Rubin平台：Agentic AI工厂级落地</TITLE>
+      <NARRATIVE>在GTC Taipei keynote中，NVIDIA推出Vera Rubin多机架pod系统，专为agentic AI设计，整合Vera CPU、BlueField-4、Spectrum-6等，已进入微软、Dell、CoreWeave工程验证阶段。这是从“算力崇拜”向“Agentic工作负载优化”深度推进的关键里程碑，彻底将硬件与持久Agent行为对齐。</NARRATIVE>
+      <TWEET account="nvidia" role="官方">NVIDIA Vera Rubin平台专为agentic AI打造的多机架pod系统已全面投产。通过与Microsoft、Dell、CoreWeave合作，其NVL72工程机架已就位。（❤️ 943 | 💬 78）</TWEET>
+      <CONSENSUS>行业已形成共识：下一代AI工厂必须围绕持久、自主Agent而非单纯训练来设计，Vera Rubin正是这一共识的硬件具象化。</CONSENSUS>
+      <DIVERGENCE>性能提升能否抵消极端 co-design带来的供应链复杂性，以及是否会进一步加剧对特定厂商的依赖，仍存争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚠️">
+      <TITLE>Gary Marcus预警：AI无护城河将陷价格战</TITLE>
+      <NARRATIVE>Gary Marcus指出所有实验室都在用相似技术和数据构建模型，缺乏真正护城河，最终将走向商品化、价格战和利润微薄。这与过去“赢者通吃”叙事彻底转向，呼应历史记忆中他持续对genAI净负面效应的批评，标志着部分大佬已从乐观扩张转向系统性商业模式反思。</NARRATIVE>
+      <TWEET account="garymarcus" role="AI批评者">每个人甚至Google都在把AI当作赢者通吃竞赛。但大家用几乎相同的技术和数据构建模型，没有护城河，就不会有90%市场份额，最终只会价格战和商品化，所有人都会为微薄利润过度支付。（❤️ 4180 | 💬 415）</TWEET>
+      <CONSENSUS>越来越多声音承认当前AI技术同质化严重，token经济难以支撑高估值。</CONSENSUS>
+      <DIVERGENCE>是否仍有机会通过垂直整合、数据优势或企业嵌入建立新护城河，成为当前最激烈争论。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="☁️">
+      <TITLE>OpenAI全面登陆AWS Bedrock：企业分发新闭环</TITLE>
+      <NARRATIVE>OpenAI frontier模型与Codex现已在AWS Bedrock正式可用，企业可利用原有安全合规流程调用。这与历史记忆中OpenAI强调“容量确定性”和“企业嵌入”形成延续，同时也是对Anthropic、Google在企业渠道布局的直接反制，标志大模型公司从API直销转向云市场分发战略转向。</NARRATIVE>
+      <TWEET account="openai" role="官方">OpenAI前沿模型和Codex现已在AWS全面可用，企业可通过Amazon Bedrock利用现有安全、合规和工作流构建。这是OpenAI在AWS能力全面扩展的开始。（❤️ 4604 | 💬 275）</TWEET>
+      <CONSENSUS>企业客户强烈倾向于在已有云环境中使用前沿模型，而非新增供应商，Bedrock合作成为必选项。</CONSENSUS>
+      <DIVERGENCE>此举是否会削弱OpenAI直接客户关系，以及与AWS在定价和数据控制上的长期博弈，仍是未解之谜。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Runway宣布未来18个月投资1亿美元于英国AI生态，至2028年规模将翻倍，聚焦通用世界模型研发</ITEM>
+    <ITEM category="投融资快讯">Impulse火箭引擎初创公司完成5亿美元融资，明确“hire people, not AI”</ITEM>
+    <ITEM category="投融资快讯">ZeroDrift获1000万美元种子轮，专注于防止AI模型自我干扰与幻觉</ITEM>
+    <ITEM category="VC views">pmarca连发“It’s time to build.”与“Amazing.”，呼吁在基础设施突破窗口立即行动</ITEM>
+    <ITEM category="行业动态">Anthropic将Project Glasswing网络安全协作扩展至150余家跨国组织，已发现上万高危漏洞</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">X平台低估了中国开源AI，DeepSeek、Qwen、Kimi等模型已能处理50%日常与专业任务，成本仅为美国的1/30，15亿人真实采用规模正驱动其指数级迭代</ITEM>
+    <ITEM category="全球映射">中美AI差距已肉眼可见缩小至约10周，中国务实开源路线正迫使美国从token maxxing与幻觉焦虑中转向成本治理与实际部署竞赛</ITEM>
+    <ITEM category="中国 AI 评价">智谱AI完成数十亿人民币新一轮融资，投前估值200亿元，此前获沙特Prosperity7约4亿美元投资，显示中国AI商业化路径清晰</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="nvidia" role="官方">Jensen Huang在GTC Taipei keynote上重新定义AI未来：AI工厂、能真正行动的自主Agent、步入现实的物理AI与机器人，以及从零构建的AI原生个人计算。（❤️ 943 | 💬 78）</TWEET>
+    <TWEET account="xai" role="官方">Composer 2.5现已在Grok Build中可用。这是一个快速、高智能模型，擅长长时间运行任务和遵循复杂指令。（❤️ 4458 | 💬 402）</TWEET>
+    <TWEET account="perplexity_ai" role="官方">WANDR是我们内部构建的宽基准，模拟真实专业研究工作负载。Search as Code得分0.386，而下一名仅0.152，该基准远未饱和。（❤️ 126 | 💬 3）</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">Tokens烧掉数百万美元却没有显著ROI，一位高管称这更像墓志铭而非抱怨。（❤️ 159 | 💬 9）</TWEET>
+    <TWEET account="theinformation" role="媒体">AI公司发现构建强大模型只是挑战的一部分。一类高薪工程师正在兴起，帮助客户将AI转化为真实商业成果。（❤️ 1 | 💬 0）</TWEET>
+    <TWEET account="swyx" role="AI观察者">Grace + Blackwell芯片将出现在笔记本中。Microsoft与NVIDIA联手，准备挑战Apple Silicon长达6年的统治。（❤️ 142 | 💬 33）</TWEET>
+    <TWEET account="bindureddy" role="创业者">Agent Swarm：用顶级模型构建多代理集群，主代理用英语编排各专业Worker代理，直接在Abacus AI超级计算机上构建复杂SaaS和自动化。（❤️ 382 | 💬 30）</TWEET>
+    <TWEET account="simonw" role="开发者">我刚更新了Codex desktop，那个功能回来了！非常感谢@PhilippSpiess。（❤️ 29 | 💬 2）</TWEET>
+  </TOP_PICKS>
+</REPORT>

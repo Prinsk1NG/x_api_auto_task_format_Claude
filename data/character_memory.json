@@ -30,14 +30,16 @@
     "[2026-05-19]: Anthropic is acquiring @stainlessapi, an SDK and MCP server platform that has powered every Anthropic SDK since the earliest days of our API。❤️ 2085 | 💬 191",
     "[2026-05-23]: 上个月我们启动了Project Glasswing网络安全协作计划。此后我们与合作伙伴已在关键软件中发现超过一万处高危或关键漏洞。修补这些漏洞将让世界更安全，但软件行业必须适应Claude Mythos Preview这类模型发现漏洞的规模。（❤️ 3909 | 💬 235）",
     "[2026-05-29]: 我们完成650亿美元H轮融资，投后估值9650亿美元，由Altimeter Capital、Dragoneer、Greenoaks和Sequoia领投。这笔资金将加速Claude研究并满足爆炸式需求。❤️ 15048 | 💬 761",
-    "[2026-05-29]: 本月收入跑率已超过470亿美元。增长来自各行业组织将Claude部署到核心业务，以及越来越多个人日常工作使用。❤️ 1017 | 💬 34"
+    "[2026-05-29]: 本月收入跑率已超过470亿美元。增长来自各行业组织将Claude部署到核心业务，以及越来越多个人日常工作使用。❤️ 1017 | 💬 34",
+    "[2026-06-02]: Anthropic已秘密向SEC提交S-1注册声明草案。SEC审查完成后，我们将获得启动IPO的选择。（❤️ 20755 | 💬 894）"
   ],
   "nvidia": [
     "[2026-05-15]: 什么是claw？🦞它代表从AI建议转向AI行动。自主Agent可24/7在后台运行复杂工作，你无需一直盯着。❤️ 433 | 💬 45",
     "[2026-05-19]: NVIDIA’s Ian Buck hand-delivered the first-ever NVIDIA Vera CPUs to our partners @AnthropicAI, @OpenAI, @SpaceX, and @OracleCloud. Vera is NVIDIA&apos;s first custom CPU, purpose-built for the age of agentic AI。❤️ 372 | 💬 26",
     "[2026-05-22]: Token economics决定AI能否规模化。优化关键是从客户用例出发反推。NVIDIA AI播客详解每一根支柱。❤️ 91 | 💬 20",
     "[2026-05-24]: 不得不在台北对Meet-a-Claw🦞进行惊喜访问，开发者正亲手体验自主Agent。NVIDIA GTC周正式开启。（❤️ 721 | 💬 48）",
-    "[2026-05-27]: 我们为agentic AI打造了NVIDIA Vera CPU，最新Phoronix基准确认其性能：1.5倍于领先x86处理器整体性能、2倍Linux内核编译速度、4倍STREAM TRIAD内存带宽，完美匹配AI工厂的复杂agentic工作负载。（❤️ 325 | 💬 33）"
+    "[2026-05-27]: 我们为agentic AI打造了NVIDIA Vera CPU，最新Phoronix基准确认其性能：1.5倍于领先x86处理器整体性能、2倍Linux内核编译速度、4倍STREAM TRIAD内存带宽，完美匹配AI工厂的复杂agentic工作负载。（❤️ 325 | 💬 33）",
+    "[2026-06-02]: NVIDIA Vera Rubin平台专为agentic AI打造的多机架pod系统已全面投产。通过与Microsoft、Dell、CoreWeave合作，其NVL72工程机架已就位。（❤️ 943 | 💬 78）"
   ],
   "pmarca": [
     "[2026-05-11]: 我从未见过如此规模的知识和对新技术的认知分散。人们需要知道这一点。我这么说不是为了看不起任何人！❤️ 1040 | 💬 88",
@@ -56,7 +58,8 @@
     "[2026-05-23]: Codex周四重大更新：1. 手机可安全调用锁屏Mac上的应用；2. Appshots直接把屏幕内容注入上下文；3. Goal模式现已全面上线，支持设定数小时甚至数天的自主目标；4. 高级标注模式可直接修改网页外观并反馈。欢迎建议下周方向。（❤️ 3263 | 💬 195）",
     "[2026-05-30]: OpenAI推出Rosalind Biodefense项目，帮助可信开发者构建新型生物防御和疫情准备能力；同时扩大对美国政府及盟友的GPT-Rosalind可信访问，用于公共卫生与生物防御任务。这是AI加强预防、检测和应对生物威胁的重要一步。❤️ 2288 | 💬 125",
     "[2026-05-30]: AI赋予研究者追求“更疯狂”想法的自由。对Terence Tao而言，AI创造了更多实验空间、测试意外路径，并发现原本可能无法触及的结果。❤️ 2288 | 💬 125",
-    "[2026-05-30]: Windows用户福利：Computer Use现已支持Windows，Codex可在你的Windows电脑上执行操作。结合ChatGPT移动App的Windows支持，你可以在旅途中启动、审查和引导任务，而工作在主机上持续进行。❤️ 5405 | 💬 571"
+    "[2026-05-30]: Windows用户福利：Computer Use现已支持Windows，Codex可在你的Windows电脑上执行操作。结合ChatGPT移动App的Windows支持，你可以在旅途中启动、审查和引导任务，而工作在主机上持续进行。❤️ 5405 | 💬 571",
+    "[2026-06-02]: OpenAI前沿模型和Codex现已在AWS全面可用，企业可通过Amazon Bedrock利用现有安全、合规和工作流构建。这是OpenAI在AWS能力全面扩展的开始。（❤️ 4604 | 💬 275）"
   ],
   "gdb": [
     "[2026-05-24]: Codex用于从头构建和调试iPhone模拟器：（❤️ 644 | 💬 63）",
@@ -171,7 +174,8 @@
     "[2026-05-05]: 今天对Musk来说是巨大胜利，对OpenAI来说非常糟糕。如果OpenAI输掉会发生什么？这个问题突然变得非常现实。❤️ 173 | 💬 49",
     "[2026-05-06]: 在毫无悔意地解释如何欺骗Musk关于非营利承诺后，OpenAI的Brockman为Musk的律师提供了巨大帮助。同时也很好地说明了Musk在公司早期做出的贡献。❤️ 210 | 💬 13",
     "[2026-05-18]: 我即将描述的不是AGI，而是一场万亿美元列车残骸的征兆……OpenAI甚至无法让系统停止谈论goblins，只能靠系统提示里塞一堆黑客式规则。这不是计算机科学，而是炼金术（❤️ 179 | 💬 31）",
-    "[2026-05-25]: Gary Marcus警告：当连最 hardcore 的 AI 拥护者 GeoHotz 都承认最新编码模型产出大量 slop，且其净影响可能为负时，整个 genAI 运动将成为“deadman walking”。编码曾是最大支柱，一旦泡沫破裂将波及全球经济。（❤️ 133 | 💬 18）"
+    "[2026-05-25]: Gary Marcus警告：当连最 hardcore 的 AI 拥护者 GeoHotz 都承认最新编码模型产出大量 slop，且其净影响可能为负时，整个 genAI 运动将成为“deadman walking”。编码曾是最大支柱，一旦泡沫破裂将波及全球经济。（❤️ 133 | 💬 18）",
+    "[2026-06-02]: 每个人甚至Google都在把AI当作赢者通吃竞赛。但大家用几乎相同的技术和数据构建模型，没有护城河，就不会有90%市场份额，最终只会价格战和商品化，所有人都会为微薄利润过度支付。（❤️ 4180 | 💬 415）"
   ],
   "hardmaru": [
     "[2026-05-04]: Sakana Fugu: 一个将多智能体编排系统作为基础模型的新架构。（❤️ 284 | 💬 16）",
@@ -186,7 +190,8 @@
     "[2026-05-22]: Aleph 2.0发布。现在你可以编辑视频中单帧，预览修改后，Aleph 2.0会将这一编辑传播到整个视频。已在网页新Edit Studio上线。❤️ 694 | 💬 44",
     "[2026-05-27]: 推出Project Luxo：探索AI生成视频如何跨越uncanny valley。我们向好莱坞高管、制片人、导演等展示了短片，一致反馈是技术终于好到能隐身于故事之后。《The Rogue》是由单人在一个月内用Runway完成的完整AI电影。（❤️ 244 | 💬 39）",
     "[2026-05-28]: 推出Runway MCP。现在你可以把Runway直接接入Claude、ChatGPT、Cursor、Replit等。从你已经在用的环境里，用Gen-4.5、Seedance 2.0、GPT Images 2.0、Kling等SOTA模型生成精美图像和视频。几秒钟内即可把MCP连到你的Agent。❤️ 821 | 💬 56",
-    "[2026-05-29]: 《Last Night》：一部完全AI生成的短片，通过破碎记忆镜头探索东京改变人生的一晚。由一人用Runway一天完成，是Project Luxo的一部分，该计划探索AI视频如何跨越uncanny valley。❤️ 191 | 💬 28"
+    "[2026-05-29]: 《Last Night》：一部完全AI生成的短片，通过破碎记忆镜头探索东京改变人生的一晚。由一人用Runway一天完成，是Project Luxo的一部分，该计划探索AI视频如何跨越uncanny valley。❤️ 191 | 💬 28",
+    "[2026-06-02]: 我们宣布伦敦成为Runway欧洲总部及新一代世界模型研究枢纽。未来18个月将投资1亿美元于英国AI生态，至2028年投入规模将翻倍。（❤️ 188 | 💬 19）"
   ],
   "mranti": [
     "[2026-05-05]: DeepSeek V4 Pro刚刚在FoodTruck Bench上与GPT-5.2持平——迟10周，成本约便宜8倍（实际便宜17倍）。这是该测试前沿层级中的首个中国模型，中美差距现在仅剩约10周。❤️ 94 | 💬 22"
@@ -209,7 +214,8 @@
     "[2026-05-14]: Computer默认安全。每个任务都在独立的硬件隔离沙箱中运行，具备VPC级存储和计算分离。Agent使用短生命周期代理令牌而非原始API密钥。（❤️ 384 | 💬 32）",
     "[2026-05-15]: Computer现在已连接Snowflake。你可以针对实时仓库数据运行端到端工作，并通过SQL、源表、过滤器和指标获得答案。它就像一支随叫随到的个人数据科学团队。❤️ 341 | 💬 30",
     "[2026-05-21]: 我们已将查询感知压缩投入生产，实现更快、更干净、更准确的搜索。更好的上下文胜过更多上下文。我们的系统可将上下文Token减少高达70%，同时提升答案质量。❤️ 244 | 💬 30",
-    "[2026-05-29]: Perplexity Computer现已可在Microsoft Excel、Word、PowerPoint和Outlook中使用。在应用侧边栏直接编排工作、起草文档、建模、制作演示文稿和处理邮件。现已上线。❤️ 512 | 💬 30"
+    "[2026-05-29]: Perplexity Computer现已可在Microsoft Excel、Word、PowerPoint和Outlook中使用。在应用侧边栏直接编排工作、起草文档、建模、制作演示文稿和处理邮件。现已上线。❤️ 512 | 💬 30",
+    "[2026-06-02]: 我们推出Search as Code，这是为AI Agent设计的新搜索架构。它直接编写Python调用搜索栈，而非逐个循环函数调用。现已在Perplexity Agent API和Computer中成为默认。（❤️ 1550 | 💬 128）"
   ],
   "eladgil": [
     "[2026-05-10]: 各大AI实验室（用内部模型）的人比硅谷创业工程师领先3-4个月，硅谷创始人/工程师比纽约领先3-6个月，纽约又比世界其他地方领先6-12个月。大多数人根本不知道AI变化有多快，他们落后SOTA 1-2年。❤️ 1580 | 💬 104",
