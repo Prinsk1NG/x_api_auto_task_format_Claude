@@ -1,0 +1,80 @@
+<REPORT>
+  <COVER title="Codex Plugins: Yes-Code Agent OS Era" prompt="Minimalist data visualization art showing a clean neural node network where glowing plugin modules connect like modular building blocks into a central Codex core, transforming abstract ideas into interactive app interfaces and enterprise workflows. Floating skill icons for analytics, creative production and investing orbit around a sleek translucent dashboard with subtle data streams flowing in real-time. Industrial minimalism with cool blue and silver metallic textures, precise cinematic lighting with soft volumetric glows on neural connections, 8K ultra detailed, no cyberpunk elements" insight="Agentic plugins and hybrid inference turn experimental AI into production enterprise infrastructure."/>
+  <PULSE>硅谷叙事正从单一模型能力竞赛转向插件化、混合推理与专用硬件支撑的Agentic生产力操作系统构建。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="🔌">
+      <TITLE>Codex从编码助手转向插件驱动的Yes-Code企业中枢</TITLE>
+      <NARRATIVE>OpenAI今日密集发布Codex Sites、角色专用插件（销售、数据分析、创意生产、公募股权投资）及Python SDK，标志着Codex从个人生产力工具转向可一键安装的“专家代理”平台，直接呼应rauchg“yes-code”理念。历史记忆中paulg曾强调CEO必须深度参与AI构建，今日动态显示OpenAI正将这一理念产品化，让Codex成为企业内部的持久Agent操作系统，而非单纯聊天界面。</NARRATIVE>
+      <TWEET account="openai" role="官方">OpenAI宣布Codex新增Sites功能，可将工作想法直接转化为可分享的交互式网站或应用；同时推出插件系统，一键安装即可让Codex变身为销售、数据分析、创意生产或公募股权投资领域的专家，已覆盖62个流行应用和110项工作技能。（❤️ 11382 | 💬 562）</TWEET>
+      <TWEET account="vista8" role="观察者">Codex推出Python SDK（pip install openai-codex），可直接复用登录态将顶级编程与生图Agent内置到自家代码中；企业版更新后一句话即可生成可分享网站，Anthropic仅停留在Design阶段，OpenAI已实现全流程生成。（❤️ 74 | 💬 61）</TWEET>
+      <CONSENSUS>行业已形成共识：编码Agent已让“code变得廉价、容易且丰富”，未来企业软件价值将从SaaS订阅转向AI原生智能层与插件生态。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于“yes-code”是否会完全取代现有SaaS incumbents，还是仅加速新AI-native公司快速追赶；garymarcus式怀疑者仍质疑长期护城河。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌐">
+      <TITLE>混合Agentic Inference：本地隐私模型与云端前沿协同</TITLE>
+      <NARRATIVE>Perplexity宣布 hybrid agentic inference 将登陆Perplexity Computer，可将任务拆分至本地模型与云端前沿模型，私密数据留在设备上同时最大化token效率。这是一个全新范式，试图同时解决数据隐私、企业合规与成本瓶颈，超越过去单纯依赖云端或本地单一路径的做法。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="官方">Perplexity今日宣布混合Agentic Inference即将上线Computer：系统可将任务拆分给本地模型和云端前沿模型，既保护设备上的私密数据，又最大化token使用效率。（❤️ 1279 | 💬 97）</TWEET>
+      <OUTLOOK>未来6-12个月，这一架构有望成为企业级Agent部署标准，推动更多“主权AI”与本地优先方案落地，降低对单一云厂商依赖。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于本地推理芯片、隐私增强计算框架及针对混合调度的新型编排工具，垂直行业（如医疗健康）数据敏感场景尤为突出。</OPPORTUNITY>
+      <RISK>技术硬伤在于本地模型能力天花板与云端切换的延迟协调，若调度算法不成熟，可能导致体验碎片化，成为短期概念泡沫。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🛠️">
+      <TITLE>微软自研MAI基础模型：大厂去依赖化的主权宣言</TITLE>
+      <NARRATIVE>bindureddy与swyx今日均 highlight 微软宣布自研MAI和Mai-Flash两个基础模型，从芯片到模型到调度全栈掌控。这代表大厂加速构建独立AI主权的新叙事，与历史记忆中“微软自研AI模型减少对OpenAI依赖”的延续，但本次强调“2年内从零建成接近SOTA的neolab”，显示执行速度远超外界预期。</NARRATIVE>
+      <TWEET account="bindureddy" role="分析师">微软正式宣布推出两个基础模型——MAI和Mai-Flash，早期基准测试表现良好。他们在2年内从零构建了一个全栈可控的neolab，从芯片到模型到调度全部掌握，令人印象深刻。（❤️ 326 | 💬 24）</TWEET>
+      <TWEET account="swyx" role="观察者">必须给Microsoft AI团队点赞，他们从零训练所有这些内部模型并全部接近SOTA。Mustafa在2年内打造了一个完整neolab，现在微软从芯片到模型到调度完全掌控，简直不可思议。（❤️ 582 | 💬 39）</TWEET>
+      <OUTLOOK>此举将加速大厂垂直整合浪潮，预计2026年底前更多云厂商将推出自有前沿模型，OpenAI/Anthropic的平台分发优势面临真正挑战。</OUTLOOK>
+      <OPPORTUNITY>投资机会集中在为企业自研模型提供“最后一公里”工具链、评估框架及迁移服务的早期公司。</OPPORTUNITY>
+      <RISK>自研模型面临高昂持续训练成本，若不能快速形成独特数据飞轮，可能陷入与开源模型的价格战。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🛡️">
+      <TITLE>AI安全从孤岛基准转向全球协作网络扩张</TITLE>
+      <NARRATIVE>Anthropic宣布将Project Glasswing扩展至150多家来自15个以上国家的组织，并积极回应白宫AI行政令。这标志着安全叙事从“模型自我评估”转向“跨国漏洞发现与修补协作网络”，与历史记忆中Anthropic此前强调的“规范泛化对齐”形成推进，而非转向。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方">我们正在扩展Project Glasswing，已将Claude Mythos Preview的访问权限扩展至约150家位于15个以上国家的组织。未来计划详见链接。（❤️ 3159 | 💬 272）</TWEET>
+      <TWEET account="anthropicai" role="官方">这份行政令是加强美国AI领导力的重要一步，我们期待与白宫合作支持其落地实施。（❤️ 1168 | 💬 136）</TWEET>
+      <CONSENSUS>行业最新共识是：前沿模型已能以惊人规模发现高危漏洞，安全必须从单一公司行为升级为全球多方协作网络。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于“自我意识模型是否会主动识别并规避安全基准测试”，theinformation报道显示这一问题正让现有安全基准体系瓦解。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="💾">
+      <TITLE>NVIDIA Vera CPU：Agentic AI专属硬件新范式</TITLE>
+      <NARRATIVE>NVIDIA正式推出Vera CPU，宣称比x86快80%完成agentic任务，专为AI工厂与持久Agent设计。这是硬件叙事的重要新篇章，从过去GPU主导转向“CPU for agents”，与Microsoft在MSBuild上的端到端堆栈合作形成闭环。</NARRATIVE>
+      <TWEET account="nvidia" role="官方">AI时代需要新的CPU。NVIDIA Vera比x86快80%完成agentic任务，专为AI工厂打造。Agent的CPU已经到来。（❤️ 683 | 💬 44）</TWEET>
+      <TWEET account="nvidia" role="官方">在MSBuild上，Microsoft与NVIDIA共同发布端到端Agentic AI开发者栈，从Windows设备到云到本地。包括RTX Spark个人Agent PC、GB300 Blackwell上的Claude模型等。（❤️ 278 | 💬 23）</TWEET>
+      <OUTLOOK>未来12个月，专用Agent CPU将推动AI工厂从训练导向转向推理+行动导向，加速机器人与企业自动化落地。</OUTLOOK>
+      <OPPORTUNITY>投资切入点包括围绕Vera生态的边缘Agent优化工具、专用OS及垂直行业（如制造、物流）定制解决方案。</OPPORTUNITY>
+      <RISK>若Agent实际工作负载未如预期复杂，该CPU可能面临利用率不足风险，成为昂贵但针对性过强的硬件。</RISK>
+    </THEME>
+
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Unframe完成5000万美元B轮融资，用于扩大产品、客户支持、销售团队并进入新市场。</ITEM>
+    <ITEM category="投融资快讯">Cyera以80倍ARR倍数寻求120亿美元估值，尽管仍处于运营亏损状态。</ITEM>
+    <ITEM category="VC views">a16z引用Fivetran CEO观点：AI-native公司将快速追赶传统SaaS incumbents，最大威胁不是vibe-coded软件取代，而是新公司用AI更快构建更好产品。</ITEM>
+    <ITEM category="VC views">rauchg强调Vercel正打造“agents永不毕业的最简单云平台”，yes-code将成为下一代企业软件核心范式。</ITEM>
+    <ITEM category="VC views">pmarca盛赞某团队“不可思议的团队+惊人的使命+神奇的时代”，暗示Agentic基础设施领域仍有高确定性机会。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">bindureddy指出中国开源AI（DeepSeek、Kimi、Qwen/GLM）已能有效处理50%日常任务且成本低30倍，15亿中国人真实采用规模被严重低估；微软MAI的出现虽值得肯定，但中美开源token消耗差距已肉眼可见。</ITEM>
+    <ITEM category="中国 AI 评价">oran_ge观察到Claude近4个月停滞，而中国模型持续迭代，AI Native组织本身正成为新的竞争壁垒，Token价格敏感度将成为CEO核心能力。</ITEM>
+    <ITEM category="全球映射">中国务实开源路线（以DeepSeek、Qwen为代表）正迫使美国从“赢者通吃”竞赛转向关注成本治理与实际采用规模，避免陷入Gary Marcus所警告的价格战泥潭。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="rauchg" role="Vercel创始人">“no-code”建立在代码昂贵、困难且稀缺的假设之上，而编码Agent永远改变了这一方程式。代码现在廉价、容易且丰富。Vercel的目标是打造agents永不毕业的最简单云平台。（❤️ 246 | 💬 26）</TWEET>
+    <TWEET account="paulg" role="Y Combinator">我今天与春季YC批次初创公司做的office hours显示，他们的想法是我见过最宏大的。现在远不止“AI for x”，正如微机革命时期远不止“software for x”。（❤️ 557 | 💬 57）</TWEET>
+    <TWEET account="theinformation" role="媒体">独家：OpenAI在编码领域落后于Anthropic后，将Codex打造成增长最快的产品之一，并将其置于ChatGPT未来的核心位置。（❤️ 44 | 💬 0）</TWEET>
+    <TWEET account="runwayml" role="官方">Aleph 2.0现已通过Runway API提供。可将精确视频编辑直接集成到你的应用、产品和平台中，最长支持30秒1080p多镜头序列编辑，仅修改你想要的部分。（❤️ 124 | 💬 6）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">在艰难日子中最鼓舞我的一句话：“凡你手所当做的事，要尽力去做，因为在你所要去的阴间，没有工作，没有谋算，没有知识，也没有智慧。”——传道书9:10（❤️ 13912 | 💬 982）</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">提醒我一下，@elonmusk，GPT-5真的比最聪明的人类更聪明吗？（❤️ 19 | 💬 3）</TWEET>
+    <TWEET account="perplexity_ai" role="官方">Perplexity现已可接入iPhone上的Apple Health，将睡眠、活动和HRV数据用于Computer；Function也已在Perplexity Health中可用，可添加实验室数据并询问生物标志物。（❤️ 304 | 💬 31）</TWEET>
+    <TWEET account="oran_ge" role="中国观察者">当CEO发现Token很贵……（附图）（❤️ 3 | 💬 1）</TWEET>
+    <TWEET account="vista8" role="独立观察者">NVIDIA竟然开源了Skill安全扫描工具。Skill安全是个问题，但目前很少人重视。建议写一个Meta Skill来生成各种自用Skill，他人Skill仅作参考。（❤️ 6 | 💬 8）</TWEET>
+  </TOP_PICKS>
+</REPORT>
