@@ -1,0 +1,78 @@
+<REPORT>
+  <COVER title="开源物理AI崛起：Gemma4与Cosmos3" prompt="Minimalist data visualization of neural nodes evolving from flat language embeddings into rich 3D physical world models. Streams of open-source code flow like luminous particles into realistic physics simulations showing light interacting with surfaces, objects responding to force, and spatial reasoning on a laptop screen. Clean industrial design aesthetic with cool sapphire blues, emerald greens, precise geometric lines, soft volumetric lighting and subtle lens flares. Ultra-detailed 8K cinematic still, shot on Arri Alexa, evoking scientific breakthrough and democratized access." insight="开源模型爆发叠加世界模型觉醒，物理AI进入实用阶段"/>
+  <PULSE>硅谷叙事核心转向开源模型（Gemma 4、Ideogram v4）与世界模型（Cosmos 3）的双引擎爆发，同时Agent从狂飙进入企业成本治理与生命科学深度集成。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>开源AI 500%爆发：Gemma 4与Ideogram v4驱动本地世界模型</TITLE>
+      <NARRATIVE>今日推文显示开源模型正经历指数级增长，Gemma 4 12B模型下载量突破1.5亿并可在16GB VRAM笔记本本地运行，Ideogram v4以SOTA性能开放权重，DeepSeek Flash、Kimi 2.6、Minimax等在中国与全球生产环境中快速落地。这一新叙事试图解决闭源模型的高成本与访问壁垒，让世界模型从实验室走向开发者笔记本。</NARRATIVE>
+      <TWEET account="demishassabis" role="DeepMind CEO">庆祝Gemma 4达到1.5亿+下载量并发布全新12B模型。该模型体积小巧却极为强大，仅需16GB VRAM即可在笔记本本地运行，Apache 2.0许可，欢迎大家构建！❤️ 1368 | 💬 78</TWEET>
+      <TWEET account="bindureddy" role="AI Analyst">开源AI在两个月内增长500%——Gemma 4 12B刚刚发布、DeepSeek Flash已用于生产、Kimi 2.6用于编码、Minimax用于常驻Agent，增长速度超过Anthropic。❤️ 133 | 💬 20</TWEET>
+      <OUTLOOK>未来6-12个月，开发者与企业将大规模转向本地+开源混合部署，降低对单一云厂商依赖，同时加速物理AI与世界模型在边缘设备的落地。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注本地推理优化芯片、开源模型评测平台以及针对Gemma/Ideogram生态的垂直应用工具。</OPPORTUNITY>
+      <RISK>模型虽开源但高质量训练数据仍在快速枯竭，长期性能追赶闭源前沿仍存不确定性，可能形成短期炒作泡沫。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>世界模型超越语言模型：Cosmos 3领跑物理AI</TITLE>
+      <NARRATIVE>Fei-Fei Li与a16z强调世界模型学习空间、时间与物理规律，而非文本统计结构。NVIDIA Cosmos 3一举拿下7个物理AI榜单第一，覆盖世界生成、机器人策略、工业视觉。这一新范式旨在解决纯语言模型无法理解“光如何落在表面、物体如何响应力”的底层问题。</NARRATIVE>
+      <TWEET account="a16z" role="a16z">World Labs CEO Dr. Fei-Fei Li：“世界不是由文字构成的。”语言模型掌握概念词汇，世界模型则掌握空间与时间统计结构：光如何落在表面、物体如何遵循物理定律。这是机器最终理解、想象并与物理世界交互的方式。❤️ 273 | 💬 17</TWEET>
+      <TWEET account="nvidia" role="NVIDIA">Cosmos 3刚刚登顶7个物理AI榜单，在世界生成、机器人动作策略、工业视觉理解等领域排名第一。该开放全能模型现已在Hugging Face上线。❤️ 184 | 💬 30</TWEET>
+      <OUTLOOK>6-12个月内，世界模型将成为机器人、自动驾驶与工业数字孪生的核心基础设施，NVIDIA与Microsoft的端到端Agentic栈将加速其从研究到生产的转化。</OUTLOOK>
+      <OPPORTUNITY>投资物理AI数据引擎、仿真平台以及将世界模型嵌入现有工业软件的SaaS公司。</OPPORTUNITY>
+      <RISK>世界模型训练需要海量真实世界交互数据，当前模拟到现实的转移仍存巨大差距，存在技术硬伤。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从独立Codex转向OpenAI超级App融合</TITLE>
+      <NARRATIVE>历史记忆中Codex已从编码助手演变为持久Goal Agent与Computer Use工具，今天The Information独家披露OpenAI计划将Codex能力深度整合进ChatGPT，打造“超级App”。这一转向标志着从碎片化工具向统一智能中枢的重大共识转变，解决用户在多个界面切换的痛点。</NARRATIVE>
+      <TWEET account="theinformation" role="The Information">独家：OpenAI计划将Codex与ChatGPT合并。“他们正准备在未来几周发布这个所谓的超级App……公司基本上在说，既然我们知道Codex比ChatGPT更好，为什么不把Codex能力带到ChatGPT里。”❤️ 57 | 💬 7</TWEET>
+      <TWEET account="gdb" role="OpenAI EVP">Codex用于计算机工作的增长非常快；用Codex为团队构建并发布应用。❤️ 735 | 💬 90</TWEET>
+      <CONSENSUS>行业最新共识是顶级编码Agent必须与日常对话界面融合，才能实现从实验到企业日常工作流的真正渗透。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在激烈争论融合后Token成本治理与“超级App”是否会稀释专业编码工具的专注度，以及企业是否愿意为统一界面支付更高溢价。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="📉">
+      <TITLE>企业Agent从狂飙到成本上限治理</TITLE>
+      <NARRATIVE>随着Codex等Agent快速增长，企业开始设置硬性成本上限。Uber据报将编码Agent工具费用限制在每人每月1500美元，这一转向反映了从“能用就上”到“必须量化ROI”的共识瓦解，呼应历史记忆中对持久Agent成本焦虑的延续。</NARRATIVE>
+      <TWEET account="simonw" role="AI Engineer">Uber据报现在将编码Agent费用限制在每名员工每月1500美元每工具——这在我看来很明智，同时也暗示了Uber认为这些工具正在提供的价值。❤️ 457 | 💬 86</TWEET>
+      <CONSENSUS>企业已形成共识：Agent虽能极大提升生产力，但必须置于严格的预算控制与Token治理框架下，否则将产生不可控的支出。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于这一上限是否会抑制创新，以及如何在成本控制与让Agent“长时间自主运行”之间找到平衡。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🧬">
+      <TITLE>GPT-Rosalind升级：生命科学Agentic新基座</TITLE>
+      <NARRATIVE>OpenAI推出GPT-Rosalind重大升级，将GPT-5.5的Agentic编码与工具使用能力与更强的药物发现、分析、设计和实验工作流智能结合。这是AI从消费级编码向企业级生命科学基础设施的自然延伸，试图解决生物研究中实验迭代缓慢的核心瓶颈。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI">我们正在为GPT-Rosalind带来新能力，这一系列模型专为企业级生命科学研究打造。它将GPT-5.5的Agentic编码与工具使用同药物发现、分析、设计和实验工作流的更强智能相结合。❤️ 1823 | 💬 137</TWEET>
+      <TWEET account="gdb" role="OpenAI EVP">GPT-Rosalind重大升级，在药物发现、分析、设计和实验工作流上智能显著提升。❤️ 330 | 💬 35</TWEET>
+      <OUTLOOK>未来6-12个月，生命科学企业将大规模采用Rosalind类Agent，缩短药物发现周期，潜在加速新疗法从概念到临床的速度。</OUTLOOK>
+      <OPPORTUNITY>投资生物-AI数据平台、实验自动化硬件以及与Rosalind生态兼容的实验室信息管理系统。</OPPORTUNITY>
+      <RISK>生物实验结果验证周期长，模型幻觉可能导致高成本错误，短期内仍需大量人类专家监督。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Alphabet为Google AI业务创纪录募集850亿美元，显示投资者对AI基础设施与模型的极高信心。</ITEM>
+    <ITEM category="投融资快讯">Alphabet计划用近300亿美元新股发行资金覆盖员工股票奖励相关税收，凸显AI人才战造成的现金流压力远超数据中心投入。</ITEM>
+    <ITEM category="VC views">NVIDIA与Microsoft在MSBuild上联合发布从Windows设备到AI工厂的端到端Agentic开发者栈，Vera CPU与Cosmos 3成为硬件投资新焦点。</ITEM>
+    <ITEM category="VC views">OpenAI计划推出Codex+ChatGPT超级App，被视为企业生产力工具商业化闭环的重要信号，一级市场可关注统一Agent平台。</ITEM>
+    <ITEM category="投融资快讯">Hugging Face平台上Ideogram v4与Gemma 4等开放权重模型获开发者热捧，间接推动开源AI基础设施相关早期融资升温。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek Flash已在生产环境中大规模使用，Kimi 2.6成为编码主力，Minimax支撑常驻Agent，开源AI两个月增长500%，中美开源性能与采用规模差距已肉眼可见，DeepSeek、Qwen、Kimi共同构成全球开源Top梯队。</ITEM>
+    <ITEM category="全球映射">中国开源模型的快速迭代正迫使美国从“ token maxxing”转向更务实的成本治理与世界模型研发，美国若继续低估15亿人的真实采用规模，将在边缘部署与性价比竞赛中失去先手。</ITEM>
+    <ITEM category="全球映射">运营商层面已将Token服务作为未来主线（历史记忆呼应），中国在将AI商品化为“水电煤”方面的执行速度远超硅谷焦虑叙事。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="nvidia" role="NVIDIA">Agentic AI时代已至。Jensen Huang与Satya Nadella在MSBuild上展示NVIDIA和Microsoft如何从Windows设备到规模化AI工厂共同构建它。❤️ 285 | 💬 33</TWEET>
+    <TWEET account="huggingface" role="Hugging Face">Ideogram刚刚发布其最新最佳v4图像模型开放权重。SOTA与开放权重相得益彰。❤️ 457 | 💬 19</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity">Perplexity Computer适用于成长型企业。它已连接400+工具，包括Intuit QuickBooks、Vercel、Shopify、Canva等。❤️ 280 | 💬 24</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">美国应通过持续开发最佳模型、确保安全并将网络工具交给可信防御者来领导AI。新行政令取得了正确平衡。❤️ 2470 | 💬 525</TWEET>
+    <TWEET account="anthropicai" role="Anthropic">我们研究了832个恶意账户，并将其活动映射到威胁参与者长期使用的战术技术数据库上，以了解安全社区技术如何应对AI驱动的网络攻击。❤️ 568 | 💬 80</TWEET>
+    <TWEET account="xai" role="xAI">试用Grok模型在Cloudflare AI Gateway上！❤️ 530 | 💬 45</TWEET>
+    <TWEET account="vista8" role="AI Observer">Codex小技巧：一台电脑可远程指挥另一台写代码。通过ChatGPT账号登录多台设备后，可在设置中添加远程项目。❤️ 40 | 💬 25</TWEET>
+    <TWEET account="swyx" role="AI Engineer">Town是针对其他一切的Devin，我在AIE Europe就提到过。它在我们公司一天内引入，几周后就自然传播到整个团队，这太罕见了。❤️ 58 | 💬 18</TWEET>
+  </TOP_PICKS>
+</REPORT>
