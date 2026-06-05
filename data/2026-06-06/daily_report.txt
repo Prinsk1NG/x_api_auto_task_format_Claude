@@ -1,0 +1,74 @@
+<REPORT>
+  <COVER title="从回合制转向人机共骑协作" prompt="Minimalist data visualization scene of a human cyclist and a glowing neural AI entity pedaling a tandem bicycle forged from translucent molecular bonds and flowing neural pathways, ascending a gentle hill composed of layered scientific spectra and code lattices under soft volumetric golden-hour lighting. Clean geometric lines, floating neural nodes connecting chemical structures in the background, precise focus on synchronized hands on the handlebars, high-tech minimalism with subtle particle streams, cinematic depth of field, industrial design precision meets organic intelligence flows, 8K resolution, shot on Arri Alexa with anamorphic lenses." insight="人机从检查点转向持续共驾协作"/>
+  <PULSE>硅谷叙事核心从纯能力与成本竞赛转向样本高效自改进系统、人机持续交互协作及国家主权AI落地，同时AI经济泡沫担忧显著升温。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="🚲">
+      <TITLE>从回合制对话转向持续交互的人机共骑模式</TITLE>
+      <NARRATIVE>历史记忆中LLM长期被批评为“turn-based”且思考时“又聋又瞎”，Mira Murati今日通过a16z明确提出“双人自行车”与“时间基而非回合基交互”新范式，强调AI需在思考时持续感知音频、文本、视频，实现中断与高带宽协作，这标志着从孤立生成转向人类-AI共驾系统的重大转向。</NARRATIVE>
+      <TWEET account="a16z" role="投资机构">Mira Murati表示，前沿AI不应被简单预测为乌托邦或反乌托邦，人类和AI系统目前都握着方向盘，这是需要正确把握的关键时期。她用“双人自行车”比喻：上坡时强者更用力踩，但双方都握着车把，这是一种为协作而设计的系统，能提升人类能动性并让研究方向更符合价值对齐。（❤️ 281 | 💬 29）</TWEET>
+      <TWEET account="a16z" role="投资机构">Mira Murati指出，当前模型是严格回合制的：你说、它说、然后它离线思考。而现实人类交互充满沉默、中断和同时发言的丰富信息。未来交互模型需是时间连续的，能持续摄入多模态输入并输出，实现高带宽人机协作。（❤️ 184 | 💬 19）</TWEET>
+      <CONSENSUS>行业最新共识是，单纯提升模型参数已不够，必须构建能“边思考边倾听”的连续交互系统，才能真正释放人类生产力并避免AI脱离文明轨道。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于：如何在不牺牲推理深度前提下实现实时多模态感知？当前架构是否需要彻底重构，还是通过工程技巧就能实现“共骑”？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🧪">
+      <TITLE>Sakana RSI Lab东京落地：样本高效自改进AI</TITLE>
+      <NARRATIVE>Hardmaru宣布在东京正式成立Sakana AI RSI Lab，专注于构建开放式、自适应、可集体自我改进的AI系统。日本“以少做多”的制造哲学被转化为AI设计约束——不追求最耗算力的自改进，而是最样本高效的自改进引擎。这是一个从未见过的新叙事，试图解决 brute-force scaling 的资源墙问题。</NARRATIVE>
+      <TWEET account="hardmaru" role="AI研究员">我们今天正式在东京推出Sakana AI RSI Lab，致力于构建开放式、自适应的AI系统，让它们能够集体自我改进。我们不为brute-force现状买单，而是聚焦样本高效的自改进。如果您对现状不满并准备在日本打造自我改进的未来，欢迎加入我们。（❤️ 385 | 💬 30）</TWEET>
+      <OUTLOOK>未来6-12个月，这一范式若成功，将推动东亚成为高效自改进AI的重要枢纽，降低全球对巨型算力中心的依赖，并加速从“训练更大模型”到“让模型自主进化”的范式转移。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于样本高效训练基础设施、分布式自改进协调框架，以及日本本地AI人才与制造背景结合的垂直应用（如机器人、精密制造）。</OPPORTUNITY>
+      <RISK>该概念仍处于早期实验室阶段，是否能超越当前RLHF/迭代微调的硬伤尚未验证，可能面临“自我改进失控”或实际性能提升不及预期的短期泡沫风险。</RISK>
+    </THEME>
+
+    <THEME type="deepening" emoji="🔬">
+      <TITLE>Claude化身化学家：AI深度渗透NMR光谱分析</TITLE>
+      <NARRATIVE>Anthropic Science Blog展示Opus 4.7在分子结构理解上匹配甚至超越专用NMR软件，这是AI进入硬科学领域的深度推进。与历史记忆中OpenAI用模型解决平面单位距离问题一脉相承，标志着AI从“辅助工具”转向“可信科学伙伴”，尤其在化学与生命科学瓶颈突破上。</NARRATIVE>
+      <TWEET account="anthropicai" role="AI研究机构">Anthropic Science Blog新文章：《让Claude成为化学家》。化学家操作分子前需理解其结构，主要工具是NMR光谱。我们发现Opus 4.7在多项任务上匹配甚至超越了专用NMR软件。详情请阅读链接。（❤️ 1643 | 💬 120）</TWEET>
+      <CONSENSUS>最新共识是，顶级前沿模型已在特定科学子领域达到或超过专业工具水平，AI正加速科学假说生成与验证循环。</CONSENSUS>
+      <DIVERGENCE>争议在于：AI“理解”分子结构究竟是真正洞察还是高维模式匹配？如何确保其在开放式科研中不引入系统性偏差？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="📉">
+      <TITLE>AI经济现实击穿幻想：股价暴跌与OpenAI求援传闻</TITLE>
+      <NARRATIVE>Gary Marcus发文称这是“AI幻想的残酷一天”：NVIDIA、Broadcom、Coreweave、Oracle等股价大幅下跌，同时OpenAI被曝寻求政府投资。这与过去大佬们对指数级增长的乐观形成鲜明反差，标志着从“无限scaling”共识转向对盈利路径、成本治理和泡沫风险的严肃转向。</NARRATIVE>
+      <TWEET account="garymarcus" role="AI批评者">AI幻想的残酷一天：NVIDIA跌6.2%，Broadcom跌7.92%，Coreweave跌7.07%，Nebius跌12.27%，Oracle跌9.59%。最糟糕的是OpenAI据传寻求政府投资，这是一个巨大的疲软信号。S&amp;P拒绝快速通道后不到24小时，局面已完全不同。（❤️ 517 | 💬 38）</TWEET>
+      <CONSENSUS>行业内最新共识是，AI公司烧钱速度已达临界点，单纯依赖算力与订阅已不可持续，企业开始设置使用上限（如Uber），盈利压力真实存在。</CONSENSUS>
+      <DIVERGENCE>核心争论是：OpenAI是否应获得政府救助？批评者认为其缺乏护城河且过去行为不端，纳税人不应为其买单；而支持者认为其技术仍具战略重要性。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌍">
+      <TITLE>主权AI国家规模实践：Sarvam印度全栈平台</TITLE>
+      <NARRATIVE>NVIDIA展示Sarvam AI如何用4096+ H100训练100B+ MoE模型，并为14亿印度人提供毫秒级多语言语音Agent，支持Aadhaar、KYC与企业客服。这是一个全新叙事：主权AI不再是理论，而是以本地语言、真实人口规模落地的全栈平台，解决文化与基础设施适配的底层问题。</NARRATIVE>
+      <TWEET account="nvidia" role="硬件领导者">主权AI在人口规模上已从理论变为现实。Sarvam AI正在构建“印度制造”全栈AI平台：用4096+ H100高效训练100B+ MoE模型，提供毫秒级多语言语音推理，支持Tata Capital和Infosys的自动化KYC、销售与客服。这是国家构建主权AI的蓝图，在不牺牲性能与安全的前提下服务14亿民众。（❤️ 666 | 💬 43）</TWEET>
+      <OUTLOOK>未来6-12个月，类似印度、印尼等人口大国将加速复制这一模式，推动全球AI从美中双极向多主权并存格局演变。</OUTLOOK>
+      <OPPORTUNITY>投资机会集中在本地语言数据集、主权云基础设施、多模态语音Agent以及新兴市场合规AI工具。</OPPORTUNITY>
+      <RISK>技术硬伤在于低资源环境下的长上下文稳定性，以及地缘政治风险可能导致的供应链中断；短期内是否能实现可持续商业化仍待验证。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">数据中心开发商Switch正谈判数十亿美元融资，估值至少500亿美元，以满足AI基础设施爆炸式需求。</ITEM>
+    <ITEM category="投融资快讯">Uber从“AI预算超支”转向实施员工每月每工具1500美元使用上限，反映企业级Agent成本治理已成现实。</ITEM>
+    <ITEM category="VC views">Chamath指出SpaceX已通过某笔交易多次收回对xAI的收购成本，暗示xAI商业化路径正快速兑现。</ITEM>
+    <ITEM category="VC views">Mira Murati强调构建“双手握方向盘”的协作系统将是下一波企业与研究价值的核心，a16z持续看好人机共生应用。</ITEM>
+    <ITEM category="投融资快讯">Reid Hoffman离开微软董事会，转向以“创始人模式”创办Manus初创公司，信号大厂高管加速向AI创业流动。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek和Qwen仍被视为中国开源第一梯队，Kimi与智谱GLM 4.5等模型正以远低于前沿的价格提供接近性能，15亿中国用户的真实采用规模被严重低估，已在编码、Agent与日常任务中实现广泛落地。</ITEM>
+    <ITEM category="全球映射">中国务实开源路径（高性价比、本地部署）正成为印度Sarvam等新兴市场主权AI的参考模板，全球供应链分散化将利好中国硬件-模型一体化方案。</ITEM>
+    <ITEM category="全球映射">尽管中美算力差距仍存，但DeepSeek融资需求激增（寻求超70亿美元）显示中国实验室正从研究型快速转向商业化，以匹配全球对高效AI的需求。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="googleai" role="AI实验室">本周发布摘要：Nano Banana 2及Pro正式GA；推出Co-Scientist多代理科学思考系统；dreambeans个性化主题 curation；Gemma 4 12B支持完全离线多模态；Gemma系列通过QAT优化内存；RealTime 2开放权重实时音乐模型。（❤️ 151 | 💬 32）</TWEET>
+    <TWEET account="nvidia" role="硬件领导者">AI算力需求未见放缓，全球AI云正基于NVIDIA全栈AI工厂平台扩张。Vera Rubin驱动的下一代基础设施已在建设中，加速计算正更接近开发者、企业与国家。（❤️ 539 | 💬 54）</TWEET>
+    <TWEET account="runwayml" role="生成视频公司">《50 Crowns》：完全由AI生成的游戏内过场动画，仅用不到一周时间由一人完成。两个赏金猎人在路上。如果你有想法，就能实现它。（❤️ 141 | 💬 22）</TWEET>
+    <TWEET account="perplexity_ai" role="搜索公司">Nemotron 3 Ultra现已向Perplexity Pro与Max订阅者开放。这是NVIDIA为长时间运行Agent构建的新开源模型。（❤️ 454 | 💬 43）</TWEET>
+    <TWEET account="theinformation" role="媒体">独家：数据中心开发商Switch正谈判数十亿美元融资，估值至少500亿美元，以抓住AI基础设施需求的激增。（❤️ 3 | 💬 1）</TWEET>
+    <TWEET account="techcrunch" role="媒体">Uber从“AI预算爆表”到实施使用上限仅用了约六周。如果这发生在这样规模的公司，Anthropic的S-1风险披露部分会是什么样子？（❤️ 14 | 💬 6）</TWEET>
+    <TWEET account="simonw" role="开发者">作为深度使用AI工具的程序员，我学到的最重要一点是：编程远不止写代码。虽然AI能带来惊人结果，但这离不开我25+年的软件经验积累。（❤️ 221 | 💬 12）</TWEET>
+    <TWEET account="pmarca" role="投资人">在硅谷听到的：“他是个autist，但他是我们的autist。”（❤️ 1653 | 💬 95）</TWEET>
+  </TOP_PICKS>
+</REPORT>
