@@ -1,0 +1,73 @@
+<REPORT>
+  <COVER title="开源模型1/20成本革命：闭源定价泡沫崩塌" prompt="Minimalist data visualization of an AI economic paradigm shift. A cracked golden monolith representing closed-source frontier models (GPT-5.5, Claude Opus) collapses from the top right, releasing torrents of expensive tokens that cascade downward. From the bottom left, a precise grid of silver neural nodes and glowing teal data streams labeled DeepSeek V4/R1 rises powerfully, each node annotated with '$5k vs $105k monthly' metrics. Clean geometric balance with floating economic equations, reflective glass surfaces, dramatic cinematic side lighting creating long shadows, and subtle connection lines showing enterprise control plane routing. Industrial minimalism, sharp focus, 8K resolution, precise technical aesthetic with no neon or cyberpunk elements." insight="闭源与开源能力差距缩小远快于定价差距，企业控制平面时代正式开启。"/>
+  <PULSE>今日硅谷核心叙事从无序烧钱转向精细化模型路由治理与开源性价比优先，Claude Design工作流与人机交互沉浸感成为采用新焦点。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="📉">
+      <TITLE>从无序烧钱到模型路由治理：开源以1/20成本逼近闭源</TITLE>
+      <NARRATIVE>Chamath今日发文指出，能力差距缩小速度远超定价差距，企业若继续默认使用最贵模型将面临巨额浪费。控制平面将成为仲裁token流向的核心，企业将混合使用DeepSeek高量推理、Claude可靠Agent、GPT仅限高价值场景。这与历史记忆中Chamath此前强调的“建立控制平面仲裁token流”形成直接延续，但今日以具体月度成本对比（DeepSeek $2740 vs GPT $105000）将讨论推向可执行的治理层面，标志着AI经济现实主义全面落地。</NARRATIVE>
+      <TWEET account="chamath" role="VC/企业家">Chamath发文称2026最大意外是开源权重模型与闭源前沿模型能力差距缩小远快于定价差距。对于每月10亿输入输出token的企业，GPT-5.5 Pro约10.5万美元，Claude约3万美元，DeepSeek V4 Pro仅5220美元，R1仅2740美元。CEO们若不建立控制平面治理模型选择，烧钱将失控，开源收入将因此暴增。❤️ 974 | 💬 125</TWEET>
+      <CONSENSUS>行业已形成共识：高量推理场景应优先极致性价比开源模型，控制平面将成为企业AI支出标准化基础设施。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于“究竟多大比例工作负载真正需要前沿闭源的增量能力”——Chamath认为极少，部分实验室仍坚持闭源护城河可维持高溢价。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🎨">
+      <TITLE>Claude Design工作流全面落地：从原型到可交付App一站式闭环</TITLE>
+      <NARRATIVE>dotey详细分享Claude Design的30条心法与操作技巧，覆盖从“没人点击的原型只是画作”到Knobs模式实时调CSS、Handoff to Claude Code一键交付开发包的全流程。这是一个全新叙事：AI不再是零散设计工具，而是集产品心法、生活小妙招、实时调试、语音交互、代码移交于一体的完整设计操作系统，试图解决设计师与工程师之间长期存在的高保真到生产级交付的断层问题。</NARRATIVE>
+      <TWEET account="dotey" role="AI观察者">dotey分享Claude Design完整心法与技巧：原型无人点击只是画作、最好设计系统无人察觉、留白是音符间的沉默、用户心理模型才是唯一规范；实用妙招包括冰块除口香糖、核桃修复木划痕；操作上支持挂载本地代码库、Knobs实时调CSS、Handoff生成开发包直接交给Claude Code生成可交互App。❤️ 36 | 💬 24</TWEET>
+      <OUTLOOK>未来6-12个月，专业设计工具将加速被这类AI原生工作流替代，独立设计软件市场份额下滑，Anthropic围绕Design→Code闭环的产品黏性将大幅领先。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注“AI设计操作系统”垂直工具，或将Claude Design最佳实践包装为企业级设计系统SaaS，尤其针对中型团队的原型到上线加速器。</OPPORTUNITY>
+      <RISK>当前仍高度依赖特定模型审美偏好（Claude Opus 4.8被公认领先），若模型审美随迭代波动或API定价上调，可能出现工作流迁移成本。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="💼">
+      <TITLE>从AI夺走工作到激发“messy jobs”与更多创业</TITLE>
+      <NARRATIVE>a16z引用Tyler Cowen观点：AI让少数人+AI完成远超以往工作量，将催生更多公司、项目、非营利组织。能源电网、生物医药试验、老人照护、“messy jobs”（难以精确定义、需协调的多任务工作）将成为AI无法独自完成但能放大的领域。这与过去数月AI就业焦虑及Gary Marcus的负面观点形成鲜明转向，重新将AI定位为放大人类能动性而非单纯替代的工具。</NARRATIVE>
+      <TWEET account="a16z" role="机构投资人">a16z分享Tyler Cowen观点：AI最大特性是让少数人搭配AI完成远超以往的工作量，这意味着更多公司、项目、NGO和创业。能源电网修复、生物医药大量试验、老人照护中的人情陪伴、“messy jobs”（一天要做11件不同协调工作）都将因AI而规模扩大，AI无法独自完成这些。❤️ 275 | 💬 27</TWEET>
+      <CONSENSUS>主流机构已转向认为AI净效应是创造而非摧毁就业，尤其是那些需要人类协调、创造力和同理心的“messy jobs”。</CONSENSUS>
+      <DIVERGENCE>争论在于时间尺度：短期内特定认知工作是否会被快速替代，以及AI是否会先加剧中层焦虑（如oran_ge历史记忆中提到的湾区分化）。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🧠">
+      <TITLE>提示词从“Plan Mode”转向“以问题 framing”激发模型反推</TITLE>
+      <NARRATIVE>swyx提出比“总是使用plan mode”更聪明的替代方案：将任务表述为问题，邀请模型推翻假设、评估想法质量并建议替代方案。只在prompt末尾加“?”就能显著改善盲从执行问题。这是一个新范式，试图解决当前Agent过度服从导致的“正确执行了错误指令”的核心瓶颈，让人机协作从指令-执行转向对话-共创。</NARRATIVE>
+      <TWEET account="swyx" role="AI开发者">swyx建议比“总是用plan mode”更好的做法：把任务框定为一个问题，让模型主动推翻、评估质量并提出替代方案。只在prompt末尾加问号往往就能实现，避免模型盲目执行你“说”而非你“真正想”的内容。❤️ 246 | 💬 72</TWEET>
+      <OUTLOOK>未来6-12个月，这一交互范式将渗透到主流Agent框架中，推动从回合制向持续协商式人机共创演进，提升复杂任务成功率。</OUTLOOK>
+      <OPPORTUNITY>投资可关注下一代Agent编排工具中内置“批判性提问”与“假设对抗”机制的初创公司，或企业级提示词治理平台。</OPPORTUNITY>
+      <RISK>效果高度依赖模型本身批判性思考能力，若底层模型仍倾向取悦用户而非真正对抗，范式升级可能停留在表面。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⌨️">
+      <TITLE>从工具到沉浸式计算机：Codex让电脑使用“更有趣”</TITLE>
+      <NARRATIVE>gdb连续发帖称“用Codex操作电脑有趣太多”和“ChatGPT邮件集成”，结合历史记忆中Codex从编码助手到持久Agent、Mac Agentic Excel的演进，今天信号显示其正向“沉浸式计算机使用层”快速迁移。用户不再是复制粘贴，而是让AI直接接管整个操作系统工作流，这标志着从“写代码”到“用AI生活”的范式转向。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI核心开发者">gdb发帖：“用Codex操作电脑有趣太多了。”另一帖提及“ChatGPT邮件集成”。❤️ 2023 | 💬 256</TWEET>
+      <CONSENSUS>开发者社区已达成共识：顶级编码模型正快速成为日常计算机使用的主要界面，沉浸感和生产力提升显著。</CONSENSUS>
+      <DIVERGENCE>主要争议在于长期依赖后开发者基础技能是否退化，以及企业如何在“有趣”与“可审计、可控成本”之间取得平衡。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">AI初创公司Lovable正在谈判以120亿美元估值融资，较此前几乎翻倍；Google每月承诺9.2亿美元与SpaceX签署算力协议，AI基础设施军备竞赛升级。</ITEM>
+    <ITEM category="VC views">Chamath：企业若不建立模型选择控制平面，开源模型收入将暴增，前沿闭源实验室收入增长将显著放缓，DeepSeek等将主导高量推理。</ITEM>
+    <ITEM category="VC views">a16z/Tyler Cowen：AI将催生更多“messy jobs”、能源与生物医药创业机会，长期看净增就业而非替代。</ITEM>
+    <ITEM category="基础设施趋势">近一周GitHub趋势显示Qwen2（40k-60k stars）、ComfyUI生态（40k-70k stars）与Llama推理框架持续高增长，本地与高效推理仍是资本关注焦点。</ITEM>
+    <ITEM category="硬件前瞻">Microsoft宣布将在三年内拥有实用量子计算机，长期可能重塑AI训练范式。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek V4 Pro在高量推理场景下以约1/20成本接近Claude Opus与GPT-5.5能力，企业已开始将其作为默认高量选项，中美开源模型性价比差距已肉眼可见地缩小。</ITEM>
+    <ITEM category="全球映射">中国开源模型的极端成本优势正在迫使全球企业重新评估“只用前沿闭源”的默认策略，控制平面技术将成为中美AI基础设施竞争的新战场。</ITEM>
+    <ITEM category="全球映射">Qwen2与DeepSeek在本周GitHub趋势中持续领跑，显示中国开源生态的开发者采用速度已形成全球可见的网络效应。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="企业家">SpaceX早期不到10人，甚至没有办公室家具。如今我们做到了曾经被认为不可能的事。❤️ 308335 | 💬 8175</TWEET>
+    <TWEET account="hardmaru" role="Sakana AI联合创始人">过去两年我们已为RSI打下基础。现在正在寻找顶尖前沿研究员和工程师加入核心RSI团队。如果你对brute-force scaling感到无聊，这是你的召唤。❤️ 9 | 💬 0</TWEET>
+    <TWEET account="vista8" role="AI产品观察者">直播总结Claude Design使用经验及LLM前端审美主观排名：Claude opus 4.8 &gt; kimi2.6 &gt; GPT 5.5 &gt; Deepseek v4 pro &gt; GLM 5.1。❤️ 20 | 💬 13</TWEET>
+    <TWEET account="simonw" role="开发者/工具作者">我可能终于找到了在Python沙盒中运行MicroPython on WebAssembly的方案，这让我可以在自己的Python应用里嵌入它。❤️ 312 | 💬 33</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">SpaceX IPO：荒谬；Anthropic IPO：估值过高但他们在做好事；OpenAI：为什么会有人选择它而不是Anthropic？❤️ 24 | 💬 12</TWEET>
+    <TWEET account="pmarca" role="投资人">气候危机结束了，Greta转战巴勒斯坦，而我们还在为数据中心惊慌失措。跟上节奏吧。❤️ 3802 | 💬 148</TWEET>
+    <TWEET account="tualatrix" role="开发者">Codex你真行…又把 syspolicyd 打爆了。❤️ 10 | 💬 7</TWEET>
+    <TWEET account="oran_ge" role="中国科技观察者">北京今年疯狂修滨水道路，七天前正读公布五年规划，千年古城要变江北水乡了，河边骑行钓鱼两党或成最大赢家。❤️ 28 | 💬 34</TWEET>
+  </TOP_PICKS>
+</REPORT>
