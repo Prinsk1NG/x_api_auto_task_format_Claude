@@ -1,0 +1,75 @@
+<REPORT>
+  <COVER title="Fable 5 解放思想：长时程 Agent 质变" prompt="Minimalist data visualization art showing a single glowing neural node constellation transforming into an ancient fable scroll that unspools into infinite horizontal timelines of interconnected code pathways and self-improving agent loops. Clean geometric lines, deep indigo and electric cyan palette, subtle particle streams representing test-time compute, cinematic rim lighting on neural edges, ultra sharp 8K resolution, negative space emphasizing scale and persistence, no neon or cyberpunk elements." insight="Claude Fable 5 以长时程复杂任务突破定义下一代生产力，Anthropic 企业优势凸显。"/>
+  <PULSE>Claude Fable 5 发布标志着从回合制对话到持久、高雄心 Agent 时代的决定性转向，Anthropic 在营收与长任务能力上反超 OpenAI 的信号重塑行业共识。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>Fable 5 实现持久 Agent 质变：数十小时级自主执行</TITLE>
+      <NARRATIVE>基于今日 karpathy、swyx、oran_ge 和 bindureddy 推文，Claude Fable 5（Mythos 底座加护栏）在极长问题解决上形成阶跃式进步，可处理等同数十人类小时、数百美元 token 的复杂任务，首次让“不用看代码”成为现实。这不是 Codex 增量升级，而是新范式：模型真正“get it”并自主长期运行，Jevons Paradox 下软件需求爆炸。</NARRATIVE>
+      <TWEET account="karpathy" role="Anthropic 研究员">这是超级激动人心的发布——Claude Fable 5 与 Mythos 是同一底层模型但增加了防护。在所有基准上大幅领先，定性上也是自 Claude 4.5 以来同量级的重大版本跃升，尤其在极难问题的长时程解决上。你可以给它远超以往的雄心任务，模型会“理解”并直接执行，从未如此让人想完全不看代码（但生产环境别这么干）。软件像自来水一样流出，我对软件的需求大幅增长：解释器、可视化、仪表盘、一次性定制 App、10X 测试套件、自动优化、巨型研究项目……“Free your mind”。❤️ 14841 | 💬 708</TWEET>
+      <OUTLOOK>未来 6-12 个月，长时程 Agent 将从实验进入主流生产力工具，企业将围绕“持久目标模式”重构工作流，Codex-style 工具或被整合进统一超级 App。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于持久 Agent 基础设施（自愈循环、成本路由、跨模型协同治理）和垂直领域一次性 App 生成平台。</OPPORTUNITY>
+      <RISK>极高定价（输入$10/输出$50）与过度触发防护栏可能限制采用；安全机制一天内被破也暴露硬伤。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从营收领先到 IPO 竞速：Anthropic 反超 OpenAI</TITLE>
+      <NARRATIVE>结合 theinformation 与 garymarcus 今日推文，Anthropic 通过 Claude Code/Cowork 等企业工具实现营收反超 OpenAI 至少 35%，OpenAI 虽秘密提交 S-1 但已失去领先、承诺超支且盈利路径不明。此为历史记忆中“OpenAI 统治”叙事的重大转向：企业采用与实际产出而非 hype 决定胜负。</NARRATIVE>
+      <TWEET account="theinformation" role="科技媒体">OpenAI 刚刚提交 IPO 文件，但“他们已被 Anthropic 在营收上超越”，Anthropic 通过 Claude Code、Claude Cowork 等产品凭借企业专注实现反超。这对两家即将上市的前沿实验室意义重大。❤️ 14 | 💬 1</TWEET>
+      <CONSENSUS>行业最新共识是企业 AI 采用已从“预算狂飙”转向“数周内用量封顶+路由治理”，Anthropic 当前在这一战场领先。</CONSENSUS>
+      <DIVERGENCE>大佬激烈争论 OpenAI 是否还有清晰盈利路径，以及 Anthropic 安全护栏在 Fable 5 上能否真正持久（Gary Marcus 一小时内攻破）。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌐">
+      <TITLE>Gemini 3.5 Live Translate：流式多语言实时对话</TITLE>
+      <NARRATIVE>googleai 与 jeffdean 今日发布 Gemini 3.5 Live Translate，支持 70+ 语言，边听边译、无停顿、保持语调与节奏。这是语音翻译从“离线分段”到“实时连续交互”的范式突破，直接服务于全球商业与旅行场景。</NARRATIVE>
+      <TWEET account="jeffdean" role="Google AI 首席科学家">语音翻译是 Google 最长期的 ML 项目之一。Gemini 3.5 Live Translate 是我们最新的语音到语音模型，支持 70+ 语言，能实现自然流畅的跨语言对话，已在 Google Translate App 和 Live API 中推出。❤️ 156 | 💬 13</TWEET>
+      <OUTLOOK>6-12 个月内实时多模态翻译将成为所有通信工具标配，显著降低全球协作摩擦，也为多语言 Agent 奠定基础。</OUTLOOK>
+      <OPPORTUNITY>投资机会包括针对新兴市场、本地化行业的垂直翻译 Agent，以及与现有企业 SaaS 深度集成的实时沟通层。</OPPORTUNITY>
+      <RISK>模型在极端方言或高噪声环境下的鲁棒性仍待验证，实时性可能带来更高算力成本。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🛡️">
+      <TITLE>前沿模型安全叙事转向：护栏一天即破</TITLE>
+      <NARRATIVE>garymarcus 今日连续发文指出 Fable 5 安全护栏一小时内被突破，并直言 OpenAI 已失去竞争力。这与历史记忆中 Anthropic “安全优先”形象形成鲜明反差，行业从“装神弄鬼带货”到必须承认前沿能力与安全仍严重脱节。</NARRATIVE>
+      <TWEET account="garymarcus" role="AI 批评者">Fable 的安全护栏一小时内就被攻破。如果你对此感到惊讶请举手。❤️ 147 | 💬 8</TWEET>
+      <CONSENSUS>最新共识是当前安全机制对最激进用户效果有限，真正防御需转向系统级自愈与多层验证。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于：是继续堆叠提示/微调护栏，还是彻底重构训练目标以内生安全？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🏗️">
+      <TITLE>AI 软件收购与后端运营复兴</TITLE>
+      <NARRATIVE>lightspeedvp 今日宣布对 Beacon Software 225M Series C 追加投资，聚焦收购、构建并用 AI 改造传统企业软件后端。这代表新叙事：AI 不是取代软件，而是通过收购+AI 注入重振“messy jobs”背后的传统业务。</NARRATIVE>
+      <TWEET account="lightspeedvp" role="VC 机构">硅谷与 Main Street 在 Beacon Software 相遇。我们很兴奋追加投资其 2.25 亿美元 C 轮。他们收购、构建并用 AI 增长关键软件业务，聚焦后台简化流程，让创始人专注增长。❤️ 13 | 💬 2</TWEET>
+      <OUTLOOK>未来一年，更多传统软件 roll-up 平台将 AI 化，成为一级市场主流退出与增长路径。</OUTLOOK>
+      <OPPORTUNITY>投资标的包括法律科技（Sandstone）、合规控制平面及针对特定垂直的“买建长”AI 运营平台。</OPPORTUNITY>
+      <RISK>传统软件收购整合难度高，AI 注入后实际 ROI 需长时间验证，可能面临文化与技术债务双重挑战。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Lightspeed 追加投资 Beacon Software 2.25 亿美元 C 轮，用于 AI 驱动的传统企业软件收购与运营平台。</ITEM>
+    <ITEM category="投融资快讯">Sandstone HQ 获 Lightspeed 关注，AI 平台针对企业内部法律团队合同审查与工作流，律师反馈“让合同审查重新变得有趣”。</ITEM>
+    <ITEM category="VC views">a16z 观点：智能将像微芯片一样商品化，大多数应用无需 God Model，廉价智能将嵌入一切，后台 God Model 仅用于超级任务。</ITEM>
+    <ITEM category="VC views">pmarca 暗示当前 AI 资本分配“不是贪婪的反面”，指向基础设施与执行层仍有巨额理性投资空间。</ITEM>
+    <ITEM category="投融资快讯">Perplexity 推出 Billion Pound Build 竞赛，提供 100 万英镑 Computer credits 激励用 Agent 构建公司。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek 与 Kimi 等模型正以极低成本快速迭代，bindureddy 指出中美差距已缩小至约 10 周，中国开源策略正迫使美国重新思考商品化路径，尽管面临“涉军”名单等词语通货膨胀式监管压力。</ITEM>
+    <ITEM category="全球映射">中国低成本、高性能开源路线正加速全球 AI 商品化，迫使 Anthropic/OpenAI 必须在定价与企业控制平面上建立护城河，否则将被 1/20 成本的路由方案取代。</ITEM>
+    <ITEM category="全球映射">美国对中国 AI 企业的“涉军”扩大化定义正在稀释真实风险信号，反而可能加速中国本土全栈生态（如 Qwen、GLM）的独立发展。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="swyx" role="AI 分析师">Mythos 已上线！我们 FrontierCode 被认可为下一个前沿编码基准。在 FC Diamond 上，Opus 4.8 和 GPT 5.5 都无法随努力显著扩展，而 Mythos/Fable 的后训练真正把测试时算力用于解决极长运行问题——这是首次被衡量的数十人类小时等价物。目前在 Cognition/Devin 上仅 1.4x ACU 即可使用。❤️ 162 | 💬 39</TWEET>
+    <TWEET account="bindureddy" role="AI 研究员">Claude Fable 内部编码评测结果：98% 任务与 GPT 5.5 或 Opus 4.8 表现相同但贵 2 倍；只有 2% 极难编码任务值得付双倍获得质量提升。因此理想策略是将极难任务路由给 Fable。❤️ 324 | 💬 33</TWEET>
+    <TWEET account="oran_ge" role="科技观察者">Claude 产品线现已用艺术作品完整命名：Haiku、Sonnet、Opus、Fable、Mythos。Fable 5 是 Claude 4.5 以来最大进步，也是目前人类能广泛使用的最佳模型。你可以给它更雄心勃勃的任务，它会理解并执行，完全不用查看代码。Karpathy 说：Free your mind。❤️ 8 | 💬 2</TWEET>
+    <TWEET account="nvidia" role="硬件巨头">在台北 GTC 落地：主题演讲、动手演示、真实连接和 Jensen 粉丝。这是 AI 时代共同构建的地方。下一次 GTC 见——提升你的 AI 技能、拓展人脉、感受社区能量。❤️ 170 | 💬 24</TWEET>
+    <TWEET account="a16z" role="VC 机构">pmarca 解释为什么 God Model 不会吃掉所有 AI 用量：我们将看到类似微芯片或互联网的商品化，智能将以极低或免费价格被召唤到任何应用中，God Model 只在需要超级天才时在后台使用。❤️ 148 | 💬 16</TWEET>
+    <TWEET account="garymarcus" role="AI 批评者">OpenAI 完蛋了。几乎没有理由更喜欢他们而不是 Anthropic，他们失去了领先地位（尽管拥有一切优势），承诺远超能力，领导者失去公信力，也没有可信的盈利计划。❤️ 68 | 💬 12</TWEET>
+    <TWEET account="perplexity_ai" role="搜索/AI 公司">我们在伦敦科技周宣布 Billion Pound Build 竞赛。团队可使用 Perplexity Computer 构建公司，赢取总值 100 万英镑的 Computer credits。pitch 阶段现已开放，7 月 6 日截止。❤️ 193 | 💬 41</TWEET>
+    <TWEET account="simonw" role="AI 开发者">使用这个 TIL 计算 Claude Fable 5 的 token 花费，尽管该模型尚未被纳入 AgentsView 定价数据库。❤️ 26 | 💬 13</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">Opus 为我们写了一个 VM，然后 Mythos 验证了它。❤️ 292 | 💬 17</TWEET>
+  </TOP_PICKS>
+</REPORT>
