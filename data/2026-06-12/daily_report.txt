@@ -1,0 +1,76 @@
+<REPORT>
+  <COVER title="Grok插件市场引爆终端Agent革命" prompt="Minimalist futuristic terminal interface in a dark silicon valley server room, glowing neural nodes and modular plugin icons (MongoDB, Vercel, Sentry, Cloudflare) connecting via clean data streams and vector arrows into a central command-line canvas, representing an ecosystem of agentic building blocks. Photorealistic code particles and subtle terminal UI elements float in organized geometric patterns, dramatic cinematic side lighting with cool blue and emerald accents creating depth and connectivity, ultra sharp 8K resolution, industrial design precision, no neon or cyberpunk elements." insight="xAI插件生态快速落地，开发者Agent从实验走向生产级终端构建。"/>
+  <PULSE>今日硅谷核心叙事从xAI Grok Build插件市场的爆发式落地，转向对OpenAI可持续性的公开质疑，同时Anthropic社会影响力计划与Perplexity Agent深度集成形成鲜明对比。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🧩">
+      <TITLE>Grok Build插件市场开启终端Agent构建新时代</TITLE>
+      <NARRATIVE>从单一模型调用转向可组合插件生态，xAI今日推出Grok Build Plugin Marketplace beta，支持MongoDB向量搜索、Vercel生产部署、Sentry错误修复等插件，直接在终端通过prompt完成复杂开发循环。这标志着agentic coding从实验室演示走向可扩展的生产工具链，解决此前上下文丢失和工具碎片化问题。</NARRATIVE>
+      <TWEET account="xai" role="官方账号">xAI正式推出Grok Build Plugin Marketplace beta，支持MongoDB、Vercel、Sentry、Cloudflare和Chrome DevTools等插件，开发者可在终端内通过单一prompt完成数据库优化、生产部署和错误修复全流程。（❤️ 970 | 💬 71）</TWEET>
+      <OUTLOOK>未来6-12个月，终端Agent将从个人生产力工具演变为团队协作标准，xAI此举或加速开源插件生态竞争，迫使Cursor、Claude Code等重新定义集成边界。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注插件协议层、终端安全沙箱以及垂直领域MCP适配器创业公司，类似ona_hq被OpenAI收购的案例将增多。</OPPORTUNITY>
+      <RISK>插件市场若缺乏严格沙箱控制，可能放大安全风险；同时过度依赖单一平台或形成新的锁定效应，目前仍处于早期beta阶段。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从OpenAI光环到可持续性质疑：Gary Marcus公开呼吁换帅</TITLE>
+      <NARRATIVE>历史记忆中Gary Marcus长期批评生成式AI的社会净负面影响，今日推文进一步指向OpenAI核心：依赖炒作而非创新、丢失技术优势、市场份额被Anthropic蚕食、Sam Altman缺乏技术愿景。这一转向与过去“OpenAI统治”的共识形成剧烈反差，叠加The Information关于SpaceX/xAI巨额AI烧钱预测，公开市场压力开始显现。</NARRATIVE>
+      <TWEET account="garymarcus" role="知名AI批评者">OpenAI不可持续，他们靠炒作生存。即使有巨额补贴仍在丢失市场份额，技术优势早已消失。他们把太多钱花在公关而非创新上。（❤️ 20 | 💬 4）</TWEET>
+      <CONSENSUS>行业已形成Anthropic在企业端和编码场景反超OpenAI的最新共识，收入跑率更高且产品更聚焦。</CONSENSUS>
+      <DIVERGENCE>最大争论在于Sam Altman是否仍适合领导，以及OpenAI IPO后如何应对开源高效模型（如DeepSeek、Grok）的价格战压力。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="⚡">
+      <TITLE>文本扩散模型突破：DiffusionGemma实现4倍速度飞跃</TITLE>
+      <NARRATIVE>Demis Hassabis亲自点赞的DiffusionGemma标志着文本生成范式从自回归转向扩散模型。新架构在保持质量前提下实现4倍速度提升，解决传统LLM推理延迟痛点。这是一个从未见过的新技术路径，试图从根本上重构生成效率而非单纯堆参数。</NARRATIVE>
+      <TWEET account="demishassabis" role="DeepMind CEO">DiffusionGemma在文本扩散领域实现重大创新，比其他Gemma 4模型快4倍。恭喜团队，期待看到大家用它构建什么。（❤️ 1337 | 💬 59）</TWEET>
+      <OUTLOOK>未来6-12个月，扩散模型有望在实时交互和长上下文生成场景挑战自回归主导地位，推动边缘设备和低延迟应用爆发。</OUTLOOK>
+      <OPPORTUNITY>投资机会集中在扩散架构优化、混合自回归-扩散路由器以及针对新范式的推理引擎创业公司。</OPPORTUNITY>
+      <RISK>文本扩散仍处于早期，生成连贯性和可控性是否能稳定超越现有模型仍待大规模验证，可能存在短期泡沫。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🌍">
+      <TITLE>Anthropic推出Claude Corps：AI赋能非营利组织新计划</TITLE>
+      <NARRATIVE>Anthropic宣布Claude Corps全国奖学金计划，将培训1000名早期职业人士使用Claude，并支付薪酬让他们用AI推进非营利使命。这一定位清晰地从纯商业竞争转向社会影响力叙事，试图解决Chamath此前提出的“AI应优先解决重大社会问题而非肤浅自动化”的质疑。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方账号">我们启动Claude Corps全国奖学金计划，将匹配1000名早期职业人士到美国非营利组织，培训他们使用Claude并支付报酬以推进东道主使命。（❤️ 4807 | 💬 366）</TWEET>
+      <OUTLOOK>此计划或成为AI企业社会责任新模板，未来12个月类似“AI for Good”基础设施将增多，可能影响监管和人才吸引格局。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注非营利AI工具平台、影响力投资基金以及将企业级AI安全合规与社会使命结合的垂直解决方案。</OPPORTUNITY>
+      <RISK>若实际部署效果未达预期，可能被视为公关举措；非营利场景对模型幻觉和可靠性要求极高，存在执行硬伤。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🔬">
+      <TITLE>Perplexity Computer深度进化：Deep Research成为原生Agent技能</TITLE>
+      <NARRATIVE>Perplexity将Deep Research集成进Computer Agent，利用Search as Code架构并行运行数千检索步骤，结合沙箱、连接器和授权数据。这一推进直接延续其此前从搜索到自主Agent的哈佛实证研究，但转向更长的运行时间和生产级集成，解决此前Agent可靠性瓶颈。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="官方账号">我们将Deep Research作为原生技能集成到Computer中。它现在连接Agent底层架构，支持Search as Code、长时沙箱、工具和授权数据，Pro/Max用户已可用。（❤️ 437 | 💬 45）</TWEET>
+      <CONSENSUS>行业共识转向认可“搜索即代码”优于传统循环函数调用，能显著提升答案质量并减少上下文token消耗。</CONSENSUS>
+      <DIVERGENCE>当前争论焦点在于混合本地-云端Agentic Inference的隐私 vs 性能权衡，以及此类系统在企业生产环境中的长期可靠性。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Capsa AI完成1800万美元A轮融资，由TX Ventures领投，专注AI原生应用开发。</ITEM>
+    <ITEM category="投融资快讯">Coram获3500万美元融资，将传统安防摄像头转化为AI侦探系统。</ITEM>
+    <ITEM category="投融资快讯">Upriver宣布1400万美元种子轮，打造AI原生数据工程平台以自动化企业数据管道。</ITEM>
+    <ITEM category="VC views">a16z强调晚期VC本质是押注能持续高增长的创始人，而非单纯技术，精英创始人可长期将杠杆转化为资本。</ITEM>
+    <ITEM category="VC views">Lightspeed观点：研究到生产差距仍是行业最大挑战，边缘模型与前沿差距快速缩小，正在重写公司构建逻辑。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">Kimi仍是目前中国最好的Coding模型之一，用的人很多；DeepSeek系列以极低成本实现高性能，海外大佬称其为AI领域的“斯普特尼克时刻”，训练成本不到GPT-4o的1/10且完全开源。</ITEM>
+    <ITEM category="全球映射">中国高效开源模型正快速缩小与美国前沿差距，美国需停止抱怨并加速自身开源策略，否则将在价格战中处于劣势。</ITEM>
+    <ITEM category="全球映射">欧洲错过AI浪潮的核心原因是偏好监管而非拥抱创新，与中国务实推进形成鲜明对比。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI创始人">Grok是最大限度追求真相的。（❤️ 50140 | 💬 3932）</TWEET>
+    <TWEET account="vista8" role="独立开发者">Claude Fable 5一个特别强的地方是模型会思考足够长时间。刚给了一个想法，它思考了15分钟才开始行动，确实牛。（❤️ 24 | 💬 9）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">非常期待一起工作！（❤️ 1571 | 💬 193）</TWEET>
+    <TWEET account="gdb" role="OpenAI高管">欢迎@ona_hq加入团队，帮助组织安全地在生产环境中部署Agent！（❤️ 316 | 💬 39）</TWEET>
+    <TWEET account="paulg" role="Y Combinator创始人">LinkedIn本来就是slop，现在只是变成了AI slop。（❤️ 1244 | 💬 110）</TWEET>
+    <TWEET account="bindureddy" role="AI观察者">对GPT 5.6的预测：Agentic coding能力超过Fable、价格便宜3倍、审查更少，将把 sentiment 从Anthropic拉回OpenAI。（❤️ 112 | 💬 19）</TWEET>
+    <TWEET account="theinformation" role="科技媒体">SpaceX AI雄心伴随着巨额现金消耗：高盛预测到2030年可能烧掉3500亿美元，主要用于AI建设，可能明年就需要再融资。（❤️ 1 | 💬 1）</TWEET>
+    <TWEET account="simonw" role="独立开发者">新版Datasette 1.0a33发布，大部分代码是用Claude Fable 5辅助完成的。（❤️ 39 | 💬 11）</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">Jensen Huang：深度使用AI、挑战现状，并始终聚焦工作背后的人类目的。每份工作都有任务，人赋予其意义，AI能将其转化为更大影响。（❤️ 286 | 💬 53）</TWEET>
+    <TWEET account="runwayml" role="Runway官方">我们与Lionsgate深化合作，包括共同开发原创IP项目。2026 Runway AI电影节纽约首映今晚售罄。（❤️ 252 | 💬 33）</TWEET>
+  </TOP_PICKS>
+</REPORT>
