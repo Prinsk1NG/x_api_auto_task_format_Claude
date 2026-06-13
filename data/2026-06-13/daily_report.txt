@@ -1,0 +1,76 @@
+<REPORT>
+  <COVER title="AI预算蜜月终结 企业控费新铁律" prompt="A grand strategic map rendered in hyper-detailed industrial cinematic style, showing a colossal futuristic AI data fortress with golden token pipelines now blocked by massive regulatory gates and budget valves, executives standing at control panels recalibrating flows under dramatic volumetric lighting. In the background a soaring SpaceX Starship launches amid neural node constellations and Blackwell server racks, symbolizing the pivot from unchecked spending to sustainable infrastructure abundance. Metallic textures, precise engineering blueprints overlaid with diverging economic pathways, cinematic key lights and god rays, 8K resolution, photorealistic industrial design with subtle data visualization particles" insight="企业AI从无限烧钱转向严格预算封顶，SpaceX IPO凸显多重叙事交汇"/>
+  <PULSE>硅谷核心叙事从AI支出狂欢转向经济现实主义，企业开始对token预算设硬上限，同时SpaceX IPO与Agentic基础设施基准加速太空-AI融合。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="📉">
+      <TITLE>AI token预算蜜月结束：企业开启严格控费时代</TITLE>
+      <NARRATIVE>过去企业对AI用量近乎无限投入的共识正在瓦解。Gary Marcus指出Meta等大厂已大幅削减token预算，Anthropic等实验室面临直接营收压力；Simon W指出这是因为编码Agent已变得“不可否认地有用”，迫使公司从去年“每月20美元够用”转向今年每人每月1500美元上限的理性管控。这一转向与历史记忆中“预算狂飙到数周封顶”的早期信号形成鲜明延续，但今天更具系统性，标志行业从增长崇拜进入可持续验证阶段。</NARRATIVE>
+      <TWEET account="garymarcus" role="AI批评者">突发：Meta据称是Anthropic重要客户，现正大幅削减token预算，这对Anthropic是坏消息。普遍来看，更多公司将做出相同决定，明年token预算不会再像今年春天那样自由挥霍。蜜月期结束了。❤️ 324 | 💬 21</TWEET>
+      <TWEET account="simonw" role="AI开发者观察者">我很难同意那些认为预算上限是坏消息的观点。设定上限的理由正是因为编码Agent已经变得不可否认地有用——这与一年前的情况完全相反。❤️ 27 | 💬 4</TWEET>
+      <CONSENSUS>编码Agent已足够实用，企业必须设置实际预算上限来管控成本，否则用量将失控。</CONSENSUS>
+      <DIVERGENCE>大厂控费是否会直接拖累前沿实验室IPO估值？部分人认为这是健康信号，另一些人担心会引发整个AI生态的“列车残骸”。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🚀">
+      <TITLE>SpaceX IPO首秀成功 太空-AI基础设施叙事爆发</TITLE>
+      <NARRATIVE>今天多位大佬集中庆祝SpaceX历史性IPO首秀，NVIDIA、Karpathy、Elon Musk及pmarca均发声。这不是单纯的航天里程碑，而是太空与AI算力、Agentic基础设施的深度融合新范式：NVIDIA称与SpaceX合作近十年，从首台DGX-1到Starbase定制系统，预示AI工厂将延伸至轨道和深空。pmarca的“abundance”宣言进一步强化这一乐观叙事，试图解决单一行星文明风险与算力天花板问题。</NARRATIVE>
+      <TWEET account="nvidia" role="NVIDIA官方">热烈祝贺@SpaceX团队历史性IPO首秀。NVIDIA与SpaceX近十年伙伴关系，从2016年首台DGX-1到Starbase的DGX Spark交付，一起推动加速计算，助力太空探索未来。❤️ 7776 | 💬 215</TWEET>
+      <TWEET account="karpathy" role="AI科学家">对SpaceX及其过去、现在和未来的故事充满敬畏。你可以用10多种不同方式思考它，并不断刷新自己的认知。向团队致以巨大祝贺！🚀❤️ 12641 | 💬 206</TWEET>
+      <OUTLOOK>未来6-12个月，太空基础设施将成为AI算力新边疆，Starlink+轨道数据中心或催生主权AI新形态，NVIDIA将从中获得超预期硬件需求。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注轨道级AI计算、星舰可重复使用算力模块、以及为航天设计的特种Vera CPU衍生投资机会。</OPPORTUNITY>
+      <RISK>Starlink硬件补贴模式若无法在低收入市场规模化，可能限制全球扩张速度，成为短期泡沫风险点。</RISK>
+    </THEME>
+
+    <THEME type="depth" emoji="🔄">
+      <TITLE>OpenAI Codex开放速率重置存储与好友推荐机制</TITLE>
+      <NARRATIVE>OpenAI今日推出两大实用功能：用户可存储速率限制重置以供后续使用，Plus/Pro用户可邀请三位好友试用并共同获得额外重置额度。这是对Codex持久Agent能力的深度推进，让开发者能在“自己的时间”里更灵活使用长周期任务，而非受实时配额严格限制，与历史中Codex从助手升级为全能队友的轨迹一脉相承。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI官方">我们听到你们希望能在自己的时间使用Codex速率限制重置。从今天起，我们推出可存储速率重置供后续使用的功能。首先向Go、Plus、Pro和Business用户提供一次免费重置。❤️ 20353 | 💬 1164</TWEET>
+      <CONSENSUS>让开发者更灵活管理长时程Agent任务的配额机制将成为标配，提升Codex在实际生产中的黏性。</CONSENSUS>
+      <DIVERGENCE>这一便利化是否会进一步推高企业整体token消耗，最终与预算控费趋势形成冲突？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Kimi 2.7开源编码模型以12倍性价比逼近闭源SOTA</TITLE>
+      <NARRATIVE>Bindureddy发帖称Kimi 2.7 Code已成为全球最佳开源编码模型，在任务准确率达到Claude Fable 5和GPT 5.5的80%同时，成本仅为1/12。这代表中国开源AI在编码垂直领域形成的新叙事：不追求绝对榜单，而是以极致性价比服务大多数日常到标准难度任务，试图解决闭源模型商业化壁垒与全球开发者可及性问题。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI观察者">Kimi 2.7 Code是世界上最好的开源编码模型——达到Claude Fable和GPT 5.5在任务上80%的准确率，却便宜12倍。简单编码任务用Kimi 2.7，标准任务用GPT 5.5，极难任务用Fable。现在已在ChatLLM上线。❤️ 78 | 💬 6</TWEET>
+      <OUTLOOK>未来6-12个月，全球开发者将形成混合模型路由策略，中国开源模型将在中低难度编码市场占据主导份额，迫使闭源实验室进一步下沉定价。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投构建在Kimi/DeepSeek之上的垂直Agent工具链、跨模型路由治理层，以及服务中国开发者生态的本地部署平台。</OPPORTUNITY>
+      <RISK>开源模型在极复杂长时程任务上仍存明显差距，若企业只看短期成本可能牺牲长期可靠性，形成技术硬伤。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="🛠️">
+      <TITLE>开发者工作流转向Vibe Coding与Loop Stacking，Git或将重构</TITLE>
+      <NARRATIVE>swyx连续发帖指出当前Vercel、Cloudflare等平台均无法完美闭环错误处理与失败通知，驱动他打造自己的vibecoding平台；他进一步提出下一世纪核心游戏是高效stack loops，并在模型进步时知道如何“向上”提升杠杆。同时质疑Git是否会像PR和Code Review一样消亡，未来代码库可能更像Notion或Linear数据库。这一叙事是对过去“从工具到沉浸式计算机”观点的显著推进，聚焦工程体验而非单纯能力。</NARRATIVE>
+      <TWEET account="swyx" role="AI开发者布道者">驱动我现在打造自己vibecoding平台的头号原因是，现存所有平台都无法真正为你闭环错误处理和失败提醒。webmaster infra太多了，我只想一次性解决，而不是每次都npx wizard。❤️ 217 | 💬 69</TWEET>
+      <CONSENSUS>未来代码协作将从行级merge conflict转向聊天式、数据库式的所有权管理，传统CI/CD和Git流程对AI原生开发已显陈旧。</CONSENSUS>
+      <DIVERGENCE>更像Notion的代码库是否会牺牲效率换来可扩展性？这一“Salty Lesson”在生产环境中能否真正落地仍存争议。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">TensorWave完成3.5亿美元B轮，投后估值15.5亿美元，用于扩建AMD驱动的全球AI基础设施，凸显非NVIDIA路线仍获资本认可。</ITEM>
+    <ITEM category="VC views">pmarca高呼“我们将创造如此多的abundance，以至于你会厌倦abundance”，暗示一级市场应重点布局能规模化交付真实世界价值的太空-AI交叉项目而非纯模型公司。</ITEM>
+    <ITEM category="VC views">NVIDIA Blackwell在首份AgentPerf基准中实现每兆瓦支持20倍于Hopper的Agent数量，硬件投资逻辑从单纯算力转向Agentic工作负载效率。</ITEM>
+    <ITEM category="VC views">企业AI预算从狂飙到严格封顶（Uber已设每月1500美元/工具上限），VC需警惕实验室收入增速放缓对后期估值的直接冲击。</ITEM>
+    <ITEM category="投融资快讯">SpaceX IPO成功为航天+AI基础设施赛道打开二级市场退出通道，预计带动下游轨道计算、星舰数据中心相关早期项目融资升温。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">Kimi 2.7以12倍性价比达到Claude Fable 80%准确率，已成为全球最佳开源编码模型之一；DeepSeek和Qwen系列同样在开发者社区快速渗透，证明中国实验室在务实性价比路线上的领先优势。</ITEM>
+    <ITEM category="全球映射">中国开源模型的指数级增长正迫使全球进入价格战与混合路由时代，美国实验室若继续依赖高溢价闭源能力，可能在日常编码市场快速丢失份额。</ITEM>
+    <ITEM category="全球映射">运营商已将Token直接做成话费套餐（上海电信1元25万token），这种基础设施级下沉打法值得硅谷学习，或将成为中国AI在新兴市场规模化的独特优势。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="pmarca" role="a16z合伙人">我们将创造如此多的abundance，你甚至可能会厌倦abundance。你会说求求你，太多了我们受不了了。而我会说不，我们必须继续创造更多abundance。❤️ 4210 | 💬 193</TWEET>
+    <TWEET account="elonmusk" role="xAI/SpaceX CEO">我对SpaceX那些不可思议的人的爱难以言表。❤️ 264456 | 💬 13835</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">AgentPerf基准首次亮相。NVIDIA Blackwell每兆瓦可支持的Agent数量是Hopper的20倍。❤️ 218 | 💬 26</TWEET>
+    <TWEET account="googleai" role="Google AI官方">本周发布包括：Gemini 3.5 Live Translate最新语音到语音翻译模型、NotebookLM重大升级带来Agentic能力、Project Genie全球开放等，以及探索文本扩散的DiffusionGemma实验模型。❤️ 468 | 💬 39</TWEET>
+    <TWEET account="swyx" role="AI开发者布道者">整个下个世纪的游戏可能是如何最有效地stack loops。在早期阶段，知道何时下沉loop保证可靠性很重要，但当模型进步时，知道如何向上stack以获得杠杆可能更有价值。如果你没搞清楚，就别怪输给那些搞清楚的人。❤️ 218 | 💬 62</TWEET>
+    <TWEET account="jeffdean" role="Google首席科学家">关于真实生物神经元能力的有趣讨论（剧透：它们远比经典感知器中的人工神经元强大）。感谢@IdoAizenbud及其合作者。❤️ 336 | 💬 21</TWEET>
+    <TWEET account="gdb" role="OpenAI技术高管">下两周，推荐朋友使用Codex，你可以存入一次速率限制重置。❤️ 1323 | 💬 116</TWEET>
+    <TWEET account="theinformation" role="The Information">Snowflake正在推动员工日常使用AI，并构建内部Agent来证明价值。其中一个工具现在能在几分钟而非几周内为高管准备财报电话。❤️ 2 | 💬 1</TWEET>
+    <TWEET account="oran_ge" role="中国AI观察者">我用最贵的Claude Fable 5让AI帮我打磨文案三遍，发现一遍比一遍精致，但也一遍比一遍缺人味儿。最后我们提炼出《人味儿写作心法.skill》，让AI改稿后仍能保留存在感。❤️ 36 | 💬 4</TWEET>
+  </TOP_PICKS>
+</REPORT>
