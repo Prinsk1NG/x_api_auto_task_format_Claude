@@ -1,0 +1,72 @@
+<REPORT>
+  <COVER title="AI出口管制铁幕骤降" prompt="A grand strategic architectural metaphor depicting a colossal translucent digital fortress wall slicing across a futuristic Earth map, with glowing Anthropic server citadels on one side under strict US government seals and export control runes, while advanced AI model icons like Fable 5 are encased in red prohibition spheres being airlifted away from foreign territories. Cinematic volumetric lighting with dramatic god rays piercing through data-clouds, strategic chessboard overlay showing big-tech gatekeepers versus frontier labs, cold metallic textures mixed with holographic neural networks, hyper-detailed 8K industrial-futurist style, strategic war room overview composition." insight="美国国家安全禁令突袭Anthropic顶级模型，中国开源编码Agent以1/10成本反向渗透，管制与成本革命双重叙事爆发。"/>
+  <PULSE>今日硅谷叙事主线从前沿模型自由扩散转向国家安全壁垒筑起，同时中国高效开源编码Agent加速全球部署，监管博弈与成本治理成为核心冲突。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="🛡️">
+      <TITLE>美国政府突击出口管制Anthropic Fable 5与Mythos 5</TITLE>
+      <NARRATIVE>Anthropic官方确认美国政府以国家安全为由下令暂停所有外国国民（含公司外籍员工）访问Fable 5和Mythos 5，导致全球客户服务被迫下线。此举与历史记忆中Anthropic（2026-06-11）主动呼吁政府拥有否决不安全模型发布权的立场形成强烈反差：从“自愿政策框架”转向被监管机构直接执行硬切断，标志AI技术扩散进入国家安全优先于商业创新的新阶段，也验证了Gary Marcus此前对“护栏一天即破”后必然引发更严控的预判。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方公告">美国政府以国家安全为由下令暂停所有外国国民访问Fable 5和Mythos 5，包括Anthropic外籍员工。我们被迫对全球客户关闭这两款模型，其他Claude模型不受影响。我们认为这是误解，正在努力尽快恢复访问。（❤️ 83493 | 💬 11813）</TWEET>
+      <CONSENSUS>行业已形成共识：先进AI能力扩散速度远超政策迭代，政府将直接动用出口管制工具，前沿模型正被视为战略资产。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于此举是短期“误解”还是长期“AI铁幕”开端：一方认为会适得其反加速开源，另一方认为这是必要对冲单一行星文明风险。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌐">
+      <TITLE>Kimi 2.7 Code上架Together AI开启低成本Agentic编码时代</TITLE>
+      <NARRATIVE>Today推文显示Kimi-K2.7-Code已在Together AI上线，针对长时程软件工程工作流优化，思考token用量降低约30%，支持256K上下文与交错思考+多步工具调用。Bindureddy指出其可与SOTA模型混合达到Fable级90%智能却成本仅1/10。这构成全新叙事：中国开源模型不再是“性价比备胎”，而是直接驱动西方开发者构建复杂agentic循环的核心基础设施，解决企业token预算蜜月结束后（历史记忆2026-06-13）的成本治理瓶颈。</NARRATIVE>
+      <TWEET account="togethercompute" role="基础设施平台">Kimi-K2.7-Code现已在Together AI可用。该模型专注长时程软件工程Agent，支持256K上下文、交错思考与多步工具调用，思考token用量降低约30%，在Together研究级推理栈上运行。（❤️ 7 | 💬 2）</TWEET>
+      <OUTLOOK>未来6-12个月，混合使用中外开源高效模型将成为企业默认策略，前沿闭源实验室的溢价空间被进一步压缩，neocloud与开源推理栈迎来爆发。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注“模型路由控制平面”创业公司、支持多源低成本Agent的开发平台，以及为Kimi等中国模型提供合规接入层的基础设施。</OPPORTUNITY>
+      <RISK>核心硬伤在于长期可靠性与企业级合规：低成本高性能可能伴随幻觉累积与数据主权风险，短期内仍难完全替代Fable 5级持久Agent。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="♟️">
+      <TITLE>Chamath博弈论：Mag7或联手政府卡死前沿实验室</TITLE>
+      <NARRATIVE>Chamath指出Google、Amazon、Microsoft、Meta等“Original Mags”现拥有实质机会，通过游说政府对前沿实验室最新模型实施KYC与云网关限制，成为受信任的守门人。此观点与历史记忆中Chamath反复强调“企业需建立控制平面避免模型锁定”（2026-06-11、2026-06-07）形成延续，但转向更激进的“政府+云巨头共谋”叙事。前沿实验室因未提前建立KYC而面临估值重置风险，凸显从纯技术竞赛到权力博弈的重大转向。</NARRATIVE>
+      <TWEET account="chamath" role="投资人">博弈论很有意思：Google、Amazon、Microsoft、Meta现在有实质机会去政府那里限制前沿实验室最新模型，通过他们的云实施严格KYC成为守门人。前沿实验室当年没做KYC很令人担忧，因为这会降低收入影响估值。现在估值重置可能到来，但他们控制力会更弱。这对开源和neocloud是绝佳机会。（❤️ 1189 | 💬 148）</TWEET>
+      <CONSENSUS>最新共识是AI moat已缩减至90天以内，纯模型能力不再构成护城河，监管与分发渠道控制将成为新战场。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于前沿实验室是否会因此大幅让利给Mag7云服务，还是会加速转向完全开源以维持独立性。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="♻️">
+      <TITLE>Google探索废弃手机集群：可持续计算新范式</TITLE>
+      <NARRATIVE>Jeff Dean详细介绍Google与UCSD合作，将每年数亿被弃用但仍强大的旧手机（更换周期约4年）改造成云“手机集群”，移除电池后直接供电。此举直接降低计算的原材料开采与碳足迹，是原有“算力崇拜”叙事（历史记忆中10GW数据中心谈判）的深度推进，转向“利用已 embodied carbon”的循环经济范式，为AI基础设施提供低环境成本的补充算力。</NARRATIVE>
+      <TWEET account="jeffdean" role="Google首席科学家">人们每约4年更换一次手机，这意味着每年有数亿部仍可用的旧手机被丢弃。Google与UCSD正探索将其变为云端“手机集群”。移除电池后直接供电，此举可显著减少计算的环境足迹，利用已产生的制造碳排放，而现代手机其实已是强大计算机。（❤️ 4126 | 💬 115）</TWEET>
+      <OUTLOOK>6-12个月内，此类“存量设备再利用”技术将从实验走向小规模部署，成为数据中心资本狂潮（历史2026-06-08）的环保对冲方案。</OUTLOOK>
+      <OPPORTUNITY>投资机会在于手机集群编排软件、专用电源与散热硬件，以及将边缘设备转化为分布式AI推理网络的初创公司。</OPPORTUNITY>
+      <RISK>技术硬伤包括设备异构性导致的利用率低下与维护复杂性，短期内难以替代GB300级专业集群。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🛠️">
+      <TITLE>Claude Design碾压式领先暴露Codex模型架构瓶颈</TITLE>
+      <NARRATIVE>Dotey深度解析为何OpenAI尚未推出Codex Design类产品：Claude Design交付的可交互高保真原型需模型同时掌握系统架构（数据结构、状态管理）与UI/UX，而非仅画静态界面。GPT-5.5目前仍不足以一次性完成这一复杂思考。结合历史记忆中“Codex能力overhang巨大”（2026-06-08）与“Claude Design工作流落地”（2026-06-07），今天推文显示该叙事已推进至“模型层 vs Harness层”的本质对比，Claude在架构先行设计上的训练优化构成显著领先。</NARRATIVE>
+      <TWEET account="dotey" role="独立分析师">Claude Design与Codex是Harness产品层，而非单纯模型。Claude能交付真正可交互原型是因为其模型在画UI前已清晰构建数据结构与状态管理。同样提示词下Codex虽能出界面但交互残缺，需多轮迭代。产出物本身就是React+data.jsx代码，git diff即可同步变更。（❤️ 95 | 💬 18）</TWEET>
+      <CONSENSUS>行业共识转向：下一代设计/开发Agent的胜负手不在提示词，而在模型能否进行“系统级预思考”。</CONSENSUS>
+      <DIVERGENCE>争论在于OpenAI是否会通过下一次模型迭代快速追平，还是会选择先发布较弱的Design产品以维持生态。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">尽管24h无新披露交易，Kimi 2.7 Code以30%更低thinking-token与12倍性价比（历史延续）登陆Together AI，暗示中国开源模型商业化路径正从研究转向全球推理分发，预计相关基础设施融资将在Q3加速。</ITEM>
+    <ITEM category="VC views">Chamath警告Mag7+政府可能的KYC联盟或导致前沿实验室估值重置，建议重点配置开源路由层与neocloud；历史记忆中企业已从“预算狂飙”转向“数周内用量封顶”，控制平面创业公司估值有望水涨船高。</ITEM>
+    <ITEM category="监管信号">美国对Anthropic Fable 5/Mythos 5的出口禁令预示AI被正式列为战略物资，合规云服务与“友好国家”AI访问代理层将成为新风口，预计相关合规科技公司将获得溢价融资。</ITEM>
+    <ITEM category="可持续计算">Google旧手机集群项目若规模化，可减少数十亿公斤新硬件碳排放，吸引ESG基金关注，相关边缘计算编排初创公司或在未来12个月看到种子轮估值提升至5000万美元以上级别。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">Kimi 2.7 Code在Together AI上线后，展现出256K上下文+30%更低token消耗下接近Fable 5 90%能力的agentic编码实力，Bindureddy称其混合使用可实现“1/10成本达90%智能”，标志中国模型已从“性价比跟随”转向“特定工作流定义者”，DeepSeek与Moonshot正共同重塑全球开发者工具链成本曲线。</ITEM>
+    <ITEM category="全球映射">美国出口管制Fable 5的举动反而加速西方平台接纳Kimi等中国高效模型，形成“越封锁越开源”的反向激励；Mag7若借监管卡脖子，前沿实验室可能更多转向与中国开源生态的混合部署，长期或削弱美国在agentic持久任务上的绝对主导。</ITEM>
+    <ITEM category="风险提示">尽管Kimi表现亮眼，但若中美AI管制进一步脱钩，中国模型在美合规接入仍存不确定性，企业采用时需建立双栈路由以对冲潜在断供风险。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="pmarca" role="投资人">关于AI监管，我的立场是：如果监管意味着官僚的死手、预防性原则、欧洲病、扼杀车库创新和让合规官世代繁衍，那我坚决反对；但如果它意味着诚实的守则、防火带、让普通人敢用奇迹般的AI而不被滥用，那我支持它。这是我不可妥协的立场。（❤️ 3463 | 💬 262）</TWEET>
+    <TWEET account="chamath" role="投资人">40%的抗议数据中心最终被叫停，这是过去四年的趋势。这对供给端来说是个坏兆头。（❤️ 255 | 💬 41）</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">哪家公司有更好的白宫通道，哪家公司就赢了。资本主义加上政府巨手按在天平上，是行不通的。（❤️ 58 | 💬 8）</TWEET>
+    <TWEET account="simonw" role="开发者">我用Codex来跟踪Fable的消亡过程，用Fable跟踪自己消亡感觉太残忍了。（❤️ 22 | 💬 0）</TWEET>
+    <TWEET account="bindureddy" role="开发者">我正在周末疯狂把Kimi 2.7 Code接入复杂agentic循环。它与SOTA模型混合可达Fable级90%智能却成本低10倍，目标明天上线。（❤️ 56 | 💬 1）</TWEET>
+    <TWEET account="tualatrix" role="独立观察者">我让ChatGPT Pro分析了Hacker News上1690条关于美国政府下令Anthropic暂停外国国民访问Fable 5和Mythos 5的评论，信息量极大，从各个角度汇总后分享给大家。（❤️ 238 | 💬 14）</TWEET>
+    <TWEET account="vista8" role="开发者">用Codex的Goal指令24分钟开发了一个2026世界杯赛程订阅网站，支持个性化日历、48支球队订阅和开赛前30分钟提醒。Goal模式真的太强了。（❤️ 11 | 💬 8）</TWEET>
+    <TWEET account="paulg" role="Y Combinator">1939年Auden写下“一个低劣不诚实的十年”的结束。现在我理解他的感受了。（❤️ 308 | 💬 28）</TWEET>
+  </TOP_PICKS>
+</REPORT>
