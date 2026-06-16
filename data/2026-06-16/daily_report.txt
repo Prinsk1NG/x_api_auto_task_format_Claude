@@ -1,0 +1,77 @@
+<REPORT>
+  <COVER title="特朗普政府欲持股AI双雄：禁令化作股权杠杆" prompt="A grand strategic war room viewed from above like a futuristic military command center, featuring a massive holographic chessboard where glowing AI laboratory skyscrapers act as chess pieces being moved by shadowy government silhouettes. Energy conduits and long-horizon agent pathways flow like rivers of light across the board. Industrial metallic textures mixed with translucent neural glass, dramatic cinematic key lighting with volumetric god rays cutting through digital fog, strategic overlay maps with token flow vectors and red restriction barriers, hyper-detailed 8K architectural rendering with precise mechanical joints and holographic interfaces." insight="监管从出口禁令转向股权控制，长时程自主Agent产品化重塑企业AI战略。"/>
+  <PULSE>政府监管杠杆与长时程自主Agent商业化同时爆发，企业加速转向开源多模型控制平面以应对锁定与成本风险。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>Sakana Marlin Virtual CSO：8小时自主深度研究Agent开启新范式</TITLE>
+      <NARRATIVE>硬丸团队将AB-MCTS与AI Scientist突破产品化，推出能持续8小时形成假设、解决矛盾、输出专家级战略报告与幻灯片的Ultra Deep Research Agent，不再是秒级文本生成，而是长时域样本高效推理，直接将研究工作流变成可购买的Virtual CSO服务，解决现有Agent普遍浅层自动化的问题。</NARRATIVE>
+      <TWEET account="hardmaru" role="Sakana AI创始人">我很自豪地正式发布Sakana Marlin，我们首个商业产品：一个自主“Ultra Deep Research” Agent，定位为Virtual CSO。它不是又一个深度研究助手，而是我们核心突破（NeurIPS Spotlight AB-MCTS与Nature发表的AI Scientist）的直接生产化版本，可执行长达8小时的连续自主推理，形成假设、浏览网络、解决矛盾并交付详尽战略报告和结构化幻灯片。❤️ 244 | 💬 16</TWEET>
+      <OUTLOOK>未来6-12个月，长时域推理Agent将从实验室走向企业C级决策支持，成为独立品类，压缩传统咨询与研究团队规模，同时催生“Agent-as-a-Service”新商业模式。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注将长时域推理与垂直行业知识（医疗、能源、半导体）结合的Agent基础设施，以及能提供“推理时间计算”计费与审计的控制平面工具。</OPPORTUNITY>
+      <RISK>8小时连续推理的实际token成本与幻觉累积风险仍需验证，若企业不愿为“Virtual CSO”支付高溢价，可能沦为短期炫技泡沫。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Anthropic禁令成特朗普政府股权杠杆：AI双雄或被国家资本化</TITLE>
+      <NARRATIVE>历史记忆中Chamath曾警告Mag7可能联手政府卡死前沿实验室，而今日theinformation披露特朗普团队正考虑直接持股OpenAI与Anthropic，并将Claude Fable 5/Mythos 5出口限制作为谈判筹码，监管叙事从“安全护栏”转向“国家战略资产控制”，共识快速转向“前沿模型不能完全私有”。</NARRATIVE>
+      <TWEET account="theinformation" role="科技媒体">特朗普政府正寻求在OpenAI和Anthropic中获得财务股份，最近对Anthropic Claude Fable 5和Mythos 5的限制可能成为杠杆工具：“也许这可以作为一种谈判策略……”——AI记者Stephanie Palazzolo ❤️ 61 | 💬 7</TWEET>
+      <TWEET account="simonw" role="AI开发者">Anthropic新隐私政策提及收集“验证数据”，发布时间正是6月8日——Claude Fable 5发布前一天，也是美国政府出口禁令前四天。这不是巧合。❤️ 210 | 💬 34</TWEET>
+      <CONSENSUS>前沿实验室估值与技术已构成国家安全资产，政府从被动监管转向主动持股以确保控制权，企业必须准备KYC与合规控制平面。</CONSENSUS>
+      <DIVERGENCE>大佬们争论焦点在于：这是保护美国AI领先地位，还是政府借机将私有创新转化为国家项目，最终是否会抑制而非加速技术进步？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>NVIDIA定义AI五层蛋糕：能源取代算力成为首要约束</TITLE>
+      <NARRATIVE>今天NVIDIA明确将“能源”置于AI五层架构最底层，指出随着Agent与长时程推理爆发，电力、电网、数字孪生将成为AI增长的硬约束，而非单纯H100供应，这是在Chamath历史记忆中“基础设施（能源、土地、冷却）为AI栈第一层”基础上的深度推进与商业叙事化。</NARRATIVE>
+      <TWEET account="nvidia" role="NVIDIA官方">⚡能源是AI五层蛋糕的基础。随着AI需求加速，能源已成为增长的关键约束。从电力和公用事业到地面与地下作业——AI、数字孪生和智能Agent正在改变能源的生产与管理方式，在规模上解锁产能并提升效率。❤️ 170 | 💬 34</TWEET>
+      <OUTLOOK>未来6-12个月，能源基础设施公司、电网AI优化与核能重启项目将获得与芯片同等估值溢价，AI公司财报中“每百万token能耗”将成为核心指标。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注“AI驱动的能源发现与配电”初创公司，以及将物理世界模型用于电网预测的交叉领域。</OPPORTUNITY>
+      <RISK>若能源叙事被过度金融化，可能引发类似2022年“元宇宙”式的概念泡沫，而实际电网升级周期远长于模型迭代速度。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Anthropic禁令唤醒企业：从Token-Maxxing转向开源混合控制平面</TITLE>
+      <NARRATIVE>历史记忆中Chamath在6月7日和6月11日反复强调企业必须建立控制平面避免模型锁定与烧钱，而今日bindureddy直接将Anthropic禁令定义为“所有组织的警钟”，呼吁不要依赖单一供应商、拥抱开源、动态混用、停止盲目token-maxxing，这一转向在过去7天“AI token预算蜜月结束”主题上找到全新成本治理与监管风险叠加角度。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI独立开发者">Anthropic禁令应该成为所有组织的警钟：不要依赖单一模型或供应商；不要取消开源，而是拥抱它；动态混用并回退到其他模型；不要盲目token-maxxing；找到最佳性能-成本平衡。❤️ 74 | 💬 18</TWEET>
+      <CONSENSUS>企业已形成新共识：开源权重模型（DeepSeek、Kimi、GLM）在80%任务上已足够好且便宜12倍，建立模型路由与治理层是2026年必备基础设施。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于开源是否能在最尖端长时程任务上持续追赶，以及企业自建控制平面究竟是节省成本还是引入新的工程复杂性。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Runway无缝嵌入ChatGPT：视频生成进入消费者原生时代</TITLE>
+      <NARRATIVE>Runway宣布用户无需切换标签页即可在ChatGPT内直接生成和编辑视频图像，这一突破将此前需要多平台跳转的专业视频Agent能力下沉到普通用户对话框，标志着生成视频从独立工具走向“像搜索一样自然”的基础设施级存在，解决创作者工作流割裂问题。</NARRATIVE>
+      <TWEET account="runwayml" role="Runway官方">现在可以在ChatGPT中使用Runway生成和编辑视频与图像，无需切换标签页。❤️ 175 | 💬 16</TWEET>
+      <OUTLOOK>未来6-12个月，MCP式工具集成将爆炸式增长，视频、3D、语音将成为大模型原生能力，独立视频创业公司或被平台吸收。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于构建“对话即工作流”的MCP协议层，以及针对特定垂直（如电商短视频、地产渲染）的领域Agent。</OPPORTUNITY>
+      <RISK>当前生成质量虽高但一致性与知识产权问题仍存，若平台快速跟进，此叙事可能被OpenAI或Google自有方案快速商品化。</RISK>
+    </THEME>
+
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">印度主权AI公司Sarvam完成2.34亿美元融资，成为最新AI独角兽，由HCLTech领投，聚焦全栈“印度制造”AI平台。</ITEM>
+    <ITEM category="投融资快讯">法律AI初创Billables完成1020万美元A轮，用于扩展AI驱动的时间记录与任务智能平台。</ITEM>
+    <ITEM category="VC views">Lightspeed强调David Silver创立的Ineffable Intelligence正引领“经验时代”AI，从人类数据转向自我发现知识，长期价值远超当前生成式工具。</ITEM>
+    <ITEM category="投融资快讯">Chainguard推出Athena开源漏洞联盟，Lightspeed追加投资以加速“披露前修复”安全范式。</ITEM>
+    <ITEM category="VC views">Sequoia指出AI已将创业者野心天花板提升十倍，硬件与硬科技创业公司因“AI会吃掉所有软件”的恐惧而获得前所未有融资热情。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek与Qwen继续领跑开源第一梯队，Kimi 2.7 Code在长时程Agentic编码任务上达到Claude 80%能力却仅为其1/12成本；企业应学习其低成本混合策略，避免被单一闭源供应商锁定与禁令波及。</ITEM>
+    <ITEM category="全球映射">中美监管路径分化明显：美国以出口禁令+潜在股权控制收紧前沿模型，中国则通过运营商Token话费化与DeepSeek/Kimi的务实开源加速全民渗透，长期或形成“美国高墙、中国高速”的双轨格局。</ITEM>
+    <ITEM category="全球映射">字节豆包与智谱GLM在海外开发者分层评价中稳居A/B级，证明中国模型已覆盖50%以上日常与专业任务，成本优势正迫使全球企业重新评估供应链依赖。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="paulg" role="Y Combinator创始人">我和YC合伙人聊到硬科技初创公司表现极好。他说投资者热衷投资是因为害怕AI会吃掉所有软件。我很高兴硬件公司获得资金，但这其实是个错误。真正决定胜负的是优秀创始人。❤️ 1295 | 💬 79</TWEET>
+    <TWEET account="theinformation" role="科技媒体">Meta已从“token-maxxing”转向“token-minimizing”，因为内部AI使用成本已天文数字。“现在讨论的不再是多用AI，而是更有意义地使用AI以改善结果。”❤️ 18 | 💬 0</TWEET>
+    <TWEET account="pmarca" role="a16z创始人">他们不能一直这样逍遥法外。（多次重复强调）❤️ 19865 | 💬 520</TWEET>
+    <TWEET account="sequoia" role="红杉资本">AI对建设者的真正改变不是速度，而是野心。过去的问题是想法是否可行，现在Google DeepMind的人发现自己想把同一个想法推进十步。 hardest part是重置自己对野心的天花板。❤️ 6 | 💬 2</TWEET>
+    <TWEET account="swyx" role="AI开发者">在Anthropic ultracode之外还没看到很多人用。这个东西在燃烧token上非常可怕，但你需要正确设置仓库并行化，才能发挥subagents的扇出优势。本质上是“智能子程序”。当你明白大量知识工作就是需要判断力的yakshave之后，就会欣赏动态工作流的价值。❤️ 350 | 💬 60</TWEET>
+    <TWEET account="techcrunch" role="TechCrunch">美国政府对Anthropic模型的禁令从来不是关于AI越狱。❤️ 54 | 💬 9</TWEET>
+    <TWEET account="lightspeedvp" role="Lightspeed Venture Partners">大多数人认为SpaceX是火箭公司。但它实际上有三个业务：空间运输、Starlink全球互联网，以及以xAI、Grok、X为核心的AI与计算层。❤️ 12 | 💬 0</TWEET>
+    <TWEET account="togethercompute" role="Together AI官方">我们对GLM 5.1的优化最终归结为三件事：重写indexer topk kernel、融合kernel减少内存开销、消除CPU前置开销。最大的胜利来自indexer。GLM 5.1现已在Together AI可用。❤️ 11 | 💬 1</TWEET>
+    <TWEET account="vista8" role="AI观察者">输入任意App名称，自动抓取AppStore全球Top10免费与付费版用户评价，用LLM做数据分析，转化为产品经理可直接使用的洞察。代码已开源。❤️ 136 | 💬 33</TWEET>
+  </TOP_PICKS>
+</REPORT>
