@@ -1,0 +1,81 @@
+<REPORT>
+  <COVER title="Anthropic 40万会话揭秘：AI Coding如何重塑全行业" prompt="Minimalist data visualization artwork showing a clean neural node network in cool teal and deep navy tones. Hundreds of glowing connection lines radiate from a central Claude Code core, branching into distinct occupation icons (software engineer, chemist, designer, analyst) with subtle success-rate percentage rings hovering above each. Floating aggregate metrics like '400K sessions', '55% coding', 'within 7pp success gap' appear as elegant floating holographic cards. Industrial minimalist aesthetic with sharp vector lines, soft volumetric lighting, extreme clarity, no clutter, cinematic top-down composition, 8K resolution, emphasizing economic transformation through precise data flow." insight="AI编码不再是程序员专利，跨领域成功率高度趋同，职场Agentic转型已进入可量化阶段。"/>
+  <PULSE>今日叙事核心从模型参数竞赛转向对Agentic Coding真实世界采用、经济影响及跨模型性价比的严谨量化与基础设施深化。</PULSE>
+
+  <THEMES>
+    <THEME type="advance" emoji="📊">
+      <TITLE>Anthropic 40万会话揭秘：AI Coding如何重塑全行业</TITLE>
+      <NARRATIVE>Anthropic通过隐私保护分析400K Claude Code会话，发现编码与修复任务占一半以上，近1/5用于操作软件；最严苛的“可验证目标完成”指标下，各职业成功率与软件工程师差距不超过7个百分点，领域专家优势存在但中间水平已足够。这标志着原有“编码Agent仅限程序员”叙事被深度推进为全行业生产力工具，历史记忆中Nadella的“Token资本”概念在此得到数据印证。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方账号">Anthropic最新经济研究发布Claude Code规模化跟踪框架，分析了2025年10月至2026年4月的40万会话，超过一半是编写或修复代码，近1/5用于操作软件。使用隐私保护工具进行聚合分析。❤️ 1495 | 💬 306</TWEET>
+      <CONSENSUS>行业已形成共识：AI编码工具正快速渗透非软件工程领域，中间水平领域熟练度即足以取得高成功率，经济影响可被精确追踪。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于，这一波生产力提升究竟会带来普遍富足还是进一步拉大“高杠杆人才”与普通员工的差距，以及如何将这些发现纳入更广泛的经济指数。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🔧">
+      <TITLE>Cursor Origin发布：Agentic时代专属Git竞品</TITLE>
+      <NARRATIVE>Cursor/Graphite的Tomas Reimers宣布Origin——一个可扩展的Git竞品，专为Agent工作负载设计，支持API和MCP扩展，内置合并冲突解决与协同失败Agent。这是一个全新叙事：传统版本控制工具无法处理持久Agent长期运行产生的复杂分支与失败恢复，Origin试图构建原生支持AI协同的代码协作范式，直接回应历史记忆中开发者从Vibe Coding向Loop Stacking的转向。</NARRATIVE>
+      <TWEET account="swyx" role="AI开发者观察者">Cursor/Graphite的@TomasReimers宣布Origin，这是@cursor_ai期待已久的Git竞品，可扩展支持Agent工作负载，内置API、MCP、合并冲突和协同失败Agent解析机制。❤️ 2195 | 💬 83</TWEET>
+      <OUTLOOK>未来6-12个月，代码协作基础设施将分化为“人类主导”和“Agent原生”两条轨道，Origin类工具可能成为持久Agent落地的重要底座。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注Agent-native DevOps工具、MCP协议扩展服务及失败恢复智能体创业公司。</OPPORTUNITY>
+      <RISK>新工具能否在真实大规模团队中处理极端冲突仍是未知，若仅停留在概念演示，可能成为短期泡沫。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚖️">
+      <TITLE>开放模型游戏构建性价比碾压：闭源贵10-15倍</TITLE>
+      <NARRATIVE>Today AI测试显示，开放模型在构建小型可玩游戏时质量接近闭源，但成本大幅降低：Opus 4.8比MiniMax M3贵15倍，GPT-5.5比Nemotron Ultra贵10倍，Kimi K2.7 Code比Opus 4.8便宜7倍。这代表从“闭源SOTA崇拜”到“开放模型实用转向”的重大共识瓦解，与过去7天“从Token-Maxxing转向开源混合控制平面”的叙事形成清晰延续，但本次聚焦真实任务性价比而非抽象基准。</NARRATIVE>
+      <TWEET account="togethercompute" role="基础设施平台">我们测试了闭源与开源模型构建小型可玩游戏。开源模型更便宜更快，质量往往接近。Opus 4.8比MiniMax M3贵15倍，GPT-5.5比Nemotron Ultra贵10倍，Kimi K2.7 Code比Opus 4.8便宜7倍。闭源到开源的转变已难以忽视。❤️ 29 | 💬 3</TWEET>
+      <CONSENSUS>行业最新共识是，在具体工作负载上，开放模型的tokenomics和推理速度优势已压倒闭源模型的边际智能差距。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于“质量接近”是否能在更复杂、长时程Agent任务中持续成立，以及企业是否愿意为那10-15%的质量提升支付10倍成本。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🦾">
+      <TITLE>NVIDIA ENPIRE：AI Agent真实世界机器人自主科研闭环</TITLE>
+      <NARRATIVE> NVIDIA GEAR实验室发布ENPIRE系统，让AI编程Agent（Codex、Claude Code、Kimi Code）自主控制真实机器人完成环境重置、策略迭代、失败分析和文献查阅，整个科研循环无需人类干预，仅需早晨查看报告。这是将持久Agent从数字世界推向物理世界的全新范式，直接解决“模拟到真实”这一核心瓶颈。</NARRATIVE>
+      <TWEET account="dotey" role="科技观察者">NVIDIA GEAR实验室发布ENPIRE系统，让AI编程Agent自主操控真实机器人进行实验。Agent负责重置场景、运行实验、判断成败、查论文、改代码并迭代。测试了插pin脚、穿扎带、剪扎带、插GPU等高精度任务，最终成功率达99%。使用了Codex、Claude Code和Kimi Code三种Agent。❤️ 11 | 💬 5</TWEET>
+      <OUTLOOK>未来6-12个月，物理世界AI科研将从人类主导实验转向Agent驱动的并行探索，“物理scaling law”（更多机器人=更快研究）将成为新范式。</OUTLOOK>
+      <OPPORTUNITY>投资机器人+Agent协同基础设施、物理世界模拟器及自主实验室硬件初创公司。</OPPORTUNITY>
+      <RISK>真实世界token消耗极高，且机器人硬件成本与维护仍是硬伤，短期内难以大规模复制，可能仍是实验室展示。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="💡">
+      <TITLE>AI基础设施深层转向：光子学与太阳能成为新约束</TITLE>
+      <NARRATIVE>Elon Musk指出若利用太阳百万分之一的能量用于AI，将产生超过人类百万倍智能；NVIDIA则在得州推进先进光子制造，强调AI基础设施不仅依赖算力，更依赖光（激光与光学链路）。这标志着从“NVIDIA定义AI五层蛋糕，能源取代算力成首要约束”的历史记忆向更底层物理基础设施（光子学、可持续能源）的重大推进。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI/SpaceX创始人">如果我们仅利用太阳百万分之一的能量给AI，这将产生超过全人类百万倍的智能。❤️ 159911 | 💬 12771</TWEET>
+      <CONSENSUS>行业共识已转向：AI增长最终受物理世界能源与数据移动方式（光子学）约束，而非单纯芯片数量。</CONSENSUS>
+      <DIVERGENCE>大佬分歧在于，太阳能+光子学路径能否足够快地规模化，以支撑模型继续指数级增长，还是会遭遇“现实世界scaling wall”。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🧪">
+      <TITLE>OpenAI模拟部署评估：提前预测真实世界模型行为</TITLE>
+      <NARRATIVE>OpenAI发布新研究，使用最近去标识化用户请求模拟部署环境，研究候选模型响应，以在发布前预测真实世界行为。该方法还扩展到带状态工具的Agentic部署。这是对“前沿模型安全叙事转向护栏一天即破”历史记忆的深度回应，转向更工程化的预发布风险评估方法。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">我们分享了在发布前预测模型真实世界行为的新研究方法：使用最近去标识化用户请求模拟部署，并研究候选模型响应。该方法已扩展到带状态工具的Agentic部署。❤️ 1488 | 💬 113</TWEET>
+      <CONSENSUS>行业已认可传统基准饱和，模拟真实流量与工具轨迹的评估将成为新标配。</CONSENSUS>
+      <DIVERGENCE>核心争论是模拟环境能否真正捕捉到模型在长期、开放世界部署中的意外失败模式。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">NVIDIA inference芯片市场份额从66%升至74%，随工作负载从训练转向推理。</ITEM>
+    <ITEM category="VC views">a16z引用Ideogram CEO观点：图像模型需超越榜单，重视难以量化的“taste”，需与设计师合作内部分析。</ITEM>
+    <ITEM category="基础设施">NVIDIA与Coherent在得州Sherman扩建先进光子制造产能，支持AI系统激光与光学链路。</ITEM>
+    <ITEM category="市场动态">Together AI测试显示Kimi K2.7 Code构建游戏成本仅为Opus 4.8的1/7，开放模型tokenomics优势显著。</ITEM>
+    <ITEM category="VC views">pmarca认为全球需要1000个硅谷，强调关键政策若无法落地则难以复制，数据中心建设阻力值得关注。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">Kimi K2.7 Code在Together AI游戏构建测试中展现7倍性价比优势，证明DeepSeek/Kimi等中国模型在Agentic实用任务中已具备全球竞争力。</ITEM>
+    <ITEM category="全球映射">中国开源模型的性价比浪潮正加速全球从闭源转向混合控制平面的共识，Anthropic与OpenAI的定价权面临实质挑战。</ITEM>
+    <ITEM category="风险提示">尽管Kimi等模型表现强劲，但特朗普政府针对Anthropic的出口管制可能间接波及中国AI硬件供应链稳定性。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="nvidia" role="官方账号">NVIDIA Blackwell平台在MLPerf Training 6.0中全面领先，不仅基准成绩最佳，还通过可靠性、可用性和服务性引擎以及Resiliency Extension减少中断并加快恢复，确保大规模训练顺利进行。❤️ 272 | 💬 28</TWEET>
+    <TWEET account="a16z" role="风投机构">SpaceX迭代循环：1.质疑所有需求；2.删除任何可删除的部分或流程；3.简化和优化；4.加速周期时间；5.自动化。大多数工程组织直接跳到第5步，SpaceX每次都按顺序执行。❤️ 289 | 💬 14</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">正如我在2024年1月所说，大家都在构建相同的东西，因此不存在护城河。这一点已经开始影响OpenAI，数据不会说谎。❤️ 94 | 💬 14</TWEET>
+    <TWEET account="theinformation" role="媒体">美国政府与Anthropic的最新争端可能实际上帮助了Anthropic，销售数据显示其受关注度上升。❤️ 21 | 💬 4</TWEET>
+    <TWEET account="simonw" role="独立开发者">我的直觉是每月100美元和200美元的订阅总体上仍然赚钱，即使像我这样的一小部分用户从中获得了相当于数千美元的API价值。就像自助餐一样，真正“击败系统”的用户数量很少。❤️ 3 | 💬 2</TWEET>
+    <TWEET account="pmarca" role="风投人">我与政府官员进行过上千次对话，模式总是：1.我们如何拥有自己的硅谷？2.我列出关键的六件事。3.但是如果我们做不到那些呢？世界如果有10个、100个、1000个硅谷会更好。❤️ 6102 | 💬 358</TWEET>
+    <TWEET account="runwayml" role="官方账号">Runway第四届AI艺术节即将在日本举办，7月30日在东京与大家一起庆祝艺术和技术前沿的创作者。门票现已开售。❤️ 105 | 💬 5</TWEET>
+    <TWEET account="_akhaliq" role="论文分享者">μ_0：一个可扩展的3D交互轨迹世界模型。❤️ 47 | 💬 3</TWEET>
+  </TOP_PICKS>
+</REPORT>
