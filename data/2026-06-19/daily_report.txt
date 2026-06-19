@@ -1,0 +1,72 @@
+<REPORT>
+  <COVER title="Noam加盟OpenAI：预训练人才战白热" prompt="Ultra-realistic strategic war room scene depicting the intense AI talent battle in Silicon Valley. A grand architectural metaphor shows a towering OpenAI citadel absorbing a brilliant neural node labeled 'Noam' from a distant Google-like fortress via glowing data bridges. Holographic pre-training model architectures float in the air with cascading capability vectors surging upward. Cinematic volumetric lighting with deep indigo and warm amber tones, polished metallic surfaces, intricate circuit-like floor maps showing power law curves, 8K resolution, photorealistic industrial design aesthetic, dramatic perspective emphasizing momentum and preferential attachment." insight="顶级人才流动重塑实验室实力，医疗AI与持久Agent同步突破。"/>
+  <PULSE>今日硅谷核心叙事转向：OpenAI以十年等待招揽Noam强化预训练，同时医疗诊断实现罕见病闭环、Perplexity Brain开启持久化Agent记忆、Anthropic机器人编程提速20倍，能源60GW缺口与成本压力成为新约束。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="🔀">
+      <TITLE>OpenAI十年等待终揽Noam：预训练人才战升级</TITLE>
+      <NARRATIVE>从历史记忆看，Sama自OpenAI创立之初就最想与Noam合作，今天终于实现。这标志着实验室间顶级人才争夺从“挖角”转向“战略性收割”，直接弥补OpenAI在预训练领域的相对弱势，可能加速其追赶Anthropic前沿模型的进程。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">Noam是我从OpenAI创立之初就最想合作的人。整整等了10年。我认为这等待是值得的！❤️ 8514 | 💬 343</TWEET>
+      <CONSENSUS>顶级科学家已成为比算力更稀缺的战略资源，及时挖角可实现能力曲线的跳跃式提升。</CONSENSUS>
+      <DIVERGENCE>业界激烈争论Noam能否快速将Google预训练洞见注入OpenAI体系，以及此举是否会引发Google更猛烈的反制或人才流失潮。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🧠">
+      <TITLE>Perplexity Brain：Agent持续学习记忆系统</TITLE>
+      <NARRATIVE>Perplexity推出Brain，作为一个持续学习记忆系统，让Computer的每个任务都接入由Brain构建的上下文图，使Agent从无状态工具转变为越来越“有状态”的持久伙伴，核心解决长期复杂任务中上下文遗忘与重复劳动的底层问题。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="Perplexity AI">Brain是Computer中的持续学习记忆系统。每个任务都接入Brain构建的上下文图，让Computer随每次运行变得更有状态。目前为Perplexity Max用户的研究预览。❤️ 1613 | 💬 136</TWEET>
+      <OUTLOOK>未来6-12个月，主流Agent平台将普遍集成类似记忆层，推动从一次性查询工具向可累积经验的“数字同事”演进，显著降低企业长期token成本。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注构建企业级跨会话知识图谱、记忆审计与版本控制的早期创业公司，以及为Agent提供“睡眠式反思”优化层的基础设施。</OPPORTUNITY>
+      <RISK>若记忆污染或隐私泄露控制不当，可能导致错误在长期运行中累积放大，构成技术硬伤；同时持续记忆也增加计算开销，短期或仍是高端用户功能。</RISK>
+    </THEME>
+
+    <THEME type="milestone" emoji="🩺">
+      <TITLE>AI医疗闭环突破：罕见病诊断获重大进展</TITLE>
+      <NARRATIVE>OpenAI o3 Deep Research与GPT-5.5 Instant在健康问题上达到前沿水平，与波士顿儿童医院、哈佛合作发表NEJM AI研究，帮助解决376例多年未解罕见病病例。这是医疗AI从“辅助建议”向“真正改变家庭命运”的深度推进，与历史记忆中单纯的文献总结形成鲜明对比。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI">我们与波士顿儿童医院和哈佛合作在NEJM AI发表研究：o3 Deep Research帮助临床医生重新审视多年未解的罕见儿科疾病病例，为等待多年的家庭找到了答案。❤️ 1883 | 💬 126</TWEET>
+      <CONSENSUS>行业已形成共识：AI将成为医生在罕见病和复杂健康咨询中的核心盟友，每周2.3亿健康相关查询正因模型进步而获得更可靠解答。</CONSENSUS>
+      <DIVERGENCE>大佬们争论焦点在于如何平衡AI的“认知谦逊”（承认不确定性）与临床确定性需求，以及监管如何为这类高风险应用制定新框架。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🤖">
+      <TITLE>Anthropic Project Fetch：AI编程机器人20倍提速</TITLE>
+      <NARRATIVE>Claude Opus 4.7独立编程robodog，速度是去年最佳人类团队+Opus 4.1的约20倍。这定义了具身智能新范式：让前沿模型直接面对真实物理任务编程，试图解决机器人开发中“编程瓶颈远大于硬件瓶颈”的底层问题。</NARRATIVE>
+      <TWEET account="anthropicai" role="Anthropic">Project Fetch第二阶段：测试Claude编程robodog的能力。Opus 4.7独立完成速度是去年最佳人类团队辅助Opus 4.1的约20倍。（可惜robodog还是没能抓到沙滩球）❤️ 1447 | 💬 219</TWEET>
+      <OUTLOOK>未来6-12个月，具身Agent将从实验室快速走向工业与科研场景，NVIDIA ENPIRE等闭环系统或因类似能力获得指数级加速。</OUTLOOK>
+      <OPPORTUNITY>一级市场投资方向包括机器人编程SDK、具身世界模型基础设施，以及将“红队测试”产品化的安全公司。</OPPORTUNITY>
+      <RISK>当前物理执行成功率仍低（抓球失败），硬件可靠性与安全边界仍是显著硬伤，短期可能仍是展示性大于生产性。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚡">
+      <TITLE>AI数据中心2030年面临60GW电力缺口</TITLE>
+      <NARRATIVE>需求预计达80-100GW但供应可能仅能满足20-40GW，缺口巨大。这标志着行业共识从“算力即一切”转向“能源成为首要约束”的重大转向，与Chamath此前提出的AI栈价值框架（能源>芯片>数据）形成强呼应。</NARRATIVE>
+      <TWEET account="theinformation" role="The Information">AI数据中心面临巨大电力短缺，到2030年算力需求预计达80-100GW。我们看到需要以各种非常规方式 raced to build 60GW的算力来填补缺口。❤️ 7 | 💬 1</TWEET>
+      <CONSENSUS>能源、土地与冷却已成为AI规模化的真正瓶颈，单纯堆GPU已不可持续。</CONSENSUS>
+      <DIVERGENCE>各方激烈争论填补缺口的最佳路径：核能重启、太阳能+光子计算，还是转向更高效的稀疏/世界模型架构。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Baseten据报数月后再次融资15亿美元，用于AI推理基础设施扩张；General Intuition完成3亿美元融资，估值达20亿美元；Pramaana Labs获Khosla领投2700万美元种子轮；Tenet AI安全公司融资600万美元保护企业Agent。</ITEM>
+    <ITEM category="VC views">a16z强调顶级VC是初创公司“可信度桥贷”，帮助其获得人员、资金和品牌 preferential attachment，从而进入正反馈循环，这是权力法则曲线的机械驱动。</ITEM>
+    <ITEM category="VC views">Lightspeed观点：实时世界模型是AI从生成媒体转向交互式创造力的范式转变，Reactor World正构建开发者基础设施，类似Macintosh时代实时交互对个人计算的解锁。</ITEM>
+    <ITEM category="VC views">Kindred Ventures创始人指出，到2030年AI算力需求80-100GW，需 raced to build 60GW以各种 oblique 方式填补能源缺口。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek最新模型永久降价75%，Qwen2.5家族过去一周GitHub star激增至15k-20k级别，在性价比上以不到西方1/10的训练成本逼近SOTA，显示中国开源AI通过工程优化持续领先，bindureddy等观察者认为其已能处理50%以上日常与专业任务。</ITEM>
+    <ITEM category="全球映射">中国务实开源与低成本策略正迫使美国企业反思token-maxxing模式，转向混合控制平面与开源回退，以避免成本失控；GLM创始人动态也获pmarca关注，表明中美AI技术流动与竞争正进入新阶段。</ITEM>
+    <ITEM category="全球映射">能源与人才双重约束下，中国在开源权重模型上的快速迭代可能进一步压缩美国闭源实验室的定价空间，Mag7需加速与政府合作或拥抱开源混合方案。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="openai" role="OpenAI">GPT-5.5 Instant在健康相关问题上已与我们的前沿思考模型相当。每周有超过2.3亿人向ChatGPT咨询健康与养生问题，GPT-5.5 Instant在识别紧急护理需求、询问相关上下文、解释不确定性以及简化复杂信息方面表现更好。因为它对所有免费用户可用，这些改进能惠及更多人。❤️ 2512 | 💬 154</TWEET>
+    <TWEET account="gdb" role="OpenAI">我们与来自60个国家、49种语言、26个专科的数百名医生合作，使ChatGPT在健康相关问题上为每个人都变得更好。❤️ 591 | 💬 41</TWEET>
+    <TWEET account="xai" role="xAI">Grok TTS提供最接近人类的语音。❤️ 678 | 💬 65</TWEET>
+    <TWEET account="dotey" role="独立观察者">OpenAI Codex上线Record &amp; Replay功能：在Mac上演示一遍重复操作，Codex会观察过程自动生成可复用Skill。下次只需换参数即可重放。目前仅限macOS且需开启Computer Use。这解决了大量难以文字描述的固定流程问题。❤️ 217 | 💬 21</TWEET>
+    <TWEET account="pmarca" role="a16z">有趣。（GLM AI模型创始人）❤️ 3727 | 💬 145</TWEET>
+    <TWEET account="nvidia" role="NVIDIA">在VivaTech，我们分享法国如何将AI雄心变为生产现实。AI工厂上线、开放模型进步、Agent在医疗、电信、制造、能源和零售行业部署。从基础设施到应用，法国正用NVIDIA技术为欧洲AI未来奠基。❤️ 246 | 💬 40</TWEET>
+    <TWEET account="techcrunch" role="TechCrunch">Snap因成本问题将AI视频团队分拆为新公司Dotmo。❤️ 57 | 💬 8</TWEET>
+    <TWEET account="a16z" role="a16z">a16z GP Anish Acharya指出：AI Agent让非程序员也能通过制作软件实现数字创业，这将是一个被低估的大现象，孩子们不再只想当YouTube创作者。❤️ 68 | 💬 12</TWEET>
+  </TOP_PICKS>
+</REPORT>
