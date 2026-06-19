@@ -1,0 +1,86 @@
+<REPORT>
+  <COVER title="通宵Goal Agent：中国开源混战Codex成本战" prompt="Minimalist cinematic scene at 3am showing a single glowing laptop in a sparse dark room, neural data streams flowing as clean vector lines from screen to materialize floating app UI elements and code structures, subtle East Asian ideogram nodes interwoven with Western neural architecture representing hybrid model orchestration, soft volumetric cyan and warm amber lighting with precise edge highlights on floating holographic interfaces, ultra-detailed industrial-tech textures on the desk surface, 8K resolution, sharp focus on autonomous overnight execution and cost-efficient intelligence convergence." insight="开发者夜间放任持久Agent结合GLM-5.2与DeepSeek，标志成本治理彻底取代Token Maxxing，成为新工作流范式。"/>
+  <PULSE>硅谷开发者从Token预算蜜月彻底转向持久Goal Agent与中国开源模型的混合实用主义，夜间零干预App开发成为常态，同时超规模化风险批判声量显著上升。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="💰">
+      <TITLE>Token预算收紧驱动中外混合模型工作流</TITLE>
+      <NARRATIVE>历史记忆显示过去一周企业仍处于Token-Maxxing蜜月，而今日多条推文显示Meta、Salesforce人才大规模流入Anthropic/OpenAI同时，开发者已开始严格控费并开发MCP框架，同时调用Codex与智谱GLM-5.2、DeepSeek V4 Flash等低成本模型实现多轮讨论后由Codex总结。这是从单一闭源依赖到性能-成本动态平衡的重大转向。</NARRATIVE>
+      <TWEET account="vista8" role="AI开发者">Codex产品优秀，但写作仍用Claude 4.6 Sonnet，前端用4.8。有些场景需随时调用智谱GLM-5.2、DeepSeek V4 Flash等国产便宜模型用于开发翻译。我开发MCP支持Codex中调用这些模型，多模型N轮讨论后由Codex总结方案，项目已开源。❤️ 86 | 💬 67</TWEET>
+      <TWEET account="gdb" role="OpenAI高管">我们推出企业信用使用分析和更新后的支出控制功能，已在全球管理控制台可用。❤️ 594 | 💬 47</TWEET>
+      <CONSENSUS>编码Agent已足够实用，因此设定每月Token预算上限是明智做法，蜜月期正式结束，企业转向混合控制平面寻找最佳性价比。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于：是彻底拥抱开源混合（如Kimi/DeepSeek+闭源）还是继续押注单一前沿闭源模型的长期领先优势。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌙">
+      <TITLE>持久Goal Agent实现开发者通宵自主造App</TITLE>
+      <NARRATIVE>这是在Codex持久Agent基础上的全新范式落地。开发者睡前设定/goal让AI从安装Android Studio开始，自主完成钓鱼记录App的完整开发、调试到打包APK，次日即可使用。尽管仍有疑难杂症，但Agent能自我分析问题并迭代Skill，彻底改变了「开坑即爽」的个人生产力模式，解决的是长期以来软件开发的迭代瓶颈。</NARRATIVE>
+      <TWEET account="vista8" role="AI开发者">准备睡觉，让AI开发一个钓点和渔获记录App。设定Goal让Codex执行，看明天钓鱼能不能用上自己的App。❤️ 5 | 💬 4</TWEET>
+      <TWEET account="dotey" role="AI观察者">Skill和软件一样需要不断迭代，用户越多问题越多。测试发现导出样式和渐变色Bug，让Agent自己分析原因、给出方案并添加测试覆盖，修复后效果大幅提升。这就是我日常迭代Skill的方法。❤️ 24 | 💬 2</TWEET>
+      <OUTLOOK>未来6-12个月，持久Agent将从个人玩具变为主流生产力工具，大量独立开发者能以接近零边际成本每周交付生产级应用，显著降低软件创业门槛。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注提供长时间运行监控、自动错误恢复和跨模型协同编排的Agent基础设施，以及针对「失败模式治理」的垂直工具。</OPPORTUNITY>
+      <RISK>Agent自主生成的代码可能积累隐性技术债务，长时间运行的漂移与调试难度仍是硬伤，短期内仍难完全替代人类架构判断。</RISK>
+    </THEME>
+
+    <THEME type="advancement" emoji="🧬">
+      <TITLE>AI科学闭环从AlphaFold延伸至罕见病家庭应用</TITLE>
+      <NARRATIVE>Demis Hassabis回顾9年AlphaFold合作改变世界，gdb展示o3（已一年多历史）如何帮助面临罕见遗传疾病的家庭。这标志AI for Science从基础发现加速到真实世界医疗闭环的深度推进，与历史记忆中Isomorphic Labs 21亿美元融资推进药物发现形成清晰延续。</NARRATIVE>
+      <TWEET account="demishassabis" role="DeepMind CEO">感谢John过去9年的非凡伙伴关系与合作！AlphaFold改变了世界，展示了AI如何造福科学和医学，为AI惠及人类照亮道路。❤️ 4421 | 💬 109</TWEET>
+      <TWEET account="gdb" role="OpenAI高管">OpenAI帮助面临罕见遗传疾病的家庭。这是用一年前的o3完成的，难以想象今天模型能做到什么。❤️ 398 | 💬 48</TWEET>
+      <CONSENSUS>行业已形成共识：AI不再是实验室玩具，而是能直接服务患者家庭、加速药物发现的实用工具。</CONSENSUS>
+      <DIVERGENCE>当前争论在于如何将这类科学突破从前沿实验室规模化推向全球医疗系统，同时平衡数据隐私与模型训练需求。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="🚨">
+      <TITLE>Gary Marcus八大理由呼吁放缓AI超大规模化</TITLE>
+      <NARRATIVE>长期批评者Gary Marcus今日系统列出GenAI对社会已造成的负面、AI slop对互联网的污染、数据中心过剩对经济与环境的冲击、就业计划缺失及对齐问题无解等八大理由。这与过去一年「规模即正义」的硅谷主流叙事发生显著转向，呼应历史记忆中他多次警告泡沫风险。</NARRATIVE>
+      <TWEET account="garymarcus" role="AI批评者">放缓超大规模化的八大理由：GenAI已对社会做的、AI slop对互联网做的、数据中心过建对经济和环境做的、网络攻击对数据完整性的威胁、AI slop代码导致的软件危机、就业计划完全缺失、对齐问题无解。❤️ 91 | 💬 22</TWEET>
+      <CONSENSUS>越来越多声音认为价格下降虽利好消费者，但正让超大规模玩家更难盈利， token预算收紧已是普遍趋势。</CONSENSUS>
+      <DIVERGENCE>核心争议是：究竟是继续all-in规模竞赛，还是接受「 sober countries」最终可能在长期竞争中胜出。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="📣">
+      <TITLE>新媒体时代创始人即品牌与宏大叙事打法</TITLE>
+      <NARRATIVE> a16z分享Ben Horowitz与Marc Andreessen观点：新媒体中品牌是个人而非公司，创始人需讲述远大于自己公司的宏大故事（如Alex Karp只谈ontology、orchestration、超级智能、神经多样性）。这定义了AI时代创始人沟通的新范式，解决的是传统公关渠道受限的问题。</NARRATIVE>
+      <TWEET account="a16z" role="风险投资机构">Ben Horowitz谈新媒体：品牌现在是个人而非公司。Palantir还是Alex？Anduril还是Palmer？创始人需讲述远大于公司的故事，这是新媒体的本质。❤️ 254 | 💬 25</TWEET>
+      <OUTLOOK>未来6-12个月，AI实验室CEO将越来越依赖X、播客等直接渠道输出宏大叙事，传统媒体影响力进一步下降，创始人个人IP将成为最大护城河。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投帮助创始人构建「宏大叙事」的内容工具、个人品牌平台，以及针对AI公司GTM的「智能系统」层创业公司。</OPPORTUNITY>
+      <RISK>宏大叙事若脱离实际技术进展，容易演变为过度炒作，一旦市场转向将导致信任崩盘。</RISK>
+    </THEME>
+
+    <THEME type="advancement" emoji="🤖">
+      <TITLE>NVIDIA将AI Agent定义为「车间工人」并推进物理世界落地</TITLE>
+      <NARRATIVE> Jensen Huang用最简单比喻解释Agent：模型思考、harness赋形、工具技能让它行动、runtime让它工作。这是NVIDIA从算力供应商向Agentic AI全栈基础设施提供商的叙事深化，与历史记忆中其Vera CPU、Cosmos 3物理AI工作流形成清晰延续。</NARRATIVE>
+      <TWEET account="nvidia" role="NVIDIA官方">Jensen Huang对AI Agent最简解释：车间里的工人。模型思考，harness赋予形态，工具和技能让它行动，runtime给它工作场所。❤️ 789 | 💬 74</TWEET>
+      <CONSENSUS>行业已共识Agent不是科幻，而是由模型+工具+运行时组成的实用工作单元，物理AI正快速从模拟走向真实机器人实验。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于能源是否已取代算力成为AI五层蛋糕的首要约束，以及开放世界模型是否能真正跨越uncanny valley。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Elastic最高以8500万美元收购CRV支持的DeductiveAI，强化AI站点可靠性工程赛道。</ITEM>
+    <ITEM category="投融资快讯">SpaceX以600亿美元收购AI编码初创公司Cursor，凸显AI基础设施与机器人协同的超高估值。</ITEM>
+    <ITEM category="投融资快讯">BuyerBeats完成200万美元种子轮，专注服务中小企业的人工智能劳动力平台。</ITEM>
+    <ITEM category="VC views">a16z强调新媒体中「讲述大于公司本身的故事」是创始人核心能力，Alex Karp式的宏大叙事将成为AI公司GTM标配。</ITEM>
+    <ITEM category="VC views">Lightspeed指出AI tipping point已至：当智能可靠性超越人类（如Waymo提升3-4倍），技术将从实验快速走向大规模部署。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">智谱GLM-5.2与DeepSeek V4 Flash在硅谷开发者中快速普及，作为Codex和Claude的低成本补充，在开发、翻译、多轮讨论中提供约12倍性价比，已成为混合工作流不可或缺部分，证明中国开源模型算法效率已达全球领先。</ITEM>
+    <ITEM category="全球映射">这一混合采用模式正迫使美国闭源实验室面对真实价格竞争，从Token-Maxxing转向开源混合控制平面；DeepSeek此前70亿美元融资也显示中国在国家基金支持下正快速缩小与OpenAI/Anthropic的差距。</ITEM>
+    <ITEM category="监管风险">特朗普政府对Anthropic出口管制可能延伸至中国模型技术流动，但同时加速美国企业拥抱Kimi、DeepSeek等开源替代，形成双刃剑效应。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI/SpaceX CEO">未来将花费一万亿乘以一万亿美元来制造反物质以航行至其他恒星系统。❤️ 183089 | 💬 15900</TWEET>
+    <TWEET account="runwayml" role="Runway官方">你无需环游世界就能打造全球广告campaign。从idea到执行，这整个广告由一个人用Runway一天完成。❤️ 80 | 💬 11</TWEET>
+    <TWEET account="swyx" role="AI开发者社区领袖">Anthropic即将以2万亿美元IPO。❤️ 117 | 💬 14</TWEET>
+    <TWEET account="pmarca" role="a16z合伙人">新媒体中品牌就是创始人本人。旧媒体品牌是公司，新媒体则是个人，如Palantir等于Alex Karp。❤️ 852 | 💬 53</TWEET>
+    <TWEET account="togethercompute" role="Together AI官方">MiniMax-M3极大扩展Agent上下文能力：长历史、图像、视频、文档和工具输出。我们的推理优化让每GPU处理更多token，从而用更少钱自动化更多工作。❤️ 17 | 💬 2</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">如果那些对AI保持清醒的国家最终把仓促冒进、可能炸掉自己经济的国家打得落花流水，那将是多么疯狂的反转。❤️ 110 | 💬 6</TWEET>
+    <TWEET account="theinformation" role="The Information官方">Salesforce今年已有超过45名员工加入Anthropic，近40名加入OpenAI，主要在销售和营销岗位。企业客户正要求更清晰的定价、隐私和回报答案。❤️ 9 | 💬 3</TWEET>
+    <TWEET account="lightspeedvp" role="Lightspeed Venture Partners">种子阶段初创公司关闭速度已快于新公司创立速度。❤️ 56 | 💬 2</TWEET>
+    <TWEET account="hardmaru" role="Sakana AI研究员">1991年Transformer、预训练、蒸馏、世界模型的基础已被奠定，这些塑造了我从Google Brain到今天Sakana RSI工作的思考。❤️ 87 | 💬 9</TWEET>
+    <TWEET account="simonw" role="AI开发者">非常期待Groq或Cerebras这样的超快定制硅推理提供商运行GLM 5.2。Cerebras已有GLM-4.7，Groq仍主要跑Llama。❤️ 959 | 💬 67</TWEET>
+  </TOP_PICKS>
+</REPORT>
