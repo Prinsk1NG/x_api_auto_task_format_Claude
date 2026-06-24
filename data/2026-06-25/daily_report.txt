@@ -1,0 +1,77 @@
+<REPORT>
+  <COVER title="OpenAI Jalapeño芯片与Mirendil自加速AI引爆全栈革命" prompt="Hyper-realistic industrial product visualization of the Jalapeño AI chip as the hero object, dramatically centered on a precision-engineered server motherboard in a sterile NVIDIA-style cleanroom. Cinematic key lighting from above casts sharp highlights on the chip's nanoscale copper traces and neural-inspired circuitry patterns that subtly glow with data flow. Use octane render, 8K resolution, intricate material details including etched silicon, thermal interface materials, and gold wire bonding. Moody color grading with deep industrial blues, metallic grays and warm amber accents from status LEDs. Extreme engineering precision, shallow depth of field, subtle volumetric fog and god rays emphasizing scale and innovation. Photorealistic textures, no neon or cyberpunk elements, purely focused on futuristic hardware craftsmanship and manufacturing excellence." insight="OpenAI自研芯片与Mirendil自我加速AI同时落地，标志AI公司从依赖外部转向全面自主掌控基础设施与研发循环。"/>
+  <PULSE>今日硅谷叙事主线从模型层跃迁至芯片自研与AI自我加速研发系统，中国开源模型速度与世界模型能力持续渗透企业级工作流。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🔧">
+      <TITLE>OpenAI首款自研Jalapeño芯片开启全栈垂直整合</TITLE>
+      <NARRATIVE>OpenAI宣布与Broadcom联合打造首款专为LLM推理设计的Jalapeño芯片，这是其从产品、模型到基础设施的完整闭环战略落地。此前行业高度依赖NVIDIA等外部算力供应商，今天的信号显示顶级实验室开始自主掌控硬件层，以优化ChatGPT、Codex及未来agentic产品的能效与规模。这一新叙事解决的是长期存在的供应链与性能瓶颈问题，历史记忆中OpenAI多次强调基础设施重要性，但自研芯片是首次实质性行动。</NARRATIVE>
+      <TWEET account="openai" role="官方">OpenAI与Broadcom从零设计并量产了首款AI芯片Jalapeño，专为驱动ChatGPT、Codex、API及未来Agent产品的LLM工作负载打造。这一芯片将扩展我们的全栈平台，帮助扩展智能服务更多用户。❤️ 17257 | 💬 1097</TWEET>
+      <TWEET account="gdb" role="OpenAI高管">Jalapeño专为LLM推理设计，历时九个月由我们的模型加速开发，每瓦性能表现惊人。❤️ 2003 | 💬 128</TWEET>
+      <OUTLOOK>未来6-12个月，更多AI实验室将跟进自研芯片或ASIC，NVIDIA主导地位面临真正挑战，全栈公司估值溢价将进一步扩大。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注芯片设计工具链、先进封装、液冷基础设施及专为自定义硅优化的编译器创业公司。</OPPORTUNITY>
+      <RISK>自研芯片研发周期长、流片成本高，若性能未达预期可能成为烧钱黑洞，且需面对NVIDIA生态的强大惯性。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Mirendil获a16z 2亿美元种子轮：自我加速AI时代开启</TITLE>
+      <NARRATIVE> a16z领投Mirendil 2亿美元种子轮，其核心是构建能自主循环研究与工程问题的AI系统，团队来自Anthropic、DeepMind与xAI。该新叙事试图解决当前AI研发严重依赖顶尖人类专家、进度缓慢的底层问题，让AI成为能自我迭代的“科学家+工程师”。这是从未见过的大规模自我改进基础设施尝试，与历史中Gary Marcus呼吁放缓超大规模化形成鲜明对比。</NARRATIVE>
+      <TWEET account="a16z" role="机构">我们很高兴领投Mirendil 2亿美元种子轮。他们正在构建能自主循环解决AI研发与工程问题的系统，像一个为AI研究打造的编码Agent，可控制自己的GPU。团队来自Anthropic、Google DeepMind和xAI。❤️ 314 | 💬 13</TWEET>
+      <OUTLOOK>6-12个月内，自我加速AI将从实验室走向早期商业化，显著降低前沿模型研发人力成本，可能催生“AI实验室即服务”新物种。</OUTLOOK>
+      <OPPORTUNITY>投资聚焦于为自我改进AI提供高质量合成数据、自动验证框架及安全沙箱的早期创业公司。</OPPORTUNITY>
+      <RISK>自我加速系统极易出现失控优化或模式崩溃，目前缺乏成熟的对齐机制，短期可能仍是概念验证阶段的泡沫。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚙️">
+      <TITLE>Claude从工具转向企业级Slack常驻“组织操作系统”</TITLE>
+      <NARRATIVE>Karpathy多次发帖澄清最新Claude Slack集成并非简单bot或OpenClaw，而是企业级、多人协作、持久的组织级harness，已让团队工作方式彻底改变——“每个人都成了经理”。这与昨日Claude Tag叙事发生转向：从“数字同事”深化至“工作OS”，历史记忆中simonw和dotey曾讨论其持久Goal与团队知识学习，今天Karpathy强调其与Twitter毒性的对比，真实生产力发生在Slack而非公开平台。</NARRATIVE>
+      <TWEET account="karpathy" role="前OpenAI/现Anthropic">这不是一个普通的Slack bot，也不是Claw的变体，而是组织级harness。区别会随着时间变得清晰。它在写大部分代码、深度集成、多人协作，现在工作感觉像每个人都是经理。我现在主要在Slack工作。❤️ 1069 | 💬 74</TWEET>
+      <CONSENSUS>行业已形成共识：顶级实验室的内部AI工具远超公开产品，持久、多人、异步的组织集成将成为下一代生产力平台主流。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论其是否会加剧“富者愈富”（rauchg观点），以及如何平衡企业数据隐私与模型持续学习。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="📜">
+      <TITLE>Perplexity Computer for Counsel：AI Agent进入法律专业领域</TITLE>
+      <NARRATIVE>Perplexity推出Computer for Counsel，将研究数据库、文档工具与事务管理系统深度连接，支持从midpageAI、LegalZoom、Docusign等拉取可引用来源。这一定义了法律领域专业Agent新范式，解决律师日常高频检索、合规与文档管理的痛点，是消费级Agent向垂直行业闭环的自然延伸。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="官方">推出Computer for Counsel。现在可连接律师日常使用的研究数据库、文档工具和事务管理系统，从midpageAI、LegalZoom、Docusign、netdocuments等拉取可引用来源。Pro与Max用户可用。❤️ 335 | 💬 18</TWEET>
+      <OUTLOOK>未来一年，类似垂直Agent将快速覆盖医疗、财务、合规等领域，Perplexity可能借此建立企业级订阅护城河。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于构建行业特定知识图谱、合规模型路由器及可审计Agent决策链的工具层创业公司。</OPPORTUNITY>
+      <RISK>法律领域对幻觉零容忍，当前模型在复杂案例推理上仍存硬伤，监管与责任归属问题尚未解决。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🇨🇳">
+      <TITLE>中国开源模型速度与世界模型能力持续突破</TITLE>
+      <NARRATIVE>rauchg宣布“Really fast GLM now live”，_akhaliq指出hf-claude与GLM 5.2配合良好，_akhaliq还分享Qwen-AgentWorld论文推进语言世界模型用于通用Agent。swyx强调智谱已超越DeepSeek成为世界顶级开源模型。这是对原有中国开源叙事的深度推进，重点从“成本救星”转向“速度+世界模型”在Agent中的实际落地。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">Really fast GLM now live❤️ 167 | 💬 18</TWEET>
+      <TWEET account="swyx" role="AI开发者">Zai在1月以HK$120 IPO，当初没人知道有人用GLM。现在他们已用世界最佳开源模型击败DeepSeek，并在某些方面被认为是顶级模型，正在SF回归并开放业务。❤️ 158 | 💬 19</TWEET>
+      <CONSENSUS>硅谷开发者共识转向多模型混合路由，GLM、Qwen等中国开源模型在速度与特定Agent任务上已成为不可或缺选项。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于中国模型在地缘政治壁垒下的企业合规性，以及是否会在前沿推理能力上持续追平闭源模型。</DIVERGENCE>
+    </THEME>
+
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">a16z领投Mirendil 2亿美元种子轮，估值10亿美元，专注于构建自主自我加速的AI研发系统。</ITEM>
+    <ITEM category="投融资快讯">Qualcomm以40亿美元收购AI基础设施初创公司Modular，强化其AI芯片与软件栈布局。</ITEM>
+    <ITEM category="VC views">a16z认为Mirendil团队背景与 priors 使其成为少数能真正打造端到端自我改进系统的公司，AI R&amp;D将从少数实验室走向人人可用。</ITEM>
+    <ITEM category="VC views">lightspeedvp指出物理世界训练数据的缺失是当前瓶颈，投资方向转向能从真实世界而非仅互联网语料学习的系统。</ITEM>
+    <ITEM category="投融资快讯">联想集团发行20亿美元零息可转债，主要用于AI基础设施投入与相关业务扩张。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">智谱GLM 5.2以极致推理速度获得rauchg、vista8等硅谷开发者认可，Qwen-AgentWorld论文推进语言世界模型在通用Agent上的应用，已在编码与Agent任务上实现对DeepSeek的反超，成为硅谷成本与性能双优选项。</ITEM>
+    <ITEM category="全球映射">中国开源模型的极致性价比正加速硅谷企业采用多模型混合策略，Kimi、GLM、Qwen与闭源模型协同已成为新工作流标准，迫使Anthropic、OpenAI等在定价与企业集成上做出调整。</ITEM>
+    <ITEM category="风险提示">尽管GLM与Qwen技术领先，但出口管制与数据合规风险仍存，美国企业大规模部署仍需谨慎评估地缘因素。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="runwayml" role="公司">人类思维不再是AI的中心，我们的世界才是。❤️ 147 | 💬 17</TWEET>
+    <TWEET account="nvidia" role="官方">能源将成为AI新时代的定义因素。Eco Wave Power利用NVIDIA Omniverse数字孪生和加速计算模拟波浪条件，AI帮助他们根据预测波浪强度管理数据中心计算任务分配。❤️ 207 | 💬 23</TWEET>
+    <TWEET account="pmarca" role="a16z合伙人">是时候加速科学与技术了！❤️ 462 | 💬 42</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">建立在IP盗窃上的公司正在激烈反对自己的IP被盗。❤️ 219 | 💬 11</TWEET>
+    <TWEET account="techcrunch" role="媒体">公司正争相阻止员工用琐碎任务耗尽AI预算。❤️ 29 | 💬 9</TWEET>
+    <TWEET account="karpathy" role="研究员">我在Twitter上近20年，可以肯定地说它从未像现在这样充满毒性和Reddit化。我认为算法在主动鼓励这种行为。❤️ 931 | 💬 76</TWEET>
+    <TWEET account="vista8" role="开发者">字节火山引擎大会分享显示，用AI生成可交互原型替代PRD，用Spec→实现→Browser验证→自动上线的系统化流程，可将交付质量从40-60分提升到80分。❤️ 81 | 💬 20</TWEET>
+    <TWEET account="elonmusk" role="xAI/SpaceX">Lee Kuan Yew是个天才。❤️ 27603 | 💬 1769</TWEET>
+  </TOP_PICKS>
+</REPORT>
