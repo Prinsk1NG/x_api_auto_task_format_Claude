@@ -1,0 +1,74 @@
+<REPORT>
+  <COVER title="非侵入BCI跃升句子级解码" prompt="Hyper-realistic industrial design visualization of a sleek non-invasive MEG brain scanner helmet worn by a diverse female researcher in a sterile high-tech neuroscience laboratory. The helmet features precision carbon-fiber and matte titanium sensor arrays with faint blue neural pulse lighting. Raw brain signal waveforms stream into a large floating holographic display showing real-time decoded sentences, 61% word accuracy metrics, and semantic coherence graphs. Dramatic cinematic key lighting with soft volumetric god rays, intricate mechanical details on the helmet joints and cabling, 8K resolution, photorealistic textures emphasizing engineering precision and human accessibility, shot on Arri Alexa with subtle lens flare." insight="非侵入BCI从字符级跃至句子级解码，工程问题取代原理壁垒"/>
+  <PULSE>硅谷今日叙事核心转向非侵入脑机接口的实用突破与中美前沿实验室巨额融资军备竞赛，硬件极致优化、音频生成工具和Agent基础设施同步深化。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>非侵入式脑机接口实现句子级实时解码</TITLE>
+      <NARRATIVE>Meta Brain2Qwerty v2标志着非侵入BCI从字符级向单词与语义句子级跃迁，通过端到端深度学习直接处理MEG原始脑信号并微调LLM桥接噪声与连贯语言，解决了数百万脑损伤患者无法沟通的底层范式问题。此前非侵入方法单词准确率仅约8%，v2平均达61%，顶级样本78%，且准确率随数据量呈对数线性增长。</NARRATIVE>
+      <TWEET account="@aiatmeta" role="Meta AI研究主管">我们发布了Brain2Qwerty v2，这是非侵入式脑到文本解码的最高性能端到端管道，可从原始脑信号实时解码完整句子与语义，平均单词准确率61%，顶级参与者达78%且过半句子仅错一个词。我们开源全部训练代码并释放v1数据集。❤️ 9760 | 💬 432</TWEET>
+      <OUTLOOK>未来6-12个月将加速便携式光泵MEG设备商业化，推动神经科学与Agent融合，为世界模型提供真实人类意图数据，残障沟通工具或率先落地。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注便携脑信号硬件、专用解码算法初创公司，以及面向医疗康复与辅助沟通的垂直AI Agent应用。</OPPORTUNITY>
+      <RISK>当前仍高度依赖昂贵磁屏蔽实验室环境，真实脑损伤患者数据验证不足，短期内工程 miniaturization 与监管审批仍是硬伤，非泡沫但落地速度或慢于预期。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>DeepSeek 74亿融资回应Mythos“顿悟”</TITLE>
+      <NARRATIVE>Anthropic Mythos模型“完全不同级别”的进展让DeepSeek CEO获得战略顿悟，意识到必须建立至少数百亿美元战争基金才能长期竞争。此次74亿美元融资是中美AI军备竞赛的重大转向，从早期技术追赶转向资本规模对标，与历史记忆中较小额融资形成鲜明反差。</NARRATIVE>
+      <TWEET account="@theinformation" role="The Information记者">Anthropic Mythos的突破“完全不同级别”，这给了DeepSeek CEO一次“顿悟”，他意识到若要保持长期竞争力，必须构建至少数百亿美元规模的战争基金，因此完成了74亿美元融资。❤️ 55 | 💬 6</TWEET>
+      <CONSENSUS>行业最新共识是中国顶级实验室需以巨额资本匹配闭源进展，开源与中国模型正凭借极致性价比在企业与多LLM Agent场景快速蚕食闭源份额。</CONSENSUS>
+      <DIVERGENCE>大佬激烈争论“被禁”是否已成为前沿模型的营销地位象征，以及开源模型在持久复杂Agent任务上的真实长期可靠性是否足以完全替代闭源。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Runway Seed Audio 1.0落地文本到动态音频</TITLE>
+      <NARRATIVE>Runway推出Seed Audio 1.0，付费用户可通过简单文本提示生成最长120秒动态语音、音效设计与音乐，这是多模态生成从视觉主导转向音频闭环的新范式，直接解决创意生产中长期依赖人工配音剪辑的底层瓶颈。</NARRATIVE>
+      <TWEET account="@runwayml" role="RunwayML创始人">Seed Audio 1.0现已面向所有付费计划开放。用简单文本提示即可生成最长120秒的动态语音、音效设计和音乐，立即体验。❤️ 90 | 💬 5</TWEET>
+      <OUTLOOK>未来6-12个月将极大降低短视频、广告与游戏音频生产门槛，推动Runway Agent 2.0向完整营销战役闭环演进，音频将成为世界模型的重要模态支柱。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于音频原生Agent工具、音乐版权合规基础设施，以及面向独立创作者的垂直SaaS产品。</OPPORTUNITY>
+      <RISK>生成质量在高度定制音乐风格上仍存不稳定风险，版权与声音真实性争议可能引发短期监管关注，但技术硬伤相对可控。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Tesla以15%带宽实现AI3重大优化</TITLE>
+      <NARRATIVE>Tesla AI团队在AI3计算机有效内存带宽仅为AI4约15%的严苛条件下仍取得显著进展，标志着行业从“算力崇拜”向极端硬件-软件协同优化的重大转向。此前历史记忆中普遍认为带宽是不可逾越的硬约束，如今证明工程判断力成为新杠杆。</NARRATIVE>
+      <TWEET account="@elonmusk" role="Tesla &amp; xAI CEO">Tesla AI团队干得漂亮！AI3计算机的有效内存带宽只有AI4的约15%，这是一项艰难的挑战。❤️ 11760 | 💬 1229</TWEET>
+      <CONSENSUS>最新共识是Agent时代下，人类工程判断力与硬件极致优化比单纯堆叠算力更具决定性，NVIDIA Vera等专为agentic负载设计的CPU正在成为新标配。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论未来是否需要全新AI原生硬件形式因子，还是通过持续软件与编译器优化即可在现有硬件上实现足够突破。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="depth" emoji="📈">
+      <TITLE>Agent基础设施进入Vercel与NVIDIA深度整合</TITLE>
+      <NARRATIVE>xAI State-of-the-art语音API已接入Vercel AI Gateway，NVIDIA GB300 NVL72平台则让Anthropic Claude模型普遍可用，二者共同推动Agent从实验走向生产级部署，这是对持久Agent叙事的深度推进，重点解决实时多模态输入输出与企业级可扩展性瓶颈。</NARRATIVE>
+      <TWEET account="@xai" role="xAI官方">xAI最先进的语音API现已接入Vercel AI Gateway。❤️ 1065 | 💬 47</TWEET>
+      <TWEET account="@nvidia" role="NVIDIA官方">Anthropic Claude模型现已在Microsoft Foundry的NVIDIA GB300 NVL72平台普遍可用，为构建下一代agentic AI提供强大自主与领域特定Agent支持。❤️ 710 | 💬 56</TWEET>
+      <OUTLOOK>未来6-12个月，Agent将深度嵌入主流开发者平台与企业云， token最小化与自愈循环将成为标配，显著降低企业部署成本。</OUTLOOK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Chamath Palihapitiya为AI编码初创公司募资1.35亿美元Series A，并亲自出任CEO以展示“走硬路”决心</ITEM>
+    <ITEM category="投融资快讯">DeepSeek完成74亿美元融资，估值进入能与全球前沿实验室长期竞争的量级</ITEM>
+    <ITEM category="投融资快讯">AI leaderboard平台Arena商业化8个月即达1亿美元年化收入</ITEM>
+    <ITEM category="VC views">Lightspeed VP指出印度政府对创业与技术的拥抱态度是比具体政策更重要的“动物精神”，将加速AI转型</ITEM>
+    <ITEM category="VC views">pmarca强调“建不了数据中心就建不了任何东西”，基础设施仍是AI增长核心约束</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek在Anthropic Mythos刺激下完成74亿融资，证明中国实验室正以不妥协速度与资本规模追赶并获得全球认可</ITEM>
+    <ITEM category="全球映射">美国禁令与闭源不稳定性正加速开发者转向DeepSeek、GLM 5.2等中国开源模型，多LLM路由成为企业标配</ITEM>
+    <ITEM category="全球映射">开源与中国AI正通过极致性价比重塑全球Agent工具链，硅谷企业开始严格审计闭源账单并拥抱混合架构</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="@aiatmeta" role="Meta AI研究主管">Brain2Qwerty v2使用约2.2万句、9名志愿者每人10小时MEG数据训练，单词准确率随数据量呈对数线性增长。我们相信这能切实帮助脑损伤患者。❤️ 741 | 💬 14</TWEET>
+    <TWEET account="@pmarca" role="a16z合伙人">如果你建不了数据中心，你就什么都建不了。❤️ 1690 | 💬 127</TWEET>
+    <TWEET account="@gdb" role="OpenAI CTO">Sol &amp; Daybreak。❤️ 2714 | 💬 217</TWEET>
+    <TWEET account="@rauchg" role="Vercel CEO">Next.js实现了大规模性能和内存优化，Turbopack的文件系统缓存策略在Agent密集构建场景中大获成功。❤️ 452 | 💬 31</TWEET>
+    <TWEET account="@techcrunch" role="TechCrunch记者">AI排行榜提供商Arena推出商业服务仅8个月，年化收入已达1亿美元。❤️ 32 | 💬 8</TWEET>
+    <TWEET account="@chamath" role="Social Capital创始人">为什么48岁还要出来当创始人CEO而不是舒服地坐在董事会？因为只有你自己走硬路，才能说服顶尖人才跟你一起走。❤️ 19 | 💬 4</TWEET>
+    <TWEET account="@vllm_project" role="vLLM项目官方">vLLM社区正全力适配DeepSeek最新DSpark推测解码算法，为所有人带来更快推理。❤️ 239 | 💬 5</TWEET>
+    <TWEET account="@dylan522p" role="AI分析师">大家都在担心中国模型被禁，但所有真正有收入的AI初创公司都在同时患上“pretrainitus”。❤️ 475 | 💬 26</TWEET>
+    <TWEET account="@bindureddy" role="AI创业者">我预测明天会有新的前沿模型发布，然后所有人又会回去吹捧闭源AI。❤️ 119 | 💬 19</TWEET>
+  </TOP_PICKS>
+</REPORT>
