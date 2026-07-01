@@ -1,22 +1,23 @@
-# T2 专家池 — 每日抓取，单页
+# T2 专家池 — 每日抓取，单页 (v17 推荐版, 07-01)
 # ═══ 研究者 / 技术大牛 ═══
 jeffdean
 simonw
 swyx
 _akhaliq
 lilianweng
-chrmanning
 hardmaru
-soumithchintala
-johnschulman2
-ethanmollick
+DrJimFan
+jasonwei
+teknium1
 # ═══ 创始人 / CEO ═══
 bindureddy
 dotey
+aravsrinivas
 lexfridman
 ID_AA_Carmack
-alexandr_wang
 rauchg
+kevinweil
+c_valenzuelab
 # ═══ VC / 投资人 ═══
 a16z
 eladgil
@@ -25,7 +26,7 @@ paulg
 natfriedman
 lightspeedvp
 sequoia
-sarah_guo
+packyM
 # ═══ 公司官号 ═══
 nvidia
 mistralai
@@ -33,20 +34,19 @@ huggingface
 perplexity_ai
 aiatmeta
 runwayml
-scale_ai
 vllm_project
 cohere
 togethercompute
-groqinc
+# ═══ HuggingFace / 部署侧 ═══
+_philschmid
 # ═══ 深度媒体 / 信息聚合 ═══
 theinformation
 techcrunch
 garymarcus
-rowancheung
 dylan522p
 # ═══ 中文圈核心节点 ═══
 mranti
-imxiaohu
 oran_ge
 vista8
 tualatrix
+op7418
