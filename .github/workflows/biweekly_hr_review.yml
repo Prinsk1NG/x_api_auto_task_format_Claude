@@ -1,10 +1,8 @@
-name: 硅谷情报局半月度名单维护 (1号/15号)
+name: 硅谷情报局半月度名单维护 v4 (1号/15号)
 
 on:
-  # 定时触发：每个月的 1号 和 15号 的北京时间上午 10:00 (避开早高峰抓取)
   schedule:
-    - cron: '0 2 1,15 * *'
-  
+    - cron: '0 2 1,15 * *'   # 每月 1、15 号北京时间 10:00
   workflow_dispatch:
     inputs:
       test_mode:
@@ -19,9 +17,8 @@ permissions:
 jobs:
   maintain-list:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: 1. 拉取最新代码 (包含 data 目录历史记录)
+      - name: 1. 拉取最新代码 (含 data 目录历史)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -30,27 +27,22 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          
+
       - name: 3. 安装依赖
         run: pip install requests
-          
-      - name: 4. 运行 HR Manager (半月度洗牌算法)
+
+      - name: 4. 运行 HR Manager v4 (拆解淘汰-晋升 + 45 天僵尸)
         env:
-          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}     
-          FEISHU_WEBHOOK_URL_1: ${{ secrets.FEISHU_WEBHOOK_URL_1 }} 
-          JIJYUN_WEBHOOK_URL: ${{ secrets.JIJYUN_WEBHOOK_URL }}     
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_URL_1: ${{ secrets.FEISHU_WEBHOOK_URL_1 }}
+          JIJYUN_WEBHOOK_URL: ${{ secrets.JIJYUN_WEBHOOK_URL }}
           TEST_MODE_ENV: ${{ github.event.inputs.test_mode == 'true' && 'true' || 'false' }}
-        run: |
-          # 🚨 这里已经为你修改为新的文件名
-          python hr_manager.py
+        run: python hr_manager.py
 
       - name: 5. 自动提交新名单
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
-          # 🚨 仅提交可能被 HR 修改的 experts.txt
           git add experts.txt || true
-          
-          git commit -m "🤖 [HR Manager] Portfolio Rebalancing: Automatically update experts list" || echo "No changes to commit"
+          git commit -m "🤖 [HR v4] Portfolio Rebalancing" || echo "No changes to commit"
           git push
