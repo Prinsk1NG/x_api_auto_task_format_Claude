@@ -1,4 +1,4 @@
-name: 硅谷情报局自动任务 (V16.0 反重复 + 新鲜度衰减)
+name: 硅谷情报局自动任务 (V17.0 语义反重复+type枚举)
 
 on:
   schedule:
@@ -54,8 +54,8 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # 🚨 确保提交文本名单以及 data/ 目录下的记忆库和每日报告
+          # 提交文本名单以及 data/ 目录下的记忆库和每日报告
           git add whales.txt experts.txt data/ || true
 
-          git commit -m "🤖 [Daily Intelligence] Archive reports & Memory Bank" || echo "No changes to commit"
+          git commit -m "🤖 [Daily Intelligence v17] Archive reports & Memory Bank" || echo "No changes to commit"
           git push
