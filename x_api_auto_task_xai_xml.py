@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 """
-x_api_auto_task_xai_xml.py  v16.0 (反重复护栏 + 新鲜度衰减 + 硬数据兜底)
+x_api_auto_task_xai_xml.py  v17.0 (语义反重复 + type 枚举 + 硬数据校验)
 Architecture: TwitterAPI.io -> PPLX/Tavily -> xAI SDK (Reasoning) + Memory Bank
 
-v16.0 变更（基于 v15.0 两周回测的 7 项改进）:
-1. ✨ Prompt 注入"近 7 日已用主题"，禁止叙事路径依赖（Codex 主题霸榜问题）
-2. ✨ 打分公式增加新鲜度衰减：近 2 日已被引用的 WHALE 加权减半
-3. ✨ 冷门高产账号兜底：长期 0 引用 + 当日有推文 → 额外加分
-4. ✨ Perplexity 命中空时降级到 72 小时硬数据兜底
-5. ✨ 新增中国 AI 专项查询（DeepSeek/Kimi/Qwen/智谱…）
-6. ✨ TOP_PICKS 去重铁律：至少 50% 与 THEME 不重叠
-7. ✨ 记忆库 5 条 → 12 条扩容 + 显式使用规则
-8. ✨ main 末尾输出今日 vs 昨日报告 diff（新增 / 消失 / 延续）
+v17.0 变更（基于 v16 两个月 60 天回测的 7 项新改进）:
+[继承] v16 反重复护栏 / 新鲜度衰减 / 冷门兜底 / 硬数据兜底 / 中国专项 / TOP_PICKS 去重 / 记忆库扩容 / 日 diff
+[新增 v17]
+1. 🆕 语义级反重复护栏：注入 "TITLE + NARRATIVE 前 40 字" 指纹（解决 Agent 通用词护栏失效）
+2. 🆕 THEME type 强制枚举 {new, shift, advance, milestone}，parser 白名单校验，非法值降级 shift
+3. 🆕 硬数据"含具体金额"二次校验：正则抓 $X.YB / XX 亿元，_is_data_thin 阈值 200→400
+4. 🆕 Musk 类账号"按推文内容"衰减：只有 AI 无关的推文才对 WHALE 权重打折
+5. 🆕 记忆库 60 天轮转清理：整个账号最后一条 <60 天前就整体移除
+6. 🆕 视觉升级：叙事转向/新叙事观察 标红加粗；推文正文加粗+默认色
+7. 🆕 hr_manager v4 独立部署：淘汰-晋升解耦 + 45 天僵尸自动淡出
 """
 
 import os
@@ -78,9 +79,10 @@ if TEST_MODE:
 
 TARGET_SET = set(WHALE_ACCOUNTS + EXPERT_ACCOUNTS)
 
-# ── v16 新增：近期上下文加载（供反重复护栏 + 新鲜度衰减使用）───────────
+# ── v16/v17 近期上下文加载（供反重复护栏 + 新鲜度衰减使用）───────────
 def load_recent_themes(days: int = 7) -> list:
-    """读过去 N 天 daily_report.txt 的 <TITLE>，用于 Prompt 反重复护栏"""
+    """v17 升级：读过去 N 天 <THEME> 完整结构，返回语义指纹（TITLE + NARRATIVE 前 40 字）。
+    用于 Prompt 语义级反重复护栏——单靠关键词已无法拦截 Agent 这种通用词。"""
     out = []
     tz = timezone(timedelta(hours=8))
     base = datetime.now(tz).date()
@@ -90,8 +92,15 @@ def load_recent_themes(days: int = 7) -> list:
         if not fp.exists(): continue
         try:
             txt = fp.read_text(encoding="utf-8")
-            for m in re.finditer(r'<TITLE>(.*?)</TITLE>', txt):
-                out.append(f"[{d}] {m.group(1).strip()}")
+            # 抓每个 <THEME> 块内的 TITLE 与 NARRATIVE
+            for tm in re.finditer(r'<THEME[^>]*>(.*?)</THEME>', txt, re.DOTALL):
+                body = tm.group(1)
+                t_m = re.search(r'<TITLE>(.*?)</TITLE>', body, re.DOTALL)
+                n_m = re.search(r'<NARRATIVE>(.*?)</NARRATIVE>', body, re.DOTALL)
+                if not t_m: continue
+                title = t_m.group(1).strip()
+                narr = (n_m.group(1).strip()[:40] + "...") if n_m else ""
+                out.append(f"[{d}] {title} — {narr}" if narr else f"[{d}] {title}")
         except Exception as e:
             print(f"⚠️ [load_recent_themes] {d} 读取失败: {e}", flush=True)
     return out
@@ -220,16 +229,20 @@ def score_and_filter(tweets):
         text_lower = t["text"].lower()
         author = t["author"]
 
-        # v16 ① 身份加权 + 新鲜度衰减
+        # v17 ① 身份加权 + 按推文 AI 相关性的智能衰减
+        # 回测发现：v16 的一刀切衰减把 Musk 6 月直接压到 0% —— 他仍在活跃发推，
+        # 只是主题偏 SpaceX/政治。改为：只有该推文本身"不含 AI 关键词"时才对已高频账号衰减
+        text_ai_relevant = any(kw in text_lower for kw in AI_KEYWORDS)
+
         if author in WHALE_ACCOUNTS:
             base_w = 200
-            if recent_used.get(author, 0) >= 2:
-                base_w = 100   # 近 7 日已被引用 ≥2 次 → 减半，强制轮换
-                print(f"  ⚖️ [新鲜度衰减] @{author} 近 7 日已被引用 {recent_used[author]} 次，WHALE 权重 200→100", flush=True)
+            if recent_used.get(author, 0) >= 2 and not text_ai_relevant:
+                base_w = 100   # 只有 AI 无关的推文才衰减，保留高价值 AI 推文
+                print(f"  ⚖️ [新鲜度衰减] @{author} 近 7 日引用 {recent_used[author]} 次+推文非 AI 主题，WHALE 权重 200→100", flush=True)
             score += base_w
         elif author in EXPERT_ACCOUNTS:
             base_w = 50
-            if recent_used.get(author, 0) >= 2:
+            if recent_used.get(author, 0) >= 2 and not text_ai_relevant:
                 base_w = 25
             score += base_w
 
@@ -283,11 +296,32 @@ def _pplx_query(prompt_text: str) -> str:
         print(f"  ⚠️ [Perplexity 异常]: {e}", flush=True)
     return ""
 
+# v17 新增：正则抓"具体金额"，识别 $X.YB / XX 亿(美)元 等
+_MONEY_RE = re.compile(
+    r'\$\s?\d+(?:\.\d+)?\s?[BMK]?'                                        # $500M / $1.2B
+    r'|\d+(?:\.\d+)?\s*(?:亿|万亿|千万|百万)\s*(?:美)?元'                 # 12 亿元 / 3.5 亿美元
+    r'|(?:USD|EUR|CNY|RMB)\s?\d+(?:\.\d+)?\s?[BMK]',                     # USD500M
+    re.IGNORECASE
+)
+
+def has_specific_money(text: str) -> bool:
+    """v17: 判定文本里是否含≥1 个可识别的具体货币金额（融资/估值/并购必备）"""
+    return bool(_MONEY_RE.search(text or ""))
+
 def _is_data_thin(text: str) -> bool:
-    """判断 PPLX 返回是否"硬数据空窗"：长度太短、或显式包含"无具体"/"未披露"等措辞"""
-    if not text or len(text) < 200: return True
+    """v17 升级：三重判定
+    1) 文本 < 400 字（原 200 太宽松易被"看似有内容但没金额"的返回蒙混过关）
+    2) 显式空窗措辞（无具体披露 / no major 等）
+    3) 全文找不到任何具体金额（融资/并购题材必须要有金额，否则视为空窗）
+    """
+    if not text or len(text) < 400: return True
     fingerprints = ["无具体", "无具体披露", "未披露", "无权威", "暂无", "no specific", "no major", "not disclosed"]
-    return any(fp in text.lower() if fp.startswith("no") else fp in text for fp in fingerprints)
+    if any(fp in text.lower() if fp.startswith("no") else fp in text for fp in fingerprints):
+        return True
+    if not has_specific_money(text):
+        print("  🔎 [_is_data_thin] 文本无具体金额，判定为空窗", flush=True)
+        return True
+    return False
 
 def fetch_macro_with_perplexity() -> str:
     """v16: 24h 命中空 → 自动降级到 72h 硬数据兜底"""
@@ -377,6 +411,29 @@ def update_character_memory(parsed_data, today_str):
                 # v16: 5 → 12 条，覆盖约 1 个月窗口，支持更深度的"叙事演变"判断
                 memory[acc] = memory[acc][-12:]
                 count += 1
+    # v17 新增：60 天轮转清理——某个账号最新一条记忆距今 > 60 天 → 整个条目移除
+    # 回测发现 5 月 v16 部署 34 天后仍有 21% 账号是"死记忆"，文件在膨胀
+    try:
+        tz = timezone(timedelta(hours=8))
+        cutoff = (datetime.now(tz) - timedelta(days=60)).strftime("%Y-%m-%d")
+        purged = []
+        for acc in list(memory.keys()):
+            dates = []
+            for e in memory[acc]:
+                if isinstance(e, str):
+                    m = re.match(r'\[(\d{4}-\d{2}-\d{2})\]', e)
+                    if m: dates.append(m.group(1))
+                elif isinstance(e, dict) and e.get("date"):
+                    dates.append(e["date"])
+            if dates and max(dates) < cutoff:
+                purged.append(acc)
+                del memory[acc]
+        if purged:
+            print(f"[Memory 清理] 🗑️  已移除 {len(purged)} 个 60 天沉默账号: {', '.join('@'+p for p in purged[:5])}{'...' if len(purged)>5 else ''}", flush=True)
+            count += 1  # 触发保存
+    except Exception as e:
+        print(f"⚠️ [Memory 清理异常] {e}", flush=True)
+
     if count > 0:
         save_memory(memory)
         print(f"\n[Memory] 🧠 已更新 {count} 条历史记忆存入账本。", flush=True)
@@ -411,12 +468,16 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str,
 - 历史记忆的唯一用途是帮你判断叙事是"新的"还是"转向"或"推进"，以及提供态度对比的背景，绝不能作为引用素材。
 - 如果今天的推文数据中没有某个话题的新内容，就不要写这个话题。宁可少写一个THEME，也不要用旧推文充数。
 
-🚨【防重复铁律 B：7 日叙事去重】(v16 新增，违反等于任务失败)
-下面是过去 7 天已经做过的主题（TITLE）。今天的 6 个 THEME 中：
-- 与下表语义重叠的主题最多允许 2 个，且必须找到全新角度（如：从"Codex 持久 Agent"→ 转向"持久 Agent 的成本治理 / 失败模式 / 跨模型协同"）；
-- 第 1 主题（最先出现的 THEME）严禁与过去 3 天的第 1 主题语义重复；
-- 如果今天信号确实不足以产生 4 个新颖主题，宁可只写 3 个 THEME，也不要为了凑数而重复昨天讲过的角度。
-# 近 7 日已用主题（按日期倒序）:
+🚨【防重复铁律 B：7 日语义去重】(v17 升级，违反等于任务失败)
+下面是过去 7 天已用主题的【语义指纹】（TITLE — NARRATIVE 前 40 字）。今天写主题时：
+- 🎯 逐一比对：如果你想写的 THEME 与下面某个指纹在【核心论点 + 结论方向】两个维度都高度相似，判定为重复，必须换角度或直接删掉。
+- ✅ 关键词碰巧一致（比如都含 "Agent" / "Codex" / "OpenAI"）不算重复——只要核心论点或立论方向不同即可。
+- ✅ 相反：即使一个关键词都不共享，如果结论方向雷同（如都在讲"AI 让企业裁员"），也算重复。
+- 🔍 输出前请在心里做一次自检："如果读者昨天刚看过报告，今天读这条 THEME 还有新收获吗？" 没有 → 删掉。
+- 📉 第 1 主题严禁与过去 3 天的第 1 主题语义重复。
+- 📊 如果今天信号确实不足以产生 4 个新颖主题，宁可只写 3 个 THEME，也不要凑数。
+
+# 近 7 日主题指纹（按日期倒序）:
 {recent_themes_str if recent_themes_str else "（无历史数据，首次运行）"}
 
 🚨【历史记忆使用规则】(v16 新增)
@@ -430,6 +491,16 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str,
 - 每个 THEME 必须引用至少 1-2 条相关推文。
 - <INVESTMENT_RADAR> 必须包含 3-5 个 <ITEM>（不再是 2 个），尽可能带具体金额 / 数字。
 - <RISK_CHINA_VIEW> 必须包含 2-3 个 <ITEM>，且 "中国 AI 评价" 类目下必须出现具体中国公司名（DeepSeek/Kimi/Qwen/智谱/字节/腾讯/百度…任意）。
+
+🚨【THEME type 枚举约束】(v17 新增，违反等于任务失败)
+每个 <THEME> 的 type 属性只能取以下 4 个值之一（严格小写，不允许任何变体）：
+  - "new"       ：全新叙事（今日首次出现的观点/项目/范式）
+  - "shift"     ：叙事转向（大佬打脸/共识瓦解/风向掉头）
+  - "advance"   ：深度推进（既有叙事的核心突破/关键里程碑）
+  - "milestone" ：重大里程碑（改变行业分水岭的事件、如 GPT-5.5 发布、Anthropic IPO）
+
+⛔ 严禁使用 "deepening" / "advancement" / "depth" / "deep" / "deepen" 等任何变体——parser 会静默降级为 shift 导致读者看到错误标签。
+📊 平衡性要求：单期 5-6 个 THEME 中，至少要有 1 个是 advance 或 milestone 类型（不能全是 new+shift，回测显示 advance/milestone 长期只占 6%，"深度推进"叙事被系统性忽略）。
 
 🚨【TOP_PICKS 去重铁律】(v16 新增)
 本节 6-10 条精选推文必须满足：
@@ -458,6 +529,22 @@ def _build_xml_prompt(combined_jsonl: str, today_str: str, macro_info: str,
       <OUTLOOK>该叙事对未来 6-12 个月行业格局的影响</OUTLOOK>
       <OPPORTUNITY>一级市场可能的投资机会或应用切入点</OPPORTUNITY>
       <RISK>该新概念是否为短期泡沫或存在技术硬伤</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>主题标题（如：多模态模型突破 1M token 上下文）</TITLE>
+      <NARRATIVE>说明既有叙事的关键突破点：技术瓶颈如何被打破、里程碑数据</NARRATIVE>
+      <TWEET account="..." role="...">...</TWEET>
+      <CONSENSUS>此次推进已形成的行业新共识</CONSENSUS>
+      <DIVERGENCE>推进后还未解决的技术/商业争议</DIVERGENCE>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>主题标题（如：Anthropic 首次盈利：AI 商业化拐点）</TITLE>
+      <NARRATIVE>说明为什么这是行业分水岭事件（改变什么、影响谁）</NARRATIVE>
+      <TWEET account="..." role="...">...</TWEET>
+      <CONSENSUS>市场对该里程碑的一致解读</CONSENSUS>
+      <DIVERGENCE>是否有质疑声音或后续风险争论</DIVERGENCE>
     </THEME>
 
     </THEMES>
@@ -527,6 +614,17 @@ def llm_call_xai(combined_jsonl: str, today_str: str, macro_info: str, tavily_in
     print("❌ [xAI 彻底失败] 所有重试均告失败。", flush=True)
     return ""
 
+# v17 新增：THEME type 白名单
+ALLOWED_THEME_TYPES = {"new", "shift", "advance", "milestone"}
+# 常见 LLM 自创变体的兼容映射（尽量还原语义，而不是一律 shift）
+THEME_TYPE_ALIAS = {
+    "deepening": "advance", "advancement": "advance", "depth": "advance",
+    "deep": "advance", "deepen": "advance", "progress": "advance",
+    "landmark": "milestone", "breakthrough": "milestone",
+    "novel": "new", "emerging": "new",
+    "pivot": "shift", "turn": "shift", "reversal": "shift",
+}
+
 def parse_llm_xml(xml_text: str) -> dict:
     data = {"cover": {"title": "", "prompt": "", "insight": ""}, "pulse": "", "themes": [], "investment_radar": [], "risk_china_view": [], "top_picks": []}
     if not xml_text: return data
@@ -540,13 +638,24 @@ def parse_llm_xml(xml_text: str) -> dict:
     pulse_match = re.search(r'<PULSE>(.*?)</PULSE>', xml_text, re.IGNORECASE | re.DOTALL)
     if pulse_match: data["pulse"] = pulse_match.group(1).strip()
 
-    for theme_match in re.finditer(r'<THEME([^>]*)>(.*?)</THEME>', xml_text, re.IGNORECASE | re.DOTALL):
-        attrs = theme_match.group(1)
+    # v17 修复隐藏 bug：原 regex '<THEME([^>]*)>' 会误匹配 '<THEMES>'（多吞一个 S），
+    # 导致 60 天回测里第 1 个 THEME 的 type 全部丢失、默认降级 shift。加空格边界。
+    for theme_match in re.finditer(r'<THEME(\s[^>]*)?>(.*?)</THEME>', xml_text, re.IGNORECASE | re.DOTALL):
+        attrs = theme_match.group(1) or ""
         theme_body = theme_match.group(2)
 
         type_m = re.search(r'type\s*=\s*[\'"""](.*?)[\'"""]', attrs, re.IGNORECASE)
         emoji_m = re.search(r'emoji\s*=\s*[\'"""](.*?)[\'"""]', attrs, re.IGNORECASE)
-        theme_type = type_m.group(1).strip().lower() if type_m else "shift"
+        raw_type = type_m.group(1).strip().lower() if type_m else "shift"
+        # v17 白名单校验：非法 type 优先按语义别名回落，其次归 shift
+        if raw_type in ALLOWED_THEME_TYPES:
+            theme_type = raw_type
+        elif raw_type in THEME_TYPE_ALIAS:
+            theme_type = THEME_TYPE_ALIAS[raw_type]
+            print(f"  ⚠️ [parser] THEME type '{raw_type}' 通过别名映射到 '{theme_type}'", flush=True)
+        else:
+            theme_type = "shift"
+            if raw_type: print(f"  ⚠️ [parser] THEME type '{raw_type}' 未知，降级为 shift", flush=True)
         emoji = emoji_m.group(1).strip() if emoji_m else "🔥"
 
         t_tag = re.search(r'<TITLE>(.*?)</TITLE>', theme_body, re.IGNORECASE | re.DOTALL)
@@ -606,10 +715,19 @@ def render_feishu_card(parsed_data: dict, today_str: str):
         elements.append({"tag": "markdown", "content": "**▌ 🧠 深度叙事追踪**"})
         for idx, theme in enumerate(parsed_data["themes"]):
             theme_md = f"**{theme['emoji']} {theme['title']}**\n"
-            prefix = "🔭 新叙事观察" if theme.get("type") == "new" else "💡 叙事转向"
-            theme_md += f"<font color='grey'>{prefix}：{theme['narrative']}</font>\n"
+            # v17：4 种 type 各自的中文标签
+            _TYPE_LABEL = {
+                "new": "🔭 新叙事观察",
+                "shift": "💡 叙事转向",
+                "advance": "🚀 深度推进",
+                "milestone": "🏆 重大里程碑",
+            }
+            prefix = _TYPE_LABEL.get(theme.get("type", "shift"), "💡 叙事转向")
+            # v16.1 视觉升级 ①：标签标红加粗，narrative 内容斜体
+            theme_md += f"<font color='red'>**{prefix}：**</font><font color='grey'>*{theme['narrative']}*</font>\n"
             for t in theme["tweets"]:
-                theme_md += f"🗣️ **@{t['account']} | {t['role']}**\n<font color='grey'>\u201c{t['content']}\u201d</font>\n"
+                # v16.1 视觉升级 ②：推文正文加粗，弃用 grey 让飞书用默认色（深色更清晰）
+                theme_md += f"🗣️ **@{t['account']} | {t['role']}**\n**\u201c{t['content']}\u201d**\n"
             if theme.get("type") == "new":
                 if theme.get("outlook"): theme_md += f"<font color='blue'>**🔮 解读与展望：**</font> {theme['outlook']}\n"
                 if theme.get("opportunity"): theme_md += f"<font color='green'>**🎯 潜在机会：**</font> {theme['opportunity']}\n"
@@ -635,7 +753,8 @@ def render_feishu_card(parsed_data: dict, today_str: str):
     if parsed_data["top_picks"]:
         picks_md = "**▌ 📣 今日精选推文 (Top 5 Picks)**\n"
         for t in parsed_data["top_picks"]:
-            picks_md += f"\n🗣️ **@{t['account']} | {t['role']}**\n<font color='grey'>\u201c{t['content']}\u201d</font>\n"
+            # v16.1 视觉升级 ③：TOP_PICKS 推文与 THEME 内保持一致
+            picks_md += f"\n🗣️ **@{t['account']} | {t['role']}**\n**\u201c{t['content']}\u201d**\n"
         elements.append({"tag": "markdown", "content": picks_md.strip()})
 
     card_payload = {
