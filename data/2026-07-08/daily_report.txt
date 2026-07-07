@@ -1,0 +1,73 @@
+<REPORT>
+  <COVER title="Meta Muse Agentic：图像生成进入自我迭代时代" prompt="Create a hyper-minimalist 8K cinematic composition centered on a single glowing neural orb made of interconnected translucent data nodes and vector pathways, dynamically flowing into precise photorealistic image canvases and video frame sequences that self-refine through invisible agentic tool calls. Use cool sapphire and warm platinum color palette with sharp geometric precision, dramatic side lighting casting long clean shadows across a matte black void, emphasizing mathematical elegance and iterative improvement. Dramatic depth of field, ultra-sharp focus on the central orb, subtle particle emissions representing test-time compute scaling, no humans or anthropomorphic elements, pure technological poetry in the style of high-end industrial data visualization." insight="Agentic多模态创作成为硅谷新战场，Meta直接定义生产力范式。"/>
+  <PULSE>硅谷叙事从纯语言模型转向Agentic多模态媒体生成与主权AI基础设施争夺，Meta Muse发布成为今日最强信号。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Meta发布Muse Image与Muse Video：Agentic媒体生成里程碑</TITLE>
+      <NARRATIVE>Meta Superintelligence Labs推出Muse系列，Muse Image作为首个真正Agentic图像生成模型，可调用工具、自我精炼、利用scaled test-time compute，并深度集成Instagram社会上下文与Muse Spark协作生成。这不是简单prompt-to-image，而是将生成过程重构为可观测、可干预的智能代理工作流，标志着创意生产力从被动扩散转向主动Agentic范式。</NARRATIVE>
+      <TWEET account="aiatmeta" role="Meta AI Lab">Meta超级智能实验室推出Muse Image和Muse Video。Muse Image是我们迄今最先进的图像生成模型，能忠实遵循指令、精确编辑、从多参考合成，并利用Instagram社会上下文。它还为图像生成带来agentic工具使用能力，并与Muse Spark集成。您可在Meta AI应用、网页、Instagram Stories和WhatsApp中试用。（❤️ 1176 | 💬 93）</TWEET>
+      <CONSENSUS>行业已达成共识：下一代媒体生成必须是agentic而非纯生成，Meta此举直接将创意工具提升到生产级协作系统。</CONSENSUS>
+      <DIVERGENCE>目前争论焦点在于音频-视频同步和物理准确快速运动仍存差距，以及agentic方法在极端复杂场景下是否会引入不可控迭代开销。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>中国考虑禁止模型出口：主权AI叙事彻底反转</TITLE>
+      <NARRATIVE>bindureddy指出中国正考虑禁止其模型向全球开放，此前一直是美国通过出口管制限制中国获取算力与前沿模型，如今中国认为本土AI公司已足够强大，准备用“禁止出口”作为战略杠杆。这与过去7天美国开源反超中国、监管捕获加速开源的叙事形成鲜明转向，标志着全球AI从“美国主导开放”转向“主权壁垒对峙”。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI Analyst">WTF - 中国现在正在考虑禁止他们的模型向我们其他人开放。这种flex很明显！他们认为自己的公司在未来定位更好。这在某种程度上是对的，因为他们的大型AI公司不会损失数千亿美元。（❤️ 192 | 💬 46）</TWEET>
+      <CONSENSUS>最新共识是主权AI不再是 buzzword，而是获取不可被一夜撤销的关键基础设施的真实需求，各国都在构建自己的权重和数据控制。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论这种互禁是否会加速全球开源碎片化，还是反而促使更多匿名torrent式开源模型涌现。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>GLM 5.2登顶Together AI速度与延迟榜首：开源中国模型持续突破</TITLE>
+      <NARRATIVE>继过去一周GLM 5.2在前端生成任务中大幅超越GPT后，今天Together AI宣布GLM 5.2在Artificial Analysis上同时拿下输出速度和延迟双料第一。这代表开源权重模型在推理栈优化（ATLAS、Blackwell、TensorRT-LLM、自定义内核协同）上的核心瓶颈被进一步打破，Token成本与延迟优势持续扩大。</NARRATIVE>
+      <TWEET account="togethercompute" role="Inference Platform">GLM 5.2在Together AI上现在是Artificial Analysis输出速度和延迟双料第一。（❤️ 40 | 💬 3）</TWEET>
+      <CONSENSUS>行业新共识是：在真实生产延迟和吞吐量指标上，优化后的中国开源模型已可与闭源前沿模型正面竞争甚至领先。</CONSENSUS>
+      <DIVERGENCE>争议仍在于极复杂长时程Agent任务中，GLM是否能在判断力和工具调用稳定性上完全替代Fable 5级模型。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>文件系统成为Agent工具生态最优接口</TITLE>
+      <NARRATIVE>rauchg提出文件系统是构建Agent工具链的优雅方案：通过定义tools/github.ts并导出createGitHubTools()，即可赋予Agent原生GitHub能力。相比碎片化MCP工具，文件系统利用LLM已训练的Unix约定，提供组合性、自我审计和上下文外记忆，解决了当前Agent基础设施过于零散的核心痛点。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">文件系统很美。想让你的Agent拥有GitHub能力？定义tools/github.ts并导出createGitHubTools()。Eve的存在就是为了塑造一个开放的、可插拔的模型、技能、渠道和工具生态。（❤️ 68 | 💬 6）</TWEET>
+      <OUTLOOK>未来6-12个月，Agent开发将从自定义API拼接转向以文件系统和开放SDK为核心的生态，大幅降低集成成本并提升可观测性。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于构建“AI-native filesystem layer”初创公司，或为现有开发平台提供pluggable open tools标准。</OPPORTUNITY>
+      <RISK>二进制文件支持、大规模搜索和安全边界仍是硬伤，若无法解决可能限制其在企业生产环境的应用。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Claude Fable 5免费试用延期至7月12日：使用策略走向成熟</TITLE>
+      <NARRATIVE>Anthropic将Fable 5免费体验延长至7月12日，同时明确每周订阅额度最多只能使用50%，推动开发者发展“判断型用强模型、执行型路由到低功耗子Agent”的成熟工作流。这是对Fable 5高需求下的关键里程碑推进，也验证了simonw等此前提出的token最小化与判断力使用技巧在生产中的实际价值。</NARRATIVE>
+      <TWEET account="dotey" role="AI Observer">Claude Fable 5免费试用延期，7月12日截止。Anthropic宣布将免费体验期延长至7月12日太平洋时间23:59:59。Pro/Max/Team及企业付费用户可在额度内免费使用，但最多消耗每周订阅额度的50%。（❤️ 26 | 💬 9）</TWEET>
+      <CONSENSUS>行业已形成共识：前沿模型必须配合智能路由和自我判断机制才能实现可持续高性价比使用。</CONSENSUS>
+      <DIVERGENCE>主要争议在于50%额度限制对重度生产用户的长期影响，以及7月12日后转为纯Usage Credits是否会显著提升企业成本。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">OpenAI最大金主转向AI采用而非模型，新投数十亿美元于Thrive Holdings，用于收购会计/IT公司并以AI重塑其业务。</ITEM>
+    <ITEM category="VC views">Lightspeed强调Orca Bio获FDA批准TREGZI免疫疗法，AI在细胞制造与精准医疗中的基础设施价值正被验证。</ITEM>
+    <ITEM category="投融资快讯">Vercel通过收购Better Auth加强开放SDK愿景，持续投资于服务人类与Agent的双重认证基础设施。</ITEM>
+    <ITEM category="VC views">NVIDIA Vera CPU专为agentic runtime打造，已被Perplexity用于sandbox基础设施，显示专用AI硬件需求从训练转向实时Agent执行。</ITEM>
+    <ITEM category="投融资快讯">Cohere强调主权AI需真正的数据、权重和运营控制，否则仅为营销概念，吸引寻求不可撤销基础设施的政府与企业资金。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">GLM 5.2在Together AI登顶速度与延迟榜单，结合DeepSeek以仅600万美元训练成本接近o1性能，中国模型正以极致性价比持续冲击西方闭源叙事；bindureddy警告中国考虑禁止模型出口，显示其对本土AI公司（GLM、DeepSeek、Kimi）未来定位的极强信心。</ITEM>
+    <ITEM category="全球映射">美国出口管制迫使中国转向国产芯片与自研模型，同时中国潜在出口禁令将加速全球主权AI浪潮，各国不再愿意将核心基础设施交给单一国家控制。</ITEM>
+    <ITEM category="中国 AI 评价">Qwen与Kimi等字节、智谱系模型在开源社区引用率与生产部署中加速扩张，已成为企业多模型路由中不可或缺的低成本高性能选项。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">AI+Optimus将实现比今天任何人所获都更好的全民优质医疗。（❤️ 16727 | 💬 2234）</TWEET>
+    <TWEET account="aiatmeta" role="Meta AI Lab">Muse Image以Agent而非直接prompt-to-image方式工作：它调用工具、自我精炼、通过scaled test-time compute改进，并与Muse Spark配对进行协作媒体生成。（❤️ 263 | 💬 11）</TWEET>
+    <TWEET account="simonw" role="AI Engineer">我刚刚从Claude网页UI的小弹窗得知Fable 5延期到7月12日，现在后悔把本周额度全部用完了！（❤️ 175 | 💬 22）</TWEET>
+    <TWEET account="ylecun" role="Meta Chief AI Scientist">与@steeve的深度讨论：世界模型、JEPA vs 生成架构、JEPA SSL的反坍缩方法，以及SIGReg/LeJEPA/LeWM。（❤️ 163 | 💬 5）</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">欢迎@bekacru加入Vercel。与Bereket和Better Auth合作推进我们的Open SDK愿景。开发者 deserve 更好、更开放、更有品味的auth。（❤️ 767 | 💬 53）</TWEET>
+    <TWEET account="pmarca" role="a16z">The garden’s either dying or about to come alive.（❤️ 1393 | 💬 91）</TWEET>
+    <TWEET account="aravsrinivas" role="Perplexity CEO">Vera CPUs是为agentic runtime定制的。我们与NVIDIA合作在其上运行Perplexity Computer sandbox基础设施，获得显著改进。（❤️ 102 | 💬 12）</TWEET>
+    <TWEET account="c_valenzuelab" role="AI Researcher">J-space像是模型内部的工作空间，用于组合概念进行推理。或许可以在问题解决过程中注入意外但结构相关的概念，观察模型是否能产生更具创造性的想法。（❤️ 89 | 💬 7）</TWEET>
+    <TWEET account="techcrunch" role="Media">为什么开源AI的崛起目前还没有伤害到Anthropic。（❤️ 25 | 💬 5）</TWEET>
+  </TOP_PICKS>
+</REPORT>
