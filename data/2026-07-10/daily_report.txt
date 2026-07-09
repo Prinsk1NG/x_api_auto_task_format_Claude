@@ -1,0 +1,77 @@
+<REPORT>
+  <COVER title="GPT-5.6 Work：Agent自主生产力纪元" prompt="Minimalist data visualization scene showing a central neural node constellation transforming into clean, organized workflow streams. Glowing blue neural connections branch into actionable icons representing autonomous agents handling documents, code diffs, calendars and cross-app tasks. Crisp white geometric lines on deep navy background, subtle particle data flows indicating long-running processes, premium cinematic lighting with soft volumetric glows and sharp 8K focus. Emphasize efficiency, autonomy and breakthrough productivity without any cyberpunk or neon elements." insight="OpenAI Work Agent落地，多模型路由成标配"/>
+  <PULSE>OpenAI GPT-5.6系列全面落地与ChatGPT Work Agent发布，标志AI从对话工具转向可长时间自主跨应用完成工作的生产力平台，多模型混合路由与边缘计算叙事同步加速。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>GPT-5.6 Work Agent开启自主工作时代</TITLE>
+      <NARRATIVE>今日OpenAI将ChatGPT与Codex深度融合推出ChatGPT Work，这不再是简单升级，而是行业分水岭：AI Agent从实验性工具变为能跨应用、长时间自主拆解并完成复杂项目（如客户调研转营销方案）的生产力平台。结合Sol/Terra/Luna三款模型分层定价，此举直接把Agentic workflow推向主流企业用户，与过去7天仅讨论模型发布的叙事形成里程碑式推进。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI官方">OpenAI推出ChatGPT Work，由Codex和GPT-5.6驱动，可跨应用和文件执行动作、长时间跟随项目，把目标转化为成品工作，彻底改变工作方式。（❤️ 13281 | 💬 531）</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">ChatGPT与Codex合体为ChatGPT Work，用户可在移动、网页、桌面使用，无需一直开着电脑即可完成雄心勃勃的工作。（❤️ 1507 | 💬 109）</TWEET>
+      <CONSENSUS>行业已形成共识：AI生产力工具正式从“辅助”进入“自主执行”阶段，企业将大规模采用统一Agent平台替代分散工具。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论长时间自主运行是否会出现漂移、超支token，以及企业数据隐私在跨应用执行时的风险控制。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从单一模型崇拜转向智能多模型路由</TITLE>
+      <NARRATIVE>过去大佬们激烈争夺“哪家模型最强”，今日推文清晰显示风向掉头：社区已转向根据任务复杂度智能混合模型。GPT-5.6 Sol用于复杂后端，Grok 4.5处理简单编码，Fable仍主攻多轮Agent循环。这种“顾问+工人”分工范式与历史中“单一最优模型”叙事形成鲜明转向。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI独立分析师">Fable 5作为顾问，其他LLM作为工人：GPT-5.6 Sol写后端、Opus 4.8做前端、Grok 4.5处理简单编码，混合使用并免费获得数据库基础设施。（❤️ 703 | 💬 49）</TWEET>
+      <CONSENSUS>最新共识是动态路由与混合使用可同时获得最高性能与最低成本，80% Opus工作负载将迁移至更优性价比组合。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于路由决策的自动化程度，以及当模型能力快速迭代时如何避免“选择焦虑”和维护复杂编排系统。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>GPT-5.6 Terra/Luna实现美元每任务大跃进</TITLE>
+      <NARRATIVE>本次GPT-5.6系列在保持甚至超越上一代旗舰能力的同时，通过Terra（性能接近5.5但价格减半）和Luna（超轻量高速）大幅降低每任务成本。这是原有“前沿模型贵到离谱”叙事的核心瓶颈突破，结合直播中强调的“dollars-per-task”进步，为企业大规模部署扫清经济障碍。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">我们听到企业对AI成本的担忧，5.6 Sol在美元每任务上迈出巨大一步，Terra和Luna同样如此。（❤️ 7643 | 💬 495）</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">GPT-5.6 Sol令人难以置信，Terra/Luna以更低价格提供出色性能，在编码、知识工作、网络安全和科学领域用更少token完成任务。（❤️ 1719 | 💬 110）</TWEET>
+      <CONSENSUS>行业新共识是高性能AI已不再是奢侈品，低价高质模型将加速Token消耗从闭源向开源与高效模型迁移。</CONSENSUS>
+      <DIVERGENCE>推进后仍存争议：超低价模型在极复杂长程任务中的稳定性，以及是否会进一步压低整个行业定价空间。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>AI计算从云端转向设备端成新路径</TITLE>
+      <NARRATIVE>本期推文首次清晰提出未来95%的AI计算将在设备端运行，仅5%前沿任务留在云端。这一新叙事试图解决云端算力、能耗和延迟瓶颈，PrismML等技术让手机无需服务器即可运行大型模型，代表硬件-软件垂直整合的第三条道路。</NARRATIVE>
+      <TWEET account="theinformation" role="The Information记者">AI计算是否会远离云端？PrismML CEO预测几年后95%的AI计算将在设备端运行，仅5%最前沿任务留在云端。（❤️ 20 | 💬 3）</TWEET>
+      <OUTLOOK>未来6-12个月，消费级设备将普遍集成高性能本地Agent，降低对云基础设施依赖，同时催生全新隐私优先应用生态。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于设备端推理芯片、混合本地-云路由框架以及针对手机/边缘的垂直Agent开发。</OPPORTUNITY>
+      <RISK>当前本地模型能力仍与云端旗舰存在差距，硬件功耗和散热仍是短期硬伤，可能导致泡沫化炒作。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Grok 4.5基准领先与真实世界闭环</TITLE>
+      <NARRATIVE>Elon今日披露Grok 4.5在多个基准测试中位居第一，且真实世界有用性已获Tesla/SpaceX硬核工程师验证，1M+上下文窗口即将上线。这是xAI在“真实工程价值而非纯基准”叙事上的关键里程碑推进，与此前单纯参数竞赛形成鲜明对比。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI创始人">看起来Grok 4.5在至少几个基准测试中排名第一，超出预期。（❤️ 8453 | 💬 951）</TWEET>
+      <TWEET account="elonmusk" role="xAI创始人">Grok与Opus的有趣对比，100万+上下文窗口即将到来。（❤️ 4046 | 💬 768）</TWEET>
+      <CONSENSUS>行业已认可真实世界闭环与速度-成本-能力三维竞争力才是下一阶段胜负手，而非单一基准。</CONSENSUS>
+      <DIVERGENCE>仍未解决的问题是Grok在超长多轮Agent循环中的稳定性，以及与Anthropic最强模型在创造性任务上的直接对比。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Prime Intellect完成1.3亿美元融资，估值10亿美元，专注分布式AI训练平台；Ollama宣布新一轮融资并拥有900万+活跃构建者。</ITEM>
+    <ITEM category="VC views">Cursor正开发通用AI Agent“Sand”，超越编码工具向全能Agent延伸；一家AI Agent初创公司让其Agent自主完成1亿美元融资路演。</ITEM>
+    <ITEM category="投融资快讯">PrismML获Apple关注，其设备端运行大模型技术或推动95%计算从云端转向本地，潜在估值快速上升。</ITEM>
+    <ITEM category="VC views">rauchg预测本周Meta Spark 1.1、Grok 4.5、GLM 5.2将显著抢占Token市场份额，AI Gateway等路由工具成基础设施赢家。</ITEM>
+    <ITEM category="投融资快讯">vLLM项目举办首届Conference，聚焦开放高性能推理，吸引NVIDIA、AMD、Google TPU等参与，显示开源推理栈获资本持续关注。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">GLM-5.2驱动的Zcode已进入可用工具序列；在物理引擎测试中，Grok 4.5和GLM系模型以远低于Sol Ultra的成本（0.08美元 vs 0.33美元）完成复杂模拟，展现极高性价比，智谱GLM持续在前端与特定工程任务中挤压闭源定价空间。</ITEM>
+    <ITEM category="全球映射">中国开源模型在成本与特定领域表现上的快速迭代，正加速全球从闭源垄断向多模型混合与开放权重迁移，美国监管捕获反而可能进一步刺激中国技术输出。</ITEM>
+    <ITEM category="中国 AI 评价">DeepSeek与GLM系列在开发者真实Token消耗中的份额持续扩大，企业正从昂贵Opus/GPT转向这些高性价比选项，形成全球定价压力。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="sama" role="OpenAI CEO">5.6直播进行中，除了模型还有三大产品更新：ChatGPT Work（超级重要！）、全新ChatGPT桌面应用、托管Sites。（❤️ 8811 | 💬 584）</TWEET>
+    <TWEET account="openai" role="OpenAI官方">Sol、Terra和Luna组成的GPT-5.6模型家族即将在ChatGPT、Codex和API中逐步上线。（❤️ 9029 | 💬 449）</TWEET>
+    <TWEET account="elonmusk" role="xAI创始人">我显然之前对Anthropic的判断有误，他们目前显然是AI领导者，没有公司发布过像Mythos/Fable这么好的模型。（❤️ 60740 | 💬 2198）</TWEET>
+    <TWEET account="ylecun" role="Meta首席AI科学家">AI最大的风险是权力集中在少数专有AI助手提供商手中，AI主权的唯一解决方案是开源基础模型。（❤️ 1396 | 💬 69）</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">本周是模型发布周，我猜测Meta Spark 1.1、Grok 4.5和GLM 5.2将显著抢占Token市场份额。大多数Agent任务需要 reasonably high intelligence 且速度快。（❤️ 308 | 💬 37）</TWEET>
+    <TWEET account="simonw" role="AI开发者">我现在对ChatGPT vs ChatGPT Codex vs ChatGPT Work vs Claude vs Claude Code vs Claude Cowork彻底困惑了！（❤️ 266 | 💬 46）</TWEET>
+    <TWEET account="dotey" role="AI观察者">OpenAI今天一口气发布GPT-5.6全家桶、ChatGPT与Codex合并成桌面应用，以及能自主干活的ChatGPT Work，这套组合拳对行业影响巨大而深远。（❤️ 296 | 💬 27）</TWEET>
+    <TWEET account="theinformation" role="The Information">Cursor正在开发名为Sand的通用AI Agent，目光已超越编码工具寻求下一波增长。（❤️ 8 | 💬 7）</TWEET>
+    <TWEET account="anthropicai" role="Anthropic官方">我们很高兴任命前美联储主席Ben Bernanke博士加入长期利益信托。（❤️ 1096 | 💬 143）</TWEET>
+    <TWEET account="id_aa_carmack" role="独立AI研究员">关于Id Software裁员我很难说出有意义的话……我对微软能否成为品牌好管家的判断似乎没那么好了。（❤️ 6313 | 💬 270）</TWEET>
+  </TOP_PICKS>
+</REPORT>
