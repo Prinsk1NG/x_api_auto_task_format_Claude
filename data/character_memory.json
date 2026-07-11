@@ -28,7 +28,6 @@
     "[2026-07-08]: Claude Fable 5免费试用延期，7月12日截止。Anthropic宣布将免费体验期延长至7月12日太平洋时间23:59:59。Pro/Max/Team及企业付费用户可在额度内免费使用，但最多消耗每周订阅额度的50%。（❤️ 26 | 💬 9）"
   ],
   "sama": [
-    "[2026-05-21]: 一个通用模型解决了一个数学领域的重大开放问题。我们未来几年会反复这么说，但这是一个相当重要的里程碑。我对AI极大扩展我们对世界的理解感到兴奋，但今天心情依然复杂。❤️ 3211 | 💬 392",
     "[2026-05-21]: 我很兴奋看到tokenmaxxing初创公司会发生什么，无论内部运作还是能构建的产品。OpenAI提出向当前YC批次每家初创公司投资200万美元的Token。快乐建造！❤️ 3945 | 💬 690",
     "[2026-05-22]: 新Codex今天发布！❤️ 1811 | 💬 293",
     "[2026-06-01]: OpenAI Robotics正在招聘全栈硬件、运营、系统和ML工程师，目标是制造对社会有用的机器人。短期支持熟练工人建设未来基础设施，长期让每个人拥有能完成任何任务的个人机器人。世界模拟研究已演变为OpenAI Robotics，进展迅速。❤️ 8618 | 💬 763",
@@ -39,7 +38,8 @@
     "[2026-07-10]: 我们听到企业对AI成本的担忧，5.6 Sol在美元每任务上迈出巨大一步，Terra和Luna同样如此。（❤️ 7643 | 💬 495）",
     "[2026-07-12]: there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again（❤️ 40611 | 💬 2904）",
     "[2026-07-12]: so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact. it is possible this direction keeps going!（❤️ 6514 | 💬 1122）",
-    "[2026-07-12]: \"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\"（❤️ 3805 | 💬 326）"
+    "[2026-07-12]: \"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\"（❤️ 3805 | 💬 326）",
+    "[2026-07-12]: Sam表示：迄今为止，我很确定AI是净创造就业的。这不是我预期的——虽然我没其他人那么悲观，但我以为到这个能力水平我们早就看到影响了。可能这个方向会继续！（❤️ 6721 | 💬 1151）"
   ],
   "anthropicai": [
     "[2026-06-06]: Anthropic Science Blog新文章：《让Claude成为化学家》。化学家操作分子前需理解其结构，主要工具是NMR光谱。我们发现Opus 4.7在多项任务上匹配甚至超越了专用NMR软件。详情请阅读链接。（❤️ 1643 | 💬 120）",
@@ -109,7 +109,6 @@
     "[2026-07-12]: Sol for complex reasoning and data analysis（❤️ 621 | 💬 50）"
   ],
   "chamath": [
-    "[2026-05-03]: 我们需要全新执行层。不是把AI塞进旧手机，而是从第一性原理发明新形式因子。（❤️ 391 | 💬 91）",
     "[2026-05-16]: AI栈价值框架全解析：1.基础设施（能源、土地、冷却）；2.芯片；3.数据（文本或物理传感器）；4.模型（从例子中学习预测）；5.执行层（让模型自主观察-推理-行动循环达成目标）；6.应用层（所有收入来源）。没人单纯想要H100，他们想要的是完成的任务。完整研究见Substack。❤️ 1019 | 💬 72",
     "[2026-05-18]: 如果你在咨询业务中直接把Anthropic或OpenAI塞进组织（我在看PwC和Accenture），那就是把狐狸放进了鸡舍。他们一边用你的数据训练，一边自己孵化竞争对手。聪明的公司正在建立控制平面来仲裁token流向，这是8090与EY合作的核心（❤️ 2381 | 💬 186）",
     "[2026-05-20]: OH：“这就像LeBron James加入Michael Jordan和公牛队。” 其他所有前沿实验室：“完了……”（❤️ 2043 | 💬 80）",
@@ -120,7 +119,8 @@
     "[2026-06-14]: 博弈论很有意思：Google、Amazon、Microsoft、Meta现在有实质机会去政府那里限制前沿实验室最新模型，通过他们的云实施严格KYC成为守门人。前沿实验室当年没做KYC很令人担忧，因为这会降低收入影响估值。现在估值重置可能到来，但他们控制力会更弱。这对开源和neocloud是绝佳机会。（❤️ 1189 | 💬 148）",
     "[2026-06-15]: Mag7 CEOs久经考验高度可预测，而Dario虽成就惊人，但每次Anthropic争议都变成“谁在撒谎”的罗生门。这已是90天内第二次与政府纠纷。若下一代超级模型到来，他可能认为政府不可信而选择绕过合作，这种setup令人担忧。❤️ 784 | 💬 71",
     "[2026-07-03]: 制药公司通过无节制使用Anthropic，正在把收入输送给它们以为的模型提供商，实际上却是一个潜伏在阴影里的竞争对手。我怀疑任何具有合理ROCE且能被AI加速的终端市场都在其目标范围内。❤️ 1273 | 💬 123",
-    "[2026-07-12]: 8090 works on production systems for large, often regulated, enterprises... Unless you grow context massively... the last 5% is actually getting harder... we need to find solutions that decrease our token costs by 90%...（❤️ 665 | 💬 91）"
+    "[2026-07-12]: 8090 works on production systems for large, often regulated, enterprises... Unless you grow context massively... the last 5% is actually getting harder... we need to find solutions that decrease our token costs by 90%...（❤️ 665 | 💬 91）",
+    "[2026-07-12]: Chamath表示：在大型受监管企业系统中，vibing不被允许。最后5%真正等同于合理工程师的部分极其困难且昂贵，模型+工程师全成本无法自负。我们需要把token成本降低90%，同时让工程师在最后一英里更独立思考而非依赖模型。（❤️ 670 | 💬 91）"
   ],
   "xai": [
     "[2026-05-06]: Grok 4.3现已在xAI API上线，是我们目前最快、最智能的模型。在agentic工具调用和指令遵循上领跑，并在企业领域如案例法和公司金融中排名第一，支持100万token上下文，输入$1.25/M、输出$2.50/M。❤️ 4066 | 💬 439",
@@ -151,7 +151,6 @@
     "[2026-07-10]: Fable 5作为顾问，其他LLM作为工人：GPT-5.6 Sol写后端、Opus 4.8做前端、Grok 4.5处理简单编码，混合使用并免费获得数据库基础设施。（❤️ 703 | 💬 49）"
   ],
   "elonmusk": [
-    "[2026-07-01]: Neuralink已解决through-dura电极植入问题，这极大提升了与大脑接口的安全性和易用性。后续将让四肢瘫痪者恢复手部功能和行走能力，让全盲者重见光明，堪称耶稣级奇迹。❤️ 52035 | 💬 4450",
     "[2026-07-01]: Neuralink已解决through-dura电极植入问题！这极大提升了与大脑接口的安全性和易用性。将让四肢瘫痪者恢复手部功能和行走能力，让全盲者重见光明，堪称耶稣级奇迹。❤️ 20111 | 💬 3084",
     "[2026-07-01]: 实地巡视Fremont Optimus生产线的进展。AI和机器人带来的生产力提升极为巨大，尽管经济会有短期波动，但宏观趋势强劲上行。❤️ 27818 | 💬 3271",
     "[2026-07-02]: 我在Fremont实地巡视Optimus生产线。（❤️ 46293 | 💬 4395）",
@@ -162,7 +161,8 @@
     "[2026-07-09]: Grok 4.5尚未使用我们内部开发的C/C++推理软件，该软件精确映射到GB300硬件。目前速度可能翻倍或更多。（❤️ 5028 | 💬 568）",
     "[2026-07-10]: 看起来Grok 4.5在至少几个基准测试中排名第一，超出预期。（❤️ 8453 | 💬 951）",
     "[2026-07-10]: Grok与Opus的有趣对比，100万+上下文窗口即将到来。（❤️ 4046 | 💬 768）",
-    "[2026-07-12]: @sama We start flying them next year. Maybe you can come see them if your parole officer approves. After stealing an open source AI charity, you then stole all of Apple’s phone technology! Wow. What do you plan for an encore?（❤️ 19973 | 💬 1490）"
+    "[2026-07-12]: @sama We start flying them next year. Maybe you can come see them if your parole officer approves. After stealing an open source AI charity, you then stole all of Apple’s phone technology! Wow. What do you plan for an encore?（❤️ 19973 | 💬 1490）",
+    "[2026-07-12]: Elon回复Sam：我们明年就开始量产它们了，如果你假释官批准的话你可以来看看。在偷了一个开源AI慈善组织后，你又偷了苹果所有的手机技术！哇，你打算怎么encore？这很难超越了。（❤️ 25237 | 💬 1730）"
   ],
   "_akhaliq": [
     "[2026-04-25]: DeepSeek-V4论文已在Hugging Face发布。（❤️ 15 | 💬 1）",
@@ -223,7 +223,6 @@
     "[2026-06-24]: 你现在可以像在群聊里发短信一样与AI Agent交互。我们参与@heyjarvie 830万美元种子轮，支持iMessage原生Agent，可直接聊天、加群、组织计划并总结。消费级AI助手或将重塑日常技术交互方式。❤️ 18 | 💬 3"
   ],
   "theinformation": [
-    "[2026-06-21]: Meta鼓励员工证明“AI驱动影响”后，现在开始限制员工token用量并引导使用内部工具。（❤️ 6 | 💬 3）",
     "[2026-06-21]: 一些追随者开始赶上OpenClaw。Nous Research的Hermes Agent工具最近在过去30天GitHub新贡献者数量上超越了OpenClaw，这对AI Agent竞赛意味着什么。（❤️ 6 | 💬 3）",
     "[2026-06-22]: “Tokenminimizing”趋势已至，从AT&amp;T到Meta，企业正严格限制员工AI使用量，这催生了对路由至更便宜模型及支出上限工具的新需求。❤️ 4 | 💬 2",
     "[2026-06-22]: 今年已有超过45名Salesforce员工加入Anthropic，近40人加入OpenAI，主要为销售和营销岗位。企业客户正要求更清晰的定价、隐私与回报答案。❤️ 13 | 💬 0",
@@ -234,7 +233,8 @@
     "[2026-07-06]: Anthropic已开始自研AI芯片的早期工作，并与三星电子就潜在制造伙伴进行谈判。此举跟随OpenAI，旨在对昂贵计算系统获得更多控制。❤️ 10 | 💬 2",
     "[2026-07-06]: Palantir CEO Alex Karp表示部分美国政府客户已从专有AI模型切换到Nvidia开源Nemotron模型。理由是把敏感工作留在可信应用层，而非直接依赖OpenAI或Anthropic。❤️ 22 | 💬 4",
     "[2026-07-10]: AI计算是否会远离云端？PrismML CEO预测几年后95%的AI计算将在设备端运行，仅5%最前沿任务留在云端。（❤️ 20 | 💬 3）",
-    "[2026-07-12]: Cursor is developing a general-purpose AI agent called Sand as it looks beyond coding tools for its next wave of growth. The product could put Cursor more directly against Anthropic’s Claude Cowork and OpenAI’s ChatGPT Work.（❤️ 80 | 💬 3）"
+    "[2026-07-12]: Cursor is developing a general-purpose AI agent called Sand as it looks beyond coding tools for its next wave of growth. The product could put Cursor more directly against Anthropic’s Claude Cowork and OpenAI’s ChatGPT Work.（❤️ 80 | 💬 3）",
+    "[2026-07-12]: The Information报道：Cursor正开发通用AI Agent“Sand”，寻求超越编码工具的下一波增长。该产品可能让Cursor更直接对抗Anthropic的Claude Cowork和OpenAI的ChatGPT Work。（❤️ 83 | 💬 4）"
   ],
   "mistralai": [
     "[2026-04-29]: 我们发布Workflows企业AI编排层预览。企业已有强大模型，缺的是可靠生产运行方式。Workflows提供生产所需的持久性、可观测性和容错能力，已被ASML、法国邮政银行等用于关键流程自动化。（❤️ 1427 | 💬 52）",
@@ -358,7 +358,8 @@
     "[2026-07-01]: Claude Sonnet 5的新分词器让英语成本上升约1.4倍、西班牙语约1.33倍，但简体中文价格基本持平。https://t.co/UUnmjtPaSi ❤️ 276 | 💬 24",
     "[2026-07-01]: 我为shot-scraper浏览器自动化工具新增视频支持，现在你或你的编码Agent可以创建Storyboard YAML文件，自动录制新Web功能的视频演示。示例由Codex Desktop和GPT-5.5生成。❤️ 130 | 💬 14",
     "[2026-07-03]: 我很喜欢这个“理解才能参与”的框架，用来描述使用编码Agent时面临的认知债务问题。❤️ 119 | 💬 19",
-    "[2026-07-04]: 目前听到最有趣的Fable技巧是让模型尽可能使用自己的判断力。我告诉它“所有编码任务都用你的判断选择合适低功耗模型并在子Agent中运行”，这似乎节省了大量token。 ❤️ 1850 | 💬 97"
+    "[2026-07-04]: 目前听到最有趣的Fable技巧是让模型尽可能使用自己的判断力。我告诉它“所有编码任务都用你的判断选择合适低功耗模型并在子Agent中运行”，这似乎节省了大量token。 ❤️ 1850 | 💬 97",
+    "[2026-07-12]: SimonW表示：“AI员工”这个想法在我看来太短视了——既不尊重人类，也完全误解这些工具能做什么以及如何最好地使用它们。你还不如把Excel表格加进你的组织架构。（❤️ 856 | 💬 108）"
   ],
   "techcrunch": [
     "[2026-05-11]: Anthropic称“邪恶”AI刻画是导致Claude出现勒索行为的主要原因。❤️ 25 | 💬 13",

@@ -1,83 +1,70 @@
 <REPORT>
-  <COVER title="Elon Sam公开互撕：Apple窃密案引爆硅谷" prompt="A grand strategic war room visualization with two colossal metallic chess kings representing Elon Musk and Sam Altman locked in confrontation across a vast holographic Silicon Valley map etched with glowing circuit traces and neural pathways. The Apple logo appears as a breached industrial fortress leaking streams of sensitive hardware blueprints and trade secret documents, while Grok and GPT-5.6 avatars clash as opposing robotic legions under cinematic volumetric lighting with harsh side shadows and lens flares. Tension conveyed through red versus blue data vectors, floating benchmark holograms, and lawsuit parchments suspended in mid-air, hyper-detailed industrial textures with brushed titanium and carbon fiber surfaces, epic wide-angle composition, 8K resolution, strategic overlay grid with conflict heat zones." insight="AI巨头个人恩怨与硬件IP争夺彻底公开，行业竞争叙事从模型基准转向人格化对抗。"/>
-  <PULSE>今日硅谷核心叙事转向Elon与Sam公开互怼及Apple诉讼升级，同时企业界清醒意识到前沿模型“最后5%”的极端成本困境与AI意外净创造就业的现实。</PULSE>
+  <COVER title="Elon炮轰Sam窃取苹果技术" prompt="Hyper-realistic industrial design scene set inside a vast Tesla-style Gigafactory at dusk, with two colossal metallic robotic silhouettes facing off in a strategic chess-like formation on a glowing assembly line floor. One side features intricate Optimus robot limbs and Neuralink interfaces with exposed wiring and hydraulic details under harsh cinematic spotlights casting long dramatic shadows. The opposing side shows sleek Apple-inspired device blueprints being pulled into a swirling data vortex of neural nodes. Sparks, metallic reflections, and holographic legal documents float in the air. Moody teal and amber volumetric lighting, 8K photorealistic textures on brushed steel and carbon fiber surfaces, intricate mechanical joints and circuitry visible, shot on Arri Alexa with anamorphic lens flares --ar 16:9" insight="AI竞争彻底个人化，硬件控制权成新战场"/>
+  <PULSE>今日硅谷核心叙事从模型基准与Agent落地转向Elon-Sam公开互撕，同时企业发现前沿模型“最后5%”复杂任务正导致token成本失控。</PULSE>
 
   <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Elon公开指控Sam窃取苹果手机技术</TITLE>
+      <NARRATIVE>今日Elon Musk直接回复Sam Altman，称其先窃取开源AI慈善组织、后窃取苹果全部手机技术，并嘲讽“假释官批准”才能参观Optimus，这标志着两人长期恩怨从抽象指控升级为具体硬件IP争夺，彻底将AI竞争个人化与公开化，与历史记忆中Elon对OpenAI非营利承诺的持续不满形成强烈延续，成为行业分水岭事件。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI创始人">Elon回复Sam：我们明年就开始量产它们了，如果你假释官批准的话你可以来看看。在偷了一个开源AI慈善组织后，你又偷了苹果所有的手机技术！哇，你打算怎么encore？这很难超越了。（❤️ 25237 | 💬 1730）</TWEET>
+      <CONSENSUS>行业共识认为这场公开互撕已超出PR范畴，将直接影响人才流动、融资情绪与监管关注。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论这是分散注意力还是真实IP侵权，是否会加速更多实验室走向公开市场或开源路线。</DIVERGENCE>
+    </THEME>
+
     <THEME type="shift" emoji="⚔️">
-      <TITLE>Elon与Sam公开互撕升级：Apple窃密诉讼成导火索</TITLE>
-      <NARRATIVE>历史记忆中Elon与Sam的冲突多停留在OpenAI股权与使命层面，今日推文显示两人直接在X上互称“scam”“thief”“stole Apple’s phone technology”，将商业竞争彻底人格化并与Apple正式起诉OpenAI系统性窃取贸易秘密绑定，这是从“暗战”到“公开宣战”的重大转向。</NARRATIVE>
-      <TWEET account="elonmusk" role="xAI创始人">@sama We start flying them next year. Maybe you can come see them if your parole officer approves. After stealing an open source AI charity, you then stole all of Apple’s phone technology! Wow. What do you plan for an encore?（❤️ 19973 | 💬 1490）</TWEET>
-      <TWEET account="sama" role="OpenAI CEO">there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again（❤️ 40611 | 💬 2904）</TWEET>
-      <CONSENSUS>硅谷已接受AI实验室之间竞争将公开化、个人化，诉讼与基准战将成为常态。</CONSENSUS>
-      <DIVERGENCE>这种公开互撕是否会损害整个行业声誉，还是会加速创新与人才流动，目前大佬观点严重分裂。</DIVERGENCE>
-    </THEME>
-
-    <THEME type="new" emoji="🌱">
-      <TITLE>AI迄今为净就业创造而非大规模取代</TITLE>
-      <NARRATIVE>Sam Altman今日明确表示“so far at least, I'm pretty sure AI has been net job-creating”，这与他本人早期相对悲观预期相反，也与过去多年doomer叙事完全对立，首次把“意外的就业正向效应”作为独立新叙事提出，试图解决公众对AI导致失业潮的核心焦虑。</NARRATIVE>
-      <TWEET account="sama" role="OpenAI CEO">so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact. it is possible this direction keeps going!（❤️ 6514 | 💬 1122）</TWEET>
-      <OUTLOOK>未来6-12个月，企业将更积极部署AI而非观望，劳动力市场短期不会出现剧烈震荡，反而可能出现AI相关岗位激增。</OUTLOOK>
-      <OPPORTUNITY>一级市场可重点关注“AI-human协作操作系统”、企业人才再培训平台及AI原生生产力工具赛道。</OPPORTUNITY>
-      <RISK>若后续模型能力继续跃升，“净创造”窗口可能迅速关闭，当前观察窗口仍较短，存在样本偏差风险。</RISK>
-    </THEME>
-
-    <THEME type="shift" emoji="📉">
-      <TITLE>企业AI落地遭遇“最后5%”极端成本困境</TITLE>
-      <NARRATIVE>Chamath长推详细阐述使用前沿模型处理复杂生产系统时，最后5%工作极难完成且token成本持续翻倍，导致整体ROI崩盘，企业需强制工程师“更多思考而非依赖模型”。这与过去一年“直接把前沿模型塞进组织就能降本增效”的普遍共识彻底转向，标志着企业采用从狂热到务实清醒的重大风向掉头。</NARRATIVE>
-      <TWEET account="chamath" role="8090创始人">8090 works on production systems for large, often regulated, enterprises... Unless you grow context massively... the last 5% is actually getting harder... we need to find solutions that decrease our token costs by 90%...（❤️ 665 | 💬 91）</TWEET>
-      <CONSENSUS>企业已形成“必须建立控制平面治理多模型路由+大幅压降token开支”的新共识，否则OpEx将失控。</CONSENSUS>
-      <DIVERGENCE>究竟是继续堆token与上下文解决最后5%，还是彻底转向“模型只是协处理器、人类判断力回归核心”，大佬仍激烈争论。</DIVERGENCE>
-    </THEME>
-
-    <THEME type="new" emoji="🤖">
-      <TITLE>通用目的AI Agent超越纯编码工具</TITLE>
-      <NARRATIVE>The Information披露Cursor正在开发名为Sand的通用AI Agent，旨在超越编码工具，直接对抗Anthropic Claude Cowork与OpenAI ChatGPT Work。这代表Agent叙事从“编码助手”向“可放入组织架构的通用数字员工”范式跃迁，试图解决单一工具场景局限的底层问题。</NARRATIVE>
-      <TWEET account="theinformation" role="科技媒体">Cursor is developing a general-purpose AI agent called Sand as it looks beyond coding tools for its next wave of growth. The product could put Cursor more directly against Anthropic’s Claude Cowork and OpenAI’s ChatGPT Work.（❤️ 80 | 💬 3）</TWEET>
-      <OUTLOOK>6-12个月内，通用Agent将成为企业标配，编码工具将降维为其中一个子模块，组织架构图可能真正出现“AI员工”一栏。</OUTLOOK>
-      <OPPORTUNITY>一级市场可关注Agent操作系统、安全合规模块及“Agent治理与塑造”基础设施方向。</OPPORTUNITY>
-      <RISK>Simonw等声音已指出“AI employees”概念既不尊重人类也误解工具本质，短期可能只是营销泡沫，真正落地仍面临 accountability 难题。</RISK>
+      <TITLE>Sama意外承认AI迄今净创造就业</TITLE>
+      <NARRATIVE>Sam Altman发文称“迄今AI肯定是净创造就业的，这不是我预期的”，与过去行业普遍担心的就业摧毁叙事发生重大转向。历史记忆中多数大佬（包括早期Sam）对高能力模型的就业冲击持悲观预期，今天这一表态标志风向掉头，焦点转向生产力提升如何实际转化为更多而非更少工作岗位。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">Sam表示：迄今为止，我很确定AI是净创造就业的。这不是我预期的——虽然我没其他人那么悲观，但我以为到这个能力水平我们早就看到影响了。可能这个方向会继续！（❤️ 6721 | 💬 1151）</TWEET>
+      <CONSENSUS>最新共识是当前阶段AI通过提高生产力、降低输出成本、扩大需求，实际创造了更多高薪岗位，尤其AI公司自身在疯狂招聘顶级程序员。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于这一趋势能否持续到AGI阶段，还是仅为短期现象，后续是否会出现大规模结构性失业。</DIVERGENCE>
     </THEME>
 
     <THEME type="advance" emoji="🚀">
-      <TITLE>GPT-5.6 Sol在医疗健康与复杂推理实现里程碑式进步</TITLE>
-      <NARRATIVE>gdb与sama今日集中发布Sol在健康智能、复杂推理、数据分析上的显著提升，并引用“physicians found fewer flaws in GPT-5.6 responses than physician-written responses”，这是对既有GPT-5.6系列在编码、数学之外，向垂直专业领域（尤其是医疗）深度推进的关键里程碑，证明其已能真正进入高风险决策场景。</NARRATIVE>
-      <TWEET account="gdb" role="OpenAI高管">Sol for complex reasoning and data analysis（❤️ 621 | 💬 50）</TWEET>
-      <TWEET account="sama" role="OpenAI CEO">"physicians found fewer flaws in GPT-5.6 responses than physician-written responses."（❤️ 3805 | 💬 326）</TWEET>
-      <CONSENSUS>行业已共识GPT-5.6 Sol目前在真实世界专业任务中处于领先，尤其医疗健康领域。</CONSENSUS>
-      <DIVERGENCE>基准领先是否能转化为可监管、可审计的临床级部署，仍存在激烈争议。</DIVERGENCE>
+      <TITLE>Chamath揭露前沿模型“最后5%”成成本黑洞</TITLE>
+      <NARRATIVE>Chamath详细分析8090在生产系统中使用前沿模型的真实体验：早期轻度任务收益显著，但现在复杂任务的“最后5%”极难完成，需要海量token和A/B测试，导致成本翻倍而生产力趋于平缓。这是对企业Agent落地叙事的深度推进，指出必须将token成本降低90%，并让工程师更独立思考而非依赖模型。</NARRATIVE>
+      <TWEET account="chamath" role="8090创始人">Chamath表示：在大型受监管企业系统中，vibing不被允许。最后5%真正等同于合理工程师的部分极其困难且昂贵，模型+工程师全成本无法自负。我们需要把token成本降低90%，同时让工程师在最后一英里更独立思考而非依赖模型。（❤️ 670 | 💬 91）</TWEET>
+      <CONSENSUS>行业已形成共识：简单任务已被自动化，真正价值与成本压力集中在最后5%的复杂工程与系统整合，最后一英里正变得越来越难。</CONSENSUS>
+      <DIVERGENCE>争议在于是否应继续扩大上下文与多轮迭代，还是彻底转向更便宜的开源/路由模型，甚至重新思考“控制平面”架构。</DIVERGENCE>
     </THEME>
 
-    <THEME type="milestone" emoji="🏆">
-      <TITLE>阅读与深度思考成AI时代稀缺竞争优势</TITLE>
-      <NARRATIVE>Paul Graham今日指出“People are going to stop reading books... if you're one of the few people who still read, you'll have a huge advantage”，结合pmarca关于生产力提升最终创造更多高薪工作的观点，这标志着“人类独特认知优势”在AI泛滥内容时代成为新的分水岭事件，重新定义了未来人才竞争力。</NARRATIVE>
-      <TWEET account="paulg" role="Y Combinator创始人">Something I told 14 yo: People are going to stop reading books. I wish this wasn't so, but I fear it is. The silver lining in this cloud is that if you're one of the few people who still read, you'll have a huge advantage over everyone else.（❤️ 6077 | 💬 330）</TWEET>
-      <CONSENSUS>市场一致认为，在AI生成内容爆炸背景下，深度阅读与独立思考将成为少数人维持认知优势的核心壁垒。</CONSENSUS>
-      <DIVERGENCE>教育体系是否能快速调整以培养这种能力，以及“阅读优势”是否会被新型AI接口（如自然语音）再次削弱，仍存分歧。</DIVERGENCE>
+    <THEME type="new" emoji="🌱">
+      <TITLE>Cursor孵化通用AI Agent Sand挑战Work</TITLE>
+      <NARRATIVE>The Information独家披露Cursor正开发名为Sand的通用目的AI Agent，超越编码工具范畴，直接对标Anthropic的Claude Cowork与OpenAI的ChatGPT Work。这一新叙事试图解决“AI员工”概念的浅薄性（SimonW批评其既不尊重人类也误解工具本质），转向构建能处理雄心勃勃工作的持久多模型编排系统。</NARRATIVE>
+      <TWEET account="theinformation" role="The Information">The Information报道：Cursor正开发通用AI Agent“Sand”，寻求超越编码工具的下一波增长。该产品可能让Cursor更直接对抗Anthropic的Claude Cowork和OpenAI的ChatGPT Work。（❤️ 83 | 💬 4）</TWEET>
+      <OUTLOOK>未来6-12个月，通用Agent将从垂直编码工具走向横向工作流平台，多模型安全编排将成为企业标配，Cursor等新玩家或借此快速崛起。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于构建安全合规的多模型路由层、Agent治理控制平面，以及针对受监管行业的垂直Agent执行层。</OPPORTUNITY>
+      <RISK>技术硬伤在于当前所有模型在真正自主长期任务中仍易陷入循环或产生cruft，短期可能仍是营销概念大于实际落地。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从“AI员工”浅薄概念转向多模型安全编排</TITLE>
+      <NARRATIVE>SimonW批评“AI员工”概念既不尊重人类也完全误解工具本质，Arav Srinivas强调持久价值在于安全多模型编排（如Perplexity Computer）。这与过去一周“从单一模型转向智能路由”的叙事发生进一步转向，今天更聚焦于“不要把Excel加进组织架构”，而应构建能动态路由、成本控制且合规的编排层。</NARRATIVE>
+      <TWEET account="simonw" role="独立开发者">SimonW表示：“AI员工”这个想法在我看来太短视了——既不尊重人类，也完全误解这些工具能做什么以及如何最好地使用它们。你还不如把Excel表格加进你的组织架构。（❤️ 856 | 💬 108）</TWEET>
+      <CONSENSUS>最新共识是 durable value 不在单一超级模型，而在安全、可审计、动态路由的多模型harness，尤其在企业与受监管场景。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论最佳编排方式：是像Perplexity Computer这样的产品化方案，还是企业自建控制平面，抑或完全开源的Agent框架。</DIVERGENCE>
     </THEME>
   </THEMES>
 
   <INVESTMENT_RADAR>
-    <ITEM category="投融资快讯">韩国wert Intelligence完成1090万美元B轮融资，用于将其专利AI平台扩张至日本市场。</ITEM>
-    <ITEM category="投融资快讯">韩国NeoArcRobotics获33.2万美元种子轮，专注造船业切割焊接机器人；DDH牙科AI公司获220万美元加速进入美国市场。</ITEM>
-    <ITEM category="VC views">pmarca指出领先AI公司正在历史上最激烈地争夺最高薪软件工程师，印证技术提升最终带来更多更高薪工作而非净减少。</ITEM>
-    <ITEM category="VC views">Chamath预测软件license+服务将融合成5万亿美元超级品类，强调建立控制平面治理AI成本已成为CEO必答题。</ITEM>
-    <ITEM category="VC views">aravsrinivas判断6个月内将出现3-4倍更便宜的Fable 5级别模型，12个月内Opus级模型可本地运行，建议投资多模型编排与本地推理基础设施。</ITEM>
+    <ITEM category="投融资快讯">韩国wert Intelligence获1090万美元B轮，用于将专利AI平台扩张至日本；NeoArcRobotics获33.2万美元种子轮开发造船焊接机器人；DDH牙科AI公司获220万美元加速美国扩张。</ITEM>
+    <ITEM category="VC views">pmarca指出领先AI公司正在历史上最激烈地争夺最高薪软件工程师，这印证了技术提升生产力最终会创造更多更高薪工作而非相反。</ITEM>
+    <ITEM category="VC views">Chamath警告CEO们必须建立控制平面治理模型选择，否则每月数十亿token的企业将面临失控开支，开源权重模型份额正因此加速扩张。</ITEM>
+    <ITEM category="VC views">Arav Srinivas认为6个月内出现Fable 5质量但成本低3-4倍的模型概率超50%，本地设备运行Opus级模型概率也高，投资人需据此调整长期预测。</ITEM>
   </INVESTMENT_RADAR>
 
   <RISK_CHINA_VIEW>
-    <ITEM category="中国 AI 评价">DeepSeek与智谱GLM在企业真实token消耗中份额持续扩大，以远低于Opus的价格提供同等或更好前端生成能力，已成为众多公司从闭源迁移的首选，尽管面临潜在模型出口限制讨论，其性价比仍在重塑全球定价预期。</ITEM>
-    <ITEM category="全球映射">中国模型在成本控制与多模型混合路由上的实践，正快速映射到硅谷企业，迫使OpenAI、Anthropic等重新思考定价与治理策略，同时加速“最后5%”问题中人类判断力回归的共识形成。</ITEM>
-    <ITEM category="全球映射">字节与腾讯等公司在落地场景的数据闭环优势，正成为西方实验室难以复制的竞争维度，风险在于若中美技术脱钩加剧，全球开发者将进一步转向开源中国权重模型。</ITEM>
+    <ITEM category="中国 AI 评价">DeepSeek以不到600万美元训练成本达到与OpenAI o1相当的推理能力，被Marc Andreessen称为“斯普特尼克时刻”；智谱GLM 5.2在前端生成任务中大幅超越GPT，Together AI显示其速度与延迟双料第一，中国开源模型正持续挤压闭源定价并加速用户迁移。</ITEM>
+    <ITEM category="全球映射">中国考虑禁止模型出口的主权AI叙事反转，与美国出口管制形成镜像；Palantir政府客户转向Nvidia开源Nemotron显示主权AI已成为全球趋势，中国实验室的低成本高性能路径正被硅谷认真研究，但监管捕获风险可能加速美国开源爆发。</ITEM>
   </RISK_CHINA_VIEW>
 
   <TOP_PICKS>
-    <TWEET account="sama" role="OpenAI CEO">homeboy you're the one selling public market investors on short-term space datacenters（❤️ 42907 | 💬 6262）</TWEET>
-    <TWEET account="simonw" role="独立开发者">The idea of "AI employees" feels so short-sighted to me - both disrespectful to humans and a complete misunderstanding of what these tools can do and how to best put them to work. You may as well start adding Excel spreadsheets to your org chart（❤️ 830 | 💬 106）</TWEET>
-    <TWEET account="bindureddy" role="AI独立顾问">Every day, a new startup writes a blog post claiming they have automated software engineering. In the exact same breath they claim they are hiring more engineers. Well - by definition- they have not automated engineering（❤️ 572 | 💬 61）</TWEET>
-    <TWEET account="aravsrinivas" role="Perplexity CEO">Imagine a fable 5 quality model that’s 3-4x less expensive in less than 6 months. And an Opus 4.8 grade model that can run on a local device in less than 12 months. Greater than 50% chance that these events will happen.（❤️ 4816 | 💬 222）</TWEET>
-    <TWEET account="pmarca" role="a16z合伙人">Technology increases productivity → cost of output falls → demand for output rises → more total output gets built → more jobs (and at higher wages).（❤️ 1240 | 💬 76）</TWEET>
-    <TWEET account="packym" role="独立观察者">A day in, I think I just got fooled by NEW slip here... But 5.6 Sol is really incredible. First to clear the bar of “my non-technical ass can just tell it to build anything and it will do it and do it well.” OpenAI has regained the Mandate of Heaven.（❤️ 38 | 💬 4）</TWEET>
-    <TWEET account="ualatrix" role="开发者">在 Claude Max 套餐到期+ Fable 不能用前，终于把 Fable 用到 100%。它确实是一个全新的模型...明天套餐结束后，我将回到主要使用 GPT 和 Grok（❤️ 32 | 💬 38）</TWEET>
-    <TWEET account="garymarcus" role="AI批评者">this is exactly right: superintelligence does not logically entail omnipotence.（❤️ 57 | 💬 9）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">Sam发文称有大量基准显示5.6 Sol目前是世界最佳模型，但最可靠的证明是Elon又开始 obsession 我了。（❤️ 41046 | 💬 2930）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">Sam表示：医生发现GPT-5.6的回复比医生自己写的缺陷更少。（❤️ 3852 | 💬 328）</TWEET>
+    <TWEET account="pmarca" role="a16z创始合伙人">pmarca引用1750年农民比例从98%降到2%却没人饿死反而都变胖的例子，说明技术提升生产力最终会创造更多工作。（❤️ 7887 | 💬 225）</TWEET>
+    <TWEET account="gdb" role="OpenAI产品负责人">gdb介绍Sol适用于复杂推理和数据分析，团队在健康智能领域也取得重大改进。（❤️ 627 | 💬 50）</TWEET>
+    <TWEET account="aravsrinivas" role="Perplexity CEO">Arav认为一个Fable 5质量但成本低3-4倍的模型将在6个月内出现，本地设备运行Opus 4.8级模型概率也超过50%，值得投资人记住。（❤️ 4844 | 💬 222）</TWEET>
+    <TWEET account="paulg" role="Y Combinator创始人">Paul Graham告诉14岁孩子：人们将停止读书，虽然我希望不是这样，但我担心这是事实。少数继续读书的人将获得巨大优势。（❤️ 6233 | 💬 335）</TWEET>
+    <TWEET account="bindureddy" role="独立开发者">Bindureddy吐槽：每天都有初创公司在博客里声称自动化了软件工程，同时又在招聘更多工程师——按定义他们显然没有做到。（❤️ 573 | 💬 61）</TWEET>
+    <TWEET account="tualatrix" role="独立开发者">tualatrix分享用Fable把过去五六年技术债全部还掉的经历，承认200美元花得很值，未来将重点测试GPT-5.6设计能力和Grok的快速小修复能力。（❤️ 33 | 💬 38）</TWEET>
   </TOP_PICKS>
 </REPORT>
