@@ -1,0 +1,72 @@
+<REPORT>
+  <COVER title="Grok狙击Fable：多模型Agent混战" prompt="Minimalist data visualization artwork depicting the convergence of multiple AI neural pathways into a single custom agent hub. Central composition shows glowing teal neural nodes labeled Grok 4.5, Fable 5, GPT-5.6 Sol and local models dynamically routing through a transparent orchestration layer. Clean geometric wireframe connections with floating token particles and subtle benchmark score overlays. Use cool industrial palette of electric cyan, deep graphite and soft white highlights. Precise isometric perspective, cinematic rim lighting creating depth and hierarchy, matte metallic textures on nodes, 8K ultra sharp resolution, high-end tech editorial style with generous negative space." insight="Grok 4.5强势登顶与多模型可组合Agent标志基础设施进入自有编排时代"/>
+  <PULSE>今日硅谷核心叙事转向Grok 4.5对前沿模型的基准超越、多模型混合自定义Agent的快速落地，以及企业必须拥有自身AI编排层的强烈共识。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Grok 4.5基准超越Fable 5开启真实世界竞争新纪元</TITLE>
+      <NARRATIVE>Elon今日连发多条强调Grok 4.5在软件基准上略超Fable这一“极其优秀模型”，并呼吁用户亲自测试。这与过去社区对xAI模型的观望态度形成鲜明反差，标志着xAI已从追赶者变为可直接挑战Anthropic的强力玩家，真实世界有用性而非纯基准成为新竞争焦点。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI创始人">Grok 4.5甚至在部分软件基准上略高于Fable，这是一个极其优秀的模型！https://t.co/6yXTTSZ8f3 ❤️ 3289 | 💬 631</TWEET>
+      <CONSENSUS>社区已形成Grok 4.5在速度、成本与真实工程闭环上具备独特优势的共识，多模型竞争而非单一霸主成为新常态。</CONSENSUS>
+      <DIVERGENCE>基准领先是否能转化为大规模企业落地，以及真实世界任务中是否能持续超越Fable仍存争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>多模型混合自定义Coding Agent成为开发者新标配</TITLE>
+      <NARRATIVE>本期多条推文显示，开发者正积极创建自定义Agent，将Fable 5用于硬核编码、GPT-5.6 Sol用于后端、Grok 4.5用于简单任务，或仅选用廉价模型实现成本优化。这种“鸡尾酒式”混合使用首次被明确作为产品功能推出，试图解决单一模型在成本、专长和性能上的权衡问题。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI开发者">🚨创建你自己的自定义编码Agent——混合Fable 5、GPT 5.6 Sol和Grok 4.5！最新功能允许你混搭最爱的LLM，创建专属鸡尾酒：Fable 5攻克难题、5.6 Sol写后端、Grok 4.5处理简单编码，也可只选廉价模型实现成本最优。❤️ 415 | 💬 44</TWEET>
+      <OUTLOOK>未来6-12个月，模型将进一步商品化，胜出者将是提供最佳路由、评估和编排工具的平台，企业将普遍采用混合策略而非锁定单一供应商。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注AI Gateway、动态路由基础设施和开源编排框架，类似Vercel AI Gateway的工具将迎来爆发。</OPPORTUNITY>
+      <RISK>不同模型输出风格不一致导致的集成复杂度和调试成本可能是硬伤，短期内可能仍是高级用户玩法。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Agent脚手架显著变薄 多Agent协作编排成核心</TITLE>
+      <NARRATIVE>Anthropic平台工程负责人分享一线观察：随着模型推理和工具调用能力增强，传统流程控制代码大幅减少，开发者只需给出目标和边界即可。更高层编排方式兴起——多Agent并行求解、提案+挑错、卡住时请求更强Agent支援，重点从“控制每一步”转向“设计Agent间协作机制”。</NARRATIVE>
+      <TWEET account="dotey" role="AI观察者">Anthropic 7月10日关于Agent基础设施的对谈显示：Agent的“脚手架”正在变薄，重点转向设计多个Agent如何协作（如一Agent提方案另一Agent挑错）。衡量ROI应先看个人工作速度提升多少，再从个人推广到团队。工程团队角色已转变为更多参与产品架构决策。❤️ 314 | 💬 38</TWEET>
+      <CONSENSUS>行业新共识是先验证个人生产力提升，再扩展到团队流程；工程团队人数未变但协作模式已彻底改变。</CONSENSUS>
+      <DIVERGENCE>个体能力爆炸式增长后，如何解决团队层面协调、取舍和方向统一的问题仍未有清晰答案。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从依赖单一模型转向自建AI编排基础设施</TITLE>
+      <NARRATIVE>rauchg明确指出必须“让模型成为你拥有机器中的一个齿轮”，企业需掌控自己的数据、评估、模型选择和软件层。结合Arav Srinivas观点，本地/小型模型将作为默认入口，高效调用前沿模型。这与过去“大模型即一切”的共识发生显著转向，强调主权和可控性。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel创始人">把模型变成你拥有机器里的一个齿轮。AI SDK→开放模型API，Agent API→开放Agent接口，AI Gateway→开放ZDR推理。初创企业和大公司必须拥有自己的数据、评估、模型选择和软件层，不要外包你的大脑。❤️ 595 | 💬 43</TWEET>
+      <CONSENSUS>最新共识是企业必须建立自己的学习闭环和控制平面，避免被单一实验室锁定或数据反哺。</CONSENSUS>
+      <DIVERGENCE>开放基础设施由谁主导，以及如何在性能与主权之间取得最佳平衡仍是激烈争论点。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>AI医疗诊断已超越99.99%人类医生成新共识</TITLE>
+      <NARRATIVE>pmarca今日直言“AI已经是比99.99%人类医生更好的医生”，这建立在近期GPT-5.6系列在医师评估中错误更少的实测基础上。与历史记忆中Sam Altman关于AI净创造就业的意外表态形成呼应，显示高风险专业领域的能力拐点已至，重点转向如何安全部署而非是否可行。</NARRATIVE>
+      <TWEET account="pmarca" role="a16z合伙人">AI已经是比99.99%人类医生更好的医生。这是个好消息。❤️ 6682 | 💬 296</TWEET>
+      <CONSENSUS>行业已普遍接受AI在诊断等认知密集型医疗任务上达到超人水平，重点转向监管与责任分配。</CONSENSUS>
+      <DIVERGENCE>如何处理AI“幻觉”在医疗场景的法律责任，以及是否会加速医生职业的结构性转变仍存激烈争议。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Cursor正加速开发通用Agent Sand，直接对标Claude Cowork与ChatGPT Work，预计将推动下一轮编码工具向通用工作流平台迁移。</ITEM>
+    <ITEM category="VC views">多模型路由与编排基础设施成为新投资热点，类似Vercel AI Gateway的企业级控制平面工具估值有望在12个月内翻倍。</ITEM>
+    <ITEM category="VC views">本地模型+前沿模型混合架构获Arav Srinivas等大佬背书，针对企业主权AI的早期项目融资兴趣显著上升。</ITEM>
+    <ITEM category="投融资快讯">xAI凭借Grok 4.5真实世界闭环表现，吸引更多硬件与推理优化方向的战略投资，重点在C/C++自研推理引擎。</ITEM>
+    <ITEM category="VC views">医疗AI垂直应用因“超越99.99%医生”叙事获机构关注，合规与责任保险相关初创公司成新风口。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek与GLM 5.2在中国开源模型中被硅谷开发者频繁纳入自定义混合Agent，用于成本敏感的简单编码和前端任务，其性价比已获广泛认可并加速从闭源模型迁移。</ITEM>
+    <ITEM category="全球映射">中国模型在混合编排中的实用表现正倒逼美国实验室加速商品化，若中国考虑进一步限制模型开放，将加速全球AI基础设施向分布式、自有编排方向演化。</ITEM>
+    <ITEM category="中国 AI 评价">字节与智谱等公司的开源权重模型正成为多模型鸡尾酒Agent中的“廉价高效层”，帮助企业将token成本降低90%，但也加剧了闭源实验室的定价压力。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="sama" role="OpenAI CEO">我很想看到大家用5.6 sol构建的有趣东西。我会送给做出最酷项目的人一份来自OpenAI档案的特别礼物。❤️ 8474 | 💬 1853</TWEET>
+    <TWEET account="swyx" role="AI工程师观察者">如果你只在agentic engineering时代了解Jevons悖论关于软件需求的版本，你可能还没完全内化它在以下条件下的影响：善于使用coding agent的人、coding agent突破限制进入所有知识工作。当知识工作单位成本下降，总需求和对更好知识的需求反而上升。coding的经历不是例外，而是先兆。❤️ 482 | 💬 66</TWEET>
+    <TWEET account="aravsrinivas" role="Perplexity CEO">人类非常擅长工具使用。尤其是使用那些在特定维度远比人类强大且更耗电的前沿模型。这表明本地模型将能够有效控制和使用前沿模型，并因功耗和成本最低而成为大多数任务的默认入口点。❤️ 638 | 💬 80</TWEET>
+    <TWEET account="elonmusk" role="xAI创始人">Grok是最政治中立且客观追求真相的AI。❤️ 19304 | 💬 2051</TWEET>
+    <TWEET account="simonw" role="AI开发者">把Claude的共享对话链接粘贴到Claude Code会话里居然不行，因为Anthropic的反爬虫措施阻止了自己的工具访问自己其他工具的输出，这太烦人了。❤️ 199 | 💬 39</TWEET>
+    <TWEET account="tualatrix" role="独立开发者">不知道是谁最早用「蹬」来形容操作AI的过程的，实在是太精确了：蹬AI就像蹬自行车一样，蹬一下可以往前骑一段，用力蹬一下可以往前多前进一段，而这个过程中随时需要握好把手，避免蹬错方向。❤️ 143 | 💬 34</TWEET>
+    <TWEET account="theinformation" role="科技媒体">Cursor正开发名为Sand的通用AI Agent，寻求超越编码工具的下一波增长。该产品可能让Cursor更直接对抗Anthropic的Claude Cowork和OpenAI的ChatGPT Work。❤️ 14 | 💬 2</TWEET>
+    <TWEET account="oran_ge" role="AI评论者">A社的算盘是Fable 5太占GPU，放coding plan里没有ROI，就搞限时体验按API价销售大赚。结果GPT 5.6 sol出了把用户抢走，Fable 5的GPU问题也解决了，那就继续放在coding plan里吧。一个物品的价格是由可替代品决定的。❤️ 6 | 💬 5</TWEET>
+  </TOP_PICKS>
+</REPORT>
