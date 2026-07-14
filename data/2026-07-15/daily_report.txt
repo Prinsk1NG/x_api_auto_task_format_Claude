@@ -1,0 +1,72 @@
+<REPORT>
+  <COVER title="Sol Efficiency Ignites 2.5X Agentic Boom" prompt="Minimalist data visualization art showing glowing neural nodes in a clean neural network architecture, with cascading token efficiency metrics dropping from 2x to 4x in translucent layers. Central exploding growth curve in electric cyan and warm amber, representing 2.5x agentic usage surge. Sleek industrial glass surfaces with precise holographic data streams flowing between nodes, dramatic rim lighting, volumetric god rays, ultra sharp 8K cinematic composition, negative space emphasizing breakthrough momentum, no neon, no cyberpunk elements." insight="GPT-5.6 Sol以1/4价格实现同等任务，驱动Agentic产品爆发式增长"/>
+  <PULSE>今日硅谷核心叙事从模型价格战转向GPT-5.6 Sol驱动的Agentic产品大规模落地与角色重构，效率与真实世界基准成为新胜负手。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>GPT-5.6 Sol效率跃升驱动Agentic产品2.5X爆发</TITLE>
+      <NARRATIVE>Sam Altman连发多帖强调GPT-5.6 Sol在多数任务上价格仅为Fable一半、Token效率翻倍，且能以1/4成本交付相同成果；Codex与ChatGPT Work使用量过去一周激增2.5倍，推理团队“英雄般”支撑需求。这标志OpenAI从单纯模型发布转向企业级Agentic工作流规模化落地，与历史记忆中Sam曾承认AI净创造就业的乐观态度形成延续，同时对标Anthropic Fable形成清晰的价格-性能断层。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">GPT-5.6 Sol在多数任务上价格仅为Fable一半且Token效率约两倍，能以四分之一成本交付相同成果，我们很高兴做到这一点。过去一周我们的Agentic产品（Codex和ChatGPT Work）使用量增长2.5倍，欢迎大家。GPT-5.6 Sol增长势头疯狂，推理团队做了英雄般的工作来支撑需求，我们将全力扩展但短期可能有波动。（❤️ 17735 | 💬 1196）</TWEET>
+      <CONSENSUS>行业已形成共识：价格-性能而非单纯基准才是企业采用Agentic产品的决定性因素，OpenAI通过Sol系列实现了美元每任务的大幅跃进。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论是否会出现短期容量瓶颈，以及Sol的“研究更好但其他场景Claude更优”的用户反馈是否会随规模化出现反转。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Perplexity开源WANDR：深宽研究基准新标杆</TITLE>
+      <NARRATIVE>Perplexity今日开源WANDR基准，用于内部衡量Computer的深宽研究能力。该基准不依赖固定金标准答案，而是实时重新抓取引用页面、逐条验证主张是否被证据支持，支持时变事实。这是对现有研究评估框架的核心推进，解决此前基准易过时的问题，与Arav Srinivas历史记忆中强调“本地模型编排+强内部评估”的路径高度一致，标志研究能力从定性转向可量化、可复制。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="Perplexity AI">我们开源WANDR，这是我们内部用于构建Perplexity Computer深度与广度研究能力的基准。它要求Agent既要广泛搜索找到所有合格实体，又要深入调查并用证据支持每个主张。我们不按金标准评分，而是重新抓取每篇引用页面并逐条验证。（❤️ 319 | 💬 22）</TWEET>
+      <CONSENSUS>行业新共识是：可靠的研究Agent需要“宽搜索+深验证”而非单纯上下文长度，WANDR这类动态基准将成为未来评估标杆。</CONSENSUS>
+      <DIVERGENCE>如何将WANDR扩展到多模态与长时序任务，以及开源后是否会被用于针对性优化仍存争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>PM、Coder、Designer融合为“Builder”新角色</TITLE>
+      <NARRATIVE>pmarca与a16z今日多次发帖指出，硅谷领先公司正出现“Builder”这一松散职位：程序员认为不再需要PM和设计师（AI可代劳），PM和设计师也认为自己能完成另两者的工作，三方形成“墨西哥 standoff”。这代表从历史记忆中“多模型混合自定义Coding Agent成为标配”叙事转向更根本的组织架构变革——AI让单一人才可覆盖完整产品循环，工作描述从专业分工转向全栈创造力。</NARRATIVE>
+      <TWEET account="a16z" role="a16z Partner">pmarca观察到早期领先公司正围绕“Builder”这一职位形成三方 standoff：程序员认为不再需要PM和设计师，PM和设计师也认为彼此可被取代。AI让每个人都能完成另两者的工作，职位正演变为Builder。（❤️ 106 | 💬 6）</TWEET>
+      <CONSENSUS>最新共识是AI正快速抹平传统职能边界，未来最小有效团队规模将显著缩小，“Builder”将成为主流人才标签。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在激烈争论这种融合是否会导致质量下降（“打磨仍需专业人士”），以及新角色在绩效评估与晋升路径上的定义。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>手机级27B多模态Bonsai开启本地AI新范式</TITLE>
+      <NARRATIVE>togethercompute与_akhaliq今日推广Bonsai 27B，这是一个在手机级 footprint内实现27B级多模态能力的模型，标志本地AI从单纯文本转向高性能多模态推理的新叙事。它试图解决云端依赖、隐私与延迟的核心痛点，与历史记忆中“AI计算从云端转向设备端”观点形成首次具体落地项目，而非概念讨论。</NARRATIVE>
+      <TWEET account="togethercompute" role="Together AI">Bonsai 27B是本地AI的重大进步：在手机级尺寸内实现27B级多模态能力。恭喜PrismML推出。已在Together AI上线。（❤️ 36 | 💬 5）</TWEET>
+      <OUTLOOK>未来6-12个月，本地多模态模型将显著降低企业对云GPU的依赖，推动边缘AI在消费级设备与隐私敏感行业的快速渗透。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于为本地多模态模型提供高效推理SDK、设备端RAG框架及针对手机/边缘硬件的量化工具链。</OPPORTUNITY>
+      <RISK>当前本地模型在极复杂长上下文任务上仍落后于云端旗舰，是否能快速迭代到生产级可靠性仍待验证，可能仍是短期展示而非全面替代。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Meta AI物理奥赛满分：多模态推理达新高度</TITLE>
+      <NARRATIVE>aiatmeta宣布Meta AI模型参加亚洲物理奥林匹克理论考试并获得满分30/30，与前三名学生并列。这是对多模态科学推理叙事的深度推进，证明前沿模型已能在高度结构化、需要精确物理直觉的竞赛中达到人类顶尖水平，超越此前主要在文本基准上的进展。</NARRATIVE>
+      <TWEET account="aiatmeta" role="Meta AI">为展示Meta AI先进的推理和多模态能力，我们提交模型参加亚洲物理奥林匹克理论考试。模型获得满分30/30，与前三名学生并列。我们感谢APhO委员会允许模型参赛。（❤️ 158 | 💬 18）</TWEET>
+      <CONSENSUS>行业已形成共识：多模态模型在科学竞赛级任务上已达到甚至超越顶尖人类，这为AI驱动科研加速打开新大门。</CONSENSUS>
+      <DIVERGENCE>如何将这种竞赛能力可靠迁移到开放式真实世界科研问题，以及训练数据中是否存在竞赛泄漏风险仍存争论。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Nous Research正谈判融资至少7500万美元，估值15亿美元，由Robot Ventures领投，Union Square Ventures参投。</ITEM>
+    <ITEM category="投融资快讯">Morgan Stanley为CoreWeave提供31亿美元贷款，吸引超过190亿美元投资者订单，显示AI基础设施债务需求火爆。</ITEM>
+    <ITEM category="VC views">Theory Ventures GP认为模型半衰期介于社交网络与手游之间，一个月内用户流失将超过50%。</ITEM>
+    <ITEM category="VC views">a16z强调“Builder”角色崛起正重塑早期AI公司组织架构，最小团队规模显著下降。</ITEM>
+    <ITEM category="VC views">北亚AI公司因估值更低、基本面强劲而比美国同行更具吸引力。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek正寻求最高500亿人民币首轮融资，完成后估值或超3500亿人民币；其V3训练原始算力成本仅约600万美元，不到Meta最新模型的1/10，却在数学、编程等多项基准上逼近或超越o1，展现极致性价比，正在全球范围内快速蚕食闭源模型份额。</ITEM>
+    <ITEM category="全球映射">中国模型低成本高性能路线正迫使硅谷重新评估“只有美国巨头才能训练前沿系统”的假设，未来开源与混合使用将成为全球企业标配。</ITEM>
+    <ITEM category="全球映射">尽管中美AI军备竞赛持续，中国模型已不再引发美国立法者恐慌，转而推动美国加速开源与本地部署以保持竞争力。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI CEO">Grok 4.5在Long-Horizon Terminal-Bench上取得第一名。（❤️ 15905 | 💬 1634）</TWEET>
+    <TWEET account="pmarca" role="a16z General Partner">AI写作现在已经非常好了，只剩下少数 idiosyncrasies，很快这些也会消失。（❤️ 3284 | 💬 498）</TWEET>
+    <TWEET account="anthropicai" role="Anthropic">我们承诺投入1000万加元，并与加拿大领先AI机构合作资助新的AI研究。（❤️ 1873 | 💬 178）</TWEET>
+    <TWEET account="nvidia" role="NVIDIA">在电源受限环境下，每瓦性能已成为当今每个AI工厂的基础指标。企业需要可信任、可控、可定制的AI，开源模型提供可见性和所有权。（❤️ 235 | 💬 21）</TWEET>
+    <TWEET account="swyx" role="AI Engineer">GPT-5.6这次发布可能是OpenAI自ChatGPT以来最成功的模型，这是改变IPO格局的东西。（❤️ 194 | 💬 45）</TWEET>
+    <TWEET account="bindureddy" role="AI Analyst">Claude Opus 5最快下周发布，最坏情况是其成本为Opus 4.8的两倍，就像Sonnet 5.0那样。（❤️ 245 | 💬 34）</TWEET>
+    <TWEET account="simonw" role="AI Developer">你真的可以直接告诉Codex为你生成一个自定义的——它使用gpt-image-2生成精灵图。（❤️ 36 | 💬 4）</TWEET>
+    <TWEET account="vista8" role="AI Observer">很多宇宙厂朋友开始用AI出方案、画原型、写代码，甚至用一句话需求开发全套产品，但打磨仍需专业人士，有点为了用AI而用AI。（❤️ 20 | 💬 26）</TWEET>
+  </TOP_PICKS>
+</REPORT>
