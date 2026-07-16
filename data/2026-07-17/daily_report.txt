@@ -1,0 +1,76 @@
+<REPORT>
+  <COVER title="Kimi K3 2.8T开源怪兽登顶" prompt="Ultra-minimalist neural architecture visualization in cool silicon blues and electric cyan, a colossal 2.8 trillion parameter MoE graph exploding with glowing activation nodes and sparse expert pathways, clean data-flow lines pulsing across a dark void, subtle benchmark leaderboards materializing as holographic overlays, cinematic rim lighting on crystalline tensor structures, 8K resolution, precise technical infographic aesthetic with neural node density conveying raw power and openness" insight="中国开源2.8T模型首次全面领先闭源基准，全球AI权力版图剧烈重塑"/>
+  <PULSE>中国开源巨模型Kimi K3与Inkling的基准突破标志着开放权重从边缘走向主导，驱动自改进Agent与个人公共Agent叙事加速落地。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Kimi K3 2.8T开源模型登顶Web工程基准</TITLE>
+      <NARRATIVE>今日多位开发者与分析师实时测试显示，Kimi K3作为2.8T参数开源MoE模型在WebDev Arena上超越Fable 5等闭源旗舰，首次实现开放权重在综合网页工程任务上领先。这不是参数竞赛，而是真实世界长程Agentic任务的里程碑，标志中国实验室在算力受限下通过架构创新实现弯道超车，与历史记忆中“开放权重从11%升至29%”形成强烈延续但达到新数量级。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">Kimi K3在Web工程基准上领先Fable，以更短时间达到相似成功率，这是开放模型首次全面超越所有闭源模型。尽管基准未达100%，但92-96%已构成突破。❤️ 434 | 💬 38</TWEET>
+      <TWEET account="oran_ge" role="独立分析师">Kimi K3竟然是一个超大的2.8T开源模型，参数量可能已超过Opus，照着Fable去了。中国开源模型距离世界一线差距已缩小到6个月内。❤️ 435 | 💬 57</TWEET>
+      <CONSENSUS>行业已形成“Kimi K3代表开放权重进入全面竞争时代”的共识，基准不再是闭源专属舞台。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论基准是否被污染、长程真实世界任务是否可持续领先，以及开源模型推理成本控制问题。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>个人公共Agent on .com成新基础设施</TITLE>
+      <NARRATIVE>rauchg详细阐述了在自己域名上部署公共Agent的四大价值：便利性、安全审计、最小权限模型与主动性监控。这解决了当前“人类输入prompt”阶段的痛点，让Agent能在异常触发时自主行动，而非依赖用户设备上的静态凭证，定义了下一代开发者与企业交互范式，解决信任与可观测性底层问题。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">部署在自己.com上的公共Agent可覆盖突发需求，提供审计轨迹、最小权限与额外安全保障。云端沙箱比用户机器上散落的静态凭证更安全，还能主动监控异常、攻击与流量峰值。❤️ 149 | 💬 23</TWEET>
+      <OUTLOOK>未来6-12个月，个人与企业网站将标配自主Agent，Vercel等平台将从SDK转向完整Agent OS层，加速“Agent即产品”商业模式。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投资Agent可观测性、域名级身份验证与沙箱运行时基础设施，类似Vercel Agent的垂直化解决方案。</OPPORTUNITY>
+      <RISK>短期可能仍是概念泡沫，真实世界主动性依赖高质量异常检测，若安全边界被突破则风险放大。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>多LLM递归自改进Agent进入实用阶段</TITLE>
+      <NARRATIVE>bindureddy分享其正在dogfood的AutoBots系统，使用DeepSeek Flash/Kimi处理简单任务、Sonnet/Grok处理中等、Opus/Sol处理困难、Fable 5处理极难编码，实现按任务类型动态路由并递归自我改进。这标志Agent脚手架进一步变薄，从多模型编排迈向自主发现低效、生成新prompt与skills的闭环，与过去7天“Agentic self-improvement”形成直接里程碑推进。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI开发者">AutoBots：多LLM自改进Agent。目前我们正在内部测试下一代，能按计划或触发递归自我改进。我们用不同LLM自动化几乎所有工作：简单用DeepSeek Flash/Kimi，困难用Opus 4.8与5.6 Sol，极难编码用Fable 5。最终每个员工只需监控对应角色的AI Agent。❤️ 520 | 💬 64</TWEET>
+      <CONSENSUS>领先开发者已共识：混合路由+自我内省是生产级Agent的必由之路，单一模型时代彻底结束。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于成本控制（Kimi K3长思考可能比Fable更贵）与是否能真正实现无监督递归改进而不陷入局部最优。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从闭源语音垄断转向自然对话主导</TITLE>
+      <NARRATIVE>sama表示自己现在与ChatGPT对话次数已超过打字，新语音模型“crossed a threshold”，感觉“真实”。这与历史记忆中“从屏幕时代转向自然语音与消费者级Agent”形成鲜明转向：过去Sam更偏好打字，如今公开承认语音已成为主要交互方式，预示消费者端从键盘/屏幕向连续多模态对话的范式迁移。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">我现在和ChatGPT对话比打字还多。新语音模型真正跨越了门槛。❤️ 5949 | 💬 1121</TWEET>
+      <CONSENSUS>行业新共识是自然语音接口已成熟，未来用户盯着屏幕的时间将大幅减少，Agent将以连续对话而非回合制prompt存在。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论这种“lobotomised HR assistant”式语音是否真正提升创造力，还是只是更舒适的幻觉。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Inkling 1T多模态MoE开启Token高效新时代</TITLE>
+      <NARRATIVE>Thinking Machines Lab推出Inkling，975B总参数（41B激活）的开源MoE模型，支持原生文本/图像/音频，1M上下文，采用相对注意力、短卷积与MTP推测解码，在4×GB200上达380 tok/s。Together AI与vLLM当天提供支持，标志开放多模态模型在推理效率上取得关键突破，与昨日Inkling发布形成直接里程碑推进。</NARRATIVE>
+      <TWEET account="togethercompute" role="Together AI">Inkling现已在Together AI上线。这是一个多模态MoE模型，专为Token高效推理设计，原生支持文本、图像、音频，1M上下文窗口，975B总参数41B激活。已在Together Serverless Inference可用。❤️ 9 | 💬 1</TWEET>
+      <CONSENSUS>开放权重多模态模型正快速商品化，效率优化（FlashAttention-4内核等）让其在真实吞吐上逼近甚至超越闭源方案。</CONSENSUS>
+      <DIVERGENCE>仍未解决的问题是如何在消费级设备上高效运行此类规模模型，以及长上下文下的真实多模态对齐质量。</DIVERGENCE>
+    </THEME>
+
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Fireworks AI完成15亿美元D轮融资，估值升至175亿美元，年处理40万亿Token，已实现10亿美元ARR。</ITEM>
+    <ITEM category="VC views">Lightspeed VP强调开放模型赋予开发者对构建与扩展的更大控制权，Fireworks证明了这一战略。</ITEM>
+    <ITEM category="投融资快讯">Aina完成550万美元融资，专注新型AI硬件，旨在重塑人机交互范式。</ITEM>
+    <ITEM category="VC views">a16z指出AI原生公司正以更少员工与更低资本消耗重塑硅谷创业生态，Builder角色崛起加速这一趋势。</ITEM>
+    <ITEM category="投融资快讯">Standard Nuclear完成IPO，为“electronaissance”提供燃料，SPAC路径获市场认可。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">Kimi K3被rauchg、vista8、oran_ge等硅谷人士实时验证为“国产第一”“2.8T超越Opus”，其在Web工程基准领先Fable的突破让美国开发者震惊，证明中国实验室在架构创新上已无妥协。</ITEM>
+    <ITEM category="全球映射">Kimi K3与Inkling的同周爆发映射出开放权重Token占比持续激增（已近30%），迫使OpenAI/Anthropic必须在定价与真实世界有用性上加速，否则将被商品化浪潮吞没。</ITEM>
+    <ITEM category="中国 AI 评价">DeepSeek与Kimi的低成本路线正被硅谷视为“商品化曲线最陡峭的技术”，garymarcus警告这将加速美国闭源公司估值泡沫破裂。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="sama" role="OpenAI CEO">我们过去12个月不是最好的，这主要怪我，但接下来12个月将会是我们迄今最好的。团队在做惊人的工作，你们会非常满意他们正在准备的东西。AI必须让很多人获得更多自由、能动性和财富。❤️ 15379 | 💬 1433</TWEET>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">与NPC争论毫无意义。❤️ 40066 | 💬 2546</TWEET>
+    <TWEET account="gdb" role="OpenAI高管">基准如今饱和得非常快。❤️ 191 | 💬 18</TWEET>
+    <TWEET account="simonw" role="独立开发者">我对Kimi K3的笔记，以及即使Pelican基准越来越脱离真实Agentic工具调用，我们仍能从中学到什么。❤️ 278 | 💬 20</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">国家正在投资本土AI基础设施、本地数据集与本土专长，以确保AI解决方案符合本地公民、服务和法规。❤️ 136 | 💬 14</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">在中国模型崛起、tokenmaxxing死亡以及SpaceX IPO后表现平平的背景下，我很难看到Anthropic以万亿美元估值IPO，更难想象OpenAI。❤️ 165 | 💬 12</TWEET>
+    <TWEET account="pmarca" role="a16z合伙人">工厂是在政客还希望选民有工作的时候建造的。❤️ 705 | 💬 49</TWEET>
+    <TWEET account="op7418" role="开发者">Kimi的多模态还是很顶的，感觉随着Claude越来越不重视多模态理解，Kimi这个会很有用。❤️ 12 | 💬 3</TWEET>
+    <TWEET account="bindureddy" role="AI开发者">Kimi K3基准超好但要谨慎——我们需要用LiveBench这样未污染的基准验证，而且它可能比Fable或Sol更贵。❤️ 83 | 💬 14</TWEET>
+    <TWEET account="vista8" role="开发者">Kimi K3一句话复刻网站，每个风格都是独立生成的HTML+CSS，模型真的牛逼！❤️ 99 | 💬 53</TWEET>
+  </TOP_PICKS>
+</REPORT>
