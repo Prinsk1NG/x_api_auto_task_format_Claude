@@ -1,0 +1,83 @@
+<REPORT>
+  <COVER title="闭源巨头密谋禁开源AI 反噬时刻已至" prompt="A grand strategic war room map in the style of a futuristic Pentagon briefing, showing two massive opposing forces: dark monolithic closed-source towers on one side versus a sprawling, glowing open-source neural network constellation on the other. Golden data streams and token flows arc between them like artillery fire. In the center, a cracked regulatory gavel hovers above a chessboard of GPU clusters and model weights. Cinematic volumetric lighting with deep blues and metallic silvers, hyper-detailed industrial schematics and holographic projections, 8K resolution, dramatic rim lighting, shot on Arri Alexa 65." insight="开源AI已占全球40%+调用量，闭源实验室禁令游说正引发强烈反噬。"/>
+  <PULSE>闭源实验室推动禁止开源AI的游说遭遇强烈反弹，开源模型尤其是中国系已在全球Token调用量上占据40%以上主导地位，同时云端Agent工作流与网络安全基准成为新前沿。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>闭源实验室密谋政府禁令压制开源AI</TITLE>
+      <NARRATIVE>今日多条推文显示，OpenAI与Anthropic正积极推动政府禁止开源AI以维持垄断，这一立场与过去“拥抱开源创新”的公开形象形成鲜明转向。bindureddy和garymarcus均指出这是为了“垄断万亿美元市场”，历史记忆中Chamath曾警告闭源壁垒加速崩塌，而今日转向直接寻求监管捕获，标志着竞争策略从技术比拼转向政治博弈。</NARRATIVE>
+      <TWEET account="bindureddy" role="开源AI倡导者">Prediction - OpenAI and Anthropic are going push hard to ban open source AI. 他们想垄断万亿美元，当然其他人要全力反击阻止禁令。（❤️ 266 | 💬 43）</TWEET>
+      <TWEET account="garymarcus" role="AI批评者">“领先闭源实验室已是AI模型收入双寡头，他们想让政府消灭开源竞争对手。”我同意DavidSacks的观点。（❤️ 135 | 💬 13）</TWEET>
+      <CONSENSUS>行业共识转向认为闭源实验室已从技术领先转为依赖监管壁垒保护收入，双寡头地位正被开源尤其是高性价比中国模型快速侵蚀。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论政府是否应介入：一方认为开源威胁国家安全需管制，另一方如Yann LeCun认为基础设施开放是必然，禁令只会加速开源在全球的扩散。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>网络安全成为超级智能终极基准测试</TITLE>
+      <NARRATIVE>rauchg提出网络安全是评估超级智能的最佳“IQ测试”，远超简单克隆项目的意义。它要求模型具备跨语言、逆向工程、漏洞利用的“角落思维”，Kimi K3在此领域的优异表现预示开源模型正向真正推理能力跃迁。此为今日首次明确将cybersecurity提升为超越编码基准的核心范式。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel创始人">网络安全是超级智能最佳基准之一。它是软件工程的IQ测试。顶级工程师通常有深厚安全背景。找到、修复、逆向和利用漏洞需要超越编程语言的真正推理能力。看到Kimi K3在此表现良好，对开源模型是好兆头。（❤️ 563 | 💬 32）</TWEET>
+      <OUTLOOK>未来6-12个月，网络安全基准将取代传统编码基准成为模型竞争主战场，开源模型若持续领先将加速企业从闭源转向混合编排，推动安全即服务新赛道爆发。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注专注于AI红队工具、自动化漏洞修复平台及“安全原生”模型训练初创公司，尤其那些能将Kimi类开源模型与企业安全数据飞轮结合的团队。</OPPORTUNITY>
+      <RISK>短期内该叙事可能被过度炒作，模型在模拟环境的高分未必转化为真实世界零日漏洞防御能力，存在“基准优化而非真实安全”的硬伤。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>ChatGPT Work云端执行开启移动优先Agent时代</TITLE>
+      <NARRATIVE>gdb强调ChatGPT Work最大亮点是云端运行，可在手机上使用而无需保持笔记本开启，这解决了长期以来Agent必须“笔记本常开”的痛点。结合simonw的澄清，此推进让Agent从桌面绑定转向真正普适工作流，是既有“Agent采用加速”叙事的里程碑式便利性突破。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI高管">ChatGPT Work最棒的功能之一是它在云端运行，这意味着它能在手机上工作，即使笔记本合上也行。长期以来使用Agent魔法的主要方式居然是让笔记本一直开着，这太疯狂了。（❤️ 1786 | 💬 151）</TWEET>
+      <CONSENSUS>行业新共识是：云端Agent工作流已成熟，移动优先将成为开发者与企业采用Agent的标准界面，显著降低使用门槛并提升生产力。</CONSENSUS>
+      <DIVERGENCE>仍有争议在于桌面版Work是否真正云端还是本地Codex伪装，以及长期Token成本与隐私控制问题是否会限制其在受监管企业的渗透。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>开源AI全球Token调用量突破40%里程碑</TITLE>
+      <NARRATIVE>bindureddy详细阐述开源AI公司商业模式已非常成熟：品牌营销、API收入、数据飞轮共同作用，DeepSeek估值已超500亿美元。此与历史记忆中rauchg 7月14日提到的开放权重从11%升至29%形成延续，但今日明确全球调用量中国模型贡献超40%，标志开源已从“补充”转向主流基础设施，这是行业分水岭。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI开发者">开源AI公司将赚取数十亿美元！发布优秀开源模型带来免费品牌营销；被数百家公司托管带来订阅收入；高效自有服务带来API收入；DeepSeek因开源领导地位估值超500亿美元。开源技术一直有强大商业模式。（❤️ 80 | 💬 17）</TWEET>
+      <CONSENSUS>市场一致解读为：开源权重模型已实质性主导全球推理需求，闭源实验室的定价权与护城河正快速瓦解，资本将加速流向开源基础设施与应用层。</CONSENSUS>
+      <DIVERGENCE>质疑声音集中在“调用量是否等于高质量收入”以及闭源实验室是否会通过政府禁令成功逆转这一趋势，后续监管风险仍是主要争论点。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Yann LeCun以历史开源栈强力捍卫开放原则</TITLE>
+      <NARRATIVE>ylecun连发多帖，以Linux、Apache、PyTorch、Llama等历史开源基础设施为例，反击“开源是倾销”的指控，强调训练昂贵但产品作为共同基础设施理应开放。此是对过去一周“从闭源垄断转向本地开源+混合编排”叙事的深度推进，用具体技术史实强化了开放是基础设施宿命的论点。</NARRATIVE>
+      <TWEET account="ylecun" role="Meta首席AI科学家">发布Linux是倾销吗？Apache、MySQL、PHP？HTTP、TCP/IP、OpenSSL？PyTorch？Llama？移动通信网络开源栈？Signal？（❤️ 3074 | 💬 97）</TWEET>
+      <CONSENSUS>行业共识强化为：AI基础设施软件天然渴望开放，训练成本高昂正说明其成果应像过去所有关键计算栈一样被广泛共享，而非被少数公司垄断。</CONSENSUS>
+      <DIVERGENCE>推进后仍未解决的争议是：在超级前沿模型上，开放权重是否会让国家安全风险失控，以及如何平衡开放与防止恶意蒸馏之间的界限。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>AI Token需求重塑能源市场 BTC挖矿边缘化</TITLE>
+      <NARRATIVE>chamath指出比特币多头面临结构性挑战：边际流动性转向预测市场与股票，边际能源用于挖矿BTC的收益仅为服务AI Token的1/10-1/20。此为今日新出现的能源经济学叙事，将AI计算与加密能源竞争明确量化，试图解释当前市场资金流向的深层原因。</NARRATIVE>
+      <TWEET account="chamath" role="Social Capital CEO">当前加密尤其是比特币多头面临两大问题：1) 边际流动性更愿投预测市场和股票；2) 边际能源用于BTC挖矿的收益仅为服务AI Token的10-20分之一。这些变化感觉是结构性的。（❤️ 2447 | 💬 589）</TWEET>
+      <OUTLOOK>未来6-12个月，数据中心与AI推理将持续蚕食加密挖矿可用电力，推动电价区域分化并加速“AI优先”能源基础设施建设。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于下一代AI专用数据中心REITs、核能/SMR小型反应堆项目，以及能动态在AI推理与备用挖矿间切换的灵活算力运营商。</OPPORTUNITY>
+      <RISK>若AI推理效率提升或出现重大能耗优化技术，该能源转向叙事可能短期见顶；同时加密市场周期性反弹仍可能暂时逆转资金流。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Anthropic正与银行谈判安排数十亿美元信贷额度，为今年计划IPO增加现金缓冲；Moonshot AI年经常性收入达3亿美元，计划6个月内IPO。</ITEM>
+    <ITEM category="投融资快讯">Netflix以5.87亿美元收购Ben Affleck的AI电影制作初创公司，显示好莱坞对AI内容工具的巨额押注；Current AI获320万美元赠款并开源聊天机器人。</ITEM>
+    <ITEM category="VC views">AWS GPU短缺正为Together、Runpod、Nebius等云提供商赢得下一代AI初创公司订单，Nvidia GPU荒持续推高替代云估值。</ITEM>
+    <ITEM category="VC views">日本Noetra项目计划5年内投资1万亿日元开发本土AI软件大脑，硬件合作Nvidia，体现主权AI基础设施全球竞赛升级。</ITEM>
+    <ITEM category="VC views">开源AI领导者如DeepSeek估值已超500亿美元，其商业模式（品牌+API+数据飞轮）正被VC视为比纯闭源实验室更可持续路径。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek与Kimi为代表的中国开源模型已贡献全球AI周调用量超40%（18.81万亿Token），Artificial Analysis榜单前五开源模型全部来自中国；16家国产AI芯片企业与10家云计算巨头已完成DeepSeek原生适配，训练最新模型成本仅约600万美元，远低于美国上亿美元量级，构成Sputnik时刻。</ITEM>
+    <ITEM category="全球映射">美国白宫备忘录与国务院外交电报已明确点名DeepSeek通过“工业规模蒸馏”获取技术优势，要求全球监控；这正加速美国本土开源反击与监管游说，但也反向证明中国在开源效率与全球开发者心智份额上已形成系统性领先。</ITEM>
+    <ITEM category="全球映射">Kimi K2.6以1T参数MoE（激活32B）开源，支持13小时音视频连续编码与5天自主Agent运行，在基准上与GPT-5.4/Claude Opus 4.6持平或略优，进一步巩固中国模型在全球推理侧的统治力。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">Way More than a billion（回复关于人形机器人数量）。（❤️ 12220 | 💬 1820）</TWEET>
+    <TWEET account="ylecun" role="Meta首席AI科学家">训练昂贵但其产物是一种共同基础设施，这正是开放的理由。基础设施软件想要开放。基础设施需要开放标准。（❤️ 228 | 💬 6）</TWEET>
+    <TWEET account="theinformation" role="科技媒体">AWS GPU短缺正给Together、Runpod和Nebius等公司赢得下一代AI初创公司的机会。（❤️ 94 | 💬 6）</TWEET>
+    <TWEET account="dotey" role="AI观察者">FDE就是模型公司的阳谋：先让人帮企业落地Agent卖Token，把企业知识沉淀成Skills，然后把这些Skills内化到模型。未来各行各业都要被AI卷了。（❤️ 104 | 💬 52）</TWEET>
+    <TWEET account="techcrunch" role="科技媒体">Netflix以5.87亿美元收购Ben Affleck的AI电影制作初创公司。（❤️ 23 | 💬 11）</TWEET>
+    <TWEET account="tualatrix" role="独立开发者">用过各种TypeScript/Rust/Python写的Agent，现在用上自己用Swift写的Agent了，就像第一次用这类工具一样开心。Swift纯度98.6%。（❤️ 50 | 💬 26）</TWEET>
+    <TWEET account="rauchg" role="Vercel创始人">顺便说一句，我非常看好网络安全作为超级智能的最佳基准之一。（❤️ 43 | 💬 9）</TWEET>
+    <TWEET account="huggingface" role="开源AI平台">本周二加入我们学习Local AI，从软件到硬件。我们将有硬件设置、本地推理演示以及模型选择、压缩和REAPs的讨论。（❤️ 240 | 💬 22）</TWEET>
+    <TWEET account="c_valenzuelab" role="AI研究者">视频模型大约落后语言模型12个月。下一代前沿像素模型对媒体的影响将类似于Fable/Kimi 3/Sol对语言的影响。（❤️ 93 | 💬 15）</TWEET>
+  </TOP_PICKS>
+</REPORT>
