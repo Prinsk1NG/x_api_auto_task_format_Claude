@@ -1,0 +1,76 @@
+<REPORT>
+  <COVER title="手机AGI落地：开源成AI最重要力量" prompt="Minimalist technology visualization in crisp white and cyan palette. A sleek smartphone floats centrally against a clean gradient background, emitting precise neural node streams and data pathways that coalesce into an abstract AGI silhouette orchestrating travel icons, website wireframes, reservation calendars and email drafts as floating geometric elements. Subtle particle connections link the nodes with organic yet technical precision. Cinematic side lighting with soft volumetric glows creates depth and focus on interaction points. Ultra-sharp 8K resolution, vector precision mixed with faint data-flow textures, emphasizing clarity, efficiency and neural minimalism without any neon or cyberpunk elements." insight="AI从工具升级为手机端个人AGI，开源模型采用率激增并被定位为无需监管的核心战略。"/>
+  <PULSE>硅谷今日核心叙事转向ChatGPT Work在手机端实现端到端复杂任务，成为个人AGI的实用标志，同时开源被确立为美国AI最重要、无需许可的力量。</PULSE>
+
+  <THEMES>
+    <THEME type="advance" emoji="🚀">
+      <TITLE>ChatGPT Work演进为个人AGI：手机端复杂任务全流程执行</TITLE>
+      <NARRATIVE>基于今日sama和gdb的真实演示，用户可从手机发出利用全部聊天历史的复杂指令，AI自主完成旅行规划、构建全栈协调网站、达成共识后预订并起草Gmail邮件，这标志着既有移动Agent叙事的核心瓶颈被突破，从需保持电脑开启转向真正的云端个人AGI可用性。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">ChatGPT Work非常出色，“Work”一词其实低估了它。我从手机发出指令：用我所有聊天历史为8个朋友策划长周末旅行，想出最佳三个方案，建一个全栈网站让9人协调各地活动并决定行程，达成共识后完成预订，并用Gmail起草可直接发给朋友的邮件。它就成功完成了。❤️ 12336 | 💬 1202</TWEET>
+      <TWEET account="gdb" role="OpenAI团队">ChatGPT正日益成为你的个人AGI。❤️ 1141 | 💬 107</TWEET>
+      <CONSENSUS>行业已形成共识：云端运行的ChatGPT Work让自然语言指令成为主流接口，AI不再需要用户适应设备，而是设备适应用户。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论这类多步真实世界任务的长期可靠性，以及在高频使用下的token成本与隐私边界。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>美国开源AI公司成最重要力量：无需联邦许可</TITLE>
+      <NARRATIVE>对比过去一周闭源实验室推动监管限制开源的叙事，今日chamath明确宣称“AI领域最重要的公司是一家美国开源公司，无需任何联邦许可”，ylecun以Android开源胜利为例进一步强化，这一转向凸显监管俘获风险下，开源已成为硅谷主流防御与增长路径。</NARRATIVE>
+      <TWEET account="chamath" role="Social Capital CEO">AI领域最重要的公司是一家美国开源公司。不需要任何联邦许可。❤️ 2687 | 💬 103</TWEET>
+      <TWEET account="ylecun" role="Meta首席AI科学家">无论你如何定义AGI：1.它的出现不会是单一事件；4.率先跨越的公司将依赖尚未存在的开放研究和开源。Android正是因为开源才战胜iOS。❤️ 77 | 💬 3</TWEET>
+      <CONSENSUS>最新共识是开源权重模型的成本与模块化优势已不可逆转，美国开源公司将在无监管壁垒下主导长期创新。</CONSENSUS>
+      <DIVERGENCE>当前争论焦点在于开源是否能在最前沿的复杂推理与安全对齐上持续追赶闭源实验室。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>对“新型计算机”的渴望：AI驱动自然接口范式</TITLE>
+      <NARRATIVE>今日sama回应称“感觉很大，我想拥有一种新的计算机”，与gdb对GPT-Live和语音体验的强调形成呼应，这一新叙事试图解决人类长期扭曲自己去适应屏幕和打字的不自然问题，定义AI不再是运行在现有设备上的App，而是重塑计算本身成为连续、自然、个人AGI级伙伴。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">同意，这感觉很重要，我想拥有一种新的计算机。❤️ 1724 | 💬 231</TWEET>
+      <TWEET account="gdb" role="OpenAI团队">用GPT-Live获得完全不同的阅读体验。❤️ 1146 | 💬 87</TWEET>
+      <OUTLOOK>未来6-12个月，这一叙事将加速推动专用AI硬件、AR眼镜和持久上下文设备的创新，现有笔记本和手机或被重新定义为外设。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于构建新型人机接口基础设施、连续多模态交互协议以及将现有AI模型深度嵌入物理计算设备的初创公司。</OPPORTUNITY>
+      <RISK>短期内仍可能停留在概念阶段，硬件能耗、连续上下文的工程复杂度和隐私合规构成真实硬伤，并非所有用户都愿意放弃熟悉的设备范式。</RISK>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>开放权重模型Token占比跃升至30%：采用曲线里程碑</TITLE>
+      <NARRATIVE>togethercompute今日指出开放模型Token使用量从一年前的10%上升至30%，这一数据里程碑证明成本驱动下开放+模块化已实质性赢得规模扩张，标志着行业从闭源主导转向混合开放生态的不可逆分水岭。</NARRATIVE>
+      <TWEET account="togethercompute" role="Together AI">开放模型从一年前占AI Token的10%上升到30%。行业对开放权重未来的争论已有数据答案：开放+模块化在成本上获胜，而成本解锁规模。❤️ 36 | 💬 1</TWEET>
+      <CONSENSUS>市场一致解读为成本敏感任务正大规模迁移至开源，开放模型商业模式已验证成熟。</CONSENSUS>
+      <DIVERGENCE>里程碑后仍存争议：开源是否能在最难的Agent长时程任务和前沿基准上保持竞争力，而非仅在性价比场景。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Fable 5与Opus 5实际使用转向：速度、成本与“味道”优先</TITLE>
+      <NARRATIVE>今日bindureddy对比显示Fable 5更快更便宜且任务完成更高效，而Opus 5因过度对齐变得风险厌恶且耗费更多轮次；oran_ge进一步指出尽管Opus 5指标占优但“味道不对”，用户偏好转向Kimi和Grok，这代表模型对齐与基准叙事发生显著转向，人类偏好和实际结果正在超越纯指标。</NARRATIVE>
+      <TWEET account="bindureddy" role="Abacus.AI CEO">Opus 5 vs Fable 5：Fable 5快得多，Opus 5被对齐得过于风险厌恶，完成任务需要更多轮次。总体上Fable 5更快更便宜。在Abacus AI Agent的Max Mode上试试。❤️ 624 | 💬 53</TWEET>
+      <CONSENSUS>最新共识是实际部署中，速度、成本与用户感知“味道”已变得比纯基准得分更重要。</CONSENSUS>
+      <DIVERGENCE>激烈争论在于当前对齐方法是否已失败，以及RLVR中人类偏好权重是否需要彻底重新设计。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">OpenAI完成1220亿美元战略融资，投资方包括软银、a16z、亚马逊、英伟达、微软，投后估值8520亿美元。</ITEM>
+    <ITEM category="投融资快讯">Mistral AI融资6.4亿美元，估值达到60亿美元，由General Catalyst、a16z、英伟达等领投。</ITEM>
+    <ITEM category="投融资快讯">AlphaSense完成6.5亿美元融资，估值40亿美元，投资方包括Viking Global、软银、高盛。</ITEM>
+    <ITEM category="VC views">a16z持续重注工业AI与专用推理芯片，强调Atoms机器人项目和Etched ASIC将重塑物理世界生产力，Travis Kalanick加入董事会。</ITEM>
+    <ITEM category="VC views">The Information透露Anthropic正探索硅谷最严苛的员工股票出售政策，为即将到来的IPO做准备，反映出对估值与控制权的平衡考量。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">Kimi K3在Web工程基准上领先Fable 5，被视为高效实用模型；DeepSeek以极低开发成本（约600万美元）和每百万token 0.55美元的价格提供接近前沿性能，但美国政府基准仍将其定性为非Frontier级别。</ITEM>
+    <ITEM category="全球映射">中国开源模型的性价比正迫使Chamath等美国大佬警告，闭源高价模型（26-56美元/百万token）若主导将导致本土企业成本劣势甚至破产，开源已成为全球竞争的结构性解。</ITEM>
+    <ITEM category="中国 AI 评价">月之暗面Kimi与DeepSeek的开源策略被视为克制且可持续，其估值已快速攀升至数百亿美元，证明高效实用路线在实际落地中已获得开发者与企业广泛采用。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="gdb" role="OpenAI团队">把ChatGPT投入工作。❤️ 672 | 💬 63</TWEET>
+    <TWEET account="ylecun" role="Meta首席AI科学家">无论AGI如何定义，它的出现不会是单一事件；率先跨越的公司将依赖尚未存在的开放研究和开源。Android因开源而获胜。❤️ 77 | 💬 3</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">我用scriptc将Vercel CLI的TypeScript编译为原生二进制。结果二进制大小仅1.28MB，启动开销1.5ms，由GLM 5.2 Fast翻译代码，部署完美。❤️ 90 | 💬 14</TWEET>
+    <TWEET account="theinformation" role="The Information">Anthropic正探索硅谷最严苛的员工股票出售政策之一，为IPO做准备。❤️ 8 | 💬 2</TWEET>
+    <TWEET account="a16z" role="a16z">你家附近的面包店正在利用AI。Charts of the Week。❤️ 96 | 💬 14</TWEET>
+    <TWEET account="karpathy" role="前OpenAI/现Anthropic科学家">我以为宣布这种事情的方式不是改bio，而是发我刚和团队分享的那篇10段长文？❤️ 2936 | 💬 117</TWEET>
+    <TWEET account="togethercompute" role="Together AI">开放模型Token占比从10%升至30%。开放+模块化在成本上获胜，成本解锁规模。❤️ 36 | 💬 1</TWEET>
+    <TWEET account="huggingface" role="Hugging Face">释放参数。❤️ 283 | 💬 11</TWEET>
+    <TWEET account="paulg" role="Y Combinator创始人">我们有多种理由相信后天比先天更重要，却几乎没有理由相信相反情况，所以我们高估了它的影响。但孩子们的个性其实是天生的。❤️ 1193 | 💬 133</TWEET>
+  </TOP_PICKS>
+</REPORT>
