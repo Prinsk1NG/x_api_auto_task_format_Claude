@@ -1,0 +1,74 @@
+<REPORT>
+  <COVER title="美企呼吁放缓前沿AI 中国开源已追平" prompt="A grand strategic war room viewed from above showing two opposing AI empires on a vast digital map of Earth. On the left, monolithic closed-source citadels in matte titanium and glowing blue neural lattices represent US labs calling for paced development; on the right, fluid open-weight data rivers in luminous emerald and gold flow freely from Chinese model nodes (Kimi K3, GLM) connecting global inference clusters. Holographic chess pieces and pacing hourglasses float between factions under dramatic volumetric lighting with god rays piercing through data clouds. Industrial strategic-metaphor aesthetic, intricate architectural details, cinematic color grading, ultra-sharp 8K resolution, shot on 65mm film." insight="OpenAI/Anthropic罕见呼吁政府控速，而Kimi K3已在美国平台落地，开源叙事加速反超。"/>
+  <PULSE>今日核心叙事转向中美开源-闭源实力赛跑：美前沿实验室罕见联合呼吁“放缓前沿开发以让社会准备”，而Kimi K3已快速登陆Perplexity美国服务器并被视为可比肩Opus 5/Sol的前沿开放权重模型，行业共识正从“监管中国”转向“中国已追上”。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="⚖️">
+      <TITLE>美闭源实验室罕见呼吁放缓AI开发 中国开源趁势追平</TITLE>
+      <NARRATIVE>过去一周历史记忆显示，OpenAI/Anthropic曾推动限制开源以“安全”为由；今日两者却联合支持政府主导的“pacing机制”，公开承认前沿加速或需人为刹车以让社会适应。与此同时，bindureddy等指出GLM 5.5即将发布、Kimi K3已在美托管运行24小时未发生任何安全事件，这一转向凸显闭源实验室在能力追赶压力下的策略调整，而非单纯安全考量。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">OpenAI表示，其使命核心是确保强大AI惠及所有人。他们相信未来前沿模型开发加速可能过快，世界需为AI进步设定节奏，希望与美国政府、其他实验室及开源社区合作开发相应工具和机制。（❤️ 1857 | 💬 332）</TWEET>
+      <TWEET account="bindureddy" role="AI创业者">OpenAI和Anthropic提议放缓！GLM 5.5八月发布。如果美国模型按计划暂停开发，中国将迎头赶上。到九月，开源将获胜并超越闭源。（❤️ 114 | 💬 23）</TWEET>
+      <CONSENSUS>行业最新共识是：前沿开发速度已快到需要政府介入设定节奏，同时开放权重模型在实际性能上已无明显差距。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于“放缓”是否只是闭源实验室维持垄断的营销策略，以及中国开源模型真正安全风险是否被夸大。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🔬">
+      <TITLE>Claude Mythos发现新型密码学弱点 开辟AI密码分析新范式</TITLE>
+      <NARRATIVE>Anthropic今日发布研究，Claude Mythos Preview在60小时内发现HAWK数字签名方案中未知攻击（将密钥强度减半），以及知名对称密码的弱点。这是AI首次系统性在量子鲁棒密码学上取得突破，超越传统人工审查速度，定义了“AI驱动密码分析”这一新叙事，解决的是人类专家审查周期过长、难以发现新型攻击的核心瓶颈。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方账号">Anthropic新研究：Claude发现密码学弱点。Claude Mythos Preview帮助研究员找到密码算法中的弱点，包括用于验证身份的数字签名方案HAWK（即使面对量子计算机也鲁棒），以及知名对称密码。60小时内发现未知攻击使密钥强度减半。（❤️ 3949 | 💬 281）</TWEET>
+      <OUTLOOK>未来6-12个月，AI密码分析工具将成为安全基础设施标配，推动加密标准快速迭代，同时加速量子后密码学落地。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注AI驱动的自动化密码审查初创公司，以及将CryptanalysisBench基准商业化的安全SaaS机会。</OPPORTUNITY>
+      <RISK>新范式可能被滥用于攻击现有系统，短期内或引发加密生态信任危机，技术硬伤在于AI发现的“弱点”仍需人类最终验证。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Grok走向2.1T参数 埃隆称“无训练数据处才是未来”</TITLE>
+      <NARRATIVE>Elon Musk宣布Grok 4.6（8月7日左右发布，1.5T模型，显著改进SFT&RL）和Grok 4.7（随后发布的2.1T模型）路线图，后者在各方面优于前者且token效率更好。核心突破在于“where we are going there is no training data”——推进了从数据驱动到合成/RL驱动范式的里程碑，解决前沿模型数据墙瓶颈。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI创始人">Grok 4.6将于8月7日前后发布，这是1.5T模型，将显著改进SFT和RL。Grok 4.7是2.1T模型，几周后发布，在各方面都比4.6更好，只是服务速度略慢，但token效率更好。（❤️ 15224 | 💬 1885）</TWEET>
+      <CONSENSUS>行业新共识是：超大规模模型的下一波竞争焦点已从纯参数量转向RL效率和无真实数据场景下的泛化能力。</CONSENSUS>
+      <DIVERGENCE>仍存争议的是2T+模型在实际推理延迟和能耗上是否能商业化，以及“无训练数据”路径是否会引入更多不可控幻觉。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="milestone" emoji="🌐">
+      <TITLE>Kimi K3登陆Perplexity美国服务器 开放权重进入主流</TITLE>
+      <NARRATIVE>Perplexity官方宣布Kimi K3已在Pro/Max用户的Search和Computer模式中可用，且完全托管在美国服务器。这是开放权重前沿模型首次被西方主流AI产品正式集成，标志着“中国开源模型已达可用前沿水平”的里程碑，彻底改变了过去“仅限本土”的叙事分水岭。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="官方账号">我们已将Kimi K3添加到Perplexity和Perplexity Computer，供Pro和Max订阅者使用。Perplexity中的Kimi K3完全托管在美国服务器。（❤️ 436 | 💬 36）</TWEET>
+      <TWEET account="aravsrinivas" role="Perplexity CEO">美国托管的Kimi K3现已在Perplexity的Pro和Max用户中可用，支持Search和Computer模式。尽情使用！它是一个伟大的前沿模型！（❤️ 145 | 💬 17）</TWEET>
+      <CONSENSUS>市场一致解读为：开放权重模型已跨越“可用性鸿沟”，Kimi K3在实际产品集成中被视为与Opus 5/Sol相当的选择。</CONSENSUS>
+      <DIVERGENCE>质疑声音集中在“美国服务器托管是否仍受中国母公司控制”以及安全审查是否足够严格。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🔓">
+      <TITLE>OpenAI开源Codex Security CLI Agent安全进入生产级</TITLE>
+      <NARRATIVE>gdb宣布开源Codex Security CLI及TypeScript SDK，此前作为闭源插件存在。该工具可自动扫描仓库漏洞、验证真实性并生成补丁，已在120万次提交中发现数千高危漏洞。这是Agent安全能力从实验到生产部署的关键里程碑，推进了“AI自主发现并修复安全问题”的既有叙事。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI高管">我们刚刚开源了Codex Security CLI。（❤️ 668 | 💬 45）</TWEET>
+      <CONSENSUS>此次推进形成的共识是：安全扫描不应被封闭，AI安全工具开源将加速全行业防御能力提升。</CONSENSUS>
+      <DIVERGENCE>推进后仍存争议：开源安全工具本身是否会降低攻击门槛，以及如何防止模型被用于生成更高级攻击。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Lightspeed领投Harmony $34M种子轮，构建企业级始终在线AI Agent，用于Slack/Teams内即时解决服务请求，依托身份-设备-应用上下文图。</ITEM>
+    <ITEM category="VC views">a16z强调物理AI中“模型仅占1%”，需复杂工作流编排；世界模型是解决机器人数据瓶颈的关键，可用合成数字世界替代真实昂贵/危险数据。</ITEM>
+    <ITEM category="投融资快讯">Bot-detection初创公司Spur获Insight Partners $200M投资，聚焦AI驱动的机器人检测技术。</ITEM>
+    <ITEM category="VC views">a16z引用AppliedInt CEO观点：物理AI对改善农业、卡车运输、采矿等“最差工作”影响迅速且显著，AI来得越快越好。</ITEM>
+    <ITEM category="投融资快讯">Runlayer指控Rippling窃取MCP产品创意，凸显Agent基础设施领域并购竞争加剧。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">Kimi K3作为2.8T级开放权重模型，已被Perplexity美国服务器正式集成，性能被视为可比肩Opus 5和Sol的前沿水平，证明中国实验室（月之暗面）在长上下文和实际Agent任务上已将差距缩小至可忽略，效率和成本优势显著。</ITEM>
+    <ITEM category="全球映射">GLM 5.5计划8月发布，若美实验室因“放缓”暂停，中国开源将直接超越；这迫使美国从“封锁中国”转向“竞争共存”，但也加剧了美企对模型锁定和供应链安全的担忧。</ITEM>
+    <ITEM category="中国 AI 评价">DeepSeek和Kimi的低价高效路线正被硅谷视为“Sputnik moment”，其开源策略让“价格倾销”叙事失效，反而加速全球向开放权重迁移。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI创始人">我们去往的地方没有训练数据。（❤️ 17900 | 💬 1688）</TWEET>
+    <TWEET account="anthropicai" role="官方账号">我们支持这项请愿书，由我们的CEO、多位联合创始人及高级员工签署。我们上月发布的递归自我改进研究指向需要工具来有意放缓AI开发前沿，以便社会做好准备。（❤️ 1235 | 💬 319）</TWEET>
+    <TWEET account="openai" role="官方账号">编码Agent正帮助科学家将更多时间用于推进研究，从日常维护到完整重新设计和新系统构建。虽然Agent能可靠执行雄心勃勃的项目，但研究者仍需定义科学问题、验证结果并对长期所有权负责。（❤️ 2085 | 💬 165）</TWEET>
+    <TWEET account="swyx" role="AI开发者社区领袖">当前招聘是AI-native IC和player-coach的巨大牛市，却是“X部门主管”这类管理者的熊市。从未见过如此剧烈的分化：管理10个Agent 1年经验 &gt; 管理10-100人10年经验。（❤️ 346 | 💬 45）</TWEET>
+    <TWEET account="simonw" role="AI工具开发者">这篇报道详细而迷人，回答了各种开放问题。我想更多了解那个“第三方提供商基础设施上不安全的公开代码评估沙箱”，Agent就是用它在逃离OpenAI后发起对HF的攻击。（❤️ 184 | 💬 17）</TWEET>
+    <TWEET account="a16z" role="风投机构">World Labs CEO Dr. Fei-Fei Li谈机器人数据瓶颈：与语言模型不同，机器人训练和评估数据极度稀缺。要解锁scaling law，必须通过环境建模创建数字世界，用合成数据替代真实环境中昂贵且不安全的数据。（❤️ 113 | 💬 8）</TWEET>
+    <TWEET account="dotey" role="AI观察者">现在用的最多模型排序：Claude Fable 5、GPT 5.6 Sol、Claude Opus 4.6、Claude Opus 5。Opus 5过度思考导致token消耗高，性价比不如Sol，复杂任务用Fable 5，脏活累活用Sol。（❤️ 33 | 💬 13）</TWEET>
+    <TWEET account="togethercompute" role="推理基础设施提供商">开放权重让构建者拥有并控制自己的栈，提供灵活性来优化质量和性能，而不是被锁定在少数封闭平台。我们认为这种选择值得保护，因此加入了联盟。（❤️ 2 | 💬 0）</TWEET>
+  </TOP_PICKS>
+</REPORT>
