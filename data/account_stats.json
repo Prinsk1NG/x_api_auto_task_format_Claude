@@ -7,9 +7,9 @@
   },
   "elonmusk": {
     "fetched_days": 0,
-    "total_tweets": 641,
-    "used_in_reports": 90,
-    "last_active": "2026-08-03"
+    "total_tweets": 646,
+    "used_in_reports": 91,
+    "last_active": "2026-08-05"
   },
   "xai": {
     "fetched_days": 0,
@@ -37,15 +37,15 @@
   },
   "anthropicai": {
     "fetched_days": 0,
-    "total_tweets": 123,
-    "used_in_reports": 45,
-    "last_active": "2026-07-31"
+    "total_tweets": 124,
+    "used_in_reports": 46,
+    "last_active": "2026-08-05"
   },
   "paulg": {
     "fetched_days": 0,
-    "total_tweets": 262,
-    "used_in_reports": 27,
-    "last_active": "2026-08-03"
+    "total_tweets": 265,
+    "used_in_reports": 28,
+    "last_active": "2026-08-05"
   },
   "starks_arq": {
     "fetched_days": 0,
@@ -73,9 +73,9 @@
   },
   "a16z": {
     "fetched_days": 0,
-    "total_tweets": 163,
-    "used_in_reports": 36,
-    "last_active": "2026-08-03"
+    "total_tweets": 166,
+    "used_in_reports": 37,
+    "last_active": "2026-08-05"
   },
   "bchesky": {
     "fetched_days": 0,
@@ -85,9 +85,9 @@
   },
   "dotey": {
     "fetched_days": 0,
-    "total_tweets": 286,
+    "total_tweets": 288,
     "used_in_reports": 65,
-    "last_active": "2026-08-02"
+    "last_active": "2026-08-05"
   },
   "mark_k": {
     "fetched_days": 0,
@@ -103,15 +103,15 @@
   },
   "chamath": {
     "fetched_days": 0,
-    "total_tweets": 168,
-    "used_in_reports": 44,
-    "last_active": "2026-08-03"
+    "total_tweets": 171,
+    "used_in_reports": 45,
+    "last_active": "2026-08-05"
   },
   "nvidia": {
     "fetched_days": 0,
-    "total_tweets": 210,
-    "used_in_reports": 55,
-    "last_active": "2026-08-01"
+    "total_tweets": 213,
+    "used_in_reports": 56,
+    "last_active": "2026-08-05"
   },
   "matthewberman": {
     "fetched_days": 0,
@@ -133,15 +133,15 @@
   },
   "huggingface": {
     "fetched_days": 0,
-    "total_tweets": 23,
+    "total_tweets": 24,
     "used_in_reports": 5,
-    "last_active": "2026-08-02"
+    "last_active": "2026-08-05"
   },
   "simonw": {
     "fetched_days": 0,
-    "total_tweets": 286,
-    "used_in_reports": 55,
-    "last_active": "2026-08-03"
+    "total_tweets": 289,
+    "used_in_reports": 56,
+    "last_active": "2026-08-05"
   },
   "artificialanlys": {
     "fetched_days": 0,
@@ -151,9 +151,9 @@
   },
   "bindureddy": {
     "fetched_days": 0,
-    "total_tweets": 250,
-    "used_in_reports": 90,
-    "last_active": "2026-08-03"
+    "total_tweets": 253,
+    "used_in_reports": 91,
+    "last_active": "2026-08-05"
   },
   "sunnykgupta": {
     "fetched_days": 0,
@@ -187,9 +187,9 @@
   },
   "vllm_project": {
     "fetched_days": 0,
-    "total_tweets": 38,
-    "used_in_reports": 7,
-    "last_active": "2026-07-30"
+    "total_tweets": 40,
+    "used_in_reports": 8,
+    "last_active": "2026-08-05"
   },
   "melaniajtrump": {
     "fetched_days": 0,
@@ -205,9 +205,9 @@
   },
   "swyx": {
     "fetched_days": 0,
-    "total_tweets": 334,
+    "total_tweets": 337,
     "used_in_reports": 38,
-    "last_active": "2026-08-03"
+    "last_active": "2026-08-05"
   },
   "covacut": {
     "fetched_days": 0,
@@ -331,9 +331,9 @@
   },
   "_akhaliq": {
     "fetched_days": 0,
-    "total_tweets": 152,
+    "total_tweets": 154,
     "used_in_reports": 15,
-    "last_active": "2026-08-01"
+    "last_active": "2026-08-05"
   },
   "simpsoka": {
     "fetched_days": 0,
@@ -367,9 +367,9 @@
   },
   "garymarcus": {
     "fetched_days": 0,
-    "total_tweets": 299,
-    "used_in_reports": 45,
-    "last_active": "2026-08-03"
+    "total_tweets": 302,
+    "used_in_reports": 46,
+    "last_active": "2026-08-05"
   },
   "verge": {
     "fetched_days": 0,
@@ -391,9 +391,9 @@
   },
   "oran_ge": {
     "fetched_days": 0,
-    "total_tweets": 250,
+    "total_tweets": 252,
     "used_in_reports": 28,
-    "last_active": "2026-08-02"
+    "last_active": "2026-08-05"
   },
   "donnado18266628": {
     "fetched_days": 0,
@@ -475,9 +475,9 @@
   },
   "jeffdean": {
     "fetched_days": 0,
-    "total_tweets": 73,
+    "total_tweets": 74,
     "used_in_reports": 7,
-    "last_active": "2026-08-02"
+    "last_active": "2026-08-05"
   },
   "petergyang": {
     "fetched_days": 0,
@@ -505,9 +505,9 @@
   },
   "techcrunch": {
     "fetched_days": 0,
-    "total_tweets": 316,
+    "total_tweets": 319,
     "used_in_reports": 28,
-    "last_active": "2026-08-03"
+    "last_active": "2026-08-05"
   },
   "thegenioo": {
     "fetched_days": 0,
@@ -619,9 +619,9 @@
   },
   "theinformation": {
     "fetched_days": 0,
-    "total_tweets": 320,
-    "used_in_reports": 62,
-    "last_active": "2026-08-03"
+    "total_tweets": 323,
+    "used_in_reports": 63,
+    "last_active": "2026-08-05"
   },
   "i_amshiti": {
     "fetched_days": 0,
@@ -685,9 +685,9 @@
   },
   "vista8": {
     "fetched_days": 0,
-    "total_tweets": 280,
+    "total_tweets": 283,
     "used_in_reports": 36,
-    "last_active": "2026-08-02"
+    "last_active": "2026-08-05"
   },
   "linmu_mu_": {
     "fetched_days": 0,
@@ -949,9 +949,9 @@
   },
   "openai": {
     "fetched_days": 0,
-    "total_tweets": 196,
-    "used_in_reports": 52,
-    "last_active": "2026-07-31"
+    "total_tweets": 197,
+    "used_in_reports": 53,
+    "last_active": "2026-08-05"
   },
   "samsheffer": {
     "fetched_days": 0,
@@ -1027,9 +1027,9 @@
   },
   "tualatrix": {
     "fetched_days": 0,
-    "total_tweets": 275,
+    "total_tweets": 278,
     "used_in_reports": 21,
-    "last_active": "2026-08-03"
+    "last_active": "2026-08-05"
   },
   "badlogicgames": {
     "fetched_days": 0,
@@ -1159,9 +1159,9 @@
   },
   "sama": {
     "fetched_days": 0,
-    "total_tweets": 213,
-    "used_in_reports": 63,
-    "last_active": "2026-08-02"
+    "total_tweets": 214,
+    "used_in_reports": 64,
+    "last_active": "2026-08-05"
   },
   "hosseeb": {
     "fetched_days": 0,
@@ -1231,9 +1231,9 @@
   },
   "lightspeedvp": {
     "fetched_days": 0,
-    "total_tweets": 135,
+    "total_tweets": 138,
     "used_in_reports": 18,
-    "last_active": "2026-07-31"
+    "last_active": "2026-08-05"
   },
   "milmilebattery": {
     "fetched_days": 0,
@@ -1369,9 +1369,9 @@
   },
   "rauchg": {
     "fetched_days": 0,
-    "total_tweets": 231,
-    "used_in_reports": 51,
-    "last_active": "2026-08-03"
+    "total_tweets": 232,
+    "used_in_reports": 52,
+    "last_active": "2026-08-05"
   },
   "rowancheung": {
     "fetched_days": 0,
@@ -1513,9 +1513,9 @@
   },
   "mistralai": {
     "fetched_days": 0,
-    "total_tweets": 13,
+    "total_tweets": 14,
     "used_in_reports": 4,
-    "last_active": "2026-07-09"
+    "last_active": "2026-08-05"
   },
   "togethercompute": {
     "fetched_days": 0,
@@ -1531,9 +1531,9 @@
   },
   "id_aa_carmack": {
     "fetched_days": 0,
-    "total_tweets": 34,
+    "total_tweets": 35,
     "used_in_reports": 5,
-    "last_active": "2026-07-24"
+    "last_active": "2026-08-05"
   },
   "soumithchintala": {
     "fetched_days": 0,
@@ -1549,9 +1549,9 @@
   },
   "gdb": {
     "fetched_days": 0,
-    "total_tweets": 329,
-    "used_in_reports": 81,
-    "last_active": "2026-08-03"
+    "total_tweets": 331,
+    "used_in_reports": 82,
+    "last_active": "2026-08-05"
   },
   "johnschulman2": {
     "fetched_days": 0,
@@ -1561,9 +1561,9 @@
   },
   "cohere": {
     "fetched_days": 0,
-    "total_tweets": 36,
+    "total_tweets": 37,
     "used_in_reports": 2,
-    "last_active": "2026-07-31"
+    "last_active": "2026-08-05"
   },
   "sequoia": {
     "fetched_days": 0,
@@ -1585,9 +1585,9 @@
   },
   "ylecun": {
     "fetched_days": 0,
-    "total_tweets": 91,
-    "used_in_reports": 12,
-    "last_active": "2026-08-02"
+    "total_tweets": 96,
+    "used_in_reports": 13,
+    "last_active": "2026-08-05"
   },
   "drjimfan": {
     "fetched_days": 0,
@@ -1597,15 +1597,15 @@
   },
   "packym": {
     "fetched_days": 0,
-    "total_tweets": 86,
+    "total_tweets": 87,
     "used_in_reports": 4,
-    "last_active": "2026-08-03"
+    "last_active": "2026-08-05"
   },
   "kevinweil": {
     "fetched_days": 0,
-    "total_tweets": 11,
+    "total_tweets": 12,
     "used_in_reports": 0,
-    "last_active": "2026-07-23"
+    "last_active": "2026-08-05"
   },
   "sundarpichai": {
     "fetched_days": 0,
@@ -1615,20 +1615,20 @@
   },
   "aravsrinivas": {
     "fetched_days": 0,
-    "total_tweets": 40,
+    "total_tweets": 41,
     "used_in_reports": 11,
-    "last_active": "2026-08-02"
+    "last_active": "2026-08-05"
   },
   "op7418": {
     "fetched_days": 0,
-    "total_tweets": 54,
+    "total_tweets": 55,
     "used_in_reports": 5,
-    "last_active": "2026-08-03"
+    "last_active": "2026-08-05"
   },
   "c_valenzuelab": {
     "fetched_days": 0,
-    "total_tweets": 27,
+    "total_tweets": 28,
     "used_in_reports": 5,
-    "last_active": "2026-08-01"
+    "last_active": "2026-08-05"
   }
 }
