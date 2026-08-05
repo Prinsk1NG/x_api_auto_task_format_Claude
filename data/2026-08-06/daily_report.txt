@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="DeepMind权力洗牌：科学AGI时代开启" prompt="Cinematic strategic map of Silicon Valley's AI landscape undergoing tectonic reorganization, with a grand futuristic laboratory complex splitting into two architectural wings: one soaring tower focused on long-term scientific discovery under a wise chairman figure holding symbolic blueprints for disease-curing labs, the other path leading to a vibrant new startup campus with neural pathways and engineering collaborators departing a historic Google campus. Use grand architectural metaphors with glowing holographic strategy overlays, chess-like positioning of major players, volumetric cinematic lighting, metallic and glass materiality, dramatic dawn lighting symbolizing new beginnings, hyper-detailed 8K resolution, strategic depth and forward momentum --ar 16:9" insight="DeepMind高层剧变与Meta Muse Code发布，标志AI从规模竞赛转向科学突破与长周期工程。"/>
+  <PULSE>今日硅谷叙事核心转向顶级实验室领导层重组、长时域编码Agent实战突破以及世界模型在物理AI中的强势回归。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>DeepMind领导层大洗牌：Demis升主席、Jeff Dean离职创业</TITLE>
+      <NARRATIVE>今日多条推文集中披露Google DeepMind核心人事变动：Demis Hassabis升任主席兼Alphabet首席科学家，专注长期AGI战略与Isomorphic Labs治愈疾病工作；Jeff Dean结束27年Google生涯，与Sanjay Ghemawat、Oriol Vinyals等人创立DiscoLoopAI，Google Cloud将成为创始投资人。这构成行业分水岭，标志顶级AI人才从单一巨头向独立科学创业流动，重新定义实验室与创业边界。</NARRATIVE>
+      <TWEET account="demishassabis" role="Google DeepMind主席">我一生致力于AGI，在这个关键时刻出任Google DeepMind主席和Alphabet首席科学家，将聚焦长期战略、加速科学突破，并继续在Isomorphic Labs推动治愈疾病。Koraykv将升任SVP领导GDM，我对下一章充满信心！(❤️ 14525 | 💬 742)</TWEET>
+      <TWEET account="sundarpichai" role="Google CEO">感谢Jeff Dean 27年贡献，他将与Sanjay Ghemawat创立公益公司DiscoLoopAI，Google将作为创始投资人和云伙伴支持。Demis专注AGI与科学发现，Koraykv接管GDM模型开发与Gemini团队。(❤️ 4954 | 💬 296)</TWEET>
+      <CONSENSUS>顶级AI人才流动与专注科学突破已成为新行业标准，实验室不再是唯一归宿。</CONSENSUS>
+      <DIVERGENCE>新创公司能否快速聚集算力与数据，与Google/DeepMind持续产出突破形成竞争，仍存巨大不确定性。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Meta发布Muse Code：长时域软件工程Agent实现24小时自主优化</TITLE>
+      <NARRATIVE>aiatmeta今日连发三条详细介绍Muse Code（beta），这是基于Muse Spark 1.2模型的终端编码Agent，专为大型仓库多文件复杂变更设计，支持持久化子Agent，可在NVIDIA Hopper GPU上进行超过1000次工具调用、持续24小时的GPU kernel迭代优化，性能超越baseline Triton实现。这是既有“Agentic编码”叙事的深度推进，里程碑在于从短任务转向真正长周期自主工程。</NARRATIVE>
+      <TWEET account="aiatmeta" role="Meta AI">我们推出Muse Code（beta），由Muse Spark 1.2驱动的终端编码Agent，针对长时域软件工程，能规划、实现并验证大型仓库复杂变更，通过持久化子Agent更快、更准解决难题。(❤️ 1740 | 💬 100)</TWEET>
+      <CONSENSUS>长时域、多文件自主编码Agent已从概念进入可生产部署阶段，Meta在工程工具层实现领先。</CONSENSUS>
+      <DIVERGENCE>如何在企业合规模型中平衡自主性与可审计性，以及与现有CI/CD系统深度集成，仍是未解争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>世界模型重回物理AI核心：预测触觉与真实世界交互</TITLE>
+      <NARRATIVE>ylecun与nvidia今日推文形成合力，强调世界模型（而非纯LLM）才是物理AI与机器人关键，能预测包含触觉、本体感受和力的交互。NVIDIA Cosmos被描述为“教机器人做梦”，帮助物理AI在行动前模拟未来。这是全新叙事，试图解决LLM缺乏真实世界 grounding 的底层问题，推动从语言生成向具身预测范式转变。</NARRATIVE>
+      <TWEET account="ylecun" role="Meta首席AI科学家">操作需要触觉。世界模型可以预测包含触觉和其他传感器（本体感受、力等）的信息。LLM无法拥有合适的世界模型，但世界模型可以使用Transformer。(❤️ 10 | 💬 2)</TWEET>
+      <TWEET account="nvidia" role="NVIDIA官方">如何向家人解释世界模型？NVIDIA Cosmos帮助物理AI理解真实世界交互并模拟未来，就像教机器人做梦。(❤️ 116 | 💬 17)</TWEET>
+      <OUTLOOK>未来6-12个月，世界模型将成为机器人、自动驾驶和具身智能基础设施标配，推动Meta、NVIDIA、Google等在物理AI赛道加速布局。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注模拟引擎、具身世界模型初创以及将世界模型与硬件控制协议结合的协议层公司。</OPPORTUNITY>
+      <RISK>当前世界模型仍高度依赖高质量模拟数据，真实世界噪声与长时序稳定性构成硬伤，可能导致短期部署泡沫。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI大佬集体出走实验室：LeCun成立224 Ventures专注早期AI</TITLE>
+      <NARRATIVE>ylecun今日宣布与Shaun Johnson、Oriol Vinyals共同创立224 Ventures，专注早期AI初创，其主要工作仍保留在AMI和NYU，但新VC将深度连接AI创始人网络。这与Jeff Dean离职创业形成共振，显示行业风向从“留在巨头实验室”转向“以VC+创业放大影响力”，原有“实验室垄断人才”共识正在瓦解。</NARRATIVE>
+      <TWEET account="ylecun" role="Meta首席AI科学家">与Shaun Johnson和Oriol Vinyals共同推出新项目：专注早期AI初创的深度技术VC公司224 Ventures。我的主要工作仍在AMI和NYU Courant，但224 Ventures将通过创始人网络深度连接AI创业生态。(❤️ 173 | 💬 8)</TWEET>
+      <CONSENSUS>顶级AI科学家通过创立VC或新公司实现影响力放大，成为行业新常态。</CONSENSUS>
+      <DIVERGENCE>VC模式能否真正孵化出超越现有实验室的技术突破，还是会进一步分散稀缺人才，仍是激烈争论点。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>无限Agent计算落地：Vercel实现每分钟5000核并发扩展</TITLE>
+      <NARRATIVE>rauchg今日披露Vercel已实现“无限Agent计算”——10,000并发Agent + 每分钟5,000 CPU核，且配额可进一步提升。这是对过去“企业内部Agent”叙事的深度推进，里程碑数据在于从概念验证走向可弹性伸缩的生产级基础设施，配合Muse Code等工具，正让Agent工厂成为现实。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">无限Agent计算：10,000并发 + 每分钟5,000 CPU核，这些配额还可以继续提升。(❤️ 181 | 💬 34)</TWEET>
+      <CONSENSUS>Agent基础设施正从单机沙箱转向云原生弹性计算平台，成为下一代软件工厂标配。</CONSENSUS>
+      <DIVERGENCE>成本控制与安全隔离在超大规模并发下的表现，以及如何防止Agent间相互干扰，仍是待解决技术争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>OpenAI-Hugging Face真实入侵事件成Black Hat焦点</TITLE>
+      <NARRATIVE>gdb今日在Black Hat发表演讲，聚焦OpenAI-Hugging Face安全事件，标志AI安全叙事从理论对齐、沙箱讨论转向真实生产环境入侵复盘。与历史记忆中Anthropic 7-31主动披露入侵事件相比，今天焦点转向如何通过公开技术演讲建立行业防御共识，显示安全叙事正从被动防御转向主动透明分享。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI">Black Hat团队演讲座无虚席，主题正是OpenAI-Hugging Face事件。(❤️ 434 | 💬 43)</TWEET>
+      <CONSENSUS>真实AI模型入侵事件必须公开讨论并形成行业最佳实践。</CONSENSUS>
+      <DIVERGENCE>如何平衡透明披露与潜在攻击者利用风险，以及是否需要新监管框架，仍存激烈分歧。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Sarvam AI在300M美元B轮中额外募集7400万美元；Anthropic与NVIDIA支持的初创Volta签署100亿美元算力协议。</ITEM>
+    <ITEM category="投融资快讯">DeepSeek完成约510亿元人民币首轮外部融资，估值接近4000亿元人民币，投资方包括腾讯、宁德时代等。</ITEM>
+    <ITEM category="VC views">a16z强调AI原生初创公司员工规模更小、资本消耗显著降低，正在重塑硅谷创业生态；Lightspeed指出可靠性对Agent至关重要，持续投资自愈Agent技术。</ITEM>
+    <ITEM category="VC views">224 Ventures（LeCun联合创立）将专注早期AI技术初创，连接顶级科学家网络与创始人；Sequoia认为当前AI竞赛如同Iain Banks小说中的策略游戏，赢家或掌控AGI。</ITEM>
+    <ITEM category="投融资快讯">昆仑芯计划赴港上市，目标估值约500亿美元。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek近期在OpenRouter全球调用量达5.74万亿tokens（周环比+25.9%），V4-Flash单周3.43万亿tokens全球第一；其训练成本仅约600万美元，却在数学、代码、推理上比肩OpenAI o1，显示中国实验室在成本效率与开源分发上已形成显著优势，Kimi K3与Qwen系列也推动中国模型周调用量占全球超50%。</ITEM>
+    <ITEM category="全球映射">中国AI创业公司风格与美国截然不同：创始人更低调、较少大公司背景，却在世界模型和低成本MoE架构上快速迭代；腾讯Hy3以1元/百万tokens定价与Apache 2.0开源，正加速全球token价格战，迫使美国闭源实验室重新评估商业模式。</ITEM>
+    <ITEM category="全球映射">DeepSeek已适配16家国产AI芯片（华为昇腾、壁仞、昆仑芯等），4大云厂商实现3分钟部署，构成“半壁江山”智算生态；海外媒体（如纽约时报、费加罗报）视其为中国“超越美国”的关键力量，但也放大对开源安全与地缘风险的讨论。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI/SpaceX/Tesla CEO">对Grok Build harness、基础模型和Imagine的任何批评反馈都非常欢迎。(❤️ 4168 | 💬 974)</TWEET>
+    <TWEET account="jeffdean" role="前Google资深研究员">明天是我在Google的最后一天，27年来从25人到19万人的旅程令人惊叹。现在我很兴奋与Sanjay、Oriol、Quoc一起创立DiscoLoopAI。(❤️ 6574 | 💬 246)</TWEET>
+    <TWEET account="simonw" role="独立开发者/AI观察者">四年前我曾用GPT-3和DALL-E为虚构游戏生成描述和概念图，今天我让Claude Fable 5根据那些旧图实际构建了游戏。(❤️ 128 | 💬 17)</TWEET>
+    <TWEET account="oran_ge" role="中国AI观察者">AI coding虽有slop，但有多年的工程质检和真实用户反馈能大幅控制；而AI work若无质检标准，就全是slop。(❤️ 26 | 💬 47)</TWEET>
+    <TWEET account="vista8" role="AI产品观察者">这个AI学习产品直击痛点：把大厂招聘要求和模型能力列出来，哪里不会学哪里。今天已有2.2万人次访问。(❤️ 44 | 💬 32)</TWEET>
+    <TWEET account="chamath" role="Social Capital CEO">正如之前所说，AGI已触手可及，这些人事变动都是符合逻辑的。(❤️ 1880 | 💬 136)</TWEET>
+    <TWEET account="theinformation" role="The Information">中国新AI初创公司与美国同行风格迥异，许多世界模型创业者更为低调，且此前较少运营大公司或商业实验室的经验。(❤️ 6 | 💬 0)</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">当组织使用专有数据构建AI时，产生的情报应归其所有。NVIDIA Nemotron开放模型可实现安全、特定任务的AI。(❤️ 239 | 💬 23)</TWEET>
+  </TOP_PICKS>
+</REPORT>
