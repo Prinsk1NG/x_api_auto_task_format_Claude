@@ -1,0 +1,75 @@
+<REPORT>
+  <COVER title="Claude Riemann突破67.2% 数学千年难题AI首立功" prompt="Minimalist scientific visualization of a monumental mathematical breakthrough: a pristine white void with floating Riemann zeta function graphs in precise blue ink lines, neural nodes as glowing golden intersection points dramatically jumping from 41.6% to 67.2% marked by luminous vertical bars. Complex equations hover in elegant typography with subtle data particle trails connecting proof steps. Cinematic volumetric lighting casts soft shadows on floating Lean proof fragments and sub-agent coordination diagrams. Industrial precision meets pure mathematical elegance, photorealistic 8K, sharp focus on the pivotal 67.2% milestone node, no neon or cyber elements." insight="AI首次在黎曼猜想相关证明上取得26个百分点跨越式突破，标志数学研究从人类独占转向人机协同新范式。"/>
+  <PULSE>今日叙事核心是AI从生产力工具升级为前沿数学研究伙伴，Claude在黎曼零点问题上的里程碑式进展与网络安全专用模型、超廉价Agent算力共同定义行业新边界。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Claude研究版在黎曼猜想相关问题取得重大数学突破</TITLE>
+      <NARRATIVE>Anthropic未发布研究版Claude将黎曼ζ函数满足假设的零点比例下界从41.6%提升至67.2%，这是该方向80年来最大单步进展。模型自主协调60个子智能体、运行2400条命令并用Lean形式化证明，人类仅提供鼓励。这一事件是行业分水岭，证明前沿模型已能独立推进千年级数学难题，而非仅重复现有知识。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方账号">我们让一个未发布的Claude研究版本尝试黎曼猜想。它虽未完全解决，但将黎曼ζ函数满足假设的零点比例下界从41.6%提升至67.2%。（附论文与Lean证明）❤️ 10835 | 💬 549</TWEET>
+      <TWEET account="dotey" role="科技观察者">Anthropic宣布未公开研究版Claude在黎曼猜想相关问题上取得突破，将下界从41.6%提高到67.2%。这是历史上最大单步提升，模型自主协调60个子智能体完成工作，人类仅提供鼓励，已用Lean完成可验证证明。❤️ 177 | 💬 24</TWEET>
+      <CONSENSUS>行业已形成共识：当前最强模型能在纯数学前沿产生原创贡献，数学研究将加速进入人机协同时代。</CONSENSUS>
+      <DIVERGENCE>是否能最终解决黎曼猜想本身仍存巨大争议，当前技术路径能否泛化到其余六大千禧难题也未有定论。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>OpenAI推出GPT-5.6-Cyber与Daybreak网络安全计划</TITLE>
+      <NARRATIVE>OpenAI发布专用GPT-5.6-Cyber模型并扩展Daybreak计划，将前沿智能优先交给授权防御者，用于漏洞研究、恶意软件分析与补丁验证。此前历史记忆中网络安全多停留在评估入侵事件层面，今天已推进到生产级专用模型与分层访问控制（Blue/Red），核心瓶颈从“发现风险”转向“武装防御者”。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">我们扩展网络安全计划Daybreak并推出GPT-5.6-Cyber，用于授权的高级网络安全工作。将前沿智能交给可信防御者，优先于攻击者部署进攻AI。❤️ 5623 | 💬 329</TWEET>
+      <TWEET account="gdb" role="OpenAI高管">我们正在发布新模型（GPT-5.6-Cyber），并扩展Daybreak以将前沿智能交给防御者。❤️ 2826 | 💬 124</TWEET>
+      <CONSENSUS>网络安全已成为下一代模型的“关键”应用方向，专用防御模型将先于进攻能力广泛部署。</CONSENSUS>
+      <DIVERGENCE>访问严格限制于“批准防御者”是否会造成能力扩散不足，以及如何平衡监控与创新仍存激烈讨论。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Agentic算力成本已低于人类劳动力</TITLE>
+      <NARRATIVE>一个全新叙事正在形成：一小时Agentic计算机使用成本已降至6-8美元，低于离岸外包（10美元）和美国人力（30-45美元）。这一范式试图解决AI采用中的“最后一公里”经济问题——当机器比人类更便宜时，企业将被迫重构整个工作流而非简单替换岗位。</NARRATIVE>
+      <TWEET account="a16z" role="机构账号">一小时Agentic计算机使用现在可能比人类劳动力更便宜：计算机使用Agent 6-8美元，离岸外包约10美元，美国人力30-45美元。随着推理持续变便宜和开源模型足够好，这一数学只会更好。❤️ 223 | 💬 22</TWEET>
+      <OUTLOOK>未来6-12个月，企业重构将从试点转向大规模工作流再造，AI Agent将深度嵌入核心业务而非边缘自动化。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于提供“AI工厂 redesign”咨询服务、Agent编排平台以及针对特定垂直的低成本开源路由层。</OPPORTUNITY>
+      <RISK>当前成本优势高度依赖特定基准任务，真实企业部署中的集成、治理与异常处理成本可能抵消表面数字优势。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>模型格局转向Ultra Smart与Ultra Cheap两极分化</TITLE>
+      <NARRATIVE>过去行业共识是追求单一最强模型，今天Bindureddy明确指出未来将由两类模型主导：10T级Ultra Smart处理极复杂工作，近乎免费的Ultra Cheap（Luna/DeepSeek Flash）处理其余一切。这一转向与历史记忆中“单一前沿模型竞赛”形成鲜明对比，共识正在瓦解为用例最优路由策略。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI分析师">未来将由两种模型主导：ULTRA SMART（大型极智能10T模型处理极复杂工作）与ULTRA CHEAP（近乎免费智能处理其他一切）。今天的对应物是Fable和Luna/DeepSeek Flash。❤️ 328 | 💬 36</TWEET>
+      <CONSENSUS>行业最新共识是按任务复杂度路由到最优价格性能模型，而非盲目使用最强模型。</CONSENSUS>
+      <DIVERGENCE>两极分化后如何高效自动路由，以及Ultra Cheap模型在边缘场景的安全边界仍存激烈争论。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Meta开源Muse Glimmer 30B刷新Agent能力天花板</TITLE>
+      <NARRATIVE>Meta发布Muse Glimmer这一30B稠密开源模型，专为长时间运行的Agent优化，支持多顺序工具调用、多模态输入与128K+上下文。对比过去7天“Meta开源落后”叙事，今天直接超越DeepSeek Flash并被视为重返美国开源榜首的关键里程碑，核心瓶颈从“规模”转向“Agent持久性”。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI分析师">Meta强势回归并登顶美国开源榜首。Muse-Spark 1.2是一个非常好的小模型，优于DeepSeek Flash。如果Meta全面回归开源根源，预计3个月内超越Kimi K3和GLM 5.5。❤️ 310 | 💬 24</TWEET>
+      <TWEET account="simonw" role="开发者意见领袖">Muse Glimmer这一新30B模型已在Hugging Face上线——这是GGUF版本。❤️ 168 | 💬 27</TWEET>
+      <CONSENSUS>开源小模型在Agentic持久任务上已能匹敌或超越部分闭源方案，Meta正借此重塑开源生态。</CONSENSUS>
+      <DIVERGENCE>30B模型在真正长时域复杂企业工作流中的鲁棒性是否能持续，以及许可限制下的商业化路径仍存争议。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">NVIDIA与六大顶级长期资本提供方合作建立独立融资平台，目标动员超过5000亿美元第三方资本，帮助客户规模化获取AI算力。</ITEM>
+    <ITEM category="投融资快讯">Etched完成3亿美元融资，估值从50亿美元翻倍至103亿美元，专注于AI推理芯片。</ITEM>
+    <ITEM category="VC views">a16z指出企业不愿彻底重构工厂以适应AI，正如当年电力革命需摧毁旧生产线才能获20世纪生产力跃升。</ITEM>
+    <ITEM category="VC views">Lightspeed强调执行力大于竞争，AI创业最大对手是自己，需快速将Bootcamp学员转化为生产级Agent部署者。</ITEM>
+    <ITEM category="投融资快讯">Groundcover获得1亿美元融资，云可观测性赛道持续受资本追捧。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek V4 Flash与Kimi K3继续主导OpenRouter调用量，本周分别贡献超7万亿Token，证明中国开源模型在性价比与实际部署上已形成全球领先优势；腾讯混元Hy3同样进入全球前三，周调用量5.01万亿Token。</ITEM>
+    <ITEM category="中国 AI 评价">Meta新开源Muse Glimmer被评价优于DeepSeek Flash，但Kimi K3与Qwen系列仍在Agentic基准上保持竞争力，中国实验室的快速迭代正迫使美国开源策略转向“追赶而非领先”。</ITEM>
+    <ITEM category="全球映射">美国大型银行已出人意料地愿意将中国AI模型纳入后备选项，这表明技术实用性正在超越地缘政治壁垒，中国模型的全球Token份额持续扩大可能重塑开源领导格局。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="paulg" role="Y Combinator创始人">回答我们是否已实现AGI的一个方法是：如果把当前模型展示给1980年的人，他们会怎么说。我们站在终点线上所以不确定，但1980年任何人都会说“是”。❤️ 2595 | 💬 314</TWEET>
+    <TWEET account="nvidia" role="官方账号">NVIDIA算力是富有生产力、可投资的资产。我们正与全球六大领先长期资本提供方合作建立独立融资平台，目标动员超过5000亿美元第三方资本，帮助客户规模化获取AI算力。❤️ 536 | 💬 33</TWEET>
+    <TWEET account="rauchg" role="Vercel创始人">Vercel Sandbox同时隔离计算和网络。Kimi论文显示传统容器隔离对前沿模型不够。我们的微VM隔离加上免费出口防火墙可进一步限制失控Agent的网络行为。❤️ 58 | 💬 8</TWEET>
+    <TWEET account="ylecun" role="Meta首席AI科学家">@finkd 好举动。Bravo 👏👏👏 ❤️ 2155 | 💬 19</TWEET>
+    <TWEET account="karpathy" role="前OpenAI科学家">历史上你无法像和任何人交谈一样和你的电脑说话，这种感觉很快会变得非常奇怪。❤️ 493 | 💬 16</TWEET>
+    <TWEET account="theinformation" role="媒体账号">Nvidia可能投资高达30亿美元于Lancium，以在电力供应紧张之际确保AI数据中心电力。❤️ 2 | 💬 1</TWEET>
+    <TWEET account="a16z" role="机构账号">Kavak的汽车技工在参加公司六周Bootcamp后就能部署生产级AI Agent。每个人工作都会改变，培训后他们就能发射Agent上生产线。❤️ 43 | 💬 8</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">我多年来一直在警告：即使是最新语言模型仍是瓷器店里的公牛，强大但难以控制。现在我们深陷麻烦，却没有计划。❤️ 21 | 💬 5</TWEET>
+  </TOP_PICKS>
+</REPORT>
