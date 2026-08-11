@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="Gemini破10亿用户：AI进入全民时代" prompt="Ultra-minimalist data visualization of a glowing neural constellation where one billion luminous connection nodes form a vast, organized global lattice converging toward a single pristine white orb representing Gemini. Clean vector lines, soft cyan and cool white light gradients, floating translucent user silhouettes at the periphery, dramatic cinematic rim lighting from above creating subtle lens flares on data streams, shot on 8K with shallow depth of field, architectural precision and scientific clarity, no neon, no purple tones." insight="Gemini月活破10亿与Linux桌面客户端落地标志AI从实验室工具走向全球基础设施。"/>
+  <PULSE>今日硅谷核心叙事从模型参数竞赛转向桌面级普惠部署、开源Agentic编码里程碑以及欧洲主权AI基础设施的崛起。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Gemini月活破10亿：AI消费级产品分水岭</TITLE>
+      <NARRATIVE>Google Gemini App成为史上第14个破10亿月活的产品，且是增速最快的一个。这标志着AI从开发者工具真正进入大众日常生活，历史记忆中Demis此前多次强调科学与健康应用，今天推文显示其消费端已率先实现规模化。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">1B+ 用户每月使用Gemini App激发创意和完成工作，这是我们增长最快的产品，也是第14个达到10亿用户大关的产品。向Gemini团队致敬！（❤️ 3979 | 💬 427）</TWEET>
+      <TWEET account="demishassabis" role="Google DeepMind主席">Gemini App破10亿月活！这是我们增长最快的产品，向团队致敬，我们为用户未来能做的事感到兴奋。（❤️ 1266 | 💬 67）</TWEET>
+      <CONSENSUS>行业一致认为AI消费端应用已跨越临界点，大模型的真正护城河从参数转向月活规模与生态粘性。</CONSENSUS>
+      <DIVERGENCE>部分大佬仍在争论10亿月活究竟是真正“使用”还是“下载后偶尔打开”，以及这是否会加速监管对消费级AI的审查。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>OpenAI Linux桌面客户端预览：开发者全平台覆盖完成</TITLE>
+      <NARRATIVE>ChatGPT桌面App正式登陆Ubuntu、Debian、Fedora等多款Linux发行版，支持ChatGPT Work与Codex工作流。这是OpenAI在Windows、macOS之后对开发者主战场的最后一块覆盖，极大降低了Linux开发者使用门槛，构成生产力工具落地的关键里程碑。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI官方">ChatGPT桌面App现已在Linux预览上线，支持Ubuntu 24.04/26.04、Debian 13、Fedora 43/44。使用.deb或.rpm包在x64与ARM64上安装，可直接在工作环境中使用ChatGPT Work和Codex。（❤️ 471 | 💬 46）</TWEET>
+      <CONSENSUS>行业新共识是AI生产力工具必须覆盖所有主流开发者操作系统，否则将被视为不完整的基础设施。</CONSENSUS>
+      <DIVERGENCE>仍有声音质疑Linux版在企业级安全沙箱与企业策略管理上的成熟度，是否会成为下一个被攻击面。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Smaug-Agentic：开源Agentic编码新王者登基</TITLE>
+      <NARRATIVE>Bindureddy基于Kimi K3推出的Smaug-Agentic在LiveBench Agentic Coding榜单上超越此前所有开源模型，仅次于Claude Opus 5。这一新模型专为长时间Agentic编码任务优化，标志着中国开源模型经微调后已在特定高价值赛道实现对闭源的局部超越。</NARRATIVE>
+      <TWEET account="bindureddy" role="Abacus.AI CEO">我们发布Smaug-Agentic——全球最强开源Agentic Coding模型。基于Kimi K3大幅提升，在LiveBench上位居开源第一，仅次于Claude Opus 5，已上线Hugging Face并集成至Abacus AI Agent。（❤️ 719 | 💬 65）</TWEET>
+      <OUTLOOK>未来6-12个月，顶级开源Agentic模型将驱动大量独立开发者与中小企业绕过高价闭源API，形成碎片化但极具性价比的生产力集群。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注专注于开源模型微调交付、Agentic评估平台以及企业级开源模型合规治理的早期团队。</OPPORTUNITY>
+      <RISK>模型仍依赖高质量微调数据，长期迭代是否能持续追上闭源实验室的强化学习闭环仍有不确定性。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>欧洲AI主权觉醒：Mistral构建端到端推理主权栈</TITLE>
+      <NARRATIVE>对比历史记忆中欧洲长期依赖美国云与模型的被动局面，Mistral今日长线程明确提出要为欧洲企业、政府提供推理基础设施、开放模型与长期承诺的完整框架，强调数据本地化、区域端点与优先容量。这是欧洲从“监管”转向“构建主权AI基础设施”的明确风向掉头。</NARRATIVE>
+      <TWEET account="mistralai" role="Mistral AI官方">Mistral正在构建欧洲所需的推理基础设施、开放模型与长期承诺，帮助企业、政府和初创公司使用最佳AI、围绕自身知识塑造模型并保留价值。支持欧洲或美国区域端点、优先容量以满足数据驻留与延迟要求。（❤️ 98 | 💬 11）</TWEET>
+      <CONSENSUS>欧洲企业已形成“不能把关键工作流全押在美国闭源模型”的一致认知，主权基础设施成为必选项。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于Mistral能否在性能上长期与美中顶级实验室抗衡，还是最终只能作为“本地合规层”存在。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Grok Imagine创意能力跃升：普通人可自制蒸汽朋克电影</TITLE>
+      <NARRATIVE>Elon连续发布Grok Imagine图像编辑与视频生成重大升级，用户已能用其制作高质量蒸汽朋克风格电影。这是对原有图像生成叙事的深度推进，从单张图片转向连贯叙事电影级输出，显著降低了专业创意工具的门槛。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">你可以用Grok Imagine制作自己的蒸汽朋克电影。（❤️ 4771 | 💬 649）</TWEET>
+      <CONSENSUS>行业共识转向“创意工具的民主化”：顶级AI图像/视频模型已足够好，未来竞争将在故事理解与长时序一致性上。</CONSENSUS>
+      <DIVERGENCE>版权与训练数据来源争议仍存，同时高质量视频生成对算力需求是否会进一步推高GPU短缺仍是未解之谜。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Agent管理范式转向“工程式鼓励”而非纯指令</TITLE>
+      <NARRATIVE>Rauchg提出一个全新观点：经典的“你能做到，再努力一下”式提示实际上是工程管理在Agent时代的映射。管理者需同时具备判断何时该鼓励、何时该pivot的智慧。这一叙事将Agent从“工具”提升为“需要被管理的人才”，开启了新的管理学范式。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">那种“你能做到，再努力一下，坚持下去”的提示其实是一种工程管理。你知道目标可及，所以投入更多时间与算力鼓励它，同时也要有判断死胡同并及时pivot的智慧。这就是Agent管理。（❤️ 224 | 💬 40）</TWEET>
+      <OUTLOOK>未来6-12个月，企业内部将出现“Agent Engineering Manager”这一新角色，专注于设计Agent激励机制与失败复盘循环。</OUTLOOK>
+      <OPPORTUNITY>投资可关注Agent观察性、记忆层与自动复盘基础设施初创公司，这将是下一波企业级Agent采购的核心。</OPPORTUNITY>
+      <RISK>若模型基础推理能力未达足够水平，“鼓励”可能会变成无限重试浪费算力，短期ROI仍待验证。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">River AI（xAI联合创始人创立）完成11亿美元种子/Series A，由General Catalyst领投，Nvidia与Y Combinator跟投，专注持续学习模型。</ITEM>
+    <ITEM category="投融资快讯">Axle完成1750万美元Series A，由Base10 Partners领投，用于AI驱动的政策自动化工作流。</ITEM>
+    <ITEM category="投融资快讯">Trajectory完成4000万美元融资，由Sequoia领投，专注持续学习模型架构。</ITEM>
+    <ITEM category="VC views">a16z指出开源已成为应用层初创公司摆脱“Wrapper”命运的核心路径，Cursor、Decagon、Harvey均通过自研中训、后训与推理优化实现差异化。</ITEM>
+    <ITEM category="VC views">Lightspeed Partner表示我们正进入“丰裕时代”，AI将带来类似电力与互联网的全球产出百倍增长，建议围绕前沿基础设施与新应用范式布局。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek V4 Flash 0731在Together AI上线，支持SFT/DPO微调，持续领跑全球Token调用量（单周超7万亿），被视为开源性价比标杆；Kimi K3基座衍生出的Smaug-Agentic已登顶开源Agentic Coding榜，证明中国实验室在Agentic垂直能力上已实现对部分闭源模型的超越。</ITEM>
+    <ITEM category="全球映射">中国开源模型（DeepSeek、Kimi基座、Qwen系列）正加速将“Ultra Cheap”叙事推向全球，迫使美国闭源实验室必须在价格性能上做出更激进让步，否则企业客户将大规模转向开源路线。</ITEM>
+    <ITEM category="全球映射">欧洲主权AI觉醒（Mistral）与中国开源普惠形成隐性合力，可能共同压缩美国闭源实验室在非美市场的定价权与数据获取优势。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">Grok Bot beta将在我们修复早期问题并于本周晚些时候发布Grok 4.6后扩大范围。（❤️ 11563 | 💬 1053）</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">我们被承诺会得到飞行汽车，结果却得到了人人可用的无限超级智能。（❤️ 1421 | 💬 149）</TWEET>
+    <TWEET account="paulg" role="Y Combinator创始人">销售这个词是不是正在被GTM取代？感觉有点假。（❤️ 2724 | 💬 344）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">@bradlightcap 感谢你所做的一切。从最早讨论OpenAI时你就懂它，这些年你承担了公司需要的任何角色。没有你我们走不到今天。（❤️ 802 | 💬 38）</TWEET>
+    <TWEET account="jeffdean" role="前Google首席科学家">这一周确实很特别，我想和KDD 2026的听众们分享一下。对那些周四下午我合上电脑后给我发内部消息的Google同事，我很抱歉没能及时回复！（❤️ 2742 | 💬 63）</TWEET>
+    <TWEET account="a16z" role="a16z官方">Inferact CEO认为开放权重与闭源模型能力正在趋同，真正的护城河在于环境、数据闭环与迭代优化能力。（❤️ 49 | 💬 10）</TWEET>
+    <TWEET account="bindureddy" role="Abacus.AI CEO">那些推动“暂停AI”的人完全没有概念，他们本质上是在倡导建立一个永久下层阶级，让少数前沿实验室垄断10T+模型。（❤️ 48 | 💬 16）</TWEET>
+    <TWEET account="theinformation" role="The Information">Nvidia希望打造全球最佳开源AI模型，以刺激竞争并帮助更多西方/美国团队更容易开发开源模型。（❤️ 3 | 💬 2）</TWEET>
+  </TOP_PICKS>
+</REPORT>
