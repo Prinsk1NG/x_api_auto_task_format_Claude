@@ -1,0 +1,74 @@
+<REPORT>
+  <COVER title="速度革命：750TPS Ultrafast与半价Flash引爆Agent实时时代" prompt="Minimalist futuristic data visualization scene showing ultra-high-speed AI inference as luminous cyan data rivers flowing through a vast grid of interconnected neural nodes and token processors. In the center, a crystalline Cerebras wafer and Google Tensor chip emit focused beams of white light representing 750 tokens per second, with abstract velocity streaks and performance metrics floating in clean negative space. Use sharp geometric forms, matte silicon textures, volumetric god rays from above, high-contrast cinematic lighting with subtle lens flares on data particles. Emphasize efficiency and breakthrough velocity through precise particle trails and minimal color palette of cyan, deep navy and pure white. 8K resolution, photorealistic industrial design details, no neon or cyberpunk aesthetics." insight="推理速度与成本双杀成为Agent落地新决胜点"/>
+  <PULSE>今日硅谷核心叙事转向超高速低成本推理模型（OpenAI Ultrafast 750 tps、Gemini 3.7 Flash半价升级）与开源Agent Harness（DeepSeek Everything-is-plugin范式）的爆发，Agentic工作流正从实验迈向实时生产力。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>OpenAI Ultrafast模式发布：750 tps前沿推理成行业分水岭</TITLE>
+      <NARRATIVE>基于今日openai官方推文，GPT-5.6 Sol Ultrafast模式通过Cerebras硬件实现高达750 tokens/s，14倍加速率先在API落地，这标志着前沿智能从“能用”转向“实时可用”，直接服务实时语音、客户支持、编码与安全响应等高时效场景。与历史记忆中OpenAI此前强调规模训练不同，今天重点转向推理速度基础设施，构成行业里程碑。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">OpenAI预览Ultrafast模式：GPT-5.6 Sol速度提升至14倍，首先在API向部分客户开放，未来扩大至更多企业。Cerebras驱动下最高可达750 tokens/s，适用于实时语音、客户支持、编码、金融研究和安全响应等需要每秒必争的前沿智能场景。（❤️ 1386 | 💬 15）</TWEET>
+      <CONSENSUS>行业已达成共识：推理速度将成为下一阶段核心竞争力，750 tps级实时前沿模型将重塑企业工作流优先级。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论超高速模式是否会显著推高成本，以及验证循环（lint/test/build）能否跟上模型速度以避免瓶颈。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Gemini 3.7 Flash半价升级：Agentic编码与知识工作双突破</TITLE>
+      <NARRATIVE>今日sundarpichai与demishassabis、googleai推文显示，Gemini 3.7 Flash在软件工程、知识工作、网页开发上取得重大进步，同时推出价仅为3.6 Flash一半（输入$0.75/M、输出$3.75/M），并集成至Gemini App Spark与Enterprise Agent Platform。这是既有Flash系列叙事的深度推进，重点解决多步规划、工具调用纪律性与成本问题，与历史记忆中Google过去重模型发布形成鲜明延续。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">我们的Flash模型是高性价比主力，我们快速迭代让开发者尽早使用。3.7 Flash在编码、Agentic工作、知识工作上有显著提升，首发价仅为3.6 Flash一半。早期用户包括内部工程师在Antigravity中使用，反馈积极。（❤️ 2850 | 💬 242）</TWEET>
+      <CONSENSUS>行业新共识是高性能工作马模型必须同时实现“更快、更便宜、更专注”，半价Flash标志着消费级与企业级AI成本曲线加速下行。</CONSENSUS>
+      <DIVERGENCE>仍有争议在于模型迭代过快（3.6刚发布3周）是否给开发者造成评估疲劳，以及长期定价稳定性问题。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>DeepSeek Harness爆火：Everything is Plugin的开源Agent OS新范式</TITLE>
+      <NARRATIVE>今日dotey、tualatrix、oran_ge、op7418等多条一手推文集中讨论DeepSeek官方Harness（DSH），其“一切皆插件”、TUI+WebUI、Trajectory日志、右侧多Tab Panel设计在两天内获数万star。这是一个全新叙事：从单纯模型转向构建以用户体验为先的开源Agent操作系统，解决普通用户上手难、插件生态冷启动的问题，试图定义下一代AI生产力入口。</NARRATIVE>
+      <TWEET account="dotey" role="知名AI观察者">从普通用户视角用DeepSeek Harness：启动偏极客但速度极快；Thinking因Flash太快需节流；右侧多Tab Panel和产出物直开diff非常重要；一切皆插件理念很好，但必须先做好开箱用户体验，否则开发者不会坚持。（❤️ 154 | 💬 32）</TWEET>
+      <OUTLOOK>未来6-12个月，这一范式将推动更多中国开源实验室从模型输出转向全栈Agent产品，加速全球Agent Harness竞争，最终让普通开发者也能拥有可定制的“AI操作系统”。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于Agent Harness基础设施、插件市场、TUI/Web双端体验优化工具，以及为非程序员设计的AI生产力垂直应用。</OPPORTUNITY>
+      <RISK>当前稳定性仍不足，极客玩具属性明显，若无法快速迭代出成熟产品经理定义的开箱体验，可能成为短期热点而非持久范式。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从纯模型路由转向Harness与用户体验决胜</TITLE>
+      <NARRATIVE>对比过去7天“从全自主Agent转向知道自己想要什么”以及rauchg历史观点，今天dotey、rauchg、bindureddy推文显示风向进一步转向：模型选择（GLM 5.2、DeepSeek Flash）必须通过统一Harness命令完成，同时强调普通用户体验、插件生态而非纯技术参数。这是对此前“模型两极分化”叙事的明显转向，共识从“找最优模型”转向“打造好用的Agent操作系统”。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">一条命令统治所有tokens。我预测这将成为大规模使用编码AI的默认方式。它能配置现有所有coding harness如Claude Code和Codex。（❤️ 84 | 💬 19）</TWEET>
+      <CONSENSUS>最新行业共识是Harness层（而非单一模型）将成为用户心智入口，UX、开箱配置和插件机制决定成败。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于：普通用户体验与极客插件定制是否能共存，以及中国实验室是否能在产品定义上超越美国闭源产品。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>X平台完全开源：算法透明成为AI推荐基础设施</TITLE>
+      <NARRATIVE>elonmusk今日连续推文宣布将X完全开源，主动寻求批评以改进算法推荐公平性与质量。这是一个今日首次出现的新叙事：社交平台算法从黑箱转向透明构建信任，并与AI推荐系统深度绑定。不同于历史记忆中单纯的“开源模型”讨论，今天将透明度延伸至用户内容分发机制本身。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI/SpaceX CEO">我们正在将X开源。通过透明建立信任。我们积极寻求批评以改进算法推荐的公平性和质量。（❤️ 14571 | 💬 1553）</TWEET>
+      <OUTLOOK>未来6-12个月，这一举措可能迫使其他AI驱动平台跟进开源推荐算法，加速“可审计AI”成为基础设施标准，并为研究者提供真实世界推荐数据。</OUTLOOK>
+      <OPPORTUNITY>投资机会包括审计算法工具、开源推荐引擎创业公司，以及基于透明数据的AI内容治理与个性化创业。</OPPORTUNITY>
+      <RISK>开源后可能面临安全漏洞与滥用风险，且社区批评能否真正转化为高质量改进仍待验证，短期或引发更多争议。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Cognition早期融资谈判估值超400亿美元，收入跑率接近10亿美元；CodeRabbit完成1.43亿美元C轮，估值15亿美元；Discovery Loop讨论10亿美元融资，估值约100亿美元。</ITEM>
+    <ITEM category="投融资快讯">快手可灵AI增资上限约30亿美元，投后估值180亿美元；DeepSeek完成约72亿美元融资，估值近560亿美元。</ITEM>
+    <ITEM category="VC views">a16z提出Lighthouse（灯塔证明）与Landgrab（抢滩预算）两大企业AI销售打法，企业需根据买家需求选择，而非一味追逐旧金山标志性客户。</ITEM>
+    <ITEM category="VC views">Writer CEO May Habib表示CIO对OpenAI和Anthropic企业方案不满，企业AI市场仍完全开放，成本效率与主权才是首要考量。</ITEM>
+    <ITEM category="VC views">a16z强调销售运营岗不能等太久，一人即可负责territory alignment、commission规则与sales constitution，避免规模化时的速度障碍。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek Harness在两天内star暴涨近2万，dotey等用户反馈其速度与插件理念领先，但需加强普通用户开箱体验与产品定义，中国实验室已在Agent实用工具层展现全球竞争力，DeepSeek V4 Pro与Harness组合正快速缩小与美企体验差距。</ITEM>
+    <ITEM category="全球映射">尽管DeepSeek等中国模型价格比OpenAI便宜20-40倍，但The Information调研显示美国模型在token使用效率和答案质量上更优，企业仍在权衡成本与可靠性的长期平衡。</ITEM>
+    <ITEM category="全球映射">中国开源模型快速迭代（Qwen3.8、DeepSeek V4系列）正推动全球从闭源竞赛转向开放Harness竞争，美国大模型公司需警惕中国在性价比与产品落地上的双重压力。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="demishassabis" role="Google DeepMind CEO">Gemini 3.7 Flash在软件工程、网络开发和知识工作上带来重大升级，首发价格仅为3.6 Flash一半。祝大家构建愉快！（❤️ 2189 | 💬 104）</TWEET>
+    <TWEET account="googleai" role="Google AI官方">我们最智能的编码与Agent工作马模型来了——Gemini 3.7 Flash。可在Gemini App Spark中使用，能处理跨Google Workspace的多步复杂任务，规划更严谨，重试更少，且年底前价格减半。（❤️ 431 | 💬 34）</TWEET>
+    <TWEET account="aravsrinivas" role="Perplexity CEO">祝贺SpaceX AI推出Grok 4.6。我们用Perplexity Computer harness在其Wide-And-Deep-Research基准上测试，它稳居性能与成本的Pareto前沿，已对Pro与Max用户开放。（❤️ 518 | 💬 27）</TWEET>
+    <TWEET account="simonw" role="AI开发者">Gemini 3.7 Flash的“首发定价”真的很奇怪——它定在2026年12月31日翻倍，但谁会预期5个月后还在用这个模型？尤其3.6 Flash才发布3周。（❤️ 582 | 💬 65）</TWEET>
+    <TWEET account="tualatrix" role="开发者">终于用上DeepSeek官方Harness了，6月10日晚开始开发，两个月已12000+提交、43万行TypeScript代码。初版就有WebUI而非只有TUI，这点很赞！（❤️ 58 | 💬 22）</TWEET>
+    <TWEET account="bindureddy" role="Abacus.AI CEO">Gemini 3.7 Flash刚刚发布， headline是比3.6 Flash便宜50%。说实话，他们干脆免费无限好了😂😂（❤️ 182 | 💬 16）</TWEET>
+    <TWEET account="openai" role="官方账号">ChatGPT现在能记住你在电脑上所有App和网站的活动。通过桌面App的Computer History，未来交互将更个性化且无需过多解释。（❤️ 5333 | 💬 314）</TWEET>
+    <TWEET account="oran_ge" role="AI观察者">DeepSeek Harness有点像技术理想主义的玩具，模型发展这么快，要支持如此开放的系统，稳定性不可能好。（❤️ 50 | 💬 47）</TWEET>
+    <TWEET account="a16z" role="a16z官方">Lighthouse还是Landgrab：选择你的AI销售策略。Harvey和Applied Intuition走灯塔路线，Stuut、Decagon、Pylon则采用抢滩预算策略，最终大多数公司需要同时掌握两种打法。（❤️ 65 | 💬 6）</TWEET>
+  </TOP_PICKS>
+</REPORT>
