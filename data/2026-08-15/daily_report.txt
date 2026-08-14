@@ -1,0 +1,72 @@
+<REPORT>
+  <COVER title="Orbital AI: 太空成算力唯一出路" prompt="Hyper-realistic industrial design of enormous modular orbital AI compute platforms drifting above Earth's atmosphere, featuring dense arrays of liquid-cooled GPU clusters integrated into satellite mega-structures with visible Tesla-derived power systems and heat radiators glowing under harsh sunlight. Earth below shows overloaded terrestrial data centers with red warning energy grids. Cinematic volumetric lighting, precise engineering textures on carbon-fiber and titanium surfaces, dramatic scale contrast between satellites and planet, 8K resolution, IMAX film still, meticulous industrial realism, no neon or cyberpunk elements." insight="Elon Musk判断2029年AI扩张只能依赖轨道计算，陆地电力与许可已成硬约束。"/>
+  <PULSE>今日硅谷核心叙事从地面算力军备竞赛转向轨道基础设施、中国开源Agent工具深度迭代，以及保险业强制要求AI可审计性。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌌">
+      <TITLE>轨道计算成AI扩张唯一路径</TITLE>
+      <NARRATIVE>Elon Musk明确指出由于地面电力可用性和许可问题，2029年前后轨道计算将成为AI规模化的唯一可行方式。这是一个全新范式，将AI算力基础设施从地球表面搬到太空，彻底绕过陆地能源瓶颈。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI/SpaceX创始人">Elon Musk发文称：“Orbital compute will be the only way to scale AI probably sometime in 2029 due to power availability &amp; permitting problems on land。”多条回复讨论太空空间是否足够以及早期Greenland设想。（❤️ 9280 | 💬 1410）</TWEET>
+      <OUTLOOK>未来6-12个月将加速SpaceX Starlink与AI算力卫星的融合，NVIDIA Vera Rubin等平台可能率先部署轨道版本，传统云巨头面临重新选址压力。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注太空太阳能、轨道数据中心散热、卫星级液冷系统以及低轨AI专用芯片公司。</OPPORTUNITY>
+      <RISK>技术硬伤包括轨道维护成本、数据往返延迟以及空间碎片风险，短期内仍无法完全替代地面集群。</RISK>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Cursor团队正式加入SpaceX</TITLE>
+      <NARRATIVE>Elon Musk发文“It is an honor to have such a great team join @SpaceX”，结合a16z报道Anysphere（Cursor）已成为史上最快达到1亿美元ARR的软件公司，此次并购标志着AI编码工具与航天级工程AI深度绑定，开启软硬件一体化新里程碑。</NARRATIVE>
+      <TWEET account="a16z" role="风投机构">a16z发文详细介绍Cursor如何在2024年实现垂直增长，成为最快破1亿美元ARR的公司，并披露其与SpaceX AI的结合。（❤️ 471 | 💬 19）</TWEET>
+      <CONSENSUS>行业一致认为Cursor的工程文化与Grok Build将相互强化，AI编码Agent将获得SpaceX真实世界工程语料，加速从编码工具向通用工程AI跃迁。</CONSENSUS>
+      <DIVERGENCE>部分观点质疑品牌消失后Cursor社区是否还能保持创新速度，以及600亿美元估值是否过高。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>中国开源模型本地性能再突破</TITLE>
+      <NARRATIVE>simonw展示Qwen 3.7 27B在M5 Max笔记本上以17GB GGUF跑出最佳“pelican riding a bicycle”图像；op7418详细拆解DeepSeek Harness 65天产出84万行代码、21.2%由Codex命名PR；bindureddy确认GLM-5.3在编码与长程任务上大幅提升。这标志着开源模型在消费级硬件上的实际生产力已达新高度。</NARRATIVE>
+      <TWEET account="simonw" role="独立开发者">Simonw称新Qwen 3.7 27B在M5 Max笔记本以17GB GGUF生成他见过最好的鹈鹕骑自行车图像，生成耗时21分钟、使用22276 reasoning tokens。（❤️ 1201 | 💬 58）</TWEET>
+      <CONSENSUS>开源社区已形成共识：中国模型在本地推理性价比上已超越多数闭源方案，插件化Harness与高效后训练成为标配。</CONSENSUS>
+      <DIVERGENCE>仍需解决大规模生产环境下的稳定性，以及是否会因安全顾虑被企业级采购排除。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚖️">
+      <TITLE>保险业强制AI可审计性</TITLE>
+      <NARRATIVE>Chamath指出保险公司已获监管批准将生成式AI损害从常规责任险中排除，核心原因是无法审计Agent决策路径（模型、上下文、工具调用、人类审批）。这迫使行业从“黑箱创新”转向必须保留不可变审计轨迹的架构，是对过去“无限Agent计算”叙事的重大转向。</NARRATIVE>
+      <TWEET account="chamath" role="知名投资人">Chamath长推详解保险公司已将AI风险从82%美国家财险保单中排除，强调需Prompt→推理→工具→审批全链路可追溯，否则无法定价风险。（❤️ 160 | 💬 29）</TWEET>
+      <CONSENSUS>监管与保险业已达成新共识：不可审计的AI系统无法获得传统保险，必须内置治理与可解释层。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论审计开销是否会抵消Agent带来的成本优势，以及谁来制定统一审计标准。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🔌">
+      <TITLE>Agent Harness与SDK生态深化</TITLE>
+      <NARRATIVE>aravsrinivas宣布Perplexity Search SDK已可嵌入任意Agent harness；op7418用15张图拆解DeepSeek Harness插件系统与Koishi相似度75%、AI生成代码占比高、测试代码1:1；rauchg强调Vercel是全球最快AI Gateway。这些信号显示Agent基础设施正从实验阶段进入生产级插件化与可组合时代。</NARRATIVE>
+      <TWEET account="aravsrinivas" role="Perplexity创始人">Arav Srinivas发文称Perplexity的Search SDK现已可用于任何Agentic harness，使其成为宽深研究的最佳产品。（❤️ 167 | 💬 14）</TWEET>
+      <CONSENSUS>行业新共识是：最佳Agent体验将由专业SDK+可插拔Harness决定，而非单一全能模型。</CONSENSUS>
+      <DIVERGENCE>如何在插件爆炸式增长（DSH plugin已1425个）中保持安全边界和版本兼容性仍是未解难题。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">SpaceX以约600亿美元估值完成对Cursor（Anysphere）的收购，Cursor已成为史上最快达到1亿美元ARR的软件公司，团队将并入SpaceX AI部门。</ITEM>
+    <ITEM category="投融资快讯">DeepSeek完成外部融资约510亿元人民币，投后估值近4000亿元，投资方包括腾讯、宁德时代、网易、京东等。</ITEM>
+    <ITEM category="VC views">a16z指出AI原生公司员工更少、资本消耗显著降低，Cursor案例证明开发者自发传播可实现指数级增长，未来“Builder”职位将整合PM、设计师与程序员角色。</ITEM>
+    <ITEM category="VC views">Lightspeed VP强调垂直AI公司需重视专有数据、分发网络与信任，斯坦福最新AI设计病毒基因组案例显示这些因素可能比模型本身更重要。</ITEM>
+    <ITEM category="投融资快讯">OpenAI完成1100亿美元融资，投前估值7300亿美元，领投方包括软银、英伟达、亚马逊。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek V4-Pro-0813正式GA，上下文窗口达1M tokens、最大输出384K；API定价输入$1.32/M、输出$3.96/M，较Flash版分别高9倍和14倍，显示中国前沿模型正向高端定价靠拢，同时Harness开源项目65天产出84万行代码、GitHub 8万star，证明极高开发效率。</ITEM>
+    <ITEM category="中国 AI 评价">智谱GLM-5.3发布重点强化安全能力与长程工具调用任务执行，op7418指出其在Hugging Face事件后针对性优化，连续多个版本仅靠后训练仍能大幅提升，显示中国实验室在高效迭代上的独特优势。</ITEM>
+    <ITEM category="全球映射">中国开源模型（DeepSeek、GLM、Qwen）在本地消费级硬件上的实际表现已接近或超越部分闭源方案，迫使美国企业重新评估供应链与成本结构，但保险业对可审计性的新要求可能成为中国模型进入高合规场景的额外壁垒。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="gdb" role="OpenAI高管">gdb分享“ChatGPT for saving you money”并展示Sol速度提升14倍的案例，强调其在财务、生产力放大器上的实际落地。（❤️ 499 | 💬 53）</TWEET>
+    <TWEET account="elonmusk" role="xAI/SpaceX创始人">Elon表示Grok 4.6与Grok Build harness配合最佳，没有它体验会差很多，建议用Build进行评估。（❤️ 10341 | 💬 1831）</TWEET>
+    <TWEET account="op7418" role="独立开发者">op7418详细分析DeepSeek Harness：插件系统与Koishi相似度75%，21.2%主干PR由Codex命名，65天产出84万行代码，测试代码1:1，论文88页重点讨论热插拔稳定性。（❤️ 64 | 💬 28）</TWEET>
+    <TWEET account="anthropicai" role="Anthropic官方">Anthropic发布Responsible Scaling Policy第二份Risk Report，详细披露系统风险及应对准备情况。（❤️ 1336 | 💬 202）</TWEET>
+    <TWEET account="rauchg" role="Vercel创始人">rauchg称Vercel是世界上最快的AI Gateway基础设施。（❤️ 223 | 💬 24）</TWEET>
+    <TWEET account="vista8" role="独立开发者">vista8提问是否存在Token银行或Agent接单平台，可将多余token帮别人跑任务赚积分，未来自己不够时再调用。（❤️ 54 | 💬 84）</TWEET>
+    <TWEET account="dotey" role="知名AI观察者">dotey点评Pi压缩文章，认为其通过prompt让LLM总结上下文并保留system prompt与工具调用，是最朴素有效的有损压缩方案。（❤️ 62 | 💬 19）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">Sam Altman发“/ultrafast”，展示Sol模式在速度上的显著提升。（❤️ 3622 | 💬 363）</TWEET>
+  </TOP_PICKS>
+</REPORT>
