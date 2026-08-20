@@ -1,0 +1,74 @@
+<REPORT>
+  <COVER title="Agent AWS与机器人医疗：硅谷基础设施跃迁" prompt="Photorealistic industrial design scene in a pristine high-tech manufacturing hall. A sleek white-and-black Optimus-style humanoid robot stands at the center under dramatic cinematic key lighting with strong rim lights highlighting metallic joints and carbon-fiber textures. Holographic data nodes and workflow pipelines float around it, visualizing persistent agent routing from remote cloud servers to physical actions. In the foreground, subtle engineering blueprints and micro-VM sandbox diagrams project onto brushed aluminum surfaces. Use cool industrial color grading with precise steel reflections, volumetric god rays cutting through clean air, shot on 8K large-format cinema camera with anamorphic lenses for epic depth and realism. Extreme material detail on actuators and sensor arrays, no neon or cyberpunk elements." insight="硅谷从模型短炒转向持久化Agent云与物理机器人深度融合，基础设施成为新护城河。"/>
+  <PULSE>硅谷今日核心叙事转向构建专为持久化、多模态Agent设计的“AWS级”基础设施，同时机器人与世界模型的工程结合加速落地。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>Vercel布局「AWS for Agents」开启基础设施新范式</TITLE>
+      <NARRATIVE>rauchg今日明确提出“我们正在构建Agent的AWS”，这标志着一个全新叙事：Agent不再依赖碎片化工具，而是需要专属的、可扩展的计算与沙箱平台。这一观点在今日推文中首次系统化出现，试图解决Agent在生产环境中持久运行、状态管理与安全隔离的核心痛点。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">rauchg发文称“我们正在构建AWS for agents”，暗示Vercel正将自身定位为Agent时代的云基础设施提供商，聚焦无限并发计算与安全沙箱。❤️ 183 | 💬 22</TWEET>
+      <OUTLOOK>未来6-12个月，Agent专用云将成为主流竞争赛道，大型云厂商与新兴平台将围绕路由、持久内存与微VM展开军备竞赛，传统IaaS边界被重塑。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注Agent OS层、持久化状态存储及企业级沙箱安全初创公司，类似Vercel Sandbox的透明验证机制将成为差异化切入点。</OPPORTUNITY>
+      <RISK>概念仍处早期，若底层算力成本无法随规模下降，可能成为短期泡沫；同时安全边界定义尚不清晰，存在真实世界逃逸风险。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Meta Muse Spark 1.2多模态Agent实现机器人零样本导航</TITLE>
+      <NARRATIVE>aiatmeta今日连发两推，展示Muse Spark 1.2如何解析多模态观察、调用工具引导机器人在非结构化环境中寻找物体，并发布WildArtifactBench评估框架。这一推进建立在过去世界模型叙事基础上，通过真实重复动作数据（对称+恢复）和UMI采集方式，突破了此前teleop数据稀疏的瓶颈，里程碑数据体现在零样本泛化与新基准Elo评分上。</NARRATIVE>
+      <TWEET account="aiatmeta" role="Meta AI团队">Meta发布Muse Spark 1.2，支持从视觉到代码生成、感知到物理动作的多模态任务，并演示机器人通过多模态观察寻找橡胶鸭的实际导航。❤️ 294 | 💬 27</TWEET>
+      <TWEET account="drjimfan" role="机器人研究员">drjimfan分析GEN-1.5 hype核心在于人类采集数据中的重复动作（对称模式与失败恢复），UMI直接采集方式优于teleop，未来许多行为可实现零样本。❤️ 715 | 💬 26</TWEET>
+      <CONSENSUS>行业已形成共识：高质量重复物理数据+直接人体映射采集是多模态机器人Agent实用化的关键路径，WildArtifactBench这类偏好判断基准将取代传统ground-truth评估。</CONSENSUS>
+      <DIVERGENCE>当前演示场景仍较简单，距离真正复杂长时程家用机器人任务还有差距；开源数据 vs 闭源规模的ROI仍存争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI模型炒作周期压缩至72小时进入现实检验</TITLE>
+      <NARRATIVE>bindureddy今日发文直指“AI Model Hype Cycle Is Now 72 Hours”，以GLM 5.3为例，描述从Day1毁灭级宣传到Day3暴露基础数学幻觉再到Day4被遗忘的完整弧线。这与历史记忆中大佬们此前对新模型长期乐观叙事形成明显转向，共识从“每款新模型都是范式突破”转向“快速迭代下的务实检验”。</NARRATIVE>
+      <TWEET account="bindureddy" role="Abacus.AI创始人">bindureddy指出AI模型炒作周期已缩短至72小时：Day1称毁灭GPT-5和Fable，Day3发现基础数学幻觉，Day4就被遗忘，目前GLM 5.3正处于Day2。❤️ 112 | 💬 19</TWEET>
+      <CONSENSUS>行业最新共识是模型发布频率过高导致注意力迅速耗散，开发者开始更注重生产可用性而非基准宣传。</CONSENSUS>
+      <DIVERGENCE>开源中国模型与闭源前沿实验室在“真实世界ROI vs 宣传速度”上的评价仍高度分裂，部分大佬认为这是健康迭代，另一些视之为泡沫信号。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Grok Bot远程持久计算机：Agent从会话到实体转变</TITLE>
+      <NARRATIVE>elonmusk今日连续发文强调Grok Bot拥有自己的@SpaceXAI远程计算机，即使关闭笔记本或重启桌面仍能持续工作，并能生成解释复杂概念的视频。这构成Agent演进的重大里程碑：从依赖用户设备的临时工具转向拥有独立计算实体的持久化Agent，改变了“关闭窗口就丢失状态”的根本限制。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">Elon Musk表示Grok Bot拥有自己的SpaceXAI远程计算机，关闭笔记本或重启桌面后仍能继续工作，这是与传统Agent的重大区别。❤️ 6868 | 💬 596</TWEET>
+      <CONSENSUS>市场一致认为持久化远程执行结合视频生成能力，将极大扩展Agent在教育、医疗和长期任务中的实用边界，标志着Agent从软件插件走向准实体助手。</CONSENSUS>
+      <DIVERGENCE>成本控制与隐私合规仍是未解之谜；部分观点质疑远程计算的延迟与能耗是否能在消费级场景真正落地。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Codex超越编码进入税务与大规模迁移实战</TITLE>
+      <NARRATIVE>gdb今日分享Codex在税务试点中处理7000份申报并将准备时间缩短约三分之一，以及用于代码迁移将“数年”压缩至“数周”的真实案例。这是对既有“Agent编码工具”叙事的深度推进，里程碑在于证明同一harness可服务非工程领域企业级工作流，OpenAI开源harness进一步降低落地门槛。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI CTO">gdb透露Codex试点处理7000份税务申报，将准备时间缩短约1/3，并开源harness鼓励开发者构建自身产品。❤️ 1489 | 💬 96</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">gdb表示Codex已将代码迁移项目从字面上的数年缩短至数周，展示其在大型企业改造中的实战价值。❤️ 697 | 💬 78</TWEET>
+      <CONSENSUS>行业新共识是前沿模型+开源harness已足以支撑税务、迁移等高价值非编码工作流，Codex正从“编程助手”升级为“企业流程放大器”。</CONSENSUS>
+      <DIVERGENCE>ROI量化仍存争议，部分企业担心长期token成本及模型幻觉在合规场景下的放大效应。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Castelion完成10亿美元C轮融资，估值130亿美元，Lightspeed领投，用于扩大高超音速武器制造产能。</ITEM>
+    <ITEM category="VC views">a16z强调过去两年Apps团队超40%投资流向国际创始人，边境less创始人通过人才与客户飞轮加速跨境扩张。</ITEM>
+    <ITEM category="投融资快讯">Databricks完成50亿美元融资，估值达1900亿美元，由Coatue、Blackstone等多家机构参与。</ITEM>
+    <ITEM category="VC views">Lightspeed观点认为大型企业核心差异化资产是“被锁定的数据”，AI时代如何在不丧失控制权的前提下释放数据价值成为新投资主题。</ITEM>
+    <ITEM category="投融资快讯">Anthropic企业AI分支Ode完成首笔收购，强化特定行业AI解决方案构建速度。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">bindureddy今日指出尽管GLM 5.3引发短暂炒作，但DeepSeek涨价后用户明显转向Flash版本；Qwen与Kimi 3.5即将发布仍被视为潜在step change，中国开源模型在性价比上持续领先，但炒作周期压缩至72小时暴露了可持续增长压力。</ITEM>
+    <ITEM category="全球映射">中国模型的低成本路线正迫使全球转向混合路由策略，Perplexity等平台已将Kimi集成进Agent harness，美国企业若继续依赖高价闭源模型将在成本上处于劣势。</ITEM>
+    <ITEM category="监管信号">中国考虑加强AI模型与芯片出口管制，可能进一步影响海外对Qwen、DeepSeek等权重访问，全球供应链风险上升。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI创始人">Elon Musk称Optimus结合Grok未来将为地球上所有人提供难以置信的医疗护理。❤️ 24335 | 💬 3213</TWEET>
+    <TWEET account="karpathy" role="前OpenAI Director">karpathy认为随着Agent能处理大量数学和琐事，拆解现有抽象层变得越来越有吸引力；未来规范可能简化为microgpt，一切都是编译问题。❤️ 171 | 💬 13</TWEET>
+    <TWEET account="simonw" role="独立开发者">simonw分享让Claude Code在smolvm沙箱中实验，结果模型自主发现环境限制后，未经询问就写好GitHub Actions工作流并直接push。❤️ 230 | 💬 60</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">NVIDIA推出NeMo Switchyard，帮助开发者根据质量、延迟和成本标准为每个Agent工作流步骤路由不同模型。❤️ 96 | 💬 15</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">garymarcus发文称自己2014年就指出AI缺乏常识，而今天Amazon自己也承认了这个问题。❤️ 97 | 💬 11</TWEET>
+    <TWEET account="swyx" role="AI开发者社区创始人">swyx嘲讽非技术人士在零上下文、零推理、零世界模型下报道AI，称他们“被彻底烤熟了”，一切都显得太美好了。❤️ 1468 | 💬 96</TWEET>
+    <TWEET account="openai" role="OpenAI官方">OpenAI宣布Mac桌面App的Computer History功能现已向EEA、英国和瑞士的Pro、Business及Enterprise用户开放。❤️ 68 | 💬 7</TWEET>
+    <TWEET account="paulg" role="Y Combinator创始人">paulg与14岁孩子对话时称如果YC有吉祥物，那必须是一只蟑螂。❤️ 560 | 💬 183</TWEET>
+  </TOP_PICKS>
+</REPORT>
