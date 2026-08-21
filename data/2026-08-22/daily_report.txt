@@ -1,0 +1,75 @@
+<REPORT>
+  <COVER title="触觉革命：机器人最后的一公里突破" prompt="Ultra-realistic industrial design of a dexterous robotic hand in mid-contact with a delicate paper cup, magnetic connector snapping into place under precise force feedback. High-speed tactile sensors glowing with real-time data overlays, cinematic volumetric lighting casting sharp industrial shadows on brushed titanium and soft silicone surfaces. Macro details of skin-like texture deformation, 8K resolution, photorealistic materials, dramatic rim lighting, depth of field, shot on Arri Alexa 65, IMAX quality, emphasizing engineering precision and breakthrough innovation in physical AI." insight="触觉成为机器人最后瓶颈，T-Rex开源标志触觉优先全栈范式崛起。"/>
+  <PULSE>今日硅谷叙事从模型价格战与路由优化转向机器人触觉全栈突破，中国开源GLM-5.3以60分智能指数直逼前沿，效率与物理智能双线推进。</PULSE>
+
+  <THEMES>
+    <THEME type="advance" emoji="🚀">
+      <TITLE>触觉成为机器人最后里程碑：T-Rex开源全栈方法</TITLE>
+      <NARRATIVE>drjimfan今日详细阐述触觉是被严重低估的模态，推出T-Rex：异步混合Transformer架构让触觉专家以4倍于视觉的频率实时校正，结合50小时开源触觉数据集与EgoScale预训练，成功桥接无接触到富接触操作。这是既有机器人学习叙事的核心瓶颈突破，历史记忆中LeCun多次强调世界模型需包含触觉，此次以开源数据+架构创新实现里程碑推进。</NARRATIVE>
+      <TWEET account="drjimfan" role="机器人科学家">触觉是机器人中最被忽视的模态，戴着厚手套做魔术就是当前机器人感受。T-Rex让触觉成为模型一等公民，异步混合Transformer以4个触觉tick对应1个视觉tick，开源50小时5500集高质量触觉数据集，结合EgoScale从人类视频预训练到触觉中训，显著提升接触富操作。T-Rex是NVIDIA与伯克利合作成果。❤️ 369 | 💬 36</TWEET>
+      <CONSENSUS>行业已形成共识：像素在接触瞬间失效，触觉将是下一条主要scaling曲线，以小时级触觉数据衡量。</CONSENSUS>
+      <DIVERGENCE>如何在真实世界大规模采集高质量触觉数据，以及如何将T-Rex扩展到多指复杂操作仍存争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>OpenAI连环降价20%引发开源价格战新阶段</TITLE>
+      <NARRATIVE>openai今日宣布GPT-5.6 Sol API及信用定价下调超20%，bindureddy随即指出这是开源竞争真实的体现，DeepSeek Flash使用量过去几周暴增100倍以上。相比历史记忆中OpenAI曾强调安全信心决定进度，此次主动大幅降价标志从“能力领先溢价”转向“效率与路由竞争”，共识快速瓦解。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI官方">我们持续推动能力边界同时提升效率，GPT-5.6 Sol API及ChatGPT Work、Codex信用定价下调超20%，为期三个月。即将在API上线并向符合条件的计划推出。Pro、Plus和Business订阅使用量不变。❤️ 7487 | 💬 357</TWEET>
+      <TWEET account="bindureddy" role="AI基础设施投资人">哇！OpenAI又一次大幅降价！Sol便宜20%！开源AI竞争是真实的！❤️ 58 | 💬 8</TWEET>
+      <CONSENSUS>行业最新共识是路由到最优模型（开源处理简单任务，前沿模型处理复杂任务）将成为默认范式，价格战已不可逆。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在激烈争论：持续降价是否会损害前沿实验室长期研发投入，以及开源模型在极难任务上是否真正能替代。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>巨型数据中心成为地方经济引擎而非负担</TITLE>
+      <NARRATIVE>a16z今日发布数据证明，已运营巨型数据中心的县自2024年以来住房增加、房价上涨、失业率下降、就业增长。这一全新叙事试图解决AI基础设施被视为“能源与社区负担”的底层问题，将数据中心重塑为地方经济增长催化剂。</NARRATIVE>
+      <TWEET account="a16z" role="风险投资机构">是时候建造巨型数据中心了。在已经运营的县，自2024年以来情况全面改善：更多住房、更高房价、更低失业率、更多就业增长。图表周报。❤️ 446 | 💬 43</TWEET>
+      <OUTLOOK>未来6-12个月，数据中心选址将从纯能源考量转向综合经济影响评估，地方政策将更积极吸引AI基础设施。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注数据中心+社区开发联合体、地方能源AI垂直SaaS以及相关地产科技项目。</OPPORTUNITY>
+      <RISK>若电力供应与电网升级滞后，这一叙事可能仍是短期宣传，实际落地仍存硬基础设施瓶颈。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>智谱GLM-5.3以60分登顶开源智能指数</TITLE>
+      <NARRATIVE>外部宏观数据显示智谱GLM-5.3在Artificial Analysis Intelligence指数获60分，与Kimi K3并列开源模型首位，可媲美Claude Fable 5和GPT-5.6 Sol。这是中国开源模型既有叙事的深度推进，参数更少、成本更低实现同等性能，历史记忆中多次提及中国模型本地性能突破，此次通过国家超算互联网API上线与后训练scaling实现关键里程碑。</NARRATIVE>
+      <TWEET account="tualatrix" role="独立开发者">原来宝马车机AI用的是DeepSeek。❤️ 6 | 💬 14</TWEET>
+      <CONSENSUS>行业新共识是中国开源模型已在智能性价比上形成全球竞争力，GLM-5.3 API兼容OpenAI与Anthropic规范且价格未涨。</CONSENSUS>
+      <DIVERGENCE>开源模型视觉能力仍普遍不足，中等复杂度任务有时比前沿模型更贵，后续如何补齐多模态仍是争议焦点。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Vercel agentic循环测试达100/100推动基础设施新范式</TITLE>
+      <NARRATIVE>rauchg今日展示is-agentic在循环中自我迭代至100/100，暴露并填补了多个产品差距。这一事件成为Agent基础设施从实验到生产可验证的重大里程碑，改变开发者对Agent可靠性的预期，标志Vercel正如其历史推文所预告的转向“Agent的AWS”。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel创始人">这太疯狂了，看着它逐步展开。我们让is-agentic循环运行直到100/100。它帮助我们弥补了很多差距。我们努力确保标准高质量且值得你的时间和token。❤️ 913 | 💬 68</TWEET>
+      <CONSENSUS>市场一致认为高品质、可重复的Agent评测标准将成为基础设施竞争核心，透明安全与自我改进循环是新护城河。</CONSENSUS>
+      <DIVERGENCE>是否所有Agent任务都适合这种高强度自我迭代，以及计算成本是否会限制中小开发者采用，仍存未解风险争论。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Databricks完成50亿美元融资，估值1900亿美元，投资方包括Coatue、Blackstone、MGX、T. Rowe Price、Sixth Street Growth。</ITEM>
+    <ITEM category="投融资快讯">SpaceX以隐含600亿美元股权价值收购Cursor，Cursor团队并入SpaceX AI部门。</ITEM>
+    <ITEM category="VC views">a16z指出AI公司以20人团队高效使用20亿美元资本，资本生产力达到历史新高，产品导向而非纯研究的公司将胜出。</ITEM>
+    <ITEM category="VC views">lightspeedvp强调路由技术（OpenRouter+Stripe）与触觉基础设施将成为下一波物理AI投资重点。</ITEM>
+    <ITEM category="投融资快讯">Rezolv AI完成1250万美元A轮融资，由Norwest、Vertex Ventures、3one4 Capital领投。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">智谱GLM-5.3在Artificial Analysis Intelligence指数获60分，与Kimi K3并列开源第一，可媲美Claude Fable 5与GPT-5.6 Sol，以更低成本实现前沿性能，股价盘中涨超11%，显示中国开源已进入全球第一梯队。</ITEM>
+    <ITEM category="全球映射">OpenAI 20%大幅降价与DeepSeek Flash使用量暴增100倍形成共振，迫使全球模型路由优先考虑性价比，中国低成本高性能模型的全球采用率预计将进一步提升。</ITEM>
+    <ITEM category="全球映射">触觉数据集开源趋势下，中国在机器人硬件与数据方面的积累（如Unitree上市后629%涨幅）可能与美国T-Rex形成互补，但需警惕数据主权与供应链风险。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="SpaceX/Tesla CEO">Starship太科幻了。❤️ 65411 | 💬 3102</TWEET>
+    <TWEET account="paulg" role="Y Combinator创始人">资本主义获胜之道是专注于真正为客户创造更好生活，而非社会主义漫画里“榨取每一分钱”。后者最多2倍回报，前者能带来10倍。❤️ 4524 | 💬 234</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">共和党人抛弃数据中心的速度比老鼠逃离沉船还快。也许历史上没有哪个行业像AI产业这样以贪婪、愚蠢和傲慢如此迅速毁掉自己的前景。❤️ 222 | 💬 23</TWEET>
+    <TWEET account="bindureddy" role="AI基础设施投资人">DeepSeek Flash正引领开源加速，性价比惊人，是首次推理的首选模型，几乎不花钱！过去几周包括企业在内使用量暴增超100倍。❤️ 119 | 💬 12</TWEET>
+    <TWEET account="a16z" role="风险投资机构">Martin Casado指出Cursor创始人把30-40%时间花在招聘和文化上，这是他们迭代如此之快的原因。他们坚持产品公司定位而非研究公司，这是这个时代的关键差异化。❤️ 49 | 💬 10</TWEET>
+    <TWEET account="techcrunch" role="科技媒体">Apple承认部分职位受影响，因为公司正将重点从某些项目转移。❤️ 22 | 💬 8</TWEET>
+    <TWEET account="rauchg" role="Vercel创始人">我们的Python团队正在快速进步。❤️ 111 | 💬 11</TWEET>
+    <TWEET account="simonw" role="独立开发者">唯一可信的是能控制它们做什么的环境——这就是我大量使用Claude Code做web的原因，但我也在试验Apple Containers。❤️ 3 | 💬 2</TWEET>
+    <TWEET account="theinformation" role="商业情报媒体">AT&amp;T通过将更多员工查询路由到更便宜模型，将AI编码成本降低56%，性能质量仅下降2%。❤️ 4 | 💬 1</TWEET>
+    <TWEET account="hardmaru" role="Sakana AI研究员">不惜一切代价获胜。❤️ 214 | 💬 6</TWEET>
+  </TOP_PICKS>
+</REPORT>
