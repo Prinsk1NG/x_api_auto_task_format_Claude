@@ -1,0 +1,77 @@
+<REPORT>
+  <COVER title="太空AI工厂启航：Vera Rubin轨道版重塑Agent边界" prompt="Ultra-realistic industrial design of a massive orbital AI compute station based on NVIDIA Vera Rubin NVL72, docked in low Earth orbit with solar arrays glowing against the curvature of Earth at dawn. Cinematic volumetric lighting from sunlight and city lights below, intricate cooling radiators and modular GPU racks visible through transparent hull sections, SpaceX Dragon spacecraft approaching for maintenance. Dramatic scale with tiny astronaut figures, hyper-detailed metallic surfaces, 8K resolution, shot on IMAX with anamorphic lenses, emphasizing engineering precision and futuristic infrastructure." insight="AI计算从地面转向太空，小模型主导95%日常任务"/>
+  <PULSE>今日硅谷核心叙事转向太空优化Agent硬件与小型开源模型主导日常计算，物理世界模型与轨道基础设施成为新增长引擎。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>SpaceX与NVIDIA合作推出轨道Vera Rubin系统 AI计算迈入太空时代</TITLE>
+      <NARRATIVE>Elon Musk今日宣布SpaceX与NVIDIA已设计出针对轨道的Vera Rubin NVL72系统，明年Q4发射并2028年大规模部署，这是解决地面电力与许可瓶颈的真正分水岭事件。与历史记忆中Elon此前预测2029年才需轨道计算形成鲜明加速，标志AI工厂从地面走向太空，直接服务Agentic AI的持久运行。</NARRATIVE>
+      <TWEET account="elonmusk" role="SpaceX/Tesla CEO">SpaceX与NVIDIA合作设计了针对太空优化的Vera Rubin NVL72系统，明年Q4发射升空并在2028年实现大规模部署（❤️ 20121 | 💬 1185）</TWEET>
+      <TWEET account="nvidia" role="Official Account">NVIDIA Vera Rubin将成为首个为Agent大规模工作的CPU，SpaceX正在部署它来加速编排、代码执行和数据处理，保持GPU高效喂饱（❤️ 3345 | 💬 158）</TWEET>
+      <CONSENSUS>行业已达成共识：地面电力与许可将成为AI规模化的主要瓶颈，太空计算是必然的下一站，将为持久Agent提供无限扩展可能。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论发射成本、轨道延迟以及辐射对GPU可靠性的真实影响，是否真能比地面巨型数据中心更经济。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>95%日常任务将由250B开源小模型主导 大模型专攻训练</TITLE>
+      <NARRATIVE>Bindureddy今日明确提出，6个月内95%的任务将由小型250B开源模型完成，大模型则负责极复杂工作和训练小模型。这一新范式试图解决token成本与效率的底层矛盾，区别于过去单纯追求更大闭源模型的路径。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI Analyst">在6个月内，95%的任务将由小型250B开源模型完成，大模型将执行极复杂任务包括训练这些小模型，绝大多数token消耗将来自小模型（❤️ 308 | 💬 41）</TWEET>
+      <OUTLOOK>未来6-12个月，行业将快速分化为“ULTRA CHEAP”小模型层与“ULTRA SMART”大模型层，企业基础设施将转向model-agnostic路由，大幅压低成本并加速采用。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于为小型开源模型提供高效推理硬件、持续学习框架以及企业级路由与编排工具，类似Vercel为Agent构建的基础设施。</OPPORTUNITY>
+      <RISK>技术硬伤在于小模型在复杂边缘案例上的稳定性仍需验证，若无突破可能只是短期成本优化而非范式转变。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>NVIDIA Vera Rubin在真实Agentic负载上实现30x吞吐与35x更低Token成本</TITLE>
+      <NARRATIVE>今日NVIDIA公布Vera Rubin在SemiAnalysis AgentX真实Agentic编码轨迹上的硅级性能测试结果：较GB300实现30x每兆瓦吞吐量、35x更低Token成本。这是既有Agent硬件叙事的深度推进，专门针对上下文随数百步增长至数十万token的Agent行为进行了优化，而非通用聊天负载。</NARRATIVE>
+      <TWEET account="nvidia" role="Official Account">NVIDIA Vera Rubin首次硅级性能测试针对真实Agent工作负载，使用DeepSeek V4 Pro模型，在SemiAnalysis AgentX基准上实现最高30x每兆瓦吞吐量和35x更低Token成本（❤️ 827 | 💬 62）</TWEET>
+      <CONSENSUS>行业新共识是：Agentic工作负载与传统LLM负载完全不同，需要专用CPU与全栈优化，Vera Rubin正是为此而生，将显著降低企业部署门槛。</CONSENSUS>
+      <DIVERGENCE>推进后仍存争议：真实世界多Agent协作下的功耗与散热是否能持续，以及开源模型如DeepSeek V4 Pro在生产环境中的长期稳定性。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Yann LeCun重申世界模型是机器人最后壁垒 LLM挂钩无效</TITLE>
+      <NARRATIVE>LeCun今日连续发文强调，即使把数据中心LLM挂到人形机器人上，也无法让它打扫房间；年轻动物无需大量示范即可学习，世界模型而非纯LLM才是关键。这与过去行业对“LLM+具身”简单组合的乐观共识形成明显转向，呼应其历史记忆中对家用机器人进展缓慢的长期批评。</NARRATIVE>
+      <TWEET account="ylecun" role="Meta Chief AI Scientist">把人形机器人挂上运行在数据中心的LLM，你仍然得不到一个能打扫房间的机器人（❤️ 30 | 💬 3）</TWEET>
+      <TWEET account="ylecun" role="Meta Chief AI Scientist">年轻动物和人类为什么能在短时间内学会一切？许多动物物种甚至从未见过父母，它们当然没有150年的他人感知数据（❤️ 1 | 💬 2）</TWEET>
+      <CONSENSUS>越来越多研究者同意世界模型（而非纯Transformer文本预测）是物理AI的必由之路，模拟与少样本学习将成为下一阶段重点。</CONSENSUS>
+      <DIVERGENCE>争论焦点仍在于如何高效构建可靠的世界模型：是靠大规模视频生成数据（如中国路径），还是需要全新架构突破，目前无定论。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>AI Capex 2026年预计达7650亿美元 首次超越油气产业</TITLE>
+      <NARRATIVE>Chamath今日指出AI资本支出2026年将达7650亿美元，首次超过油气行业，并已有Compute期货合约。这一新叙事把AI视为与传统能源同量级的宏观经济力量，试图解决“谁为指数级计算买单”的底层问题。</NARRATIVE>
+      <TWEET account="chamath" role="Social Capital CEO">AI capex预计2026年达到7650亿美元，首次超过油气行业。Compute现在有了第一个期货合约。要让这一切成立必须满足以下条件…（❤️ 713 | 💬 60）</TWEET>
+      <OUTLOOK>未来6-12个月，AI基础设施投资将从科技公司扩展到传统能源与金融巨头，巨型数据中心将成为地方经济引擎，同时推动核能与太空能源解决方案加速落地。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注AI能源基础设施、轨道计算硬件以及为巨型Capex提供融资与风险对冲的金融工具。</OPPORTUNITY>
+      <RISK>若ROI无法跟上7650亿美元投入节奏，可能引发行业性资本泡沫与投资回报断崖。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">小鹏集团人形机器人业务完成首轮股权融资超9亿美元，投后估值超63亿美元，成为近期硬件领域最大单笔交易。</ITEM>
+    <ITEM category="投融资快讯">SpaceX完成对Cursor母公司Anysphere的收购，Cursor股东获得对应600亿美元隐含股权价值，标志Agent原生工具链被深度整合进太空AI生态。</ITEM>
+    <ITEM category="VC views">a16z Ben Horowitz分享早期投资Databricks经验：拒绝20万美元请求而给出1000万美元支票，强调学术团队必须“真正去建一家公司”而非小富即安。</ITEM>
+    <ITEM category="VC views">NVIDIA免费开放AI模型以扩大生态，核心逻辑是让更多开发者使用可微调开源模型，从而驱动更多GPU采购需求。</ITEM>
+    <ITEM category="VC views">Mistral宣布与HUMAIN战略合作，在沙特开发本地化前沿模型，聚焦网络安全、语音和阿拉伯语，显示中东成为AI基础设施新战场。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek、Kimi K3（2.8万亿参数开源）和Qwen 3.8正在推动小型高效开源模型革命，Bindureddy今日预测95%任务将由250B级中国系开源模型主导，中国在开放权重与World Model（视频生成占AI token 70%）上已形成显著领先优势。</ITEM>
+    <ITEM category="全球映射">中国开源模型的成本与性能优势正迫使全球转向model-agnostic路由与小模型优先策略，美国闭源实验室面临真实竞争压力，可能加速中美在轨道计算与机器人世界模型上的军备竞赛。</ITEM>
+    <ITEM category="全球映射">智谱GLM-5.3与DeepSeek V4 Pro的快速迭代显示中国在持续学习与Agentic基准上逼近甚至局部超越，全球投资者需重新评估中美AI技术差距已被压缩至6个月以内。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="gdb" role="OpenAI CTO">OpenAI已经建立了做长期研究赌注的肌肉记忆（❤️ 1770 | 💬 101）</TWEET>
+    <TWEET account="elonmusk" role="xAI/SpaceX CEO">Grok Bot全天候24/7工作（❤️ 7356 | 💬 1132）</TWEET>
+    <TWEET account="nvidia" role="Official Account">NVIDIA Vera Rubin在真实Agentic会话上的性能测试结果：上下文随数百步增长至数十万token，较前代实现30倍每兆瓦吞吐（❤️ 827 | 💬 62）</TWEET>
+    <TWEET account="bindureddy" role="AI Analyst">除非未来几周出现巨大AI突破，否则AI正在以疯狂速度加速，多个秘密实验室取得实质进展，一个小型持续学习模型可能即将到来（❤️ 596 | 💬 40）</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">如果你的终端进入“坏状态”，以前要跑reset，现在我让fx用Zig写了一个1毫秒版本而不是1秒（❤️ 349 | 💬 30）</TWEET>
+    <TWEET account="a16z" role="Official Account">Sam Altman谈如何挑选高风险赌注：从2015年的AGI到今天招的研究员，必须是非共识、新鲜方法、高能量、不标准的人（❤️ 60 | 💬 12）</TWEET>
+    <TWEET account="garymarcus" role="AI Skeptic">对Anthropic来说又是坏消息，如果他们不降低IPO预期，将会是一场灾难（❤️ 77 | 💬 3）</TWEET>
+    <TWEET account="mistralai" role="Official Account">我们今天宣布与HUMAIN战略合作，在沙特及区域开发本地化前沿AI模型，重点包括网络安全、语音和阿拉伯语强模型（❤️ 291 | 💬 22）</TWEET>
+    <TWEET account="_akhaliq" role="AI Papers Curator">Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning（❤️ 73 | 💬 2）</TWEET>
+    <TWEET account="runwayml" role="Official Account">WAN 3.0现已在Runway上线，支持多图像、视频、音频参考输入生成最先进视频与音频（❤️ 25 | 💬 2）</TWEET>
+  </TOP_PICKS>
+</REPORT>
