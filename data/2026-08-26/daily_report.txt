@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="OpenAI Jalapeño芯片：自研硬件引爆Agent效率革命" prompt="Ultra-realistic industrial product photography of OpenAI Jalapeño custom inference chip centered on a precision-engineered silicon wafer, intricate nanoscale circuitry with embedded neural pathways glowing under cool blue-white cinematic key lighting, subtle heat dissipation patterns and metallic copper traces visible, surrounded by automated robotic assembly arms in a sterile high-tech cleanroom environment, volumetric lighting with god rays piercing through particle-filled air, extreme macro detail on chip surface showing data flow visualization, 8K resolution, photorealistic materials with reflective anodized surfaces and micro-etching textures, dramatic depth of field, strict industrial design aesthetic emphasizing precision engineering and power efficiency" insight="硬件自研+本地Agent，双轮驱动AI基础设施跃迁"/>
+  <PULSE>今日硅谷核心叙事从纯模型竞赛转向硬件垂直整合与本地化Agent部署，OpenAI Jalapeño芯片与Perplexity Portable Computer标志效率与隐私范式重大突破。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>OpenAI首款自研Jalapeño推理芯片落地：效率速度双突破</TITLE>
+      <NARRATIVE>OpenAI正式发布首款定制推理芯片Jalapeño，测试显示在相同功耗下实现更高智能输出、更快响应与吞吐量提升，这是OpenAI从模型层向全栈硬件垂直整合的里程碑事件，Gen2与Gen3已在路上，计划年底部署进自身算力基础设施，直接服务更快ChatGPT、Codex与Agent体验，改变行业对“谁掌控AI硬件”的认知。</NARRATIVE>
+      <TWEET account="openai" role="官方发布">OpenAI宣布Jalapeño是其首款定制推理芯片，测试结果显示每瓦特产生更多智能、更快响应，在单一架构中同时实现更高吞吐量和更低延迟，且不牺牲效率。这是多代路线图的第一步，Gen2已在深度开发中，计划年底开始部署进OpenAI算力设施。（❤️ 7911 | 💬 342）</TWEET>
+      <TWEET account="sama" role="CEO">我们造了一颗芯片，而且它非常快。（❤️ 19264 | 💬 2089）</TWEET>
+      <CONSENSUS>行业已形成共识：大模型公司自研芯片将成为标配，Jalapeño证明定制硅能同时解决延迟、吞吐与能效三重挑战，加速Agent落地。</CONSENSUS>
+      <DIVERGENCE>质疑主要集中在实际可验证的独立基准缺失，以及OpenAI是否能长期在芯片制造上与NVIDIA等硬件巨头竞争。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Perplexity推出Portable Computer：本地化Agent彻底离云</TITLE>
+      <NARRATIVE>Perplexity在NVIDIA DGX Spark上发布完全本地版本的Portable Computer，整个编排器、子Agent与运行时均在本地硬件运行，无任何云依赖，使用27B on-device模型在真实知识工作基准上达到82.6%-85.4%得分，这开创了隐私优先、成本可控的本地Agent新范式，解决企业对数据外泄的根本担忧。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="官方发布">我们今天在NVIDIA DGX Spark上推出Portable Computer，这是Perplexity Computer的完全本地版本，整个运行时包括编排LLM、子Agent LLM和Agent框架全部在本地硬件运行，无云依赖。（❤️ 2934 | 💬 160）</TWEET>
+      <OUTLOOK>未来6-12个月，本地Agent将从高端硬件（如DGX Spark）快速渗透至消费级设备，企业级隐私计算需求将推动混合编排架构成为主流，云端仅保留极复杂任务。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于本地推理优化框架、边缘级多模态小模型微调工具，以及针对Windows/Linux的本地MCP生态连接器。</OPPORTUNITY>
+      <RISK>当前27B本地模型在极复杂长时程任务上仍与云端前沿模型有差距，硬件门槛（需DGX Spark级别）可能限制初期普及速度。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>DeepSeek Flash Vision成开源多模态Agent新王者</TITLE>
+      <NARRATIVE>DeepSeek Flash Vision以10倍于Kimi K3的性价比，在性能上超越GLM 5.3，尤其在Agentic Coding与图像理解任务上表现出色，已被直接用于生产环境，这是开源多模态模型在Agent工作流上的关键里程碑，标志开源权重在视觉+行动结合方向实现实质超越。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI观察者">DeepSeek Flash Vision是开源新王：比Kimi K3便宜10倍，性能超越GLM 5.3，在Agentic Coding上极强，支持图像，这是我们第一个投入生产的开源多模态模型。（❤️ 997 | 💬 45）</TWEET>
+      <CONSENSUS>行业新共识是250B级别开源多模态模型已足以主导95%日常Agent任务，大模型仅保留最复杂训练与规划工作。</CONSENSUS>
+      <DIVERGENCE>争议仍在于长时程复杂视觉Agent的稳定性，以及开源模型在生产级安全护栏上的长期可维护性。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>规模定律持续生效 AI初创公司借Token需求挑战巨头</TITLE>
+      <NARRATIVE>对比历史记忆中Gary Marcus等人对规模化泡沫的持续质疑，a16z合伙人Martin Casado今日坦承自己此前低估了规模定律的持久性，并指出AI作为全新计算抽象层已彻底改变竞争格局：初创公司通过无限Token需求解决了分发难题，在资本与增长上与Microsoft、Meta站到同一起跑线，资源集中规模达到千亿美元级别，其影响远超以往任何技术。</NARRATIVE>
+      <TWEET account="a16z" role="机构观点">Martin Casado指出他此前低估了规模定律的持续性，现在我们正把1000亿美元投入训练，AI已成为全新抽象层，初创公司因此在资本和增长上与巨头处于平等地位。（❤️ 87 | 💬 12）</TWEET>
+      <CONSENSUS>最新共识是规模定律仍在强劲生效，AI需求近乎无限，这让资本密集型初创公司能快速建立与传统巨头的竞争优势。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论的是如此巨额资源集中用于“祈祷模型给出答案”的新范式，是否会带来不可控的系统性风险或武器化可能。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Vercel GA安全Agent连接与轻量代码执行SDK</TITLE>
+      <NARRATIVE>rauchg宣布Vercel Connect正式GA并推出Run SDK，这是Agent基础设施在安全连接与动态代码执行上的深度推进：解决了Agent最难的安全服务连接问题，同时允许在轻量QuickJS安全上下文快速运行Agent生成的代码，大幅降低成本并提升可靠性。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">构建Agent最难的问题是到服务和数据的安全连接。我们很兴奋Vercel Connect已GA，你可以运行vercel connect create notion，获得能代表已认证用户查询的MCP客户端。（❤️ 97 | 💬 14）</TWEET>
+      <CONSENSUS>行业已共识Agent基础设施下一阶段重点是安全、可审计的连接层与轻量执行环境，而非单纯扩大模型规模。</CONSENSUS>
+      <DIVERGENCE>仍未解决的争议在于当Agent需要跨多系统持久化操作时，如何在安全与灵活性之间取得长期平衡。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>字节豆包工作深度整合飞书开启中国企业AI Native</TITLE>
+      <NARRATIVE>字节推出“豆包工作”独立客户端，豪赠一个月会员并与飞书深度融合，可直接获取会议纪要、文档、群聊全部上下文，构建专属知识库，支持文档/PPT/网页生成、浏览器Computer Use及丰富MCP生态，这是中国AI在企业办公场景的独特新叙事，利用已有办公基础设施实现组织级AI转型。</NARRATIVE>
+      <TWEET account="op7418" role="中国AI观察者">字节发布“豆包工作”，上来就送一个月标准会员。它与飞书深度结合，能获取全部上下文、管理会议纪要、操作日历、搭建看板，支持文档表格PPT生成、网页搭建、浏览器Computer Use，以及覆盖法律、新媒体、编程等多行业的MCP生态，针对Windows云电脑协同优化极佳。（❤️ 99 | 💬 37）</TWEET>
+      <OUTLOOK>未来6-12个月，中国企业AI将以办公软件为切入点快速实现组织级部署，飞书+豆包的闭环生态或成为标杆，加速从个人工具到企业生产力平台的跃迁。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注企业知识库Agent、行业垂直MCP连接器以及中式办公场景专属的持续学习Agent基础设施。</OPPORTUNITY>
+      <RISK>该叙事高度依赖字节现有飞书用户基数，走出中国市场时可能面临本地化与数据合规的双重挑战。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Nebius通过可转换债融资57.5亿美元，用于新建数据中心与增加GPU容量</ITEM>
+    <ITEM category="投融资快讯">SpaceX以600亿美元完成对Cursor的收购，Elon Musk称需其帮助追赶Anthropic</ITEM>
+    <ITEM category="投融资快讯">Stripe以超过70亿美元收购OpenRouter，打造AI模型智能交换网络</ITEM>
+    <ITEM category="VC views">a16z Martin Casado：AI让初创公司获得与微软Meta同等的资本与增长 footing，规模定律仍在强劲生效</ITEM>
+    <ITEM category="VC views">Chamath预测2026年AI Capex将达7650亿美元并首次超过油气产业</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek Flash Vision以10倍性价比超越GLM 5.3并已在生产中使用，成为开源多模态Agent新标杆；Qwen3.8系列在Together AI上被列为聊天、视觉与函数调用顶级开源选择，字节豆包工作借助飞书生态快速切入企业级Agent，显示中国公司在开源权重+企业落地结合上已形成独特优势。</ITEM>
+    <ITEM category="全球映射">中国开源模型在Token消耗与多模态Agent上的快速迭代，正迫使美国公司加速价格战与本地化部署，OpenAI Jalapeño等硬件自研或成为应对中国低成本开源洪流的长期战略。</ITEM>
+    <ITEM category="全球映射">尽管美国在前沿硬件与安全对齐上仍领跑，但DeepSeek、Qwen、智谱GLM的性价比已让开源权重Token份额持续上升，全球AI基础设施正向“美国闭源前沿+中国开源规模”双轨并行演化。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="openai" role="官方发布">OpenAI计划年底开始将Jalapeño部署进自身算力设施，这是多代路线图的第一步，Gen2已在深度开发，Gen3也在成型，每一代都将进一步提升效率与速度。（❤️ 709 | 💬 16）</TWEET>
+    <TWEET account="nvidia" role="官方发布">NVIDIA Vera Rubin NVL72生产机架已就位，计算托盘实现一分钟组装，100%自动化制造，微软成为首批部署客户。（❤️ 1094 | 💬 39）</TWEET>
+    <TWEET account="gdb" role="OpenAI高管">Jalapeño的推理性能数据已发布，团队做得非常出色。（❤️ 1069 | 💬 53）</TWEET>
+    <TWEET account="elonmusk" role="SpaceX/Tesla CEO">Starbase Louisiana最终将拥有超过12座发射塔，每天能进行30多次Starship飞行，成为地球上最大的发射场，SpaceX正在把科幻变为现实。（❤️ 41893 | 💬 2543）</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">我们推出Run SDK：在Agent编写代码时，你无需总是使用完整沙箱，可以在轻量QuickJS安全上下文中运行，速度更快且成本更低。（❤️ 82 | 💬 12）</TWEET>
+    <TWEET account="perplexity_ai" role="官方发布">Portable Computer在本地使用27B模型时，我们的框架在真实知识工作上得分82.6%，后训练的PPLX 27B达到85.4%，超越开源Pi和Hermes框架。（❤️ 355 | 💬 25）</TWEET>
+    <TWEET account="theinformation" role="媒体报道">SpaceX以600亿美元收购Cursor后，Elon Musk对员工表示“Grok正在落后，我们需要你们来帮忙”，并指出Anthropic目前领先。（❤️ 8 | 💬 1）</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">OpenAI内部一团糟，已经有太多人跳槽离开。（❤️ 226 | 💬 16）</TWEET>
+  </TOP_PICKS>
+</REPORT>
