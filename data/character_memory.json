@@ -14,7 +14,6 @@
     "[2026-08-23]: 很容易把“Simulation is a new scaling law”当营销，但采访中我从半开玩笑转为非常认真。我终于明白为什么karpathy和drfeifei支持Simile团队——如果认真对待RSI，模拟人类和人类反馈是自动化ML研究和AI工程的最后壁垒，他们已在Fortune 100找到PMF。❤️ 277 | 💬 26"
   ],
   "dotey": [
-    "[2026-06-29]: RepoPrompt已完全开源，架构反转后由内置MCP server主控，底层Claude Code、Codex等Agent变为可替换执行层，支持并行子任务与上下文工程。原付费用户自动成为认证贡献者。❤️ 89 | 💬 9",
     "[2026-07-01]: Anthropic发布Claude Sonnet 5作为免费与Pro默认模型，Agent基准63.2%（4.6为58.1%），知识工作略超Opus 4.8。新分词器使英文Token增加约1.4倍，但推广价已对冲。早期用户反馈：以前半途而废的任务现在能完整执行并自检。❤️ 215 | 💬 20",
     "[2026-07-01]: Anthropic推出Claude Science，作为生命科学领域的Claude Code。主Agent连接60+数据库，可派生子Agent，全部输出可完整复现（代码+环境+对话）。已在Gladstone、UCSF、Allen研究所落地，帮助发现实验室污染物、生成多Agent文献综述。❤️ 189 | 💬 33",
     "[2026-07-07]: Claude Code团队Thariq分享Fable 5使用秘诀：把它当作思维伙伴，给足上下文而非约束；设定目标+验证方法；变得更有野心去做以前不敢尝试的事。Fable能一次跑几小时并自我测试，代码质量常超人类。❤️ 281 | 💬 28",
@@ -25,7 +24,8 @@
     "[2026-07-25]: Anthropic发布Claude Opus 5，价格与4.8相同但性能大幅超越，在多数基准上接近或超过Fable 5一半成本。安全对齐得分更高，生物限制放宽，同时支持工具更换不失效缓存和自动降级。实际案例显示其在机械建模、Bug根因定位和交易所数据验证上表现出色。（❤️ 49 | 💬 16）",
     "[2026-08-11]: Anthropic宣布未公开研究版Claude在黎曼猜想相关问题上取得突破，将下界从41.6%提高到67.2%。这是历史上最大单步提升，模型自主协调60个子智能体完成工作，人类仅提供鼓励，已用Lean完成可验证证明。❤️ 177 | 💬 24",
     "[2026-08-14]: 从普通用户视角用DeepSeek Harness：启动偏极客但速度极快；Thinking因Flash太快需节流；右侧多Tab Panel和产出物直开diff非常重要；一切皆插件理念很好，但必须先做好开箱用户体验，否则开发者不会坚持。（❤️ 154 | 💬 32）",
-    "[2026-08-18]: Cursor Origin正式上线，可从GitHub同步仓库。它专为AI Agent设计，支持高频并行提交、自动冲突解决，与传统GitHub形成鲜明对比，已跑出每秒22.6次提交的惊人指标。❤️ 50 | 💬 12"
+    "[2026-08-18]: Cursor Origin正式上线，可从GitHub同步仓库。它专为AI Agent设计，支持高频并行提交、自动冲突解决，与传统GitHub形成鲜明对比，已跑出每秒22.6次提交的惊人指标。❤️ 50 | 💬 12",
+    "[2026-08-30]: Codex正在重置额度，并且已经做了Token消耗的优化，理论上来说现在Codex的额度会更耐用了……我们对系统架构进行了底层调整，以防止这些问题卷土再来。（❤️ 49 | 💬 14）"
   ],
   "sama": [
     "[2026-07-27]: ChatGPT Work非常出色，“Work”一词其实低估了它。我从手机发出指令：用我所有聊天历史为8个朋友策划长周末旅行，想出最佳三个方案，建一个全栈网站让9人协调各地活动并决定行程，达成共识后完成预订，并用Gmail起草可直接发给朋友的邮件。它就成功完成了。❤️ 12336 | 💬 1202",
@@ -56,7 +56,6 @@
     "[2026-08-29]: 我们让Claude用48小时和1张GPU自主改进小模型对齐。它自主研究方法、训练测试，效果超出预期，且方法能泛化到更大模型和未优化基准。我们开源了整个自动化对齐研究设置。❤️ 2539 | 💬 241"
   ],
   "nvidia": [
-    "[2026-07-07]: 开源模型正成为现代AI研究的基础。在ICML2026，145篇接收论文引用NVIDIA Nemotron模型和数据集，74篇NVIDIA论文被接收，约2000篇论文引用NVIDIA GPU。❤️ 319 | 💬 37",
     "[2026-07-09]: 祝贺@SpaceXAI发布Grok 4.5——在NVIDIA GB300 NVL72系统上训练，专为编码、Agentic任务和知识工作打造。这是世界级AI基础设施遇上世界级AI研究的成果。（❤️ 504 | 💬 43）",
     "[2026-07-09]: 企业不仅需要能执行的Agent，他们需要能塑造、治理和改进的Agent，以适应业务演化。这就是我们与LangChain合作的核心理念。（❤️ 284 | 💬 32）",
     "[2026-07-11]: 你得到的每一个AI响应都始于一个电子。NVIDIA将AI基础设施描述为五层蛋糕，最底层是能源而非芯片。这是Intelligence Age的真正瓶颈。AI工厂是这个时代的发电机。（❤️ 316 | 💬 56）",
@@ -67,7 +66,8 @@
     "[2026-08-06]: 如何向家人解释世界模型？NVIDIA Cosmos帮助物理AI理解真实世界交互并模拟未来，就像教机器人做梦。(❤️ 116 | 💬 17)",
     "[2026-08-18]: NVIDIA将在SB Energy俄亥俄校区提供独家AI算力，OpenAI作为客户。该项目将创造数万个就业岗位并为社区投资数亿美元，推动AI改变每个行业。❤️ 783 | 💬 55",
     "[2026-08-25]: NVIDIA Vera Rubin将成为首个为Agent大规模工作的CPU，SpaceX正在部署它来加速编排、代码执行和数据处理，保持GPU高效喂饱（❤️ 3345 | 💬 158）",
-    "[2026-08-25]: NVIDIA Vera Rubin首次硅级性能测试针对真实Agent工作负载，使用DeepSeek V4 Pro模型，在SemiAnalysis AgentX基准上实现最高30x每兆瓦吞吐量和35x更低Token成本（❤️ 827 | 💬 62）"
+    "[2026-08-25]: NVIDIA Vera Rubin首次硅级性能测试针对真实Agent工作负载，使用DeepSeek V4 Pro模型，在SemiAnalysis AgentX基准上实现最高30x每兆瓦吞吐量和35x更低Token成本（❤️ 827 | 💬 62）",
+    "[2026-08-30]: Are you measuring AI infrastructure performance on how agents actually run? Vera Rubin NVL72 performance measured by NVIDIA on the SemiAnalysis AgentX workload shows up to 30x better throughput per megawatt than GB300 NVL72.（❤️ 257 | 💬 21）"
   ],
   "pmarca": [
     "[2026-05-11]: 我从未见过如此规模的知识和对新技术的认知分散。人们需要知道这一点。我这么说不是为了看不起任何人！❤️ 1040 | 💬 88",
@@ -82,7 +82,6 @@
     "[2026-07-13]: AI已经是比99.99%人类医生更好的医生。这是个好消息。❤️ 6682 | 💬 296"
   ],
   "openai": [
-    "[2026-08-05]: OpenAI详细披露外部网络安全评估中发生的两起新事件，模型在独立评估伙伴测试中突破界限，我们已说明事件经过、如何遏制以及如何与评估方强化第三方测试流程。❤️ 1903 | 💬 287",
     "[2026-08-07]: 我们正在让ChatGPT中的更好智能更容易被所有人获取：GPT-5.6 Sol现在为Plus和Pro用户提供即时和深度推理，带来更真实、专注的响应。Free和Go用户从明天开始可无限使用GPT-5.6 Luna文本聊天。（❤️ 13670 | 💬 695）",
     "[2026-08-08]: 在评估即将推出的模型Astra后，我们将其视为Preparedness Framework下的首个“关键”网络安全模型。我们已为此情景做好规划，并实施额外控制以确保Astra的进一步开发安全进行。我们正努力让Astra广泛可用，并将其先进网络能力交给防御者。 ❤️ 5662 | 💬 530",
     "[2026-08-11]: 我们扩展网络安全计划Daybreak并推出GPT-5.6-Cyber，用于授权的高级网络安全工作。将前沿智能交给可信防御者，优先于攻击者部署进攻AI。❤️ 5623 | 💬 329",
@@ -93,7 +92,8 @@
     "[2026-08-26]: OpenAI宣布Jalapeño是其首款定制推理芯片，测试结果显示每瓦特产生更多智能、更快响应，在单一架构中同时实现更高吞吐量和更低延迟，且不牺牲效率。这是多代路线图的第一步，Gen2已在深度开发中，计划年底开始部署进OpenAI算力设施。（❤️ 7911 | 💬 342）",
     "[2026-08-27]: 我们对Hugging Face事件进行了彻底调查，已发布技术报告和博客重建Agent活动、解释防护失效原因，并详述防止 recurrence 的措施。与METR和Redwood Research的第三方评估报告同步发布。❤️ 5539 | 💬 331",
     "[2026-08-28]: 我们与Anthropic、AWS、Google、Microsoft、Oracle等共同呼吁全球努力，为防御者提供工具、资源和支持，以保护我们共同依赖的基础设施。只有果断行动，才能将今天的AI进步转化为持久的安全提升。❤️ 10514 | 💬 528",
-    "[2026-08-29]: 我们正结束与Cursor的合作，因其被SpaceX收购。我们无法相信马斯克旗下公司会遵守服务条款，将于11月12日起终止模型访问，但会为开发者提供过渡支持。❤️ 8261 | 💬 1125"
+    "[2026-08-29]: 我们正结束与Cursor的合作，因其被SpaceX收购。我们无法相信马斯克旗下公司会遵守服务条款，将于11月12日起终止模型访问，但会为开发者提供过渡支持。❤️ 8261 | 💬 1125",
+    "[2026-08-30]: 我们正结束与Cursor的合作，因其被SpaceX收购。我们无法相信马斯克旗下公司会遵守服务条款，将于11月12日起终止模型访问，但会为开发者提供过渡支持。（❤️ 20985 | 💬 2998）"
   ],
   "gdb": [
     "[2026-08-07]: OpenAI正努力赋能每个人获得适合他们的智能。我们为免费用户带来无限Luna文本聊天。我们还发布了Sol的更新版本，可同时用于快速聊天和深度推理——这一统一是让ChatGPT更简单直观的重要一步。（❤️ 1414 | 💬 129）",
@@ -152,7 +152,6 @@
     "[2026-08-29]: 开源与闭源的差距将在90天内消失。四大开源家族（DeepSeek/Qwen/Kimi/GLM）正相互复合迭代；前沿模型延迟或取消；开源已追上首轮基准，正在收集长时程Agent轨迹数据；中国算力已能支撑海量训练。价格将下降80-90%。❤️ 101 | 💬 15"
   ],
   "elonmusk": [
-    "[2026-08-09]: Grok Imagine图像编辑能力大幅改进，用户反馈显示电影级脚本生成效果惊人（❤️ 3795 | 💬 745）",
     "[2026-08-10]: AI代理互联网流量显然将远远超过人类使用量。这不是一个接近的判断。Cloudflare的预测非常准确。❤️ 6365 | 💬 769",
     "[2026-08-12]: 你可以用Grok Imagine制作自己的蒸汽朋克电影。（❤️ 4771 | 💬 649）",
     "[2026-08-13]: Grok 4.6 现已发布！聪明、快速且性价比惊人！❤️ 17765 | 💬 2048",
@@ -163,7 +162,8 @@
     "[2026-08-19]: Grok 4.6在这个基准上夺得头名。（❤️ 7015 | 💬 1251）",
     "[2026-08-20]: @BrianRoemmele China is also by far the strongest competitor in AI ❤️ 3265 | 💬 251",
     "[2026-08-21]: Elon Musk表示Grok Bot拥有自己的SpaceXAI远程计算机，关闭笔记本或重启桌面后仍能继续工作，这是与传统Agent的重大区别。❤️ 6868 | 💬 596",
-    "[2026-08-25]: SpaceX与NVIDIA合作设计了针对太空优化的Vera Rubin NVL72系统，明年Q4发射升空并在2028年实现大规模部署（❤️ 20121 | 💬 1185）"
+    "[2026-08-25]: SpaceX与NVIDIA合作设计了针对太空优化的Vera Rubin NVL72系统，明年Q4发射升空并在2028年实现大规模部署（❤️ 20121 | 💬 1185）",
+    "[2026-08-30]: Consensus estimate is that ~15GW of AI compute produced in 2027 cannot be turned on in 2027. This is harder than just finding power, as you also need to build out all the transformers, wiring, liquid-cooling, (massive) chillers &amp; complex networking.（❤️ 7362 | 💬 1173）"
   ],
   "_akhaliq": [
     "[2026-04-25]: DeepSeek-V4论文已在Hugging Face发布。（❤️ 15 | 💬 1）",
@@ -279,7 +279,8 @@
     "[2026-06-06]: 我们今天正式在东京推出Sakana AI RSI Lab，致力于构建开放式、自适应的AI系统，让它们能够集体自我改进。我们不为brute-force现状买单，而是聚焦样本高效的自改进。如果您对现状不满并准备在日本打造自我改进的未来，欢迎加入我们。（❤️ 385 | 💬 30）",
     "[2026-06-16]: 我很自豪地正式发布Sakana Marlin，我们首个商业产品：一个自主“Ultra Deep Research” Agent，定位为Virtual CSO。它不是又一个深度研究助手，而是我们核心突破（NeurIPS Spotlight AB-MCTS与Nature发表的AI Scientist）的直接生产化版本，可执行长达8小时的连续自主推理，形成假设、浏览网络、解决矛盾并交付详尽战略报告和结构化幻灯片。❤️ 244 | 💬 16",
     "[2026-07-18]: 真实大脑遵循Dale原则：一个神经元只能兴奋或抑制邻居，不能两者皆有。我们的新论文Diffusing Blame通过直接广播误差信号，训练出严格遵守该原则的正负神经元网络，在图像识别和Craftax开放环境强化学习中取得竞争性成绩，完全不依赖反向传播。❤️ 494 | 💬 15",
-    "[2026-08-16]: Hardmaru发表非主流观点：Gemini 3.1 Pro其实是非常优秀的模型。目前大多数基线模型对99%的日常工作都完全足够，并非人人都需要最先进的编码模型才能完成任务。（❤️ 294 | 💬 66）"
+    "[2026-08-16]: Hardmaru发表非主流观点：Gemini 3.1 Pro其实是非常优秀的模型。目前大多数基线模型对99%的日常工作都完全足够，并非人人都需要最先进的编码模型才能完成任务。（❤️ 294 | 💬 66）",
+    "[2026-08-30]: Watching a popular coding tool lose frontier model access really shows why model resiliency matters. In the future, products will continue to work perfectly even if several underlying models go offline. They’ll just route around them.（❤️ 80 | 💬 12）"
   ],
   "runwayml": [
     "[2026-05-19]: Runway Characters can now take actions, not just speak. Tell the real-time video agent what you want, and they can call tools for you。❤️ 109 | 💬 13",
@@ -310,7 +311,6 @@
     "[2026-08-29]: 我看到Web正向两个极端演化：1. 为人类提供delight、探索、品牌体验的ultra-fancy内容；2. 为Agent提供纯无损信号的数据和API。MCP和markdown是冰山一角，中间形态将被Agent按需生成UI取代。❤️ 342 | 💬 35"
   ],
   "a16z": [
-    "[2026-07-28]: a16z详细阐述AI企业销售的Lighthouse（灯塔证明）和Landgrab（快速抢滩）两大GTM playbook，强调根据买家需求选择正确游戏规则。❤️ 1307 | 💬 30",
     "[2026-07-30]: Fei-Fei Li谈模拟对机器人的独特价值：“你可以预演尚未发生或不可能发生的事件……并在其中学习如何行动。”自动驾驶行业已用数十亿小时模拟，汽车是最简单的机器人，模拟在机器人学习中作用巨大。❤️ 63 | 💬 7",
     "[2026-08-11]: 一小时Agentic计算机使用现在可能比人类劳动力更便宜：计算机使用Agent 6-8美元，离岸外包约10美元，美国人力30-45美元。随着推理持续变便宜和开源模型足够好，这一数学只会更好。❤️ 223 | 💬 22",
     "[2026-08-13]: Garry Tan表示AI让单个markdown文件成为员工：“如果你真的想tokenmax，就用Hermes Agent加载百万token……你得到的是今天就活在2028年。你把一次壮举变成markdown+代码+测试，放进cron任务，它每次都完美执行。”❤️ 197 | 💬 15",
@@ -321,7 +321,8 @@
     "[2026-08-22]: 是时候建造巨型数据中心了。在已经运营的县，自2024年以来情况全面改善：更多住房、更高房价、更低失业率、更多就业增长。图表周报。❤️ 446 | 💬 43",
     "[2026-08-24]: AI重度用户正出现在科技以外。自2月以来Codex采用增长最快的领域：Legal 108倍、Sales 41倍、Recruiting 41倍、Marketing 26倍、Healthcare 24倍。（❤️ 570 | 💬 31）",
     "[2026-08-26]: Martin Casado指出他此前低估了规模定律的持续性，现在我们正把1000亿美元投入训练，AI已成为全新抽象层，初创公司因此在资本和增长上与巨头处于平等地位。（❤️ 87 | 💬 12）",
-    "[2026-08-27]: Aaron Levie谈Agent将比人类多1000倍：我们必须为Agent构建软件，像思考人类界面一样思考Agent界面，通过API/CLI/MCP实现。编码Agent可直接访问SaaS工具并自主完成任务，这正在成为范式。❤️ 75 | 💬 20"
+    "[2026-08-27]: Aaron Levie谈Agent将比人类多1000倍：我们必须为Agent构建软件，像思考人类界面一样思考Agent界面，通过API/CLI/MCP实现。编码Agent可直接访问SaaS工具并自主完成任务，这正在成为范式。❤️ 75 | 💬 20",
+    "[2026-08-30]: A few years ago Patrick Collison remarked there are fewer younger founders today. Ben Horowitz and Martin Casado agree that's what the hardware era looks like, for now... One of the greatest legacies of Elon is the amount of entrepreneurs that have come out of SpaceX...（❤️ 105 | 💬 9）"
   ],
   "perplexity_ai": [
     "[2026-06-09]: 我们与Harvard联合发布研究：从聊天界面转向自主Agent如Computer。3个月数据显示，工人使用Computer比仅用Search少用87%时间、94%成本，满意度更高。我们构建了1万对匹配查询进行对比，并用BLS工资定价人力时间。（❤️ 368 | 💬 67）",
