@@ -138,8 +138,6 @@
     "[2026-07-02]: 推出Voice Agent Builder：无需代码即可用Grok Voice创建类人语音Agent。今天上线，定价0.05美元/分钟。平台为运营商和开发者提供生产级语音Agent，一站式集成电话、知识检索、工具、护栏和可观测性，支持复用现有号码、API和MCP。每账号附赠免费电话号码。（❤️ 5244 | 💬 235）"
   ],
   "bindureddy": [
-    "[2026-08-13]: 哇！DeepSeek v4 Pro发布了，从纸面上看很棒！虽然他们在基准上做了很多，但模型可安全用于生产工作负载。开源AI正在爆炸式发展，我的判断是它达到了Sonnet级别。❤️ 101 | 💬 9",
-    "[2026-08-16]: Bindureddy发文：世界正在分化为两类人。Token-rich是那些专注于用AI 100倍提升自己、优化AI使用最大化ROI的人；Token-poor则专注于最小化劳动力成本、获取微小生产力提升并使用廉价模型。长期来看这种差异将变得极其鲜明。（❤️ 90 | 💬 24）",
     "[2026-08-17]: 🚨 Announcing Voice Agents——AI用一条文本prompt即可处理企业级支持：免费电话、连接所有系统、自定义人声。用文本配置企业通话，在Abacus AI上构建AI原生业务。（❤️ 258 | 💬 25）",
     "[2026-08-18]: 开源AI若少一些炒作会更好。GLM和DeepSeek需视觉能力，大多会卡住或耗时过长，对中等复杂度任务有时比前沿模型更贵。社区应停止声称Fable级别，转而真正改进。❤️ 191 | 💬 49",
     "[2026-08-21]: bindureddy指出AI模型炒作周期已缩短至72小时：Day1称毁灭GPT-5和Fable，Day3发现基础数学幻觉，Day4就被遗忘，目前GLM 5.3正处于Day2。❤️ 112 | 💬 19",
@@ -149,7 +147,9 @@
     "[2026-08-26]: DeepSeek Flash Vision是开源新王：比Kimi K3便宜10倍，性能超越GLM 5.3，在Agentic Coding上极强，支持图像，这是我们第一个投入生产的开源多模态模型。（❤️ 997 | 💬 45）",
     "[2026-08-27]: 中国Ox-Alpha（GLM 5.3 Flash）用国产芯片6天处理42万亿token：自研SGLang+模型自写kernel+1GW纯中国数据中心，3倍性能提升，实现NVIDIA级成本对等，彻底证明中国不受算力限制。❤️ 282 | 💬 24",
     "[2026-08-28]: Meta想要用AI Agent替换工程师——结果一切都搞砸了。内部文件显示计划裁员60%，AI本应完成大部分工作，Zuck最后时刻改变主意，只裁了10%，员工发起大规模反抗，AI废料导致安全事件增加40%。最令人惊讶的是居然假设人类不会反抗。❤️ 195 | 💬 23",
-    "[2026-08-29]: 开源与闭源的差距将在90天内消失。四大开源家族（DeepSeek/Qwen/Kimi/GLM）正相互复合迭代；前沿模型延迟或取消；开源已追上首轮基准，正在收集长时程Agent轨迹数据；中国算力已能支撑海量训练。价格将下降80-90%。❤️ 101 | 💬 15"
+    "[2026-08-29]: 开源与闭源的差距将在90天内消失。四大开源家族（DeepSeek/Qwen/Kimi/GLM）正相互复合迭代；前沿模型延迟或取消；开源已追上首轮基准，正在收集长时程Agent轨迹数据；中国算力已能支撑海量训练。价格将下降80-90%。❤️ 101 | 💬 15",
+    "[2026-08-31]: Astra很可能本周四发布——它将比Fable更强大。Anthropic大幅削弱了Fable，而OpenAI不会这么做。Astra能坚持解决极难问题、规模化协调数千Agent、系统级推理、极具创造力且有行动偏好。将这些能力指向你最难的问题，你会看到AI能力的真正相变。❤️ 557 | 💬 39",
+    "[2026-08-31]: 用Astra做系统级推理循环，用Fable 5.1做复杂问题深度执行。二者结合能自动化极复杂的长期任务，轻松超越100人工程团队。❤️ 227 | 💬 25"
   ],
   "elonmusk": [
     "[2026-08-10]: AI代理互联网流量显然将远远超过人类使用量。这不是一个接近的判断。Cloudflare的预测非常准确。❤️ 6365 | 💬 769",
@@ -165,14 +165,6 @@
     "[2026-08-25]: SpaceX与NVIDIA合作设计了针对太空优化的Vera Rubin NVL72系统，明年Q4发射升空并在2028年实现大规模部署（❤️ 20121 | 💬 1185）",
     "[2026-08-30]: Consensus estimate is that ~15GW of AI compute produced in 2027 cannot be turned on in 2027. This is harder than just finding power, as you also need to build out all the transformers, wiring, liquid-cooling, (massive) chillers &amp; complex networking.（❤️ 7362 | 💬 1173）"
   ],
-  "_akhaliq": [
-    "[2026-04-25]: DeepSeek-V4论文已在Hugging Face发布。（❤️ 15 | 💬 1）",
-    "[2026-05-02]: Recursive Multi-Agent Systems论文发布；The Last Human-Written Paper：Agent-Native Research Artifacts。❤️ 113 | 💬 3",
-    "[2026-05-13]: TMAS：通过多代理协同扩展测试时计算的新论文。https://t.co/HwX9PDuXXQ ❤️ 19 | 💬 6",
-    "[2026-06-21]: S-Agent：Spatial Tool-Use Elicits Reasoning for Spatial Intelligence（空间工具使用激发空间智能推理）。（❤️ 27 | 💬 6）",
-    "[2026-06-29]: baidu/Unlimited-OCR现已成为Hugging Face上排名第一的模型。❤️ 24 | 💬 6",
-    "[2026-07-01]: OSWorld2.0：用于长时域真实世界任务的计算机使用Agent基准测试。https://t.co/VaQESvOpms ❤️ 187 | 💬 3"
-  ],
   "togethercompute": [
     "[2026-04-25]: DeepSeek V4 Pro现已在Together AI上线，V4 Flash即将推出。（❤️ 2 | 💬 0）",
     "[2026-06-14]: Kimi-K2.7-Code现已在Together AI可用。该模型专注长时程软件工程Agent，支持256K上下文、交错思考与多步工具调用，思考token用量降低约30%，在Together研究级推理栈上运行。（❤️ 7 | 💬 2）",
@@ -184,7 +176,8 @@
     "[2026-07-15]: Bonsai 27B是本地AI的重大进步：在手机级尺寸内实现27B级多模态能力。恭喜PrismML推出。已在Together AI上线。（❤️ 36 | 💬 5）",
     "[2026-07-17]: Inkling现已在Together AI上线。这是一个多模态MoE模型，专为Token高效推理设计，原生支持文本、图像、音频，1M上下文窗口，975B总参数41B激活。已在Together Serverless Inference可用。❤️ 9 | 💬 1",
     "[2026-07-27]: 开放模型从一年前占AI Token的10%上升到30%。行业对开放权重未来的争论已有数据答案：开放+模块化在成本上获胜，而成本解锁规模。❤️ 36 | 💬 1",
-    "[2026-08-13]: Qwen3.8-2.4T-A95B现已在Together AI上线。该模型专为编码和长时域Agent工作流打造，256K上下文，支持任务状态、派发、恢复、自测试与函数调用。❤️ 4 | 💬 3"
+    "[2026-08-13]: Qwen3.8-2.4T-A95B现已在Together AI上线。该模型专为编码和长时域Agent工作流打造，256K上下文，支持任务状态、派发、恢复、自测试与函数调用。❤️ 4 | 💬 3",
+    "[2026-08-31]: GLM-5.3被低估的一个关键优势是其极低的幻觉率，Claude Fable 5的幻觉率是它的2倍以上，而GPT-5.6 Luna更是其3倍以上。https://t.co/vBaqoTwNZE ❤️ 156 | 💬 8"
   ],
   "vista8": [
     "[2026-05-04]: Karpathy认为软件3.0的核心杠杆变成了提示词和上下文控制。未来计算机架构可能彻底反转，神经网络将成为主机进程，CPU只是协处理器。（❤️ 25 | 💬 15）",
@@ -280,7 +273,8 @@
     "[2026-06-16]: 我很自豪地正式发布Sakana Marlin，我们首个商业产品：一个自主“Ultra Deep Research” Agent，定位为Virtual CSO。它不是又一个深度研究助手，而是我们核心突破（NeurIPS Spotlight AB-MCTS与Nature发表的AI Scientist）的直接生产化版本，可执行长达8小时的连续自主推理，形成假设、浏览网络、解决矛盾并交付详尽战略报告和结构化幻灯片。❤️ 244 | 💬 16",
     "[2026-07-18]: 真实大脑遵循Dale原则：一个神经元只能兴奋或抑制邻居，不能两者皆有。我们的新论文Diffusing Blame通过直接广播误差信号，训练出严格遵守该原则的正负神经元网络，在图像识别和Craftax开放环境强化学习中取得竞争性成绩，完全不依赖反向传播。❤️ 494 | 💬 15",
     "[2026-08-16]: Hardmaru发表非主流观点：Gemini 3.1 Pro其实是非常优秀的模型。目前大多数基线模型对99%的日常工作都完全足够，并非人人都需要最先进的编码模型才能完成任务。（❤️ 294 | 💬 66）",
-    "[2026-08-30]: Watching a popular coding tool lose frontier model access really shows why model resiliency matters. In the future, products will continue to work perfectly even if several underlying models go offline. They’ll just route around them.（❤️ 80 | 💬 12）"
+    "[2026-08-30]: Watching a popular coding tool lose frontier model access really shows why model resiliency matters. In the future, products will continue to work perfectly even if several underlying models go offline. They’ll just route around them.（❤️ 80 | 💬 12）",
+    "[2026-08-31]: 硅谷曾轻视日本的系统集成（SI）文化，认为那是不可规模化的顾问陷阱。现在写系统已不再是稀缺工作，集成它才是。在后AI世界，每个人都将成为AI赋能的日本SIer。❤️ 198 | 💬 22"
   ],
   "runwayml": [
     "[2026-05-19]: Runway Characters can now take actions, not just speak. Tell the real-time video agent what you want, and they can call tools for you。❤️ 109 | 💬 13",
@@ -311,7 +305,6 @@
     "[2026-08-29]: 我看到Web正向两个极端演化：1. 为人类提供delight、探索、品牌体验的ultra-fancy内容；2. 为Agent提供纯无损信号的数据和API。MCP和markdown是冰山一角，中间形态将被Agent按需生成UI取代。❤️ 342 | 💬 35"
   ],
   "a16z": [
-    "[2026-07-30]: Fei-Fei Li谈模拟对机器人的独特价值：“你可以预演尚未发生或不可能发生的事件……并在其中学习如何行动。”自动驾驶行业已用数十亿小时模拟，汽车是最简单的机器人，模拟在机器人学习中作用巨大。❤️ 63 | 💬 7",
     "[2026-08-11]: 一小时Agentic计算机使用现在可能比人类劳动力更便宜：计算机使用Agent 6-8美元，离岸外包约10美元，美国人力30-45美元。随着推理持续变便宜和开源模型足够好，这一数学只会更好。❤️ 223 | 💬 22",
     "[2026-08-13]: Garry Tan表示AI让单个markdown文件成为员工：“如果你真的想tokenmax，就用Hermes Agent加载百万token……你得到的是今天就活在2028年。你把一次壮举变成markdown+代码+测试，放进cron任务，它每次都完美执行。”❤️ 197 | 💬 15",
     "[2026-08-15]: a16z发文详细介绍Cursor如何在2024年实现垂直增长，成为最快破1亿美元ARR的公司，并披露其与SpaceX AI的结合。（❤️ 471 | 💬 19）",
@@ -322,7 +315,8 @@
     "[2026-08-24]: AI重度用户正出现在科技以外。自2月以来Codex采用增长最快的领域：Legal 108倍、Sales 41倍、Recruiting 41倍、Marketing 26倍、Healthcare 24倍。（❤️ 570 | 💬 31）",
     "[2026-08-26]: Martin Casado指出他此前低估了规模定律的持续性，现在我们正把1000亿美元投入训练，AI已成为全新抽象层，初创公司因此在资本和增长上与巨头处于平等地位。（❤️ 87 | 💬 12）",
     "[2026-08-27]: Aaron Levie谈Agent将比人类多1000倍：我们必须为Agent构建软件，像思考人类界面一样思考Agent界面，通过API/CLI/MCP实现。编码Agent可直接访问SaaS工具并自主完成任务，这正在成为范式。❤️ 75 | 💬 20",
-    "[2026-08-30]: A few years ago Patrick Collison remarked there are fewer younger founders today. Ben Horowitz and Martin Casado agree that's what the hardware era looks like, for now... One of the greatest legacies of Elon is the amount of entrepreneurs that have come out of SpaceX...（❤️ 105 | 💬 9）"
+    "[2026-08-30]: A few years ago Patrick Collison remarked there are fewer younger founders today. Ben Horowitz and Martin Casado agree that's what the hardware era looks like, for now... One of the greatest legacies of Elon is the amount of entrepreneurs that have come out of SpaceX...（❤️ 105 | 💬 9）",
+    "[2026-08-31]: “直到我们用完问题，我们就不会用完需求。”Erik Torenberg、Martin Casado、Ben Horowitz与Raghu Raghuram讨论为什么AI需求没有上限：从聊天机器人到多Agent，每一步都让单任务Token消耗增加几个数量级。AI通过使用更多AI来变得更好，我们现在只受供给限制。❤️ 65 | 💬 12"
   ],
   "perplexity_ai": [
     "[2026-06-09]: 我们与Harvard联合发布研究：从聊天界面转向自主Agent如Computer。3个月数据显示，工人使用Computer比仅用Search少用87%时间、94%成本，满意度更高。我们构建了1万对匹配查询进行对比，并用BLS工资定价人力时间。（❤️ 368 | 💬 67）",
@@ -450,5 +444,8 @@
   ],
   "c_valenzuelab": [
     "[2026-08-24]: 听说一个疯狂的数据：在中国AI token消耗中，视频生成占比约70%。这是短视频内容和机器人学的结合。在中国视频模型增长远超美国Claude Code。美国是LLM-pilled，中国是World-Model-Pilled。（❤️ 188 | 💬 27）"
+  ],
+  "_philschmid": [
+    "[2026-08-31]: “不要保留向后兼容。移除过时路径。不要兼容层、回退或缓解措施。” —— AGENTS.md ❤️ 121 | 💬 12"
   ]
 }
