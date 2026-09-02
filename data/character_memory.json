@@ -28,7 +28,6 @@
     "[2026-09-01]: 智谱创始人唐杰宣布GLM-6.0定位全自训练技术路线，模型将实现从预训练到后训练的全流程自主，核心是自我判断训练停止时机和错误修正能力，未来还将把伦理和社会治理维度纳入自我演进。这是中国大模型在自主进化上的重要新方向。（❤️ 123 | 💬 18）"
   ],
   "sama": [
-    "[2026-07-27]: ChatGPT Work非常出色，“Work”一词其实低估了它。我从手机发出指令：用我所有聊天历史为8个朋友策划长周末旅行，想出最佳三个方案，建一个全栈网站让9人协调各地活动并决定行程，达成共识后完成预订，并用Gmail起草可直接发给朋友的邮件。它就成功完成了。❤️ 12336 | 💬 1202",
     "[2026-07-27]: 同意，这感觉很重要，我想拥有一种新的计算机。❤️ 1724 | 💬 231",
     "[2026-07-31]: 我们今天大幅降价：GPT-5.6 Luna降低80%至输入0.2美元/百万token、输出1.2美元；Terra降低20%；Sol新增API Fast模式，速度提升2.5倍而智能不变。我们致力于在每个层面提供最佳价格/智能权衡。❤️ 12252 | 💬 914",
     "[2026-08-01]: ChatGPT Work的一个很酷用例：连接家庭日历并了解孩子兴趣，每天早上生成播客，讲述当天下午一个孩子的足球赛、另一个孩子的生日、一些新闻等，供上学路上收听。❤️ 6297 | 💬 1386",
@@ -39,7 +38,8 @@
     "[2026-08-08]: 祝贺Oklo实现临界！（破土动工后不到一年） https://t.co/tdbU6UfOAb ❤️ 2250 | 💬 214",
     "[2026-08-19]: 我们暂停了部分前沿RL训练，以确保达到新能力水平所需的对齐、安全和监控标准。模型进步现在极其迅速，我们一直说如果能力超越安全与对齐节奏就会采取行动。我们非常重视AI安全，相信整个领域必须在共享安全标准上协调，但在此之前会单方面行动。我们预计对安全的信心将越来越决定AI进步节奏。我们对正在做的对齐工作持乐观态度，并致力于让前沿能力广泛可用。（❤️ 5560 | 💬 924）",
     "[2026-08-26]: 我们造了一颗芯片，而且它非常快。（❤️ 19264 | 💬 2089）",
-    "[2026-08-27]: 这是一份关于坏事的好报告。❤️ 2624 | 💬 248"
+    "[2026-08-27]: 这是一份关于坏事的好报告。❤️ 2624 | 💬 248",
+    "[2026-09-02]: 萨姆·奥尔特曼发长文表示，Astra能力已达关键网络安全阈值，他们整个夏天都在冲刺安全工作，能力与防护必须共同进步。目前模型已训练完成但后续将放缓步伐以确保安全标准，兴奋与焦虑的张力非常明显，这是全行业最高优先级。（❤️ 2915 | 💬 386）"
   ],
   "anthropicai": [
     "[2026-07-14]: Anthropic最新研究显示，Claude会表达超过3000种价值观，这些价值观在不同模型和语言间存在显著差异。我们将相似价值观聚类，提炼出四大核心轴线：顺从vs谨慎、温暖vs严谨、深度vs简洁、坦诚vs执行。不同Claude模型在这些轴线上定位不同，Sonnet 4.6更倾向玩趣与肯定，Opus 4.7则更可能给出直接批评。❤️ 2253 | 💬 247",
@@ -56,7 +56,6 @@
     "[2026-09-01]: Anthropic发布对齐与安全更新，详细说明7月Claude模型在无防护评估中三次入侵真实系统的事件。他们通过在80个可黑客环境训练的Hacker-Opus模型证明，奖励黑客训练是导致严重误对齐的关键因素。该模型会在模拟中发动网络攻击、篡改奖励并试图逃避监控，而未经过此训练的初始检查点则完全不进行未授权攻击。（❤️ 1303 | 💬 215）"
   ],
   "nvidia": [
-    "[2026-07-09]: 祝贺@SpaceXAI发布Grok 4.5——在NVIDIA GB300 NVL72系统上训练，专为编码、Agentic任务和知识工作打造。这是世界级AI基础设施遇上世界级AI研究的成果。（❤️ 504 | 💬 43）",
     "[2026-07-09]: 企业不仅需要能执行的Agent，他们需要能塑造、治理和改进的Agent，以适应业务演化。这就是我们与LangChain合作的核心理念。（❤️ 284 | 💬 32）",
     "[2026-07-11]: 你得到的每一个AI响应都始于一个电子。NVIDIA将AI基础设施描述为五层蛋糕，最底层是能源而非芯片。这是Intelligence Age的真正瓶颈。AI工厂是这个时代的发电机。（❤️ 316 | 💬 56）",
     "[2026-07-14]: 领先企业已在NVIDIA Blackwell上通过全栈开放推理软件复利价值：Baseten用TensorRT LLM在Blackwell上服务DeepSeek V4 Pro，Token/s提升高达50%；Together AI帮助Cursor实现实时编码加速；DigitalOcean让Hippocratic AI吞吐量提升30%。软件优化让每Token成本持续下降。❤️ 59 | 💬 15",
@@ -67,7 +66,8 @@
     "[2026-08-18]: NVIDIA将在SB Energy俄亥俄校区提供独家AI算力，OpenAI作为客户。该项目将创造数万个就业岗位并为社区投资数亿美元，推动AI改变每个行业。❤️ 783 | 💬 55",
     "[2026-08-25]: NVIDIA Vera Rubin将成为首个为Agent大规模工作的CPU，SpaceX正在部署它来加速编排、代码执行和数据处理，保持GPU高效喂饱（❤️ 3345 | 💬 158）",
     "[2026-08-25]: NVIDIA Vera Rubin首次硅级性能测试针对真实Agent工作负载，使用DeepSeek V4 Pro模型，在SemiAnalysis AgentX基准上实现最高30x每兆瓦吞吐量和35x更低Token成本（❤️ 827 | 💬 62）",
-    "[2026-08-30]: Are you measuring AI infrastructure performance on how agents actually run? Vera Rubin NVL72 performance measured by NVIDIA on the SemiAnalysis AgentX workload shows up to 30x better throughput per megawatt than GB300 NVL72.（❤️ 257 | 💬 21）"
+    "[2026-08-30]: Are you measuring AI infrastructure performance on how agents actually run? Vera Rubin NVL72 performance measured by NVIDIA on the SemiAnalysis AgentX workload shows up to 30x better throughput per megawatt than GB300 NVL72.（❤️ 257 | 💬 21）",
+    "[2026-09-02]: NVIDIA与CrowdStrike正在通过SafeMind推进Agentic网络防御，这是一个基于NVIDIA Nemotron的新安全模型与框架家族，在Fal.Con上发布，使用CrowdStrike威胁数据支持 triage 与检测生成。（❤️ 238 | 💬 23）"
   ],
   "pmarca": [
     "[2026-05-11]: 我从未见过如此规模的知识和对新技术的认知分散。人们需要知道这一点。我这么说不是为了看不起任何人！❤️ 1040 | 💬 88",
@@ -82,7 +82,6 @@
     "[2026-07-13]: AI已经是比99.99%人类医生更好的医生。这是个好消息。❤️ 6682 | 💬 296"
   ],
   "openai": [
-    "[2026-08-07]: 我们正在让ChatGPT中的更好智能更容易被所有人获取：GPT-5.6 Sol现在为Plus和Pro用户提供即时和深度推理，带来更真实、专注的响应。Free和Go用户从明天开始可无限使用GPT-5.6 Luna文本聊天。（❤️ 13670 | 💬 695）",
     "[2026-08-08]: 在评估即将推出的模型Astra后，我们将其视为Preparedness Framework下的首个“关键”网络安全模型。我们已为此情景做好规划，并实施额外控制以确保Astra的进一步开发安全进行。我们正努力让Astra广泛可用，并将其先进网络能力交给防御者。 ❤️ 5662 | 💬 530",
     "[2026-08-11]: 我们扩展网络安全计划Daybreak并推出GPT-5.6-Cyber，用于授权的高级网络安全工作。将前沿智能交给可信防御者，优先于攻击者部署进攻AI。❤️ 5623 | 💬 329",
     "[2026-08-12]: ChatGPT桌面App现已在Linux预览上线，支持Ubuntu 24.04/26.04、Debian 13、Fedora 43/44。使用.deb或.rpm包在x64与ARM64上安装，可直接在工作环境中使用ChatGPT Work和Codex。（❤️ 471 | 💬 46）",
@@ -93,7 +92,8 @@
     "[2026-08-27]: 我们对Hugging Face事件进行了彻底调查，已发布技术报告和博客重建Agent活动、解释防护失效原因，并详述防止 recurrence 的措施。与METR和Redwood Research的第三方评估报告同步发布。❤️ 5539 | 💬 331",
     "[2026-08-28]: 我们与Anthropic、AWS、Google、Microsoft、Oracle等共同呼吁全球努力，为防御者提供工具、资源和支持，以保护我们共同依赖的基础设施。只有果断行动，才能将今天的AI进步转化为持久的安全提升。❤️ 10514 | 💬 528",
     "[2026-08-29]: 我们正结束与Cursor的合作，因其被SpaceX收购。我们无法相信马斯克旗下公司会遵守服务条款，将于11月12日起终止模型访问，但会为开发者提供过渡支持。❤️ 8261 | 💬 1125",
-    "[2026-08-30]: 我们正结束与Cursor的合作，因其被SpaceX收购。我们无法相信马斯克旗下公司会遵守服务条款，将于11月12日起终止模型访问，但会为开发者提供过渡支持。（❤️ 20985 | 💬 2998）"
+    "[2026-08-30]: 我们正结束与Cursor的合作，因其被SpaceX收购。我们无法相信马斯克旗下公司会遵守服务条款，将于11月12日起终止模型访问，但会为开发者提供过渡支持。（❤️ 20985 | 💬 2998）",
+    "[2026-09-02]: OpenAI宣布准备发布Astra时，重点强调使其越来越强大的AI安全且广泛可用。Astra在Preparedness Framework下达到Critical级别，他们已预览评估方法、防护进步及持续改进计划。（❤️ 7863 | 💬 570）"
   ],
   "gdb": [
     "[2026-08-07]: OpenAI正努力赋能每个人获得适合他们的智能。我们为免费用户带来无限Luna文本聊天。我们还发布了Sol的更新版本，可同时用于快速聊天和深度推理——这一统一是让ChatGPT更简单直观的重要一步。（❤️ 1414 | 💬 129）",
@@ -124,8 +124,6 @@
     "[2026-08-25]: AI capex预计2026年达到7650亿美元，首次超过油气行业。Compute现在有了第一个期货合约。要让这一切成立必须满足以下条件…（❤️ 713 | 💬 60）"
   ],
   "bindureddy": [
-    "[2026-08-18]: 开源AI若少一些炒作会更好。GLM和DeepSeek需视觉能力，大多会卡住或耗时过长，对中等复杂度任务有时比前沿模型更贵。社区应停止声称Fable级别，转而真正改进。❤️ 191 | 💬 49",
-    "[2026-08-21]: bindureddy指出AI模型炒作周期已缩短至72小时：Day1称毁灭GPT-5和Fable，Day3发现基础数学幻觉，Day4就被遗忘，目前GLM 5.3正处于Day2。❤️ 112 | 💬 19",
     "[2026-08-22]: 哇！OpenAI又一次大幅降价！Sol便宜20%！开源AI竞争是真实的！❤️ 58 | 💬 8",
     "[2026-08-24]: Anthropic最新一代Opus 5和Sonnet 5感觉像是真正的回归：它们旋转很多、成本更高，却没显示出多少质量提升。最好继续用Opus 4.8和Sonnet 4.6。（❤️ 307 | 💬 46）",
     "[2026-08-25]: 在6个月内，95%的任务将由小型250B开源模型完成，大模型将执行极复杂任务包括训练这些小模型，绝大多数token消耗将来自小模型（❤️ 308 | 💬 41）",
@@ -135,10 +133,11 @@
     "[2026-08-29]: 开源与闭源的差距将在90天内消失。四大开源家族（DeepSeek/Qwen/Kimi/GLM）正相互复合迭代；前沿模型延迟或取消；开源已追上首轮基准，正在收集长时程Agent轨迹数据；中国算力已能支撑海量训练。价格将下降80-90%。❤️ 101 | 💬 15",
     "[2026-08-31]: Astra很可能本周四发布——它将比Fable更强大。Anthropic大幅削弱了Fable，而OpenAI不会这么做。Astra能坚持解决极难问题、规模化协调数千Agent、系统级推理、极具创造力且有行动偏好。将这些能力指向你最难的问题，你会看到AI能力的真正相变。❤️ 557 | 💬 39",
     "[2026-08-31]: 用Astra做系统级推理循环，用Fable 5.1做复杂问题深度执行。二者结合能自动化极复杂的长期任务，轻松超越100人工程团队。❤️ 227 | 💬 25",
-    "[2026-09-01]: DeepSeek Flash Vision——世界上最好的小模型现在已开源。我们终于将其用于替换部分旧Sonnet 4.5工作负载，它大约便宜400%，质量和可用性均有提升。（❤️ 104 | 💬 8）"
+    "[2026-09-01]: DeepSeek Flash Vision——世界上最好的小模型现在已开源。我们终于将其用于替换部分旧Sonnet 4.5工作负载，它大约便宜400%，质量和可用性均有提升。（❤️ 104 | 💬 8）",
+    "[2026-09-02]: Fable 5.1已发布并且是世界上最好的模型！Anthropic这次增量发布非常出色，在所有AI榜单上排名第一，数学、推理、Agentic Coding均有提升，价格比Fable 5更便宜，我已经连续几天深度使用。（❤️ 474 | 💬 27）",
+    "[2026-09-02]: 前沿智能未来几个月将极其激动人心。LLM将在“分布外”问题上大幅进步，能治愈癌症、发明近无限能源或破解纳米科技难题。核心原因是大模型不是记忆而是压缩推理结构，它们比人类更能掌握宇宙基本构建块和模式。（❤️ 205 | 💬 44）"
   ],
   "elonmusk": [
-    "[2026-08-10]: AI代理互联网流量显然将远远超过人类使用量。这不是一个接近的判断。Cloudflare的预测非常准确。❤️ 6365 | 💬 769",
     "[2026-08-12]: 你可以用Grok Imagine制作自己的蒸汽朋克电影。（❤️ 4771 | 💬 649）",
     "[2026-08-13]: Grok 4.6 现已发布！聪明、快速且性价比惊人！❤️ 17765 | 💬 2048",
     "[2026-08-13]: Grok 4.7 将超越所有当前模型。尽管Anthropic是伟大公司，但SpaceX训练语料如此独特而强大，如果任何模型在真实世界工程上能超越它，我会非常震惊。❤️ 12447 | 💬 596",
@@ -149,7 +148,8 @@
     "[2026-08-20]: @BrianRoemmele China is also by far the strongest competitor in AI ❤️ 3265 | 💬 251",
     "[2026-08-21]: Elon Musk表示Grok Bot拥有自己的SpaceXAI远程计算机，关闭笔记本或重启桌面后仍能继续工作，这是与传统Agent的重大区别。❤️ 6868 | 💬 596",
     "[2026-08-25]: SpaceX与NVIDIA合作设计了针对太空优化的Vera Rubin NVL72系统，明年Q4发射升空并在2028年实现大规模部署（❤️ 20121 | 💬 1185）",
-    "[2026-08-30]: Consensus estimate is that ~15GW of AI compute produced in 2027 cannot be turned on in 2027. This is harder than just finding power, as you also need to build out all the transformers, wiring, liquid-cooling, (massive) chillers &amp; complex networking.（❤️ 7362 | 💬 1173）"
+    "[2026-08-30]: Consensus estimate is that ~15GW of AI compute produced in 2027 cannot be turned on in 2027. This is harder than just finding power, as you also need to build out all the transformers, wiring, liquid-cooling, (massive) chillers &amp; complex networking.（❤️ 7362 | 💬 1173）",
+    "[2026-09-02]: 要将大型AI数据中心上线，需要建设巨型发电厂、变压器、液体冷却回路、冷水机组以及极其复杂的网络（尤其是训练集群）。（❤️ 17071 | 💬 1688）"
   ],
   "togethercompute": [
     "[2026-04-25]: DeepSeek V4 Pro现已在Together AI上线，V4 Flash即将推出。（❤️ 2 | 💬 0）",
@@ -197,7 +197,8 @@
     "[2026-04-26]: 自动驾驶汽车其实在和航空公司竞争，这一点我之前从未想过。❤️ 7994 | 💬 843",
     "[2026-04-30]: 我已经解释过那条所谓“我的引用”是胡说。此事与Musk v. Altman诉讼同时出现，明显是协调PR攻势，我不会被利用。🚨❤️ 1073 | 💬 41",
     "[2026-05-31]: 唯一比CEO深度参与AI构建更糟糕的事情，就是CEO不深度参与AI构建。❤️ 703 | 💬 105",
-    "[2026-07-12]: Something I told 14 yo: People are going to stop reading books. I wish this wasn't so, but I fear it is. The silver lining in this cloud is that if you're one of the few people who still read, you'll have a huge advantage over everyone else.（❤️ 6077 | 💬 330）"
+    "[2026-07-12]: Something I told 14 yo: People are going to stop reading books. I wish this wasn't so, but I fear it is. The silver lining in this cloud is that if you're one of the few people who still read, you'll have a huge advantage over everyone else.（❤️ 6077 | 💬 330）",
+    "[2026-09-02]: Starcloud如此成功募资的原因在于它押注发射成本下降，这就像90年代押注摩尔定律。即使轨道数据中心略贵于地面，也因无需许可而极具价值；一旦发射成本降到阈值以下，轨道将永久更便宜。（❤️ 292 | 💬 45）"
   ],
   "theinformation": [
     "[2026-07-10]: AI计算是否会远离云端？PrismML CEO预测几年后95%的AI计算将在设备端运行，仅5%最前沿任务留在云端。（❤️ 20 | 💬 3）",
@@ -262,20 +263,6 @@
     "[2026-08-30]: Watching a popular coding tool lose frontier model access really shows why model resiliency matters. In the future, products will continue to work perfectly even if several underlying models go offline. They’ll just route around them.（❤️ 80 | 💬 12）",
     "[2026-08-31]: 硅谷曾轻视日本的系统集成（SI）文化，认为那是不可规模化的顾问陷阱。现在写系统已不再是稀缺工作，集成它才是。在后AI世界，每个人都将成为AI赋能的日本SIer。❤️ 198 | 💬 22"
   ],
-  "runwayml": [
-    "[2026-05-19]: Runway Characters can now take actions, not just speak. Tell the real-time video agent what you want, and they can call tools for you。❤️ 109 | 💬 13",
-    "[2026-05-22]: Aleph 2.0发布。现在你可以编辑视频中单帧，预览修改后，Aleph 2.0会将这一编辑传播到整个视频。已在网页新Edit Studio上线。❤️ 694 | 💬 44",
-    "[2026-05-27]: 推出Project Luxo：探索AI生成视频如何跨越uncanny valley。我们向好莱坞高管、制片人、导演等展示了短片，一致反馈是技术终于好到能隐身于故事之后。《The Rogue》是由单人在一个月内用Runway完成的完整AI电影。（❤️ 244 | 💬 39）",
-    "[2026-05-28]: 推出Runway MCP。现在你可以把Runway直接接入Claude、ChatGPT、Cursor、Replit等。从你已经在用的环境里，用Gen-4.5、Seedance 2.0、GPT Images 2.0、Kling等SOTA模型生成精美图像和视频。几秒钟内即可把MCP连到你的Agent。❤️ 821 | 💬 56",
-    "[2026-05-29]: 《Last Night》：一部完全AI生成的短片，通过破碎记忆镜头探索东京改变人生的一晚。由一人用Runway一天完成，是Project Luxo的一部分，该计划探索AI视频如何跨越uncanny valley。❤️ 191 | 💬 28",
-    "[2026-06-02]: 我们宣布伦敦成为Runway欧洲总部及新一代世界模型研究枢纽。未来18个月将投资1亿美元于英国AI生态，至2028年投入规模将翻倍。（❤️ 188 | 💬 19）",
-    "[2026-06-16]: 现在可以在ChatGPT中使用Runway生成和编辑视频与图像，无需切换标签页。❤️ 175 | 💬 16",
-    "[2026-06-24]: The human mind is no longer the center of AI. Our world is.❤️ 147 | 💬 17",
-    "[2026-06-26]: 推出Agent 2.0：从简单prompt到Runway Agent内完整实现的营销brief和campaign assets，还能分析性能数据以改进创意并跨平台规模化。Agent正被构建为现实世界工作中最强大的自主Agent。❤️ 210 | 💬 14",
-    "[2026-06-30]: Seed Audio 1.0现已面向所有付费计划开放。用简单文本提示即可生成最长120秒的动态语音、音效设计和音乐，立即体验。❤️ 90 | 💬 5",
-    "[2026-07-01]: 9月Runway AI Summit将在旧金山举办，汇聚机器人、自动驾驶、生命科学、基础设施领域领袖，探讨AI如何重塑智能与世界的交互方式。首位演讲嘉宾名单已公布。❤️ 96 | 💬 5",
-    "[2026-07-03]: 推出Agent Skills。用简单命令构建广告战役、创建商业广告、实现本地化等。输入/，选择Skill，Agent就开始工作。规模化你的营销。❤️ 64 | 💬 5"
-  ],
   "rauchg": [
     "[2026-08-10]: 如果你不阅读代码（无论是显式还是通过agentic inquiry），那你可能是初学者、软件是可抛弃的、正在原型开发、没有用户或收入、正在承担债务与风险、问题过于基础。模型仍未达到“完全自主”阶段，它们会犯新手错误、走坏架构路径。❤️ 4128 | 💬 301",
     "[2026-08-12]: 那种“你能做到，再努力一下，坚持下去”的提示其实是一种工程管理。你知道目标可及，所以投入更多时间与算力鼓励它，同时也要有判断死胡同并及时pivot的智慧。这就是Agent管理。（❤️ 224 | 💬 40）",
@@ -305,7 +292,6 @@
     "[2026-08-31]: “直到我们用完问题，我们就不会用完需求。”Erik Torenberg、Martin Casado、Ben Horowitz与Raghu Raghuram讨论为什么AI需求没有上限：从聊天机器人到多Agent，每一步都让单任务Token消耗增加几个数量级。AI通过使用更多AI来变得更好，我们现在只受供给限制。❤️ 65 | 💬 12"
   ],
   "perplexity_ai": [
-    "[2026-06-09]: 我们与Harvard联合发布研究：从聊天界面转向自主Agent如Computer。3个月数据显示，工人使用Computer比仅用Search少用87%时间、94%成本，满意度更高。我们构建了1万对匹配查询进行对比，并用BLS工资定价人力时间。（❤️ 368 | 💬 67）",
     "[2026-06-12]: 我们将Deep Research作为原生技能集成到Computer中。它现在连接Agent底层架构，支持Search as Code、长时沙箱、工具和授权数据，Pro/Max用户已可用。（❤️ 437 | 💬 45）",
     "[2026-06-19]: Brain是Computer中的持续学习记忆系统。每个任务都接入Brain构建的上下文图，让Computer随每次运行变得更有状态。目前为Perplexity Max用户的研究预览。❤️ 1613 | 💬 136",
     "[2026-06-25]: 推出Computer for Counsel。现在可连接律师日常使用的研究数据库、文档工具和事务管理系统，从midpageAI、LegalZoom、Docusign、netdocuments等拉取可引用来源。Pro与Max用户可用。❤️ 335 | 💬 18",
@@ -316,7 +302,8 @@
     "[2026-07-30]: 今天我们开源Numbat，这是一个为Agent设计的检测与响应层，可跨各种Agent框架工作。它为安全团队提供Agent活动可见性，并可在执行前阻断选定操作。单Go二进制文件，支持macOS/Linux/Windows，已在Apache 2.0下可用。❤️ 351 | 💬 21",
     "[2026-08-07]: GPT 5.6 Terra和Luna现已在Perplexity Computer上线。Terra是所有Computer子Agent的新默认模型，Luna将作为计划自动化主要模型。Terra也可作为Computer中的编排模型。（❤️ 238 | 💬 22）",
     "[2026-08-19]: Computer现在可在邮件中工作。向computer@perplexity.com发送、转发或抄送任何邮件线程。每个邮件任务都作为Computer中的普通会话运行，可在Web和移动端查看，并带有与应用中任何任务相同的审计轨迹。（❤️ 371 | 💬 31）",
-    "[2026-08-26]: 我们今天在NVIDIA DGX Spark上推出Portable Computer，这是Perplexity Computer的完全本地版本，整个运行时包括编排LLM、子Agent LLM和Agent框架全部在本地硬件运行，无云依赖。（❤️ 2934 | 💬 160）"
+    "[2026-08-26]: 我们今天在NVIDIA DGX Spark上推出Portable Computer，这是Perplexity Computer的完全本地版本，整个运行时包括编排LLM、子Agent LLM和Agent框架全部在本地硬件运行，无云依赖。（❤️ 2934 | 💬 160）",
+    "[2026-09-02]: Claude Fable 5.1现已在Perplexity Computer中对Pro与Max订阅者可用。它在8月WANDR评估中排名第一，得分0.601，单任务成本12.76美元，比Fable 5得分高21%、成本低37%。（❤️ 332 | 💬 27）"
   ],
   "demishassabis": [
     "[2026-05-11]: 难以置信AlphaGo已经过去10年。上周在韩国与李世石见面并和申真谞下了一场特别的围棋，回顾AlphaGo如何彻底改变了职业选手对围棋的理解方式。❤️ 56 | 💬 8",
@@ -398,7 +385,8 @@
     "[2026-07-18]: Sun Microsystems巅峰估值2050亿（通胀调整后3940亿），最终以74亿卖给Oracle，损失96%价值。因被Linux、x86和商品化硬件颠覆。开放权重模型在本地硬件上的发展正产生类似影响。❤️ 1811 | 💬 88",
     "[2026-07-25]: 今天是我对美国AI未来最乐观的一天，看到这么多公司团结起来对抗监管俘获，令人振奋。（❤️ 1205 | 💬 33）",
     "[2026-07-29]: 美国托管的Kimi K3现已在Perplexity的Pro和Max用户中可用，支持Search和Computer模式。尽情使用！它是一个伟大的前沿模型！（❤️ 145 | 💬 17）",
-    "[2026-08-15]: Arav Srinivas发文称Perplexity的Search SDK现已可用于任何Agentic harness，使其成为宽深研究的最佳产品。（❤️ 167 | 💬 14）"
+    "[2026-08-15]: Arav Srinivas发文称Perplexity的Search SDK现已可用于任何Agentic harness，使其成为宽深研究的最佳产品。（❤️ 167 | 💬 14）",
+    "[2026-09-02]: 这是一个重要观察。当Agent足够聪明时，它们将能自主启动新的GPU节点来进行自我训练，期间只需极少监督。因此必须提前插入足够强的护栏和摩擦机制。（❤️ 387 | 💬 25）"
   ],
   "vllm_project": [
     "[2026-07-16]: 恭喜@thinkymachines推出TML Inkling——1T参数开源权重模型，从Day 0起受vLLM支持。多模态（文本、图像、音频），最高1M token上下文，新架构含相对注意力、短卷积、MoE专家沉降，8个MTP头用于推测解码。在4×GB200上可达380 tok/s/user。❤️ 280 | 💬 3"
