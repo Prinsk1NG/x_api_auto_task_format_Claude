@@ -278,7 +278,6 @@
     "[2026-09-01]: 你的下一个设计系统就是Markdown。我们撰文解释DESIGN.md如何解决当今AI最难的问题——slop，并真正规模化地将设计品味植入大型组织。同时AI Gateway通过per-key和per-user预算解决了token治理问题，避免公司把AWS密钥直接扔给实习生导致巨额账单。（❤️ 1488 | 💬 41）"
   ],
   "a16z": [
-    "[2026-08-11]: 一小时Agentic计算机使用现在可能比人类劳动力更便宜：计算机使用Agent 6-8美元，离岸外包约10美元，美国人力30-45美元。随着推理持续变便宜和开源模型足够好，这一数学只会更好。❤️ 223 | 💬 22",
     "[2026-08-13]: Garry Tan表示AI让单个markdown文件成为员工：“如果你真的想tokenmax，就用Hermes Agent加载百万token……你得到的是今天就活在2028年。你把一次壮举变成markdown+代码+测试，放进cron任务，它每次都完美执行。”❤️ 197 | 💬 15",
     "[2026-08-15]: a16z发文详细介绍Cursor如何在2024年实现垂直增长，成为最快破1亿美元ARR的公司，并披露其与SpaceX AI的结合。（❤️ 471 | 💬 19）",
     "[2026-08-17]: Right place, right time：许多neocloud挖矿多年，AI让它们的电力、数据中心和GPU成为最热资产。CoreWeave成立25个季度，收入已超Azure、AWS、Google Cloud在30个季度时的水平。（❤️ 278 | 💬 18）",
@@ -289,10 +288,10 @@
     "[2026-08-26]: Martin Casado指出他此前低估了规模定律的持续性，现在我们正把1000亿美元投入训练，AI已成为全新抽象层，初创公司因此在资本和增长上与巨头处于平等地位。（❤️ 87 | 💬 12）",
     "[2026-08-27]: Aaron Levie谈Agent将比人类多1000倍：我们必须为Agent构建软件，像思考人类界面一样思考Agent界面，通过API/CLI/MCP实现。编码Agent可直接访问SaaS工具并自主完成任务，这正在成为范式。❤️ 75 | 💬 20",
     "[2026-08-30]: A few years ago Patrick Collison remarked there are fewer younger founders today. Ben Horowitz and Martin Casado agree that's what the hardware era looks like, for now... One of the greatest legacies of Elon is the amount of entrepreneurs that have come out of SpaceX...（❤️ 105 | 💬 9）",
-    "[2026-08-31]: “直到我们用完问题，我们就不会用完需求。”Erik Torenberg、Martin Casado、Ben Horowitz与Raghu Raghuram讨论为什么AI需求没有上限：从聊天机器人到多Agent，每一步都让单任务Token消耗增加几个数量级。AI通过使用更多AI来变得更好，我们现在只受供给限制。❤️ 65 | 💬 12"
+    "[2026-08-31]: “直到我们用完问题，我们就不会用完需求。”Erik Torenberg、Martin Casado、Ben Horowitz与Raghu Raghuram讨论为什么AI需求没有上限：从聊天机器人到多Agent，每一步都让单任务Token消耗增加几个数量级。AI通过使用更多AI来变得更好，我们现在只受供给限制。❤️ 65 | 💬 12",
+    "[2026-09-03]: World Labs联合创始人Justin Johnson解释如何用手机5张照片教会机器人从未见过房间的工作：“拍摄5张随意照片上传到Atlas生成模拟，用自然语言描述任务，让Agent构建模拟并RL微调通用机器人模型，即可得到完美适配该空间的机器人。”（❤️ 46 | 💬 7）"
   ],
   "perplexity_ai": [
-    "[2026-06-12]: 我们将Deep Research作为原生技能集成到Computer中。它现在连接Agent底层架构，支持Search as Code、长时沙箱、工具和授权数据，Pro/Max用户已可用。（❤️ 437 | 💬 45）",
     "[2026-06-19]: Brain是Computer中的持续学习记忆系统。每个任务都接入Brain构建的上下文图，让Computer随每次运行变得更有状态。目前为Perplexity Max用户的研究预览。❤️ 1613 | 💬 136",
     "[2026-06-25]: 推出Computer for Counsel。现在可连接律师日常使用的研究数据库、文档工具和事务管理系统，从midpageAI、LegalZoom、Docusign、netdocuments等拉取可引用来源。Pro与Max用户可用。❤️ 335 | 💬 18",
     "[2026-07-02]: Claude Fable 5现已在Computer中作为编排模型重新可用。（❤️ 298 | 💬 23）",
@@ -303,7 +302,8 @@
     "[2026-08-07]: GPT 5.6 Terra和Luna现已在Perplexity Computer上线。Terra是所有Computer子Agent的新默认模型，Luna将作为计划自动化主要模型。Terra也可作为Computer中的编排模型。（❤️ 238 | 💬 22）",
     "[2026-08-19]: Computer现在可在邮件中工作。向computer@perplexity.com发送、转发或抄送任何邮件线程。每个邮件任务都作为Computer中的普通会话运行，可在Web和移动端查看，并带有与应用中任何任务相同的审计轨迹。（❤️ 371 | 💬 31）",
     "[2026-08-26]: 我们今天在NVIDIA DGX Spark上推出Portable Computer，这是Perplexity Computer的完全本地版本，整个运行时包括编排LLM、子Agent LLM和Agent框架全部在本地硬件运行，无云依赖。（❤️ 2934 | 💬 160）",
-    "[2026-09-02]: Claude Fable 5.1现已在Perplexity Computer中对Pro与Max订阅者可用。它在8月WANDR评估中排名第一，得分0.601，单任务成本12.76美元，比Fable 5得分高21%、成本低37%。（❤️ 332 | 💬 27）"
+    "[2026-09-02]: Claude Fable 5.1现已在Perplexity Computer中对Pro与Max订阅者可用。它在8月WANDR评估中排名第一，得分0.601，单任务成本12.76美元，比Fable 5得分高21%、成本低37%。（❤️ 332 | 💬 27）",
+    "[2026-09-03]: 我们今天开源Lily，这是为Perplexity Computer混合计算构建的本地推理引擎。专为Apple Silicon上的Qwen3.6-35B-A3B优化，确保本地计算不成为任务瓶颈。在M5 Max MacBook Pro上基准测试显示，其预填充和解码吞吐均显著优于MLX-LM。（❤️ 1256 | 💬 45）"
   ],
   "demishassabis": [
     "[2026-05-11]: 难以置信AlphaGo已经过去10年。上周在韩国与李世石见面并和申真谞下了一场特别的围棋，回顾AlphaGo如何彻底改变了职业选手对围棋的理解方式。❤️ 56 | 💬 8",
@@ -334,7 +334,6 @@
     "[2026-08-17]: 这是我对Qwen 3.8 27B的评测——我已经不记得上次在自己电脑上玩本地模型能这么开心是什么时候了。（❤️ 183 | 💬 17）"
   ],
   "techcrunch": [
-    "[2026-05-17]: arXiv研究库将对让AI完成全部工作的作者实施一年禁令。（❤️ 21 | 💬 6）",
     "[2026-05-19]: Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare。❤️ 102 | 💬 13",
     "[2026-06-08]: Anthropic S1的风险因素部分会很有意思。Uber的AI推进从严重超支到快速用量封顶只用了短短几周。我们在最新Equity节目中进一步拆解。❤️ 45 | 💬 15",
     "[2026-06-09]: 继Anthropic之后，OpenAI也秘密提交IPO申请。（❤️ 26 | 💬 7）",
@@ -345,7 +344,8 @@
     "[2026-07-05]: 阿里巴巴据报禁止员工使用Claude Code。（❤️63 | 💬16）",
     "[2026-07-11]: Apple起诉OpenAI，指控这家AI初创公司系统性窃取贸易秘密用于构建硬件业务。诉讼针对首席硬件官Tang Tan及前苹果员工，称他们将机密文件、设备部件和产品细节带至OpenAI。这可能只是冰山一角。（❤️ 130 | 💬 9）",
     "[2026-07-21]: Natural融资3000万美元重塑AI Agent支付，并挑战Stripe。（❤️ 80 | 💬 14）",
-    "[2026-08-16]: TechCrunch报道，AI编码初创公司Cursor现已正式并入SpaceX。（❤️ 87 | 💬 11）"
+    "[2026-08-16]: TechCrunch报道，AI编码初创公司Cursor现已正式并入SpaceX。（❤️ 87 | 💬 11）",
+    "[2026-09-03]: OpenAI新Astra模型将使用“recurrent depth”技术，使模型能够超越大多数推理模型的顺序思考模式运行。这可能让研究者更难监控模型内部链式思考，确保其不做有害行为。（❤️ 54 | 💬 6）"
   ],
   "googleai": [
     "[2026-05-20]: Gemini Omni能从任意输入创造内容，从视频开始。它可接收你自己的视频并迭代想法，已在Gemini App和FlowByGoogle中可用。（❤️ 884 | 💬 37）",
@@ -400,7 +400,9 @@
     "[2026-08-14]: 我们的Flash模型是高性价比主力，我们快速迭代让开发者尽早使用。3.7 Flash在编码、Agentic工作、知识工作上有显著提升，首发价仅为3.6 Flash一半。早期用户包括内部工程师在Antigravity中使用，反馈积极。（❤️ 2850 | 💬 242）",
     "[2026-08-20]: Sundar Pichai发帖：Search现在可以帮助全球各种考试备考，包括SAT、ACT、AP、JEE、NEET等全部！同时为140+国家大学生提供免费Google AI订阅。❤️ 820 | 💬 148",
     "[2026-08-23]: Gemini 3.7 Flash首周打破此前所有Gemini增长纪录，成为我们增长最快的模型。开发者社区反应热烈，现已运行在Search和Gemini App中。❤️ 3148 | 💬 230",
-    "[2026-08-27]: 向大家介绍Gemini 3.5 Transcribe：构建能理解用户语音/意图（含多说话者）的应用，自动检测85+语言，支持定制词汇，已在Google AI Studio、Gemini企业版和App上线。❤️ 3227 | 💬 247"
+    "[2026-08-27]: 向大家介绍Gemini 3.5 Transcribe：构建能理解用户语音/意图（含多说话者）的应用，自动检测85+语言，支持定制词汇，已在Google AI Studio、Gemini企业版和App上线。❤️ 3227 | 💬 247",
+    "[2026-09-03]: 我们推出Gemini 3.8 Flash Cyber，这是我们最具能力的网络安全模型。在大规模漏洞发现和自动修复上达到前沿水平，同时保持Flash级速度与定价。在真实Chrome安全漏洞评估中，它产生的正确补丁数量是更大模型的2.6倍。我们通过Fairwind计划向政府和关键基础设施提供优先访问。（❤️ 191 | 💬 22）",
+    "[2026-09-03]: 今天我们发布全新3.8 Flash模型，这是6周内第3次Flash升级。在软件工程、Agentic任务和多步推理上实现重大飞跃。在DeepSWE v1.1上超越多数更大前沿模型，能以更低成本端到端自主解决复杂工程问题。（❤️ 6595 | 💬 424）"
   ],
   "op7418": [
     "[2026-07-26]: Anthropic讲解了随着模型提升如何更新上下文规则：随着Fable 5和Opus 5发布，他们精简80%系统提示词但编程测评无损失。核心是从给规则转向让Claude运用判断力、从具体示例到设计接口、从前置上下文到渐进式披露、多用Skills模块化、自动记忆等。保持claude.md轻量，优先引用代码形式。(❤️ 152 | 💬 49)",
