@@ -1,0 +1,73 @@
+<REPORT>
+  <COVER title="Astra Rollout Chaos Yields to Claude's Fermat Triumph" prompt="Minimalist data visualization of a vast neural lattice composed of millions of glowing azure nodes interconnected by razor-thin white vectors, forming the unmistakable outline of Fermat's Last Theorem equation at the center. Streams of tokenized data flow like liquid mercury from left-side OpenAI rollout icons into right-side Lean proof blocks, with subtle particle bursts representing 13 million lines of verified code. Industrial precision lighting with soft volumetric god rays from above, clean matte black void background, extreme macro depth of field focusing on central theorem node, octane render, 8K cinematic, mathematical symbols as holographic overlays, no neon, no purple tones." insight="Astra reaches mass users amid messy rollout while Claude's 13M-line Fermat proof marks verifiable math milestone."/>
+  <PULSE>今日硅谷叙事从GPT-6 Astra的混乱大规模推送转向Claude完成费马大定理形式化证明，AI开始深度嵌入可验证科学基础设施。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Claude完成费马大定理首个形式化Lean证明</TITLE>
+      <NARRATIVE>Anthropic今日宣布Claude完成费马最后定理的首个完整机器可验证形式化证明，总计超过1300万行Lean代码，同时验证了29000余条此前未形式化的相关定理。这是数学史上里程碑事件，将AI从“生成证明”推进到“可验证知识核心”层面，极大减轻未来数学同行评审负担。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方公告">Anthropic宣布Claude完成费马最后定理首个形式化证明，使用1300万行Lean代码验证29000多条定理，此前专家认为需多年完成。这是Lean史上最大证明，推动AI辅助数学验证进入新阶段。❤️ 6352 | 💬 271</TWEET>
+      <CONSENSUS>行业共识转向AI可系统性形式化并验证已有数学知识，降低人工评审负担并加速数学积累。</CONSENSUS>
+      <DIVERGENCE>部分专家质疑自动形式化是否能生成全新未被证明的定理，目前仍高度依赖人类初始洞见。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Astra完成混乱推送后全面开放Pro/Enterprise</TITLE>
+      <NARRATIVE>Sam Altman承认首日推送“messy”，随后快速修复并向所有Pro、Enterprise、Business Premium及API用户开放GPT-6 Astra。早期用户反馈其在浏览器使用、3D渲染、长时程Agent循环上显著领先，虽长循环弱于Fable 5.1但速度与成本更优。这是既有“Astra实用化”叙事的深度推进，从安全刹车到真实生产可用。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">Sam Altman就Astra推送混乱道歉，表示已向所有Pro/Enterprise用户开放Work/Codex和API，Plus用户即将跟进，感谢耐心。❤️ 19694 | 💬 1311</TWEET>
+      <TWEET account="openai" role="官方公告">GPT-6 Astra现已向所有Pro、Enterprise、Business Premium用户在ChatGPT Work、Codex及API开放，Plus用户即将推送。❤️ 20590 | 💬 664</TWEET>
+      <CONSENSUS>行业已形成“Astra生产可用”的新共识，尤其认可其浏览器控制与3D生成能力， rollout速度快于预期安全顾虑。</CONSENSUS>
+      <DIVERGENCE>用户对Codex中自动化与语音动作支持仍存争议，部分人认为仍不及Sol在简单任务中的可靠性。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>World Labs Atlas用3部iPhone实现Matrix式空间重构</TITLE>
+      <NARRATIVE>Fei-Fei Li联合创立的World Labs推出Atlas模型，仅需3部iPhone拍摄视频即可重建完整3D世界，无需绿幕或专业标定，可实现《黑客帝国》子弹时间式重构与任意视角冻结。这是全新“空间智能”范式，从少量日常捕捉直接生成可交互物理世界，解决机器人与影视制作对昂贵采集设备的依赖。</NARRATIVE>
+      <TWEET account="a16z" role="机构观点">a16z讲述World Labs联合创始人Justin Johnson如何用Atlas以3部iPhone重现《黑客帝国》子弹时间，无需工作室、绿幕或昂贵标定，仅用日常视频即可实现冻结时间与任意相机运动。❤️ 1093 | 💬 23</TWEET>
+      <OUTLOOK>未来6-12个月，空间智能将从影视特效快速渗透到机器人训练与AR/VR内容生成，降低具身智能数据门槛。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注用手机级捕捉训练具身模型的初创公司，或将Atlas能力嵌入影视后期的垂直SaaS。</OPPORTUNITY>
+      <RISK>当前模型对动态复杂场景泛化仍存硬伤，重建精度在户外光照剧变时可能快速下降，短期或仍需人类后处理。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从Markdown文件转向Agent原生纯信号接口</TITLE>
+      <NARRATIVE>Arav Srinivas今日直接宣称“markdown文件的终结”，呼应rauchg历史观点但发生明确转向：Web将彻底分裂为人类极致体验层与Agent纯信号层，MCP与标准化API将成为主导而非Markdown设计系统。这是既有“AI设计系统”叙事在Agent规模化后的风向掉头。</NARRATIVE>
+      <TWEET account="aravsrinivas" role="Perplexity CEO">Arav Srinivas宣布markdown文件时代的终结，苦涩教训总是胜利，Agent将依赖纯信号接口而非人类阅读文件。❤️ 2144 | 💬 166</TWEET>
+      <CONSENSUS>行业最新共识是Agent基础设施必须彻底抛弃向后兼容，转向专为机器设计的无损API与协议。</CONSENSUS>
+      <DIVERGENCE>开发者社区仍在激烈争论完全放弃Markdown是否会牺牲人类可审计性，以及如何在混合人类-Agent团队中维持治理。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Perplexity开源ROSE引擎实现SOTA搜索嵌入服务</TITLE>
+      <NARRATIVE>Perplexity今日发布关于其搜索嵌入与排名模型服务基础设施的研究，公开Ivy、Tulip与ROSE三层架构，通过GPU批处理、CUDA图与请求调度实现极致延迟-吞吐平衡。这是“Agentic宽深研究”叙事的深度推进，将搜索从简单召回升级为可规模化生产级推理后端。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="官方公告">Perplexity发布研究，详解如何构建SOTA嵌入与排名模型服务基础设施，包括Rust HTTP解析、gRPC批处理调度与Python ROSE引擎的CUDA图管理。❤️ 279 | 💬 16</TWEET>
+      <CONSENSUS>搜索基础设施已形成“标准化API+高度优化GPU推理栈”的新共识，显著降低大规模Agentic查询成本。</CONSENSUS>
+      <DIVERGENCE>如何在保持极致性能的同时进一步提升安全沙箱与多模型路由的透明度，仍是未解争议。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Nscale与Anthropic达成450亿美元协议后，正就额外融资进行谈判并计划IPO。</ITEM>
+    <ITEM category="投融资快讯">Thinking Machines完成Accel领投10亿美元融资，投后估值400亿美元。</ITEM>
+    <ITEM category="投融资快讯">Etched完成3亿美元C轮，用于推理优化芯片，估值升至103亿美元。</ITEM>
+    <ITEM category="VC views">a16z指出AI需求无上限，从聊天到多Agent系统令单任务token消耗呈数量级增长，供给仍是唯一限制。</ITEM>
+    <ITEM category="VC views">Paul Graham观察到AI初创公司在更高估值下更早完成融资，硬件学徒期经验正成为新创始人优势。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek Flash Vision与Kimi K3的复合迭代正将开源四大家族（DeepSeek/Qwen/Kimi/GLM）推向90天内追平闭源前沿的轨道，其在Agentic Coding与低幻觉率上的突破已获Perplexity与Abacus AI生产验证。</ITEM>
+    <ITEM category="中国 AI 评价">智谱GLM-6.0全自训练路线与字节豆包工作流集成显示中国公司在模型自我进化与企业级MCP生态上加速，海外大佬如bindureddy已公开转向将其用于替换部分Sonnet工作负载。</ITEM>
+    <ITEM category="全球映射">中国在视频世界模型与手机级空间捕捉上的Token消耗占比（约70%）远超美国，World Labs Atlas路径与中国real-to-sim方法高度共振，可能加速全球具身智能数据飞轮。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="drjimfan" role="前OpenAI研究员">drjimfan回忆2016年OpenAI Universe项目中早期Agent尝试用像素控制鼠标订机票，十年后Astra以“专用通用主义者”方式实现可靠计算机使用，感慨“一超前是先锋，五超前是烈士”。❤️ 712 | 💬 48</TWEET>
+    <TWEET account="simonw" role="开发者">SimonW分享GPT-6 Astra生成鹈鹕图片网格，与GPT-5.6 Sol、Terra、Luna对比，展示其图像质量进步。❤️ 575 | 💬 94</TWEET>
+    <TWEET account="bindureddy" role="AI分析师">bindureddy早期读出显示Astra在3D模型与浏览器使用上表现出色，长循环能力强且比Fable更快更便宜，若不被过度安全限制将非常令人兴奋。❤️ 317 | 💬 21</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">Gary Marcus就OpenAI潜在可预见犯罪及董事会责任提出法律质疑，暗示Astra相关事件或引发董事会问责。❤️ 86 | 💬 14</TWEET>
+    <TWEET account="c_valenzuelab" role="Runway联合创始人">c_valenzuelab感慨三年前若说一人几小时生成当前视频会被视为魔法，如今已成新常态。❤️ 159 | 💬 7</TWEET>
+    <TWEET account="tualatrix" role="独立开发者">tualatrix表示停止ChatGPT订阅第二天，未因GPT-6发布回归，继续用其他模型修复产品Bug，专注感极佳。❤️ 78 | 💬 64</TWEET>
+    <TWEET account="theinformation" role="媒体">The Information报道潜在Anthropic IPO投资者要求披露每token收入与每吉瓦计算收入，此举或为OpenAI等公司设立基准。❤️ 68 | 💬 0</TWEET>
+    <TWEET account="elonmusk" role="xAI/SpaceX CEO">Elon Musk宣布Cybercab电机不使用稀土金属却保持相同续航，这是极难实现的工程成果。❤️ 43949 | 💬 1690</TWEET>
+  </TOP_PICKS>
+</REPORT>
