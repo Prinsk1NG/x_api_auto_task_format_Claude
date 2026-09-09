@@ -1,0 +1,84 @@
+<REPORT>
+  <COVER title="AI破解90年流体力学千年难题" prompt="Minimalist data visualization style for a Silicon Valley tech report cover titled 'AI Cracks Navier-Stokes: Dawn of AI-Driven Scientific Discovery'. Interconnected glowing neural nodes representing swarms of AI agents collaboratively untangle complex 3D turbulent fluid flows and partial differential equations that morph from chaotic particle systems into elegant resolved mathematical structures. Use cool scientific blue and crisp gold accents on a dark void background, with floating vector equations and precision vector field lines. Dramatic cinematic lighting with soft volumetric god rays and subtle refractive caustics on crystalline math surfaces, hyper-detailed 8K resolution, clean geometric composition, scientific instrument aesthetic with faint holographic overlays." insight="多代理系统88小时解决Navier-Stokes，科学发现进入AI代理主导的新纪元。"/>
+  <PULSE>今日最核心叙事是OpenAI多代理系统攻克Navier-Stokes千年数学难题，标志AI驱动科学发现的真正分水岭，同时图像生成与个人Agent工具迭代加速。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>AI多代理系统破解Navier-Stokes千年大奖难题</TITLE>
+      <NARRATIVE>OpenAI使用比GPT-6 Astra更强大的下一代模型，协调约1万名AI代理在88小时内完成对Navier-Stokes方程的证明，这是七大千年大奖问题之一，已困扰数学界90年。此前历史记忆中Astra已在科学论文验证和抽象推理上取得突破，但本次直接解决未解数学难题构成行业分水岭，gdb称这指向科学发现的文艺复兴。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">我们正在分享Navier-Stokes千年大奖问题的解决方案，这是数学前沿最深奥的问题之一。证明由一群代理使用显著强于GPT-6 Astra的下一代OpenAI模型产生。该问题涉及光滑三维流体运动描述是否会崩溃，已悬而未决约90年。❤️ 82857 | 💬 3782</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">我们宣布Navier-Stokes问题的解决方案，这是七大千年大奖问题之一。代表AI与数学的重大里程碑，并指向科学发现即将到来的复兴。希望该模型创造的知识能帮助社区更好地理解非线性PDE，用于建模物理世界的大部分。❤️ 6525 | 💬 260</TWEET>
+      <CONSENSUS>行业已形成共识：AI代理集群结合前沿模型能以人类难以企及的速度解决最硬数学问题，这标志实用AGI在科学领域的落地分水岭。</CONSENSUS>
+      <DIVERGENCE>目前争论焦点在于OpenAI是否无意中使用了人类研究者数据（尽管官方否认），以及这一速度是否会破坏传统开放科学分享研究方向的百年传统。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI速解数学难题或终结开放科学传统</TITLE>
+      <NARRATIVE>Terence Tao警告：仅仅解决千年难题的“谣言”就能触发海量AI努力抢在原研究者前完成，导致研究者不愿再公开分享有前景的方向。这与历史记忆中Gary Marcus此前对OpenAI数学结果的质疑形成鲜明反差，过去强调“营销大于科学”，现在转向AI正系统性改变科学协作规范本身。</NARRATIVE>
+      <TWEET account="garymarcus" role="AI批评者">Terence Tao继续输出绝对干货：我们现在看到，即使是有人在研究某问题的谣言，也能触发大量AI驱动的努力，在原研究项目完全发挥潜力前将其抹平。激励机制现在可能指向不再与更广泛社区分享任何有前景的研究方向，这将逆转几个世纪的开放科学传统，并对该领域未来造成严重长期损害。❤️ 3286 | 💬 51</TWEET>
+      <CONSENSUS>大佬们最新共识是AI已强大到能“ flatten”前沿问题，未来科学家可能转向更封闭的研究流程以保护优先权。</CONSENSUS>
+      <DIVERGENCE>激烈争论点在于这究竟是科学进步的巨大加速，还是对学术诚信与合作文化的根本破坏，以及OpenAI是否真正独立完成证明。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>ChatGPT Images 2.5实现图像生成速度与保真度双突破</TITLE>
+      <NARRATIVE>OpenAI推出ChatGPT Images 2.5，生成速度提升、图像保真度与自然度大幅改善，支持一致性多轮编辑和基于评论的精准局部修改。这是Astra多模态能力在消费级产品的深度推进，sama此前强调Astra在创造力上的行动偏好，本次在图像工具链上落地为用户每周30亿张生成量提供新生产力。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">ChatGPT Images 2.5——更快、更锐利、更智能，配备更好工具来创造你能梦想的一切。生成速度更快以保持想法流动；保真度提升带来更自然可识别图像；多轮编辑保持细节一致；基于评论的编辑只改变你想要的部分。❤️ 16575 | 💬 624</TWEET>
+      <TWEET account="gdb" role="OpenAI CTO">ChatGPT Images 2.5——创造你能梦想的一切的又一步。❤️ 1585 | 💬 71</TWEET>
+      <CONSENSUS>行业新共识是消费级图像生成已从“看起来像”转向专业可用工具链，支持草图输入、模板和精准局部编辑，彻底改变创意工作流。</CONSENSUS>
+      <DIVERGENCE>推进后仍存争议：高端创意工作是否仍需Sunburst版更长生成时间，以及与Midjourney等专业工具在艺术控制力上的最终差距。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>AlphaGenome Atlas开启AI基因组变异全图谱时代</TITLE>
+      <NARRATIVE>DeepMind推出AlphaGenome Atlas，能预测所有90亿种单字母DNA变异的影响，可在普通浏览器中无代码使用并免费提供给学术研究。这是全新叙事：AI从蛋白质宇宙（AlphaFold）转向完整人类基因组图谱，试图解决生物医学中“数据过多单人无法连接所有点”的底层瓶颈。</NARRATIVE>
+      <TWEET account="demishassabis" role="DeepMind CEO">借助AlphaFold我们绘制了蛋白质宇宙——现在借助AlphaGenome Atlas我们正在绘制人类基因组。它能预测所有90亿种可能单字母DNA变异的影响，帮助科学家更好地理解疾病。免费提供给学术研究。❤️ 7094 | 💬 177</TWEET>
+      <TWEET account="sundarpichai" role="Google CEO">AlphaGenome Atlas是一个交互式资源，绘制所有90亿种DNA变异的影响。它在普通网页浏览器中工作，无需任何编码，对学术研究者免费。对即将到来的发现感到兴奋。❤️ 2907 | 💬 122</TWEET>
+      <OUTLOOK>未来6-12个月，这一工具将加速全球生物医学研究机构发现疾病机制，催生大量AI+基因组初创公司，并推动制药公司将基因变异预测纳入药物研发标准流程。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于构建Atlas之上的垂直Agent，用于特定疾病（如癌症）变异模拟，或将基因组预测与机器人实验室自动化结合的平台公司。</OPPORTUNITY>
+      <RISK>短期泡沫风险较低，但存在数据偏见与临床验证硬伤，预测准确性在罕见变异上仍需大规模真实世界验证。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Meta推出个人Agent Muse：从工具到“了解你”的安全代理</TITLE>
+      <NARRATIVE>Meta发布Muse个人代理（由Muse Spark 1.3驱动），强调随时间了解用户并持有大量上下文，同时内置深度安全与隐私机制。这是既有“Agentic Adoption”叙事的深度推进，从历史记忆中“僵尸员工”和“Agent自主对话”转向更个人化、持久记忆且隐私优先的代理，解决长期安全连接与数据隐私瓶颈。</NARRATIVE>
+      <TWEET account="aiatmeta" role="Meta AI官方">我们推出Muse，这是一个为你完成事情的个人代理，由Muse Spark 1.3驱动。深入了解我们如何构建它以及它能为你做什么。❤️ 2033 | 💬 117</TWEET>
+      <TWEET account="aiatmeta" role="Meta AI官方">今天我们推出个人AI代理Muse，并发布关于如何将其安全性构建到系统中的深度解析。代理随时间了解你必然持有大量关于你的上下文，这是其有用性的来源，也是我们将其构建为安全、私密的原因。❤️ 659 | 💬 47</TWEET>
+      <CONSENSUS>行业共识转向“个人持久记忆Agent”必须同时解决安全与隐私，否则无法规模化；Meta的公开安全解析为行业树立新标杆。</CONSENSUS>
+      <DIVERGENCE>推进后争议仍存：Muse是否真能超越ChatGPT Work和Claude Cowork在长期个人任务中的实用性，以及“了解你”的上下文积累是否会带来新的隐私合规风险。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>前沿模型竞赛转向中美开源并跑新格局</TITLE>
+      <NARRATIVE>bindureddy最新评估显示Fable 5.1与Astra并列第一，DeepSeek和GLM 5.3 Flash紧随其后。这与过去7天“中美模型并跑Pareto前沿”指纹形成延续但方向转向：开源家族（DeepSeek/Qwen/Kimi/GLM）相互迭代，价格预计下降80-90%，闭源优势正快速消失。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI独立分析师">AI竞赛现状：#1 Fable 5.1与Astra并列；#2 DeepSeek和GLM 5.3 Flash；#3 Luna、Gemini和Grok。Meta、Kimi、Qwen需提升成本或性能，目前低于Pareto线。❤️ 601 | 💬 97</TWEET>
+      <CONSENSUS>最新共识是90天内开源与闭源差距将基本消失，中国四大开源家族复合迭代已让性价比成为决定性优势。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于中国模型是否仅在基准上追平，还是已在长时程Agent轨迹数据收集上形成真正领先，以及这对美国商业利益的长期影响。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Databricks完成50亿美元融资，估值1900亿美元，投资方包括Coatue、Blackstone、MGX等。</ITEM>
+    <ITEM category="投融资快讯">可灵AI新一轮融资上限约30亿美元（204.47亿人民币），估值180亿美元，腾讯领投，阿里云、百度跟投。</ITEM>
+    <ITEM category="投融资快讯">NVIDIA对训练与推理平台相关投资规模达129.3亿美元，重塑开源AI基础设施。</ITEM>
+    <ITEM category="VC views">a16z认为消费者AI正处于2010年iPhone时刻，开放权重模型降低成本后，用户界面与娱乐应用将爆发，初创公司与巨头站在同一起跑线。</ITEM>
+    <ITEM category="VC views">Lightspeed领投CylakeAI 2.45亿美元融资，专注主权/Air-gapped环境下的AI原生网络安全平台。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek与GLM 5.3 Flash在最新AI竞赛中位列第二，仅次于Fable 5.1与Astra；在国产芯片上实现6天处理42万亿token，成本对标NVIDIA，证明中国AI在性价比与开源迭代上已形成显著优势，Kimi、Qwen、智谱等正快速缩小与前沿的差距。</ITEM>
+    <ITEM category="全球映射">中美模型已进入Pareto前沿并跑阶段，但中美在基础设施（中国数据中心+自研kernel vs 美国轨道计算）与应用落地（中国视频/世界模型偏好 vs 美国Agent安全护栏）路径分化，短期内中国开源家族的价格崩盘将重塑全球AI token经济。</ITEM>
+    <ITEM category="全球映射">中国AI token消耗中视频生成占比约70%，显示“World-Model-Pilled”战略领先于美国LLM-centric路径，长期或在具身智能与机器人学上形成先发优势。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="sama" role="OpenAI CEO">世界现在拥有极其强大的模型；我没想到如此量级的成果会这么快到来。我们一直在讨论需要放缓进度以确保安全，对我而言这是最强有力的证据，证明了紧迫性。❤️ 2034 | 💬 151</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">我周末大部分时间都在和完成这项工作的团队交谈。Seb和其他所有人自始至终都展现了正直与慷慨。最初我们以为另一团队也解决了问题，我们希望合作联合发布。当我们得知他们只解决了Euler而非Navier-Stokes，我们提出让他们先发布并获得大奖。❤️ 8255 | 💬 591</TWEET>
+    <TWEET account="openai" role="官方账号">Astra已向Plus、Pro、Business和Enterprise用户在Codex和ChatGPT Work中全面推出。去构建吧！如果需要灵感，可以观看Astra实时演示。❤️ 4815 | 💬 328</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">聊天界面已经胜出。从现在起，一切都是聊天+计算机。❤️ 1078 | 💬 56</TWEET>
+    <TWEET account="simonw" role="独立开发者">我写下了对整个OpenAI Navier-Stokes千年大奖问题事件的看法，以及它如何凸显“使用我的数据来改进模型性能”究竟意味着什么这一仍令人困惑的问题。❤️ 229 | 💬 20</TWEET>
+    <TWEET account="a16z" role="机构账号">Mistral联合创始人Arthur Mensch谈开源AI：如果整个经济都将运行在AI系统上，企业会希望确保没人能关闭他们的系统。这就是开源技术能带来的东西之一。❤️ 165 | 💬 19</TWEET>
+    <TWEET account="bindureddy" role="AI独立分析师">OpenAI在说实话……关于前沿模型解决Navier-Stokes数学问题的戏剧性事件。他们花费1500万美元token到达解决方案，且没有窃取任何人工作。这毫不奇怪，接下来几周非常大的LLM将解决所有数学硬问题——只要你能验证证明。❤️ 309 | 💬 54</TWEET>
+    <TWEET account="theinformation" role="媒体账号">OpenAI新Astra模型引发是否达到AGI的辩论。过去几个月已形成共识：我们正处于AGI连续谱中。也许我们不知道确切击中AGI的时刻，但很清楚我们已处于那个大致空间。❤️ 7 | 💬 3</TWEET>
+  </TOP_PICKS>
+</REPORT>
