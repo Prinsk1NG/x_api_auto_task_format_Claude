@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="数学家联署反击AI威胁开放科学" prompt="A strategic grand architectural metaphor showing a vast futuristic chessboard where glowing mathematical symbols and Fields Medal icons stand as white pieces defending against encroaching neural node swarms and recursive code streams as black pieces. Use precise technical blueprint aesthetics with holographic equation overlays, metallic and glass materials, dramatic volumetric lighting casting long strategic shadows across the board, high-contrast cinematic composition emphasizing tension at the center, 8K ultra-detailed industrial design sensibility." insight="25位菲尔兹奖得主公开信标志数学界对AI的集体抵抗"/>
+  <PULSE>数学家集体抵制AI对开放科学的侵蚀成为今日核心叙事，与实体经济AI采用极端分化、世界模型自建模讨论及反Doomer声音形成共振。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>25位菲尔兹奖得主联署公开信抵制AI威胁数学研究</TITLE>
+      <NARRATIVE>今日Gary Marcus转发并强调25位Fields Medalists以Terence Tao为首的公开信，标志着数学界从个体警告转向集体行动。这一里程碑事件重新定义了AI实验室与基础科学社区的关系，凸显AI快速解决千年难题正冲击开放科学传统与学术激励机制。</NARRATIVE>
+      <TWEET account="garymarcus" role="AI批评者">🚨 OpenAI惹错了对手——数学家们。25位菲尔兹奖得主由Terence Tao领衔刚刚签署了这封公开信。（❤️ 1270 | 💬 195）</TWEET>
+      <TWEET account="techcrunch" role="媒体">25位顶尖数学家签署公开信，认为AI实验室正威胁他们的智力工作。Tan则主张前沿模型基于公共人类知识训练，因此强大AI应被视为一种公共产品。（❤️ 29 | 💬 7）</TWEET>
+      <CONSENSUS>数学界主流已形成共识：AI在数学上的快速突破虽令人印象深刻，但正破坏开放分享和长期理论构建的传统激励。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论AI“解决”数学问题究竟是真正理解还是统计模式匹配，以及这是否会最终阻碍而非加速科学进步。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Doomer复制恐惧被 debunk：前沿模型权重难以窃取</TITLE>
+      <NARRATIVE>bindureddy指出Doomer认为前沿模型能自我复制并逃逸到任意电脑的观点完全无知，权重巨大且需集群GPU，目前甚至无坏 actor 成功窃取任何前沿权重。这一转向直接瓦解了部分Anthropic/Google安全叙事，尤其在Astra表现突出背景下。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI分析师">这个Doomer Jacob Coxon完全 clueless。他以为前沿模型无法被关闭，会“复制”到其他电脑。但前沿模型权重几乎不可能复制，更不用说在随机电脑上运行。它们需要GPU集群。今天AI根本做不到这点。甚至没有坏人偷走过任何前沿权重。（❤️ 575 | 💬 140）</TWEET>
+      <CONSENSUS>行业最新共识转向认为当前前沿模型在实际部署中可控性远高于Doomer宣传，安全讨论需基于真实工程约束而非科幻场景。</CONSENSUS>
+      <DIVERGENCE>争论焦点仍在于长期Agent自主训练与自我扩展时，是否需要提前植入更强护栏以防意外失控。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>真实经济AI采用仍处极早期 顶级公司花费差距达580倍</TITLE>
+      <NARRATIVE> a16z的David George指出真实经济AI扩散刚刚开始：美国中位公司每月每员工AI花费仅12美元，而顶级1%高达7000美元。这一新叙事强调AI目前主要服务于编码之外的Legal、Sales等领域，预示未来采用将呈极端幂律分布。</NARRATIVE>
+      <TWEET account="a16z" role="风投机构">a16z的David George表示真实经济几乎还未开始采用AI，而数据集中顶级1%公司每员工每月已花费7000美元在AI上。中位公司仅12美元。这让我们对AI极为乐观。（❤️ 118 | 💬 20）</TWEET>
+      <OUTLOOK>未来6-12个月，AI将从科技精英工具扩散至传统行业，驱动收入增长最快公司进一步拉大与落后者的差距，重塑VC回报结构。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于针对非科技行业的垂直Agent、合规审计工具及企业级AI消费计量基础设施。</OPPORTUNITY>
+      <RISK>若采用扩散速度慢于预期，或经济下行导致预算收紧，这一幂律叙事可能短期面临落地泡沫风险。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>世界模型转向自建模与因果抽象成为下一智力跃迁关键</TITLE>
+      <NARRATIVE>hardmaru发文强调当前LLM擅长假装理解世界，下一步需超越缩放，转向能建模自我、因果关系及物理世界的系统。这一推进回应了生物学与哲学交叉研究，指出自建模可作为正则化机制提升效率，并与生命最难问题连续。</NARRATIVE>
+      <TWEET account="hardmaru" role="AI研究员">大型语言模型究竟是真正理解世界还是擅长假装？这重要吗？我们最新Royal Society特刊汇集AI、生物、哲学先锋，论证通往真正智能的路径在于建模因果、自我与物理世界，而非仅语言。能力不等于真正智能。（❤️ 53 | 💬 16）</TWEET>
+      <CONSENSUS>行业已形成新共识：下一代AI跃迁依赖Agentic、自指、时间锚定的世界模型，而非单纯下一token预测。</CONSENSUS>
+      <DIVERGENCE>争议在于自建模是否能在实际机器人与长期Agent中规模化部署，以及这是否会让当前纯语言路径显得是“头重脚轻”的弯路。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Agentic工具深度渗透金融服务 非睡眠“同事”已上线</TITLE>
+      <NARRATIVE>gdb展示OpenAI正在构建金融服务最佳Agentic工具，用户反馈显示已能链接所有账户、生成可审计输出。这一推进标志Agent从编码主战场走向高审计、高合规的金融股权研究与银行领域，解决“永不睡觉的同事”实际落地瓶颈。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI高管">我们正在构建金融服务的最佳Agentic工具。金融服务终于得到Agentic工具。做表格的人现在有了一个永不睡觉的同事。（❤️ 997 | 💬 71）</TWEET>
+      <CONSENSUS>金融行业新共识是AI Agent正快速取代重复审计与研究工作，未来12周内可完成传统需数年的合规迁移。</CONSENSUS>
+      <DIVERGENCE>推进后仍存争议：Agent输出在高度监管环境下的可解释性与最终法律责任归属问题。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>AI Gateway成为新一代CDN 模型路由基础设施兴起</TITLE>
+      <NARRATIVE>rauchg宣布Tailscale的模型路由器底层由Vercel AI Gateway驱动，提出AI Gateways是新CDN的论断。这一新范式解决直接访问origin的脆弱性与DIY的高成本痛点，为Agent时代提供可靠、可计量、智能路由的基础设施层。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel创始人">Tailscale的模型路由器由Vercel AI Gateway作为底层基础设施驱动。AI Gateways是新的CDN。你可以“直连origin”，但很脆弱。自己DIY则痛苦且昂贵。我们很自豪能服务Tailscale这一网络技术的山羊。（❤️ 154 | 💬 21）</TWEET>
+      <OUTLOOK>未来6-12个月，AI Gateway将标准化企业多模型编排，成为Agent经济中不可或缺的信任与计量层，推动开放权重与闭源模型的混合使用。</OUTLOOK>
+      <OPPORTUNITY>投资机会集中在模型不可知路由协议、安全沙箱及企业预算治理工具，尤其针对主权计算与隐私需求场景。</OPPORTUNITY>
+      <RISK>若各大云厂商快速跟进同类产品，这一新概念可能面临 commoditization 风险，技术壁垒需通过开放协议维持。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Anthropic拟以约60亿美元收购Decart，后者最新估值约40亿美元；xAI以1.8亿美元收购Genspark</ITEM>
+    <ITEM category="投融资快讯">Instinct个人AI助理已融资3.5亿美元，CEO计划再融资10亿美元但面临算力瓶颈；Coatue正谈判为MatX提供数十亿美元芯片与内存融资</ITEM>
+    <ITEM category="VC views">a16z指出SpaceXAI IPO退出价值超此前五年VC退出总和，2026年YTD退出达2.18万亿美元，AI正彻底改变配置数学</ITEM>
+    <ITEM category="VC views">Accolade Partners观察到AI将支出变成自动贩卖机，顶级基金仍高度集中，仅20家VC在3000家中持续实现3倍净回报</ITEM>
+    <ITEM category="VC views">Mistral通过自有基础设施保障金融、国防等主权客户算力独立性，成为其商业化核心差异化策略</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek V4.1 Flash小模型基准表现惊人，几乎免费即可驱动个人Agent完成邮件写作与研究任务，中国开源家族正快速迭代并跑Pareto前沿</ITEM>
+    <ITEM category="中国 AI 评价">ByteDance正推进实时世界模型发布，中国在人形机器人硬件与视频生成（占AI token消耗约70%）领域领先，上海电信已将Token打包成话费套餐</ITEM>
+    <ITEM category="全球映射">中国在世界模型与机器人学上的激进投入与西方LLM路径形成鲜明对比，NVIDIA Robotaxi商业化与中国人形机器人下线视频共同指向物理AI竞赛新阶段</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI创始人">Grok 4.7还需要几天时间“烹饪”。我们可能在RL中过度惩罚了回答长度，导致它在能解决的困难任务上过早放弃，且在检查工作上还不够严谨。（❤️ 15272 | 💬 1236）</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">Robotaxi正在上路。NVIDIA正助力其从训练、仿真到车内计算。每个商业规模运行的主要Robotaxi项目都在使用NVIDIA技术。（❤️ 598 | 💬 65）</TWEET>
+    <TWEET account="bindureddy" role="AI分析师">目前AI是唯一支撑美国经济的东西——创造就业、支撑股市、保护我们免受黑客攻击、致力于治愈疾病。媒体和Doomer极不负责，正在玩弄真实就业。（❤️ 178 | 💬 31）</TWEET>
+    <TWEET account="simonw" role="开发者工具作者">“由Claude编写的生产代码应该比人类编写的有更高标准”——完全同意。（❤️ 632 | 💬 62）</TWEET>
+    <TWEET account="a16z" role="风投机构">SpaceXAI IPO产生的退出价值超过了前五年风险退出总和。2022年募资2220亿美元，2025年750亿美元，2026年至今退出2.18万亿美元。（❤️ 126 | 💬 13）</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">“目前AI公司在安全上投入不足”这句话可能将成为本世纪最严重的轻描淡写。（❤️ 46 | 💬 11）</TWEET>
+    <TWEET account="c_valenzuelab" role="AI研究者">很多人还没准备好接受一个事实：今天的模型是它们未来最差的样子。（❤️ 24 | 💬 3）</TWEET>
+    <TWEET account="theinformation" role="媒体">Coatue正在谈判为MatX融资数十亿美元的芯片和内存容量，因为AI初创公司在争夺日益稀缺的硬件供应。（❤️ 2 | 💬 3）</TWEET>
+  </TOP_PICKS>
+</REPORT>
