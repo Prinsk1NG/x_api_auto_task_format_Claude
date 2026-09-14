@@ -1,0 +1,74 @@
+<REPORT>
+  <COVER title="AI监管转向同行评审 轨道算力加速扩展" prompt="A grand strategic architectural visualization depicting AI governance as a vast futuristic war room with holographic strategic maps laid across an immense metallic table. Towering industrial pillars represent open-source resilience and peer-review oversight, while orbital satellite arrays beam down computational power with realistic metallic textures and liquid-cooled server racks. Key figures like Elon Musk and Yann LeCun stand at the center in cinematic debate poses under dramatic volumetric lighting and god rays filtering through data-stream windows. Ultra-detailed industrial design, brushed titanium surfaces, precise engineering blueprints floating in mid-air, epic wide-angle composition, 8K resolution, photorealistic materials with subtle lens flares and strategic depth of field." insight="大佬集体抵制政府监管、推同行评审与太空算力，安全叙事从恐慌转向务实加速。"/>
+  <PULSE>今日硅谷核心叙事流向是强烈抵制政府介入AI监管、倡导同行竞争评审与开源不可阻挡，同时推进轨道AI算力作为下一代扩展路径。</PULSE>
+
+  <THEMES>
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI安全监管从政府干预转向同行竞争评审</TITLE>
+      <NARRATIVE>基于Dario呼吁放缓前沿研发的背景，今天Elon Musk明确支持“竞争对手同行评审”是正确起点，Bindureddy强烈反对政府监管称其将带来无能与腐败，Yann LeCun则嘲讽Dario 2019年就称GPT-2太危险不应开源的历史立场。这与历史记忆中Doomer攻击及末日叙事崩塌形成鲜明转向，共识从外部强制转向行业内部自我制衡。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI创始人">我长期以来一直在为AI敲响警钟，但Dario说得对，应该有一定监督。由竞争对手进行的同行评审是正确的开始方式。❤️ 7525 | 💬 1083</TWEET>
+      <TWEET account="bindureddy" role="AI创业者">Anthropic和OpenAI如果想放缓AI发展可以自己去做，但别把政府拖进来！政府对技术一无所知，让他们监管超级智能简直荒谬，会导致无能、腐败和政治的危险组合。❤️ 285 | 💬 56</TWEET>
+      <CONSENSUS>行业最新共识是AI安全应通过竞争实验室间的同行评审实现，而非政府强制 oversight，开源与自监管才是可持续路径。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论政府是否完全无能，以及“同行评审”能否真正防止越界行为，是否会演变为卡特尔式控制。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>轨道AI算力发射进入实质倒计时 扩展瓶颈获关键推进</TITLE>
+      <NARRATIVE>Elon Musk今日高信心宣布SpaceX将在明年发射Nvidia VR NLV72 AI计算机，这是对历史记忆中“轨道计算将在2029年成为唯一扩展路径”论断的深度推进。结合功率、许可和地面限制的现实瓶颈，此举通过太空部署直接缓解算力规模化难题，标志着从地面数据中心向轨道基础设施的关键里程碑突破。</NARRATIVE>
+      <TWEET account="elonmusk" role="SpaceX CEO">我高度确信SpaceX将在明年向太空发射Nvidia VR NLV72 AI计算机。❤️ 5460 | 💬 253</TWEET>
+      <CONSENSUS>行业新共识是轨道计算将成为AI规模化不可或缺的路径，明年发射计划已将这一愿景从理论推向工程执行阶段。</CONSENSUS>
+      <DIVERGENCE>推进后仍存争议：太空部署的实际功耗管理、数据传输延迟及长期维护成本是否会超出预期，以及是否会加剧地缘政治紧张。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>开源AI“不可关闭”成为行业新范式</TITLE>
+      <NARRATIVE>Chamath明确指出“没有什么能关闭开源”，这定义了一个全新叙事：面对任何监管或卡特尔尝试，开源权重与社区驱动的AI将保持韧性。它试图解决底层问题——闭源实验室试图通过政府捕获消除竞争，但开源的公共性质使其在价格、访问和创新上形成结构性优势。</NARRATIVE>
+      <TWEET account="chamath" role="Social Capital创始人">没有什么能关闭开源。❤️ 6745 | 💬 273</TWEET>
+      <OUTLOOK>未来6-12个月，这一叙事将推动更多企业转向开源栈，中美开源并跑格局进一步固化，闭源实验室的定价权和护城河面临持续侵蚀。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于投资开源基础设施工具、模型路由网关及帮助企业从闭源迁移至开源的集成服务，类似Vercel AI Gateway的模式。</OPPORTUNITY>
+      <RISK>短期内若前沿权重泄露风险被放大，这一叙事可能面临监管反弹；技术硬伤在于顶级性能仍需巨量专有数据，纯开源追赶仍有差距。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Doomer历史警告持续遭AI领袖公开嘲讽</TITLE>
+      <NARRATIVE>今天Yann LeCun直接指出Dario早在2019年就宣称GPT-2太危险不应开源，并称当时就该被嘲笑、现在也该被嘲笑。这与历史记忆中Dario联合呼吁放缓及“常驻评估员”机制形成鲜明反差，标志着安全叙事从“末日恐慌主导”转向“务实加速+历史打脸”。</NARRATIVE>
+      <TWEET account="ylecun" role="Meta首席AI科学家">没错。Dario早在2019年就声称GPT-2太危险不能开源。我当时就嘲笑他们。现在每个人都应该嘲笑他们。❤️ 5782 | 💬 129</TWEET>
+      <CONSENSUS>最新共识是早期Doomer警告已被现实证伪，持续的末日叙事更多是营销或监管捕获工具，而非基于证据。</CONSENSUS>
+      <DIVERGENCE>当前争论焦点在于“逃逸事件”究竟是故意营销还是严重疏忽，以及机器人实体风险是否应与数字AI风险同等对待。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>世界模型与生命-心智连续性论文成AGI哲学里程碑</TITLE>
+      <NARRATIVE>Hardmaru分享的论文《World models, artificial general intelligence and the hard problems of life–mind continuity》标志行业分水岭：它不再停留在LLM“假装理解世界”的讨论，而是将自然智能与人工智能置于统一因果框架下。这改变研究范式，从纯语言缩放转向建模自我、因果与物理世界的跨学科路径，影响从哲学到工程的广泛群体。</NARRATIVE>
+      <TWEET account="hardmaru" role="Sakana AI研究员">世界模型、人工通用智能与生命-心智连续性的难题：迈向自然智能与人工智能的统一理解。https://t.co/pl5XJkB73x ❤️ 6 | 💬 0</TWEET>
+      <CONSENSUS>市场一致解读为通往真正AGI的路径必须超越语言模型，转向能处理“生命-心智连续性”的世界模型已成为新基准。</CONSENSUS>
+      <DIVERGENCE>质疑声音集中在这一哲学框架能否快速转化为可工程化的训练目标，以及当前硬件是否足以支撑此类统一模型的计算需求。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Anthropic洽谈以约60亿美元收购Decart，虽为洽谈中但凸显AI实验室通过并购快速获取独特人才与技术。</ITEM>
+    <ITEM category="VC views">Insight Partners管理900亿美元，坚持在OpenAI、Anthropic之外多元化布局AI实验室，避免集中风险。</ITEM>
+    <ITEM category="投融资快讯">Databricks完成50亿美元融资，投后估值1900亿美元，由Coatue、Blackstone等多家机构参与。</ITEM>
+    <ITEM category="投融资快讯">Etched完成3亿美元C轮融资，估值103亿美元，专注AI硬件加速器。</ITEM>
+    <ITEM category="VC views">Fluidstack A轮融资8.3亿美元、估值75亿美元，与Anthropic建立深度合作，显示基础设施仍是资本热点。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek最新pre-money估值约740亿美元，Qwen3.8-Max参数量达2.4万亿、上下文扩至1M token，显示中国公司在开源小模型与长上下文企业应用上已形成强力并跑态势。</ITEM>
+    <ITEM category="全球映射">中国AI token消耗中视频生成占比约70%，远超美国LLM优先策略，体现World-Model与机器人学结合的独特路径，对全球基础设施投资方向构成映射压力。</ITEM>
+    <ITEM category="中国 AI 评价">Moonshot/Kimi秘密递交香港IPO申请，拟募资约30亿美元、当前估值约500亿美元，与DeepSeek共同证明中国AI在资本市场上已具备与OpenAI/Anthropic相当的吸引力。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI创始人">AI正在快速改进，这个数字真的很疯狂。❤️ 2577 | 💬 305</TWEET>
+    <TWEET account="chamath" role="Social Capital创始人">这值得一读……（指Pacing the Frontier相关讨论）。❤️ 1709 | 💬 71</TWEET>
+    <TWEET account="rauchg" role="Vercel创始人">你们没懂，我就是为了放松才写软件的。❤️ 1321 | 💬 107</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">无论放缓与否，OpenAI和Anthropic就像试图以1000英镑一瓶的价格卖数十亿瓶沛绿雅。❤️ 37 | 💬 10</TWEET>
+    <TWEET account="techcrunch" role="媒体">Insight Partners的Devin Parekh谈失去Legora给General Catalyst的原因，以及为什么即使大家都涌向OpenAI和Anthropic，他的900亿美元基金仍坚持多元化。❤️ 36 | 💬 19</TWEET>
+    <TWEET account="c_valenzuelab" role="Runway联合创始人">建立Runway 8年来的最大教训之一是长期思考非常稀缺且是重要护城河：玩长线游戏让你更强大，因为大多数竞争对手都是机会主义者。❤️ 375 | 💬 8</TWEET>
+    <TWEET account="paulg" role="Y Combinator创始人">动态定价意味着价格既会上涨也会下降，所以这明确证明她要么愚蠢、要么不诚实、或者两者都是。❤️ 1459 | 💬 316</TWEET>
+    <TWEET account="cohere" role="Cohere官方">谁来定义AI规则？人工智能需要基于证据的标准，而不是卡特尔。Cohere联合创始人兼CEO Aidan Gomez的观点。❤️ 42 | 💬 3</TWEET>
+    <TWEET account="oran_ge" role="科技观察者">既然RSI都到了，人类放缓研究还有意义吗？这已经不是人类所能控制的了，除非进入沙丘宇宙。❤️ 46 | 💬 41</TWEET>
+  </TOP_PICKS>
+</REPORT>
