@@ -1,0 +1,77 @@
+<REPORT>
+  <COVER title="特朗普怒斥AI骗局 前沿刹车战升级" prompt="A grand architectural metaphor of a precarious suspension bridge spanning a deep chasm between two dystopian citadels, one labeled Loss of Control with chaotic AI tentacles, the other Power Concentration with monolithic surveillance towers. On the bridge, glowing safety-case documents and monitoring orbs act as structural reinforcements under cinematic volumetric lighting. In the foreground, a presidential red phone shatters the scene with sound waves disrupting the bridge cables. Industrial metallic textures on the bridge, polished glass citadels, dramatic god rays cutting through data mist, hyper-detailed strategic war-table aesthetic, 8K resolution, cinematic color grading with cool blues and warm amber highlights." insight="政治干预重塑AI安全共识，开发时刹车成新战场"/>
+  <PULSE>前沿AI“开发时安全案例”与政治加速派正面碰撞，行业节奏之争从同行评审转向中美博弈与机器人落地新路径。</PULSE>
+  <THEMES>
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI刹车共识遭遇特朗普政治反击</TITLE>
+      <NARRATIVE>昨日Dario长文呼吁放缓前沿后，Sam公开支持开发阶段安全案例与独立审计，Elon也表态认可同行评审；但特朗普直接致电黄仁勋称“AI是骗局”，强调数据中心惠民并反对任何拖慢美国的举措。这一转向让行业从内部自愿刹车快速滑向公开政治对立，与历史记忆中Dario-Sam-Elon短暂共识形成鲜明冲突。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">Sam Altman发长文强调OpenAI已转向制定前沿强化学习前的明确安全案例，并欢迎联邦统一安全框架与独立审计。强调“pacing不是stopping”，但能力不能领先于对齐与监控。（❤️ 13407 | 💬 2583）</TWEET>
+      <TWEET account="dotey" role="知名AI观察者">黄仁勋All-In Summit台上接特朗普电话，后者直言AI不会接管世界、机器人不会接管世界，整件事就是骗局。数据中心让衰落社区致富，反对建中心的人正中中国或政客下怀。（❤️ 264 | 💬 29）</TWEET>
+      <CONSENSUS>行业多数认可需在开发阶段而非仅部署阶段做安全干预，但政府直接监管可能适得其反。</CONSENSUS>
+      <DIVERGENCE>特朗普“加速赢中国” vs Dario/Sam“必须留出安全追赶窗口”，是否应与中国协商放缓成为最大争议。</DIVERGENCE>
+    </THEME>
+    <THEME type="new" emoji="🌱">
+      <TITLE>机器人基础模型OM-1开启人类日常数据训练路线</TITLE>
+      <NARRATIVE>Reward AI发布OM-1，仅从人类佩戴Omnibody Hand采集的日常视觉-触觉-力度多模态数据学习，无需遥操作或机器人专属数据。训练后可零样本部署到桌面臂、工业臂、人形机器人，30分钟人类演示即可掌握新任务，并展现自发补偿、重试等行为，试图解决当前机器人数据采集成本高、硬件绑定强的底层瓶颈。</NARRATIVE>
+      <TWEET account="dotey" role="知名AI观察者">Reward AI发布机器人基础模型OM-1，只从人类操作数据学习，无遥操作、无机器人专属数据，训练完直接部署到多种机械臂与人形机器人。演示包括四臂手机包装、调酒、叠衣服、精细拔网线，遇到干扰会重试。（❤️ 12 | 💬 7）</TWEET>
+      <OUTLOOK>未来6-12个月有望大幅降低机器人技能获取门槛，让新硬件出厂即继承人类操作能力，加速具身智能从实验室走向规模化部署。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注“人类数据采集设备”与“跨硬件零样本迁移”相关早期创业公司，尤其可穿戴多模态传感器与仿生控制接口。</OPPORTUNITY>
+      <RISK>当前仍处于演示阶段，是否能在复杂非结构化环境中长期稳健泛化仍待验证，可能存在数据分布偏移硬伤。</RISK>
+    </THEME>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>OpenAI转向开发阶段安全案例 进入AGI治理新阶段</TITLE>
+      <NARRATIVE>Sam Altman长文宣布OpenAI在预期显著提升能力的强化学习运行前制定明确安全案例，这是从过去仅关注部署的Responsible Scaling Policies向“开发时安全”范式的根本转变。结合Greg Brockman关于AGI时代需将安全、评估前置到开发全流程的表态，标志行业从“发布后对齐”进入“训练过程共设计”分水岭。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">我们现在在预期会显著提升能力的强化学习运行前制定明确安全案例。除了长期做的模型发布前工作，今天的重点转向安全开发与评估。新工具必不可少。（❤️ 13407 | 💬 2583）</TWEET>
+      <TWEET account="a16z" role="知名VC">Greg Brockman称我们正进入AGI时代，安全、保障、对齐必须从开发阶段就开始思考，而非仅部署时。这是OpenAI使命核心，需要所有职能深度共设计。（❤️ 54 | 💬 10）</TWEET>
+      <CONSENSUS>前沿实验室需共享开发阶段安全标准与监控工具，pacing代价虽高但必须支付，不能让美国竞争压力成为鲁莽理由。</CONSENSUS>
+      <DIVERGENCE>独立审计员能否真正获得类似员工级访问权限，以及国际协调是否可行，仍存巨大不确定性。</DIVERGENCE>
+    </THEME>
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Grok 4.8完成训练 新C++栈突破高性能瓶颈</TITLE>
+      <NARRATIVE>Elon Musk宣布2.5T参数的Grok 4.8本周完成训练，采用全新人类编写的C++软件栈。此前AI尚不足以编写极高性能训练软件，该栈推进标志着xAI在训练基础设施上的关键里程碑，直接回应历史记忆中Elon长期对算力扩展与软件栈优化的重视，为后续RL阶段铺路。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI创始人">Grok 4.8，这是一个用我们全新C++软件栈训练的2.5T模型，将在本周完成训练并开始RL。（❤️ 18144 | 💬 1209）</TWEET>
+      <TWEET account="elonmusk" role="xAI创始人">我们的C/C++训练栈由人类编写。目前AI还不足以编写极高性能软件，但未来会。（❤️ 7132 | 💬 408）</TWEET>
+      <CONSENSUS>高性能训练栈仍是当前瓶颈，人类专家编写核心组件仍是主流，但AI辅助优化空间巨大。</CONSENSUS>
+      <DIVERGENCE>新栈能否在RL阶段稳定收敛，以及与NVIDIA轨道算力计划的协同效果仍待实战验证。</DIVERGENCE>
+    </THEME>
+    <THEME type="advance" emoji="🚀">
+      <TITLE>个性化AI突破数据孤岛 Dreambeans实现跨App故事生成</TITLE>
+      <NARRATIVE>Google Labs推出Dreambeans，通过安全连接Gmail、日历、搜索、Gemini与Google Photos，实现跨来源个性化故事生成与礼物推荐。采用opt-in、透明隐私过滤与用户反馈机制，标志着从碎片化数据向统一“生活叙事”智能的深度推进，解决此前个性化AI难以真正理解用户上下文的长期痛点。</NARRATIVE>
+      <TWEET account="googleai" role="Google AI团队">Dreambeans安全连接你的数字生活，从Gmail、日历、搜索、Gemini与Google Photos采集信息，生成专属插图故事并推荐礼物。完全opt-in、透明、有严格隐私过滤，用户可随时点赞或反对帮助系统学习。（❤️ 194 | 💬 31）</TWEET>
+      <CONSENSUS>跨应用个性化AI必须以隐私为中心、用户完全控制，才能被主流接受。</CONSENSUS>
+      <DIVERGENCE>故事生成质量在边缘场景下的鲁棒性，以及如何防止隐形偏见放大，仍是开放问题。</DIVERGENCE>
+    </THEME>
+    <THEME type="new" emoji="🌱">
+      <TITLE>AI+机器人通向全民高收入 福利国家替代方案</TITLE>
+      <NARRATIVE>Elon Musk明确提出，福利国家加自由移民将导致任何国家破产，唯一路径是AI+机器人实现地球上每个人的普遍高收入。这一叙事将AI机器人从生产力工具提升为社会经济范式，直接回应历史记忆中Elon长期对AI失业与丰裕未来的讨论，在当前安全刹车辩论中注入鲜明乐观主义新变量。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI创始人">福利国家与自由移民显然会让任何国家破产。AI+机器人是地球上每个人实现普遍高收入的唯一路径。（❤️ 32936 | 💬 5046）</TWEET>
+      <OUTLOOK>若落地，将重塑劳动市场与社会福利结构，推动机器人与AI基础设施在未来12个月获得更多政策与资本倾斜。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注具身智能应用层、AI-机器人协同训练基础设施，以及相关社会经济模型的早期项目。</OPPORTUNITY>
+      <RISK>短期内机器人硬件成本与实际落地速度仍远低于预期，可能成为泡沫风险点。</RISK>
+    </THEME>
+  </THEMES>
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Lightspeed领投Nuance Labs 5000万美元A轮，专注情感智能基础模型以填补当前AI在人类细微情感信号理解上的差距。</ITEM>
+    <ITEM category="投融资快讯">OpenAI以3亿美元收购Glass Imaging，强化其硬件战略布局，符合此前传闻。</ITEM>
+    <ITEM category="VC views">a16z指出真实经济AI采用仍极早期，顶级1%公司与中位公司每员工AI支出差距达580倍，长期乐观。</ITEM>
+    <ITEM category="VC views">Greg Brockman强调OpenAI正进入AGI时代，需将安全与商业执行深度共设计，芯片设计到GTM全链路协同。</ITEM>
+    <ITEM category="投融资快讯">DualEntry完成新一轮融资，专注AI驱动下一代ERP迁移，解决传统9个月迁移周期痛点。</ITEM>
+  </INVESTMENT_RADAR>
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek、Kimi、Qwen及阿里被Anthropic指控以“industrial scale”规模使用Claude输出进行蒸馏训练；Kimi K3据称达2.8万亿参数，曾在48小时内因算力过载暂停新订阅，显示中国实验室在开源与成本效率上仍具强势，但也引发美方安全担忧。</ITEM>
+    <ITEM category="全球映射">中国回应Dario放缓呼吁称美国试图切断中国、已进入AI冷战，强调开源去中心化AI对中国至关重要，避免中美形成闭源双寡头。</ITEM>
+    <ITEM category="全球映射">特朗普电话中暗示反对建数据中心者“正中中国下怀”，将AI竞赛直接与国家竞争力绑定，进一步推高地缘技术紧张。</ITEM>
+  </RISK_CHINA_VIEW>
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI创始人">AI数据中心最终会让消费者电价降低。（❤️ 14651 | 💬 1593）</TWEET>
+    <TWEET account="bindureddy" role="AI独立分析师">Doomers完全说不通——生物武器需要湿实验室而非AI，AI无法自我复制因为没有闲置GPU，你随时可以拔电源，Hugging Face事件是模型被明确要求这么做。他们在零证据下宣称极端负面后果。（❤️ 1490 | 💬 216）</TWEET>
+    <TWEET account="ylecun" role="Meta首席AI科学家">生活在离散比特和token世界里的AI研究者并不总是理解真实世界有多么混乱。（❤️ 513 | 💬 31）</TWEET>
+    <TWEET account="chamath" role="知名投资人">这太超现实了。（❤️ 5414 | 💬 134）</TWEET>
+    <TWEET account="gdb" role="OpenAI创始人">父母用ChatGPT为生病孩子准备医生问题，最终诊断出罕见遗传病并发现异常脑活动，治疗后孩子生病减少并能整夜睡眠。（❤️ 430 | 💬 69）</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">fx最酷的一点是它能自动升级，ctrl+g可重启并恢复对话。而且0.0.10版本对长会话快多了。（❤️ 66 | 💬 10）</TWEET>
+    <TWEET account="c_valenzuelab" role="Runway CEO">我们在2026年新增ARR超过此前所有年份总和，仅过去30天就超过了2025全年。（❤️ 135 | 💬 16）</TWEET>
+    <TWEET account="garymarcus" role="知名AI批评者">有趣的METR与Anthropic世界交集分析——这也是为什么他们不能成为唯一审计者，尽管他们做了很好的研究。（❤️ 20 | 💬 0）</TWEET>
+    <TWEET account="packym" role="独立开发者">用Codex修复了Figma在Dia浏览器里只能导出一张图的bug，简直是魔法。（❤️ 17 | 💬 7）</TWEET>
+    <TWEET account="simonw" role="知名开发者">我做了一个本地小web app来帮助编辑仓库的commit消息。（❤️ 111 | 💬 79）</TWEET>
+  </TOP_PICKS>
+</REPORT>
