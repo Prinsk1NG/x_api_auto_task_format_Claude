@@ -1,0 +1,71 @@
+<REPORT>
+  <COVER title="AI Agent 2月自建数据库 省亿级成本成真" prompt="Minimalist futuristic data visualization showing two human engineers as small silhouettes overseeing hundreds of glowing neural-node AI agents autonomously assembling a massive key-value database infrastructure. Clean vector lines, cyan and electric blue data streams flowing between modular blocks that self-organize into CobbleDB architecture, subtle holographic performance metrics floating above, soft cinematic rim lighting with high contrast shadows, emphasizing efficiency and autonomy, neural connections pulsing like living circuits, 8K resolution, ultra-detailed, no neon cyberpunk elements." insight="AI代理已从工具跃升为独立开发者，基础设施构建范式彻底改变。"/>
+  <PULSE>今日硅谷核心叙事流向是从安全与路径辩论转向AI Agent自主构建生产级基础设施，以及科学AI在基因组、天气与经济领域的里程碑式落地。</PULSE>
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>AI Agent 自主构建生产级数据库成行业里程碑</TITLE>
+      <NARRATIVE>Perplexity仅用2名工程师加数百个持久化AI代理，在2个月内完整构建了替代AWS DynamoDB的CobbleDB，专为搜索批量读取优化，每年可节省上亿美元。这标志着Agentic工作流已从实验阶段进入核心基础设施自建，彻底改变了软件工程的规模与成本结构。</NARRATIVE>
+      <TWEET account="aravsrinivas" role="Perplexity CEO">我们用两名工程师和数百个持久的Computer代理在两个月内构建了AWS DynamoDB的替代品——一个用于快速网页内容获取的键值数据库。迁移到我们的内部数据库每年将节省高达1亿美元。❤️ 1113 | 💬 75</TWEET>
+      <CONSENSUS>行业已形成共识：高智能、始终在线的AI代理团队可在极少人力监督下交付生产级系统，未来基础设施开发将主要由Agent完成。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论如何确保Agent构建的系统长期可维护性，以及是否需要人类最终签发生产授权以避免隐含技术债。</DIVERGENCE>
+    </THEME>
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Google AlphaGenome Atlas 完成90亿基因变异全图谱</TITLE>
+      <NARRATIVE>Sundar Pichai宣布AlphaGenome Atlas已绘制人类基因组全部90亿种单字母变异影响，并向研究者免费开放；同期推出WeatherNext 3高精度天气AI模型与AI&amp;Economy ATLAS。这是对既有科学AI叙事的深度推进，AI不再仅辅助实验，而是直接生成可公开使用的全域科学地图。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">今天我们公布了如何用AI加速科学并改善生活：用AlphaGenome Atlas绘制人类基因组全部90亿种单字母遗传变化并向研究者开放；推出史上最精准的全球天气AI模型WeatherNext 3；发布AI&amp;Economy ATLAS全面洞察全球AI使用情况；AI翻译服务已覆盖近300种语言，服务70亿人。我们聚焦健康、自然灾害韧性、学习和经济机会。❤️ 3424 | 💬 195</TWEET>
+      <CONSENSUS>科学界已达成共识，AI驱动的图谱工具正成为新一代科学基础设施，能以前所未有的速度和规模连接海量数据点。</CONSENSUS>
+      <DIVERGENCE>如何将这些开放图谱真正转化为临床或政策成果，以及是否会出现数据解读偏差导致的科学误导，仍是激烈争论点。</DIVERGENCE>
+    </THEME>
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Yann LeCun 持续拆解“LLM即AGI路径”幻觉</TITLE>
+      <NARRATIVE>LeCun多次发文强调LLM本身不是通往人类水平AI的道路，真正需要的是能理解真实世界的非LLM架构；他称当前工具虽有用，但LLM-based系统解读图像、视频等真实世界信号的组件并非LLM。这与过去一年行业对纯scaling和LLM万能论的共识发生明显转向。</NARRATIVE>
+      <TWEET account="ylecun" role="Meta Chief AI Scientist">LLM-based AI工具非常有用，我们都在使用。但它们本身不是通往人类水平AI的路径。能理解真实世界的架构不是LLM。当前LLM-based系统解读图像、视频和其他真实世界信号的组件也不是LLM。❤️ 835 | 💬 82</TWEET>
+      <CONSENSUS>越来越多声音同意，下一阶段智能跃迁必须超越纯语言模型，转向世界模型与真实物理因果理解。</CONSENSUS>
+      <DIVERGENCE>是否应完全放弃Transformer作为核心组件，以及生物启发架构在短期内能否真正超越当前工程系统，仍存巨大分歧。</DIVERGENCE>
+    </THEME>
+    <THEME type="new" emoji="🌱">
+      <TITLE>FDE模式成复杂AI平台销售新范式</TITLE>
+      <NARRATIVE>随着AI让软件构建极其容易，客户越来越搞不清复杂Agent化平台能做什么。Anthropic工程师分享Palantir FDE（Field Deployment Engineer）模式：不是卖软件或咨询，而是派可信工程师在可复用平台上直接为非技术客户交付业务结果。这一“结果即产品”的新叙事正在AI时代复苏。</NARRATIVE>
+      <TWEET account="dotey" role="科技观察者">Anthropic工程师分享FDE入门课：在上市SaaS公司中，Palantir靠400万美元客单价仅用几千人完成别人几万人做不到的事，核心是FDE模式——派工程师深入客户业务，在平台上直接交付结果而非让客户自学。AI时代几乎所有平台都走向Agent化，客户更难摸清产品边界，FDE从Palantir小众玩法变成行业必需。❤️ 191 | 💬 18</TWEET>
+      <OUTLOOK>未来6-12个月，更多AI基础设施公司将采用“工程师+平台”捆绑销售，客单价和交付确定性大幅提升，传统SaaS自助模式面临挑战。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注“AI+FDE”服务型初创公司，或为复杂科学/企业AI平台提供嵌入式部署工程师网络的工具层机会。</OPPORTUNITY>
+      <RISK>模式高度依赖人才供给，若优质FDE工程师短缺，规模化将成瓶颈；同时过度定制可能损害平台标准化优势。</RISK>
+    </THEME>
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Astra与Luna爆发式增长 OpenAI强势回归</TITLE>
+      <NARRATIVE>Gdb宣布Astra和Luna正在快速起飞，Sam Altman预告本周大船及DevDay多重发布，bindureddy判断Astra很快将超越Fable 5.1，尤其非技术用户特别喜爱其对话体验。这是对OpenAI此前安全暂停后产品叙事的深度推进，显示其在Agentic工具与多模态落地上的关键里程碑已转化为真实采用。</NARRATIVE>
+      <TWEET account="gdb" role="OpenAI CTO">ChatGPT Work可操作公司数据并构建仪表板，只需连接现有工具如PowerBI、Tableau、Clickhouse、Oracle BI、AWS Redshift等。Astra和Luna正在起飞。❤️ 785 | 💬 91</TWEET>
+      <CONSENSUS>行业新共识是OpenAI通过Astra在计算机使用、科学发现和非技术用户体验上已重获领先，其下一代模型将进一步拉开差距。</CONSENSUS>
+      <DIVERGENCE>如何平衡快速产品发布与持续安全监控，以及Astra在高风险企业部署时的护栏强度，仍是未解争议。</DIVERGENCE>
+    </THEME>
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>反Doomer叙事主导 AI禁令被批将扼杀经济</TITLE>
+      <NARRATIVE>Bindureddy等多位大佬集中发声，称Doomer议程本质来自有效利他主义小圈层，其“AI将杀死我们”的主张已被现实证伪；AI正创造数百万就业、推动数据中心蓝领经济繁荣，呼吁AI禁令完全无意义且将摧毁美国经济。这是对过去数月安全恐慌主导舆论的明确风向掉头。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI评论者">所有Doomer内容几乎都能追溯到有效利他主义，这是一个拥有精明且富有成员的某种邪教。他们大力推动“AI会杀死我们所有人”的议程，最终目标是控制AI，因为他们相信只有自己能保护人类。当然，这整个事情接近精神错乱。❤️ 340 | 💬 40</TWEET>
+      <CONSENSUS>当前共识转向认为AI经济收益已远超感知风险，开源与加速创新才是美国保持全球第一的关键。</CONSENSUS>
+      <DIVERGENCE>安全与创新的合理平衡点在哪里，以及政府是否应介入制定统一框架，仍是大佬间最激烈争论点。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Moonshot AI完成35亿美元D+轮融资，估值350亿美元，由中国国家人工智能产业投资基金领投。</ITEM>
+    <ITEM category="投融资快讯">Etched完成3亿美元C轮融资，估值103亿美元，专注AI推理芯片硬件。</ITEM>
+    <ITEM category="投融资快讯">Qualcomm以约39亿美元收购Modular，强化AI软件基础设施能力。</ITEM>
+    <ITEM category="VC views">a16z强调“agency over pedigree”，在AI时代行动力与Agent编排能力比传统背景更具决定性。</ITEM>
+    <ITEM category="VC views">Perplexity用AI Agent自建数据库的实践证明，Agentic工具正将基础设施开发成本降低90%以上，长期投资回报显著。</ITEM>
+  </INVESTMENT_RADAR>
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek V4.1 Flash基准表现惊人，被bindureddy等海外人士认可为“几乎免费的个人Agent”，在成本与吞吐上已逼近甚至超越部分美系闭源模型，显示中国开源路线竞争力持续增强。</ITEM>
+    <ITEM category="全球映射">中国公司在开源小模型与视频世界模型上的快速迭代（如Kimi相关进展），正迫使美国实验室加速Agentic基础设施自建以维持竞争优势，同时也放大中美在实际经济采用速度上的差距。</ITEM>
+    <ITEM category="全球映射">Moonshot保密递表香港IPO目标募资30亿美元，反映中国AI公司在资本市场上仍获高估值认可，但需警惕全球监管收紧对跨境合作的潜在影响。</ITEM>
+  </RISK_CHINA_VIEW>
+  <TOP_PICKS>
+    <TWEET account="sama" role="OpenAI CEO">本周有大船发布，然后是DevDay，会有多重更新。❤️ 11239 | 💬 939</TWEET>
+    <TWEET account="elonmusk" role="xAI &amp; Tesla CEO">太阳能显然是未来。❤️ 11715 | 💬 2395</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity AI">我们正在发布关于如何构建CobbleDB的研究，这是一个为Perplexity搜索网页内容服务的键值数据库。两名工程师加数百个主动AI代理在两个月内完成了核心基础设施。我们计划开源CobbleDB供其他构建AI搜索的团队使用。❤️ 362 | 💬 31</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">Safari 27支持JSPI，这是一种神奇的WebAssembly能力，可让同步原生代码在异步Promise上挂起。在我们的平台上，libfx使用浏览器内置fetch栈进行API调用。随着更多代码转向原生，我预计WebAssembly将在Web未来中扮演巨大角色。❤️ 177 | 💬 18</TWEET>
+    <TWEET account="chamath" role="Social Capital CEO">Meta将Muse的发布延迟数月以专注安全与保障，我们没有呼吁其他人先这么做，只是因为这是对用户和我们而言正确的事。❤️ 1326 | 💬 68</TWEET>
+    <TWEET account="googleai" role="Google AI">我们最新的Gemini Audio模型Gemini 3.8 Live和3.8 Live Extended Thinking让对话变得更加自然，可处理中途打断、跨97种语言切换，并理解视觉上下文。Extended Thinking版本能并行推理并叙述进度，适合复杂多步任务。❤️ 1942 | 💬 89</TWEET>
+    <TWEET account="nvidia" role="NVIDIA">和Marc Benioff的对话很有趣，从开放模型、安全创新到Agentic企业。我们一直梦想与Salesforce的朋友一起大胆畅想。❤️ 430 | 💬 38</TWEET>
+    <TWEET account="ylecun" role="Meta Chief AI Scientist">感谢注入了一剂针对AI末日病毒的现实主义疫苗。❤️ 2229 | 💬 33</TWEET>
+  </TOP_PICKS>
+</REPORT>
