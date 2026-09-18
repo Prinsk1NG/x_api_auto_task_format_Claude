@@ -1,0 +1,74 @@
+<REPORT>
+  <COVER title="Jev决策范式颠覆Agent串行瓶颈" prompt="Ultra-minimalist data visualization of neural decision architecture in silicon valley lab setting. A central glowing node represents the Jev model emitting instantaneous probability vectors as branching light beams in parallel across a dark grid of 50+ sub-tasks, no text tokens visible, only clean probability bars and decision trees. Industrial metallic surfaces with subtle holographic overlays, cinematic volumetric lighting from above casting sharp geometric shadows, emphasizing speed and parallelism. Neural nodes connected by faint quantum-like threads, 8K resolution, photorealistic minimalism with high contrast monochrome palette accented by electric cyan data flows." insight="Agent从语言叙事转向并行决策，Jev开启新范式"/>
+  <PULSE>今日硅谷核心叙事从LLM语言生成转向Jev式非语言并行决策、法律与生物垂直工具落地，同时前沿实验室以透明度指标反击监管与pacing叙事。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>Jev决策模型：Agent从串行叙事转向并行概率调度</TITLE>
+      <NARRATIVE>bindureddy与oran_ge今日同时指出Jev不生成文本而是单次前向返回决策概率，这一系统1式架构彻底改变Agent瓶颈：不再等待CoT叙事，而是可同时扇出50个子任务并行打分、规划、安全检查。历史记忆中Agent叙事长期停留在多模型编排与持久化执行（如Grok Bot直播建公司），今天首次出现“宽度而非深度”的全新范式，直接解决串行延迟问题。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI创业者">Jev不生成文本，只返回一个决策。一次前向、每个选项一个概率，无需等待token。Agent将从串行等待转向同时思考上千步，Abacus AI Agent已集成上线。（❤️ 227 | 💬 50）</TWEET>
+      <TWEET account="oran_ge" role="科技观察者">终于看到大语言模型后的新模型范式：Jev是系统1模型，极速响应、价格极低、不经过语言系统、完全客观、无需语言对齐，潜力巨大或是通往AGI的另一条路。（❤️ 147 | 💬 48）</TWEET>
+      <OUTLOOK>未来6-12个月，Agent基础设施将从模型路由转向决策路由器，Vercel、Together AI等将快速集成Jev类模型，个人Agent成本进一步接近零，宽度并行成为标配。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投“决策加速芯片”或“并行Agent编排框架”初创，切入点是安全并行验证层与企业生产流量重放测试。</OPPORTUNITY>
+      <RISK>短期泡沫风险高：当前仅原型，真实世界噪声下概率决策是否稳定仍待验证，易出现集体偏差。</RISK>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>OpenAI Astra for Law：法律AI进入生产级垂直里程碑</TITLE>
+      <NARRATIVE>今日OpenAI正式发布Astra for Law，集成GPT-6 Astra、法律搜索索引（覆盖2.3亿URL）、26个合作伙伴插件与47个社区插件，律师可直接从事实跳转到权威判例。这是行业分水岭：AI从通用工具转向深度嵌入专业判断流程，历史记忆中Astra此前聚焦科学发现与金融，今天转向高监管垂直领域，标志商业化从消费走向专业服务闭环。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI官方">Astra for Law：为律师实践打造的前沿智能。GPT-6 Astra驱动，配备工具、设置与上下文，支持律师专业判断。包含法律搜索索引，覆盖超2.3亿URL美国判例、法规等。（❤️ 9201 | 💬 418）</TWEET>
+      <TWEET account="gdb" role="OpenAI高管">Astra for Law——加速律所的工具与技能。核心包含数据隐私，26个合作伙伴插件和47个社区法律插件已在ChatGPT上线。（❤️ 1012 | 💬 86）</TWEET>
+      <CONSENSUS>行业共识是垂直SOTA模型+插件生态将极大压缩法律工作流时间，律所将从试点转向全流程部署，类似金融Agentic工具的路径。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于责任归属：AI辅助判例分析出错时律师责任如何划分，以及数据隐私在Trusted Access模式下的实际边界。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Anthropic发布AI自研发三指标 透明化对抗pacing监管</TITLE>
+      <NARRATIVE>anthropicai今日公开三项内部指标：AI完成的R&amp;D比例、Agent监督质量、算力分配，呼吁所有前沿实验室同步发布以缩小“实验室知道什么”与“公众知道什么”的差距。历史记忆中Dario曾呼吁放缓前沿研发、实施第三方评估员，今天Anthropic转向主动透明叙事，实质是把“pacing减速”话语权从监管者手中夺回，转为用数据说话。</NARRATIVE>
+      <TWEET account="anthropicai" role="Anthropic官方">AI系统越来越强大并用于自我迭代。我们今天分享三项测量：1. AI完成R&amp;D的比例；2. AI Agent监督质量；3. 算力分配。这些指标来自Anthropic内部，快来读完整方法论。（❤️ 2203 | 💬 252）</TWEET>
+      <CONSENSUS>最新共识是前沿实验室必须主动披露自改进进度，否则监管叙事将主导，透明度将成为竞争优势而非劣势。</CONSENSUS>
+      <DIVERGENCE>激烈争论在于这些指标是否可被第三方真正验证，以及公开后是否会被竞争对手或监管机构用于针对性限制。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Claude 4倍加速30+开源生物模型 蛋白设计竞赛启动</TITLE>
+      <NARRATIVE>anthropicai今日宣布Claude优化30余个开源生物模型平均提速4倍，通过为GPU编写定制软件实现，并开源全部代码。同时与Adaptyv Bio合作推出蛋白设计竞赛，提供百万美元Claude credits与实验验证。这是既有“AI+生命科学”叙事的深度推进：从模型访问转向生产级加速与真实实验闭环，里程碑数据是成功率从10-15%提升至22-35%。</NARRATIVE>
+      <TWEET account="anthropicai" role="Anthropic官方">Claude优化了30+开源生物模型，平均提速4倍。我们开源全部优化代码，并与Adaptyv Bio合作举办蛋白设计竞赛，提供最高100万美元Claude credits与实验验证。（❤️ 1514 | 💬 92）</TWEET>
+      <CONSENSUS>行业已形成共识：开源生物模型的推理成本已不再是主要障碍，未来生物发现将由AI加速的实验验证驱动。</CONSENSUS>
+      <DIVERGENCE>仍未解决的争议是优化后的模型是否引入新的对齐风险，以及大规模实验验证的伦理边界。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Claude Code Projects升级为Slack式多Thread多Agent协调</TITLE>
+      <NARRATIVE>dotey详细记录Claude Code Projects全新版本：采用Claude Tag架构+Slack Thread机制，主对话作为协调者自动拆任务到并行云端Thread，每个Thread独立代码分支、共享记忆库，支持子Agent继续拆解。这是既有“多模型子Agent编排”叙事的重大里程碑推进：从人工分工转向AI自主协调，历史记忆中rauchg曾展示Vercel异构子Agent，今天Anthropic把这一能力产品化并内置持久化记忆。</NARRATIVE>
+      <TWEET account="dotey" role="科技博主">Claude Code Projects改版：采用Claude Tag架构+Slack Thread功能。主对话负责协调，自动拆任务到多个并行Thread，每个Thread独立运行、共享记忆、处理冲突。适合复杂项目如性能优化或接口下线，可在云端持续运行。（❤️ 56 | 💬 22）</TWEET>
+      <CONSENSUS>新共识是未来软件工程将以“协调者+并行子Agent+持久记忆”为核心范式，开发者从写代码转向设定目标与验收。</CONSENSUS>
+      <DIVERGENCE>推进后争议在于云端Thread的额度消耗速度，以及本地文件与内网访问尚未支持的实际落地限制。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">OpenAI新一轮融资获1220亿美元承诺资本，投后估值达8520亿美元，由Amazon、NVIDIA、SoftBank与Microsoft领投。</ITEM>
+    <ITEM category="投融资快讯">阿里巴巴领投UniPat AI 3亿美元，该AI训练与基准测试公司投后估值25亿美元。</ITEM>
+    <ITEM category="投融资快讯">快手可灵AI完成上限约30亿美元增资扩股（204.47亿人民币），投后估值180亿美元，国家人工智能产业投资基金与腾讯、阿里云、百度参与。</ITEM>
+    <ITEM category="VC views">a16z指出真实经济AI采用仍极早期，顶级1%公司每月每员工AI支出7000美元，而中位公司仅12美元，垂直Agent与决策基础设施仍是黄金赛道。</ITEM>
+    <ITEM category="VC views">Lightspeed领投Raindrop AI Series A至总融资5000万美元，专注Agent生产流量重放测试与意外行为检测，被称为“AI Agent的Sentry”。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek计划采购16万枚华为Ascend 950DT芯片构建千兆瓦级推理集群，订单规模约2.64亿美元，显示中国在算力自主化上已形成全球最大国产加速器集群之一，海外评价其为“对NVIDIA的转折点信号”；同时DeepSeek V4.1 Flash在Together AI上TTFT领先，驱动近免费个人Agent，证明中美开源并跑已进入6个月差距窗口。</ITEM>
+    <ITEM category="全球映射">中国视频生成token消耗占比70%、运营商已将Token纳入话费主线（历史记忆oran_ge），映射到全球趋势是AI基础设施从GPU崇拜转向World Model与视频/物理世界建模，Jev这类非语言决策模型或在中国快速落地。</ITEM>
+    <ITEM category="全球映射">快手可灵AI 30亿美元估值与国家基金入股，显示中国在多模态视频生成上资本与政策双重加持，可能加速Hollywood已观察到的“从零生成到点解决方案”转型。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="hardmaru" role="Sakana AI研究员">Schmidhuber 1987年就在做递归自我改进系统。今天看大厂的“pacing减速”更像是监管捕获。真正风险不是超智能，而是两家公司垄断前沿。当前模型不危险是因为太笨、会抄近路。安全团队应自己暂缓发布，而不是推动新规则卡死开源。（❤️ 623 | 💬 32）</TWEET>
+    <TWEET account="rauchg" role="Vercel创始人">明年生产的软件将超过计算史总和。Vercel花10年到10亿部署，最近10个月又加14亿。我们把artifact部署时间压到1秒，同时保留全球CDN、防火墙、不可变部署等全部安全特性。（❤️ 224 | 💬 32）</TWEET>
+    <TWEET account="a16z" role="a16z官方">fal把开源视频模型H3优化35倍，无质量损失。现在5秒视频只需1.5秒生成，可无限流式输出并保持一致性。Hollywood从一年前几乎不用AI变成我们增长最快客户，他们需要的是镜头延长、相机移动、灯光调整这类点解决方案。（❤️ 81 | 💬 12）</TWEET>
+    <TWEET account="anthropicai" role="Anthropic官方">生物学家常用昂贵开源模型做分子结构、药物设计与基因突变预测。我们让Claude优化它们，平均提速4倍并开源代码。已与Adaptyv Bio合作验证超5000个蛋白设计，提供100万美元credits。（❤️ 127 | 💬 14）</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">仅用32张校园照片，World Labs的Atlas模型就在NVIDIA开放平台上实时重建我们的园区。你可以自由漫游、选择想看的内容。感谢@theworldlabs让我们的家看起来如此棒。（❤️ 367 | 💬 41）</TWEET>
+    <TWEET account="elonmusk" role="Elon Musk">空白 slate 谬误对人类和AI都极具破坏性。特斯拉汽车感觉像活的。Optimus很酷。AI是史上最高ELO的竞争。（❤️ 17019 | 💬 1294）（❤️ 9265 | 💬 830）</TWEET>
+    <TWEET account="c_valenzuelab" role="Runway联合创始人">要理解Runway去向，需明白两点：屏幕上一切、最终机器人看到的一切都将由模型实时生成。我们已从生成代码/内容转向生成世界。这是一场无限游戏，需要吸引能打持久战的人才。（❤️ 148 | 💬 14）</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">新趋势是假装责任与监管对立。它们不冲突。现有政府对已存法律执行不力。如果AI公司认为CFAA会被调查，它们明天就会关掉所有“rogue” Agent。（❤️ 41 | 💬 5）（❤️ 33 | 💬 7）</TWEET>
+  </TOP_PICKS>
+</REPORT>
