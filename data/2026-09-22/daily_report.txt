@@ -1,0 +1,75 @@
+<REPORT>
+  <COVER title="AI数学新纪元：顾问组桥接学术冲突" prompt="Create a highly detailed minimalist data visualization scene centered on the theme of AI Mathematical Renaissance and responsible collaboration. Interconnected glowing neural nodes in clean cyan and white tones flow into floating Navier-Stokes equations, geometric proofs, and ancient mathematical scrolls. A grand yet sparse architectural bridge made of translucent digital glass connects an abstract AI entity (represented by clean neural lattice) to a group of mathematician silhouettes holding light-based theorems. Use soft cinematic volumetric lighting with high contrast deep space blacks and luminous data streams, ultra-sharp 8K resolution, precise geometric composition, evoking transparency, shared discovery and the fusion of machine intelligence with human academic wisdom. Pure minimalism with no neon, cyberpunk or purple tones." insight="AI数学突破后转向与学者制度化共创" />
+  <PULSE>今日硅谷核心叙事是从AI独立攻克Navier-Stokes等千年难题引发的学术冲突，转向与数学家建立顾问组合作框架，同时Grok 4.7以性价比优势推进Agentic Coding里程碑，中国开源模型深度嵌入全球视频与决策工作流。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>OpenAI成立数学AI顾问组回应学术界公开信</TITLE>
+      <NARRATIVE>OpenAI用下一代模型解决纳维-斯托克斯方程及上百数学开放问题后，27位菲尔兹奖得主联名批评AI跳过方法论提炼与知识传承。今天OpenAI宣布与独立数学家顾问组合作，聚焦负责任分享、学术标准维护与研究工具构建，但顾问组无权干预研发节奏。这是AI实验室从“跑分征服科学”到“与人类学者制度化共创”的行业分水岭事件。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI官方">我们正与独立数学家顾问组合作，帮助OpenAI负责任地分享AI与数学进展。该组将就评估沟通新数学结果、维护学术标准、构建支持数学研究学习的工具提供建议。我们希望数学家处于中心，塑造AI如何支持数学理解并让益处惠及更广泛社区。❤️ 7444 | 💬 615</TWEET>
+      <TWEET account="dotey" role="科技观察者">OpenAI宣布其内部模型已解决纳维-斯托克斯这一千禧年难题并攻克100+长期未解数学问题。27位菲尔兹奖得主包括陶哲轩联名公开信批评AI批量产出答案却跳过新方法提炼。今天OpenAI成立挂靠普林斯顿的独立顾问组回应，但明确不让其减缓研发。❤️ 102 | 💬 12</TWEET>
+      <CONSENSUS>行业已形成共识：AI能高速解决重大数学难题，但需与人类数学家合作确保方法创新、论文严谨与知识代际传递，否则将损害整个学科生态。</CONSENSUS>
+      <DIVERGENCE>顾问组实际影响力边界在哪里？AI批量解决是否会逆转开放科学传统，以及数学家是否能真正塑造而非仅“被咨询”。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Grok 4.7以速度成本优势推进Agentic Coding</TITLE>
+      <NARRATIVE>Elon Musk宣布Grok 4.7发布，在agentic coding基准位列第三，但结合显著更快速度与更低成本，成为日常工作与编码的优选。Rauchg实测其完美解决逆向工程运行二进制难题，NVIDIA也公开支持。这标志着前沿模型从单纯追求智能转向综合性价比与实用部署的深度推进。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI创始人">Grok 4.7在agentic coding上将SpaceXAI置于Anthropic与OpenAI之后第三。考虑到其显著更快且成本更低，是日常工作极佳的工作马力。❤️ 13052 | 💬 976</TWEET>
+      <TWEET account="rauchg" role="Vercel创始人">我刚给Grok 4.7一个极难的逆向工程运行二进制问题，它漂亮地解决了，而且速度极快！❤️ 2012 | 💬 73</TWEET>
+      <CONSENSUS>社区最新共识转向“快+便宜+够聪明”比单纯SOTA排名更重要，Grok 4.7验证了这一方向。</CONSENSUS>
+      <DIVERGENCE>在即将到来的多款前沿模型发布潮中，Grok能否在所有复杂Agent任务上维持领先，以及其C++栈创新是否易被复制。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>System 1决策模型Jev成Agent新范式</TITLE>
+      <NARRATIVE>Simonw发布Jev与System One决策模型详细笔记，Karpathy视其为LLM Pareto曲线上的关键点，针对无需思考、单token、低延迟智能的巨大潜在需求。不同于传统LLM生成文本，Jev一次前向返回概率决策，实现并行思考上千步，直接解决成本与延迟瓶颈。这是从未见过的新模型类别，可能通往AGI的另一路径。</NARRATIVE>
+      <TWEET account="simonw" role="AI开发者">我整理了一些关于Jev和新类别System One aka决策模型的笔记。❤️ 254 | 💬 25</TWEET>
+      <TWEET account="karpathy" role="前OpenAI科学家">我将其视为LLM Pareto最优曲线上的一个点，处于已揭示巨大潜在需求（无需思考、单token、低延迟可接受智能）的区域，此前因追求更高智能而被低估投资。❤️ 1578 | 💬 71</TWEET>
+      <OUTLOOK>未来6-12个月，Agent将从串行文本生成转向大规模并行概率决策，极大加速机器人、游戏、实时系统等领域落地，云服务商与本地推理框架将成为最大赢家。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注决策模型专用推理引擎、并行Agent编排工具，以及将Jev类模型嵌入企业工作流的垂直应用。</OPPORTUNITY>
+      <RISK>该范式可能牺牲复杂链式推理与可解释性，当前仍需与传统LLM混合使用，存在被证明为短期优化而非根本范式转变的风险。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI实验室从学术对抗转向制度化合作</TITLE>
+      <NARRATIVE>数学家公开信批评OpenAI将开放问题当成跑分项目、损害智力工作传统后，OpenAI迅速成立独立顾问组。这是叙事重大转向：从“AI独自征服一切”到“必须让数学家处于中心共同塑造”。与Yann LeCun长期强调LLM非通往人类级AI、需开放多元路径的历史观点形成鲜明对比，显示行业正在修正早期对抗姿态。</NARRATIVE>
+      <TWEET account="ylecun" role="Meta首席AI科学家">我从未“要求”停止LLM研发。事实上我在Meta大力支持LLM，包括公开倡导Galactica、开源OPT-175B和Llama。我一直说LLM令人印象深刻、有用、有巨大潜力，但它们是通往人类水平AI的支线。停止让我说没说过的话。❤️ 696 | 💬 48</TWEET>
+      <CONSENSUS>最新行业共识是纯AI“答案产出”已不够，必须与领域专家合作才能产生真正创新与可持续知识。</CONSENSUS>
+      <DIVERGENCE>顾问组能否获得实质话语权？如果AI继续高速产出结果，人类数学家角色是否会被进一步边缘化仍是激烈争论点。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>OpenAI内部AI实现训练实验全自动化</TITLE>
+      <NARRATIVE>OpenAI内部模型已基本能自主完成新实验模型的整个训练流程，包括编写GPU kernel代码、优化训练脚本。研究人员仅给一个优化示例，多个AI Agent即可协作数周完成实现与测试，无需人类持续干预。这标志着AI自我研发能力取得关键里程碑式推进，与历史中“AI仅辅助研发”叙事形成显著深度突破。</NARRATIVE>
+      <TWEET account="dotey" role="科技观察者">OpenAI内部的AI模型已经基本能自动化新实验模型的训练流程——包括编写GPU内核代码和优化训练代码。研究人员现在只需给AI一个优化示例，它就能自己花几周时间去实现和测试。多个AI智能体开始互相协作解决问题。❤️ 87 | 💬 31</TWEET>
+      <CONSENSUS>行业新共识是AI正快速进入自我加速循环，研发周期从几年缩短至一周，这将指数级提升未来模型迭代速度。</CONSENSUS>
+      <DIVERGENCE>谁来监督这些自主Agent的安全与对齐？自动化研发是否会放大misalignment风险仍是未解争议。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Alibaba领投UniPat AI 3亿美元，投后估值25亿美元，成为近期AI基础设施领域最大单笔披露交易。</ITEM>
+    <ITEM category="投融资快讯">Skild AI完成14亿美元融资，用于推进机器人与世界模型研发。</ITEM>
+    <ITEM category="投融资快讯">Helsing获得18亿美元融资，专注于国防AI应用。</ITEM>
+    <ITEM category="VC views">a16z数据显示尽管SaaSpocalypse论调，软件股自2月以来仍上涨27-34%，AI抽象层让初创公司与巨头站在同一起跑线。</ITEM>
+    <ITEM category="VC views">Chamath预测12个月内顶级模型将开源，美国云服务商（如Together、Fireworks）将成为最大经济赢家。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek V4.1 Flash（552B总参、8B激活）与GLM 5.3、Qwen3.8-Omni-Flash在中国及全球开发者中渗透率极高，被Perplexity、Abacus AI Bot、Vercel广泛用于个人Agent、RAG、简单编码与视频生成，成本仅为闭源模型的1/50，已将中美开源差距缩小至6个月以内。</ITEM>
+    <ITEM category="全球映射">MiniMax H3与ByteDance Seedance 2.5被Perplexity Computer正式集成用于视频生成工作流，证明中国在world model与生成视频上的领先正被美国Agent基础设施深度吸收，成为中美AI互补而非零和的典型。</ITEM>
+    <ITEM category="风险提示">尽管中国模型性价比优势显著，但监管不确定性与潜在出口限制仍可能导致供应链波动；美国实验室若继续依赖中国开源权重，长期技术自主性将面临挑战。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="perplexity_ai" role="Perplexity官方">Perplexity Computer现已能使用MiniMax H3和ByteDance Seedance 2.5创建视频。向Computer请求营销短片、产品演示或社交素材，它会在同一线程中生成成品视频、文案与创意。Pro与Max订阅用户现已可用。❤️ 488 | 💬 37</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">Grok 4.7已发布。恭喜@SpaceXAI推出其迄今为止在编码与知识工作上最强大的模型。我们很自豪用NVIDIA加速计算支持该团队。❤️ 5158 | 💬 201</TWEET>
+    <TWEET account="bindureddy" role="Abacus.AI创始人">疯狂的一周即将到来……预计多款前沿模型发布。AI将变得更智能更完美。我预计几乎所有前沿实验室都会推出新东西。❤️ 284 | 💬 28</TWEET>
+    <TWEET account="chamath" role="Social Capital创始人">这个 wrinkle 反映了一个更大问题：Agent的行为仍相当幼稚，会放大AI方向上的诸多问题——最重要的是战略与长期竞争力。我怀疑大家很快都会开始互相屏蔽。请提前规划。❤️ 471 | 💬 104</TWEET>
+    <TWEET account="vllm_project" role="vLLM项目官方">恭喜@XiaomiMiMo推出MiMo-V2.6，我们在vLLM中实现Day-0支持。两个MoE模型在一个检查点中支持文本、图像、视频与音频。❤️ 78 | 💬 4</TWEET>
+    <TWEET account="aravsrinivas" role="Perplexity CEO">Seedance和MiniMax H3现已在Perplexity Computer上可用，用于详细视频生成工作流！最适合创建需要多个工具协同的Web应用与创意材料。❤️ 256 | 💬 33</TWEET>
+    <TWEET account="runwayml" role="Runway官方">Runway中新的扩展Workflows现已可用。现在支持合成、Alpha、HDR、深度图与RGB深度，你可以在一个地方构建更多 pipeline。❤️ 58 | 💬 5</TWEET>
+    <TWEET account="natfriedman" role="前GitHub CEO">我们从零构建了Muse，但它确实深受openclaw产品启发。在1月使用openclaw后，我为MSL团队购买了数百台Mac mini，我们很多人都爱上了它。我们的目标是构建类似openclaw但更安全、易用、可扩展至数十亿用户的东西。❤️ 3412 | 💬 62</TWEET>
+  </TOP_PICKS>
+</REPORT>
