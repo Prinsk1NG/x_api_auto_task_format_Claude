@@ -1,0 +1,84 @@
+<REPORT>
+  <COVER title="AI升空：TPU挑战太空散热极限" prompt="Photorealistic cinematic rendering of a compact refrigerator-sized satellite with four visible Google TPU chips mounted inside, solar arrays extended, orbiting above Earth at dawn. Industrial design with precision-machined aluminum panels, heat pipes and radiator fins glowing under harsh solar illumination, dramatic heat haze distortion visible on one panel indicating thermal limits after 15 minutes of operation. Sharp volumetric god rays piercing through thin atmosphere, complex metallic textures with thermal blankets and antenna arrays, 8K resolution, anamorphic lens flares, shot from a nearby Falcon 9 upper stage with Earth curvature and faint laser communication beams in the distance, emphasizing engineering challenges of orbital AI compute." insight="硅谷将AI算力竞赛直接推向近地轨道，散热与能源成为新瓶颈。"/>
+  <PULSE>太空AI硬件测试与开发者支出从Anthropic转向OpenAI及中国廉价模型，成为今日最强信号。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Google TPU原型卫星搭乘SpaceX升空，AI算力进入轨道时代</TITLE>
+      <NARRATIVE>Google与Planet合作Project Suncatcher，将TPU送入太空测试轨道AI计算可行性，这是行业首次将自研AI加速芯片部署到近地轨道，试图利用8倍太阳能解决地面电力墙问题。尽管当前仅能连续运行15分钟即需降温，但标志着从地面数据中心向太空数据中心的范式转变，与Elon硬件难观点形成直接延续。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">Google将TPU送上太空测试其在轨道环境下的生存与运行能力，Project Suncatcher原型卫星搭乘SpaceX Transporter-18任务发射，这是迈向太空AI数据中心的一小步。❤️ 5617 | 💬 235</TWEET>
+      <TWEET account="dotey" role="知名AI观察者">Google下周把TPU送上太空，芯片跑15分钟就得停下来降温。Suncatcher卫星装4块TPU，太阳能仅1千瓦，最终目标是81颗卫星用激光互联组成轨道数据中心。❤️ 7 | 💬 1</TWEET>
+      <CONSENSUS>太空算力是解决地面电力与许可限制的长期可行路径，SpaceX发射能力成为关键优势。</CONSENSUS>
+      <DIVERGENCE>当前散热技术能否支撑长时间高负载运行，以及2030年前发射成本能否降至每公斤200美元以下仍存巨大争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>开发者支出从Anthropic转向OpenAI与中国模型</TITLE>
+      <NARRATIVE>过去两月Vercel AI Gateway数据显示Anthropic份额从69%骤降至40%，OpenAI升至24%并主导token量，Kimi K3与DeepSeek拿走Anthropic流失的一半份额，Opus 5.5快速回流至10%。这与历史记忆中“前沿模型越来越没感觉”和“开源6个月覆盖99%任务”的判断形成强烈印证，价格战与性价比成为新主导逻辑。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">过去两个月AI Gateway支出：Anthropic从69%降到40%，OpenAI从10%升到24%并领先token量，Kimi K3+DeepSeek拿走Anthropic流失的一半，Opus 5.5两天内占到10%，OpenAI占图像生成的62%。❤️ 416 | 💬 82</TWEET>
+      <CONSENSUS>开发者已用脚投票，混合使用闭源旗舰与中国极廉价模型成为主流，单纯追求参数规模的时代结束。</CONSENSUS>
+      <DIVERGENCE>这种转向是暂时性价比驱动还是长期结构性变化？实验室能否通过新架构维持溢价仍无共识。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Schmidhuber加入Sakana AI推动物理世界递归自改进</TITLE>
+      <NARRATIVE>元学习与世界模型先驱Jürgen Schmidhuber正式出任Sakana AI首席科学顾问，指导东京RSI Lab聚焦agent-native世界模型和物理AI的递归自改进。这代表硅谷开始系统性引入90年代就提出的自我改进理论，用于解决当前LLM在物理世界泛化不足的核心瓶颈，是全新范式而非增量优化。</NARRATIVE>
+      <TWEET account="hardmaru" role="Sakana AI联合创始人">Jürgen Schmidhuber加入Sakana AI担任首席科学顾问。他在计算资源贵百万倍的90年代就开创了元学习、递归自改进和世界模型。这些想法直接启发了我们的Darwin Gödel Machine和AI Scientist项目。❤️ 762 | 💬 53</TWEET>
+      <OUTLOOK>未来6-12个月，物理世界自改进Agent有望从实验室走向机器人与仿真应用，Sakana可能成为日本AI自改进方向的领头羊。</OUTLOOK>
+      <OPPORTUNITY>投资聚焦“世界模型+机器人”交叉领域，以及能提供高质量物理仿真数据的初创公司。</OPPORTUNITY>
+      <RISK>理论到工程落地的路径仍漫长，当前硬件对稀疏激活和非自回归搜索的惩罚可能拖慢实际进展。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Perplexity用数百Agent自建Photon引擎，实现亚250ms搜索</TITLE>
+      <NARRATIVE>Perplexity发布Fast Search API，底层Photon是其用小团队+数百个自动研究Agent构建的Rust检索排序服务，p95延迟230ms以内，相比默认预设将每任务成本降低68%。这标志着Agent不仅用于终端任务，更已深度参与核心基础设施自举，是“用AI造AI”叙事的具体里程碑突破。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="Perplexity官方">我们推出Perplexity Search API的Fast Search，由全新Rust检索排序服务Photon驱动，小团队加数百Agent构建，95%搜索结果在230ms内返回。❤️ 294 | 💬 28</TWEET>
+      <TWEET account="aravsrinivas" role="Perplexity CEO">Perplexity拥有最快最强Search API，Photon引擎p95延迟低于250ms，在相关性和准确性基准上仍排名靠前。该引擎由小团队和数百个内部增强版Computer Agent的自动研究循环构建。❤️ 250 | 💬 30</TWEET>
+      <CONSENSUS>Agent驱动的基础设施自建将成为下一波效率跃升的关键，搜索API正从云服务转向高度优化的定制引擎。</CONSENSUS>
+      <DIVERGENCE>这种极致低延迟是否会牺牲长尾查询深度，以及如何在更多垂直领域复制该方法仍待验证。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>SpaceX硬件优势加速xAI追赶，2-3月或达Fable/GPT-6水平</TITLE>
+      <NARRATIVE>Elon强调xAI仅3岁而对手已6-10岁，但若二阶导数保持强劲，6个月内SpaceX将在AI领域夺得杆位；同时指出硬件极难，SpaceX在快速上线海量算力上有独特能力。这是对“硬件是硬伤”叙事的具体推进，用实际发射能力和供应链证明xAI的差异化路径。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI &amp; SpaceX CEO">我们将在2-3个月内拥有Fable/GPT-6水平的模型。我谨慎乐观。SpaceX在快速上线海量算力方面展现了非凡能力，且只会越来越强。❤️ 12787 | 💬 1059</TWEET>
+      <CONSENSUS>硬件与发射能力正成为AI竞赛新护城河，xAI正借助SpaceX基础设施实现弯道超车。</CONSENSUS>
+      <DIVERGENCE>实际模型性能能否在短时间内达到闭源前沿，以及“超过任务所需智能就无意义”的哲学观点如何落地仍存分歧。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Anthropic洽谈1GW数据中心，潜在400亿美元自建基础设施</TITLE>
+      <NARRATIVE>Anthropic正讨论高达1吉瓦的数据中心容量，直接租赁设施以掌控芯片并降低对云提供商依赖，投资可能超过400亿美元。这开创了前沿实验室从纯模型研发转向重资产基础设施自建的新叙事，预示行业进入“谁控制算力谁主导”的新阶段。</NARRATIVE>
+      <TWEET account="theinformation" role="The Information">Anthropic正在讨论高达1吉瓦的数据中心容量交易，此投资可能需要至少400亿美元。直接租赁设施可让其更好地控制芯片并减少对云提供商的依赖。❤️ 10 | 💬 0</TWEET>
+      <OUTLOOK>未来12个月更多实验室将效仿垂直整合算力，传统云巨头与AI原生基础设施公司间的权力平衡将被重塑。</OUTLOOK>
+      <OPPORTUNITY>一级市场关注数据中心地产、先进冷却技术及模块化核能解决方案的投资机会。</OPPORTUNITY>
+      <RISK>巨额资本开支若遇模型ROI下滑，可能导致财务压力与估值重估，存在明显泡沫风险。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Anthropic洽谈1GW数据中心容量，潜在投资规模至少400亿美元，旨在减少对云提供商依赖并掌控芯片供应链。</ITEM>
+    <ITEM category="投融资快讯">Perplexity用小团队+数百Agent在短时间内自建Photon Rust引擎，展示Agent驱动基础设施建设的极低成本路径。</ITEM>
+    <ITEM category="VC views">a16z引用Palmer Luckey观点：招聘时优先考察个人自驱项目而非学校或工作任务，这在AI时代更重要，因为真正驱动学习的是自主热情。</ITEM>
+    <ITEM category="VC views">Chamath暗示AI基础设施资本开支正爆炸式增长，强调美国开源云服务商将成最大赢家，需关注Nebius、Together等公司的长期价值。</ITEM>
+    <ITEM category="投融资快讯">Sakana AI引入Schmidhuber担任首席科学顾问，强化其在递归自改进和物理AI方向的研发投入，潜在带动相关早期项目融资。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">Kimi K3与DeepSeek在Vercel开发者真实支出中的快速崛起，拿走Anthropic近一半流失份额，证明中国开源廉价模型已在日常Agentic任务中实现高性价比替代，Qwen系列同样在图像生成等场景展现竞争力。</ITEM>
+    <ITEM category="全球映射">中国模型的极致成本优势正加速全球开发者从纯闭源转向混合策略，美国实验室需通过速度或独特能力而非单纯参数维持差异化，否则份额将持续被侵蚀。</ITEM>
+    <ITEM category="全球映射">太空AI与自建数据中心浪潮下，中国在地面大规模部署与供应链垂直整合的优势可能转化为成本领先，但需警惕出口管制对高端芯片获取的长期限制。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="bindureddy" role="Abacus AI CEO">用Opus 5.5在Abacus AI超级计算机上生成3D游戏：文本提示到完整游戏、构建多级多人游戏、创建虚拟商品并收款、添加消息和语音聊天，后端完全免费。❤️ 463 | 💬 31</TWEET>
+    <TWEET account="elonmusk" role="xAI &amp; SpaceX CEO">我们的AI努力仅3岁，而Anthropic和OpenAI分别是6岁和10岁。如果二阶导数保持强劲，SpaceX大约6个月后将在AI领域夺得杆位。硬件很难，但SpaceX在这方面能力出众。❤️ 28141 | 💬 1556</TWEET>
+    <TWEET account="bindureddy" role="Abacus AI CEO">Fable 5.1被严重低估因为它太贵，但在非常复杂的代码库上它远超Opus 5.5，能一次性解决难题而无需大量prompt迭代。❤️ 264 | 💬 38</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity官方">Fast Search在六个Agent基准上将每任务成本降低68%且质量相当。中位延迟仅160ms，是我们对比的所有搜索API中最低的。❤️ 19 | 💬 5</TWEET>
+    <TWEET account="dylan522p" role="硬件分析师">GB300 NVL72机架重1580kg，售价约500万美元，即每公斤3165美元，已接近芬太尼的商品价值曲线。到2030年机架价格/重量比可能超过可卡因，供应链限制将持续推高价格。❤️ 216 | 💬 31</TWEET>
+    <TWEET account="natfriedman" role="前GitHub CEO">那些所谓的“秘密”只是用户VM上的文件，这是预期行为。❤️ 2088 | 💬 50</TWEET>
+    <TWEET account="paulg" role="Y Combinator创始人">如果你认识正在寻找相对AI-proof职业的人，钟表匠（修表师）看起来很有前景。每个钟表匠工作都多到做不完，机械表越来越受欢迎，AI还需要一段时间才能胜任。❤️ 673 | 💬 103</TWEET>
+    <TWEET account="a16z" role="a16z官方">Elon Musk在招聘时更看重是否解决过真正困难的问题，以及他们是否真正负责而非他人代劳。那些亲身挣扎过难题的人会真正理解它。甚至不需要大学或高中学历。❤️ 180 | 💬 15</TWEET>
+    <TWEET account="oran_ge" role="AI观察者">大家都在盛赞Opus 5.5一句话出产品宣传片，把一个功夫用到极致竟可以触类旁通，这真是有点武侠小说里打通任督二脉的味道了。❤️ 26 | 💬 3</TWEET>
+  </TOP_PICKS>
+</REPORT>
