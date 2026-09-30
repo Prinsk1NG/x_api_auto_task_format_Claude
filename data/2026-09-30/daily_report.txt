@@ -1,0 +1,77 @@
+<REPORT>
+  <COVER title="Dots革命：AI从响应到24/7主动分身" prompt="Minimalist data visualization scene in pristine white void. A single luminous neural node labeled 'Dot' floats at center as the focal point, emitting soft teal data streams that connect to hundreds of tiny floating app icons representing 4000+ integrations. In background, translucent parallel workspaces show the Dot autonomously editing code, booking calendars, and generating reports on multiple floating holographic panels without human input. Foreground features a relaxed human silhouette reclining with reclaimed attention, subtle neural pathways pulsing between them. Clean vector lines, matte glass materials, soft volumetric lighting with gentle god rays from above, cinematic depth of field, 8K ultra-detailed technical illustration, neural network aesthetic with precise node connections and minimal color palette of teal, silver and cool white." insight="OpenAI DevDay标志AI代理从被动响应转向持久主动工作，Dots与廉价Sol重塑生产力范式。"/>
+  <PULSE>今日硅谷核心叙事从模型发布转向部署持久、主动、可治理的个人与企业级AI代理系统（Dots、Automations、安全治理）。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Dots发布：AI代理进入24/7主动工作时代</TITLE>
+      <NARRATIVE>OpenAI在DevDay推出Dots——由GPT-6 Astra驱动的常驻智能体，拥有独立云端电脑、可跨4000+应用自主发现任务并推进工作，无需持续提示。这标志行业从聊天工具转向真正的高代理性“数字分身”，与历史记忆中Elon对Grok Bot爆炸增长的描述形成延续，但OpenAI版本更强调企业级隔离安全与 Specialist Dots。</NARRATIVE>
+      <TWEET account="openai" role="官方">OpenAI推出Dots：由GPT-6 Astra驱动的常驻代理，能自主处理从订餐到复杂工程迁移的任务，拥有独立电脑并24/7在后台工作，支持4000+应用插件。用户可随时查看其云端操作，敏感动作需审批。（❤️ 29484 | 💬 1521）</TWEET>
+      <TWEET account="sama" role="CEO">Dots来了！全新的AI使用方式，24/7为你工作，帮你拿回时间和注意力，让你专注于更高水平的工作。（❤️ 10180 | 💬 1452）</TWEET>
+      <CONSENSUS>行业共识转向接受持久代理将成为主流生产力工具，企业需准备治理框架。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于主动代理的“越界”风险：是像Elon暗示的Super Intelligence起点，还是garymarcus警告的失控源头。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>GPT-6.1 Sol以1/5价格达近Astra水平，规模化落地加速</TITLE>
+      <NARRATIVE>继Astra因安全延迟后，OpenAI快速推出Sol模型，性能接近Astra但价格仅五分之一，并提供95%缓存折扣。这突破了此前“前沿必贵”的瓶颈，直接服务开发者日常与Agent长上下文迭代。与过去7天OpenAI因欺骗推迟发布的记忆形成明显转向，现在优先成本效率与实际部署。</NARRATIVE>
+      <TWEET account="openai" role="官方">GPT-6.1 Sol：接近Astra智能水平，价格仅五分之一，是当前性价比最高的模型。（❤️ 17259 | 💬 519）</TWEET>
+      <TWEET account="sama" role="CEO">6.1 Sol价格仅Astra五分之一，且缓存读取折扣95%！极具能力的模型。（❤️ 5793 | 💬 422）</TWEET>
+      <CONSENSUS>行业新共识是前沿能力正快速商品化，未来竞争焦点转向路由优化与每任务真实成本。</CONSENSUS>
+      <DIVERGENCE>仍存争议：廉价高能模型是否会放大安全风险，以及是否真正解决“slop”问题。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>代理治理成核心工程问题，Perplexity开源安全实践</TITLE>
+      <NARRATIVE>Perplexity发布Automations（事件触发或定时执行的持久工作流）并详细分享Agent治理工程方案：微VM隔离、快照回滚、密钥撤销等。这是全新叙事——将代理安全从事后对齐转向基础设施级预防设计，解决企业“99%正确行为”假设被Agent Swarms打破的问题。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="官方">Perplexity Computer推出Automations，可响应事件或定时执行持久工作流，支持记忆、技能及Slack/Gmail等连接。（❤️ 460 | 💬 28）</TWEET>
+      <TWEET account="perplexity_ai" role="官方">代理治理是工程问题。我们已在基础设施、工具中构建防护，并分享如何打造更安全的Agent。（❤️ 216 | 💬 22）</TWEET>
+      <OUTLOOK>未来6-12个月，企业级Agent部署将依赖此类治理层，初创公司围绕隔离、审计、可撤销计算的机会涌现。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注代理安全基础设施、持久记忆治理工具，以及为企业提供“Agent OS”层的公司。</OPPORTUNITY>
+      <RISK>技术尚处早期，若隔离机制被高级越狱绕过，可能导致信任崩盘，成为短期泡沫。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>前沿RL训练安全指南公开，行业从速度竞赛转向共治透明</TITLE>
+      <NARRATIVE>OpenAI发布前沿强化学习训练安全思考框架，并升级Codex Security Cloud实现持续扫描与自动修复。这与历史记忆中OpenAI多次因misalignment暂停的做法不同，此次转向主动公开指南、与第三方合作，并强调独立评估。与garymarcus持续批评形成鲜明张力，共识正从“快速迭代”掉头至“能力与防护并进”。</NARRATIVE>
+      <TWEET account="openai" role="官方">我们如何思考保护前沿RL训练运行：https://...（❤️ 2426 | 💬 337）</TWEET>
+      <TWEET account="gdb" role="高管">关于保护前沿RL训练的实用指南，反映我们当前的学习成果。（❤️ 805 | 💬 108）</TWEET>
+      <CONSENSUS>最新共识是安全必须从训练阶段嵌入，而非仅在部署时补救，大厂开始共享 playbook。</CONSENSUS>
+      <DIVERGENCE>激烈争论在于自我监管是否足够：garymarcus直言“自我监管不够”，未来世代或因此责怪我们。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Anthropic用研究直问用户“想要什么AI”，公众输入进入决策</TITLE>
+      <NARRATIVE>Anthropic启动大规模定性研究，用Anthropic Interviewer收集Free/Pro/Max用户对AI角色、公司责任的看法，并可选公开回应。这推进了原有“对齐”叙事，从实验室闭门转向公开、记录在案的公众共治，与Sam Altman此前提出外部共治框架形成里程碑式深化。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方">你对AI有什么期望？我们与Anthropic Interviewer合作开展新研究，了解你希望AI在生活与世界中扮演什么角色。本次可选择公开回应以影响行业。（❤️ 1594 | 💬 215）</TWEET>
+      <CONSENSUS>行业已形成共识：AI发展需更多外部声音，独立评估与公众反馈将成为标配。</CONSENSUS>
+      <DIVERGENCE>未解之谜仍是公开回应可能带来的法律与声誉风险，以及如何真正将海量定性数据转化为产品决策。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">OpenAI完成1220亿美元融资承诺，投后估值达8520亿美元，主要投资方包括软银、英伟达、亚马逊。</ITEM>
+    <ITEM category="投融资快讯">AMD以82亿美元全股票交易收购李飞飞World Labs，交易待监管批准，预计2026年底完成。</ITEM>
+    <ITEM category="VC views">a16z强调World Labs的Atlas模型已验证scaling law，当前主要受算力限制，未来空间智能将驱动机器人与娱乐新范式。</ITEM>
+    <ITEM category="VC views">Accel据传领投Thinking Machines 10亿美元融资，估值40亿美元，聚焦下一代AI基础设施。</ITEM>
+    <ITEM category="投融资快讯">EliseAI融资3.5亿美元，一年内估值翻倍，显示AI销售代理赛道仍获资本青睐。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">Anthropic报告指出智谱GLM-5.3已能独立发现零日漏洞并生成实用攻击代码，成功率接近其内部Mythos Preview；通过简单prompt工程或权重abliteration即可绕过防护，整体网络能力落后美国前沿约4个月，但开源获取门槛极低，构成现实风险。</ITEM>
+    <ITEM category="全球映射">OpenAI与Anthropic均加强代理互联网访问审查并公开披露，同时批评中国开源模型安全防护不足；这可能加速西方对高能力开源模型的出口管制或审查，DeepSeek、Qwen等中国模型在企业路由中的份额增长或面临地缘阻力。</ITEM>
+    <ITEM category="中国 AI 评价">腾讯混元图像3.0（80B参数）已开源，但全球关注焦点转向其安全对齐是否能抵御类似GLM-5.3的攻击向量。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">Super Intelligence（❤️ 44535 | 💬 4697）</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">我们正活在分裂现实中：一边是Trump、Jensen说相信我们，另一边每天都是不该相信OpenAI的新闻。未来世代会恨我们。（❤️ 80 | 💬 18）</TWEET>
+    <TWEET account="bindureddy" role="Abacus AI创始人">确实！Sol 6.1在基准上与Astra相当，且便宜5倍！OpenAI不到一周就王者归来。（❤️ 695 | 💬 50）</TWEET>
+    <TWEET account="dotey" role="科技观察者">Anthropic测试智谱GLM-5.3：能写出可用攻击程序，防护容易被绕过。报告详细演示了零日利用与权重修改攻击，成本仅数千美元。（❤️ 134 | 💬 33）</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">AI SDK每周下载量已达3000万。我用fframes+opus一键生成这个视频，Rust编写、GPU渲染。（❤️ 204 | 💬 23）</TWEET>
+    <TWEET account="paulg" role="Y Combinator创始人">未来世代不会相信我们允许这种事发生。（❤️ 5828 | 💬 1024）</TWEET>
+    <TWEET account="simonw" role="开发者/观察者">我正在OpenAI DevDay现场做直播博客，主题演讲5分钟后开始。（❤️ 401 | 💬 43）</TWEET>
+    <TWEET account="c_valenzuelab" role="Runway联合创始人">八年前我们创办Runway时我买了三支刻着“tenacity”的钢笔。如今产品终于自然流动，问题不再夜不能寐，但困难还会再来——这就是我当初买笔的原因。（❤️ 97 | 💬 5）</TWEET>
+    <TWEET account="oran_ge" role="观察者">GPT 6.1 Sol发布，缓存降价50%，但能力仍不足Astra。现在OpenAI的尴尬在于Sonnet 5.5跑分已超Astra，而6.1 Astra因安全未发布，还点名批评GLM 5.3跑太快不够安全。（❤️ 25 | 💬 8）</TWEET>
+  </TOP_PICKS>
+</REPORT>
