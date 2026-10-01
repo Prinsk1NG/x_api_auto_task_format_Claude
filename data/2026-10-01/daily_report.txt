@@ -1,0 +1,78 @@
+<REPORT>
+  <COVER title="Gemini 4 Argon 1M Token开启长程AI实战时代" prompt="Minimalist data visualization of an expansive neural architecture in cool silver and deep indigo tones, where thousands of glowing nodes form a single continuous flow expanding toward a luminous 1M token horizon marker. Clean geometric lines represent long-horizon workflows and cybersecurity shields as translucent layered lattices. Dramatic cinematic side lighting casts soft volumetric shadows across matte metallic surfaces, emphasizing industrial precision and strategic depth. No neon, no cyberpunk. Ultra-detailed 8K, sharp focus on neural node connectivity and token expansion metaphor, subtle particle traces showing responsible rollout gates." insight="谷歌1M输出+政府审查标志AI从性能军备转向合规实战" />
+  <PULSE>今日叙事核心从前沿模型长上下文突破与负责任 rollout，转向具身机器人生命周期管理及开源嵌入优化，安全合规成为新部署前提。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Gemini 4 Argon 1M输出里程碑：长程工作流与网络防御进入实战</TITLE>
+      <NARRATIVE>谷歌发布Gemini 4 Argon，在软件工程、法律金融、企业自动化和网络安全基准上多项领先，尤其将输出token上限推至行业领先的100万，允许模型在单一会话内持续深度推理数十万token，无需拆分任务。此举结合White House Accord on Super Intelligence及Fairwind计划下的政府预审，标志行业从单纯性能竞赛转向带护栏的规模化部署，与历史记忆中OpenAI多次因misalignment推迟发布形成鲜明对比。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">谷歌正式发布Gemini 4 Argon，前沿性能覆盖复杂工作流、网络防御和软件工程，已在内部量子计算、数据中心优化及C/C++到Rust迁移中大规模使用。输出token上限达100万，首发仅限Fairwind计划的可信网络防御者，并参与美国政府自愿审查。价格定位在Sol/Opus 5.5区间，远低于Astra/Fable。❤️ 15696 | 💬 845</TWEET>
+      <TWEET account="demishassabis" role="Google DeepMind CEO">Gemini 4 Argon是前沿能力重大飞跃，我们通过Fairwind计划先向政府和可信网络防御者负责任推出，博客详解技术细节。❤️ 3392 | 💬 171</TWEET>
+      <CONSENSUS>行业共识转向“长上下文+内置安全审查”才是真正可落地的前沿模型，1M输出让多步Agentic任务无需人工拆解。</CONSENSUS>
+      <DIVERGENCE>Argon在Terminal-bench和OSWorld等纯操作任务仍落后Astra，长期争议在于1M上下文是否会放大幻觉与越权风险，以及政府预审是否会实质放缓创新速度。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Runway Praxis-1开源世界动作模型：视频吞噬机器人具身世界</TITLE>
+      <NARRATIVE>Runway发布开源权重世界动作模型Praxis-1，可通过少量微调适配全新机器人形态，直接从视频数据学习动作接口。此新范式试图解决具身智能中“新硬件快速适配”底层问题，将视频生成技术直接迁移为机器人世界模型，与过去纯RL或仿真训练路径完全不同。结合Figure AI用钢水熔毁Figure 02机器人并制成纪念品的极致退役方式，共同勾勒出硬件快速迭代与生命周期闭环的新叙事。</NARRATIVE>
+      <TWEET account="c_valenzuelab" role="Runway CEO">我们宣布Praxis-1开源权重世界动作模型，通过轻量微调即可适配新机器人具身，视频正在吞噬世界。❤️ 113 | 💬 10</TWEET>
+      <TWEET account="dotey" role="知名AI观察者">Figure AI让Figure 02人形机器人自主跳入芬兰铸造厂75吨钢水炉退役，熔化金属制成限量纪念品。施瓦辛格参与，训练了专用AI确保精准跳跃，这是第二代机器人完成首次工厂上岗、家务、物流等里程碑后的必然结局，避免核心执行器外流同时加速F.04研发。❤️ 184 | 💬 26</TWEET>
+      <OUTLOOK>未来6-12个月，视频驱动的世界动作模型将大幅降低机器人从实验室到真实工厂的迁移成本，具身智能创业公司门槛降低，硬件迭代速度或加快3倍以上。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注视频-动作联合训练基础设施、机器人快速退役与材料回收SaaS，以及针对Praxis-1的行业垂直微调服务。</OPPORTUNITY>
+      <RISK>模型对全新形态泛化仍需真实世界验证，熔毁退役虽戏剧化，但若核心IP保护不足可能引发供应链安全新风险，短期或仍是概念领先于落地。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Perplexity开源上下文嵌入模型：彻底解决RAG长文档上下文丢失</TITLE>
+      <NARRATIVE>Perplexity发布pplx-embed-v2-context-9b-preview，在ConTEB和turbopuffer context-bench上创SOTA。其核心突破是用查询感知上下文压缩模型从整文档蒸馏相关性，为每个chunk提供全局视野训练信号，克服传统分块嵌入丢失上下文的瓶颈。这是原有RAG叙事的深度推进，里程碑数据包括单文档一次编码后pooling，以及在长上下文检索准确率上的显著提升。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="Perplexity官方">我们构建了全新上下文嵌入模型训练方式，将整文档纳入每个chunk编码，在turbopuffer context-bench上达到SOTA。克服了传统金chunk监督局限，通过查询感知压缩模型蒸馏相关性。❤️ 322 | 💬 35</TWEET>
+      <TWEET account="aravsrinivas" role="Perplexity CEO">我们将开源SOTA上下文嵌入模型，在turbopuffer context-bench上表现最佳。❤️ 589 | 💬 31</TWEET>
+      <CONSENSUS>行业新共识是“整文档感知嵌入+查询蒸馏”是下一代RAG基础设施标配，小团队也能用数百Agent自建高性能检索。</CONSENSUS>
+      <DIVERGENCE>推进后仍未完全解决超长文档（百万token级）训练的算力开销，以及如何在Agent swarms中实时更新动态上下文的工程难题。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI超级智能协议落地：从速度竞赛转向政府审查与行业共治</TITLE>
+      <NARRATIVE>谷歌与美国政府及行业领袖签署White House Accord on Super Intelligence，承诺在模型发布前接受自愿审查，并先向可信网络防御者与政府 rollout。Sundar Pichai强调数百亿投资同时必须“以正确方式构建”，这与历史记忆中garymarcus多次批评OpenAI数据抓取及misalignment形成转向：行业从“快速迭代优先”转向“合规共治优先”，共识开始瓦解此前单边加速文化。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">今天与总统、副总统、议长及科技领袖会面，签署White House Accord on Super Intelligence。谷歌过去两年已投资数千亿美元，将继续投资全栈以造福美国和世界，同时致力于负责任创新，包括彻底测试、红队测试和防护措施，仅在审查通过后发布模型。❤️ 11859 | 💬 1610</TWEET>
+      <CONSENSUS>最新共识是前沿模型必须内置政府预审与分阶段 rollout，网络安全与生物安全水印（如SynthID Bio开源）成为标配。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于自愿审查是否会实质变成事实监管，以及是否会让中国开源模型（如DeepSeek）获得相对速度优势。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>a16z新市场叙事：AI泡沫由盈利驱动而非倍数扩张</TITLE>
+      <NARRATIVE> a16z指出当前AI市场高点由基本面盈利推动，而非2000或2021年的估值倍数膨胀。顶级公司保持私有以让创始人主导长期大赌注，AI支出中top 1%企业远超中位数。这一新叙事试图解决“一切是否泡沫”的底层焦虑，强调创始人仍是核心资产类别。</NARRATIVE>
+      <TWEET account="a16z" role="a16z官方">泡沫由倍数驱动，而本轮市场由盈利驱动。顶级六家AI公司私有估值总和已超过去十年IPO总和（不含SpaceX）。创始人仍是资产类别，私有状态允许他们进行长期高风险押注而不受公开市场短期审视。❤️ 65 | 💬 18</TWEET>
+      <OUTLOOK>未来6-12个月，更多AI原生公司将推迟IPO，资本将继续追逐私有市场长期故事，估值将更锚定实际收入而非叙事。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于服务私有AI巨头的长期基础设施、创始人控制权工具，以及针对top 1% power user的垂直AI支出管理平台。</OPPORTUNITY>
+      <RISK>若宏观利率环境变化或盈利增长不及预期，当前“盈利驱动”叙事可能快速逆转，创始人长期主义也可能面临LP回报压力。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">OpenAI完成1100亿美元新一轮融资，投前估值7300亿美元，软银、英伟达、亚马逊合计投入超1100亿美元。</ITEM>
+    <ITEM category="投融资快讯">Cognition AI完成20亿美元E轮，估值480亿美元，由a16z、Accel、Founders Fund领投。</ITEM>
+    <ITEM category="投融资快讯">SiMa.ai完成1.5亿美元Series C，估值14.5亿美元，Fidelity与Amplify联合领投。</ITEM>
+    <ITEM category="VC views">a16z David George：当前市场高点由盈利而非倍数驱动，与2000/2021泡沫完全不同，top 1%公司AI月支出是中位数的20倍以上。</ITEM>
+    <ITEM category="VC views">a16z强调创始人仍是核心资产类别，私有状态允许Databricks、Stripe等进行长期高风险产品押注。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek用仅为美国对手1%-3%的GPU算力却实现几乎可比结果，Kimi K3（2.8万亿参数开源）与StepFun Step 5 Preview在多个基准上已达国际第一梯队，显示中国在高效训练与开源速度上形成独特优势。</ITEM>
+    <ITEM category="全球映射">中国开源模型价格持续下探（DeepSeek Flash输入低至0.02美元/百万token），正加速全球开发者从Anthropic/OpenAI转向，迫使美企在成本与速度维度重新定义竞争规则。</ITEM>
+    <ITEM category="全球映射">中美AI博弈中，中国模型的快速迭代与低价策略正将“算力墙”风险部分转移回美国基础设施投资方。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI/Tesla/SpaceX CEO">Starship将通过在轨部署更大望远镜和月球巨型望远镜，极大扩展物理学研究视野。❤️ 15201 | 💬 1113</TWEET>
+    <TWEET account="elonmusk" role="xAI/Tesla/SpaceX CEO">我对明年实际GDP增长的预测是比2026年高50%以上，即超过3.3%。❤️ 18190 | 💬 1120</TWEET>
+    <TWEET account="googleai" role="Google AI官方">Gemini 4 Argon在真实软件工程、企业知识工作和网络安全防御中达到前沿性能，输出token上限扩展至100万，目前先向Fairwind计划可信防御者推出。❤️ 9689 | 💬 343</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">如果你运营服务，想触达2000万+开发者及他们将推出的数十亿Agent，请加入Connect。代码免费时代，最后的Boss是“连接”，Connect既更易用也更安全。❤️ 305 | 💬 41</TWEET>
+    <TWEET account="bindureddy" role="Abacus.AI CEO">未来4-6周值得期待的模型：Gemini 4.0 Pro、Fable 5.5、Astra++、GLM 5.5。❤️ 471 | 💬 45</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">这应该算欺诈，纳税人不应补贴Meta的数据中心。❤️ 408 | 💬 22</TWEET>
+    <TWEET account="runwayml" role="Runway官方">Runway机器人负责人详解我们独特机器人路径，最终首发开源世界动作模型Praxis-1。❤️ 34 | 💬 2</TWEET>
+    <TWEET account="a16z" role="a16z官方">AI支出全面上升，但power user正在拉开差距。顶级1%公司AI供应商支出是中位数的8倍，组合公司内部顶级用户月支出可达7500-9000美元，是普通用户的20倍以上。❤️ 45 | 💬 11</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity官方">检索系统常将长文档分块导致上下文丢失，我们的上下文嵌入模型通过一次编码整文档后再pooling chunk向量解决此问题。❤️ 15 | 💬 3</TWEET>
+    <TWEET account="dotey" role="知名AI观察者">Anthropic上线新开发者站点，发布工程深度文章、Claude使用指南与团队经验，还藏有终端模式彩蛋。❤️ 83 | 💬 11</TWEET>
+  </TOP_PICKS>
+</REPORT>
