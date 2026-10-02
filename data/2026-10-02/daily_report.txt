@@ -1,0 +1,83 @@
+<REPORT>
+  <COVER title="太空算力+机器人优化+输出理解：硅谷基建新纪元" prompt="Cinematic 8K industrial design visualization of a prototype satellite with glowing TPU cores successfully deployed in low Earth orbit, its solar arrays reflecting harsh sunlight against the curvature of Earth below. In the foreground, a highly detailed Tesla Optimus robot arm precisely assembles hardware components on a factory line with reduced RAM modules visible, emphasizing bandwidth over capacity. Data streams morph into interactive HTML explainer webpages and bespoke 3b1b-style physics videos that autonomously interpret complex LLM outputs. Use dramatic volumetric cinematic lighting, brushed titanium and carbon fiber materials, precise engineering annotations, depth of field, and a grand strategic map overlay showing investment flows from chips to power to orbital infrastructure. Hyper-realistic, industrial product photography style, no neon or cyberpunk elements." insight="硅谷叙事转向物理基础设施与理解层：轨道AI、Optimus规模化及验证工程成新焦点。"/>
+  <PULSE>今日硅谷核心叙事从模型参数竞赛转向太空AI算力部署、机器人硬件内存优化、LLM输出理解工程化及多模态决策模型开源的深度推进。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Google TPU原型卫星成功发射，AI算力正式迈入轨道时代</TITLE>
+      <NARRATIVE>这是AI基础设施从地面数据中心向太空延伸的分水岭事件。Sundar Pichai强调这是团队多年构想的落地，SpaceX提供发射支持，标志着轨道计算不再是概念，而是可验证的工程里程碑，将显著改变AI训练与推理的能源与延迟边界。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">我还记得团队第一次提出将计算放入太空的想法——多么激动人心的创意！今天与Planet合作的原型卫星成功发射，展示了我们走了多远……感谢SpaceX的搭载，以及完美的助推器着陆🚀 ❤️ 1325 | 💬 73</TWEET>
+      <CONSENSUS>行业已形成共识：轨道AI数据中心将长期降低地面能耗限制，成为下一代算力基础设施标配。</CONSENSUS>
+      <DIVERGENCE>当前争议在于发射成本与卫星散热效率能否支持大规模TPU集群，以及地缘监管对轨道AI的潜在限制。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Tesla AI5/AI6芯片RAM减半仍保障Optimus性能，机器人量产瓶颈突破</TITLE>
+      <NARRATIVE>Elon Musk透露通过将AI5芯片RAM从常规水平减半至72GB LP5、AI6进一步优化至144GB LP6，在内存带宽保持不变的前提下大幅降低成本。这一硬件优化直接服务于Optimus量产规模化，是具身智能从原型走向工厂部署的关键里程碑。</NARRATIVE>
+      <TWEET account="elonmusk" role="Tesla/SpaceX CEO">我们将Tesla AI5芯片RAM减半（现在72GB LP5），AI6进一步减至144GB LP6。这是实现Optimus量产的唯一途径并大幅降低成本。事实证明，这对Optimus性能影响可忽略，因为内存带宽才是更大限制因素（带宽保持不变）。❤️ 8845 | 💬 414</TWEET>
+      <CONSENSUS>行业新共识是：具身智能的规模化关键不在单纯内存容量，而是内存带宽与系统级成本优化。</CONSENSUS>
+      <DIVERGENCE>仍未解决的问题是：在极复杂多任务场景下，内存削减是否会带来长期边缘案例性能退化。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Perplexity开源多模态决策模型pplx-decider-27b，决策API成本降至4美分</TITLE>
+      <NARRATIVE>Arav Srinivas宣布开源SOTA多模态决策模型pplx-decider-27b，并推出Decisions API，输入仅4美分/百万token且输出免费。这一新范式试图解决Agentic系统中决策与路由的成本与延迟瓶颈，让持久化决策代理从实验室走向广泛开发者使用。</NARRATIVE>
+      <TWEET account="aravsrinivas" role="Perplexity CEO">我们正在开源SOTA多模态决策模型pplx-decider-27b，并以输入400万token仅4美分、输出免费的新Decisions API提供服务。我们计划在未来几天进一步降低价格，欢迎使用！❤️ 504 | 💬 35</TWEET>
+      <OUTLOOK>未来6-12个月，这一开源决策模型将加速企业级Agent编排落地，推动从单一LLM调用转向低成本多模态决策路由，显著压缩AI基础设施支出。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于决策层路由与Agent治理工具，以及为开源决策模型提供企业级Profiles/Skills管理层的SaaS服务。</OPPORTUNITY>
+      <RISK>短期内模型在高风险决策场景的鲁棒性仍待验证，可能存在多模态对齐硬伤导致的幻觉放大风险。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从模型规模竞赛转向验证工程与LLM输出理解新范式</TITLE>
+      <NARRATIVE>Rauchg提出“验证工程”将成为未来核心，强调proofs、e2e测试、基准与linter的结合；Karpathy则详细分享如何用ASD-STE100受控语言、HTML交互网页乃至3b1b风格自定义解释视频来理解LLM输出。这一转向标志着行业从追求更强模型转向如何有效监督与解析其产出。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">未来是验证工程的时代。Proofs、端到端测试、基准、linter……其中一些是确定性的，另一些则是Agentic的。这看起来很棒。❤️ 2026 | 💬 68</TWEET>
+      <TWEET account="karpathy" role="AI Researcher">我们将花费更多时间理解语言模型的输出……最看好的输出格式是针对任意主题的完全定制解释视频。实验类似“创建一个关于X的3b1b风格视频解释器”。这实际上开始奏效了！❤️ 4053 | 💬 192</TWEET>
+      <CONSENSUS>行业最新共识是：随着智能丰裕，人类工作将上移至监督、验证与输出解析层面，富媒体解释将成为标配。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在激烈争论：验证工程能否完全替代人类领域专家判断，尤其在科学发现等非结构化领域。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>编排与集体智能超越单一模型，AI进入“鱼群”时代</TITLE>
+      <NARRATIVE>Hardmaru在Nikkei Asia发表观点，认为随着前沿规模化放缓，下一阶段核心将是掌握编排：像鱼群一样，集体智能能完成单个模型无法完成的任务。这一推进深化了此前Agent Swarms讨论，强调约束条件反而迫使架构更智能。</NARRATIVE>
+      <TWEET account="hardmaru" role="Sakana AI CEO">我刚刚在Nikkei Asia发表专栏，解释为什么AI的未来属于编排者。一群鱼能做到单条鱼做不到的事。同样的道理也适用于AI。随着前沿扩展开始放缓，下一阶段将是掌握编排，而非单纯造最大模型。https://t.co/qqrC4k28G5 ❤️ 169 | 💬 25</TWEET>
+      <CONSENSUS>编排与集体智能已成为行业新共识，尤其在开源模型已能以多pass接近闭源质量的当下。</CONSENSUS>
+      <DIVERGENCE>争议点在于：如何在编排系统中有效插入治理护栏，以防止Agent群体行为放大偏差或安全风险。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>a16z揭示AI基建资金真实流向：芯片50%、电力20%</TITLE>
+      <NARRATIVE>这一新叙事量化了AI buildout的资金分配结构，揭示98%美国家庭尚未为AI付费，而两家AI公司今年新增收入已超过所有上市软件公司总和。核心观点是当前高点由真实盈利而非估值泡沫驱动，强调电力、网络、冷却等非芯片环节的战略重要性。</NARRATIVE>
+      <TWEET account="a16z" role="a16z Analyst">每100美元投入AI供应链：50美元给芯片、20美元给电力、15美元给网络、15美元给冷却/建筑/土地。更多图表见State of Markets II。❤️ 1324 | 💬 59</TWEET>
+      <OUTLOOK>未来6-12个月，电力与轨道基础设施将成为最稀缺资源，驱动新一轮垂直整合与跨行业并购。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会集中在AI专用电力解决方案、冷却技术及轨道数据中心相关初创公司。</OPPORTUNITY>
+      <RISK>若消费者付费渗透率持续低迷，当前盈利驱动叙事可能面临宏观经济下行时的突然逆转。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Instinct完成10亿美元C轮融资，由Sequoia、Coatue、Benchmark领投，估值达100亿美元。</ITEM>
+    <ITEM category="投融资快讯">GMI Cloud完成6.68亿美元融资，其中2.23亿美元股权由ARCHIV领投，NVIDIA跟投。</ITEM>
+    <ITEM category="投融资快讯">AMD拟以82亿美元收购World Labs，待监管批准，标志硬件巨头直接布局世界模型。</ITEM>
+    <ITEM category="VC views">a16z指出AI buildout资金50%流向芯片、20%流向电力，强调非芯片环节战略价值，创始人长期持有私有股权仍是核心资产类别。</ITEM>
+    <ITEM category="VC views">Lightspeed分析Agent驱动购物将重塑亚马逊680亿美元广告业务，早期采用可能集中在重复购买品类而非高感知决策品类。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek与Qwen等开源模型在成本效率上持续领先，已占据Vercel AI Gateway显著份额，但在中国AI token消耗中视频/世界模型占比约70%，显示其在具身智能与物理世界建模上已形成独特优势，值得全球关注。</ITEM>
+    <ITEM category="全球映射">太空AI算力与Optimus硬件优化加速下，中美AI博弈风险从模型性能转向基础设施与供应链控制，中国需警惕台积电保守扩产导致的算力时间错配风险。</ITEM>
+    <ITEM category="全球映射">商汤SenseNova U1.5多模态模型更新虽未完全官方核验，但8B参数MoT架构显示中国企业在统一视觉推理生成方向的快速迭代，有望在科学计算工具包领域与Anthropic形成互补。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="sama" role="OpenAI CEO">6.1 Sol是我们增长最快的模型，此前负载下有点慢。现在应该好多了！同时，你应该能在任何需要的地方使用你的AI订阅。❤️ 9572 | 💬 781</TWEET>
+    <TWEET account="elonmusk" role="xAI/SpaceX CEO">Grokipedia v0.3刚刚发布。加入@SpaceXAI，一起创造银河百科全书！❤️ 17294 | 💬 1010</TWEET>
+    <TWEET account="ylecun" role="Meta Chief AI Scientist">你是支持智能还是反对智能？更多智能本质上是好的还是危险的？AI放大人类智能，让人们更聪明、更有效率。想要把智能控制在少数公司或政府手中，就是新蒙昧主义或新封建主义。❤️ 965 | 💬 242</TWEET>
+    <TWEET account="anthropicai" role="Anthropic">在物理学中，“阻抗失配”指两个系统各自运行良好但匹配不佳。AI与科学之间正发生类似情况。我们需要专门工具包来激发AI在定量科学中的优势。❤️ 1971 | 💬 165</TWEET>
+    <TWEET account="bindureddy" role="Abacus AI CEO">Gemini 4 Argon定价是公告中最亮眼的部分——比Astra便宜5倍。基准看起来很惊人（笑）。我们已将100%编码Agent转回Fable 5.1，它仍遥遥领先，需要最少监督。❤️ 655 | 💬 56</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity AI">Perplexity Computer现在能直接在线程中创建交互式图表和可视化。对于金融数据，我们使用TradingView Lightweight Charts来绘制K线、成交量和移动平均线。❤️ 256 | 💬 28</TWEET>
+    <TWEET account="nvidia" role="NVIDIA">最高8倍加速，这就是为什么OpenAI GPT-6 Astra Ultrafast能在NVIDIA上运行。❤️ 283 | 💬 32</TWEET>
+    <TWEET account="c_valenzuelab" role="Runway Co-founder">每个像素都将被生成。❤️ 208 | 💬 5</TWEET>
+    <TWEET account="togethercompute" role="Together AI">开源模型已从一年前的10% token份额上升到78%，Agentic工作负载主要运行在开源模型上。软件工程的未来将建立在开放模型之上。❤️ 10 | 💬 4</TWEET>
+  </TOP_PICKS>
+</REPORT>
