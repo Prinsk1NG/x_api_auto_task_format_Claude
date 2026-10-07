@@ -1,0 +1,79 @@
+<REPORT>
+  <COVER title="AI数学革命：722篇论文重塑科研" prompt="Minimalist scientific data visualization showing intricate mathematical equations and geometric proofs flowing as luminous neural node networks, clean white marble-like surface with subtle holographic overlays of Lean verification trees and zeta function graphs, a single focused beam of cinematic side lighting casting precise shadows to emphasize depth and discovery, high-contrast 8K resolution with microscopic detail on symbol connections, no neon or cyber elements, pure intellectual architecture in a vast empty research chamber." insight="AI从工具跃升为数学发现者，科研加速时代开启"/>
+  <PULSE>AI深度介入基础科学发现，OpenAI大规模数学成果发布成行业分水岭，同时本地多模态嵌入与高效决策模型推动实用普惠转向。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>AI数学革命：OpenAI一次性发布722篇原创论文</TITLE>
+      <NARRATIVE>这是行业分水岭事件：OpenAI内部前沿模型（强于Astra）针对真实未解问题产出372组成果，覆盖数论、代数几何、黎曼ζ函数等，160+篇附Lean形式化证明。回应数学家公开信与顾问组建议，选择GitHub开放+研讨会资助而非私有炫耀，标志AI从“解题工具”变为独立科研参与者，彻底改变数学研究范式。</NARRATIVE>
+      <TWEET account="openai" role="官方">我们发布内部前沿模型产生的大量全新数学成果，已咨询普林斯顿高等研究院独立数学与AI顾问组并采纳其发布建议。（❤️ 12083 | 💬 615）</TWEET>
+      <TWEET account="dotey" role="观察者">OpenAI一次性公开722篇AI写的数学论文，涉及π无理性测度、卡塔兰常数、霍奇猜想等，160篇有Lean证明，顾问组建议被部分采纳，将资助研讨会帮助数学界消化。（❤️ 100 | 💬 22）</TWEET>
+      <CONSENSUS>行业共识转向认可AI可独立产出可验证的原创数学知识，需与人类数学家协作而非取代，开放验证成为标配。</CONSENSUS>
+      <DIVERGENCE>争议在于成果可信度（部分未形式化可能有错）和是否应停止私有模型攻难题；Gary Marcus强调需神经符号结合才具通用性。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Google开源EmbeddingGemma 2：本地多模态嵌入新里程碑</TITLE>
+      <NARRATIVE>既有本地隐私AI叙事获关键突破：740M参数原生多模态嵌入模型，支持文本、代码、图像、视频、音频统一表征，上下文4倍于前代，超越2倍大模型，在设备上实现一句话搜照片/视频/录音的RAG，无需联网，内存仅191-567MB。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">推出EmbeddingGemma 2，首个开源原生多模态嵌入模型，740M参数处理文本/代码/图像/视频/音频，适合离线隐私RAG，与Gemma 4搭配，权重已在Hugging Face上线。（❤️ 5502 | 💬 288）</TWEET>
+      <TWEET account="dotey" role="观察者">Google发布EmbeddingGemma 2，可在手机本地用一句话搜照片、视频、录音，所有格式统一嵌入，8K上下文，隐私数据不离设备，已开源。（❤️ 29 | 💬 9）</TWEET>
+      <CONSENSUS>行业新共识是在设备端实现高质量多模态检索已可行，隐私优先RAG将成为默认基础设施。</CONSENSUS>
+      <DIVERGENCE>仍未解决长视频/复杂音频的极端边缘案例精度，以及如何在极低功耗设备上进一步压缩延迟。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>决策模型崛起：置信阈值下的“快思考”范式</TITLE>
+      <NARRATIVE>这一全新叙事定义了Agent时代新工具：非生成文本而是直接输出决策概率的Jev-like模型，结合“思考快一点但在置信阈值下少思考”的机制，实现大规模并行Agent决策，极大降低token消耗与延迟，Rauchg与Simonw均在推动其实用化。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">“快思考且在置信阈值下少思考一点”。这一简单功能将对大规模AI决策产生极大影响。（❤️ 79 | 💬 27）</TWEET>
+      <TWEET account="simonw" role="开发者">我发布了一个LLM插件，可将prompt发送给OpenAI新Jev-clone决策模型（基于GPT-6 Luna）。（❤️ 56 | 💬 24）</TWEET>
+      <OUTLOOK>未来6-12个月，Agent将从串行生成转向同时思考上千步，决策API成本或降至每百万token几美分，彻底改变个人与企业工作流。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投决策模型路由层、Agent编排基础设施，以及针对高频低延迟场景的垂直应用（如金融CFO Agent）。</OPPORTUNITY>
+      <RISK>短期可能仍是实验性，需验证在高风险决策中的鲁棒性，存在“过度自信”导致的系统性偏差风险。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>中国开源模型主导简单任务 美国前沿性价比遭质疑</TITLE>
+      <NARRATIVE>过去聚焦前沿性能的共识发生转向：bindureddy等指出中国开源模型（尤其是DeepSeek）在简单/个人Agent任务上远超美国模型，推理成本几乎为零，GLM 5.5即将发布将进一步拉大实用差距，美国实验室需重新评估中档模型策略。</NARRATIVE>
+      <TWEET account="bindureddy" role="AI观察者">中国开源模型在简单任务上特别出色，没有美国模型或前沿实验室能接近，DeepSeek仍是简单个人Agent的最佳选择，推理成本几乎为零！（❤️ 267 | 💬 45）</TWEET>
+      <TWEET account="bindureddy" role="AI观察者">美国和欧洲模型声称达到GLM 5.2水平……而GLM 5.5即将发布，西方开源要追上中国模型还需3-6个月。（❤️ 74 | 💬 8）</TWEET>
+      <CONSENSUS>最新共识是中国模型已在实用、成本敏感场景取得决定性优势，Top1%支出虽仍在美国工具，但大众/个人Agent将转向中国开源栈。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点是这一优势能否扩展到前沿难题，以及美国实验室是否会通过蒸馏或合作快速反超。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>网络安全AI验证程序扩张：Anthropic与Mistral双核驱动</TITLE>
+      <NARRATIVE>既有AI安全叙事获深度推进：Anthropic扩大Cyber Verification Program，向验证安全专家开放Claude Mythos 5.1/Opus 5.5用于防御与授权进攻（渗透测试）；Mistral Large 4在CTF基准解决19/19挑战之一，成为全球最强网络安全模型之一。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方">我们扩大Cyber Verification Program，让安全专业人士可访问Claude Mythos 5.1、Opus 5.5和Sonnet 5.5，用于防御工作并开放新层级授权进攻如渗透测试。（❤️ 3419 | 💬 297）</TWEET>
+      <TWEET account="mistralai" role="官方">Mistral Large 4是全球最强网络安全AI模型之一，在19个CTF挑战中用工具调用解决18个。（❤️ 1874 | 💬 61）</TWEET>
+      <CONSENSUS>行业已形成“安全即验证工程+红蓝队AI协同”的新共识，独立验证程序将成为模型发布前提。</CONSENSUS>
+      <DIVERGENCE>推进后仍存争议：进攻能力开放是否会增加误用风险，以及如何在全球监管下平衡透明与国家安全。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">OpenAI完成1220亿美元融资承诺，投后估值达8520亿美元，投资方包括软银、a16z、亚马逊、英伟达、微软；DeepSeek拟融资约120亿美元，目标估值750亿美元。</ITEM>
+    <ITEM category="VC views">a16z指出Top1% AI用户每月花费903美元，主要投向n8n、fal、Manus等构建/自动化工具，驱动行业半数收入，强调“构建者经济”远未结束。</ITEM>
+    <ITEM category="VC views">Lightspeed领投Avarra 1700万美元A轮，用于AI销售教练Avatar，累计每周超1万次角色扮演训练；Valon以23亿美元估值完成1.5亿美元D轮，6个月内签下2亿美元抵押贷款服务合同。</ITEM>
+    <ITEM category="VC views">Reflection AI开源501B Beam模型获Lightspeed关注，专注编码/推理/Agent负载，企业级部署机会浮现。</ITEM>
+    <ITEM category="投融资快讯">Serval获Sequoia注资，专注AI时代IT Agent，取代传统票务系统，目标重塑企业内部支持流程。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek在简单个人Agent和日常任务上表现卓越，推理成本接近零，远超多数美国模型；GLM 5.5呼声高涨，中国开源已将与西方实用差距缩小至3%，Kimi/Qwen等在RAG与多模态本地部署上形成独特优势，但需警惕高质量验证工程的相对滞后。</ITEM>
+    <ITEM category="全球映射">中国模型在易用性和成本端的领先正迫使OpenAI/Anthropic重新评估中档订阅策略，未来6个月西方可能加速蒸馏中国开源成果，形成“中美双轨”实用AI生态。</ITEM>
+    <ITEM category="全球映射">监管风险上升：若中美在AI安全验证（如Anthropic程序）上脱钩，中国企业或在新兴市场（如东南亚）获得更快部署窗口，但需面对出口管制与数据主权壁垒。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">Grok @Bot可以成为你的个人首席财务官！（❤️ 17773 | 💬 1372）</TWEET>
+    <TWEET account="simonw" role="开发者">有人知道模型从什么时候开始能创作像样的音乐了吗？我让Opus 5.5“给我写一些电脑游戏音乐”，结果远超预期。（❤️ 238 | 💬 108）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">我们正在进入一个新的发现时代。（❤️ 3134 | 💬 313）</TWEET>
+    <TWEET account="gdb" role="OpenAI">朝着加速科学发现和改善每个人生活质量的方向前进。（❤️ 511 | 💬 40）</TWEET>
+    <TWEET account="packym" role="投资者">大多数人还没理解一群个人Agent能带来多大杠杆。我同时指挥多个专精Agent为我工作。（❤️ 86 | 💬 9）</TWEET>
+    <TWEET account="a16z" role="风投机构">Top1% AI重度用户主要为构建、自动化和交付工具付费，他们使用n8n的可能性是普通用户的23倍。（❤️ 68 | 💬 9）</TWEET>
+    <TWEET account="kevinweil" role="OpenAI产品主管">AI x 数学大胜利。今天OpenAI的发布太惊人了，物理科学同级别模型指日可待。（❤️ 108 | 💬 8）</TWEET>
+    <TWEET account="garymarcus" role="批评者">OpenAI新数学成果仍需符号AI（Lean等）辅助，并不代表AGI；神经符号结合必要但世界模型仍是关键。（❤️ 15 | 💬 5）</TWEET>
+    <TWEET account="lightspeedvp" role="风投">机器人公司需更好标准化测试以比较模型，尤其安全决策；部署公司（DeployCos）或成新机会。（❤️ 14 | 💬 4）</TWEET>
+    <TWEET account="aravsrinivas" role="Perplexity CEO">Perplexity Decision API价格已砍半，现在每百万输入token仅2美分。（❤️ 137 | 💬 20）</TWEET>
+  </TOP_PICKS>
+</REPORT>
