@@ -1,0 +1,80 @@
+<REPORT>
+  <COVER title="AI认知漏斗：60亿人活在2022，5000人已到2100" prompt="A highly detailed minimalist data visualization showing a dramatic vertical funnel narrowing from a vast bottom layer of 6 billion simplified human silhouettes in muted grayscale (representing 2022-era understanding) to a tiny elite cluster of 5000 glowing neural nodes at the apex in sharp cyan and gold. The funnel walls are composed of cascading binary code and token streams that become increasingly complex and three-dimensional toward the top. Cinematic volumetric lighting with soft god rays piercing through data layers, ultra-clean tech aesthetic, 8K resolution, sharp focus on the extreme cognitive stratification, neural connection particles flowing upward only through the narrow neck, no neon or cyberpunk elements." insight="AI能力理解形成极端分层：大众视其为聊天机器人，前沿精英已生活在机器速度的未来。"/>
+  <PULSE>今日硅谷核心叙事转向AI能力认知的垂直漏斗与自我迭代机制突破，模型性价比剧烈震荡正加速精英与大众的认知鸿沟。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>AI能力认知漏斗：60亿人活在2022 vs 5000人活在2100</TITLE>
+      <NARRATIVE>Karpathy指出AI理解正形成极端分层：60亿人几乎未接触大模型，10-20亿人仅视其为略好的搜索工具，而2000万专业人士已在数学编程领域看到Agent几周完成过去数月工作，最顶层约5000人则目睹数千Agent集群攻克零日漏洞、推进数学前沿。这一新叙事揭示能力 jaggedness、问题规模与访问权限共同制造的“漏斗”，过去历史记忆中虽有slop与消费分层讨论，但今日推文首次将之明确为社会心理断层。</NARRATIVE>
+      <TWEET account="karpathy" role="前沿研究者">Karpathy重发四月推文称LLM能力理解差距正在扩大，已从“两群人各说各话”变成尖锐漏斗：约60亿人（75%人口）几乎没接触过LLM；10-20亿人是免费版ChatGPT的 casual 用户，把它当更好版Google或写作助手；约2000万专业人士（0.2%）亲眼看到过去需数周数月的复杂项目现在用prompt和Agent几天完成；最顶层约5000人（0.00006%）使用内部前沿系统，看到数千Agent集群在数周内完成零日漏洞、网络攻防、新科学发现和数学前沿推进，而人类审查已开始跟不上。漏斗由问题野心、能力jaggedness（仅在可验证数字领域爆发）和访问层级共同驱动。❤️ 22092 | 💬 974</TWEET>
+      <OUTLOOK>未来6-12个月，这一认知漏斗将加剧社会撕裂：顶级实验室与少数企业内部用户继续垂直加速，而大众与多数专业人士仍停留在“derpy chatbot”认知，政策与教育需紧急应对这一断层。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投资“认知桥梁”工具：面向非技术高管的AI解释与可视化平台、面向企业的“内部前沿预览”沙箱服务，以及帮助传统行业将大问题转化为可验证Agent任务的咨询公司。</OPPORTUNITY>
+      <RISK>短期内可能被视为精英焦虑的夸大叙事，若大众通过消费级Agent获得切实ROI，漏斗或自然收窄；技术硬伤在于当前模型仍高度依赖人工 curation 的可验证环境。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Sakana AI MASS：多代理自我监督突破人类监督瓶颈</TITLE>
+      <NARRATIVE>Hardmaru介绍Sakana AI新论文《Recursive Self-Improvement through Multi-Agent Self-Supervision》，针对开放式研究中“监督瓶颈”提出MASS机制：让单一模型将自身副本组织成结构化团队，迭代优化多代理工作流，再将成功轨迹蒸馏回基础模型。经过两轮循环，27B开源模型在MLR-Bench等严苛基准上每token性能提升1.2-1.6倍，多代理轨迹成为比单代理更好的训练数据。这是既有自我改进与多代理叙事的深度推进，历史记忆中LeCun与a16z曾讨论自我改进壁垒，今日推文给出可落地实现路径。</NARRATIVE>
+      <TWEET account="hardmaru" role="Sakana AI研究者">Sakana AI团队新论文：通过多代理自我监督（MASS）实现递归自我改进。当任务复杂到人类无法可靠评估时，如何持续改进AI？MASS受Minsky《Society of Mind》启发，让模型把自身副本组织成团队，交替进行工作流优化（演化子代理沟通路由）和工作流内化（将成功多代理轨迹微调进共享模型）。用27B开源模型两轮循环后，在MLR-Bench、ScienceAgentBench等研究基准上每输出token性能提升1.2-1.6倍，多代理轨迹是比单代理更好的训练数据。❤️ 523 | 💬 29</TWEET>
+      <CONSENSUS>行业已形成新共识：当人类监督失效时，让模型自我组织成“社会”并蒸馏协调行为，是通往真正递归自我改进的可行机制，多代理轨迹优于单代理数据。</CONSENSUS>
+      <DIVERGENCE>推进后仍存争议：MASS是否会放大模型自身盲点而非纠正？在真实开放世界而非基准上能否稳定收敛？以及如何防止同质化循环。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>编码商品化后设计升至新代码核心价值</TITLE>
+      <NARRATIVE>Figma CEO Dylan Field通过a16z指出，随着编码模型持续进步，价值将从代码本身上升到外循环架构、产品设计、品牌判断与战略决策。设计成为塑造AI原生产品的中心。这是对过去“代码是王道”共识的重大转向，历史记忆中a16z曾讨论Agent token消耗与意图验证，今日推文明确指出当执行成本趋零，判断与设计成为稀缺资源。</NARRATIVE>
+      <TWEET account="a16z" role="Figma CEO访谈">Figma的Dylan Field表示：如果你相信编码模型会持续变好，那么真正重要的是外循环架构、你如何决定构建系统，而非代码本身。代码只是材料，价值会上升到品牌、产品设计、营销、世界观以及你的判断与战略。产品设计处于这一切的中心。对于设计师，如果他们能站出来，将扮演更大角色。❤️ 62 | 💬 14</TWEET>
+      <CONSENSUS>最新行业共识是：编码将成为商品，设计、战略判断与“为什么这么建”将成为AI时代产品护城河的核心。</CONSENSUS>
+      <DIVERGENCE>激烈争论在于：并非所有设计师都能“站出来”转型为战略家；部分人仍坚持“我喜欢原来做的事”，这是否会导致设计人才断层。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Gemini Argon以5倍低价超越Fable与Astra</TITLE>
+      <NARRATIVE>bindureddy发文称Gemini Argon表现极为出色，击败Fable和Astra且价格仅为其1/5，将迫使这两款模型降价。这一转向挑战过去“前沿性能至上”共识，转向极致性价比与自动价格战，与历史记忆中bindureddy此前指出中国开源模型主导简单任务、美国前沿性价比遭质疑形成延续但更激进的转向。</NARRATIVE>
+      <TWEET account="bindureddy" role="独立分析师">十月黑马——Gemini Argon太强了，它同时击败Fable和Astra，而且价格只有它们五分之一。它将自动迫使Astra和Fable降价。这一可能性约为55%。此外Fable 5.1编码很强但数据分析极差，而Astra在复杂数据分析上表现出色，Argon将在数据分析上同时优于两者。❤️ 463 | 💬 76</TWEET>
+      <CONSENSUS>市场新共识是：极致便宜的高性能模型将引发连锁价格战，前沿实验室必须在保持质量同时快速下调定价，否则将被开源与云厂商蚕食。</CONSENSUS>
+      <DIVERGENCE>目前争论焦点是Argon的“击败”是否可持续，以及实验室是否会选择利润保护而非全面价格战。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>超级智能用亿级模拟群集解决大众机器人</TITLE>
+      <NARRATIVE>bindureddy提出新范式：超级智能将通过让Agent群集运行数十亿次物理世界机器人模拟，挑选最佳模型并落地真实世界，从而快速解决大众市场机器人问题。这一叙事首次将“模拟即新scaling law”与机器人量产直接结合，试图解决泛化与数据瓶颈，是今日推文中全新观点。</NARRATIVE>
+      <TWEET account="bindureddy" role="独立分析师">超级智能很快将解决大众市场机器人问题：让Agent群集对一个机器人模型在物理世界运行数十亿次模拟，挑选最佳模型拿到真实世界尝试，从而制造能完美完成蓝领体力工作的量产机器人。❤️ 76 | 💬 12</TWEET>
+      <OUTLOOK>未来6-12个月，这一路径若被验证，将极大加速人形机器人从实验室走向工厂与家庭，Optimus等项目成本曲线可能陡峭下降，机器人成为AI基础设施标配。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于模拟基础设施、物理世界建模数据平台、以及“模拟-to-real”迁移专精的机器人训练公司。</OPPORTUNITY>
+      <RISK>存在技术硬伤：当前模拟与真实物理的reality gap仍巨大，数十亿次模拟的算力成本可能超出预期，短期或仍是概念泡沫。</RISK>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>微软CEO呼吁重塑AI信任架构</TITLE>
+      <NARRATIVE>TechCrunch报道微软CEO周末发文称是时候“退后一步评估AI的信任架构”。这成为行业分水岭事件，标志着从单纯性能竞赛转向系统性信任与治理框架构建，将深刻影响企业采用速度与监管走向。</NARRATIVE>
+      <TWEET account="techcrunch" role="媒体">周六早上，微软CEO发文称现在是“退后一步评估AI信任架构”的时候了。❤️ 38 | 💬 21</TWEET>
+      <CONSENSUS>市场一致解读为：顶级科技公司开始将信任、安全与可验证性置于与性能同等优先级，治理层将成为下一代AI产品的核心卖点。</CONSENSUS>
+      <DIVERGENCE>质疑声音在于这是否只是公关姿态，抑或会真正放缓内部前沿研发；后续风险是“信任架构”定义权可能引发新监管竞赛。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">TypeSafe AI完成8.7亿美元A轮融资，由a16z领投，估值75亿美元。</ITEM>
+    <ITEM category="投融资快讯">Arena完成2亿美元B轮融资，Lightspeed与Khosla共同领投，估值31亿美元。</ITEM>
+    <ITEM category="投融资快讯">ElevenLabs完成3亿美元员工要约收购，估值220亿美元。</ITEM>
+    <ITEM category="VC views">a16z指出Agent token消耗已接近人类的5倍且6个月增长14倍，下一批用户将是机器，基础设施需彻底为Agent重构。</ITEM>
+    <ITEM category="VC views">Nvidia计划投资AI芯片竞争对手d-Matrix，以确保其硬件能与竞品协同，进一步巩固AI基础设施主导地位。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek仍是简单个人Agent与数据分析的最佳选择，推理成本接近于零；GLM-5.3已正式上架Amazon Bedrock并按调用量与亚马逊分成；Qwen3.5系列在价格表中展现极强性价比（输入0.03美元/百万token），中国开源模型在简单任务上继续主导，美国前沿实验室性价比遭持续质疑。</ITEM>
+    <ITEM category="全球映射">中国模型以近乎零成本推理主导中低阶任务，正迫使Anthropic、OpenAI等调整定价策略；若GLM与DeepSeek继续快速迭代，西方可能需3-6个月才能在开源领域追平，全球AI基础设施投资正出现“中国性价比 vs 美国前沿”双轨并行格局。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="dotey" role="观察者">Andrej Karpathy指出人们对AI能力的理解差距正在扩大，这种认知差距正在变成一个漏斗。约60亿人几乎没接触过大模型，10-20亿人偶尔用免费版ChatGPT，觉得用处不大；约2000万人在编程数学领域重度使用前沿模型，看到Agent几天完成过去数月工作；最顶层5000人使用内部系统目睹集群级突破。差距源于问题规模、能力jaggedness（仅在可验证领域爆发）和访问权限。❤️ 300 | 💬 52</TWEET>
+    <TWEET account="dotey" role="开发者">用REA小试牛刀逆向了Claude Slides的编辑器，几乎完整功能。我的流程是先下载核心脚本样式，让Codex安装REA，用REA Skill逆向混淆代码，再用Claude Code 5.5重写整理。提示词上我没有直接逆向，而是让模型基于目标规范重新生成类似功能，效果几乎一样。❤️ 651 | 💬 94</TWEET>
+    <TWEET account="a16z" role="管理哲学讨论">Airbnb CEO Brian Chesky拒绝经典管理哲学中的 recurring one-on-ones。他认为CEO应与员工见面但不必定期；大多数 recurring 会议应是 group meeting；如果公司有很多敏感一对一话题，那公司本身就有问题。伟大CEO如Jensen Huang也不做 recurring 1:1。❤️ 303 | 💬 20</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">这太酷了。学习的未来。❤️ 2211 | 💬 53</TWEET>
+    <TWEET account="ylecun" role="Meta首席科学家">我们必须坚持使用能用少量简短公式表达、采用常见数学原语的模型。这其实是一种归纳偏置或正则化，正如符号回归所使用的。但我们为什么认为这就好呢？❤️ 7 | 💬 4</TWEET>
+    <TWEET account="theinformation" role="媒体">AI公司承诺虚拟员工能承担整个工作，但前OpenAI研究员认为当前模型设计目的是辅助人类而非独立运作。❤️ 10 | 💬 4</TWEET>
+    <TWEET account="nvidia" role="官方">柏林，你穿CUDA真好看。#NVIDIAGTC即将到来，我们从电视塔打个招呼。❤️ 506 | 💬 62</TWEET>
+    <TWEET account="vista8" role="观察者">现在AI给出方案时，看两行就忍不住回复“你干吧”。模型能力大幅提升后，很多人都懒得思考了，前额叶估计会萎缩。AI时代马上要有健脑房了吧。❤️ 16 | 💬 37</TWEET>
+  </TOP_PICKS>
+</REPORT>
