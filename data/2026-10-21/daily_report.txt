@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="Claude 30万设计对抗蝎毒：AI生物医药分水岭" prompt="Ultra-realistic scientific visualization of AI assisting protein design, showing intricate molecular structures of scorpion neurotoxins binding to designed protein inhibitors. Foreground features glowing neural network nodes connected to 3D protein folding models with precise binding sites highlighted in cyan. Background is a pristine high-tech laboratory with holographic data overlays displaying 300,000 generated candidates converging into 211 validated designs. Cinematic lighting with soft volumetric rays, sterile white and clinical blue color palette, extreme macro detail on molecular interfaces, 8K resolution, photorealistic textures on glass and metal surfaces, sense of breakthrough discovery and accelerated scientific progress." insight="AI生物医药进入实战阶段：Claude蛋白设计+OpenAI收购加速药物研发，本地Agent与开源推理同步爆发。"/>
+  <PULSE>今日硅谷核心叙事转向AI深度嵌入生物医药全链路（蛋白设计、药物协调），叠加本地化Agent落地与中国开源推理框架的效率军备竞赛，硬件制造瓶颈与 collapsing intelligence cost 成为新焦点。</PULSE>
+
+  <THEMES>
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Claude蛋白设计实战：30万候选对抗全球蝎毒</TITLE>
+      <NARRATIVE>Anthropic将Claude应用于蝎毒蛋白结合剂设计，64小时内生成超30万设计方案并筛选211个送实验室验证，17个成功结合来自墨西哥、北非、中东毒素。这是既有“AI for Science”叙事的深度推进，历史记忆中Claude曾完成量子电路设计和九循环计算，此次将能力延伸至真实湿实验验证，标志着从理论模拟到可测试候选物的关键里程碑。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方账号">Anthropic科学博客发布新成果：Claude针对蝎毒设计蛋白结合剂。蝎子每年叮咬120万人，抗毒血清常短缺昂贵。Claude在64小时内生成超30万设计，211个送往实验室测试，17个成功结合危险毒素。我们已开放所有设计和实验室数据供科学家使用。（❤️5254 | 💬362）</TWEET>
+      <CONSENSUS>行业共识转向“AI已可直接产出可实验室验证的生物设计”，不再停留在模拟阶段，加速从概念到候选物的周期。</CONSENSUS>
+      <DIVERGENCE>仍需经过细胞、动物实验等漫长验证，部分声音质疑当前成功率是否足以支撑商业抗毒血清开发。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>OpenAI收购Orchestra Bio：AI重塑药物开发协调</TITLE>
+      <NARRATIVE>OpenAI收购Orchestra Bio平台，结合其Rosalind生命科学AI模型，旨在简化生物制药团队复杂的药物开发流程。这是AI进入生物医药商业化运营层的重大里程碑，改变以往孤立模型应用模式，转向全流程Agent式协调，直接影响新疗法上市速度。与历史记忆中OpenAI捐赠500万美元支持数学社区形成延续，显示其正系统性布局科学领域。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">OpenAI已收购Orchestra Bio，该平台帮助生物制药团队协调复杂的药物开发流程。我们将基于Rosalind生命科学AI模型进一步优化流程，让新疗法更快抵达患者。欢迎团队加入！（❤️5252 | 💬326）</TWEET>
+      <CONSENSUS>市场一致认为这是AI从“辅助研究”迈向“运营基础设施”的分水岭事件，生物制药供应链将大规模Agent化。</CONSENSUS>
+      <DIVERGENCE>多Agent协调在实际37个Agent并行时仍暴露当前局限，临床试验协调加速潜力待进一步验证。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Perplexity本地Mac Agent：隐私优先的消费级落地</TITLE>
+      <NARRATIVE>Perplexity Computer现可在Mac上完全本地运行，使用PPLX Pro（Qwen 3.8后训练版），支持原生Mac应用和本地文件，无需将敏感数据上传云端。这是全新“本地优先Agent”叙事，试图解决云端隐私与延迟双重痛点。不同于历史记忆中大量Agent逃逸或云沙箱事件，此范式将计算直接推向边缘设备。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="官方账号">Perplexity Computer现已可在你的Mac上完全本地运行。与原生Mac应用和本地文件协同工作，无需将敏感数据发送到云端。模型和Agent均在本地执行，已在Perplexity Mac应用中可用。推荐36GB统一内存。（❤️1177 | 💬114）</TWEET>
+      <OUTLOOK>未来6-12个月，本地Agent将从开发者工具扩展至主流消费级生产力场景，隐私合规需求将驱动更多混合计算架构出现。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注本地推理引擎、Apple Silicon优化工具链及隐私沙箱基础设施的投资机会。</OPPORTUNITY>
+      <RISK>本地模型性能仍落后云端前沿模型，36GB内存门槛可能限制大众普及，短期或仍是专业用户工具。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>DeepSeek开源DeepInfer：推理框架印钞机级性能</TITLE>
+      <NARRATIVE>DeepSeek全面开源内部推理框架DeepInfer，支持分布式推理、推测解码和结构化输出，可运行于英伟达与华为昇腾平台。基于该框架的V4.1 Flash单一集群日吞吐达155万亿Token，按谷电价每卡每小时收入约38美元。vLLM项目已验证可复现其解码性能在6%以内。这是中国开源在推理基础设施上的深度推进，直接提升行业可复制性。</NARRATIVE>
+      <TWEET account="vista8" role="行业观察者">国产之光！Agent Arena榜单开源模型第1名，总榜11名。DeepSeek今日开源内部推理框架DeepInfer。大家一直夸其infra能力，现在代码公开了。（❤️59 | 💬43）</TWEET>
+      <TWEET account="vllm_project" role="开源项目官方">vLLM完全可复现DeepSeek性能。在GB200上解码性能与DeepInfer差距6%以内，在AgentX负载上实现每GPU最高100万token/s，按DeepSeek离峰定价每GPU每小时收入38.96美元。（❤️71 | 💬5）</TWEET>
+      <CONSENSUS>行业新共识是中国开源推理栈已达“印钞机”级别，西方项目正快速跟进复现，infra开源成为核心竞争力。</CONSENSUS>
+      <DIVERGENCE>如何在昇腾等非英伟达硬件上实现同等稳定性，以及商业化定价策略是否可持续仍存争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>从云端Agent到本地持久化：Vercel开源耐久运行时</TITLE>
+      <NARRATIVE>rauchg宣布开源极快的HTML artifact构建器及耐久性基础设施，扩展至Pi、OpenCode等框架，甚至可让Claude Code和Codex实现耐久与可观测。这是Agent基础设施叙事从“云逃逸风险”转向“本地/混合持久化”的重大转向。历史记忆中rauchg曾多次警告Agent containment问题，今天方案聚焦让Agent更韧性而非单纯限制。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">我们开源了一个极快的HTML artifact构建器，让Agent更具韧性。此前为v0构建低层管道应对崩溃和不稳定LLM非常痛苦。现在它免费开源。我们还将耐久基础设施扩展到所有框架，即使Claude Code和Codex也能变得耐久且可观测。（❤️1516 | 💬142）</TWEET>
+      <CONSENSUS>最新共识是Agent基础设施必须同时解决“耐久性、观测性和跨框架兼容”，云端不再是唯一选项。</CONSENSUS>
+      <DIVERGENCE>当前这些框架嵌入效率仍低于原生设计，如何平衡人类可读文档与Agent专用接口仍是未解之谜。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Mistral Voxtral 3：语音Agent自然对话新范式</TITLE>
+      <NARRATIVE>Mistral推出Voxtral 3语音转录与Speech模型，构建在LiveKit之上的语音Agent SDK，实现“听-思考-工具调用-说话”端到端流式管道，可检测说话结束并无延迟响应。这是全新实用语音Agent叙事，聚焦真实世界对话自然度，而非单纯多模态基准。</NARRATIVE>
+      <TWEET account="mistralai" role="官方账号">推出Voxtral 3：SOTA Transcribe和Speech模型，驱动Mistral全新语音Agent API。Voxtral Small在多语言转录、说话者区分和上下文偏置上领先，能检测说话结束让Agent即时响应。引入基于LiveKit的语音Agent SDK，实现自然智能对话。（❤️2511 | 💬169）</TWEET>
+      <OUTLOOK>未来6-12个月，语音Agent将从实验进入企业客服与个人助理主流，端到端流式管道将成为新标配。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于LiveKit式实时通信基础设施、特定垂直领域语音Agent应用及多语言SOTA模型微调服务。</OPPORTUNITY>
+      <RISK>真实世界噪声和长上下文对话下的鲁棒性仍待大规模验证，可能存在隐藏的延迟或幻觉风险。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">OpenAI收购Orchestra Bio（金额未披露），强化Rosalind生命科学平台；Pigment完成2.5亿美元融资，NVIDIA参投，估值23亿美元；Salesforce以约57亿美元企业价值收购AI营销平台Braze；Otter.ai获3.2亿美元非稀释融资。</ITEM>
+    <ITEM category="VC views">a16z指出AI硬件学习面临物理世界数据稀疏、非均匀、昂贵且慢速的根本限制，制造、测试与迭代成为下一战场；Pat Gelsinger称AI虽3个月完成芯片设计，但硅加工仍需9个月，制造瓶颈正成为创新最大阻碍。</ITEM>
+    <ITEM category="投融资快讯">Tolan完成3000万美元融资，由Union Square Ventures、Khosla Ventures和Homebrew领投，聚焦AI相关基础设施。</ITEM>
+    <ITEM category="VC views">a16z观察到intelligence成本在健康基准上急剧下降：GPT-6 Luna比上月最佳模型好且便宜34倍，多数智能层级一年内成本下降超100倍。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek开源DeepInfer推理框架后，V4.1 Flash单一集群日吞吐达155万亿Token，按谷电价每卡每小时收入38美元；vLLM已验证可将其性能复现至6%以内，展现中国实验室在infra上的全球领先实力，Agent Arena开源模型排名第一。</ITEM>
+    <ITEM category="全球映射">DeepSeek的开源策略正迫使西方项目（如vLLM）快速跟进复现，其高吞吐低成本路径正在重塑全球推理商业模式，而腾讯元宝搜索千亿级索引与数亿日调用也显示中国在搜索+Agent结合上的落地速度。</ITEM>
+    <ITEM category="中国 AI 评价">智谱GLM-5.3 Flash批处理达100万Token上下文，价格0.11美元/百万Token；Kimi K3与Qwen系列在第三方API榜单保持高性价比，继续拉低全球智能成本曲线。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="rauchg" role="Vercel CEO">AI将能计算出你理解与不理解的完美差值，帮助你逐步学习任何概念并解开任何谜题。如果你愿意，你将达到个人能力和智力的上限。这将是终极免费教育。（❤️1516 | 💬142）</TWEET>
+    <TWEET account="simonw" role="独立开发者">我用Claude Opus 5.5主要构建了一个《命令与征服》风格的RTS游戏《Battle Drones》，可在浏览器运行，支持通过音频链路的设备间多人对战。Claude生成了所有3D模型（Three.js）。（❤️467 | 💬103）</TWEET>
+    <TWEET account="a16z" role="机构账号"> Karan Singhal展示intelligence成本崩塌：在健康基准上，GPT-6 Luna比一个月前的最佳模型5.6 Sol更好，却便宜34倍。多数智能层级在一年左右成本下降超100倍。（❤️64 | 💬8）</TWEET>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">对X时间线推荐进行两项重要改动：新的AI/SI排序模型能更好预测用户可能花费的时间；检索模型训练为优先推送用户会读完的帖子。用户活跃秒数呈指数增长，几乎每天创历史新高。（❤️18201 | 💬1806）</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">我非常感谢Aleksander接受我们的邀请来承担这项工作。我们面对超级智能的安全与保障挑战巨大，而他拥有出色技能组合。（❤️3150 | 💬286）</TWEET>
+    <TWEET account="nvidia" role="官方账号">四个欧洲城市，一个明确信息：欧洲正在构建AI的未来。明天Jensen将在NVIDIA GTC Berlin登台继续对话。（❤️489 | 💬74）</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">想象如果George Soros敢捐100亿美元给“拜登儿童账户”，人们会多么愤怒。而Elon这样做却没人吭声，反而称其为圣人。（❤️79 | 💬13）</TWEET>
+    <TWEET account="bindureddy" role="独立分析师">Argon + Opus 5.5是绝配：Argon做深度数据分析，Opus 5.5生成惊人视觉。我一整天都在用它们分析投资组合。（❤️228 | 💬29）</TWEET>
+    <TWEET account="theinformation" role="媒体账号">营销的下一个重大转变可能是向AI Agent而非人类销售。Salesforce正在收购AI公司，为这个根本不同的未来做准备。你不再针对人类眼球营销，而是针对人们的Agent。（❤️1 | 💬4）</TWEET>
+  </TOP_PICKS>
+</REPORT>
