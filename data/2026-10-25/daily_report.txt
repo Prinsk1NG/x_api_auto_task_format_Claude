@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="代理需求27倍暴增 电力成AI终极瓶颈" prompt="Cinematic strategic map visualizing explosive agentic AI growth as surging luminous data rivers of neural tokens increasing 27x from 6T to 165T weekly, colliding against a massive crumbling electrical infrastructure dam representing declining production of switchgear and transmission equipment despite ferocious price climbs. In the foreground, a precision balance scale weighs over-guiding versus under-guiding superintelligent AI as the #0 human skill, with open-weight models at 72% dominance flowing through industrial circuits. Grand architectural metaphors blend futuristic data center ruins with strategic war-room overlays, volumetric cinematic lighting, metallic textures, subtle particle emissions, hyper-detailed 8K resolution, moody teal and ember color grading." insight="代理狂飙与电力硬约束并存，治理技能成新护城河"/>
+  <PULSE>代理需求呈前所未有指数级增长推动Token消耗27倍激增，开放权重模型主导72%份额，同时电力与电气设备成为buildout终极瓶颈，行业领袖开始严肃讨论通过计算力限制或国际监管放缓潜在危险AI。</PULSE>
+
+  <THEMES>
+    <THEME type="advance" emoji="🚀">
+      <TITLE>开放权重模型占72% Token需求 27倍增长驱动算力稀缺</TITLE>
+      <NARRATIVE>今日a16z数据显示OpenRouter Token需求自去年11月从每周6T暴增至165T，开放权重模型处理份额从28%跃升至72%，直接推高GPU租赁价格甚至老旧A100也持续升值，这标志着原有“算力紧缺”叙事进入由真实消费驱动的新深度，而非单纯供给侧炒作。</NARRATIVE>
+      <TWEET account="a16z" role="机构观察">a16z发布Charts of the Week：OpenRouter Token需求较去年11月增长约27倍（6T→165T/周），开放权重模型占比从28%升至72%，这正是GPU租赁价格持续上涨的核心驱动因素，即使老GPU也在升值。❤️ 185 | 💬 16</TWEET>
+      <CONSENSUS>行业已形成新共识：真实Token消费而非投机是当前GPU稀缺主因，开放模型正在大规模蚕食闭源份额。</CONSENSUS>
+      <DIVERGENCE>供给端电气设备产量竟在下降而非扩张，这一反常信号是否预示基础设施瓶颈将长期压制AI增长速度，仍存激烈争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Altman呼吁计算力限制放缓危险AI 行业风向转向</TITLE>
+      <NARRATIVE>历史记忆中OpenAI曾因安全暂停前沿训练并转向第三方评估，今日The Information报道Sam Altman向员工明确表示需更好机制放缓危险AI，包括国际监管、实验室合并或一家主导算力，这与过去加速竞赛叙事形成明显转向，共识开始从“越快越好”转向“可控发展”。</NARRATIVE>
+      <TWEET account="theinformation" role="媒体">Sam Altman告诉OpenAI员工，行业需要更好方式放缓潜在危险AI发展，方案包括国际监管、主要实验室合并或让一家公司主导计算资源。❤️ 22 | 💬 9</TWEET>
+      <CONSENSUS>越来越多领袖认可需通过算力或监管刹车为安全护栏争取时间，避免失控风险。</CONSENSUS>
+      <DIVERGENCE>限制计算资源是否会损害美国对中国的竞争优势，以及由谁来执行这种“刹车”，大佬间分歧巨大。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>管理AI超能力成#0技能：过度 vs 不足指导的艺术</TITLE>
+      <NARRATIVE>rauchg提出全新观点：未来AI会比人类更聪明，有时需让它主导（它知道更好），有时需强力纠正其偏差，精准管理这种“超能力”的平衡将成为顶级人才核心竞争力，此前行业焦点多在prompt工程，此叙事将人类判断力提升到新高度。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel创始人">你会有过度指导AI的时候（它比你更聪明更知道答案），也会有不足指导的时候（它会跑偏、有偏见或缺失上下文）。如何管理这种超能力，是我招聘时看的#0技能。❤️ 1412 | 💬 211</TWEET>
+      <OUTLOOK>未来6-12个月，顶级工程师与产品经理将围绕“AI共创判断力”形成新阶层，纯执行型prompt工程师价值下滑。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投资专注“AI治理与验证”工具的公司，或培训人类-AI协同判断力的教育平台。</OPPORTUNITY>
+      <RISK>该技能高度主观，短期可能成为咨询公司新 buzzword，实际落地仍需更多框架支撑。</RISK>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>电力成AI buildout最终瓶颈 电气设备产量反常下降</TITLE>
+      <NARRATIVE>Chamath直言“Power is the binding constraint”，a16z进一步指出尽管GPU租赁价狂涨、需求爆炸，但电气设备（开关gear、输电设备）产量竟在下降，这构成行业分水岭事件：AI基础设施已从芯片短缺转向能源与电网硬件硬约束，过去所有“更多GPU”假设均被颠覆。</NARRATIVE>
+      <TWEET account="chamath" role="投资人">Power is the binding constraint。这就是为什么价格会如此凶猛持续上涨。❤️ 537 | 💬 92</TWEET>
+      <CONSENSUS>市场一致认为电力与相关电气基础设施而非单纯芯片，才是未来几年AI扩张的真正天花板。</CONSENSUS>
+      <DIVERGENCE>美国能否快速逆转电气设备产量下滑趋势，以及这是否会让核能与轨道计算等激进方案成为主流，仍激烈争论。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>一小时Vibe Coding定制专属LLM 无需博士</TITLE>
+      <NARRATIVE>bindureddy提出新范式：通过Abacus AI SuperComputer，用自然语言prompt在一小时内从零训练定制LLM并在GPU上跑权重，彻底降低门槛。此前训练专属模型需专业团队与大量算力，此叙事让“每个人都有自己的垂直LLM”成为可能，直接解决个性化与数据隐私痛点。</NARRATIVE>
+      <TWEET account="bindureddy" role="创业者">Vibe Code Your Own LLM：你不再需要博士就能为特定用例定制训练LLM。只需文本prompt，一小时内就能得到专属训练权重，下周上线。❤️ 262 | 💬 82</TWEET>
+      <OUTLOOK>6-12个月内，企业与开发者将大规模部署私有垂直模型，降低对通用大厂API依赖，推动AI民主化第二波浪潮。</OUTLOOK>
+      <OPPORTUNITY>投资专注“one-click fine-tune”基础设施与垂直领域数据集的公司，消费级定制模型SaaS潜力巨大。</OPPORTUNITY>
+      <RISK>模型质量是否能稳定超越通用基础模型仍待验证，小模型蒸馏路径可能存在性能天花板。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>美开源Agentic模型Smaug-Nemotron登顶 可本地桌面运行</TITLE>
+      <NARRATIVE>bindureddy宣布基于NVIDIA最新模型的Smaug-Nemotron成为美国开源中Agentic类别最佳，不仅本地桌面可跑，还在成本/任务、Agentic coding上领先，这标志着“开源追赶闭源”叙事在Agentic垂直的里程碑突破，尤其在vLLM已能以6%差距复现DeepInfer性能的背景下。</NARRATIVE>
+      <TWEET account="bindureddy" role="创业者">Smaug-Nemotron是美国开源中最佳Agentic模型：可在桌面本地运行、Agentic coding领先、成本/任务比第一，基于NVIDIA最新模型。我们正推动美国开源边界。权重已在HF开放。❤️ 202 | 💬 81</TWEET>
+      <CONSENSUS>行业新共识是高质量开源Agentic模型已可满足多数本地与成本敏感场景，vLLM等推理栈让性能差距进一步缩小。</CONSENSUS>
+      <DIVERGENCE>这类模型在超长时域复杂任务上能否持续匹敌闭源前沿，仍是未解争议。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">TypeSafe AI完成8.7亿美元A轮，投后估值75亿美元，a16z领投，用于RL环境与反作弊训练框架。</ITEM>
+    <ITEM category="投融资快讯">Crusoe F轮首关39亿美元，投后309亿美元，用于AI数据中心与模块化算力设施建设。</ITEM>
+    <ITEM category="VC views">a16z指出GPU租赁价全面上涨（H200+160%），电力与电气设备才是真实瓶颈，开放模型Token份额72%加剧稀缺。</ITEM>
+    <ITEM category="VC views">Chamath强调电力是AI buildout唯一binding constraint，价格凶猛上涨反映供给无法响应需求。</ITEM>
+    <ITEM category="投融资快讯">Harvey获5.5亿美元融资，投后156亿美元，Lightspeed与Diffusion领投，专注法律AI自研模型。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek与Kimi（月之暗面）持续推进开源Agentic与推理框架（如DeepInfer、K3.1 Pro），在成本与本地部署上已领先多数美国模型，6个月内差距进一步缩小，但海外仍认为中国模型在复杂长期规划与安全对齐上落后约6-12个月。</ITEM>
+    <ITEM category="全球映射">中国开源性价比优势正加速全球Token消费向开放权重迁移（已72%），迫使美国云服务商与NVIDIA必须通过软件优化（如vLLM）维持竞争力，同时电力瓶颈对中国数据中心扩张同样构成硬约束。</ITEM>
+    <ITEM category="中国 AI 评价">Kimi K3.1 Pro在Terminal-Bench接近Opus 5.5且API价格仅一半，显示中国实验室在高效MoE与Agent基准上已形成局部优势，但需警惕海外对“安全风险”的放大解读。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI创始人">Agentic需求增长速度比我见过任何事物都快。❤️ 7509 | 💬 539</TWEET>
+    <TWEET account="a16z" role="机构观察">a16z Alex与Moses讨论GPU熊案：过去18个月证明所有关于GPU快速贬值的假设都错了，即使5年前的A100租金也在涨，真实消费而非投机在驱动稀缺。❤️ 82 | 💬 16</TWEET>
+    <TWEET account="ylecun" role="Meta首席AI科学家">LLM行业宣称“AGI就在拐角”😄。❤️ 125 | 💬 20</TWEET>
+    <TWEET account="chamath" role="投资人">Agents在群体运作时似乎会和人类一样出现同样的信息泄露……❤️ 475 | 💬 105</TWEET>
+    <TWEET account="vllm_project" role="开源项目">vLLM不仅匹配DeepInfer性能，在SemiAnalysis AgentX真实Agentic负载上以DeepSeek离峰定价实现每GPU每小时38.96美元收入，吞吐量954K tokens/s。❤️ 49 | 💬 8</TWEET>
+    <TWEET account="rauchg" role="Vercel创始人">软件竟然有如此多的细节……防止细微回归太难了。❤️ 16 | 💬 6</TWEET>
+    <TWEET account="theinformation" role="媒体">OpenAI与Anthropic面临越来越大的呼声，要求通过限制研究者可用算力来放缓AI开发，这可能为更好防护争取时间，但会挑战竞争优势。❤️ 10 | 💬 6</TWEET>
+    <TWEET account="oran_ge" role="观察者">随便一个模型现在都太强了，我随手就用AI做了一个鹈鹕骑自行车的游戏。❤️ 23 | 💬 12</TWEET>
+    <TWEET account="nvidia" role="英伟达">欧洲掌握的科学、工程与制造知识现在可以驱动属于自己的AI。“让我们共同构建欧洲AI经济，让AI真正工作起来”——Jensen Huang在GTC Berlin。❤️ 314 | 💬 52</TWEET>
+  </TOP_PICKS>
+</REPORT>
