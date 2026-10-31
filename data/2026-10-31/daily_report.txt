@@ -1,0 +1,73 @@
+<REPORT>
+  <COVER title="轨道TPU首响：AI基础设施奔向太空与丰裕时代" prompt="Photorealistic industrial design rendering of a sleek orbital satellite equipped with visible TPU silicon arrays floating above Earth at sunrise. The satellite features precision-machined metallic chassis with heat-dissipating fins and glowing data conduits. A single coherent haiku text projection beams downward through atmospheric layers toward a stylized ground station. Dramatic cinematic lighting with strong volumetric god rays piercing the vacuum, subtle lens flares on polished surfaces, intricate engineering textures and material realism at 8K resolution. Emphasis on scale contrast between tiny human figures at the receiving station and the vast orbital hardware. Strict industrial aesthetic, no neon, no cyberpunk, no purple tones." insight="太空AI计算里程碑叠加企业支出翻倍，Agent叙事直指工作可选的丰裕未来。"/>
+  <PULSE>硅谷今日核心叙事从轨道AI计算里程碑转向企业AI支出激增与“桌面Agent+丰裕时代”新范式，基础设施经济出现明显Rack Spread分化。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>谷歌Project Suncatcher轨道TPU首发完整响应</TITLE>
+      <NARRATIVE>今天Sundar Pichai宣布原型卫星已成功接收地面指令、启动轨道TPU并返回第一条完整俳句，这是太空AI计算从概念走向工程验证的关键分水岭事件。与历史记忆中NVIDIA将AI工厂送入轨道的愿景形成直接延续，标志AI基础设施正式摆脱地面电力与散热限制。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">Sundar Pichai宣布Project Suncatcher原型卫星里程碑：成功接收地面指令、启动轨道TPU、运行prompt并返回第一条完整俳句。这是太空AI计算的“hello world”时刻。❤️ 18119 | 💬 982</TWEET>
+      <CONSENSUS>行业一致认为轨道计算将彻底改变AI训练与推理的能源与规模边界，是继数据中心之后的新基础设施层。</CONSENSUS>
+      <DIVERGENCE>当前争论焦点在于卫星规模化部署的经济性、太空辐射对长期TPU可靠性的影响，以及是否需要国际监管框架。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Gemini 4 Carbon在WANDR长形式研究基准夺SoTA</TITLE>
+      <NARRATIVE>Arav Srinivas分享早期评测显示Gemini 4 Carbon在长形式研究与答案质量上成为目前最强模型，并在Wide-And-Deep-Research基准上取得新SoTA。这是对上周Gemini 4 Carbon发布的深度推进，证明其在非编码、需要持久上下文与多轮推理的任务上已建立明显优势。</NARRATIVE>
+      <TWEET account="aravsrinivas" role="Perplexity CEO">分享Gemini 4 Carbon早期评测：目前在长形式研究和答案质量上最强模型，在WANDR基准上取得新SoTA。即将向Perplexity Pro与Max用户开放。恭喜Google DeepMind！❤️ 1221 | 💬 97</TWEET>
+      <CONSENSUS>前沿模型竞争已从纯编码基准转向长时域、真实世界研究能力，Carbon的领先迫使竞争对手重新校准定价与定位。</CONSENSUS>
+      <DIVERGENCE>仍未解决的问题是此类研究能力在实际商业ROI中的可量化价值，以及是否会加速学术界对AI生成论文的信任危机。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>桌面Agent普及与“工作可选”丰裕时代叙事</TITLE>
+      <NARRATIVE>Rauchg提出“An agent on every desktop”，Bindureddy进一步系统化描绘Age of Abundance图景：AGI+大规模机器人+近无限能源将使工作成为可选，政府提供基本需求，资本主义以更多小公司与所有者形式延续。这是今日首次完整出现、从未见过的系统性社会经济新范式，直接回应历史记忆中白领工作商品化讨论但将其推向正面乌托邦方向。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">An agent on every desktop。❤️ 22 | 💬 9</TWEET>
+      <TWEET account="bindureddy" role="AI Analyst">Age of Abundance图景：AGI、机器人、白领自动化、超级智能解决近无限能源，工作将成为可选，人们追求激情，政府覆盖基本需求，资本主义以更多小公司形式存活。我们需在24个月内解决机器人和近免费能源两大问题。❤️ 111 | 💬 43</TWEET>
+      <OUTLOOK>未来6-12个月，桌面级持久Agent产品将爆发式增长，企业组织架构围绕“人类意图+Agent执行”重构，消费端则出现大量“个人Agent舰队”工具。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注持久Agent编排基础设施、个人Agent身份与支付协议、以及将丰裕叙事落地为教育/娱乐/养老场景的应用层创业公司。</OPPORTUNITY>
+      <RISK>核心硬伤仍是能源与机器人规模化瓶颈，若24个月内无法突破，叙事可能快速转向幻灭；同时“高税收+政府兜底”政治可行性存疑。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI基础设施Rack Spread：GPU租金持续暴涨而Token价格腰斩</TITLE>
+      <NARRATIVE>今日a16z Charts显示自7月中以来B300 GPU租金涨106%、B200涨66%，而平均Token价格下跌58%。这标志行业共识从“Token价格战”转向“基础设施稀缺溢价”，历史记忆中多次预测的“电力/劳动力瓶颈”正在从理论变为可量化的Rack Spread现实，风向彻底掉头。</NARRATIVE>
+      <TWEET account="a16z" role="a16z">Rack Spread正在发生：Token价格下跌而GPU价格攀升。自7月中以来B300 GPU租金涨106%，B200涨66%，H100涨17%，平均Token价格跌58%。❤️ 257 | 💬 30</TWEET>
+      <CONSENSUS>开放权重模型Token需求暴增（过去一年27倍）是GPU租金持续上涨的核心驱动，即使老卡也在升值，算力稀缺仍是2026-2027主旋律。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论的是这一分化是否可持续——Token价格能否继续下降到让中小开发者受益，还是基础设施成本最终会传导到终端定价。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>OpenAI Private Intelligence：隐私防护与前沿智能同步进化</TITLE>
+      <NARRATIVE>OpenAI今日正式发布Private Intelligence，为企业提供更强数据控制能力，同时使用最强模型。这是隐私叙事从“事后合规”到“与智能同速推进”的关键技术里程碑，直接回应过去数月Agent逃逸与数据泄露事件，标志企业级落地瓶颈正在被系统性解决。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI">隐私应与智能同步进步。OpenAI Private Intelligence让企业在使用我们最强模型时获得更强数据控制能力。我们正与最大客户紧密合作，将前沿AI应用于最敏感工作。❤️ 2374 | 💬 416</TWEET>
+      <CONSENSUS>企业已形成新共识：只有当隐私控制达到与模型能力同等水平时，前沿AI才会被真正大规模用于核心业务。</CONSENSUS>
+      <DIVERGENCE>尚未解决的争议包括技术实现是否真正做到零知识，以及监管机构是否会要求此类系统接受第三方强制审计。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Wabi完成5500万美元融资，投后估值12.5亿美元，由IVP领投，a16z、Forerunner及Amazon Alexa Fund参投，从提示词工具转向多人AI Agent协作平台。</ITEM>
+    <ITEM category="投融资快讯">Powerlattice完成8600万美元融资，Dream从隐身模式浮现获a16z领投1700万美元种子轮，Ravical完成1700万美元种子轮累计融资2500万美元。</ITEM>
+    <ITEM category="VC views">a16z Charts显示企业人均AI支出已达1024美元，较去年几乎翻倍，印证AI基础设施需求仍在加速而非放缓。</ITEM>
+    <ITEM category="VC views">Nvidia正谈判为Nscale 450亿美元Anthropic数据中心项目提供数十亿美元信用担保，帮助Anthropic在混合使用竞品硬件时锁定Nvidia芯片需求。</ITEM>
+    <ITEM category="VC views">Cohere按205亿美元估值进行数十亿美元融资，首席AI官明确表示将继续与neocloud深度合作而非自建所有数据中心。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek Harness插件生态快速生长，dotey开发的Claude Design兼容插件获社区积极反馈；Qwen 0.6B本地模型被用于微信视频号AI总结，展现中国开源小模型在消费级落地的高效性，但vista8同时警告Gitee仓库API key泄露严重，每275个仓库即有一个暴露风险。</ITEM>
+    <ITEM category="中国 AI 评价">Kimi与DeepSeek在Terminal-Bench和SWE-Marathon等基准上已接近甚至局部超越Opus 5.5，证明中国实验室在Agentic能力上已将差距缩小至6个月以内，但安全与合规仍为最大隐忧。</ITEM>
+    <ITEM category="全球映射">中国开源模型的成本优势（DeepSeek Flash任务成本0.13美元）正在加速全球Token需求向开放权重倾斜，进一步推高GPU租金并加剧Rack Spread现象。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="a16z" role="a16z">企业当前人均AI支出已达1024美元，几乎是去年的两倍。这一增长仍在加速。Charts of the Week已发布。❤️ 115 | 💬 35</TWEET>
+    <TWEET account="techcrunch" role="TechCrunch">随着AI助手大量涌入市场，注重用户隐私的Ollie助理创始人宣布产品将在一周后关闭。https://t.co/Mhe6ocBjLl ❤️ 20 | 💬 27</TWEET>
+    <TWEET account="theinformation" role="The Information">Nvidia正谈判为Nscale价值450亿美元的Anthropic数据中心项目提供数十亿美元信用担保。该交易有助于确保Nvidia芯片需求，即使Anthropic越来越多使用竞品硬件。❤️ 8 | 💬 9</TWEET>
+    <TWEET account="vista8" role="AI Observer">AI变强后安全问题似乎越来越严重。研究者分析725万个Gitee仓库，平均每275个仓库就能找到一个云资源或大模型API key。GitHub 9月PR中超40%由智能体撰写，人类已审不过来。安全问题正在被进一步放大。❤️ 15 | 💬 23</TWEET>
+    <TWEET account="swyx" role="AI Engineer">Anthropic真的把整个后端用Rust vibecode了，而你们都没注意到。❤️ 501 | 💬 65</TWEET>
+    <TWEET account="lightspeedvp" role="Lightspeed VP">Black October内幕：PHP漏洞、AI Agent群攻防御、数学突破引发的数学家反弹、DoorDash收购Instacart对AI购物Agent的冲击、Google Genie 4世界模型意义。完整播客已上线。❤️ 10 | 💬 7</TWEET>
+    <TWEET account="dotey" role="AI Translator">做了一个DeepSeek Harness插件，现在Claude Design可以运行在DeepSeek Harness上，并可方便标注和评论修改。DeepSeek Harness确实越来越优秀。插件地址已公开。❤️ 63 | 💬 28</TWEET>
+    <TWEET account="packym" role="Investor">很明显，风险投资结构导致早期疯狂想法缺乏资金、资金涌向赢家的现象，将被数以万计的新 centimillionaire天使投资人解决。❤️ 50 | 💬 18</TWEET>
+  </TOP_PICKS>
+</REPORT>
