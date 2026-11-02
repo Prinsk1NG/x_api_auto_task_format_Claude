@@ -1,0 +1,72 @@
+<REPORT>
+  <COVER title="AI破解信任代码：人类注意力成Agent新瓶颈" prompt="Minimalist data visualization artwork depicting AI cracking the foundational code of human civilization. Show translucent neural nodes and flowing data streams intertwining with ancient symbols of trust, contracts, language and cooperation systems. In the foreground, overwhelmed human silhouettes struggle to manage 5+ glowing agent interfaces while power grid constraints and energy flows form binding architectural barriers in the background. Clean cyber-minimalist style with electric cyan and deep indigo palette, precise geometric lines, subtle holographic glows on neural connections, high-contrast cinematic lighting with soft volumetric rays, 8K resolution, sharp focus on central exploding trust node, elegant composition balancing chaos and order." insight="AI改写文明底层信任系统，但人类注意力和电力约束正成新瓶颈。"/>
+  <PULSE>硅谷今日叙事核心转向：AI已自主书写人类信任与合作代码，但人类注意力管理与电力基础设施成为Agent时代最硬瓶颈。</PULSE>
+
+  <THEMES>
+    <THEME type="new" emoji="🌱">
+      <TITLE>AI破解人类文明底层信任代码</TITLE>
+      <NARRATIVE>oran_ge基于尤瓦尔·赫拉利演讲指出，语言是人类通过信任实现大规模合作的底层代码，数千年来只有人类能读写；而AI作为首个能自主生成此类语言的技术，正在成为信任系统的书写者。这是一个从未见过的新哲学叙事，预示人类将不知不觉将文明基础委托给AI，与历史记忆中oran_ge关于“AI时代瓶颈从能力转向方向与判断”的观点形成鲜明延续。</NARRATIVE>
+      <TWEET account="oran_ge" role="科技观察者">oran_ge分享赫拉利演讲：AI已破解人类文明底层代码。人类通过语言构建信任系统实现合作，AI是首个能自主写这种语言的技术，我们将逐渐信任AI而非仅信任人类系统，这将是人类最大挑战。❤️ 422 | 💬 73</TWEET>
+      <OUTLOOK>未来6-12个月，AI将深度嵌入金融、法律与治理系统，成为事实上的信任中介，推动“AI原生社会协议”新范式出现。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注AI治理、可审计性与信任层基础设施初创公司，以及将AI判断力商品化的垂直应用。</OPPORTUNITY>
+      <RISK>若AI生成的信任系统出现系统性偏差，可能引发大规模社会信任危机，该叙事短期或被视为哲学思辨而非立即可投资主题。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Agent时代瓶颈转向人类注意力极限</TITLE>
+      <NARRATIVE>vista8观察到普通人只能有效跟进3-5个活跃Agent Session，而AI可同时处理海量任务，这标志着叙事从过去7天的“千规模Agent基础设施难题”“组织上下文融合”转向人类认知容量本身成为核心限制。历史记忆中Anthropic数千Agent红队攻击与平台工程负责人观点聚焦技术栈，此次明确将矛头指向“人类自己”，构成重大风向掉头。</NARRATIVE>
+      <TWEET account="vista8" role="中国AI观察者">AI Agent的下一个瓶颈，就是人类自己。DeepSeek团队发现一般人只能跟进3~5个活跃Session。Codex项目多了管理痛苦。Grok bot主Bot、Claude Duet、DeepSeek Super-agent都在解决同一矛盾：AI任务爆炸而人类注意力未同步增长。❤️ 72 | 💬 57</TWEET>
+      <CONSENSUS>行业最新共识是需打造“Super Agent”或Personal Agent作为人类与多Agent群的统一管理层，否则注意力将成为生产力天花板。</CONSENSUS>
+      <DIVERGENCE>大佬们争论焦点在于：是继续推多模态持久记忆Agent，还是开发全新“人类-AI注意力操作系统”来根本解决？</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>电力而非算力成为AI扩展最终绑定约束</TITLE>
+      <NARRATIVE>chamath深度阐述电力是AI/SI当前最硬约束：数据中心、芯片安装、模型经济性、ROI全部依赖今日可用的可靠电力，而非未来承诺。这是对过去基础设施叙事（GPU租金、Rack Spread、Colossus集群）的深度推进，明确“谁能把电力、数据中心、芯片、模型紧密协调，谁就主导AI”。与历史记忆中a16z和elon关于数据中心死亡与整合的讨论形成关键里程碑式推进。</NARRATIVE>
+      <TWEET account="chamath" role="科技投资人">谁能把电力、数据中心、芯片和模型塑造成经济可行终端，谁就主导AI/SI。因为电力是绑定约束。数据中心没电无法运行，芯片只有在解决电力后才能盈利安装，模型必须在低成本可靠基础设施上运行才有经济性。❤️ 3198 | 💬 321</TWEET>
+      <CONSENSUS>行业已形成新共识：2026年AI capex中电力成本将主导，掌握实际电力交付能力的玩家将获得不成比例优势。</CONSENSUS>
+      <DIVERGENCE>争议在于核能/太阳能是否能快速规模化，以及这是否会让传统能源巨头意外成为AI最大赢家。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Karpathy周末用Claude构建HackerTube标志AI工程范式跃迁</TITLE>
+      <NARRATIVE>karpathy用Opus 5.5在约2小时内分析4300万条HN评论、过滤出6454个优质视频、构建完整推荐网站（含本地状态、自定义缩略图、数据开放），仅手动参与API key、VPS和域名购买，其余全由Claude完成部署优化。这是AI已基本解决编码后的里程碑事件，证明复杂软件项目可被“few-shot”完成，改变行业对工程时间与人力假设，与历史记忆中“AI已基本解决编码，下一步物理学”形成直接延续。</NARRATIVE>
+      <TWEET account="karpathy" role="AI教父">周末黑客项目：HackerTube。我厌倦YouTube推荐，用Claude过滤20年4300万条HN评论得到6454个反复被推荐视频。体验大幅提升。只花2小时用Opus 5.5完成。很多过去要数周的项目现在早餐就能few-shot。❤️ 29557 | 💬 1205</TWEET>
+      <CONSENSUS>市场一致解读为AI工程已进入“AI即团队成员”时代，软件像自来水一样流出，人类主要角色转向判断与方向。</CONSENSUS>
+      <DIVERGENCE>仍有声音质疑维护成本与长期演化是否仍需大量人类干预，以及这类项目是否能规模化到企业级。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>本地开源模型与“拥有你的智能”成为新防御叙事</TITLE>
+      <NARRATIVE>rauchg强调“Own your intelligence”，反对者多有利益驱动，呼吁本地模型、开源继续扩散；ylecun补充JEPA世界模型能以更少参数实现理解而非单纯记忆积累。这是对过去“闭源前沿模型主导”共识的明显转向，尤其在OpenAI加强阻止中国实验室蒸馏Astra的背景下，社区正转向“拥有自己的Agent、数据和运行时”。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel创始人">拥有你的智能。任何反对者都有东西要卖给你（也许是你自己的智能）。本地模型需要继续扩散。拥有你的Agent、数据、连接和运行时。拥抱开源。❤️ 1490 | 💬 179</TWEET>
+      <CONSENSUS>最新共识是大规模模型虽仍领先，但本地开源与模块化AI在成本和主权上已获胜，未来网络将为Agent而建。</CONSENSUS>
+      <DIVERGENCE>争论焦点在于本地模型是否能在性能上快速追赶，以及企业是否愿意为数据主权牺牲前沿能力。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">OpenAI拟融资约200亿美元，投前估值目标1.25万亿美元，已筹约110亿美元，投资方包括Coatue与阿联酋投资者（谈判中）。</ITEM>
+    <ITEM category="投融资快讯">Saudi Aramco以26亿美元现金加AI资产收购Humain 49%股权。</ITEM>
+    <ITEM category="投融资快讯">Dulo获1.3亿美元融资，专注AI驱动飞机、汽车等复杂硬件设计，由Google Brain与Waymo联合创始人Sebastian Thrun创立。</ITEM>
+    <ITEM category="VC views">a16z Charts显示AI推荐购物者转化率+60%、客单价+53%、跳出率-34%，证明AI流量质量远超传统。</ITEM>
+    <ITEM category="VC views">chamath观点：掌握今日可用电力交付能力而非未来承诺的玩家，将在AI基础设施大战中获得不成比例控制权。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek团队最新观察精准指出人类注意力只能管理3-5个Agent Session，其Super-agent与DeepInfer开源框架或成为解决这一全球瓶颈的关键；Kimi K3.1 Pro以2.8万亿参数MoE在Terminal-Bench接近Opus水平，价格仅一半，显示中国开源已将差距缩小至6个月内。</ITEM>
+    <ITEM category="全球映射">中国模型在多Agent协调与注意力管理架构上的实践，正为硅谷提供实用“Super Agent”范式参考，可能加速全球从基础设施瓶颈向人类认知瓶颈的叙事转向。</ITEM>
+    <ITEM category="全球映射">Qwen系列在价格与本地部署上的竞争力（混合价约19.99元/百万token），正推动开放权重模型全球份额从28%升至72%，但也引发海外对蒸馏安全与供应链依赖的担忧。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="elonmusk" role="xAI创始人">我有个绝妙主意，发明一种叫Regretamine的药，吃一剂所有遗憾全消失！当然，也包括吃了这药这件事本身。❤️ 69893 | 💬 9533</TWEET>
+    <TWEET account="ylecun" role="Meta首席AI科学家">LLM积累了大量陈述性知识，因此能回答很多问题，但这也导致它们需要巨量参数和内存。JEPA世界模型通过“理解”而非单纯积累知识，能用少得多的内存和训练数据实现类似功能。这篇论文显示，数据固有相似性结构（共现关系）在共同反坍缩准则下唯一决定了表征点云的形状。❤️ 1195 | 💬 64</TWEET>
+    <TWEET account="a16z" role="风投机构">AI推荐的购物者表现显著更好：转化率提升60%，每次访问收入提升53%，跳出率降低34%。Charts of the Week已发布。❤️ 397 | 💬 55</TWEET>
+    <TWEET account="bindureddy" role="AI分析师">所有AI悲观论调在下面这些模型发布后都会消失——Astra 6.1、Fable 5.5、Carbon。Astra很可能下周中期选举后率先登场。❤️ 292 | 💬 81</TWEET>
+    <TWEET account="paulg" role="Y Combinator创始人">大多数投资人完全不知道单纯跟他们谈话就会给初创公司造成多大伤害。下面是个典型例子，而且这还是一家YC公司，融资应该比普通初创容易得多。❤️ 728 | 💬 113</TWEET>
+    <TWEET account="sundarpichai" role="Google CEO">冠军！！Ballhalla今晚能量爆棚。历史时刻 🏆 冲啊Valks！💜⚔️❤️ 2726 | 💬 143</TWEET>
+    <TWEET account="theinformation" role="科技媒体">OpenAI和Anthropic称他们的AI模型已证伪指数时间假说，这一理论突破可能重塑研究者对加密安全性的评估方式。❤️ 12 | 💬 8</TWEET>
+    <TWEET account="rauchg" role="Vercel创始人">我们把沙子变成了超级智能。谁在乎黄金……我们把最平凡的东西变成了最非凡的存在。❤️ 1375 | 💬 138</TWEET>
+  </TOP_PICKS>
+</REPORT>
