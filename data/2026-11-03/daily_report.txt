@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="权重编程革命：AI无需重训直接改模型" prompt="Minimalist data visualization artwork showing a vast neural network as floating translucent nodes and connections in deep space-like void. A giant ethereal LLM hand represented by clean vector code streams precisely edits 0.016% of glowing cyan weights on a small Qwen model node. Before-and-after holographic charts display 6x MATH benchmark leap from 7.9% to 48.1%. Neural nodes use crystalline glass material with internal data particles flowing like liquid mercury. Dramatic cinematic side lighting with soft volumetric god rays and subtle lens flares, ultra sharp 8K resolution, high contrast monochrome palette with selective cyan accents, precise technical infographic style emphasizing mathematical precision and transformative edit points." insight="前沿模型可直接在权重空间编程修改小模型，实现6倍性能跃升，标志AI自我改进进入新范式。"/>
+  <PULSE>今日硅谷核心叙事转向大模型直接在权重空间编程修改小模型参数，同时基础模型公司加速向应用层与安全人才扩张跃迁。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>权重空间编程：大模型直接编辑小模型权重实现6倍性能跃升</TITLE>
+      <NARRATIVE>MIT CSAIL研究者用GPT-6 Astra直接修改Qwen3.5-0.8B仅0.016%权重，将MATH-500正确率从7.9%提升至48.1%，无需重训或RL。这一里程碑打破“权重不可解释、只能通过训练修改”的历史共识，开启用LLM像编程一样读写神经网络的新时代，与Yann LeCun历史观点中“LLM非通往真实世界智能路径”形成鲜明反差，证明前沿模型已能理解并重构连续表征空间。</NARRATIVE>
+      <TWEET account="dotey" role="独立观察者">不训练、不算梯度，GPT-6 Astra直接改了Qwen3.5-0.8B 0.016%的权重，MATH-500数学正确率从7.9%涨到48.1%，约6倍。这被称为“在权重空间里编程”：大模型可直接读懂、修改甚至从零写出神经网络权重。实验还包括识别游戏网络、修复失败小车策略、零样本写打砖块网络得分远超传统RL。作者认为这释放已有能力、移植控制策略、重组计算路径，未来或彻底改变AI改进范式。❤️ 193 | 💬 148</TWEET>
+      <CONSENSUS>行业已形成共识：权重不再是黑箱，大模型可像代码一样直接操作小模型参数，实现高效、无需重训的针对性改进，尤其适合释放被循环或低效路径阻塞的能力。</CONSENSUS>
+      <DIVERGENCE>目前争论焦点在于大模型能否真正“加出”新能力而非仅移除障碍，以及大规模模型权重编辑的可扩展性与独立验证问题，目前结果仍依赖作者自报。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>基础模型公司加速向应用层跃迁，Token商品化后价值转向端到端工作流</TITLE>
+      <NARRATIVE>Chamath指出随着边际Token成本趋零，基础模型公司价值不再是卖Token，而是向上整合应用层，优先吞噬法律、销售、客服等AI Native公司，并延伸至Google Doc等工作流集成。这一转向与过去7日“电力而非算力成为最终约束”“AI基础设施Rack Spread”等共识形成反差：当基础设施成本高企时，模型公司正通过 owning application layer 实现差异化，与历史记忆中OpenAI/Anthropic早期专注基础模型形成明显掉头。</NARRATIVE>
+      <TWEET account="chamath" role="科技投资人">基础模型公司应用功能迭代速度非常值得注意。随着边际Token成本趋近于零，价值不再是卖Token，而是明确向上整合栈层并拥有应用层。首批受害者不是传统SaaS，而是现在重金投入实验室的AI Native公司（法律、销售、客服领域）。这些是最低 hanging fruit，模型公司已通过这些公司的trace和span掌握清晰路线图。接下来是让模型使用成为工作流基础的“连接组织”应用。❤️ 458 | 💬 74</TWEET>
+      <CONSENSUS>最新共识是Token商品化后，模型公司必须掌控端到端应用与工作流集成，才能维持高毛利并避开纯基础设施竞争。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论受害顺序：AI Native是否会先被实验室自有应用取代，以及传统SaaS护城河在意图、治理、验证层是否仍具防御力。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Claude消息线程公测：长上下文Agent延迟降低35%，单请求体积缩至1.8KB</TITLE>
+      <NARRATIVE>Anthropic为Messages API推出消息线程功能，服务器暂存对话几分钟，后续仅需发送新消息与上一条ID即可，无需每轮重发完整历史。这直接突破了Agent长会话中上下文重传瓶颈，与过去7日“Agent时代瓶颈转向人类注意力极限”“千规模Agent系统暴露基础设施难题”形成深度推进，里程碑数据为50-100万Token请求中位等待时间缩短35%，单次请求中位体积从800KB降至1.8KB。</NARRATIVE>
+      <TWEET account="dotey" role="中文科技观察者">Claude API公测Message Threads：长对话不用每轮重发历史，回复更快，价格不变。50万到100万Token请求中位等待时间缩短约35%，单次请求大小从中位约800KB降到1.8KB。适合长时间Agent、电脑操作Agent和带大量文档图片的对话。线程5分钟无请求即过期，需本地仍保留完整记录。❤️ 46 | 💬 58</TWEET>
+      <CONSENSUS>行业新共识是持久线程与提示缓存结合将成为Agent基础设施标配，大幅缓解注意力与延迟瓶颈，让AI工作时长6倍于人类的趋势可持续。</CONSENSUS>
+      <DIVERGENCE>推进后仍存争议：线程不支持ZDR/HIPAA、不能中途改系统提示，以及在大规模多Agent系统中全局监控与紧急叫停的配套基础设施仍未完全解决。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Anthropic Residency：无需ML背景即可转行AI安全，年薪35-50万美元</TITLE>
+      <NARRATIVE>Anthropic推出付费驻留研究项目，面向定量学科教授、技术创始人、Staff级工程师，不要求机器学习背景或博士学位，目标是让跨领域资深人才快速补齐AI前沿知识后投入安全、对齐、红队及基础设施研究。这一新叙事试图解决AI安全人才瓶颈，强调判断力与研究方向能力比纯ML经验更重要，与历史中Anthropic强调高门槛安全研究形成新范式。</NARRATIVE>
+      <TWEET account="anthropicai" role="官方账号">Anthropic Residency申请现已开放，这是一个带薪、固定期限的研究项目，面向希望让AI安全且有益于所有人的学者、技术创始人及Staff级工程师。不要求ML背景。11月22日前申请：链接。❤️ 15522 | 💬 526</TWEET>
+      <OUTLOOK>未来6-12个月，这一项目将显著扩大AI安全研究人才池，推动更多非传统背景专家参与对齐、红队与基础设施工作，可能加速行业从“少数实验室封闭安全”转向更广泛生态协作。</OUTLOOK>
+      <OPPORTUNITY>一级市场机会在于为跨领域人才提供“AI安全加速器”工具、模拟环境及红队平台，以及为完成Residency的项目提供后续孵化与融资。</OPPORTUNITY>
+      <RISK>短期泡沫风险较低，但技术硬伤在于如何在短期项目内让非ML背景人士快速产出高影响力安全研究，依赖导师匹配与算力支持质量。</RISK>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>超级智能计算必然100%转向太空轨道</TITLE>
+      <NARRATIVE>Elon Musk明确指出未来超级智能计算将“压倒性”位于太空，最终“四舍五入到100%”，因轨道数据中心无需地面许可且随发射成本下降将永久更便宜。这一新叙事直接回应过去轨道TPU原型新闻，试图解决地面电力、散热与监管约束，构建完整太空AI基础设施愿景。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI创始人">未来超级智能计算显然将压倒性地处于太空。“压倒性”意味着它将四舍五入到100%！你必须是个彻头彻尾的蠢货才意识不到这一点。❤️ 12394 | 💬 1254</TWEET>
+      <OUTLOOK>未来6-12个月，这一叙事将推动更多资本与工程资源涌向轨道数据中心、太空太阳能及星链增强型计算网络，可能重塑AI基础设施地理分布并加速SpaceX/Tesla协同。</OUTLOOK>
+      <OPPORTUNITY>一级市场投资点包括太空冷却系统、轨道级GPU集群组网、星链计算扩展，以及将地面模型训练流水线迁移至太空的软件工具。</OPPORTUNITY>
+      <RISK>存在技术硬伤：当前发射成本、轨道维护与数据往返延迟仍构成现实障碍，短期内难以实现“100%”替代地面集群。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Mistral Large 4从零生成量子化学SCF求解器并实现分子断裂可视化</TITLE>
+      <NARRATIVE>Mistral Large 4仅凭简短prompt即从零写出量子化学SCF求解器、验证输出并构建3D可视化，能自主选择断裂方式与轨道显示，无需额外输入。这推进了“AI深入生命科学与物理模拟”既有叙事，里程碑在于模型同时掌握化学直觉与代码生成，远超简单工具调用。</NARRATIVE>
+      <TWEET account="mistralai" role="官方账号">我们让Mistral Large 4展示分子断裂时会发生什么。它用简短prompt从零写出量子化学SCF求解器，验证输出并围绕它构建3D视图。Le Chonk还理解化学，能自主选择如何断裂分子及显示哪些轨道，无需进一步输入。Step1计算单电子轨道，Step2可视化：拖动滑块可看到键断裂、轨道分裂、能量上升。❤️ 1211 | 💬 115</TWEET>
+      <CONSENSUS>行业新共识是前沿模型已能独立完成从理论到可视化的完整科学工作流，这将加速新药、材料与电池发现，Claude/Anthropic在生命科学上的类似推进得到进一步验证。</CONSENSUS>
+      <DIVERGENCE>推进后争议仍存：模型生成的求解器在极端复杂分子上的泛化性、实验室验证闭环成本，以及是否真正产生新科学洞见而非复现已有知识。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">FuriosaAI完成6.2亿美元融资，估值升至29亿美元；Bedrock Robotics获6亿美元C轮，估值41亿美元；Upwind完成4亿美元融资，估值38亿美元；Tutor Intelligence完成7500万美元B轮，总融资1.17亿美元，用于机器人基础模型与仓库机器人部署。</ITEM>
+    <ITEM category="VC views">a16z指出机器人创业公司过去5-10次连续失败主因在于非产品化思维，需与多样化中型客户快速迭代而非定制大客户；空间行业正处类似早期互联网时刻，轨道数据中心等新方向将催生平台级基础设施公司。</ITEM>
+    <ITEM category="投融资快讯">OpenAI据报筹资约200亿美元（已获110亿），Affle以约4.2亿美元收购Perion；42AI以6250万美元走出隐身模式开发行为预测世界模型。</ITEM>
+    <ITEM category="VC views">Chamath警告AI公司70-80%收入或来自其他风投AI公司，收入质量堪忧；随着Token价格下跌而GPU租金持续上涨（B300涨106%），电力而非算力仍是最终绑定约束，掌握全栈电力-数据中心-芯片-模型的公司将主导。</ITEM>
+    <ITEM category="投融资快讯">Hypersonica完成1亿欧元B轮，用于欧洲主权高超音速系统规模化制造，9个月内完成Mach 6原型测试。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek与Qwen展现强劲实力：DeepSeek发布dsh-superagent开源编码代理并完成技术出口登记，Qwen在权重编辑实验中被Astra选中作为基座实现6倍数学提升；Kimi正筹备上市潜在估值最高500亿美元；MiniMax M3.1 Flash推理速度提升3倍、成本降70%。但X平台偏见仍低估中国模型在非编码任务的真实能力，未来数月中国模型或获双位数全球市场份额，同时需警惕信任与出口监管风险。</ITEM>
+    <ITEM category="全球映射">中国具身智能公司在2026上半年通过322笔交易筹集约130亿美元（同比5倍），映射到全球机器人瓶颈讨论：a16z强调制造规模与客户获取比纯智能更关键，中国在硬件迭代速度上或为西方提供对标案例，但太空计算转向叙事对中国地面基础设施投资形成潜在分流压力。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="sundarpichai" role="Google CEO">很高兴看到高质量基准留有提升空间，看看Carbon的成本曲线🚀。❤️ 4232 | 💬 341</TWEET>
+    <TWEET account="openai" role="官方账号">随着AI在发现漏洞上更强大，防御者需抢先使用它。我们计划下一次内部安全冲刺，并与Cathedral Systems合作，使用我们的模型挑战自身防御。同时大幅提高漏洞赏金，关键发现最高可达17.2万美元。❤️ 1235 | 💬 188</TWEET>
+    <TWEET account="gdb" role="OpenAI技术高管">Pando是一个可扩展到超大monorepo的Git后端。我们坚持使用Git，因此启用Pando无需改变开发者体验。考虑开放给其他人，如果感兴趣请邮件gdb@openai.com。❤️ 373 | 💬 71</TWEET>
+    <TWEET account="karpathy" role="前OpenAI/现Anthropic科学家">你也可以直接告诉Claude Code：“为我的浏览器创建一个扩展，在视频播放到一半时显示YouTube缩略图而不是用户上传的版本。加入两个版本间的切换开关”，效果很好。❤️ 536 | 💬 30</TWEET>
+    <TWEET account="bindureddy" role="AI观察者">开源微调模型正超越前沿模型。针对特定用例的定制微调性能优于前沿，但需定期维护更新，成本约低20倍。DeepSeek、Gemma和Qwen是很好的基础模型。❤️ 72 | 💬 44</TWEET>
+    <TWEET account="a16z" role="风投机构">Josh Gruenstein表示完美机器人大脑也解决不了机器人问题，瓶颈在于规模化制造机器人并找到客户，而非智能本身。机器人目前在最自动化行业中仍是误差项，软件与客户都不存在，因为机器人还无法完成客户想要的工作。❤️ 49 | 💬 19</TWEET>
+    <TWEET account="elonmusk" role="xAI/Tesla CEO">Starlink能拯救生命。❤️ 27407 | 💬 2580</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">非常看好WebMCP。❤️ 227 | 💬 56</TWEET>
+    <TWEET account="theinformation" role="媒体">Anthropic第三季度仅短期计算就花费50亿美元，导致重新陷入运营亏损。快速获取计算能力代价高昂。❤️ 11 | 💬 8</TWEET>
+    <TWEET account="ylecun" role="Meta首席科学家">人类大多不用语言思考。动物当然不用语言但它们会思考。语言是与思想关联的离散对象，其离散性使其易于存储和记忆，这给人我们用语言思考的错觉。但对大多数事情，我们不用语言思考。许多人无法说话但能思考，动物也一样。❤️ 179 | 💬 12</TWEET>
+  </TOP_PICKS>
+</REPORT>
