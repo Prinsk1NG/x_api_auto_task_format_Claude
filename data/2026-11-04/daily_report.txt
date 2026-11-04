@@ -1,0 +1,75 @@
+<REPORT>
+  <COVER title="权重编程驱动物理AI跃进" prompt="Hyper-realistic industrial design scene in 8K cinematic lighting. A massive precision robotic arm with metallic joints and carbon-fiber casing reaches into a translucent neural weight matrix floating above an engineering workbench, directly editing glowing tensor values that reshape into a physical prototype device below. Detailed CAD schematics, circuit boards, and simulation holograms scatter across the steel surface. Dramatic volumetric lighting from overhead industrial lamps casts sharp highlights on brushed aluminum and copper traces, emphasizing tactile materiality, engineering precision, and the fusion of digital weights with physical hardware creation. Photorealistic textures, shallow depth of field, epic scale." insight="AI从语言编码跨越至直接操控模型权重并设计物理原型，可验证推理同步落地，硅谷叙事转向真实世界具身智能。" />
+  <PULSE>今日硅谷核心叙事转向大模型直接编辑权重实现物理世界突破，同时可验证推理与真实机器人数据飞轮成为新焦点。</PULSE>
+
+  <THEMES>
+    <THEME type="advance" emoji="🚀">
+      <TITLE>权重空间编程获独立验证与本地复现</TITLE>
+      <NARRATIVE>历史记忆中MIT CSAIL昨日刚公布GPT-6 Astra直接修改Qwen3.5权重实现6倍MATH性能跃升，今天simonw立即用本地Qwen 3.8 27B复现解读浮点权重能力，标志这一范式从实验室论文快速走向工程师日常实践，核心瓶颈从提示工程转向权重空间直接操控。</NARRATIVE>
+      <TWEET account="simonw" role="知名开发者与AI观察者">There's a buzzy new paper about GPT-6 Astra being able to directly interpret model weights... I tried it with Qwen 3.8 27B on my laptop and found that, after 45+ minutes, that model could achieve the same thing。❤️ 3861 | 💬 282</TWEET>
+      <TWEET account="dotey" role="AI行业独立观察者">不训练、不算梯度，GPT-6 Astra直接改了Qwen3.5-0.8B 0.016%的权重，MATH-500数学正确率从7.9%涨到48.1%，约6倍。这被称为“在权重空间里编程”。❤️ 244 | 💬 84</TWEET>
+      <CONSENSUS>行业已形成共识：权重空间编程释放了已有模型潜能，可零样本移植策略并重组计算路径，将彻底改变AI改进范式，尤其对中小模型性能跃升意义重大。</CONSENSUS>
+      <DIVERGENCE>目前争论焦点在于可扩展性：本地小模型是否能稳定复现前沿效果，以及这一方法是否会引入新的不可解释性风险。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>AI全面进军物理硬件设计与仿真</TITLE>
+      <NARRATIVE>OpenAI展示ChatGPT与Codex助力机械设计、电气工程和仿真，Astra在一周内独立完成原型设备的外壳、电路板、界面与软件设计，并与Chip Ganassi Racing、Mazda合作将3D扫描转为可编辑CAD，此为既有“AI解决编码后转向物理学”叙事的里程碑式推进。</NARRATIVE>
+      <TWEET account="openai" role="OpenAI官方账号">ChatGPT and Codex are helping engineers build for the physical world. We’re sharing our progress across mechanical design, electrical engineering, and simulation... Two OpenAI team members worked with GPT-6 Astra to design a prototype device... in under a week。❤️ 5121 | 💬 424</TWEET>
+      <TWEET account="gdb" role="OpenAI首席科学家">ChatGPT for physical engineering, including enabling amateurs to design prototype devices。❤️ 589 | 💬 64</TWEET>
+      <CONSENSUS>最新共识是AI已从屏幕内编码走向真实世界迭代，硬件团队迭代速度大幅提升，仿真验证可提前否决不良设计，物理世界数据将成为下一scaling law关键。</CONSENSUS>
+      <DIVERGENCE>大佬仍争论制造环节是否仍需人类多轮审查，以及如何确保AI生成的物理设计在真实材料与安全标准下的可靠性。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>可验证推理FlashProve实现高效证明</TITLE>
+      <NARRATIVE>Anthropic推出FlashProve，利用密码学技术让开发者高效验证AI响应是否真正来自指定模型，比此前开源方法效率大幅提升，可用于防止聊天劫持与安全评估，是全新信任基础设施叙事，解决AI部署中“是否可信”的底层问题。</NARRATIVE>
+      <TWEET account="anthropicai" role="Anthropic官方账号">New Anthropic research: progress on provable inference for large language models. We introduce FlashProve... substantially more efficient than prior open-source methods... We’re open-sourcing FlashProve’s code。❤️ 3347 | 💬 334</TWEET>
+      <OUTLOOK>未来6-12个月，这一技术将推动企业级AI落地加速，成为合规与第三方审计标配，降低监管阻力并提升整体行业信任水平。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注可验证计算基础设施、AI安全审计工具以及结合零知识证明的区块链+AI融合创业公司。</OPPORTUNITY>
+      <RISK>短期内计算开销仍可能限制极大规模部署，且若密码学假设被突破将面临系统性信任危机，存在技术硬伤需持续迭代。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Anthropic核心产品负责人接连离职</TITLE>
+      <NARRATIVE>Claude Code与Cowork产品负责人Cat Wu周五离职，此前已有多名关键成员离开，结合Anthropic提交S-1准备IPO的历史背景，显示从“高速扩张冲刺”转向“上市前人才与组织调整”的风向掉头，过去强调Agent规模化基础设施建设的大佬共识正面临内部执行压力。</NARRATIVE>
+      <TWEET account="dotey" role="AI行业中文观察者">Claude Code 产品负责人 Cat Wu 离开了 Anthropic。她在 X 上发文说，周五是她在公司的最后一天... 她早年在 Scale AI 和 Dagster 两家公司做工程师。❤️ 244 | 💬 84</TWEET>
+      <TWEET account="oran_ge" role="独立科技评论人">Claude Code 的核心成员又走了一个 A 社这个上市信仰绑定还是有点反人性的。❤️ 38 | 💬 42</TWEET>
+      <CONSENSUS>行业最新共识是上市前人才流动属正常现象，但连续核心产品负责人离开可能影响Claude在Agent与企业工作流领域的迭代节奏。</CONSENSUS>
+      <DIVERGENCE>大佬争论焦点在于离职是否与IPO股票锁定期或内部管理文化直接相关，以及这是否预示更多高管变动。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>Tutor Intelligence 7500万B轮：机器人真实数据飞轮</TITLE>
+      <NARRATIVE>这标志机器人数据获取从实验室模拟转向20个州真实工厂仓库规模化采集，人类“导师”远程接管生成训练数据并让整个舰队变聪明，是具身智能从“数据贫瘠”到“数据爆炸”的行业分水岭，直接影响OpenAI物理工程叙事落地速度。</NARRATIVE>
+      <TWEET account="a16z" role="a16z官方账号">Tutor Intelligence is building that dataset. Its robots work real shifts in factories... have helped make and ship more than 250 million products... Tutor just raised a $75M Series B led by a16z。❤️ 225 | 💬 17</TWEET>
+      <CONSENSUS>市场一致解读为真实世界具身数据将成为机器人scaling law的核心，Tutor模式证明“按小时租赁+人类导师”可快速闭环迭代，远超纯仿真路径。</CONSENSUS>
+      <DIVERGENCE>质疑声音集中在远程人类干预是否会引入规模化成本瓶颈，以及数据质量是否足以支撑完全自主机器人部署。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Tutor Intelligence完成7500万美元B轮融资，由a16z领投，用于扩张真实工厂机器人舰队并构建具身智能训练数据集。</ITEM>
+    <ITEM category="投融资快讯">Trajectory获得4500万美元A轮，用于自动化模型微调工具开发，估值3亿美元。</ITEM>
+    <ITEM category="VC views">a16z强调真实世界机器人数据采集是当前最大瓶颈，Tutor的“导师接管”模式可快速生成高质量训练信号，预计6-12个月内将催生多家类似数据飞轮公司。</ITEM>
+    <ITEM category="VC views">Chamath历史观点与当前电力/数据中心短缺信号结合，暗示下一轮硬件基础设施投资将向太空轨道计算与高效冷却方向倾斜。</ITEM>
+    <ITEM category="投融资快讯">Perplexity继续扩展Agent插件与决策模型开源，间接吸引基础设施层跟进投资，预估相关安全监控工具赛道年内将有数亿美元新资金流入。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">Kimi K3.1 Pro即将开源完整权重，在Terminal-Bench接近Opus 5.5且幻觉率大幅下降，Moonshot团队在长上下文Agent与生产推理上的快速迭代已成中国开源标杆，值得全球关注。</ITEM>
+    <ITEM category="中国 AI 评价">Qwen系列模型被simonw用于权重空间编程本地复现实验，证明其在中小模型上的稳定性与易操控性领先，为中国开源生态提供坚实实验基础。</ITEM>
+    <ITEM category="全球映射">中美开源模型互动日益紧密，中国模型在成本效益与特定基准上的优势正倒逼美国实验室加速开放权重以维持竞争，未来6个月市场份额或出现显著位移。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="mistralai" role="Mistral官方">我们让Mistral Large 4从零构建实时3D卫星与太空碎片跟踪应用，模型自主测试、优化并通过严格验证，Orbital Trace已上线。❤️ 979 | 💬 112</TWEET>
+    <TWEET account="rauchg" role="Vercel创始人">Vercel内部安全Agent“hacker”已对外开放，每行代码自动审计，可极大提升代码安全水平，推荐所有仓库启用。❤️ 531 | 💬 92</TWEET>
+    <TWEET account="bindureddy" role="AI趋势观察者">Astra 6.2价格降60%与Opus 5.5持平，盲测中用户更偏好Astra用于应用构建，这将极大提升OpenAI在Agent工作负载的市场份额。❤️ 948 | 💬 90</TWEET>
+    <TWEET account="perplexity_ai" role="Perplexity官方">Perplexity Computer现可自动化整个电商业务，直接在平台内运行Meta广告、Klaviyo邮件营销和Shopify店铺管理。❤️ 327 | 💬 59</TWEET>
+    <TWEET account="vllm_project" role="vLLM项目官方">vLLM v0.33.0发布，支持全新模型、PyTorch 2.14、GB300上显著加速解码与TTFT，新增AWS EFA镜像与ROCm优化。❤️ 83 | 💬 12</TWEET>
+    <TWEET account="sama" role="OpenAI CEO">人们应始终掌控未来，OpenAI反对将人类降格为“AI认为值得奖励”的角色，人类不应将未来控制权让渡给超级智能。❤️ 3372 | 💬 673</TWEET>
+    <TWEET account="aravsrinivas" role="Perplexity CEO">Perplexity的Agent harness现支持Agent Plugins，可在高于单个连接器的抽象层操作应用束及其技能。❤️ 105 | 💬 60</TWEET>
+    <TWEET account="bindureddy" role="AI趋势观察者">数据中心短缺将进一步恶化，民主党主导多州可能全面禁止新建数据中心，计算资源将成为溢价品，小型智能模型将成为主流。❤️ 59 | 💬 20</TWEET>
+  </TOP_PICKS>
+</REPORT>
