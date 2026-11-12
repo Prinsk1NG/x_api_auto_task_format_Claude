@@ -1,0 +1,83 @@
+<REPORT>
+  <COVER title="决策模型+基因组AI：硅谷新效率与科学范式" prompt="Minimalist data visualization artwork showing clean neural node networks in electric blue converging into a luminous double-helix DNA strand that morphs into branching decision trees with probability nodes. Floating molecular structures and closed-set choice icons (yes/no, rubric scores) orbit the central form. Use sharp geometric lines, silver metallic textures on nodes, soft volumetric lighting with cyan data streams flowing between elements. Dark gradient background with subtle grid. Cinematic scientific aesthetic, ultra sharp 8K, no text, high contrast focal points on helix-node intersections." insight="决策专用模型与细胞级基因预测双双落地，代理经济与太空算力叙事同步升温。"/>
+  <PULSE>今日硅谷核心叙事流向是从通用生成转向高效决策模型、生物科学AI里程碑与太空巨型算力愿景，代理安全与B2A经济基础设施加速成熟。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>AlphaGenome 2发布：细胞特异性DNA变异预测里程碑</TITLE>
+      <NARRATIVE>Google DeepMind推出AlphaGenome 2，能预测DNA变异在特定细胞类型（如心肌 vs 免疫细胞）中的影响，将基因组学从“全基因组模糊答案”推进到“细胞级精准洞察”，这是AI驱动生物科学的分水岭事件，直接加速复杂疾病机理研究与药物开发。结合历史记忆中AlphaFold系列的持续推进，此次明确落地API供学术免费使用，标志从蛋白质到全基因组变异解读的完整闭环。</NARRATIVE>
+      <TWEET account="demishassabis" role="Google DeepMind CEO">DeepMind自豪宣布AlphaGenome 2新DNA序列模型！它能预测DNA变异在不同特定细胞类型中的影响，为理解复杂疾病提供关键信息。目前通过API向学术研究免费开放。❤️ 2821 | 💬 163</TWEET>
+      <TWEET account="sundarpichai" role="Google CEO">AlphaGenome 2帮助揭示疾病的细胞驱动因素，为科学家提供强大工具来预测DNA变异如何影响特定细胞类型。所有细胞共享同一DNA蓝图，但不同细胞类型读取方式不同，这一模型将遗传发现与实际疾病根源精准关联。❤️ 2070 | 💬 122</TWEET>
+      <CONSENSUS>行业共识认为这是AI赋能精准医学的重大分水岭，学术界可立即用于疾病机理研究，未来将大幅缩短从基因发现到治疗开发的周期。</CONSENSUS>
+      <DIVERGENCE>目前争议在于模型在罕见细胞类型上的泛化能力是否足够，以及伦理上如何管理“预测即干预”的潜在风险。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>B2A经济崛起：AI代理成为互联网首要用户</TITLE>
+      <NARRATIVE>本期a16z多条推文明确提出，互联网主要用户已不再是人类而是AI代理。随着代理从问答转向完成实际任务，它们将决定使用哪些产品、订阅哪些服务、如何消费。企业必须将代理视为头等客户，重新设计墙垒转为争夺“代理生意”。这是全新叙事，首次将代理流量爆炸（HUMAN Security数据显示8倍增长）上升到系统性经济范式层面。</NARRATIVE>
+      <TWEET account="a16z" role="a16z analysts">互联网首要用户已不再是人类，而是AI代理。当代理从回答问题转向完成任务，它们将越来越多地决定使用哪些产品、订阅哪些服务、代表我们把钱花在哪里。a16z Olivia与Justine Moore关于B2A经济的分析。❤️ 169 | 💬 38</TWEET>
+      <OUTLOOK>未来6-12个月，B2A将推动平台与SaaS产品重新设计认证、定价与API，代理流量可能占总流量的70%以上，催生专为代理优化的新基础设施与商业模式。</OUTLOOK>
+      <OPPORTUNITY>一级市场可重点关注代理原生支付、身份验证、内容适配与沙箱基础设施，以及为代理设计的产品设计工具与基准测试公司。</OPPORTUNITY>
+      <RISK>短期内代理行为仍高度依赖人类提示，真实消费决策能力可能被高估，存在泡沫风险；同时监管对“代理自主消费”的法律责任界定尚不清晰。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Gemini Decisions API：决策专用模型效率突破</TITLE>
+      <NARRATIVE>Google推出Gemini Decisions API及Decision 1模型，一次可处理最多1000个封闭式问题（是非题、多选、打分），输入每百万Token仅0.1美元且输出免费，比传统生成式解析快5倍、延迟低至150-250ms。这是既有“高效小模型/代理判断”叙事的深度推进，校准误差仅0.025，远优于GPT-6 Luna，直接解决代理循环中反复解析输出的瓶颈。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">我们今天推出Gemini Decisions API，由Google AI Studio中的新Gemini Decision 1模型驱动。它不逐Token生成文本，而是为封闭集合选择设计，一次可处理文本、图像、音频、视频和PDF上的最多1000个问题。输入每百万Token 0.1美元，输出免费，在多项基准上领先且校准误差最低。❤️ 5512 | 💬 323</TWEET>
+      <CONSENSUS>行业新共识是未来代理系统将大量采用专用决策模型而非通用生成模型，成本与延迟优势将重塑RAG、工具调用与多代理编排流程。</CONSENSUS>
+      <DIVERGENCE>推进后仍存争议：如何在高风险决策中平衡速度与可解释性，以及与OpenAI同类API的长期生态兼容性。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>太空算力愿景：Musk提出1PW月球电力目标</TITLE>
+      <NARRATIVE>Elon Musk明确表示SpaceX目标是地球1TW/年、月球超1PW/年的电力产能，并指出太空100GW相当于地球800GW，因为无需应对昼夜与季节问题。这是全新宏大叙事，将算力稀缺解决方案从地面核聚变/小模型转向轨道巨型计算，直接呼应历史记忆中Paul Graham关于Starcloud轨道数据中心的观点，但规模与紧迫性均大幅升级。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI/SpaceX/Tesla CEO">实际上，我们的目标是地球每年1TW，并上升到月球每年超1PW。这就是为什么我说如果实现这一目标，SpaceX显然将比地球更有价值，因为太空是如此惊人地巨大！❤️ 11866 | 💬 637</TWEET>
+      <TWEET account="elonmusk" role="xAI/SpaceX/Tesla CEO">太空100GW大致相当于地球800GW。而且地球太阳能必须搭配巨型电池才能夜间持续供电，冬季还需燃烧或核能补充。这些完全不同。❤️ 8580 | 💬 599</TWEET>
+      <OUTLOOK>6-12个月内将加速SpaceX Starship发射与轨道数据中心原型验证，若成功将重塑全球算力版图，让xAI/Grok在能源成本上获得压倒性优势。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注太空太阳能、轨道冷却、星间激光通信及太空AI芯片公司，早期切入发射成本下降带来的基础设施机会。</OPPORTUNITY>
+      <RISK>技术硬伤明显：发射成本、轨道维护与辐射防护仍存巨大不确定性，短期内更可能是PR与融资叙事而非立即可落地产能。</RISK>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>代理沙箱安全研究深化：Perplexity SPACE红队新发现</TITLE>
+      <NARRATIVE>Perplexity发布SPACE VM沙箱红队研究，使用12个模型测试逃逸主机凭证与绕过网络策略，发现标准CTF提示会误导代理聚焦VM内部而非隔离层，网络DNS欺骗等新攻击被发现并修复，非网络安全模型有时比专用模型更擅长发现漏洞。这是代理安全叙事的深度推进，强调真实安全边界测试而非游戏化CTF。</NARRATIVE>
+      <TWEET account="perplexity_ai" role="Perplexity AI官方">我们发布了对SPACE（计算机代理VM沙箱）红队测试的新研究。给12个模型两个任务：逃出VM窃取主机凭证，以及绕过网络策略访问被阻URL。发现标准CTF设置会把代理引离真正安全边界，且安全专用模型并不保证更好结果。❤️ 147 | 💬 49</TWEET>
+      <CONSENSUS>新共识是代理沙箱必须采用显式“打破主机-客户机隔离”的提示，且开源分享红队结果有助于全行业提升基线安全。</CONSENSUS>
+      <DIVERGENCE>争论焦点仍在于：是否所有代理最终都需要独占硬件才能彻底解决侧信道攻击，以及开源沙箱在企业级部署时的合规成本。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI估值与IPO叙事遭遇强烈质疑</TITLE>
+      <NARRATIVE>Gary Marcus连续发文猛批Anthropic CEO Dario的IPO演讲“和Elizabeth Holmes一样满嘴谎言”，并指出部分投资者从未吸取教训。这是明显叙事转向：过去一年估值泡沫与上市乐观情绪（历史记忆中Anthropic IPO路演、估值从2T跌至1T）正被公开、尖锐的质疑取代，共识从“快速上市变现”转向“长期健康存疑”。</NARRATIVE>
+      <TWEET account="garymarcus" role="AI批评者">Dario的IPO演讲和Elizabeth Holmes说的东西一样满嘴shit。有些投资者永远学不会。❤️ 220 | 💬 5</TWEET>
+      <CONSENSUS>最新行业共识是前沿实验室营收虽增长但亏损仍巨大，市场对高估值可持续性的耐心正在快速耗尽。</CONSENSUS>
+      <DIVERGENCE>大佬们激烈争论焦点在于：当前泡沫破裂是暂时计算稀缺导致，还是模型能力真正触顶的信号。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Fractile完成7.2亿美元C轮，由英国主权AI基金、Thrive Capital与Founders Fund领投，估值超70亿美元，聚焦AI计算硬件。</ITEM>
+    <ITEM category="投融资快讯">Shield AI获25亿美元融资（含10亿H轮），投后估值288亿美元，BlackRock与JPMorgan参与，专注AI国防无人机。</ITEM>
+    <ITEM category="VC views">a16z指出GPU租赁价格持续上涨（H100超直线折旧54%），AI代理流量8倍增长正驱动B2A新资产类别，建议将代理视为头等客户。</ITEM>
+    <ITEM category="VC views">Lightspeed领投Nuance AI 5000万美元A轮，专注全双工情感智能语音代理，强调超越文本的下一代人机交互。</ITEM>
+    <ITEM category="投融资快讯">Zipline完成15亿美元融资，投后估值215亿美元，由Paradigm等领投，用于AI驱动物流无人机扩张。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek在盲测中95%匹配Gemini Carbon/Opus的agentic循环表现，却仅为1/40成本，长循环衰减问题正在通过压缩优化快速解决；其Harness智能体API日活已达154万，日均token消耗92万亿，显示中国开源模型在性价比与实际部署上已具备全球竞争力。</ITEM>
+    <ITEM category="中国 AI 评价">阿里Qwen4-Max-Preview与百度ERNIE 5.5 Flash均已支持百万token上下文并开放API，参数规模与实际落地速度领先，显示中国公司在高效推理与企业级部署上持续推进，但监管对最先进模型海外开放的限制讨论仍在进行。</ITEM>
+    <ITEM category="全球映射">中国模型快速商品化与美国计算稀缺形成互补，若DeepSeek等继续保持40x成本优势，可能在B2A经济早期阶段获得双位数全球市场份额，但需警惕中美AI基础设施脱钩风险。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="drjimfan" role="NVIDIA GR00T负责人">完全自主、1倍速、无剪辑。这是GR00T 2控制真实灵巧双手端到端完成化学实验室实验并自行清理的全过程。新系列第一集！我会持续发布真实机器人视频，没有常见的“4x”或“8x”标签。没人能加速现实，除非奇异博士。❤️ 578 | 💬 96</TWEET>
+    <TWEET account="op7418" role="独立开发者">Fable 5.2只用一下午、45亿token就给我做了一个完整的3D动作游戏！包括模型、场景、动作、优化全由它完成，最后打包成30兆HTML文件。可以在浏览器直接玩。它的游戏制作能力太恐怖了。❤️ 118 | 💬 71</TWEET>
+    <TWEET account="bindureddy" role="AI独立分析师">在盲测中DeepSeek匹配Carbon/Opus在95%的agentic循环上。它便宜40倍且更具吸引力。唯一缺点是极长循环中退化更快。修复压缩后应该能追平。❤️ 231 | 💬 76</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">创建优秀产品仍然需要非凡的人类专注、努力、动力和爱，以及注意力持续时间。❤️ 2752 | 💬 210</TWEET>
+    <TWEET account="nvidia" role="NVIDIA官方">我们正在扩大与ElevenLabs的合作，将语音代理带给全球企业和政府。NVIDIA Nemotron模型现已集成进ElevenAgents，为组织提供更多构建和定制语音代理的选择。❤️ 607 | 💬 291</TWEET>
+    <TWEET account="a16z" role="a16z官方">GPU租赁价格并未按计划折旧。截至10月19日，租赁价格高于六年直线折旧路径：A100高9%，H100高54%。需求如此之高，即使瓦特转美元转化率低，你仍会使用这些资产。❤️ 303 | 💬 23</TWEET>
+    <TWEET account="simonw" role="独立开发者">他们把推荐prompt改成了“你是这个代码库的所有者和长期维护者，其设计由你决定。”❤️ 22 | 💬 21</TWEET>
+    <TWEET account="vllm_project" role="vLLM项目官方">vLLM在NVIDIA Vera Rubin NVL72上持续提升MiniMax-M3.1-Flash性能。在SemiAnalysis AgentX负载下，比GB300高10.2倍总token/s/chip。我们通过消除CPU开销和Rubin优化内核实现这些收益。❤️ 41 | 💬 10</TWEET>
+  </TOP_PICKS>
+</REPORT>
