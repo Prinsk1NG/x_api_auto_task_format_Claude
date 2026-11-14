@@ -1,0 +1,74 @@
+<REPORT>
+  <COVER title="谷歌周速五炸与Nvidia机器人通用脑：执行力成新战场" prompt="Ultra-realistic industrial design rendering of a sleek futuristic robotics laboratory at dusk, featuring Nvidia GR00T 2 humanoid robots in mid-motion transferring skills between different mechanical bodies on a precision assembly line, holographic data overlays showing cross-embodiment neural mappings, Google TPU racks pulsing with rapid iteration timelines in the background, dramatic cinematic key lighting with volumetric shafts cutting through metallic surfaces and glass enclosures, brushed titanium and carbon fiber textures, 8K resolution, shot on large format film with shallow depth of field emphasizing engineering precision and velocity." insight="谷歌与Nvidia以周为单位的硬核交付节奏，正将AI竞赛从模型参数转向基础设施执行速度。"/>
+  <PULSE>硅谷今日叙事主线是从模型发布竞赛转向硬件共设计周速、跨具身机器人通用技能与持久化低成本Agent基础设施。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>谷歌单周五重大交付：TPU双发+Gemini全系+AlphaGenome 2+Decisions API</TITLE>
+      <NARRATIVE>本周谷歌以近乎“速度跑通元素周期表”的节奏接连推出两款第八代TPU、Gemini 4 Carbon/Hydrogen、AlphaGenome 2、Gemini Decisions API及智能眼镜预售，标志着AI公司执行力本身已成为核心竞争壁垒，传统半导体数年周期被压缩至周级，这是行业分水岭式的事件。</NARRATIVE>
+      <TWEET account="sundarpichai" role="Google CEO">本周@google我们发布了：周一两款新一代TPU、周二Gemini 4 Carbon（含AlphaProof验证Signal协议、Gemini Robotics 2.5）、周三AlphaGenome 2与Gemini Decisions API、周四Gemini 4 Hydrogen与智能眼镜预购、周五U2新专辑（玩笑）。继续前进！❤️ 6466 | 💬 362</TWEET>
+      <CONSENSUS>行业已形成共识：未来领先者不再是单一模型性能，而是每周都能稳定交付跨硬件、模型、应用与科研的全栈突破，谷歌已将此节奏固化为护城河。</CONSENSUS>
+      <DIVERGENCE>大佬们仍在争论这种“周速”是否可持续，或是否会因安全与对齐跟不上而被迫减速；部分声音认为这可能加速泡沫破裂。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>Nvidia GR00T 2开源机器人基础模型：跨具身技能迁移里程碑</TITLE>
+      <NARRATIVE>GR00T 2作为Nvidia最先进开源System One模型，能从人类演示中学习技能并预测物理世界变化，且技能可在不同机器人身体间迁移，大幅降低每个机器人从零教学的成本，这是机器人叙事在“通用具身智能”上的关键瓶颈突破。</NARRATIVE>
+      <TWEET account="nvidia" role="Nvidia官方">认识GR00T 2，我们最先进的开源System One机器人研究模型。它从人类演示中学习技能并预测动作对物理世界的影响。这些技能可在不同机器人身体间迁移，减少从零教每个机器人的需求。观看GR00T 2实际运行。❤️ 2023 | 💬 645</TWEET>
+      <CONSENSUS>行业新共识是机器人不再需要为每种硬件单独训练，跨具身迁移将成为基础能力，Nvidia此举大幅降低了机器人规模化门槛。</CONSENSUS>
+      <DIVERGENCE>仍未解决的问题是真实世界噪声下的长期鲁棒性，以及开源模型在安全关键任务中的可信度是否足以让企业大规模部署。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Always-on事件驱动Agent架构：用睡眠机制实现24小时助理</TITLE>
+      <NARRATIVE>Anthropic最新工程博客提出Always-on Agent新范式：Agent大部分时间“睡觉”不调用模型，仅在收件箱事件、定时器或记忆触发时醒来，通过权限、记忆文件夹和发件箱实现低成本持久化运行，彻底解决人类注意力与AI任务爆炸的矛盾，这是Agent从一次性会话转向持久数字员工的原生设计。</NARRATIVE>
+      <TWEET account="dotey" role="AI观察者">24小时在线的AI Agent助理，靠这五样东西：一直在线却大部分时间睡觉不烧钱。Anthropic刚发文详解：收件箱唤醒、定时器主动、记忆文件夹、权限控制、发件箱决策。如何处理并发、节省记忆、等待人类拍板都讲透了。来源：Anthropic《Building always-on agents》。❤️ 104 | 💬 58</TWEET>
+      <OUTLOOK>未来6-12个月，Always-on Agent将从实验进入主流企业工具，成为个人与团队的数字参谋，极大降低持久化Agent的算力成本，重塑工作流。</OUTLOOK>
+      <OPPORTUNITY>一级市场可关注提供事件驱动调度、轻量记忆压缩和沙箱权限编排的初创公司，以及与企业邮件/日历系统深度集成的垂直Agent平台。</OPPORTUNITY>
+      <RISK>技术硬伤在于并发事件冲突解决与长期记忆漂移，若唤醒逻辑设计不当可能导致不可控连锁行为，短期内仍需大量人工监督。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI泡沫破裂被视为健康出清：Jensen离职加速市场回归理性</TITLE>
+      <NARRATIVE>bindureddy等声音转向认为当前泡沫破裂是积极信号：利率上升、Jensen离职导致新云新实验室融资困难、估值与公开市场脱节，将迫使现金燃烧的公司退出，长期利于更高效、真正创造价值的公司诞生，与过去“计算稀缺下小模型主导”的预测形成延续但方向转向“出清有益”。</NARRATIVE>
+      <TWEET account="bindureddy" role="独立分析师">AI泡沫正在破裂，而且这是件好事。利率上升、Jensen离职无法再支撑新云新实验室、私募估值与公开市场严重脱节、数据中心更难建。市场将停止资助那些负毛利或无收入的公司，长期将诞生更高效、真正创造价值的企业。❤️ 581 | 💬 116</TWEET>
+      <CONSENSUS>越来越多从业者形成共识：短期估值回调与资金收紧是必要调整，幸存者将是那些聚焦真实营收与效率而非纯烧钱扩张的公司。</CONSENSUS>
+      <DIVERGENCE>核心争论在于破裂速度与深度：是否会拖累整个生态，还是像bindureddy所说“Nvidia财报超预期+Anthropic IPO首日大涨+OpenAI新模型”能让AI下周就强势回归。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>机器人研究与太空算力基础设施双轮驱动：Made on Earth by humans</TITLE>
+      <NARRATIVE>Elon Musk同步推进Starship飞行测试与“地球制造”叙事，同时Nvidia GR00T 2开源，暗示机器人与太空算力正形成相互强化的新闭环：地球制造的机器人与火箭将支撑月球/太空的超大规模算力，这是从未出现过的软硬件+航天一体化范式。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI/Tesla/SpaceX CEO">Starship 42准备发射。来自太空的Starship实时视频。地球人类制造。❤️ 41794 | 💬 2087</TWEET>
+      <OUTLOOK>未来6-12个月，机器人具身数据将与Starship发射成本下降形成正反馈，太空算力愿景从概念快速走向原型，xAI与Tesla的垂直整合优势凸显。</OUTLOOK>
+      <OPPORTUNITY>一级市场关注机器人-航天交叉领域的早期团队，尤其是具身数据采集、轨道边缘计算和低成本发射-算力联合基础设施项目。</OPPORTUNITY>
+      <RISK>短期泡沫风险高，Starship实际发射频率与机器人真实世界泛化仍存巨大工程障碍，需警惕概念先行而工程交付滞后。</RISK>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Agile Robots完成5亿美元融资，由软银领投，投后估值85亿美元，用于AI机器人规模化生产。</ITEM>
+    <ITEM category="投融资快讯">英国AI芯片公司Fractile完成7.2亿美元C轮，估值超50亿美元，投资方含英国主权AI基金、Thrive Capital与Founders Fund。</ITEM>
+    <ITEM category="投融资快讯">Anthropic推进IPO路演，拟募资约644亿美元，目标估值区间1万亿-1.3万亿美元，已提交S-1注册声明。</ITEM>
+    <ITEM category="VC views">a16z指出制药巨头市值已可比肩科技巨头，Eli Lilly单季GLP-1收入近170亿美元，预计2030年超1000亿美元，AI+生物医药交叉机会巨大。</ITEM>
+    <ITEM category="VC views">尽管泡沫出清声音增多，但Nvidia GR00T 2开源及Google周速交付仍在吸引资金向具身智能与高执行力基础设施倾斜。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek API近日大更新，将APP内搜索文件、ASR、TTS、OCR等全部能力开放单独调用，显示中国模型在多模态实用工具链上已形成快速迭代闭环，性价比优势显著，值得全球开发者关注。</ITEM>
+    <ITEM category="全球映射">中国模型（如DeepSeek V4系列、Kimi K3、Qwen3.8-Flash）在Respan Index等基准中持续上榜，且硬件指纹显示已匹配NVIDIA Blackwell系列，表明中国AI在出口管制环境下仍实现高效推理优化，对全球开源生态构成互补而非单纯竞争。</ITEM>
+    <ITEM category="全球映射">MiniMax M3与Step 3.5 Flash在价格与开源许可上的激进策略（0.3-0.9美元/百万token，Apache 2.0），正迫使全球玩家重新评估小模型+高效推理的长期主导地位。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="anthropicai" role="Anthropic官方">安全评估对判断模型是否可部署、构建防护及聚焦训练方向至关重要。我们工程博客给出设计、运行与报告评估的10条推荐。❤️ 1976 | 💬 233</TWEET>
+    <TWEET account="elonmusk" role="xAI/Tesla/SpaceX CEO">一份要求Jensen复职的请愿正在进行，我也会签名。❤️ 163382 | 💬 5622</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">我好奇是否每个外星文明都会经历一个LLM阶段并因此毁灭文明，然后是否有人能成功渡过难关。❤️ 296 | 💬 41</TWEET>
+    <TWEET account="a16z" role="a16z官方">全球前30大药企总市值约5万亿美元，Eli Lilly alone超1万亿，其GLP-1产品单季收入近170亿美元，几乎相当于Anthropic同期营收。制药巨头已能与软件巨头比肩。❤️ 111 | 💬 9</TWEET>
+    <TWEET account="rauchg" role="Vercel CEO">Vercel Sandbox势在必行。❤️ 206 | 💬 52</TWEET>
+    <TWEET account="bindureddy" role="独立分析师">下周AI将强势回归：Nvidia财报超预期、Anthropic IPO首日大涨、OpenAI大概率发布Astra或Sol，最期待Astra新定价据传低于30美元/百万输出。❤️ 53 | 💬 26</TWEET>
+    <TWEET account="nvidia" role="Nvidia官方">真实机器人，实时运行。完全自主。❤️ 185 | 💬 24</TWEET>
+    <TWEET account="packym" role="独立开发者">女士们先生们……周五13号。我见过最夸张的IPO营销噱头之一。我们懂的，模型非常强大且危险。❤️ 138 | 💬 9</TWEET>
+    <TWEET account="aravsrinivas" role="Perplexity CEO">来Perplexity和@randomjohnnyh一起打造前沿产品，我们即将发布很多会重塑你对Perplexity认知的东西。❤️ 134 | 💬 13</TWEET>
+  </TOP_PICKS>
+</REPORT>
