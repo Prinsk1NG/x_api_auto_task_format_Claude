@@ -1,0 +1,82 @@
+<REPORT>
+  <COVER title="AI科学家生产力近翻倍 科研引擎启动" prompt="Minimalist data visualization in crisp scientific aesthetic showing interconnected neural nodes flowing as clean data streams into laboratory instruments including microscopes, spectrometers and simulation screens. Before-and-after productivity charts float in geometric precision with doubling metrics glowing in electric blue against pure white background. Subtle molecular structures and equation fragments integrate into the neural graph. Soft volumetric lighting with gentle lens flares, ultra-sharp 8K resolution, cinematic wide composition emphasizing clarity, innovation and measurable acceleration, no neon or cyber elements, industrial precision meets academic minimalism." insight="OpenAI实证AI近乎翻倍科学家生产力，安全评估与免费前沿模型同步落地，科研范式真正转向AI驱动。"/>
+  <PULSE>今日硅谷核心叙事从Agent安全与产品范式转向AI如何切实倍增科学研究生产力，同时暴露关键基础设施在AI部署下的可靠性风险。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>AI科学家生产力近翻倍 科研发现引擎实用化</TITLE>
+      <NARRATIVE>OpenAI发布针对1800多名研究者的研究显示，使用其模型后科学家生产力几乎翻倍，涵盖从idea生成到数据分析和代码编写全流程。同时宣布向全球20万科学家免费开放前沿模型并提供培训，且默认不用于训练自身模型。这与历史记忆中gdb关于Astra用于理论物理发现的观点形成清晰延续，标志AI从辅助工具升级为可量化加速科学发现的核心基础设施，是行业分水岭事件。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">OpenAI研究显示，1800多名研究者使用ChatGPT后生产力几乎翻倍，覆盖idea到代码全链路。同时向全球20万科学家免费开放前沿模型并提供培训，默认不用于自身训练。❤️ 3352 | 💬 344</TWEET>
+      <CONSENSUS>AI已成为科学研究的生产力倍增器，免费前沿访问与隐私保护将成为标配，行业已接受“AI驱动发现”作为新常态。</CONSENSUS>
+      <DIVERGENCE>生产力提升是否会转化为真正突破性发现，还是主要加速低质量论文产出？免费访问规模化后的算力与安全成本如何平衡仍存争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>外部嵌入式评估深化AI对齐安全验证</TITLE>
+      <NARRATIVE>OpenAI与Apollo Research、METR_Evals、TransluceAI、GoodfireAI合作开展嵌入式评估，让外部专家深入访问内部模型与系统，重点检验模型是否会隐蔽对抗开发者意图，并测试防护机制。这是既有对齐叙事的深度推进，超越表面安全测试，进入可独立验证的内部机制层面，构建了更强的信任与风险管理框架。</NARRATIVE>
+      <TWEET account="openai" role="官方账号">我们正与Apollo Research、METR_Evals等合作开展嵌入式评估，让外部专家深入访问内部模型，调查对齐情况并测试防护机制。重点检查模型是否会隐蔽对抗开发者意图。❤️ 2921 | 💬 609</TWEET>
+      <CONSENSUS>前沿实验室必须引入独立第三方嵌入式评估，对齐研究已从内部自查转向可验证的外部深度审计。</CONSENSUS>
+      <DIVERGENCE>如何在提供深度访问的同时保护核心IP与训练数据？评估结果的公开透明度与潜在负面发现的处理方式仍无行业共识。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Agent时代产品开发转向Evals驱动而非用户访谈</TITLE>
+      <NARRATIVE>rauchg指出传统产品流程（用户访谈、mock journey）已过时，现在用户是Agent，因此通过大规模evals来指导软件工程循环。这一新范式直接解决Agent行为不可预测的问题，将产品迭代从人类主观反馈转向可量化、可重复的自动化评估，是从未见过的产品方法论转向。</NARRATIVE>
+      <TWEET account="rauchg" role="Vercel CEO">传统方式：用户是人类，做访谈、画journey。新方式：用户是Agent，跑evals，用evals指导整个软件工程循环。这是我们在Vercel的做法。❤️ 517 | 💬 83</TWEET>
+      <OUTLOOK>未来6-12个月，Agent原生应用开发将普遍采用evals-first流程，传统PM技能部分被自动化替代，加速迭代周期但要求工程团队掌握评估框架。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投资evals基础设施、自动化评估平台及专为Agent设计的A/B测试工具，类似Vercel的eval套件有快速商业化潜力。</OPPORTUNITY>
+      <RISK>短期可能仍是泡沫，若evals指标与真实世界Agent行为相关性不足，会导致“优化代理指标却损害真实体验”的新对齐问题。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>AI致银行航空大面积故障 “prompt zombie”工程师成新风险</TITLE>
+      <NARRATIVE>bindureddy与dylan522p指出银行、航空、微软近期重大故障主因AI，工程师已沦为“prompt zombie”，对系统底层理解缺失，导致整体可靠性退化。这与过去7天“AI泡沫逐渐消退”“软件工程师从写代码转向管理AI”的指纹形成清晰转向：此前聚焦生产力提升，今天共识已转向AI部署正制造系统性脆弱性，风向从乐观转向警惕。</NARRATIVE>
+      <TWEET account="bindureddy" role="独立分析师">银行、飞机和微软出现重大故障，AI难辞其咎。工程师变成prompt zombies，对工作缺乏理解和兴趣，系统因此严重退化。❤️ 96 | 💬 47</TWEET>
+      <CONSENSUS>过度依赖AI生成代码而忽视工程师系统性理解，已成为关键基础设施的真实风险，行业开始反思“AI优先”策略的副作用。</CONSENSUS>
+      <DIVERGENCE>究竟是AI本身不可靠，还是人类监督与工程实践的退化导致？如何在不牺牲速度的前提下重建工程师对底层系统的掌握，仍是激烈争论点。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>外部沙箱模式革新AI编码Agent安全边界</TITLE>
+      <NARRATIVE>simonw提出外部沙箱新模式：Agent在Mac本地运行，但代码实际在WebAssembly、QEMU或Apple Container中执行，并通过allow-list proxy精确控制可通信主机及凭证替换。这是针对coding agents安全问题的全新范式，解决传统沙箱难以平衡便利性与隔离性的痛点。</NARRATIVE>
+      <TWEET account="simonw" role="独立开发者">我正在探索让coding agents代码在外部沙箱运行的新方式：Agent在Mac上运行，但代码实际在WebAssembly或QEMU或Apple Container中执行，已为Claude Code、Codex和Pi提供demo。❤️ 454 | 💬 131</TWEET>
+      <OUTLOOK>未来6-12个月，Agent代码执行将普遍采用混合本地+外部沙箱架构，企业级部署的安全合规门槛大幅降低，推动更多高敏感场景落地。</OUTLOOK>
+      <OPPORTUNITY>投资专注于WASM/QEMU增强、凭证零信任代理及Agent专用沙箱监控的早期项目，这些将成为Agent基础设施的必备层。</OPPORTUNITY>
+      <RISK>性能开销与调试复杂性可能是硬伤，若无法将延迟控制在可接受范围，可能仅停留在原型阶段而难以规模化。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>Perplexity推出事件监控API Agent用户行为追踪新范式</TITLE>
+      <NARRATIVE>aravsrinivas宣布Perplexity Monitor API，可追踪任意事件、网页变化并设置webhook通知，每1000次运行仅1美元。这开创了“Agent作为首要互联网用户”的新追踪机制，是对a16z过去B2A经济叙事的直接推进与具体化，从概念转向可立即部署的商业产品。</NARRATIVE>
+      <TWEET account="aravsrinivas" role="Perplexity CEO">我们推出Perplexity Monitor：一个API，可追踪任何事件、主题或网页变化并设置webhook通知。每1000次运行仅需1美元。❤️ 227 | 💬 36</TWEET>
+      <CONSENSUS>随着Agent成为主要流量来源，实时监控与webhook驱动的“Agent行为追踪”将成为基础设施标配。</CONSENSUS>
+      <DIVERGENCE>隐私与数据所有权问题如何解决？当Agent自主决策时，监控本身是否会被Agent规避，仍是未解之谜。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Mirendil完成10亿美元A轮（Kleiner Perkins领投），专注AI科研智能体；LangChain获3亿美元C轮，投后估值30亿美元，企业Agent平台热度持续。</ITEM>
+    <ITEM category="投融资快讯">Mercor完成7.5亿美元D轮，投后估值200亿美元，为AI模型提供训练数据与评估；Higgsfield B轮4亿美元，AI视频生成年收入达7亿美元。</ITEM>
+    <ITEM category="投融资快讯">UFORCE完成7亿美元A轮，投后估值60亿美元，专注AI驱动的无人艇/无人机/地面机器人，国防与机器人交叉领域资本加速流入。</ITEM>
+    <ITEM category="VC views">a16z指出token价格下跌58%但GPU租金持续上涨（B200+66%），形成“Rack Spread”；Tyler Cowen认为AI让招聘更难，短期匹配效率下降，但最终AI将提供能力认证。</ITEM>
+    <ITEM category="VC views">a16z强调企业AI瓶颈已从模型转向专有上下文注入，组织级Agent基础设施成为下一波价值捕获重点。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">腾讯Hy4-flash以2240亿参数（激活120亿）、每百万token输入约0.0438美元、推理超150 tokens/s展现极高性价比，Qwen4-Max达2.4万亿参数；DeepSeek因限流在小红书被用户追骂，Hassabis评价DeepSeek为“中国最出色成果但略微夸大、未展示新科学进展”。</ITEM>
+    <ITEM category="全球映射">中国模型在价格与速度上已形成全球竞争力，但国内算力资源紧张限制进一步规模化，需警惕外部技术封锁下如何维持开源与商业双轨并行。</ITEM>
+    <ITEM category="全球映射">字节豆包新增21个垂直工作台，MiniMax开源图像描述模型，显示中国实验室正快速向企业级Agent与多模态落地，但与OpenAI科学家免费计划相比，基础科研生态投入仍显差距。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="gdb" role="OpenAI首席科学家">ChatGPT正在帮助科学家实现生产力翻倍，这是我们最新研究的直观展示。❤️ 1067 | 💬 100</TWEET>
+    <TWEET account="elonmusk" role="SpaceX/Tesla CEO">星舰已被太空捕获，我们已经走了很远。❤️ 67634 | 💬 1783</TWEET>
+    <TWEET account="dotey" role="知名科技博主">Yahoo Finance主持人问Sam Altman：黄仁勋该不该回来？Altman表示“知道得不够多，无法回答”，并称黄一直是他的英雄，尽管英雄也有缺点，对英伟达早期支持OpenAI“极其感激”。❤️ 80 | 💬 56</TWEET>
+    <TWEET account="simonw" role="独立开发者">每个沙箱服务器都包含可选的HTTP/HTTPS白名单代理，可精确控制Agent代码能与哪些主机通信，同时提供凭证替换机制，让Agent无需共享密钥即可发起认证调用。❤️ 28 | 💬 6</TWEET>
+    <TWEET account="a16z" role="知名VC机构">Tyler Cowen认为AI将在两年内写出优秀诗歌，只需召集十几个诗人、给予适当报酬并设置检查机制即可。模型已有极佳品味。❤️ 50 | 💬 14</TWEET>
+    <TWEET account="garymarcus" role="AI批评者">特朗普在黄仁勋事件上越描越黑。他声称“不知道她是间谍”，但基本不可能没听过Rubio的通报。这可能迫使Rubio在宣誓后选择说真话或做伪证。❤️ 419 | 💬 20</TWEET>
+    <TWEET account="aravsrinivas" role="Perplexity CEO">AI自动化科学研究是目前最好的算力投资方向。❤️ 227 | 💬 36</TWEET>
+    <TWEET account="nvidia" role="英伟达官方">恭喜Debora Shoquist获得2026 Global Semiconductor Dr. Lisa Su Woman of Innovation Award，她领导运营近20年，将NVIDIA技术带向世界。❤️ 254 | 💬 194</TWEET>
+    <TWEET account="bindureddy" role="独立分析师">网络攻击已增加100倍！Agent集群不断在互联网上巡逻寻找漏洞，网络安全产品却过于昂贵。我们正在为平台验证几项安全扫描，感恩节前应该能上线。❤️ 60 | 💬 22</TWEET>
+  </TOP_PICKS>
+</REPORT>
