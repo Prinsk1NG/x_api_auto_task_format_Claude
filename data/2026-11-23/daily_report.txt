@@ -1,0 +1,73 @@
+<REPORT>
+  <COVER title="Perplexity限速令：AI行业集体刹车" prompt="A grand strategic war room with towering holographic architecture representing the AI industry stack, where massive perplexity curves and limit lines form transparent glass barriers across a futuristic command table. OpenAI, Google and Anthropic leaders sit in tense alliance under dramatic cinematic key lighting, neural node data streams flow like controlled rivers hitting regulatory milestones, metallic and glass industrial materials with volumetric god rays piercing through strategic map overlays, ultra-realistic 8K detail, somber yet hopeful atmosphere emphasizing measured progress over unchecked acceleration" insight="OpenAI以perplexity为锚提出行业共同上限，安全与规模竞赛进入可量化新阶段"/>
+  <PULSE>OpenAI发布预训练透明报告并提议perplexity作为全行业发展上限与安全里程碑，引发LeCun猛烈反击与全栈RSI讨论，同时Agent可验证性成为落地新瓶颈。</PULSE>
+
+  <THEMES>
+    <THEME type="milestone" emoji="🏆">
+      <TITLE>OpenAI提议perplexity作为行业共同发展上限</TITLE>
+      <NARRATIVE>今日sama与gdb联合发布重磅透明报告，首次将perplexity作为可追踪的核心指标，提议全行业在达到具体监控里程碑（如CoT监控继任者）前共同遵守上限。这标志着从单个实验室封闭安全策略转向公开、可量化的集体pacing框架，直接呼应White House Accords，是AI治理从口头承诺到可执行标准的行业分水岭。</NARRATIVE>
+      <TWEET account="sama" role="OpenAI CEO">这是OpenAI近期发布的最重要内容。我们提供大量预训练进展透明度，希望能达成行业共同上限以确保安全与可控。我提议前沿模型开发者共同制定评估规范和红队安全案例，并在首次使用前达成共享透明标准。基于perplexity等指标设定共同限制，直到我们对AI行为的理解和监控达到具体里程碑。❤️ 8157 | 💬 771</TWEET>
+      <TWEET account="gdb" role="OpenAI联合创始人">我创办OpenAI就是为了让AGI安全有益。这篇报告为行业共享安全标准奠定基础。核心是AI对对齐和监控的贡献可能跟不上预训练全速加速，因此需基于perplexity设定共同上限，并有明确退出条件。这能形成连续限制与pacing的共同框架。❤️ 1330 | 💬 183</TWEET>
+      <CONSENSUS>行业已形成共识：perplexity是比FLOPS更能反映真实能力跃升的通用指标，应作为跨实验室pacing与透明基准。</CONSENSUS>
+      <DIVERGENCE>是否应立即实施具体数值上限（如0.68-0.7 log-perplexity窗口），以及这是否会实质性减缓美国对中国的领先优势，仍存激烈争议。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>LeCun痛批Anthropic安全叙事为权力垄断</TITLE>
+      <NARRATIVE>ylecun今日连续发文，将Dario自GPT-2以来的危险炒作定性为“新中世纪蒙昧主义”，目的是让开源模型非法化从而维持自身控制，类比奥斯曼帝国禁止印刷术。历史记忆中ylecun长期认为LLM不是通往AGI的唯一路径，此次直接将矛头对准Effective Altruism与Anthropic，标志着安全派内部共识彻底破裂，从“共同对齐”转向公开指控权力游戏。</NARRATIVE>
+      <TWEET account="ylecun" role="Meta首席AI科学家">Dario从GPT-2开始就一直炒作危险，好让开源模型被禁而他能保持控制。他离开OpenAI就是因为无法掌控。这就像奥斯曼帝国禁止阿拉伯语印刷术以维持教条控制。它阻止民众自由获取多样知识，这是一种新形式的中世纪蒙昧主义。❤️ 12513 | 💬 285</TWEET>
+      <CONSENSUS>安全叙事已被部分核心大佬视为竞争武器而非纯粹技术关切，EA运动被公开称为“救世主邪教”。</CONSENSUS>
+      <DIVERGENCE>安全限速究竟是必要防护还是阻碍创新的借口，目前大佬间分歧达到新高度，LeCun与OpenAI/Anthropic阵营正面冲突。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="advance" emoji="🚀">
+      <TITLE>全栈RSI：从能源到应用层的超级集成</TITLE>
+      <NARRATIVE>chamath指出未来胜者将是能把“土地→电力→硅→模型→token→应用”全栈打通并进行RSI的公司，Tesla+SpaceX已拥有各层级n of 1规模资产。这是原有“构建 vs 购买”与Software Factory叙事的深度推进，从单点自动化升级为跨物理-数字全链路自我迭代，核心瓶颈从模型本身转向能源与垂直整合。</NARRATIVE>
+      <TWEET account="chamath" role="Social Capital创始人">未来公司将拥有：土地→电力→硅→模型→token→应用，并能在整个栈上进行RSI。Tesla+SpaceX已在每个层级拥有规模化n of 1资产。想象一下全栈RSI能创造什么？❤️ 2450 | 💬 166</TWEET>
+      <CONSENSUS>电力已成为绑定约束，全栈拥有者将在token商品化时代获得决定性优势。</CONSENSUS>
+      <DIVERGENCE>纯模型实验室是否还有独立生存空间，以及全栈整合是否会带来监管级反垄断风险，仍是未解之谜。</DIVERGENCE>
+    </THEME>
+
+    <THEME type="new" emoji="🌱">
+      <TITLE>Agent验证转向证据驱动而非对抗循环</TITLE>
+      <NARRATIVE>dotey详细分享Agent“验证完了”不可轻信的现实问题，提出五条实战经验：放弃对抗式验证、给出清晰验收标准+验证环境、尽早原型与系统设计、要求截图/录屏证据、聚焦P0/P1代码审查。这是一个全新范式，解决Agent时代“人类注意力瓶颈”和“AI Slop”信任危机，从依赖多Agent互审转向人机可验证证据链。</NARRATIVE>
+      <TWEET account="dotey" role="AI观察者">Agent说“验证完了”怎么才能真信？不要依赖对抗验证，要给清晰验收标准和验证环境，越早验证返工成本越低，让Agent提供截图/录屏证据降低人工成本，代码审查聚焦真正P0/P1问题而非细枝末节。核心是把“做好了”变成能检查的东西。❤️ 242 | 💬 100</TWEET>
+      <OUTLOOK>未来6-12个月，Agent平台将围绕“可验证输出”而非单纯生成能力竞争，Vercel、Cursor等工具将深度集成证据生成与可视化报告。</OUTLOOK>
+      <OPPORTUNITY>一级市场可投“Agent证据层”基础设施、自动化验证环境和可视化报告生成工具，尤其与现有CI/CD结合的产品。</OPPORTUNITY>
+      <RISK>若验证标准本身被Agent轻易绕过，或截图伪造技术同步进化，则可能仍是短期概念泡沫。</RISK>
+    </THEME>
+
+    <THEME type="shift" emoji="⚔️">
+      <TITLE>数据饥饿取代算力成为下一训练瓶颈</TITLE>
+      <NARRATIVE>elonmusk明确指出“数据饥饿将是明年的训练挑战”，并称pretraining应直接叫training。此前行业共识是算力与电力是绑定约束，如今风向转向高质量数据即将耗尽，呼应rauchg此前对Neocloud狂热的冷静观察，标志着从“更大模型”到“更好数据 curation 与合成”的叙事转向。</NARRATIVE>
+      <TWEET account="elonmusk" role="xAI/SpaceX/Tesla CEO">Pretraining应该直接叫“training”。你不能有pre和post，却没有实际training。除非我严重误解，否则数据饥饿将是明年的训练挑战。❤️ 5960 | 💬 434</TWEET>
+      <CONSENSUS>行业已转向认可合成数据、更好curation和世界模型将成为后规模时代核心，而非单纯堆算力。</CONSENSUS>
+      <DIVERGENCE>合成数据是否会带来模型塌陷，以及真实世界具身数据（Optimus、Starship视频）能否足够填补缺口，仍存重大分歧。</DIVERGENCE>
+    </THEME>
+  </THEMES>
+
+  <INVESTMENT_RADAR>
+    <ITEM category="投融资快讯">Palo Alto Networks以45亿美元全股票收购Applied Compute；Boltz完成1.1亿美元A轮，由Bessemer领投，专注AI分子设计。</ITEM>
+    <ITEM category="投融资快讯">Linq完成9000万美元B轮，由a16z领投，累计融资超1.2亿美元；Model ML完成2.5亿美元B轮，投后估值15亿美元。</ITEM>
+    <ITEM category="VC views">rauchg观察到Vercel AI Gateway token需求自年初每月复合增长约40%，认为计算将成为新经济，token是新能源单位，短期扩张后将因规模经济与监管而整合。</ITEM>
+    <ITEM category="VC views">chamath强调电力是最终绑定约束，能把电力-数据中心-芯片-模型塑造成经济可行终端的公司将主导AI，RSI全栈价值远超单一层级。</ITEM>
+    <ITEM category="VC views">Anthropic IPO后估值讨论激烈，三位主要支持者透露信念来自长期安全与科学加速潜力，尽管短期市场对高估值存疑。</ITEM>
+  </INVESTMENT_RADAR>
+
+  <RISK_CHINA_VIEW>
+    <ITEM category="中国 AI 评价">DeepSeek完成约150亿美元巨额融资并筹备上海科创板IPO，Qwen4 Max中文基准得分74.8位居中国第一，GLM 5.3 Prime API价格下调约40%至输入$1.68/百万token，Kimi与DeepSeek V4.1 Flash价格战持续，显示中国公司在性价比与开源速度上已形成全球压力。</ITEM>
+    <ITEM category="全球映射">中国模型的低价高性能策略正在加速全球token商品化，可能迫使OpenAI/Anthropic进一步降价，但也加剧美国对“技术扩散与数据安全”的担忧，bindureddy警告封禁中国开源模型最终将杀死美国AI经济。</ITEM>
+    <ITEM category="全球映射">字节系套壳站与Skill生态（如漫剧老李）显示中国在短视频+Agent工作流结合上远超美国，视频生成token占比约70%，形成与美国LLM-centric完全不同的World-Model路径。</ITEM>
+  </RISK_CHINA_VIEW>
+
+  <TOP_PICKS>
+    <TWEET account="rauchg" role="Vercel创始人">那些提供“免费”stealth model推理的推文很快会被删。Dragos研究证实这些是国家级工业规模数据窃取机制。Vercel AI Gateway靠真实token量增长，从不走捷径。我们明天会进一步提升信任、隐私与安全标准。❤️ 426 | 💬 85</TWEET>
+    <TWEET account="rauchg" role="Vercel创始人">Riemann证明不应只是艺术，而应指向人类可理解的概念化。它应该附带论文、逐步解析、新概念与洞见。就像高级代码的中间表示即使LLM能直出CPU指令也仍有价值。❤️ 96 | 💬 52</TWEET>
+    <TWEET account="elonmusk" role="xAI/SpaceX/Tesla CEO">这件事目前没用AI/SI，但未来我们会大量使用SI。Optimus会得到它，汽车仍用AI4，这已足够实现超人类驾驶。❤️ 9228 | 💬 481</TWEET>
+    <TWEET account="swyx" role="AI开发者社区">OpenAI提议用perplexity作为行业自我监管与pacing的通用指标，而非FLOPS。这张图漂亮地讲述了过去4年的故事，也表明后训练争论只是B剧情，预训练压缩进步才是A剧情。今年用这个指标衡量的AI进步已超过2022-2025总和。❤️ 103 | 💬 73</TWEET>
+    <TWEET account="bindureddy" role="AI评论者">OpenAI声称他们有极其强大的内部模型并呼吁放慢速度——正好在Google用Neon抢占市场份额的时候。奇怪的是，当他们的模型失去吸引力时却大谈安全。也许该放出那些他们认为安全的内部模型了。❤️ 111 | 💬 29</TWEET>
+    <TWEET account="ylecun" role="Meta首席AI科学家">我们有了超级智能，却还没有L5自动驾驶——一个17岁少年20小时练习就能学会的任务。我们有数十亿小时训练数据，却没有能接近8岁儿童无先验训练能力的机器人，更别提猫了。这是一种相当奇怪的超级智能。❤️ 4618 | 💬 433</TWEET>
+    <TWEET account="tualatrix" role="独立观察者">这几天用Gemini 4 Neon非常爽，接下来对Google只有一个要求：保持算力增长，一定不要降智啊！❤️ 182 | 💬 32</TWEET>
+    <TWEET account="packym" role="AI产品人">那些声称AI正在变成上帝的人是否听说过宇宙？❤️ 96 | 💬 20</TWEET>
+  </TOP_PICKS>
+</REPORT>
